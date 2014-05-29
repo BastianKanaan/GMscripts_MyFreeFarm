@@ -1,10 +1,10 @@
 ﻿// ==UserScript==
-// @name           Common functions for MyFreeFarm-Scripts
-// @namespace      http://userscripts.org/scripts/show/94946
-// @updateURL      about:blank
+// @name           MyFreeFarm Common functions
+// @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
+// @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           02.03.2014
-// @version        1.0.51
+// @date           29.05.2014
+// @version        2.0
 // ==/UserScript==
 
 const VERSIONfunctionFile = GM_info["script"]["version"];
