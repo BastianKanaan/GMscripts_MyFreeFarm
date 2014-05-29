@@ -274,6 +274,16 @@ try{
 	throw ("ERROR mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
 }
 }
+function mouseout(A){
+try{
+	var B = document.createEvent("MouseEvents");
+	B.initEvent("mouseout", true, true);
+	A.dispatchEvent(B);
+}catch(err){
+	GM_logError("mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+	throw ("ERROR mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+}
+}
 function keyup(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg) {
 	if (!keycode) keycode=0;
 	var B = document.createEvent("KeyboardEvent");
