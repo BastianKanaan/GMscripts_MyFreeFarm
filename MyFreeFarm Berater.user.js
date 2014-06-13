@@ -1134,57 +1134,62 @@ function calcGrowTimes(growDurationInitial,period,bonus){
 	return period/calcGrowDuration(growDurationInitial,bonus);
 }
 
-var calcTotalRecursiveStack;
-function calcTotalRecursive(recursionCount){
-try{
- if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","calcTotalRecursive",[recursionCount]); }
-	if(recursionCount>100){throw("TOO MUCH RECURSION")}
-	var help;
-	var next=false;
-	if(recursionCount==1){
-		totalRecursive=new Array(new Object(),new Object(),new Object(),new Object());
-		calcTotalRecursiveStack=[prodStock.clone(),{},{}];
-		for(var type in prodMinRack){
-			if(!prodMinRack.hasOwnProperty(type)){ continue; }
-			for(var iProd in prodMinRack[type]){
-				if (!prodMinRack[type].hasOwnProperty(iProd)){ continue; }
-				if(!calcTotalRecursiveStack[2][type]){ calcTotalRecursiveStack[2][type]={}; }
-				calcTotalRecursiveStack[2][type][iProd]=prodMinRack[type][iProd];
-			}
-		}
-	}
-	calcTotalRecursiveStack.splice(1,1);
-	calcTotalRecursiveStack[2]={};
-	for(var type in calcTotalRecursiveStack[1]){
-		if(!calcTotalRecursiveStack[1].hasOwnProperty(type)){ continue; }
-		for(var iProd in calcTotalRecursiveStack[1][type]){
-			if(!calcTotalRecursiveStack[1][type].hasOwnProperty(iProd)){ continue; }
-			help = calcTotalRecursiveStack[1][type][iProd] - calcTotalRecursiveStack[0][type][iProd];
-			calcTotalRecursiveStack[0][type][iProd] = Math.max(0,-help);
-			if(help>0){
-				if(recursionCount>1){
-					if(!totalRecursive[type][iProd]){ totalRecursive[type][iProd]=0; }
-					totalRecursive[type][iProd]+=help;
-				}
-				if(typeof prodRequire[type][iProd]=="object"){
-					next=true;
-					for(var i=0;i<prodRequire[type][iProd].length;i++){
-						if(!calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]]){
-							calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]]={}; 
-						}
-						if(!calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]){
-							calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]=0;
-						}
-						calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]+=Math.ceil(help/prodYield[type][iProd])*prodRequire[type][iProd][i][2];
-					}
-				}
-			}
-		}
-	}
-	if(next){ calcTotalRecursive(++recursionCount); }
- if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-}catch(err){ GM_logError("calcTotalRecursive\ntype="+type+" iProd="+iProd+" help="+implode(help)+" i="+i+"\n"+err); }
+function calcTotalRecursive() {
+    var type, id, req, i, amountMissingProducts, j;
+    try {
+        if (DEVMODE_FUNCTION) {
+            var trackingHandle = tracking.start("berater", "calcTotalRecursive", []);
+        }
+ 
+        totalRecursive = new Array(new Object(), new Object(), new Object(), new Object());
+        // Type is set to '1', so only forestry products are inspected
+        type = 1;
+ 
+        // Iterate over all products starting with those which are no pre-product. It is important that an inspected product won't be needed by a non-yet-inspected product!
+        for (i = prodNameSort[type].length - 1; i >= 0; i--) {
+            // Id of currently inspected product
+            id = prodNameSort[type][i];
+ 
+            /** Calculate the amount of missing products:
+             *   - Amount of directly needed product and currently in production in 'prodMinRack'
+             *   - Amount of recursivly needed product in 'totalRecursive'
+             *   - Amount of already produced/existing product in stock in 'ProdStock'
+             */
+            amountMissingProducts = prodMinRack[type][id] + (totalRecursive[type][id] ? totalRecursive[type][id] : 0) - prodStock[type][id];
+ 
+            // If there is a need to gain this product...
+            if (amountMissingProducts > 0) {
+                // If this product requires other products... (e.g. tree logs DON'T!)
+                if (prodRequire[type][id]) {
+                    // Iterate over pre-products
+                    for (j = 0; j < prodRequire[type][id].length; j++) {
+                        // Cache the currently inspected pre-product
+                        req = prodRequire[type][id][j];
+                        if (!totalRecursive[req[0]][req[1]]) {
+                            // Initialize result storage of pre-product, if necessary
+                            totalRecursive[req[0]][req[1]] = 0;
+                        }
+ 
+                        /** Some real magic is done here: We calculate, how many pre-products are recursivly needed!
+                         *  We know the amount to produce ('amountMissingProducts') and divide it by the yielded amount per production
+                         *  cycle ('prodYield'). Then we (should) multiply with the amount of needed pre-product ('req[2]') to initiate
+                         *  the production. Finally, we round up, since we can't produce fractions ('Math.ceil()').
+                         *  If the production needs more than one unit of the pre-product, we need to round up to a multiple of 'req[2]'.
+                         *  The formula therefore is 'Math.ceil(x / req[2]) * req[2]'. We then reduce 'req[2]' inside the ceiling-function.
+                         */
+                        totalRecursive[req[0]][req[1]] += Math.ceil((amountMissingProducts) / prodYield[type][id]) * req[2];
+                    }
+                }
+            }
+        }
+        if (DEVMODE_FUNCTION) {
+            tracking.end("berater", trackingHandle);
+        }
+    } catch (err) {
+        GM_logError("calcTotalRecursive\ntype=" + type + " id=" + id + " req=" + implode(req) + " i=" + i + " j=" + j + "\n" + err);
+    }
 }
+
 function calcTotalErnte(){
 	try{
 		totalErnte=new Array(new Object(),new Object(),new Object(),new Object());
@@ -1403,7 +1408,7 @@ function calcProdMinRack(caller){
 		err_trace="recursive";
 		//GM_log("Before calcTotalRecursive prodMinRack:"+implode(prodMinRack[1]));
 		if(valMinRackRecursive){
-			calcTotalRecursive(1); // recursive need products calculation
+			calcTotalRecursive(); // recursive need products calculation
 			for(var type in totalRecursive){
 				if (!totalRecursive.hasOwnProperty(type)){ continue; }
 				for(var prod in totalRecursive[type]){
@@ -17634,7 +17639,7 @@ if(top.unsafeData.texte["de"]==undefined){
 	texte["de"]["settings_valMinRackPlantsize"]=["Pflanzengr"+o_dots+sz+"e einrechnen","Zum Beispiel braucht Getreide nur den halben Bestand."];
 	texte["de"]["settings_valMinRackGrowing"]=["Ernteprodukte","Beachtet zus"+a_dots+"tzlich die Produkte in Produktion und in den fertigen Powerups."];
 	texte["de"]["settings_valMinRackQuest"]=["Quest-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Questprodukte."];
-	texte["de"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
+	texte["de"]["settings_valMinRackRecursive"] = ["Rekursive Produkte", "Berechne die rekursiv benötigten Produkte (in der Baumerei) und addiere sie zur Liste der (direkt) benötigten Produkte hinzu."];
 	texte["de"]["settings_valMinRackFarmis"]=["Farmi-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Produkte, die deine Farmis verlangen. Dabei gelten nur diejenigen, die besser als die untere Grenze bezahlen."];
 	texte["de"]["settings_valMinRackForestryFarmis"]=["Forestry farmie products","Adds the amount of the products wanted by the forestry farmies."];
 	texte["de"]["settings_protectMinRack"]=["Marktschutz","Verhindert, dass die Warenmenge beim Marktverkauf den minimalen Lagerbestand unterschreitet."];
