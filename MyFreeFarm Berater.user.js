@@ -9706,8 +9706,8 @@ return false;
 			}
 			if(row.children[5].getAttribute("class").search(/market_noicon/)==-1){ nothingToBuy=false; }
 			
-			if (row.children[4].children[0]&&(highlightUser[row.children[4].children[0].innerHTML])){
-				row.children[4].children[0].style.backgroundColor="#"+highlightUser[row.children[4].children[0].innerHTML];
+			if (row.children[4].children[0]&&(highlightUser[row.children[4].children[0].innerHTML.replace(/[ ]\[.*\]/,"")])){
+				row.children[4].children[0].style.backgroundColor="#"+highlightUser[row.children[4].children[0].innerHTML.replace(/[ ]\[.*\]/,"")];
 			}
 			if (highlightProducts[1][prodId]){
 				row.children[1].style.backgroundColor="#20b2aa";
