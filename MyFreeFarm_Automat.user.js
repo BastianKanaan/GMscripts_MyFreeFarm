@@ -316,7 +316,7 @@ function botArbiterCheck(){
 			if(valUseBot["lottery"]&&valLotteryActivate&&$("divGoToLottery")){
 				botArbiterAdd("lottery");
 			}
-			if (valUseBot["waltraud"] && waltraudLastChecked < new Date()) {
+			if (valUseBot["waltraud"] && waltraudLastChecked < new Date().getTime()) {
 				botArbiterAdd("waltraud");
 			}
 			var cell;
@@ -5581,6 +5581,7 @@ function autoWaltraud(runId, step) {
 					window.setTimeout(autoWaltraud, getRandom(tmin2, tmax2), runId, 3);
 					waltraudLastChecked = new Date();
 					waltraudLastChecked.setHours(23, 59, 59, 999);
+					waltraudLastChecked = waltraudLastChecked.getTime();
 					GM_setValue2(COUNTRY + "_" + SERVER + "_" + USERNAME + "_waltraudLastChecked", waltraudLastChecked);
 					return;
 				}
@@ -8123,7 +8124,7 @@ function do_main(){
 		if(unsafeWindow.currentuserlevel<8){ 
 			valUseBot["windmill"]=false; 
 		}
-		waltraudLastChecked = GM_getValue(COUNTRY + "_" + SERVER + "_" + USERNAME + "_waltraudLastChecked", new Date(1970, 0, 1));
+		waltraudLastChecked = GM_getValue(COUNTRY + "_" + SERVER + "_" + USERNAME + "_waltraudLastChecked", new Date(1970, 0, 1).getTime());
 
 		emergencyPlants=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_emergencyPlants","[1,17]"),"settings/emergencyPlants",[1,17]); // Grain,Carrots
 		//autoMillStorage: {[rId][0]=number bought, [1]=total number in zoneList[getZoneListId("windmill")], [2]=max number of recieps on products global Math.min([3][pId]), [3][pId]=max number of recieps for this products per products
