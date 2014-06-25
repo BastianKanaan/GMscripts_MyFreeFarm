@@ -5566,13 +5566,19 @@ function autoWaltraud(runId, step) {
 				top.unsafeData.autoAction = "automat: autoWaltraud";
 				busy_action = "autoWaltraud (" + step + ")";
 
+				// Step 1: Go to Farm1, if necessary
 				if (unsafeWindow.farm != 1) {
+					document.addEventListener("gameFarmOpened",function(){
+						document.removeEventListener("gameFarmOpened",arguments.callee,false);
+						autoWaltraud(runId, 2);
+					},false);
+
 					logBubble.add("Goto Farm 1", 5, "green");
-					click($top("speedlink_farm1"));
-					window.setTimeout(autoWaltraud, getRandom(tmin2, tmax2), runId, 2);
+					click($("speedlink_farm1"));
 					return;
 				}
 
+				// Step 2: Open Waltraud and persist 'having opened Waltraud for today'
 				if (!($("globalbox").style.display == "block" || 
 					  $("box_donkeydialog").style.display == "block" || 
 					  $("buybox_donkey").style.display == "block")) {
@@ -5586,6 +5592,7 @@ function autoWaltraud(runId, step) {
 					return;
 				}
 
+				// Step 3: Close Waltraud and/or finish procedure
 				if ($("box_donkeydialog").style.display == "block") { 
 					logBubble.add("Waltraud: Exiting", 5, "green");
 					autoZoneFinish(runId, $("box_donkeydialogsubmit").getElementsByTagName("button")[0]);
