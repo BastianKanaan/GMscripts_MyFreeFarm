@@ -7086,21 +7086,25 @@ try{
 		}
 	}
 
-	// function isnt available anymore ?
-	unsafeWindow._handleFarmiResponse=unsafeWindow.handleFarmiResponse;
-	unsafeWindow.handleFarmiResponse = function(request,farmi,status){
-		unsafeWindow._handleFarmiResponse(request,farmi,status);
-		var result=checkRequest(request);
-		if(result&&result[0]!=0){
-			// unsafeWindow.farmisinfo[0][farmi]["sold"]=1;
-			window.setTimeout(function(){
+	// Save native callback function
+	unsafeWindow._far = unsafeWindow.farmActionResponse;
+	// Overwrite native callback function to hook into it
+	unsafeWindow.farmActionResponse = function(j, u, r, B, w, d, b, a) {
+		// At first, call native function
+		unsafeWindow._far(j, u, r, B, w, d, b, a);
+
+		// Unpack response and initiate continuing of handleFarmi
+		var result = checkRequest(j);
+		if (result && result[0] != 0) {
+			window.setTimeout(function() {
 				calcFarmiCost();
 				calcTotalFarmis();
 				doFarmis();
 				raiseEvent("gameFarmiResponse");
-			},0);
+			}, 0);
 		}
-	};
+	}
+
 	function calcFarmiCost(){ //done on price change, on load and on a new farmi
 	try{
 	if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","calcFarmiCost"); }
