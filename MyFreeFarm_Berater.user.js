@@ -58,7 +58,7 @@ const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
 const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migration to openuserjs.org"],["Script wird jetzt auf GitHub entwickelt","Script now developed on GitHub"]]],
 				 ["2.1.1","14.06.2014",[["Neu: Changelog","New: Changelog"],["Bugfixes","Bugfixes"]]],
-				 ["2.1.2","28.06.2014",[["Geändert: Berechnung des \"Rekursiv ben"+o_dots+"tigt\"-Wertes","Change: Calculation of \"Recursive needed\" value"],["Neu: Optionen bzgl. Globaler Zeit und Bauernmarkt","New: Options according to global time and farmersmarket"]]]
+				 ["2.1.2","28.06.2014",[["Geändert: Berechnung des \"Rekursiv ben"+o_dots+"tigt\"-Wertes","Change: Calculation of \"Recursive needed\" value"],["Neu: Optionen bzgl. Globaler Zeit und Bauernmarkt","New: Options according to global time and farmersmarket"],["Bugfix: Event nach Bedienung eines Farmis","Bugfix: Event after handling a farmi"]]],
 				];
 if(!VERSIONfunctionFile){
 	alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -7525,21 +7525,6 @@ try{
 		}
 	}
 
-	// function isnt available anymore ?
-	unsafeWindow._handleFarmiResponse=unsafeWindow.handleFarmiResponse;
-	unsafeWindow.handleFarmiResponse = function(request,farmi,status){
-		unsafeWindow._handleFarmiResponse(request,farmi,status);
-		var result=checkRequest(request);
-		if(result&&result[0]!=0){
-			// unsafeWindow.farmisinfo[0][farmi]["sold"]=1;
-			window.setTimeout(function(){
-				calcFarmiCost();
-				calcTotalFarmis();
-				doFarmis();
-				raiseEvent("gameFarmiResponse");
-			},0);
-		}
-	};
 	function calcFarmiCost(){ //done on price change, on load and on a new farmi
 	try{
 	if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","calcFarmiCost"); }
@@ -11885,9 +11870,9 @@ return false;
 		}catch(err){GM_logError("getGardenInfoResponse\n"+err);}	
 	};
 	unsafeWindow._farmActionResponse=unsafeWindow.farmActionResponse;
-	unsafeWindow.farmActionResponse = function(request, mode, farmNR, zoneNr, c, m, l, j){
+	unsafeWindow.farmActionResponse = function(request, mode, farmNR, zoneNr, t, c, b, a){
 		try{
-			unsafeWindow._farmActionResponse(request, mode, farmNR, zoneNr, c, m, l, j);
+			unsafeWindow._farmActionResponse(request, mode, farmNR, zoneNr, t, c, b, a);
 		}catch(err){GM_logError("_farmActionResponse\n"+err);}
 		try{
 			var r = checkRequest(request, mode);
@@ -11908,6 +11893,12 @@ return false;
 				case "flowerarea_water_all": raiseEvent("gameFarmersmarketWatered"); break;
 				case "nursery_harvest": raiseEvent("gameFarmersmarketCropped"); break;
 				case "nursery_startproduction": raiseEvent("gameFarmersmarketStarted"); break;
+				case "sellfarmi":{
+					calcFarmiCost();
+					calcTotalFarmis();
+					doFarmis();
+					raiseEvent("gameFarmiResponse");
+				break;}
 				}
 			}
 		}catch(err){GM_logError("farmActionResponse\n"+err);}
