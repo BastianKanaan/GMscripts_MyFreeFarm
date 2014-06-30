@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           14.06.2014
-// @version        2.1.1
+// @date           29.06.2014
+// @version        2.1.3
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -57,7 +57,8 @@ const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
 const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migration to openuserjs.org"],["Script wird jetzt auf GitHub entwickelt","Script now developed on GitHub"]]],
-				 ["2.1.1","14.06.2014",[["Neu: Changelog","New: Changelog"],["Bugfixes","Bugfixes"]]]
+				 ["2.1.1","14.06.2014",[["Neu: Changelog","New: Changelog"],["Bugfixes","Bugfixes"]]],
+				 ["2.1.2","28.06.2014",[["Ge"+a_dots+"ndert: Berechnung des \"Rekursiv ben"+o_dots+"tigt\"-Wertes","Change: Calculation of \"Recursive needed\" value"],["Neu: Optionen bzgl. Globaler Zeit und Bauernmarkt","New: Options according to global time and farmersmarket"],["Bugfix: Event nach Bedienung eines Farmis","Bugfix: Event after handling a farmi"]]],
 				];
 if(!VERSIONfunctionFile){
 	alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -133,10 +134,9 @@ const NPC=[[,0.5,1.1,1.34,2.75,3.95,8.05,17.8,18.5,"f85","f110","f180","f280",,,
 	GM_log(implode(new_NPC));
 	*/
 const INIT_NPC_SAISON={"94":false,"95":false,"96":false,"98":false,"100":false,"101":false,"102":false,"103":false,"105":false}; // task_new_product
-const ALL_ZONES = {"farm":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],"farmersmarket":["farmersmarket-0","farmersmarket-1","farmersmarket-2","farmersmarket-3","farmersmarket-4","farmersmarket-5","farmersmarket-6"],"forestry":["forest","sawmill","carpentry"],"city":["windmill"],"foodworld":["foodworld-1","foodworld-2","foodworld-3","foodworld-4"]}; // task_new_zone
+const ALL_ZONES = {"farm":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],"farmersmarket":["farmersmarket-0","farmersmarket-1","farmersmarket-2","farmersmarket-3","farmersmarket-4","farmersmarket-5","farmersmarket-6"],"forestry":["forest","sawmill","carpentry"],"city":["windmill"],"foodworld":["foodworld-0","foodworld-1","foodworld-2","foodworld-3","foodworld-4"]}; // task_new_zone
 unsafeData.ALL_ZONES=ALL_ZONES.clone();
-const DATA_zones = {"1":{"location":"farm","farmNr":0,"zoneNr":1},"2":{"location":"farm","farmNr":0,"zoneNr":2},"3":{"location":"farm","farmNr":0,"zoneNr":3},"4":{"location":"farm","farmNr":0,"zoneNr":4},"5":{"location":"farm","farmNr":0,"zoneNr":5},"6":{"location":"farm","farmNr":0,"zoneNr":6},"7":{"location":"farm","farmNr":1,"zoneNr":1},"8":{"location":"farm","farmNr":1,"zoneNr":2},"9":{"location":"farm","farmNr":1,"zoneNr":3},"10":{"location":"farm","farmNr":1,"zoneNr":4},"11":{"location":"farm","farmNr":1,"zoneNr":5},"12":{"location":"farm","farmNr":1,"zoneNr":6},"13":{"location":"farm","farmNr":2,"zoneNr":1},"14":{"location":"farm","farmNr":2,"zoneNr":2},"15":{"location":"farm","farmNr":2,"zoneNr":3},"16":{"location":"farm","farmNr":2,"zoneNr":4},"17":{"location":"farm","farmNr":2,"zoneNr":5},"18":{"location":"farm","farmNr":2,"zoneNr":6},"19":{"location":"farm","farmNr":3,"zoneNr":1},"20":{"location":"farm","farmNr":3,"zoneNr":2},"21":{"location":"farm","farmNr":3,"zoneNr":3},"22":{"location":"farm","farmNr":3,"zoneNr":4},"23":{"location":"farm","farmNr":3,"zoneNr":5},"24":{"location":"farm","farmNr":3,"zoneNr":6},"windmill":{"location":"city","cityNr":2,"zoneNr":1},"forest":{"location":"forestry"},"sawmill":{"location":"forestry","zoneNr":1},"carpentry":{"location":"forestry","zoneNr":2},"foodworld-1":{"location":"foodworld","zoneNr":1},"foodworld-2":{"location":"foodworld","zoneNr":2},"foodworld-3":{"location":"foodworld","zoneNr":3},"foodworld-4":{"location":"foodworld","zoneNr":4},"farmersmarket-0":{"location":"farmersmarket"},"farmersmarket-1":{"location":"farmersmarket","zoneNr":1},"farmersmarket-2":{"location":"farmersmarket","zoneNr":2},"farmersmarket-3":{"location":"farmersmarket","zoneNr":3},"farmersmarket-4":{"location":"farmersmarket","zoneNr":4},"farmersmarket-5":{"location":"farmersmarket","zoneNr":5},"farmersmarket-6":{"location":"farmersmarket","zoneNr":6}}; // task_new_zone
-unsafeData.DATA_zones=DATA_zones.clone();
+const DATA_zones = {"1":{"location":"farm","farmNr":0,"zoneNr":1,"productional":true},"2":{"location":"farm","farmNr":0,"zoneNr":2,"productional":true},"3":{"location":"farm","farmNr":0,"zoneNr":3,"productional":true},"4":{"location":"farm","farmNr":0,"zoneNr":4,"productional":true},"5":{"location":"farm","farmNr":0,"zoneNr":5,"productional":true},"6":{"location":"farm","farmNr":0,"zoneNr":6,"productional":true},"7":{"location":"farm","farmNr":1,"zoneNr":1,"productional":true},"8":{"location":"farm","farmNr":1,"zoneNr":2,"productional":true},"9":{"location":"farm","farmNr":1,"zoneNr":3,"productional":true},"10":{"location":"farm","farmNr":1,"zoneNr":4,"productional":true},"11":{"location":"farm","farmNr":1,"zoneNr":5,"productional":true},"12":{"location":"farm","farmNr":1,"zoneNr":6,"productional":true},"13":{"location":"farm","farmNr":2,"zoneNr":1,"productional":true},"14":{"location":"farm","farmNr":2,"zoneNr":2,"productional":true},"15":{"location":"farm","farmNr":2,"zoneNr":3,"productional":true},"16":{"location":"farm","farmNr":2,"zoneNr":4,"productional":true},"17":{"location":"farm","farmNr":2,"zoneNr":5,"productional":true},"18":{"location":"farm","farmNr":2,"zoneNr":6,"productional":true},"19":{"location":"farm","farmNr":3,"zoneNr":1,"productional":true},"20":{"location":"farm","farmNr":3,"zoneNr":2,"productional":true},"21":{"location":"farm","farmNr":3,"zoneNr":3,"productional":true},"22":{"location":"farm","farmNr":3,"zoneNr":4,"productional":true},"23":{"location":"farm","farmNr":3,"zoneNr":5,"productional":true},"24":{"location":"farm","farmNr":3,"zoneNr":6,"productional":true},"windmill":{"location":"city","cityNr":2,"zoneNr":1,"productional":true},"forest":{"location":"forestry","productional":true},"sawmill":{"location":"forestry","zoneNr":1,"productional":true},"carpentry":{"location":"forestry","zoneNr":2,"productional":true},"foodworld-0":{"location":"foodworld","productional":false},"foodworld-1":{"location":"foodworld","zoneNr":1,"productional":true},"foodworld-2":{"location":"foodworld","zoneNr":2,"productional":true},"foodworld-3":{"location":"foodworld","zoneNr":3,"productional":true},"foodworld-4":{"location":"foodworld","zoneNr":4,"productional":true},"farmersmarket-0":{"location":"farmersmarket","productional":false},"farmersmarket-1":{"location":"farmersmarket","zoneNr":1,"productional":true},"farmersmarket-2":{"location":"farmersmarket","zoneNr":2,"productional":true},"farmersmarket-3":{"location":"farmersmarket","zoneNr":3,"productional":true},"farmersmarket-4":{"location":"farmersmarket","zoneNr":4,"productional":true},"farmersmarket-5":{"location":"farmersmarket","zoneNr":5,"productional":true},"farmersmarket-6":{"location":"farmersmarket","zoneNr":6,"productional":true}}; // task_new_zone
 // All single-slot-zones themselves and all slots of multi-slot-zones
 var ALL_SLOTS={};
 // [farm, forestry, recipes, powerups]
@@ -1079,6 +1079,143 @@ function showStatisticFullscreen(pid){
 	newdiv=null;newobject=null;newimg=null;
 }
 
+function processZoneProductionData(zoneNrS){
+	try{
+ 	if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","processZoneProductionData",[zoneNrS]); }
+		if(DEVMODE){ GM_log("Begin processZoneProductionData zoneNrS="+zoneNrS+"\nzoneProductionData="+implode(zoneProductionData[zoneNrS],"processZoneProductionData\zoneProductionData["+zoneNrS+"]")) }
+		// logBubble.add("processZoneProductionData zoneNrS:"+zoneNrS+" zoneProductionData:"+implode(zoneProductionData[zoneNrS],"processZoneProductionData\zoneProductionData["+zoneNrS+"]"));
+		var err_trace="begin";
+		var zoneNrF=zoneNrS.toString().replace(/\.\d+$/g,"");
+		zoneErnte[zoneNrS]=new Array();
+		zoneEndTimes[zoneNrS]=NEVER;
+		zoneWaterTimes[zoneNrS]=NEVER;
+		zoneMainprod[zoneNrS]=null;
+		zoneEndProducts[zoneNrS]=null;
+		if(!zoneBlock[zoneNrS]){
+			var currLocation=getLocation(zoneNrS).location;
+			var zoneErnteCurr=new Object();
+			var iZoneTyp=getZoneType(zoneNrS);
+			var isProductional=isProductionalZone(zoneNrS);
+			var nowServer=unsafeWindow.Zeit.Server;
+			var c=0,item;
+			err_trace="product loop";
+			for(var iType=0;iType<zoneProductionData[zoneNrS][0].length;iType++){
+				for(var iProdStr in zoneProductionData[zoneNrS][0][iType]){
+					if(!zoneProductionData[zoneNrS][0][iType].hasOwnProperty(iProdStr)){ continue; }
+					var iProd = parseInt(iProdStr,10);
+					if((prodTyp[iType][iProd]!="u")&&(prodTyp[iType][iProd]!="z")){ // only products
+						item=zoneProductionData[zoneNrS][0][iType][iProdStr];
+						for(var i=0;i<item.length;i++){
+							var z=item[i][2];
+							var w=item[i][3];
+							if (zoneMainprod[zoneNrS]==iProd){ c += item[i][0]; }
+							else{ c -= item[i][0]; }
+							if (c<1){
+								zoneMainprod[zoneNrS]=iProd;
+								c=item[i][0];
+							}
+							if (!zoneErnteCurr[iType]){ zoneErnteCurr[iType]={}; }
+							if (!zoneErnteCurr[iType][iProdStr]){ zoneErnteCurr[iType][iProdStr]=[0,0]; }
+							zoneErnteCurr[iType][iProdStr][0] += item[i][0]; 
+							zoneErnteCurr[iType][iProdStr][1] += item[i][1];
+							if(w){
+								zoneWaterTimes[zoneNrS]=Math.min(zoneWaterTimes[zoneNrS],w);
+								if(valAssumeWater[currLocation]&&(zoneBonus[zoneNrS]>0)&&(nowServer<=z)&&(w<=z)){
+									// calculate future watering
+									// w<nowServer means that now can be watered. because it isnt watered, assume that watering is not wanted
+									// if (nowServer<=w){
+									w=Math.max(0,Math.min(86400,w-nowServer)); // time till watering
+									z -= nowServer; // remaining time
+									z=nowServer+w+calcGrowDuration(z-w,(100-zoneBonus[zoneNrS]-(iProd==zoneBonusSpecialProduct[zoneNrS]?zoneBonusSpecialAmount[zoneNrS]:0))/100);
+								}
+							}
+	
+							if (z < zoneEndTimes[zoneNrS]){
+								zoneEndTimes[zoneNrS]=z;
+								zoneEndProducts[zoneNrS]=iProd;
+							}
+						}
+					}
+				}
+			}
+			if(isProductional){
+				for(var iTypeStr in zoneErnteCurr){
+					if(!zoneErnteCurr.hasOwnProperty(iTypeStr)){ continue; }
+					for(var iProdStr in zoneErnteCurr[iTypeStr]){
+						if(!zoneErnteCurr[iTypeStr].hasOwnProperty(iProdStr)){ continue; }
+						if(iTypeStr=="0"){
+							// zoneErnteCurr[iTypeStr][iProdStr][0] /= 10; // Fix Seberoth ... why ... TODO!
+						}
+						zoneErnte[zoneNrS].push([parseInt(iTypeStr,10),parseInt(iProdStr,10)].concat(zoneErnteCurr[iTypeStr][iProdStr]));
+					}
+				}
+			}
+			// too many empty fields
+			err_trace="empty fields";
+			if(now<zoneEndTimes[zoneNrS]){
+				if(!isNaN(valLimitEmptyFields[iZoneTyp])){
+					if(zoneProductionData[zoneNrS][1][1]>valLimitEmptyFields[iZoneTyp]){
+						zoneEndTimes[zoneNrS]=NEVER;
+						zoneEndProducts[zoneNrS]=null;
+					}
+				}else if(valGlobaltimeShowCroppedZone[currLocation]&&(zoneProductionData[zoneNrS][1][1]>0)){
+					zoneEndTimes[zoneNrS]=NEVER;
+					zoneEndProducts[zoneNrS]=null;
+				}
+			}
+			// create watering timer
+			if(iZoneTyp==1){
+				var farmNR=Math.floor((zoneNrF-1)/6)+1;
+				var zoneNr=zoneNrF-6*(farmNR-1);
+				createZoneTimer("zoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater","top:20px;left:5px;",$("farm"+farmNR+"_pos"+zoneNr));
+			}
+		}
+		err_trace="readyZone";
+		checkReadyZone(zoneNrS);
+		err_trace="timer";
+		updateZoneTimer("zoneTimer_"+zoneNrS,zoneNrS,"zonetimer");
+		updateZoneTimer("zoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater");
+		updateZoneTimer("globalZoneTimer_"+zoneNrS,zoneNrS,"zonetimer");
+		updateZoneTimer("globalZoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater");
+		err_trace="globalTime";
+		zoneEndTimes[0]=NEVER;
+		for(var i in ALL_ZONES){
+			if(!ALL_ZONES.hasOwnProperty(i)){ continue; }
+			for(var j=0;j<ALL_ZONES[i].length;j++){
+				try{
+					zoneNrF=ALL_ZONES[i][j];
+					if((!zoneBlock[zoneNrF])&&(getZoneType(zoneNrF)!=0)&&((i=="farm")||zoneAddToGlobalTime[zoneNrF])){
+						if(zoneEndTimes[zoneNrF]==NEVER){
+							if(valGlobaltimeShowCroppedZone[i]){
+								zoneEndTimes[0]=-1;
+							}
+						}else{
+							zoneEndTimes[0]=Math.min(zoneEndTimes[0],zoneEndTimes[zoneNrF]);
+							if(valWaterNeeded[i]){
+								zoneEndTimes[0]=Math.min(zoneEndTimes[0],zoneWaterTimes[zoneNrF]);
+							}
+						}
+					}
+				}catch(err){ GM_logWarning("processZoneProductionData globalTime zoneNrS="+zoneNrS+"\ni="+i+" j="+j+" zoneNrF="+zoneNrF+"\n"+err); }
+			}
+		}
+		// saving
+		err_trace="saving";
+		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneProductionData",implode(zoneProductionData,"processZoneProductionData\zoneProductionData"));
+		unsafeData.zoneProductionData=zoneProductionData.clone();		
+		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneEndTimes",implode(zoneEndTimes,"processZoneProductionData\zoneEndTimes"));
+		unsafeData.zoneEndTimes=zoneEndTimes.clone();
+		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneWaterTimes",implode(zoneWaterTimes,"processZoneProductionData\zoneWaterTimes"));
+		unsafeData.zoneWaterTimes=zoneWaterTimes.clone();
+		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneEndProducts",implode(zoneEndProducts,"processZoneProductionData\zoneEndProducts"));
+		unsafeData.zoneEndProducts=zoneEndProducts.clone();
+		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneErnte",implode(zoneErnte,"processZoneProductionData\zoneErnte"));
+		unsafeData.zoneErnte=zoneErnte.clone();
+		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneMainprod",implode(zoneMainprod,"processZoneProductionData\zoneMainprod"));
+		unsafeData.zoneMainprod=zoneMainprod.clone();
+ 	if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
+	}catch(err){ GM_logError("processZoneProductionData ("+err_trace+") zoneNrS="+zoneNrS+" iProdStr="+iProdStr+" \n"+err); }
+}
 function calcProductionTime(buildingType,productType,productId,bonus,feedTime,feedAmount){
 // bonus like 0.85
 try{
@@ -1138,58 +1275,60 @@ function calcGrowTimes(growDurationInitial,period,bonus){
 	return period/calcGrowDuration(growDurationInitial,bonus);
 }
 
-var calcTotalRecursiveStack;
-function calcTotalRecursive(recursionCount){
+function calcTotalRecursive(recursionCount,stack){
 try{
  if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","calcTotalRecursive",[recursionCount]); }
 	if(recursionCount>100){throw("TOO MUCH RECURSION")}
+	var err_trace="init";
 	var help;
 	var next=false;
-	if(recursionCount==1){
+	var nextStack={};
+	if(!stack){
 		totalRecursive=new Array(new Object(),new Object(),new Object(),new Object());
-		calcTotalRecursiveStack=[prodStock.clone(),{},{}];
+		stack=prodStock.clone();
 		for(var type in prodMinRack){
 			if(!prodMinRack.hasOwnProperty(type)){ continue; }
 			for(var iProd in prodMinRack[type]){
 				if (!prodMinRack[type].hasOwnProperty(iProd)){ continue; }
-				if(!calcTotalRecursiveStack[2][type]){ calcTotalRecursiveStack[2][type]={}; }
-				calcTotalRecursiveStack[2][type][iProd]=prodMinRack[type][iProd];
+				if(!stack[type]){ stack[type]={}; }
+				stack[type][iProd]-=prodMinRack[type][iProd];
 			}
 		}
 	}
-	calcTotalRecursiveStack.splice(1,1);
-	calcTotalRecursiveStack[2]={};
-	for(var type in calcTotalRecursiveStack[1]){
-		if(!calcTotalRecursiveStack[1].hasOwnProperty(type)){ continue; }
-		for(var iProd in calcTotalRecursiveStack[1][type]){
-			if(!calcTotalRecursiveStack[1][type].hasOwnProperty(iProd)){ continue; }
-			help = calcTotalRecursiveStack[1][type][iProd] - calcTotalRecursiveStack[0][type][iProd];
-			calcTotalRecursiveStack[0][type][iProd] = Math.max(0,-help);
-			if(help>0){
-				if(recursionCount>1){
-					if(!totalRecursive[type][iProd]){ totalRecursive[type][iProd]=0; }
-					totalRecursive[type][iProd]+=help;
-				}
+	err_trace="step";
+	for(var type in stack){
+		if(!stack.hasOwnProperty(type)){ continue; }
+		for(var iProd in stack[type]){
+			if(!stack[type].hasOwnProperty(iProd)){ continue; }
+			if(stack[type][iProd]<0){
 				if(typeof prodRequire[type][iProd]=="object"){
-					next=true;
+					err_trace="prodRequire";
 					for(var i=0;i<prodRequire[type][iProd].length;i++){
+						err_trace="prodRequire "+i;
 						if(prodRequire[type][iProd][i][0]>-1){
-							if(!calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]]){
-								calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]]={}; 
+							help=-stack[type][iProd]/prodYield[type][iProd]*prodRequire[type][iProd][i][2];
+							if(!nextStack[prodRequire[type][iProd][i][0]]){
+								nextStack[prodRequire[type][iProd][i][0]]={}; 
 							}
-							if(!calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]){
-								calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]=0;
+							if(!nextStack[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]){
+								nextStack[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]=0;
 							}
-							calcTotalRecursiveStack[2][prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]+=Math.ceil(help/prodYield[type][iProd])*prodRequire[type][iProd][i][2];
+							next=true;
+							nextStack[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]-=help;
+							if(!totalRecursive[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]){
+								totalRecursive[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]=0;
+							}
+							totalRecursive[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]+=help;
 						}
 					}
 				}
-			}
+
+			}		
 		}
 	}
-	if(next){ calcTotalRecursive(++recursionCount); }
+	if(next){ calcTotalRecursive(++recursionCount,nextStack); }
  if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-}catch(err){ GM_logError("calcTotalRecursive\ntype="+type+" iProd="+iProd+" help="+implode(help)+" i="+i+"\n"+err); }
+}catch(err){ GM_logError("calcTotalRecursive ("+err_trace+")\ntype="+type+" iProd="+iProd+" help="+implode(help)+" i="+i+"\n"+err); }
 }
 function calcTotalErnte(){
 	try{
@@ -1373,6 +1512,21 @@ function calcProdMinRack(caller){
 				prodMinRack[1][prod] += totalFarmis[1][prod];
 			}
 		}
+		// Addons
+		err_trace="prodMinRackAddon";
+		for(var type in prodMinRackAddon){
+			if (!prodMinRackAddon.hasOwnProperty(type)){ continue; }
+			for(var prod in prodMinRackAddon[type]){
+				if(!prodMinRackAddon[type].hasOwnProperty(prod)){ continue; }
+				if(prodMinRackAddon[type][prod]){
+					for(var k in prodMinRackAddon[type][prod]){
+						if(!prodMinRackAddon[type][prod].hasOwnProperty(k)){ continue; }
+						if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
+						prodMinRack[type][prod] += prodMinRackAddon[type][prod][k];
+					}
+				}
+			}
+		}
 		// Growing products
 		err_trace="growing";
 		if(valMinRackGrowing){
@@ -1389,21 +1543,6 @@ function calcProdMinRack(caller){
 				if(!totalPowerups.hasOwnProperty(prod)){ continue; }
 				if(!prodMinRack[0][prod]){prodMinRack[0][prod]=0;}
 				prodMinRack[0][prod] -= totalPowerups[prod];
-			}
-		}
-		// Addons
-		err_trace="prodMinRackAddon";
-		for(var type in prodMinRackAddon){
-			if (!prodMinRackAddon.hasOwnProperty(type)){ continue; }
-			for(var prod in prodMinRackAddon[type]){
-				if(!prodMinRackAddon[type].hasOwnProperty(prod)){ continue; }
-				if(prodMinRackAddon[type][prod]){
-					for(var k in prodMinRackAddon[type][prod]){
-						if(!prodMinRackAddon[type][prod].hasOwnProperty(k)){ continue; }
-						if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
-						prodMinRack[type][prod] += prodMinRackAddon[type][prod][k];
-					}
-				}
 			}
 		}
 		err_trace="recursive";
@@ -4012,7 +4151,7 @@ unsafeWindow.buildInfoPanelMenu=function(mode){
 }
 function buildInfoPanelOptions(){
 	try{
-		var container,newdiv,newtable,newtr,newtd,newtr,newTd1,newinput;
+		var container,newdiv,newtable,newtr,newtd,newtr,newtd1,newinput;
 		newdiv=$("infoPanelNaviOptions");
 		newdiv.classList.remove("naviItem");
 		newdiv.classList.add("naviItemActive");
@@ -4020,7 +4159,6 @@ function buildInfoPanelOptions(){
 		newtable=createElement("table",{"style":"width:100%;","border":"1","class":"hoverRowBgCc9"},container);
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("th",{"colspan":"3"},newtr,getText("farm"));
-		newTd1;
         
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("td",{"align":"center"},newtr);
@@ -4121,30 +4259,6 @@ function buildInfoPanelOptions(){
 			},false);
 		}}
         
-        
-		// ***********************************************************************
-		newtr=createElement("tr",{},newtable);
-		newtd=createElement("th",{"colspan":"3"},newtr,getText("farmersmarket"));
-
-		newtr=createElement("tr",{},newtable);
-		newtd=createElement("td",{"align":"center"},newtr);
-		newinput=createElement("input",{"value":valLimitEmptyFields["fl1"],"class":"text","maxlength":"2","size":"2px","style":"background-color:transparent;text-align:center;"},newtd);
-		newinput.addEventListener("focus",function(){this.style.backgroundColor="lightblue";},false);
-		newinput.addEventListener("blur",function(){this.style.backgroundColor="transparent";},false);
-		newinput.addEventListener("keyup",function(){
-			var help=parseInt(this.value,10);
-			if(isNaN(help)||(help<0)){
-				this.value="";
-			}else{
-				this.value=help;
-				valLimitEmptyFields["fl1"]=help;
-				GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields),14);
-				processZoneProductionData("farmersmarket-1"); 
-			}
-		},false);
-		createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[0]);
-		createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[1]);		
-     		
 		// ***********************************************************************
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("th",{"colspan":"3"},newtr,getText("farmis"));
@@ -4200,37 +4314,96 @@ function buildInfoPanelOptions(){
 		},false);
 		createElement("td",{},newtr,getText("settings_valFarmiMiniInfo")[0]);
 		createElement("td",{},newtr,getText("settings_valFarmiMiniInfo")[1]);
-        
+    
+		// ***********************************************************************
+		newtr=createElement("tr",{},newtable);
+		newtd=createElement("th",{"colspan":"3"},newtr,getText("farmersmarket"));
+
+		newtr=createElement("tr",{},newtable);
+		newtd=createElement("td",{"align":"center"},newtr);
+		newinput=createElement("input",{"value":valLimitEmptyFields["fl1"],"class":"text","maxlength":"2","size":"2px","style":"background-color:transparent;text-align:center;"},newtd);
+		newinput.addEventListener("focus",function(){this.style.backgroundColor="lightblue";},false);
+		newinput.addEventListener("blur",function(){this.style.backgroundColor="transparent";},false);
+		newinput.addEventListener("keyup",function(){
+			var help=parseInt(this.value,10);
+			if(isNaN(help)||(help<0)){
+				this.value="";
+			}else{
+				this.value=help;
+				valLimitEmptyFields["fl1"]=help;
+				GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields),14);
+				processZoneProductionData("farmersmarket-1"); 
+			}
+		},false);
+		createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[0]);
+		createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[1]);		
+     	
+		newtd1=null;
+		for(var j=0;j<ALL_ZONES["farmersmarket"].length;j++){
+			zoneNrF=ALL_ZONES["farmersmarket"][j];
+			if(isProductionalZone(zoneNrF)){
+				newtr=createElement("tr",{},newtable);
+				newtd=createElement("td",{"align":"center"},newtr);
+				newinput=createElement("input",{"zoneNrF":zoneNrF,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[zoneNrF]},newtd);
+				if(zoneBlock[zoneNrF]){ newinput.disabled=true; }
+				newinput.addEventListener("click",function(){
+					var zoneNrF=this.getAttribute("zoneNrF");
+					zoneAddToGlobalTime[zoneNrF]=this.checked;
+					unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
+					GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+					processZoneProductionData(zoneNrF);
+				},false);
+				newtd=createElement("td",{},newtr);
+				if(zoneBlock[zoneNrF]){ newtd.style.opacity="0.6"; }
+				createElement("span",{},newtd,getZoneTypeName(getZoneType(zoneNrF)));
+				if(newtd1==null){
+					newtd1=createElement("td",{"rowspan":1},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
+				}else{
+					newtd1.rowSpan++;
+				}
+			}
+		}
+		
+		newtr=createElement("tr",{},newtable);
+		newtd=createElement("td",{"align":"center"},newtr);
+		newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["farmersmarket"]},newtd);
+		newinput.addEventListener("click",function(){
+			valGlobaltimeShowCroppedZone["farmersmarket"]=this.checked;
+			GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone),16);
+		},false);
+		createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
+		createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
+ 		
 		// ***********************************************************************
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("th",{"colspan":"3"},newtr,getText("windmill"));
-        
-		var newtdset=null;
-		var name;
+
+		newtd1=null;
 		for(var j=0;j<ALL_ZONES["city"].length;j++){
-			name=ALL_ZONES["city"][j];
-			newtr=createElement("tr",{},newtable);
-			newtd=createElement("td",{"align":"center"},newtr);
-			newinput=createElement("input",{"id":"inputvalzoneAddToGlobalTime_"+name,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[name]},newtd);
-			if(zoneBlock[name]){ newinput.disabled=true; }
-			newinput.addEventListener("click",function(){
-				var zoneNrF=this.id.replace("inputvalzoneAddToGlobalTime_","");
-				zoneAddToGlobalTime[zoneNrF]=this.checked;
-				unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
-				GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
-				processZoneProductionData(zoneNrF);
-			},false);
-			newtd=createElement("td",{},newtr);
-			if(zoneBlock[name]){ newtd.style.opacity="0.6"; }
-			createElement("span",{},newtd,getText(name));
-			if(newtdset==null){
-				newtdset=createElement("td",{"rowspan":1,"id":"namevalzoneAddToGlobalTime"},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
-			}else{
-				newtdset.rowSpan++;
+			zoneNrF=ALL_ZONES["city"][j];
+			if(isProductionalZone(zoneNrF)){
+				newtr=createElement("tr",{},newtable);
+				newtd=createElement("td",{"align":"center"},newtr);
+				newinput=createElement("input",{"zoneNrF":zoneNrF,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[zoneNrF]},newtd);
+				if(zoneBlock[zoneNrF]){ newinput.disabled=true; }
+				newinput.addEventListener("click",function(){
+					var zoneNrF=this.getAttribute("zoneNrF");
+					zoneAddToGlobalTime[zoneNrF]=this.checked;
+					unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
+					GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+					processZoneProductionData(zoneNrF);
+				},false);
+				newtd=createElement("td",{},newtr);
+				if(zoneBlock[zoneNrF]){ newtd.style.opacity="0.6"; }
+				createElement("span",{},newtd,getZoneTypeName(getZoneType(zoneNrF)));
+				if(newtd1==null){
+					newtd1=createElement("td",{"rowspan":1},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
+				}else{
+					newtd1.rowSpan++;
+				}
 			}
 		}
-		name=null;newtdset=null;
-        
+
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("td",{"align":"center"},newtr);
 		newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["windmill"]},newtd);
@@ -4306,35 +4479,31 @@ function buildInfoPanelOptions(){
 		createElement("td",{},newtr,getText("settings_valLimitEmptyFields_forest")[0]);
 		createElement("td",{},newtr,getText("settings_valLimitEmptyFields_forest")[1]);
         
-		var newtdset=null;
-		var name;
+		newtd1=null;
 		for(var j=0;j<ALL_ZONES["forestry"].length;j++){
-			name=ALL_ZONES["forestry"][j];
-			// if(!unsafeWindow.formulas && name=="windmill"){continue;}
-			// if(unsafeWindow.forestry_unlock==undefined && (name=="forest"||name=="sawmill"||name=="carpentry")){continue;}
-              
-			newtr=createElement("tr",{},newtable);
-			newtd=createElement("td",{"align":"center"},newtr);
-			newinput=createElement("input",{"id":"inputvalzoneAddToGlobalTime_"+name,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[name]},newtd);
-			if(zoneBlock[name]){ newinput.disabled=true; }
-			newinput.addEventListener("click",function(){
-				var zoneNrF=this.id.replace("inputvalzoneAddToGlobalTime_","");
-				zoneAddToGlobalTime[zoneNrF]=this.checked;
-				unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
-				GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
-				processZoneProductionData(zoneNrF);
-			},false);
-              
-			newtd=createElement("td",{},newtr);
-			if(zoneBlock[name]){ newtd.style.opacity="0.6"; }
-			createElement("span",{},newtd,getZoneTypeName(getZoneType(name)));
-			if(newtdset==null){
-				newtdset=createElement("td",{"rowspan":1,"id":"namevalzoneAddToGlobalTime"},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
-			}else{
-				newtdset.rowSpan++;
+			zoneNrF=ALL_ZONES["forestry"][j];
+			if(isProductionalZone(zoneNrF)){
+				newtr=createElement("tr",{},newtable);
+				newtd=createElement("td",{"align":"center"},newtr);
+				newinput=createElement("input",{"zoneNrF":zoneNrF,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[zoneNrF]},newtd);
+				if(zoneBlock[zoneNrF]){ newinput.disabled=true; }
+				newinput.addEventListener("click",function(){
+					var zoneNrF=this.getAttribute("zoneNrF");
+					zoneAddToGlobalTime[zoneNrF]=this.checked;
+					unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
+					GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+					processZoneProductionData(zoneNrF);
+				},false);
+				newtd=createElement("td",{},newtr);
+				if(zoneBlock[zoneNrF]){ newtd.style.opacity="0.6"; }
+				createElement("span",{},newtd,getZoneTypeName(getZoneType(zoneNrF)));
+				if(newtd1==null){
+					newtd1=createElement("td",{"rowspan":1},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
+				}else{
+					newtd1.rowSpan++;
+				}
 			}
 		}
-		name=null;newtdset=null;
         
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("td",{"align":"center"},newtr);
@@ -4350,33 +4519,31 @@ function buildInfoPanelOptions(){
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("th",{"colspan":"3"},newtr,unsafeWindow.foodworld_title);
         
+		newtd1=null;
 		for(var j=0;j<ALL_ZONES["foodworld"].length;j++){
-			name=ALL_ZONES["foodworld"][j];
-			// if(!unsafeWindow.formulas && name=="windmill"){continue;}
-			// if(unsafeWindow.forestry_unlock==undefined && (name=="forest"||name=="sawmill"||name=="carpentry")){continue;}
-              
-			newtr=createElement("tr",{},newtable);
-			newtd=createElement("td",{"align":"center"},newtr);
-			newinput=createElement("input",{"id":"inputvalzoneAddToGlobalTime_"+name,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[name]},newtd);
-			if(zoneBlock[name]){ newinput.disabled=true; }
-			newinput.addEventListener("click",function(){
-				var zoneNrF=this.id.replace("inputvalzoneAddToGlobalTime_","");
-				zoneAddToGlobalTime[zoneNrF]=this.checked;
-				unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
-				GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
-				processZoneProductionData(zoneNrF);
-			},false);
-              
-			newtd=createElement("td",{},newtr);
-			if(zoneBlock[name]){ newtd.style.opacity="0.6"; }
-			createElement("span",{},newtd,getZoneTypeName(getZoneType(name)));
-			if(newtdset==null){
-				newtdset=createElement("td",{"rowspan":1,"id":"namevalzoneAddToGlobalTime"},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
-			}else{
-				newtdset.rowSpan++;
+			zoneNrF=ALL_ZONES["foodworld"][j];
+			if(isProductionalZone(zoneNrF)){
+				newtr=createElement("tr",{},newtable);
+				newtd=createElement("td",{"align":"center"},newtr);
+				newinput=createElement("input",{"zoneNrF":zoneNrF,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[zoneNrF]},newtd);
+				if(zoneBlock[zoneNrF]){ newinput.disabled=true; }
+				newinput.addEventListener("click",function(){
+					var zoneNrF=this.getAttribute("zoneNrF");
+					zoneAddToGlobalTime[zoneNrF]=this.checked;
+					unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
+					GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+					processZoneProductionData(zoneNrF);
+				},false);
+				newtd=createElement("td",{},newtr);
+				if(zoneBlock[zoneNrF]){ newtd.style.opacity="0.6"; }
+				createElement("span",{},newtd,getZoneTypeName(getZoneType(zoneNrF)));
+				if(newtd1==null){
+					newtd1=createElement("td",{"rowspan":1},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
+				}else{
+					newtd1.rowSpan++;
+				}
 			}
 		}
-		name=null;newtdset=null;
 		
 		newtr=createElement("tr",{},newtable);
 		newtd=createElement("td",{"align":"center"},newtr);
@@ -5942,6 +6109,75 @@ function isMultiSlotZone(zoneNrF){
 		}
 	}catch(err){GM_logError("isMultiSlotZone\n"+err);}
 }
+function isProductionalZone(zoneNr){
+	try{
+		var zoneNrF=zoneNr.toString().replace(/\.\d+$/g,"");
+		if(DATA_zones[zoneNrF]){
+			return DATA_zones[zoneNrF]["productional"];
+		}else{
+			GM_logWarning("isProductionalZone returns null\nzoneNr="+zoneNr);
+			return null;
+		}
+	}catch(err){ GM_logError("isProductionalZone\n"+err);return null; }
+}
+function checkReadyZone(zoneNrS){
+	try{
+		var zoneNrF=zoneNrS.toString().replace(/\.\d+$/g,"");
+		var farmNR=Math.floor((zoneNrF-1)/6)+1;
+		var zoneNr=zoneNrF-6*(farmNR-1);
+		var currZoneType=getZoneType(zoneNrF);
+		var currLocation=getLocation(zoneNrF);
+		var readyZoneAdded=0;
+		var zT=zoneEndTimes[zoneNrS]?zoneEndTimes[zoneNrS]:NEVER;
+		var zTw=zoneWaterTimes[zoneNrS]?zoneWaterTimes[zoneNrS]:NEVER;
+		var div;
+
+		if(!zoneBlock[zoneNrS]){
+			if (zT==NEVER){ // empty
+				if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="e")){
+					if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
+				}else{
+					unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"e",true];
+					readyZoneAdded=1;
+				}
+				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
+					div.setAttribute("class","farm_production_ready1 fieldReady");
+				}
+			}else if(zT<=unsafeWindow.Zeit.Server){ //READY
+				if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="r")){
+					if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
+				}else{
+					if(DEVMODE){GM_log("checkReadyZone readyZone add=READY zoneNrS="+zoneNrS);}
+					unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"r",true];
+					readyZoneAdded=1;
+				}
+				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
+					div.setAttribute("class","farm_production_ready1 fieldReady");
+				}
+			// running (unsafeWindow.Zeit.Server<zT)
+			}else if(valWaterNeeded[currLocation.location]&&(zTw<unsafeWindow.Zeit.Server)&&(zoneBonus[zoneNrF]>0)){
+				//zTw<zT removes the watertimer if ready later then the field timer
+				if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="w")){
+					if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
+				}else{
+					if(DEVMODE){GM_log("checkReadyZone readyZone add:WATER zoneNrS:"+zoneNrS);}
+					unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"w",true];
+					readyZoneAdded=1;
+				}
+				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
+					div.setAttribute("class","farm_production_ready1 fieldWaterReady blinking");
+				}
+			}else if(unsafeData.readyZone[zoneNrS]){
+				if(DEVMODE){GM_log("checkReadyZone readyZone add:DELETE zoneNrS:"+zoneNrS);}
+				delete unsafeData.readyZone[zoneNrS];
+				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
+					div.setAttribute("class","farm_production_ready1");
+				}
+			}
+		}
+		return readyZoneAdded;
+	}catch(err){GM_logError("checkReadyZone zoneNrS="+zoneNrS+"\n"+err);}
+}
 function calcAllSlots(){
 try{
 	ALL_SLOTS={};
@@ -5970,7 +6206,7 @@ function getLocation(zoneNr){
 			return null;
 		}
 	}catch(err){ GM_logError("getLocation\n"+err);return null; }
-	}
+}
 function toolTipZoneProduction(zoneNrS){
 	try{
 		var currLocation=getLocation(zoneNrS);
@@ -6190,6 +6426,194 @@ function quicklinks(){
 		}
 	}catch(err){ GM_logError("quicklinks\n"+err); }				
 }
+var timer=new function(){
+	var running=[];
+	this.add=function(name,node,endtime,callback){
+		try{
+			timer.remove(name);
+			running.push([name,node,endtime,callback]);
+			timer.run(name);
+		}catch(err){GM_logError("timer.add\n"+err);}
+	}
+	this.remove=function(name){
+		try{
+			for(var i=running.length-1;i>=0;i--){
+				if(running[i][0]==name){
+					running.splice(i,1);
+				}
+			}
+		}catch(err){GM_logError("timer.remove\n"+err);}
+	}
+	this.run=function(){
+		try{
+			for(var i=running.length-1;i>=0;i--){
+				if(unsafeWindow.Zeit.Server<running[i][2]){
+					running[i][1].innerHTML=getTimeStr(running[i][2]-unsafeWindow.Zeit.Server);
+				}else{
+					running[i][3]();
+					running.splice(i,1);
+				}
+			}
+		}catch(err){GM_logError("timer.run\n"+err);}
+	}
+}
+function createZoneTimer(name,zoneNrS,type,style,append){ // type="zonetimer" || "zonetimerWater"
+	try{
+		if(!$(name)){
+			var div=createElement("div",{"id":name,"zoneNrS":zoneNrS,"type":type,"style":style},append);
+			div.addEventListener("mouseover",function(event){
+			try{
+				var zoneNrS=this.getAttribute("zoneNrS");
+				var type=this.getAttribute("type");
+				showBlase(zoneNrS);
+				if(type=="zonetimer"){
+					toolTip.show(event,toolTipZoneProduction(zoneNrS));
+				}else{ // zonetimerWater
+					var newDiv1=createElement("div");
+					var newTable=createElement("table",{"border":"0","cellspacing":"0","cellpadding":"0"},newDiv1);
+					var newTr=createElement("tr",{},newTable);
+					var newTd=createElement("th",{"class":"lightBg","colspan":2},newTr,getZoneTypeName(getZoneType(zoneNrS)));
+					var time = (zoneWaterTimes[zoneNrS]&&zoneWaterTimes[zoneNrS]!=NEVER)?(zoneWaterTimes[zoneNrS]+unsafeWindow.Zeit.Verschiebung):NEVER;
+					var endDay=countDays(now,time);
+					newTr=createElement("tr",{},newTable);
+					if(time==NEVER){
+						createElement("td",{"colspan":2},newTr,"---");
+					} else if(time<now){
+						createElement("td",{"colspan":2},newTr,getText("waterNeeded"));
+					} else if (endDay==0){
+						createElement("td",{},newTr,getText("waterNeededAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
+					} else if ((endDay==1)&&(getText("waterNeededAtX_day1"))){
+						createElement("td",{},newTr,getText("waterNeededAtX_day1").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
+					} else{ 
+						createElement("td",{},newTr,getText("waterNeededAtX").replace(/%1%/,new Date(1000*time).toLocaleString())); 
+					}
+					toolTip.show(event,newDiv1.innerHTML);
+					newDiv1=null;newTable=null;newTr=null;newTd=null;
+					time=null;endDay=null;
+				}
+				zoneNrS=null;type=null;
+			}catch(err){GM_logError("createTimer.mouseover\n"+err);}			
+			},false);
+			div.addEventListener("mouseout",hideBlase,false);
+			div=null;
+		}
+		updateZoneTimer(name,zoneNrS,type)
+	}catch(err){GM_logError("createZoneTimer\nname="+name+"\n"+err);}
+}
+function updateZoneTimer(name,zoneNrS,type){
+	try{
+		var div;
+		if(div=$(name)){
+			if(zoneBlock[zoneNrS]){
+				removeZoneTimer(name,type);
+			}else if(type=="zonetimer"){
+				var time=zoneEndTimes[zoneNrS]?zoneEndTimes[zoneNrS]:NEVER;
+				if (time==NEVER){ // empty
+					div.setAttribute("class","zoneTimer");
+					timer.remove(name);
+					div.innerHTML="---";
+				}else if(time<=unsafeWindow.Zeit.Server){ // ready
+					div.setAttribute("class","zoneTimerReady blinking");
+					timer.remove(name);
+					div.innerHTML=getText("finished").toUpperCase()+"!";
+				}else{ // running
+					div.setAttribute("class","zoneTimer");
+					timer.add(name,div,time,function(name,zoneNrS,type){ return function(){ updateZoneTimer(name,zoneNrS,type); }}(name,zoneNrS,type));
+				}
+			}else{
+				var time=zoneWaterTimes[zoneNrS]?zoneWaterTimes[zoneNrS]:NEVER;
+				if ((time==NEVER)||(time<=unsafeWindow.Zeit.Server)){ // watering not possible or needed
+					removeZoneTimer(name,type);
+				}else{ // wait for watering
+					div.setAttribute("class","zoneTimerWater");
+					timer.add(name,div,time,function(name,zoneNrS,type){ return function(){ updateZoneTimer(name,zoneNrS,type); }}(name,zoneNrS,type));
+				}
+			}
+			div=null;
+		}
+	}catch(err){GM_logError("updateZoneTimer name:"+name+" zoneNrS:"+zoneNrS+"\n"+err);}
+}
+function removeZoneTimer(name){
+	try{
+		timer.remove(name);
+		var div;
+		if(div=$(name)){
+			removeElement(div);
+			div=null;
+		}
+	}catch(err){GM_logError("removeZoneTimer name:"+name+"\n"+err);}
+}	
+function showBlase(zoneNrF){
+	try{
+		$("sprcontent").style.display="none";
+		var bubble=$("sprcontent2");
+		bubble.style.display="";
+		bubble.innerHTML="";
+		if (zoneBlock[zoneNrF].match(/p/)){
+			createElement("div",{"class":"tnormal"},bubble,unsafeWindow.inforequirepremium);
+		}else if (zoneBlock[zoneNrF].match(/q/)){
+			createElement("div",{"class":"tnormal"},bubble,unsafeWindow.questblock);
+		}else if(!getZoneType(zoneNrF)){
+			// blocked
+		}else if(BUILDINGTYPE[getZoneType(zoneNrF)]==0){
+			createElement("div",{"class":"tnormal","style":"font-weight:bold;"},bubble,unsafeWindow.buildinginfos[0][getZoneType(zoneNrF)][10]);
+		}else{
+			var time = (zoneEndTimes[zoneNrF]&&(zoneEndTimes[zoneNrF]!=NEVER))?(zoneEndTimes[zoneNrF]+unsafeWindow.Zeit.Verschiebung):NEVER;
+			if(time==NEVER){
+				createElement("font",{"class":"tmenu","style":"font-weight:bold;"},bubble,getZoneTypeName(getZoneType(zoneNrF))+" "+getText("idle"));
+				// createElement("font",{"class":"tnormal","style":"font-weight:bold;"},bubble,getText("emptyField"));
+			}else{
+				var prod = zoneEndProducts[zoneNrF]?zoneEndProducts[zoneNrF]:null;
+				if(prod!=null){
+					switch(getLocation(zoneNrF).location){
+					case "windmill":
+						createElement("div",{"class":"fm"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
+						newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
+						createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[3][prod]); // unsafeWindow.formulas[0][prod][2]
+					break;
+					case "forestry":
+						createElement("div",{"class":"f_symbol"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
+						newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
+						createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[1][prod]);
+					break;
+					default:
+						createElement("div",{"class":"tt"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
+						newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
+						createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[0][prod]);
+					}
+				}
+
+				var newfont=createElement("font",{"class":"tmenu"},createElement("div",{},newdiv));
+				if (time<now){
+					if(time+20*60*60<now){
+						newfont.innerHTML=getText("readySinceX").replace(/%1%/,getFormattedDateStr(time));
+					}else{
+						newfont.innerHTML=getText("readySinceX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
+					}
+				}else if (time<NEVER){
+					var endDay=countDays(now,time);
+					if (endDay==0){
+						newfont.innerHTML=getText("readyAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
+					}else if ((endDay==1)&&(getText("readyAtX_day1"))){
+						newfont.innerHTML=getText("readyAtX_day1").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
+					}else if ((endDay==2)&&(getText("readyAtX_day2"))){
+						newfont.innerHTML=getText("readyAtX_day2").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
+					}else{
+						newfont.innerHTML=new Date(1000*time).toLocaleString();
+					}
+				}
+				newfont=null;
+			}
+		}
+		bubble=null;newdiv=null;
+	}catch(err){ GM_logError("showBlase zoneNrF="+zoneNrF+"\n"+err); }
+}
+function hideBlase(){
+	try{
+		$("sprcontent").style.display="";
+		$("sprcontent2").style.display="none";
+	}catch(err){ GM_logError("hideBlase\n"+err); }
+}
 
 var modeBuyNotepad=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeBuyNotepad",0);
 function doBuyNotepad(){
@@ -6293,6 +6717,21 @@ try{
 			str += '<tr><td colspan="3" style="border-bottom:1px solid black;"></td></tr>';
 			str += '<tr><td>'+getText("marketPrice")+'</td><td></td><td style="text-align:right;">'+moneyFormat(gut[prod])+'</td></tr>';
 			str += '<tr><td>'+getText("value")+'</td><td></td><td style="text-align:right;">'+moneyFormatInt(prodMissing[i][2])+'</td></tr>';
+			if(prodRequire[0][prod]){
+				str += '<tr><th colspan="3" class="lightBg">'+getText("requirementPerProduction")+'</th></tr>';
+				for(j in prodRequire[0][prod]){
+					if(!prodRequire[0][prod].hasOwnProperty(j)){continue;}
+					if(prodRequire[0][prod][j][0]>-1){
+						str += '<tr><td>';
+						str += prodName[prodRequire[0][prod][j][0]][prodRequire[0][prod][j][1]];
+						str += '</td><td></td><td style="text-align:right;">'+numberFormat(prodRequire[0][prod][j][2])+'</td></tr>';
+					}
+				}
+				if(prodYield[0][prod]){
+					str += '<tr><th colspan="3" class="lightBg">'+getText("yieldPerProduction")+'</th></tr>';
+					str += '<tr><td>'+prodName[0][prod]+'</td><td></td><td style="text-align:right;">'+numberFormat(prodYield[0][prod])+'</td></tr>';
+				}
+			}
 			str += '</table>';
 			newType=prodTyp[0][prod];
 			newtr=createElement("tr",{"class":"link hoverBgCc9"+((drawProductLines&&(oldType!=null)&&(oldType!=newType))?" borderTop1dashedBlack":""),"prod":prod,"mouseOverText":str},newtable);
@@ -7086,21 +7525,6 @@ try{
 		}
 	}
 
-	// function isnt available anymore ?
-	unsafeWindow._handleFarmiResponse=unsafeWindow.handleFarmiResponse;
-	unsafeWindow.handleFarmiResponse = function(request,farmi,status){
-		unsafeWindow._handleFarmiResponse(request,farmi,status);
-		var result=checkRequest(request);
-		if(result&&result[0]!=0){
-			// unsafeWindow.farmisinfo[0][farmi]["sold"]=1;
-			window.setTimeout(function(){
-				calcFarmiCost();
-				calcTotalFarmis();
-				doFarmis();
-				raiseEvent("gameFarmiResponse");
-			},0);
-		}
-	};
 	function calcFarmiCost(){ //done on price change, on load and on a new farmi
 	try{
 	if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","calcFarmiCost"); }
@@ -7717,141 +8141,6 @@ try{
 	//zoneErnte[zoneNr]={"prodId1":[amount1,points1],"prodId2":[amount2,points2],...}
 	zoneErnte=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneErnte"),"do_main/zoneErnte",{}); 
 	if((typeof zoneErnte != "object")||(zoneErnte instanceof Array)){ zoneErnte = new Object(); }
-	
-	function processZoneProductionData(zoneNrS){
-	try{
- 	if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","processZoneProductionData",[zoneNrS]); }
-		if(DEVMODE){ GM_log("Begin processZoneProductionData zoneNrS="+zoneNrS+"\nzoneProductionData="+implode(zoneProductionData[zoneNrS],"processZoneProductionData\zoneProductionData["+zoneNrS+"]")) }
-		// logBubble.add("processZoneProductionData zoneNrS:"+zoneNrS+" zoneProductionData:"+implode(zoneProductionData[zoneNrS],"processZoneProductionData\zoneProductionData["+zoneNrS+"]"));
-		var err_trace="begin";
-		var zoneNrF=zoneNrS.toString().replace(/\.\d+$/g,"");
-		zoneErnte[zoneNrS]=new Array();
-		zoneEndTimes[zoneNrS]=NEVER;
-		zoneWaterTimes[zoneNrS]=NEVER;
-		zoneMainprod[zoneNrS]=null;
-		zoneEndProducts[zoneNrS]=null;
-		if(!zoneBlock[zoneNrS]){
-			var currLocation=getLocation(zoneNrS).location;
-			var zoneErnteCurr=new Object();
-			var iZoneTyp=getZoneType(zoneNrS);
-			var nowServer=unsafeWindow.Zeit.Server;
-			var c=0,item;
-			err_trace="product loop";
-			for(var iType=0;iType<zoneProductionData[zoneNrS][0].length;iType++){
-				for(var iProdStr in zoneProductionData[zoneNrS][0][iType]){
-					if(!zoneProductionData[zoneNrS][0][iType].hasOwnProperty(iProdStr)){ continue; }
-					var iProd = parseInt(iProdStr,10);
-					if((prodTyp[iType][iProd]!="u")&&(prodTyp[iType][iProd]!="z")){ // only products
-						item=zoneProductionData[zoneNrS][0][iType][iProdStr];
-						for(var i=0;i<item.length;i++){
-							var z=item[i][2];
-							var w=item[i][3];
-							if (zoneMainprod[zoneNrS]==iProd){ c += item[i][0]; }
-							else{ c -= item[i][0]; }
-							if (c<1){
-								zoneMainprod[zoneNrS]=iProd;
-								c=item[i][0];
-							}
-							if (!zoneErnteCurr[iType]){ zoneErnteCurr[iType]={}; }
-							if (!zoneErnteCurr[iType][iProdStr]){ zoneErnteCurr[iType][iProdStr]=[0,0]; }
-							zoneErnteCurr[iType][iProdStr][0] += item[i][0]; 
-							zoneErnteCurr[iType][iProdStr][1] += item[i][1];
-							if(w){
-								zoneWaterTimes[zoneNrS]=Math.min(zoneWaterTimes[zoneNrS],w);
-								if(valAssumeWater[currLocation]&&(zoneBonus[zoneNrS]>0)&&(nowServer<=z)&&(w<=z)){
-									// calculate future watering
-									// w<nowServer means that now can be watered. because it isnt watered, assume that watering is not wanted
-									// if (nowServer<=w){
-									w=Math.max(0,Math.min(86400,w-nowServer)); // time till watering
-									z -= nowServer; // remaining time
-									z=nowServer+w+calcGrowDuration(z-w,(100-zoneBonus[zoneNrS]-(iProd==zoneBonusSpecialProduct[zoneNrS]?zoneBonusSpecialAmount[zoneNrS]:0))/100);
-								}
-							}
-	
-							if (z < zoneEndTimes[zoneNrS]){
-								zoneEndTimes[zoneNrS]=z;
-								zoneEndProducts[zoneNrS]=iProd;
-							}
-						}
-					}
-				}
-			}
-			for(var iTypeStr in zoneErnteCurr){
-				if(!zoneErnteCurr.hasOwnProperty(iTypeStr)){ continue; }
-				for(var iProdStr in zoneErnteCurr[iTypeStr]){
-					if(!zoneErnteCurr[iTypeStr].hasOwnProperty(iProdStr)){ continue; }
-					if(iTypeStr=="0"){
-						// zoneErnteCurr[iTypeStr][iProdStr][0] /= 10; // Fix Seberoth ... why ... TODO!
-					}
-					zoneErnte[zoneNrS].push([parseInt(iTypeStr,10),parseInt(iProdStr,10)].concat(zoneErnteCurr[iTypeStr][iProdStr]));
-				}
-			}
-			// too many empty fields
-			err_trace="empty fields";
-			if(now<zoneEndTimes[zoneNrS]){
-				if(!isNaN(valLimitEmptyFields[iZoneTyp])){
-					if(zoneProductionData[zoneNrS][1][1]>valLimitEmptyFields[iZoneTyp]){
-						zoneEndTimes[zoneNrS]=NEVER;
-						zoneEndProducts[zoneNrS]=null;
-					}
-				}else if(valGlobaltimeShowCroppedZone[currLocation]&&(zoneProductionData[zoneNrS][1][1]>0)){
-					zoneEndTimes[zoneNrS]=NEVER;
-					zoneEndProducts[zoneNrS]=null;
-				}
-			}
-			// create watering timer
-			if(iZoneTyp==1){
-				var farmNR=Math.floor((zoneNrF-1)/6)+1;
-				var zoneNr=zoneNrF-6*(farmNR-1);
-				createZoneTimer("zoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater","top:20px;left:5px;",$("farm"+farmNR+"_pos"+zoneNr));
-			}
-		}
-		err_trace="readyZone";
-		checkReadyZone(zoneNrS);
-		err_trace="timer";
-		updateZoneTimer("zoneTimer_"+zoneNrS,zoneNrS,"zonetimer");
-		updateZoneTimer("zoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater");
-		updateZoneTimer("globalZoneTimer_"+zoneNrS,zoneNrS,"zonetimer");
-		updateZoneTimer("globalZoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater");
-		err_trace="globalTime";
-		zoneEndTimes[0]=NEVER;
-		for(var i in ALL_ZONES){
-			if(!ALL_ZONES.hasOwnProperty(i)){ continue; }
-			for(var j=0;j<ALL_ZONES[i].length;j++){
-				try{
-					zoneNrF=ALL_ZONES[i][j];
-					if((!zoneBlock[zoneNrF])&&(getZoneType(zoneNrF)!=0)&&((i=="farm")||zoneAddToGlobalTime[zoneNrF])){
-						if(zoneEndTimes[zoneNrF]==NEVER){
-							if(valGlobaltimeShowCroppedZone[i]){
-								zoneEndTimes[0]=-1;
-							}
-						}else{
-							zoneEndTimes[0]=Math.min(zoneEndTimes[0],zoneEndTimes[zoneNrF]);
-							if(valWaterNeeded[i]){
-								zoneEndTimes[0]=Math.min(zoneEndTimes[0],zoneWaterTimes[zoneNrF]);
-							}
-						}
-					}
-				}catch(err){ GM_logWarning("processZoneProductionData globalTime zoneNrS="+zoneNrS+"\ni="+i+" j="+j+" zoneNrF="+zoneNrF+"\n"+err); }
-			}
-		}
-		// saving
-		err_trace="saving";
-		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneProductionData",implode(zoneProductionData,"processZoneProductionData\zoneProductionData"));
-		unsafeData.zoneProductionData=zoneProductionData.clone();		
-		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneEndTimes",implode(zoneEndTimes,"processZoneProductionData\zoneEndTimes"));
-		unsafeData.zoneEndTimes=zoneEndTimes.clone();
-		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneWaterTimes",implode(zoneWaterTimes,"processZoneProductionData\zoneWaterTimes"));
-		unsafeData.zoneWaterTimes=zoneWaterTimes.clone();
-		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneEndProducts",implode(zoneEndProducts,"processZoneProductionData\zoneEndProducts"));
-		unsafeData.zoneEndProducts=zoneEndProducts.clone();
-		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneErnte",implode(zoneErnte,"processZoneProductionData\zoneErnte"));
-		unsafeData.zoneErnte=zoneErnte.clone();
-		GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneMainprod",implode(zoneMainprod,"processZoneProductionData\zoneMainprod"));
-		unsafeData.zoneMainprod=zoneMainprod.clone();
- 	if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-	}catch(err){ GM_logError("processZoneProductionData ("+err_trace+") zoneNrS="+zoneNrS+" iProdStr="+iProdStr+" \n"+err); }
-	}
 	zoneProductionData=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneProductionData"),"do_main/zoneProductionData",{});
 	// zoneProductionData[zoneNrS][0][i]={"id":item,...}
 	// i = product-type
@@ -9765,8 +10054,8 @@ return false;
 			}
 			if(row.children[5].getAttribute("class").search(/market_noicon/)==-1){ nothingToBuy=false; }
 			
-			if (row.children[4].children[0]&&(highlightUser[row.children[4].children[0].innerHTML.replace(/[ ]\[.*\]/,"")])){
-				row.children[4].children[0].style.backgroundColor="#"+highlightUser[row.children[4].children[0].innerHTML.replace(/[ ]\[.*\]/,"")];
+			if (row.children[4].children[0]&&(highlightUser[row.children[4].children[0].innerHTML])){
+				row.children[4].children[0].style.backgroundColor="#"+highlightUser[row.children[4].children[0].innerHTML];
 			}
 			if (highlightProducts[1][prodId]){
 				row.children[1].style.backgroundColor="#20b2aa";
@@ -10514,75 +10803,6 @@ return false;
 	// Sprechblase
 	err_trace="Bubble";
 	createElement("div",{"id":"sprcontent2","style":"position:absolute;top:20px;left:323px;z-index:100;width:200px;height:90px;overflow:auto;display:none;"},$("sprcontent").parentNode);//same style as #sprcontent
-	function hideBlase(){
-		$("sprcontent").style.display="";
-		$("sprcontent2").style.display="none";
-	}
-	function showBlase(zoneNrF){
-	try{
-		$("sprcontent").style.display="none";
-		var bubble=$("sprcontent2");
-		bubble.style.display="";
-		bubble.innerHTML="";
-		if (zoneBlock[zoneNrF].match(/p/)){
-			createElement("div",{"class":"tnormal"},bubble,unsafeWindow.inforequirepremium);
-		}else if (zoneBlock[zoneNrF].match(/q/)){
-			createElement("div",{"class":"tnormal"},bubble,unsafeWindow.questblock);
-		}else if(!getZoneType(zoneNrF)){
-			// blocked
-		}else if(BUILDINGTYPE[getZoneType(zoneNrF)]==0){
-			createElement("div",{"class":"tnormal","style":"font-weight:bold;"},bubble,unsafeWindow.buildinginfos[0][getZoneType(zoneNrF)][10]);
-		}else{
-			var time = (zoneEndTimes[zoneNrF]&&(zoneEndTimes[zoneNrF]!=NEVER))?(zoneEndTimes[zoneNrF]+unsafeWindow.Zeit.Verschiebung):NEVER;
-			if(time==NEVER){
-				createElement("font",{"class":"tmenu","style":"font-weight:bold;"},bubble,getZoneTypeName(getZoneType(zoneNrF))+" "+getText("idle"));
-				// createElement("font",{"class":"tnormal","style":"font-weight:bold;"},bubble,getText("emptyField"));
-			}else{
-				var prod = zoneEndProducts[zoneNrF]?zoneEndProducts[zoneNrF]:null;
-				if(prod!=null){
-					switch(getLocation(zoneNrF).location){
-					case "windmill":
-						createElement("div",{"class":"fm"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
-						newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
-						createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[3][prod]); // unsafeWindow.formulas[0][prod][2]
-					break;
-					case "forestry":
-						createElement("div",{"class":"f_symbol"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
-						newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
-						createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[1][prod]);
-					break;
-					default:
-						createElement("div",{"class":"tt"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
-						newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
-						createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[0][prod]);
-					}
-				}
-
-				var newfont=createElement("font",{"class":"tmenu"},createElement("div",{},newdiv));
-				if (time<now){
-					if(time+20*60*60<now){
-						newfont.innerHTML=getText("readySinceX").replace(/%1%/,getFormattedDateStr(time));
-					}else{
-						newfont.innerHTML=getText("readySinceX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
-					}
-				}else if (time<NEVER){
-					var endDay=countDays(now,time);
-					if (endDay==0){
-						newfont.innerHTML=getText("readyAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
-					}else if ((endDay==1)&&(getText("readyAtX_day1"))){
-						newfont.innerHTML=getText("readyAtX_day1").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
-					}else if ((endDay==2)&&(getText("readyAtX_day2"))){
-						newfont.innerHTML=getText("readyAtX_day2").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
-					}else{
-						newfont.innerHTML=new Date(1000*time).toLocaleString();
-					}
-				}
-				newfont=null;
-			}
-		}
-		bubble=null;newdiv=null;
-	}catch(err){ GM_logError("showBlase zoneNrF="+zoneNrF+"\n"+err); }
-	}
 
 	// Lager / Rack
 	err_trace="Rack";
@@ -11101,181 +11321,6 @@ return false;
 			}
 		}catch(err){GM_logError("farmMove\n"+err);}
 	};
-	var timer=new function(){
-		var running=[];
-		this.add=function(name,node,endtime,callback){
-			try{
-				timer.remove(name);
-				running.push([name,node,endtime,callback]);
-				timer.run(name);
-			}catch(err){GM_logError("timer.add\n"+err);}
-		}
-		this.remove=function(name){
-			try{
-				for(var i=running.length-1;i>=0;i--){
-					if(running[i][0]==name){
-						running.splice(i,1);
-					}
-				}
-			}catch(err){GM_logError("timer.remove\n"+err);}
-		}
-		this.run=function(){
-			try{
-				for(var i=running.length-1;i>=0;i--){
-					if(unsafeWindow.Zeit.Server<running[i][2]){
-						running[i][1].innerHTML=getTimeStr(running[i][2]-unsafeWindow.Zeit.Server);
-					}else{
-						running[i][3]();
-						running.splice(i,1);
-					}
-				}
-			}catch(err){GM_logError("timer.run\n"+err);}
-		}
-	}
-	function createZoneTimer(name,zoneNrS,type,style,append){ // type="zonetimer" || "zonetimerWater"
-	try{
-		if(!$(name)){
-			var div=createElement("div",{"id":name,"zoneNrS":zoneNrS,"type":type,"style":style},append);
-			div.addEventListener("mouseover",function(event){
-			try{
-				var zoneNrS=this.getAttribute("zoneNrS");
-				var type=this.getAttribute("type");
-				showBlase(zoneNrS);
-				if(type=="zonetimer"){
-					toolTip.show(event,toolTipZoneProduction(zoneNrS));
-				}else{ // zonetimerWater
-					var newDiv1=createElement("div");
-					var newTable=createElement("table",{"border":"0","cellspacing":"0","cellpadding":"0"},newDiv1);
-					var newTr=createElement("tr",{},newTable);
-					var newTd=createElement("th",{"class":"lightBg","colspan":2},newTr,getZoneTypeName(getZoneType(zoneNrS)));
-					var time = (zoneWaterTimes[zoneNrS]&&zoneWaterTimes[zoneNrS]!=NEVER)?(zoneWaterTimes[zoneNrS]+unsafeWindow.Zeit.Verschiebung):NEVER;
-					var endDay=countDays(now,time);
-					newTr=createElement("tr",{},newTable);
-					if(time==NEVER){
-						createElement("td",{"colspan":2},newTr,"---");
-					} else if(time<now){
-						createElement("td",{"colspan":2},newTr,getText("waterNeeded"));
-					} else if (endDay==0){
-						createElement("td",{},newTr,getText("waterNeededAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
-					} else if ((endDay==1)&&(getText("waterNeededAtX_day1"))){
-						createElement("td",{},newTr,getText("waterNeededAtX_day1").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
-					} else{ 
-						createElement("td",{},newTr,getText("waterNeededAtX").replace(/%1%/,new Date(1000*time).toLocaleString())); 
-					}
-					toolTip.show(event,newDiv1.innerHTML);
-					newDiv1=null;newTable=null;newTr=null;newTd=null;
-					time=null;endDay=null;
-				}
-				zoneNrS=null;type=null;
-			}catch(err){GM_logError("createTimer.mouseover\n"+err);}			
-			},false);
-			div.addEventListener("mouseout",hideBlase,false);
-			div=null;
-		}
-		updateZoneTimer(name,zoneNrS,type)
-	}catch(err){GM_logError("createZoneTimer\nname="+name+"\n"+err);}
-	}
-	function updateZoneTimer(name,zoneNrS,type){
-	try{
-		var div;
-		if(div=$(name)){
-			if(zoneBlock[zoneNrS]){
-				removeZoneTimer(name,type);
-			}else if(type=="zonetimer"){
-				var time=zoneEndTimes[zoneNrS]?zoneEndTimes[zoneNrS]:NEVER;
-				if (time==NEVER){ // empty
-					div.setAttribute("class","zoneTimer");
-					timer.remove(name);
-					div.innerHTML="---";
-				}else if(time<=unsafeWindow.Zeit.Server){ // ready
-					div.setAttribute("class","zoneTimerReady blinking");
-					timer.remove(name);
-					div.innerHTML=getText("finished").toUpperCase()+"!";
-				}else{ // running
-					div.setAttribute("class","zoneTimer");
-					timer.add(name,div,time,function(name,zoneNrS,type){ return function(){ updateZoneTimer(name,zoneNrS,type); }}(name,zoneNrS,type));
-				}
-			}else{
-				var time=zoneWaterTimes[zoneNrS]?zoneWaterTimes[zoneNrS]:NEVER;
-				if ((time==NEVER)||(time<=unsafeWindow.Zeit.Server)){ // watering not possible or needed
-					removeZoneTimer(name,type);
-				}else{ // wait for watering
-					div.setAttribute("class","zoneTimerWater");
-					timer.add(name,div,time,function(name,zoneNrS,type){ return function(){ updateZoneTimer(name,zoneNrS,type); }}(name,zoneNrS,type));
-				}
-			}
-			div=null;
-		}
-	}catch(err){GM_logError("updateZoneTimer name:"+name+" zoneNrS:"+zoneNrS+"\n"+err);}
-	}
-	function removeZoneTimer(name){
-	try{
-		timer.remove(name);
-		var div;
-		if(div=$(name)){
-			removeElement(div);
-			div=null;
-		}
-	}catch(err){GM_logError("removeZoneTimer name:"+name+"\n"+err);}
-	}	
-	function checkReadyZone(zoneNrS){
-	try{
-		var zoneNrF=zoneNrS.toString().replace(/\.\d+$/g,"");
-		var farmNR=Math.floor((zoneNrF-1)/6)+1;
-		var zoneNr=zoneNrF-6*(farmNR-1);
-		var currZoneType=getZoneType(zoneNrF);
-		var currLocation=getLocation(zoneNrF);
-		var readyZoneAdded=0;
-		var zT=zoneEndTimes[zoneNrS]?zoneEndTimes[zoneNrS]:NEVER;
-		var zTw=zoneWaterTimes[zoneNrS]?zoneWaterTimes[zoneNrS]:NEVER;
-		var div;
-
-		if(!zoneBlock[zoneNrS]){
-			if (zT==NEVER){ // empty
-				if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="e")){
-					if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
-				}else{
-					unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"e",true];
-					readyZoneAdded=1;
-				}
-				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
-					div.setAttribute("class","farm_production_ready1 fieldReady");
-				}
-			}else if(zT<=unsafeWindow.Zeit.Server){ //READY
-				if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="r")){
-					if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
-				}else{
-					if(DEVMODE){GM_log("checkReadyZone readyZone add=READY zoneNrS="+zoneNrS);}
-					unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"r",true];
-					readyZoneAdded=1;
-				}
-				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
-					div.setAttribute("class","farm_production_ready1 fieldReady");
-				}
-			// running (unsafeWindow.Zeit.Server<zT)
-			}else if(valWaterNeeded[currLocation.location]&&(zTw<unsafeWindow.Zeit.Server)&&(zoneBonus[zoneNrF]>0)){
-				//zTw<zT removes the watertimer if ready later then the field timer
-				if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="w")){
-					if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
-				}else{
-					if(DEVMODE){GM_log("checkReadyZone readyZone add:WATER zoneNrS:"+zoneNrS);}
-					unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"w",true];
-					readyZoneAdded=1;
-				}
-				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
-					div.setAttribute("class","farm_production_ready1 fieldWaterReady blinking");
-				}
-			}else if(unsafeData.readyZone[zoneNrS]){
-				if(DEVMODE){GM_log("checkReadyZone readyZone add:DELETE zoneNrS:"+zoneNrS);}
-				delete unsafeData.readyZone[zoneNrS];
-				if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
-					div.setAttribute("class","farm_production_ready1");
-				}
-			}
-		}
-		return readyZoneAdded;
-	}catch(err){GM_logError("checkReadyZone zoneNrS="+zoneNrS+"\n"+err);}
-	}
 	function doFarmZone(farmNR,zoneNr){
 		try{	
 			var divZone,divZoneInfo,div;
@@ -11825,9 +11870,9 @@ return false;
 		}catch(err){GM_logError("getGardenInfoResponse\n"+err);}	
 	};
 	unsafeWindow._farmActionResponse=unsafeWindow.farmActionResponse;
-	unsafeWindow.farmActionResponse = function(request, mode, farmNR, zoneNr, c, m, l, j){
+	unsafeWindow.farmActionResponse = function(request, mode, farmNR, zoneNr, t, c, b, a){
 		try{
-			unsafeWindow._farmActionResponse(request, mode, farmNR, zoneNr, c, m, l, j);
+			unsafeWindow._farmActionResponse(request, mode, farmNR, zoneNr, t, c, b, a);
 		}catch(err){GM_logError("_farmActionResponse\n"+err);}
 		try{
 			var r = checkRequest(request, mode);
@@ -11848,6 +11893,12 @@ return false;
 				case "flowerarea_water_all": raiseEvent("gameFarmersmarketWatered"); break;
 				case "nursery_harvest": raiseEvent("gameFarmersmarketCropped"); break;
 				case "nursery_startproduction": raiseEvent("gameFarmersmarketStarted"); break;
+				case "sellfarmi":{
+					calcFarmiCost();
+					calcTotalFarmis();
+					doFarmis();
+					raiseEvent("gameFarmiResponse");
+				break;}
 				}
 			}
 		}catch(err){GM_logError("farmActionResponse\n"+err);}
@@ -17488,6 +17539,7 @@ if(top.unsafeData.texte["de"]==undefined){
 	texte["de"]["formulaType"]=["Prod","+val","+pts"]; // TODO texte
 	texte["de"]["fl1"]="Blumenwiese";
 	texte["de"]["fl2"]="Blumenwerkstatt";
+	texte["de"]["fl3"]="Monsterfruchtzucht";
 	texte["de"]["fw1"]="Getr"+a_dots+"nkebude";
 	texte["de"]["fw2"]="Imbissbude";
 	texte["de"]["fw3"]="Konditorei";
@@ -17723,7 +17775,7 @@ if(top.unsafeData.texte["de"]==undefined){
 	texte["de"]["settings_valClickErrorbox"]=["Verstecke Fehlerbox","Einige Spieler haben Probleme mit der Fehlerbox. Beachte, dass diese Meldung normalerweise sinnvoll ist!"];
 	texte["de"]["settings_valHotkeys"]=["Hotkeys","Benutze Hotkeys um schnell durch das Spiel zu navigieren. Schau in die Hilfe."];
 	texte["de"]["settings_hotkeymap"]={"prevPage":"vorige Nachricht, Zone, ...","nextPage":"n"+a_dots+"chste Nachricht, Zone, ...","farm1":"1. Farm","farm2":"2. Farm","farm3":"3. Farm","guild":"Club","city1":"Klein Muhstein","city2":"Teichlingen","farmilog":"Farmi-Log","help":"Hilfe","market":"Marktplatz","marketstand":"Marktstand","messages":"Nachrichten","options":"Optionen","profit":"Profit Kalkulation","sgh":"Saatguth"+a_dots+"ndler","overview":U_dots+"bersicht","contract":"Vertr"+a_dots+"ge","systemmessage":"(n"+a_dots+"chste ungelesene) Systemnachricht"};
-	texte["de"]["settings_valzoneAddToGlobalTime"]=["Integrate","Shall the time be included to the global time?"];
+	texte["de"]["settings_valzoneAddToGlobalTime"]=["Integration","Soll die Zeit in die Global-Zeit einbezogen werden?"];
 	texte["de"]["settings_valGlobaltimeShowCroppedZone"]=["Beachte geerntete Zonen","Sollen geerntete Zonen in die globale Zeit einbezogen werden?"];
 	texte["de"]["settings_cacheReset"]=["Cache reset","Alle Informationen "+u_dots+"ber deine Zonen werden gel"+o_dots+"scht ..."];
 	// help
