@@ -4506,7 +4506,7 @@ try{
 			break;}
 			case 4:{ // check storage of feed
 				if(unsafeData.prodStock[0][sorte]&&unsafeData.prodStock[0][sorte]>0){
-					autoFarmStable(runId,step+1,didFeed,isBot,sorte,feedcounter,maxFeed);
+					window.setTimeout(autoFarmStable, 3*getRandom(tmin,tmax),runId,step+1,didFeed,isBot,sorte,feedcounter,maxFeed)
 				}else{
 					// feed not found
 					if(1+parseInt(unsafeWindow._currRack,10)<unsafeWindow.userracks){
