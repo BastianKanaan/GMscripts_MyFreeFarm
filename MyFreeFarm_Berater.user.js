@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94BGgo6NO+u5q4AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAS0ElEQVRo3t2aeYxl11ngf+fub3+172t3V1cv7sVuJ3bs7jh2QtoMDoHEwRlCbMJEATRiSaKBQTNBCKGwBwSDNAyTQVGCYJIMEINjxrFix3E73mO7TW/V1VXVtS+v6i13v+ee+aNvQSXDaCTS7W7nSE/v3veuzrm/8y3nO9934Dq08cE+APv9E/1//tDN+16/9+hNJ/l+bXv3jAHw4zf1P/sLdx5TRqXyc++fHPvsGzW+/kbC5vMOyyvrfOSDJz99eM/gj+09fkK9Na/fW8sVzr86NfOl7ydgB+iK46TnVz75wJNtHZX3rcuUI8dvFS9cnuHQ7YcOWprTfvb8pUe/H4BzwH7g0H/59INfq3Z09++ZHBPHbn8LpVKF3WNdWPlOdeIdd962MDf/8vSl+XPX8mW0awxrAiPAgd/4xXf+wdaG74yP7BL9w/vp7x2h1WrRM3SYwf5+8cLz31Yf/w8f/fK1nn3tGkt2D3AE6J7o6xoc7Cjyq//pt3ntm88wMzvDhfMX+dmP/AJJnDKxe0j09HQZDzzwns+9GVW6CBwGjgIdhbz91vfdffjg6soWrhcwf+p5Cu7L3DwhWTkdYvVWCeOEQsFm//5dY1/4wld+880kYQeYBG4CqoD23uMTk0mcQJTQF9R4/48PM3mwDU2HDz5Y5dk/+VPc5YuErZpKooZ9LSVsXOX+BNAB7AUK2X1yx97C7oXpNQb7Nrn5pw5hOA6FthLFYh4hdD7+B8NceHGKi2eqYmTfmAGwb3I3Z85O3fAS1oHubckC6IZ9uGCWCruHN6lWHNIwQRc6BjqkGpqCNEkZPTTG0aFZtuqBPjQ08NPXAvZaAJtA2w7NUQ+9c/Lt5XQOWh5hrY5yfbQoRAYBKvRJ4xgZxcReQD5vMaK9yu9+5j//iWEY4s2g0nYGvO0MxX9/9PTnT1R6P1UqCVJDR/kJdiIQrsIqRghT4KEIpCSNJAuLa3zm7179qJaibnRgDejJgP9JOp3thZueOJvygwdTND0lcFuEWhEtdTALvTTXlmikCV4ScHFhixefXEHSuStKkxveadnAQOas/qm1vHhlq5Uwta6rsUosiCWuVsfJF2itzNMKY+a36sxsNXnhYkI5LLBSWz71ZvDSCkiz739eoyyjMI81VV7Vd6skYLSasrK4gWnnWKt7PL+4wbwbcv6yRKsrZDHXSGqbr74ZAg8t89D9O/stWNbuTS+8+Mzs2hfqstBNnPYOdRpcXNjg4VeXeOqSz/RcghuIb6zr5m+2omQ1NZ2/q7da4c7O+3u6abruDQWsA0PfDTzSVji26QZWJOWFxbr73OTuwcPfeL1ezhcNljydlmdDW+XJ8zPzd/lRsr6vo/xbtkjW26qVwzKJb7INo6OtWl1fWl2LbkQvnQJxJm0NEKZh6yptpNvx9fmt5MXjk72DD798meFyldHDY6xeuMi79nYpJWXqJJH2ajOaqW3UHtvudMsLGOjtYWF55YZahwUggRngEuAC6txa7XHNMF/Z9txRLJNATxnuG2Civ5ORgS56nPTtaPrpr03V9DDwGztht9vVgL0WwBpwGXgKeAVwoyiqNf1gbXtC2goWInLYZUG1UqH25JP4iTr32JnlQ4D92OJm5f83UG93xw2h0gKwsusGcDZbl8eziVADXe33juXlD0QrDRWWcqK2sIDSneSx80sngX6E8IZ7OvvCIPx5Kwnu6eru7J1fWPLLPQMvrtc2v+XknadMzXhdIlr79k2kZ86cv67AaQbqZtd+di8Bdctw9ZerVb3njjvGeOyvT4tG1zD27GX8vqH/wfmlxf6eronRnJqKIt/RCqCcrjNzm+7Nq6GaX52bzxb1K166v7e7HIeRByTXEzgCpjKnlX5HgG3ak+++d39PwcirNAzEsZN38sg/rvPAJ3+WwTb7o3rs3xPWVsYKhQKRq3GmqR2bvrjwIkBfZztL67XvGGhxebVxoyQAomzWLaAL2AVU/u29t9y/d3Skc31pXcTSQG6sENpF3nLLfkwh1ckfua991/4J8fpzL4jXaukTtWbTLBdL7e3t1bzQ9Uaj2Ypv1M3Ddoi5F9iH0Mf/6Jfu/3hff2/n8uqaGpk8KjQErcYmt/YNUe7sxVCJiBPFI5//K0bGB5UoNnNffGL5z8BNLNNMhRDb/uGqbCautoS1LPh4i2ZYRz54fOxT02cv5A/ceozugWFh6RrDh46RMxX9g33IyOeRv36EXYfeQhi02FhaIG9pg1uxuVDbrD8p0zSQUsrvNpEbCTiXpXZGH7xj6NerxTIqidk9Ocljjz6Bcuv09HfxyFe+Stxy6R4a5IlHHuXlp75O4jbxo0jEErW3r3Ty3LL/a2EYXFXYqwksssTdGLC3krf3j7XlbtPRcEyTrz/9Eh0lm5X1TVIl2FxZZGpmjqVLM7SVHSqlAghFEkuWN13hWCb5fOH3Li2sRlwDFbwasJ3AMeCtQLtjm/vcZsDK0ipx4DMx2EGpYGPmHGYvnKVUKVCpFMmZkKQphbxFqlL8WHLq9ByXV+tYmnr4Rk3xlLKU7AGgAmiDbcXROI7xIonne4g0xrYMOtqKKB0sXWekr51c3sa2DNAExZyDbgiUUrx8YYGiKd9+cM/I0I0GrGe7o7EsPQsIYywXTUgF9Uhi6ALimJxlolKJY1uEcYRKFbahUcw5yCQlUQpN03jv8UnZ3T/6e4+/PM14d+F1gIN7x24YYCMLH/PbP1QKdpvrxtQiVHfBVK6fgoypbTZJZYqUkqYb0Gq51BsegecjU4Vp6FimSVuloPte0xsYHHnu+bNzxfvu2P/S6XOXtR86cdMNAWzuyD8DcGig7cFFTzLl6YslS6AZEEcRtVod3wuo111818P3ApIgIooTfM9ndnkLw9AJooR7Dvf/yumZpeMyFY3ZxfUj9905ceGpqcR49+0Hrjuwk9mwBqj+jvKEX6/1zSVO0JeT3cLURck2SJXACTxi10PFCaam02h4+J5HqxnQagUIDUzLIJKSYs7S9/ZXz69uNqtz6631raY7/s4J89w/PPM6B/eOXzdgLfPO5Svxslm9Y9D52DyVxDKNhW4rNUxDo5wzKBo6XqpI/AAZxsRxQj5no3QTJRSWbdBRLWFbFn2dbSgUd9/UN9zd1XVpq+l1P/Pa5ZnaVn38/e84/Nrpc9OMDQ1cF2Anc1gOkPzAwYFfPr0hieL46YG86u0pWMLUBW4sidDo6KzS0dlGV3cbpUKOaql4ZWnK5wmimDSVOI6FF0TIVKGhiYqVjpRLxc/t37/vyEtT66cCzzv4Y3cfefzS5QV2jY2+oYHHdv7qIKAf29VzX1vJmVgMrItFgkP1ZsserFg4to6tGygFVr5AgiBVYDsWmiEIY4lMU8rlIqZloJRASYmuCYIwYrS3Kp77x7nDfhAuOI716GpLqo5c+p5Dk2NDT7905itvFPB2wewo0FMpFQffc3Tgoadn/MgPAtMKG/nx9jwVxyDvGPihBNNB6Dq6YWCaJkLXcf0QhcJ2TDTdQEMgUZiGRhgmxHFCznHQdNT5uZUfHBgc/JlarXYp1osHunPpe7p7B+szC8vfeiNUusCVIwx9QO1Hjw3/4jcvNVLXD6OBkjDiVKiSdaXbpp+gmRapEDTDmI2WS8P1EAIKeQfbsdhqeDRaTYI4wnV9kFBrtIhlSsv1OTTeJ0p5G5toutFonlrf2Lzv23PuZncu/AzkR/fsGrumwGYWZIwD0Vv39LxrvRU4F5fr2sbm5meDVqs43u4IKSFNFZoSRGGEIaCQc+hpr2KYOkopQGEaBuVino5yBamg1fLZaLYo5hyUglimmJbJiSPjTM0utR05eji/Xqutu2H03hdeX/jGB06MPn3h4qVrBiyyRPu+LNAwBkvmQ6emNnyU+l89He0fyosUSxOkKiWIU/woIQgTGq0Av9EijWMsXYNUIVNoNT1sU6fp+bgND5mmyFjh+REKsC2Tjc06HaUcmoCVxaUBgHIhf07Y+enZ5fp/vf/43qeulQ0XM7sdAtI793R96HI9Km648fkkkSqvJUuDRXO8aOvkTAOlFJoQCAFJClbOQaBQQoMkxTINdEPH9ULCMMaxbaRUpGlKkqRX4FVKGEs620rUtpq4CV9yXW/2ns0t99spX0U3/02QiNroYF+nqZuvbDVbV03COjDMlRM5EjTVXS3fvpFYsZTyrKZp+ZxObzVvYusGhi4wdZ04VSRSIYDID2h5Ic2mT8sLCMOYzS2XVKZoCKIoQUMjjCVC10gVFPN5ysU8XpCwf9cAtdpGEeB/AqWCE11aWP7EesM/ZSfNP7+0EHbs3TV+1YArwO4MfOnEnvaPnpqubTbr9dO6pr3X8/2/7ygX26p5k0SlCK5ItmKbWLqGKQSJTFFSoWRK04+4vLKB6wW03ABTNwjDmCCKiRKJkXltL4yRSiA0TSGgo1rdzn2ztLoOwOziyudn17x77z7onD13cfqqAJvAKFeOMWzkC6UeX5jdbpRsaZro8Tz/V1WaunHghVGicEyNSKboQqMZJRhCQ8oEmUjcIKTpBshEUrBtio6NLgQtPyBOJE3PRyaStVodqRQqVTRavmr4sTB041LLC+0slP3OF9T1+a3Zxc7b9u/5yPcKLID2TJ0DYPX43p6fu7AWrIF6rOV6f6ZQAhCJZtYNTRBn2z5Ng7a8RStO0DVBkkiUlGi6Rhgl+F5IFMbouo7rRfhhTN62UUJQLhexLRs3DIklIkpk0PCT11zPS7JMaG7nS55fXDu9VR34xNTy+tr3Cmxly1AB8Hs622/ZjNJ+HYoykT+j69r2wMKP5GyqaypOwLEM5SWSVigpWgZ+IgmTBJRCi2NKtoFhGtRaHp4fYZk6OcfCDyLiRBJEEW4Y4waKWKGaftR0/fCroF7Jgp7hnQ53fGyE6csLv79e23z4e/HSItvrTmSJtODmfYMfO3NhfmKr5eaKxcIXPM9f2t4a6kKj3TZuacmUMFGiu+SIWCriVF7J7pk6ptAIAZWCbuhoAhQCzdBBaTiOQy6XI4xT5YYRKCXcIDntOPYDj3/r9N9mWtYF9ALrWXWDza36VVmW8lw5OlgE6sBpLySuNVo/Cnw7CAK5Q0NEmKZJTpMHLMtWUYq26SW6VGAYembTOoapkyqNOE2xHQelG0gEXpiAptEKY7XphuFGoyXbndic7BPKFP7//vIT5/44G0ftSDq4wObViqVFthPalu4isOD5/rcy9R7LbHv7WdJUxUut+JRlaL2aprXphrB9qVQrlFiGLrw4JVUQK5AIEqHjBpFKFEITBoFENfx4c2WjuXDrUNJ727jBSIcSBwaMwx1tldwLF7a+lgG7mQC2MolflUjLzuykLftUdjwbA142+P91liqX16MH7yqWBroMqmUDLyFtxiKN0NKtKEn9SKogTNRGvaWabkCqNLXa9NKl9a2VMzOrXx+vhGNv321zebaBYRpcXvTV0b74lz58ct/bdpRzljLoq1ZqcTKYy0AtK3L72X9JVhVMMg1RgJbP5wuHxjoO//xxcef0vMvJm6ts+Zp4/KWafmbRXdts+m5k5J93DJkbK5vHUxkJITQ1t7gcN1Nz5vLa5peUgnfd1/e+szMe3zzbYs9EiaWkcvTcc3NfvevW4tc+98+5s3912eX/BexnBe04m1G5YxC5Q52sTPLDcRTd8sl71Nv+8kXdPTMTBz/dGXacXTPCMNbCT93f1fWhP579Q2j6dWClxhPZZBmZr6gCb2svO3t6qpZ6/Fm/dWoxfPIDLflDDz8z99vnloK/3dW38e/+4/tGf/fTX5755LVI8YSZymzXYHfOqMqkvpVd54CxA4P5vlAvqi89PfP3F5brS3aq+Jvn1pcfPb124fSFRnrylp77d5RNkmwyrcwploD8B2/r3qOEEb+0Lv8QWEsTpW6f7MkpmWivzYfrR4btT0B+ZHJ88A1P8TSA2UzKGmD+8B5zNPRD0dtWHsrplE3L5qETvWVQ0aKr+x97R+Ew6IVsIs8BLwELmafdyplGZbIUGlEYGWut8NfzjjNpxam4a1QdB9Z1jbwfSH7nJ4f+/dnp+TccOM7sei3TgvLMuplsLgUEUsnJ7lLBqwUM5pI2YLrDTpwwEtxztKcGPAGcAp4HngXmgKYhlIg2EzYWWkRReELCVlKLWF2MASzdE4G35qnVmfrw9aoP17OKfwGQX359/excq1TYajSfnUqdNNoKT/zDlHgYaOnNRHlrLqbSXgGmd5jI+Uyte5qRrD06Q9Nqb/sw1NbCIFj64gWTFaUfA37kken6oyA/HHUMfwqWuV6tANwJ/BrwF9le+W7gs6OVwnYq4k9vGuy8cP/+8jPQb/4L6/0w8BPAFxHi+I7//puZyx/YMc5f2MXKEa5z07Ii2k8AN2c7KwG8e8czd+Rs+wN2tTM33Nv9L/XRA9wP3PVdGpf7rue6rsYL/x8HbwtumjbAVwAAAABJRU5ErkJggg==
-// @date           12.07.2014
-// @version        2.2.1
+// @date           14.08.2014
+// @version        2.3
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -52,7 +52,7 @@
 unsafeData.beraterDone=false;
 // global variables
 const VERSION=GM_info["script"]["version"];
-const neededVersionFunctionFile="2.0";
+const neededVersionFunctionFile="2.1";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
@@ -60,7 +60,8 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
 				 ["2.1.1","14.06.2014",[["Neu: Changelog","New: Changelog"],["Bugfixes","Bugfixes"]]],
 				 ["2.1.2","28.06.2014",[["Ge"+a_dots+"ndert: Berechnung des \"Rekursiv ben"+o_dots+"tigt\"-Wertes","Change: Calculation of \"Recursive needed\" value"],["Neu: Optionen bzgl. Globaler Zeit und Bauernmarkt","New: Options according to global time and farmersmarket"],["Bugfix: Event nach Bedienung eines Farmis","Bugfix: Event after handling a farmi"]]],
 				 ["2.2","11.07.2014",[["Refaktorierung der Zonen-Daten","Refactoring of zones data"]]],
-				 ["2.2.1","12.07.2014",[["Bugfix","Bugfix"]]]				 
+				 ["2.2.1","12.07.2014",[["Bugfix","Bugfix"]]],
+				 ["2.3","14.08.2014",[["Anpassung an Firefox 30","Adaptation to Firefox 30"]]]
 				];
 if(!VERSIONfunctionFile){
 	alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -1672,7 +1673,6 @@ GM_registerMenuCommand("zones drop", function(){
 			}
 		}catch(err){ GM_logError("zones.isProductional\n"+err);return null; }
 	}
-
 }
 unsafeData.zones=zones;
 function getBuildingName(building){
@@ -7851,15 +7851,14 @@ try{
 	unsafeData.valFarmiLimits=valFarmiLimits.clone();
 	valFarmiMiniInfo=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiMiniInfo",true);
 
-	unsafeWindow._createAdvancedProductResponse=unsafeWindow.createAdvancedProductResponse;
-	unsafeWindow.createAdvancedProductResponse=function(q,e,c){
-	try{
-		unsafeWindow._createAdvancedProductResponse(q,e,c);
-	}catch(err){ GM_logError("_createAdvancedProductResponse\n"+err); }
-	try{
-		raiseEvent("gameStartFactory");
-	}catch(err){ GM_logError("createAdvancedProductResponse\n"+err); }
-	};
+	unsafeOverwriteFunction("createAdvancedProductResponse",function(response,e,c){
+		try{
+			unsafeWindow._createAdvancedProductResponse(unsafeCloneObject(response),e,c);
+		}catch(err){GM_logError("_createAdvancedProductResponse\n"+err);}
+		try{
+			raiseEvent("gameStartFactory");
+		}catch(err){GM_logError("createAdvancedProductResponse\n"+err);}
+	});
 	// Farmis
 	err_trace="farmis";
 	if(newdiv=$("customerstats")){
@@ -7907,8 +7906,7 @@ try{
 	err_trace="Foodworld";
 	// Foodworld-Farmi
 /*
-	unsafeWindow._showFoodworldFarmiCart=unsafeWindow.showFoodworldFarmiCart;
-	unsafeWindow.showFoodworldFarmiCart=function(id){
+	unsafeOverwriteFunction("showFoodworldFarmiCart",function(id){
 		unsafeWindow._showFoodworldFarmiCart(id);
 		try{
 			var newdiv, sum=0, prodId, priceMissing=false;
@@ -7949,10 +7947,9 @@ try{
 			}
 			newdiv=null;
 		}catch(err){ GM_logError("showFoodworldFarmiCart\n"+err); }
-	}
+	});
 */
-	unsafeWindow._showFoodworldFarmiCart=unsafeWindow.showFoodworldFarmiCart;
-	unsafeWindow.showFoodworldFarmiCart = function(farmi){
+	unsafeOverwriteFunction("showFoodworldFarmiCart",function(farmi){
 	try{
 		unsafeWindow._showFoodworldFarmiCart(farmi);
 	}catch(err){GM_logError("_showFoodworldFarmiCart\n"+err);}
@@ -8085,9 +8082,8 @@ try{
 		}
 		buildTable();
 	}catch(err){GM_logError("showFoodworldFarmiCart\n"+err);}	
-	};
-	unsafeWindow._createFoodworldFarmis=unsafeWindow.createFoodworldFarmis;
-	unsafeWindow.createFoodworldFarmis = function(){
+	});
+	unsafeOverwriteFunction("createFoodworldFarmis",function(){
 		try{
 			unsafeWindow._createFoodworldFarmis();
 		}catch(err){GM_logError("_createFoodworldFarmis\n"+err);}
@@ -8105,9 +8101,8 @@ try{
 				},false);
 			}
 		}catch(err){GM_logError("createFoodworldFarmis\n"+err);}
-	};
-	unsafeWindow._dragFoodworldFarmiTouch=unsafeWindow.dragFoodworldFarmiTouch;
-	unsafeWindow.dragFoodworldFarmiTouch = function(id){
+	});
+	unsafeOverwriteFunction("dragFoodworldFarmiTouch",function(id){
 		try{
 			unsafeWindow._dragFoodworldFarmiTouch(id);
 		}catch(err){GM_logError("_dragFoodworldFarmiTouch\n"+err);}
@@ -8129,7 +8124,7 @@ try{
 				}				
 			}
 		}catch(err){GM_logError("dragFoodworldFarmiTouch\n"+err);}
-	};
+	});
 	if(newdiv=$("food_cart")){
 		createElement("div",{"id":"food_cart_cost","style":"position:absolute;bottom:130px;left:135px;font-size:12px;color:#463824;"},newdiv);
 		createElement("div",{"id":"food_cart_perc","style":"position:absolute;bottom:105px;left:375px;width:70px;padding:2px;text-align:right;font-size:20px;font-weight:bold;"},newdiv);		
@@ -8245,10 +8240,9 @@ try{
 		publishProductData();
 	}catch(err){GM_logError("doFoodworld ("+err_trace+")\n"+err);}
 	}
-	unsafeWindow._foodworldActionResponse=unsafeWindow.foodworldActionResponse;
-	unsafeWindow.foodworldActionResponse=function(request,action,id,table,chair){
+	unsafeOverwriteFunction("foodworldActionResponse",function(request,action,id,table,chair){
 		try{
-			unsafeWindow._foodworldActionResponse(request,action,id,table,chair);
+			unsafeWindow._foodworldActionResponse(unsafeCloneObject(request),action,id,table,chair);
 		}catch(err){GM_logError("_foodworldActionResponse\n"+err);}
 		try{
 			var result = checkRequest(request);
@@ -8264,16 +8258,15 @@ try{
 			}
 			result=null;
 		}catch(err){GM_logError("foodworldActionResponse\n"+err);}
-	}
-	unsafeWindow._openFoodworldBuildingSelect=unsafeWindow.openFoodworldBuildingSelect;
-	unsafeWindow.openFoodworldBuildingSelect = function(position,slot){
+	});
+	unsafeOverwriteFunction("openFoodworldBuildingSelect",function(position,slot){
 		try{
 			unsafeWindow._openFoodworldBuildingSelect(position,slot);
 		}catch(err){GM_logError("_openFoodworldBuildingSelect\n"+err);}
 		try{
 			raiseEvent("gameFoodworldSlotOpened")
 		}catch(err){GM_logError("openFoodworldBuildingSelect\n"+err);}
-	};	
+	});
 		
 	// Addons
 	err_trace="Addons";
@@ -8479,37 +8472,35 @@ try{
 
 	// powerup-data is updated
 	// function isnt available anymore?
-	unsafeWindow._handlePowerups=unsafeWindow.handlePowerups;
-	unsafeWindow.handlePowerups = function(j){
-	try{
-		unsafeWindow._handlePowerups(j);
-	}catch(err){ GM_logError("_handlePowerups\n"+err); }
-	try{
-		// GM_log("unsafeWindow.poweruprack:\n"+implode(unsafeWindow.poweruprack));			
-		calcTotalPowerups();
-		updateProductDataPowerup();
-		window.setTimeout(saveProductData,0);
-		raiseEvent("gamePoweruprackUpdated");
-	}catch(err){ GM_logError("handlePowerups\n"+err); }
-	};
-
-	unsafeWindow._activatePowerup=unsafeWindow.activatePowerup;
-	unsafeWindow.activatePowerup = function(formula){
-	try{
-		unsafeWindow._activatePowerup(formula);
-	}catch(err){ GM_logError("_activatePowerup\n"+err); }
-	try{
-		document.addEventListener("gamePoweruprackUpdated",function(){
+	unsafeOverwriteFunction("handlePowerups",function(page){
 		try{
-			calcCurrentPowerup();
-			for(var v=1;v<ALL_ZONES["farm"].length;v++){ zones.processProduction(v); } //TODO
-			calcProdMinRack();
-			raiseEvent("gamePowerupActivated");
-			this.removeEventListener("gamePoweruprackUpdated",arguments.callee,false);
-		}catch(err){ GM_logError("listener gamePoweruprackUpdated\n"+err); }
-		},false);
-	}catch(err){ GM_logError("activatePowerup\n"+err); }
-	};
+			unsafeWindow._handlePowerups(page);
+		}catch(err){ GM_logError("_handlePowerups\n"+err); }
+		try{
+			// GM_log("unsafeWindow.poweruprack:\n"+implode(unsafeWindow.poweruprack));			
+			calcTotalPowerups();
+			updateProductDataPowerup();
+			window.setTimeout(saveProductData,0);
+			raiseEvent("gamePoweruprackUpdated");
+		}catch(err){ GM_logError("handlePowerups\n"+err); }
+	});
+
+	unsafeOverwriteFunction("activatePowerup",function(formula){
+		try{
+			unsafeWindow._activatePowerup(formula);
+		}catch(err){ GM_logError("_activatePowerup\n"+err); }
+		try{
+			document.addEventListener("gamePoweruprackUpdated",function(){
+			try{
+				calcCurrentPowerup();
+				for(var v=1;v<ALL_ZONES["farm"].length;v++){ zones.processProduction(v); } //TODO
+				calcProdMinRack();
+				raiseEvent("gamePowerupActivated");
+				this.removeEventListener("gamePoweruprackUpdated",arguments.callee,false);
+			}catch(err){ GM_logError("listener gamePoweruprackUpdated\n"+err); }
+			},false);
+		}catch(err){ GM_logError("activatePowerup\n"+err); }
+	});
 	err_trace="valAutoWater";
 	valAutoWater=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoWater"),"valAutoWater",null); // TODO set true when automat handles it
 	if(valAutoWater==null){
@@ -8588,8 +8579,7 @@ try{
 	// speedlinks
 	err_trace="speedlinks";
 	if(unsafeWindow.premium!=1){
-		unsafeWindow._speedLinks=unsafeWindow.speedLinks;
-		unsafeWindow.speedLinks = function(){
+		unsafeOverwriteFunction("speedLinks",function(){
 			try{
 				unsafeWindow._speedLinks();
 			}catch(err){GM_logError("_speedLinks\n"+err);}
@@ -8668,7 +8658,7 @@ try{
 					}
 				}		
 			}catch(err){GM_logError("speedLinks ("+err_trace+")\n"+err);}
-		};
+		});
 		unsafeWindow.speedLinks();
 		unsafeWindow.travel2City2 = function(){
 		try{
@@ -9143,17 +9133,20 @@ try{
 		newdiv.addEventListener("click",function(){unsafeWindow.buildInfoPanel("formulas");},false);
 
 		if(unsafeWindow.showPowerUps){ // hofix 13.03.2013
-			unsafeWindow._showPowerUps=unsafeWindow.showPowerUps;
-			unsafeWindow.showPowerUps = function showPowerUps(){
-				unsafeWindow._showPowerUps();
-				var cand=$("powerselectorcontent").getElementsByClassName("blackbox");
-				for(var v=0;v<cand.length;v++){
-					if(cand[v].id.match(/^formulatimer\d+$/)){
-						cand[v].style.top="47px";
+			unsafeOverwriteFunction("showPowerUps",function(){
+				try{
+					unsafeWindow._showPowerUps();
+				}catch(err){GM_logError("_showPowerUps\n"+err);}
+				try{
+					var cand=$("powerselectorcontent").getElementsByClassName("blackbox");
+					for(var v=0;v<cand.length;v++){
+						if(cand[v].id.match(/^formulatimer\d+$/)){
+							cand[v].style.top="47px";
+						}
 					}
-				}
-				cand=null;
-			};
+					cand=null;
+				}catch(err){GM_logError("showPowerUps\n"+err);}
+			});
 			unsafeWindow.showPowerUps();
 		}
 
@@ -9325,15 +9318,14 @@ try{
 			handleQuestLine();
 		}catch(err){ GM_logError("handleQuestData ("+err_trace+")\n"+err); }
 	}
-	unsafeWindow._questInitGo=unsafeWindow.questInitGo;
-	unsafeWindow.questInitGo = function(respnse, mode, b, h, l){
+	unsafeOverwriteFunction("questInitGo",function(response,mode,b,h,l){
 		try{
-			unsafeWindow._questInitGo(respnse, mode, b, h, l);
+			unsafeWindow._questInitGo(unsafeCloneObject(response),mode,b,h,l);
 		}catch(err){GM_logError("_questInitGo\n"+err);}
 		try{
 			handleQuestData();
 		}catch(err){GM_logError("questInitGo\n"+err);}
-	};
+	});
 	function handleQuestDataFoodworld(){
 	    // GM_log("setQuest newQuestNr="+newQuestNr);
 		try{
@@ -9516,61 +9508,58 @@ try{
 			return null; 
 		}
 	}
-	unsafeWindow._showQuestBox=unsafeWindow.showQuestBox;
-	unsafeWindow.showQuestBox = function(c){
-	try{
-		unsafeWindow._showQuestBox(c);
-	}catch(err){ GM_logError("_showQuestBox\n"+err); }		
-	try{
-		var cand=$("questboxobjects").getElementsByClassName("questboxbarout");
-		for(var i=0;i<cand.length;i++){
-			var questWare = parseInt(cand[i].children[0].id.replace("questboxbarin",""),10);
-			var menge = [0,0,0]; //given,stock,total
-			for(var v in unsafeWindow.questdata[c]["data"][1][0]){
-				if(!unsafeWindow.questdata[c]["data"][1][0].hasOwnProperty(v)){ continue; }
-				if(typeof unsafeWindow.questdata[c]["data"][1][0][v]=="object"){
-					if(unsafeWindow.questdata[c]["data"][1][0][v][questWare]){
-						menge[2] = unsafeWindow.questdata[c]["data"][1][0][v][questWare];
-					}
-				}else{
-					if(v==questWare){
-						menge[2] = unsafeWindow.questdata[c]["data"][1][0][v];
+	unsafeOverwriteFunction("showQuestBox",function(c){
+		try{
+			unsafeWindow._showQuestBox(c);
+		}catch(err){GM_logError("_showQuestBox\n"+err);}
+		try{
+			var cand=$("questboxobjects").getElementsByClassName("questboxbarout");
+			for(var i=0;i<cand.length;i++){
+				var questWare = parseInt(cand[i].children[0].id.replace("questboxbarin",""),10);
+				var menge = [0,0,0]; //given,stock,total
+				for(var v in unsafeWindow.questdata[c]["data"][1][0]){
+					if(!unsafeWindow.questdata[c]["data"][1][0].hasOwnProperty(v)){ continue; }
+					if(typeof unsafeWindow.questdata[c]["data"][1][0][v]=="object"){
+						if(unsafeWindow.questdata[c]["data"][1][0][v][questWare]){
+							menge[2] = unsafeWindow.questdata[c]["data"][1][0][v][questWare];
+						}
+					}else{
+						if(v==questWare){
+							menge[2] = unsafeWindow.questdata[c]["data"][1][0][v];
+						}
 					}
 				}
+				menge[0]=((unsafeWindow.questdata[c]["entries"]&&unsafeWindow.questdata[c]["entries"][questWare])?parseInt(unsafeWindow.questdata[c]["entries"][questWare],10):0);
+				menge[1]=Math.min(menge[2]-menge[0],prodStock[0][questWare]);
+				createElement("div",{"style":"width:"+Math.floor(200*menge[1]/menge[2])+"px;left:"+Math.floor(200*(menge[0])/menge[2])+"px;","class":"questboxbarinPoss"},cand[i]);
+				// better number-formatting
+				$("questboxobj"+questWare+"_current").innerHTML = numberFormat(menge[0]);
+				$("questboxobj"+questWare+"_need").innerHTML = numberFormat(menge[2]);
 			}
-			menge[0]=((unsafeWindow.questdata[c]["entries"]&&unsafeWindow.questdata[c]["entries"][questWare])?parseInt(unsafeWindow.questdata[c]["entries"][questWare],10):0);
-			menge[1]=Math.min(menge[2]-menge[0],prodStock[0][questWare]);
-			createElement("div",{"style":"width:"+Math.floor(200*menge[1]/menge[2])+"px;left:"+Math.floor(200*(menge[0])/menge[2])+"px;","class":"questboxbarinPoss"},cand[i]);
-			// better number-formatting
-			$("questboxobj"+questWare+"_current").innerHTML = numberFormat(menge[0]);
-			$("questboxobj"+questWare+"_need").innerHTML = numberFormat(menge[2]);
-		}
-	}catch(err){ GM_logError("showQuestBox\n"+err); }		
-	}
-	unsafeWindow._questsHandler=unsafeWindow.questsHandler;
-	unsafeWindow.questsHandler = function(b){
+		}catch(err){ GM_logError("showQuestBox\n"+err); }		
+	});
+	unsafeOverwriteFunction("questsHandler",function(status){
 		try{
-			unsafeWindow._questsHandler(b);
+			unsafeWindow._questsHandler(unsafeCloneObject(status));
 		}catch(err){GM_logError("_questsHandler\n"+err);}
 		try{
 			handleQuestLine();
 		}catch(err){GM_logError("questsHandler\n"+err);}
-	};
+	});
 /* todo:
 	raiseEvent("gameQuestSolvable");
 	raiseEvent("gameQuestNewAvailable");
 	raiseEvent("gameQuestFinished");
 	raiseEvent("gameQuestAccepted");
 */
-	unsafeWindow._showQuestBoxLine=unsafeWindow.showQuestBoxLine;
-	unsafeWindow.showQuestBoxLine = function(){
+	unsafeOverwriteFunction("showQuestBoxLine",function(){
 		try{
 			unsafeWindow._showQuestBoxLine();
 		}catch(err){GM_logError("_showQuestBoxLine\n"+err);}
 		try{
 			handleQuestLine();
 		}catch(err){GM_logError("showQuestBoxLine\n"+err);}
-	};	
+	});
 	function updateQuestLineTimer(){
 	try{
 return false;	
@@ -9898,9 +9887,9 @@ return false;
 	*/
 
 	// NPC-shop
-	err_trace="NPC shop";	
-	unsafeWindow._shopDialog=unsafeWindow.shopDialog;
-	unsafeWindow.shopDialog = function(e,d){
+	err_trace="NPC shop";
+	// TODO: function not existing anymore
+	unsafeOverwriteFunction("shopDialog",function(e,d){
 		try{
 			unsafeWindow._shopDialog(e,d);
 		}catch(err){GM_logError("_shopDialog\n"+err);}
@@ -9913,7 +9902,7 @@ return false;
 				}catch(err){ GM_logError("listener searchPlayer.keyup\n"+err); }
 			},false);
 		}catch(err){GM_logError("shopDialog\n"+err);}
-	};	
+	});
 	// Market
 	err_trace="Market";
 	valKauflimit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit","[[85,'990000'],110]"),"do_main/valKauflimit",[[85,'990000'],110]);
@@ -10349,17 +10338,20 @@ return false;
 		canda=null;candtable=null;candtr=null;candtd=null;canddiv=null;newa=null;newinput=null;newspan=null;newdiv=null;newdiv1=null;
 	}catch(err){ GM_logError("do_market ("+err_trace+")\n"+err); }
 	}
-	unsafeWindow._showOffers=unsafeWindow.showOffers;
-	unsafeWindow.showOffers = function(page){
-	// GM_log("function showOffers");
-		unsafeWindow._showOffers(page);
-		do_market();
-		// GM_log("unsafeWindow.market_offers:\n"+print_r(unsafeWindow.market_offers,"",true,"\n"));		
-		raiseEvent("gameOpenMarket");
-	};
-	unsafeWindow._openMarketNewOffer=unsafeWindow.openMarketNewOffer;
-	unsafeWindow.openMarketNewOffer = function(){
-		unsafeWindow._openMarketNewOffer();
+	unsafeOverwriteFunction("showOffers",function(page){
+		try{
+			unsafeWindow._showOffers(page);
+		}catch(err){GM_logError("_showOffers\n"+err);}
+		try{
+			do_market();
+			// GM_log("unsafeWindow.market_offers:\n"+print_r(unsafeWindow.market_offers,"",true,"\n"));		
+			raiseEvent("gameOpenMarket");
+		}catch(err){GM_logError("showOffers\n"+err);}
+	});
+	unsafeOverwriteFunction("openMarketNewOffer",function(){
+		try{
+			unsafeWindow._openMarketNewOffer();
+		}catch(err){GM_logError("_openMarketNewOffer\n"+err);}
 		try{
 			var err_trace="Init";
 			var currId=unsafeWindow.market_filter_pid;
@@ -10517,11 +10509,11 @@ return false;
 */		
 			}
 		}catch(err){ GM_logError("openMarketNewOffer ("+err_trace+")\n"+err); }
-	};
-
-	unsafeWindow._calcMarketFee=unsafeWindow.calcMarketFee;
-	unsafeWindow.calcMarketFee = function(){
-		unsafeWindow._calcMarketFee();
+	});
+	unsafeOverwriteFunction("calcMarketFee",function(){
+		try{
+			unsafeWindow._calcMarketFee();
+		}catch(err){GM_logError("_calcMarketFee\n"+err);}
 		try{
 			var err_trace="Init";
 			var berater_box=$("marketnewoffer_berater");
@@ -10634,11 +10626,11 @@ return false;
 			currId=null;
 		
 		}catch(err){ GM_logError("calcMarketFee\n"+err); }
-	}
-
-	unsafeWindow._buyMarketOffer=unsafeWindow.buyMarketOffer;
-	unsafeWindow.buyMarketOffer = function(id){
-		unsafeWindow._buyMarketOffer(id);
+	});
+	unsafeOverwriteFunction("buyMarketOffer",function(id){
+		try{
+			unsafeWindow._buyMarketOffer(id);
+		}catch(err){GM_logError("_buyMarketOffer\n"+err);}
 		try{
 			for(var i=0;i<unsafeWindow.market_offers.length;i++){
 				if(id==unsafeWindow.market_offers[i].id){
@@ -10651,11 +10643,11 @@ return false;
 				}
 			}	
 		}catch(err){ GM_logError("buyMarketOffer\n"+err); }
-	}
-	
-	unsafeWindow._marketAction=unsafeWindow.marketAction;
-	unsafeWindow.marketAction = function(action,id,open){
-		unsafeWindow._marketAction(action,id,open);
+	});
+	unsafeOverwriteFunction("marketAction",function(action,id,open){
+		try{
+			unsafeWindow._marketAction(action,id,open);
+		}catch(err){GM_logError("_marketAction\n"+err);}
 		try{
 			if(action=="marketcreateoffer"){
 				var currId=unsafeWindow.market_filter_pid;
@@ -10667,9 +10659,8 @@ return false;
 				currId=null;amount=null;price1=null;price2=null;
 			}
 		}catch(err){ GM_logError("marketAction\n"+err); }
-	};
-	unsafeWindow._marketActionResponse=unsafeWindow.marketActionResponse;
-	unsafeWindow.marketActionResponse = function(request,action,id,open){
+	});
+	unsafeOverwriteFunction("marketActionResponse",function(request,action,id,open){
 		try{
 			var result = checkRequest(request)
 			if((result!=0)&&(result[0]!=0)&&(result[1]["offers"])){
@@ -10758,9 +10749,11 @@ return false;
 				GM_setValueCache(COUNTRY+"_"+SERVER+"_preisBeob",implode(preisBeob));
 				raiseEventTop("gameChangedBeobPrice");
 			}
-		}catch(err){ GM_logError("marketActionResponse ("+err_trace+")\nv="+v+"\n"+err); }
-		unsafeWindow._marketActionResponse(request,action,id,open);
-	}
+		}catch(err){GM_logError("marketActionResponse ("+err_trace+")\nv="+v+"\n"+err);}
+		try{
+			unsafeWindow._marketActionResponse(unsafeCloneObject(request),action,id,open);
+		}catch(err){GM_logError("_marketActionResponse\n"+err);}
+	});
 	quicklinks();
 	// Buy offer by pressing Enter
 	if(newdiv=$("marketbuyofferamount")){
@@ -10996,8 +10989,7 @@ return false;
 	}catch(err){ GM_logError("plotLevelProgressBar\nlevelLog["+v+"]="+implode(levelLog[v])+"\n"+err); }
 	}
 	plotLevelProgressBar();
-	unsafeWindow._updateMenuGo=unsafeWindow.updateMenuGo;
-	unsafeWindow.updateMenuGo = function(){
+	unsafeOverwriteFunction("updateMenuGo",function(){
 		try{
 			unsafeWindow._updateMenuGo();
 		}catch(err){GM_logError("_updateMenuGo\n"+err);}
@@ -11015,17 +11007,18 @@ return false;
 			USERLEVEL=parseInt(unsafeWindow.currentuserlevel,10);
 		}catch(err){ GM_logError("updateMenuGo\n"+err); }
 		},0);
-	};
-
+	});
 	// Removing Advertising end on Advertising Abort
-	unsafeWindow._cancelAdResponse=unsafeWindow.cancelAdResponse;
-	unsafeWindow.cancelAdResponse = function(a){
-		var cell=$("alertAdvertEnd");
-		if(cell){ removeElement(cell); }
-		cell=null;
-		unsafeWindow._cancelAdResponse(a);
-	};
-
+	unsafeOverwriteFunction("cancelAdResponse",function(response){
+		try{
+			var cell=$("alertAdvertEnd");
+			if(cell){ removeElement(cell); }
+			cell=null;
+		}catch(err){GM_logError("cancelAdResponse\n"+err);}
+		try{
+			unsafeWindow._cancelAdResponse(unsafeCloneObject(response));
+		}catch(err){GM_logError("_cancelAdResponse\n"+err);}
+	});
 	// Sprechblase
 	err_trace="Bubble";
 	createElement("div",{"id":"sprcontent2","style":"position:absolute;top:20px;left:323px;z-index:100;width:200px;height:90px;overflow:auto;display:none;"},$("sprcontent").parentNode);//same style as #sprcontent
@@ -11105,11 +11098,10 @@ return false;
 		divLagerZeitZiel=null;
 	}catch(err){ GM_logError("hideLagerZeitZiel\n"+err); }
 	}
-	unsafeWindow._selectRackItem=unsafeWindow.selectRackItem;
-	unsafeWindow.selectRackItem = function(id,b){
+	unsafeOverwriteFunction("selectRackItem",function(id,b){
 		try{
 			unsafeWindow._selectRackItem(id,b);
-		}catch(err){ GM_logError("selectRackItem id="+id+"\n"+err); }
+		}catch(err){GM_logError("selectRackItem id="+id+"\n"+err);}
 		try{
 			if($("gardenmaincontainer").style.display=="block"){
 				var zoneNr=/parent.cache_me\((\d+?),120/.exec($("gardenarea").innerHTML);
@@ -11120,8 +11112,8 @@ return false;
 			}else if($("farmersmarket_pos1_inner").style.display=="block"){
 				showLagerZeitZiel("farmersmarket-1");
 			}
-		}catch(err){ GM_logError("selectRackItem id="+id+"\n"+err); }
-	};
+		}catch(err){GM_logError("selectRackItem id="+id+"\n"+err);}
+	});
 
 	valMoveAnimals=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMoveAnimals","[]"),"do_main/valMoveAnimals",[]);
 	// executed,speedvert,top,bottom,speedhor,left,right
@@ -11154,21 +11146,25 @@ return false;
 	}
 	GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
 	unsafeWindow.updateRackBusy=false;
-	unsafeWindow._updateRack=unsafeWindow.updateRack;
-	unsafeWindow.updateRack = function(rack,init){
-		var cell=$("divUpdateRack");
-		if(!cell){
-			cell=createElement("div",{"id":"divUpdateRack","class":"blackbox","style":"position:absolute;top:20%;left:50%;font-weight:bold;"},$("rackItems"),"Rack updating");
-			cell.style.marginLeft=(-(cell.offsetWidth)/2)+"px";
-		}
-		cell.style.display="block";
-		cell=null;
-		unsafeWindow.updateRackBusy=true;
-		unsafeWindow._updateRack(rack, init);
-	};
-	unsafeWindow._sortRackNew=unsafeWindow.sortRackNew;
-	unsafeWindow.sortRackNew = function(type){
-		unsafeWindow._sortRackNew(type);
+	unsafeOverwriteFunction("updateRack",function(rack,init){
+		try{
+			var cell=$("divUpdateRack");
+			if(!cell){
+				cell=createElement("div",{"id":"divUpdateRack","class":"blackbox","style":"position:absolute;top:20%;left:50%;font-weight:bold;"},$("rackItems"),"Rack updating");
+				cell.style.marginLeft=(-(cell.offsetWidth)/2)+"px";
+			}
+			cell.style.display="block";
+			cell=null;
+			unsafeWindow.updateRackBusy=true;
+		}catch(err){GM_logError("updateRack\n"+err);}
+		try{
+			unsafeWindow._updateRack(rack,init);
+		}catch(err){GM_logError("_updateRack\n"+err);}
+	});
+	unsafeOverwriteFunction("sortRackNew",function(type){
+		try{
+			unsafeWindow._sortRackNew(type);
+		}catch(err){GM_logError("_sortRackNew\n"+err);}
 		try{
 			// save rack amounts
 			for(var v in prodName[0]){
@@ -11189,13 +11185,8 @@ return false;
 				unsafeWindow.updateRackBusy=false;
 				raiseEvent("gameUpdateRack");
 			},0);
-		}catch(err){ GM_logError("sortRackNew type="+type+"\n"+err); }
-	};
-	unsafeWindow._sortRack=unsafeWindow.sortRack;
-	unsafeWindow.sortRack = function(type){
-		unsafeWindow._sortRack(type);
-		doRack();
-	};
+		}catch(err){GM_logError("sortRackNew type="+type+"\n"+err);}
+	});
 	/*
 	function doRackNavi(){
 	try{
@@ -11225,11 +11216,10 @@ return false;
 	}catch(err){ GM_logError("doRackNavi\n"+err); }
 	}
 	doRackNavi();	
-	unsafeWindow._initRackNavi=unsafeWindow.initRackNavi;
-	unsafeWindow.initRackNavi = function(){
+	unsafeOverwriteFunction("initRackNavi",function(){
 		unsafeWindow._initRackNavi();
 		doRackNavi();
-	};
+	});
 	*/
 	if(newdiv=$("rackItems")){
 		newdiv.addEventListener("dblclick",function(event){
@@ -11248,8 +11238,8 @@ return false;
 			}catch(err){GM_logError("listener #rackItems.dblclick\n"+err);}
 		},false);
 	}
-	unsafeWindow._linfo=unsafeWindow.linfo;
-	unsafeWindow.linfo = function(title,amount,id,offset,felder,kategorie){
+	/* TODO: function is not existing anymore
+	unsafeOverwriteFunction("linfo",function(title,amount,id,offset,felder,kategorie){
 		unsafeWindow._linfo(title,amount,id,offset,felder,kategorie);
 		var newdiv;
 		var rackPopup=$("rackPopup");
@@ -11269,17 +11259,24 @@ return false;
 			createElement("div",{"style":"width:160px;"},newdiv,getText("clickDouble")+": "+getText("goToMarket"));
 		}
 		newdiv=null;rackPopup=null;
-	};
-	unsafeWindow._globalcommitbox=unsafeWindow.globalcommitbox;
-	unsafeWindow.globalcommitbox = function(content,onclick,onclick2){
-		unsafeWindow._globalcommitbox(content,onclick,onclick2);
-		raiseEvent("gameOpenGlobalCommitBox");
-	}
-	unsafeWindow._globalBox=unsafeWindow.globalBox;
-	unsafeWindow.globalBox = function(f, a, e, c, b){
-		unsafeWindow._globalBox(f, a, e, c, b);
-		raiseEvent("gameOpenGlobalBox");
-	}
+	});
+	*/
+	unsafeOverwriteFunction("globalcommitbox",function(content,onclick,onclick2){
+		try{
+			unsafeWindow._globalcommitbox(content,onclick,onclick2);
+		}catch(err){GM_logError("_globalcommitbox\n"+err);}
+		try{
+			raiseEvent("gameOpenGlobalCommitBox");
+		}catch(err){GM_logError("globalcommitbox\n"+err);}
+	});
+	unsafeOverwriteFunction("globalBox",function(f,a,e,c,b){
+		try{
+			unsafeWindow._globalBox(f,a,e,c,b);
+		}catch(err){GM_logError("_globalBox\n"+err);}
+		try{
+			raiseEvent("gameOpenGlobalBox");
+		}catch(err){GM_logError("globalBox\n"+err);}
+	});
 
 	if(newdiv=$("coins")){
 		newdiv1=newdiv.cloneNode(true);
@@ -11293,8 +11290,7 @@ return false;
 	}
 
 	if(COUNTRY=="SE"){ $("bar").innerHTML=$("bar").innerHTML.replace(/\.(\d\d) /,",$1 "); }
-	unsafeWindow._updatePlayerInfo=unsafeWindow.updatePlayerInfo;
-	unsafeWindow.updatePlayerInfo = function(money,coins,points,level,deco){
+	unsafeOverwriteFunction("updatePlayerInfo",function(money,coins,points,level,deco){
 		try{
 			unsafeWindow._updatePlayerInfo(money,coins,points,level,deco);
 		}catch(err){GM_logError("_updatePlayerInfo\n"+err);}
@@ -11318,7 +11314,7 @@ return false;
 				}
 			}
 		}catch(err){GM_logError("updatePlayerInfo\n"+err);}	
-	};
+	});
 	document.addEventListener("gameDoGetData",function(){
 		window.setTimeout(loadProductData,0);
 	},false);
@@ -11349,10 +11345,9 @@ return false;
 	},false);
 
 	// messages
-	unsafeWindow._messagesActionResponse=unsafeWindow.messagesActionResponse;
-	unsafeWindow.messagesActionResponse = function(request,mode,id){
+	unsafeOverwriteFunction("messagesActionResponse",function(request,mode,id){
 		try{
-			unsafeWindow._messagesActionResponse(request,mode,id);
+			unsafeWindow._messagesActionResponse(unsafeCloneObject(request),mode,id);
 		}catch(err){GM_logError("_messagesActionResponse\n"+err);}
 		try{
 			if(checkRequest(request,mode)){
@@ -11361,7 +11356,7 @@ return false;
 				}
 			}
 		}catch(err){GM_logError("messagesActionResponse\n"+err);}
-	};
+	});
 	// market: [id,time,name,[prod,amount],money]
 	// contract: [id,time,name,[[prod,amount],...],money]
 	function messagesSystem(){
@@ -11530,8 +11525,7 @@ return false;
 	}	
 	// events farm ================================================================================
 	err_trace="events farm";
-	unsafeWindow._farmMove=unsafeWindow.farmMove;
-	unsafeWindow.farmMove = function(b){
+	unsafeOverwriteFunction("farmMove",function(b){
 		try{
 			unsafeWindow._farmMove(b);
 		}catch(err){GM_logError("_farmMove\n"+err);}
@@ -11546,7 +11540,7 @@ return false;
 				raiseEvent("gameFarmOpened");
 			}
 		}catch(err){GM_logError("farmMove\n"+err);}
-	};
+	});
 	function doFarmZone(farmNR,zoneNr){
 		try{	
 			var divZone,divZoneInfo,div;
@@ -11767,8 +11761,7 @@ return false;
 		}catch(err){GM_logError("doFarmZone\nfarmNR="+farmNR+" zoneNr="+zoneNr+"\n"+err);}	
 	}
 	unsafeData.carpentry_bonus=parseInt($("carpentry_icon_currentbonus").innerHTML,10);
-	unsafeWindow._farmBuildPositions=unsafeWindow.farmBuildPositions;
-	unsafeWindow.farmBuildPositions = function(){
+	unsafeOverwriteFunction("farmBuildPositions",function(){
 		try{
 			unsafeWindow._farmBuildPositions();
 		}catch(err){GM_logError("_farmBuildPositions\n"+err);}
@@ -11841,13 +11834,12 @@ return false;
 			// Event
 			raiseEvent("gameFarmLoaded");
 		}catch(err){GM_logError("farmBuildPositions\nzoneNrF="+zoneNrF+"\n"+err);}
-	};
+	});
 	// Farm filling
 	// initZones > getUserFarmInfos > userFarmInfosResponse > getTimeEvents >
-	// unsafeWindow._initZones=unsafeWindow.initZones;
-	// unsafeWindow.initZones = function(farmid){
+	// unsafeOverwriteFunction("initZones",function(farmid){
 	// 	unsafeWindow._initZones(farmid);
-	// }
+	// });
 
 	function drawZoneNavi(zoneNrF,container){
 	try{
@@ -12054,10 +12046,9 @@ return false;
 	}catch(err){ GM_logError("checkFieldTimes\n"+err); }
 	}
 
-	unsafeWindow._getGardenInfoResponse=unsafeWindow.getGardenInfoResponse;
-	unsafeWindow.getGardenInfoResponse = function(request,zoneNr){
+	unsafeOverwriteFunction("getGardenInfoResponse",function(request,zoneNr){
 		try{
-			unsafeWindow._getGardenInfoResponse(request,zoneNr);
+			unsafeWindow._getGardenInfoResponse(unsafeCloneObject(request),zoneNr);
 		}catch(err){GM_logError("_getGardenInfoResponse\n"+err);}
 		try{
 			// GM_log("getGardenInfoResponse zoneNr="+zoneNr+"\n"+print_r(eval('('+response+')'),"",true,"\n"));
@@ -12081,11 +12072,10 @@ return false;
 			*/
 			checkFieldTimes();
 		}catch(err){GM_logError("getGardenInfoResponse\n"+err);}	
-	};
-	unsafeWindow._farmActionResponse=unsafeWindow.farmActionResponse;
-	unsafeWindow.farmActionResponse = function(request, mode, farmNR, zoneNr, t, c, b, a){
+	});
+	unsafeOverwriteFunction("farmActionResponse",function(request,mode,farmNR,zoneNr,t,c,b,a){
 		try{
-			unsafeWindow._farmActionResponse(request, mode, farmNR, zoneNr, t, c, b, a);
+			unsafeWindow._farmActionResponse(unsafeCloneObject(request),mode,farmNR,zoneNr,t,c,b,a);
 		}catch(err){GM_logError("_farmActionResponse\n"+err);}
 		try{
 			var r = checkRequest(request, mode);
@@ -12115,41 +12105,52 @@ return false;
 				}
 			}
 		}catch(err){GM_logError("farmActionResponse\n"+err);}
-	};
-	unsafeWindow._PflanzResponse=unsafeWindow.PflanzResponse;
-	unsafeWindow.PflanzResponse = function(request){
-		unsafeWindow._PflanzResponse(request);
-		if((request.readyState==4)&&(request.status==200)){
-			checkFieldTimes();
-			raiseEvent("gameFieldPlanted");
-		}
-	};
-	unsafeWindow._WasserResponse=unsafeWindow.WasserResponse;
-	unsafeWindow.WasserResponse = function(request){
-		unsafeWindow._WasserResponse(request);
-		if((request.readyState==4)&&(request.status==200)){
-			checkFieldTimes();
-			raiseEvent("gameFieldWatered");
-		}
-	};
-	unsafeWindow._ErnteResponse=unsafeWindow.ErnteResponse;
-	unsafeWindow.ErnteResponse = function(request){
-		unsafeWindow._ErnteResponse(request);
-		if((request.readyState==4)&&(request.status==200)){
-			checkFieldTimes();
-			raiseEvent("gameFieldCropped");
-		}
-	};
-	unsafeWindow._AbrissResponse=unsafeWindow.AbrissResponse;
-	unsafeWindow.AbrissResponse = function(request){
-		unsafeWindow._AbrissResponse(request);
-		if((request.readyState==4)&&(request.status==200)){
-			checkFieldTimes();
-			raiseEvent("gameFieldDemolished");
-		}
-	};
-	unsafeWindow._killGardenTimeruns=unsafeWindow.killGardenTimeruns;
-	unsafeWindow.killGardenTimeruns = function(){
+	});
+	unsafeOverwriteFunction("PflanzResponse",function(request){
+		try{
+			unsafeWindow._PflanzResponse(unsafeCloneObject(request));
+		}catch(err){GM_logError("_PflanzResponse\n"+err);}
+		try{
+			if((request.readyState==4)&&(request.status==200)){
+				checkFieldTimes();
+				raiseEvent("gameFieldPlanted");
+			}
+		}catch(err){GM_logError("PflanzResponse\n"+err);}
+	});
+	unsafeOverwriteFunction("WasserResponse",function(request){
+		try{
+			unsafeWindow._WasserResponse(unsafeCloneObject(request));
+		}catch(err){GM_logError("_WasserResponse\n"+err);}
+		try{
+			if((request.readyState==4)&&(request.status==200)){
+				checkFieldTimes();
+				raiseEvent("gameFieldWatered");
+			}
+		}catch(err){GM_logError("WasserResponse\n"+err);}
+	});
+	unsafeOverwriteFunction("ErnteResponse",function(request){
+		try{
+			unsafeWindow._ErnteResponse(unsafeCloneObject(request));
+		}catch(err){GM_logError("_ErnteResponse\n"+err);}
+		try{
+			if((request.readyState==4)&&(request.status==200)){
+				checkFieldTimes();
+				raiseEvent("gameFieldCropped");
+			}
+		}catch(err){GM_logError("ErnteResponse\n"+err);}
+	});
+	unsafeOverwriteFunction("AbrissResponse",function(request){
+		try{
+			unsafeWindow._AbrissResponse(unsafeCloneObject(request));
+		}catch(err){GM_logError("_AbrissResponse\n"+err);}
+		try{
+			if((request.readyState==4)&&(request.status==200)){
+				checkFieldTimes();
+				raiseEvent("gameFieldDemolished");
+			}
+		}catch(err){GM_logError("AbrissResponse\n"+err);}
+	});
+	unsafeOverwriteFunction("killGardenTimeruns",function(){
 		try{
 			unsafeWindow._killGardenTimeruns();
 		}catch(err){GM_logError("_killGardenTimeruns\n"+err);}
@@ -12160,40 +12161,46 @@ return false;
 			if ($("zoneNavi")){ removeElement($("zoneNavi")); }
 			//if ($("lager_zeit_ziel").parentNode.style.display == "") $("lager_zeit_ziel").parentNode.style.display="none";
 		}catch(err){GM_logError("killGardenTimeruns\n"+err);}
-	}
-	unsafeWindow._errorboxgarden=unsafeWindow.errorboxgarden;
-	unsafeWindow.errorboxgarden = function(text,onclick){
-		unsafeWindow._errorboxgarden(text,onclick);
-		// Fix(Seberoth)
-		// $("divErnteInfo").innerHTML=$("errorboxcontentgarden").innerHTML;
-		$("divErnteInfo").innerHTML=document.getElementsByClassName('cropall_dialog_product')[0].innerHTML;
-		$("divErnteInfo").style.display="block";
-		if (valErnteMsg){
+	});
+	unsafeOverwriteFunction("errorboxgarden",function(text,onclick){
+		try{
+			unsafeWindow._errorboxgarden(text,onclick);
+		}catch(err){GM_logError("_errorboxgarden\n"+err);}
+		try{
 			// Fix(Seberoth)
-			// $("errorboxgarden").style.display="none"; 
-			$("globalbox").style.display="none";
-			$("globaltransp").style.display="none";
-		}
-		// Fix(Seberoth)
-		// var zoneNr=/refreshGarden\((\d)\)/.exec($("errorboxfootergarden").parentNode.innerHTML);
-		var zoneNr=/refreshGarden\((\d)\)/.exec($("globalbox_button1").parentNode.innerHTML);
-		if(zoneNr){
-			zoneNr=zoneNr[1];
-			unsafeWindow.refreshGarden(zoneNr);
-		}
-	};
+			// $("divErnteInfo").innerHTML=$("errorboxcontentgarden").innerHTML;
+			$("divErnteInfo").innerHTML=document.getElementsByClassName('cropall_dialog_product')[0].innerHTML;
+			$("divErnteInfo").style.display="block";
+			if (valErnteMsg){
+				// Fix(Seberoth)
+				// $("errorboxgarden").style.display="none"; 
+				$("globalbox").style.display="none";
+				$("globaltransp").style.display="none";
+			}
+			// Fix(Seberoth)
+			// var zoneNr=/refreshGarden\((\d)\)/.exec($("errorboxfootergarden").parentNode.innerHTML);
+			var zoneNr=/refreshGarden\((\d)\)/.exec($("globalbox_button1").parentNode.innerHTML);
+			if(zoneNr){
+				zoneNr=zoneNr[1];
+				unsafeWindow.refreshGarden(zoneNr);
+			}
+		}catch(err){GM_logError("errorboxgarden\n"+err);}
+	});
 
 	// Farmhouse
-	unsafeWindow._initFarmhouseResponse=unsafeWindow.initFarmhouseResponse;
-	unsafeWindow.initFarmhouseResponse = function(q){
-		unsafeWindow._initFarmhouseResponse(q);
-		if(unsafeWindow.reallocatebuildinghead&&!$("reallocatebuildingbutton")){
-			var newdiv=createElement("div",{"onclick":"initReallocateBuilding();showDiv('transp');","style":"position:absolute;top:70px;right:20px;","class":"link"},$("farmhousecontainer"));
-			createElement("img",{"id":"reallocatebuildingbutton","onmouseout":"this.src=_GFX+'reallocatebuildingbutton_off.png';hideDiv('reallocatebuildinginfo');","onmouseover":"this.src=_GFX+'reallocatebuildingbutton_on.png';showDiv('reallocatebuildinginfo');","src":GFX+"reallocatebuildingbutton_off.png","class":"link","style":"width:25px;height:25px;"},newdiv);
-			createElement("div",{"id":"reallocatebuildinginfo","style":"display:none;position:absolute;top:70px;right:50px;","class":"blackbox"},$("farmhousecontainer"),unsafeWindow.reallocatebuildinghead);
-			newdiv=null;
-		}
-	};
+	unsafeOverwriteFunction("initFarmhouseResponse",function(response){
+		try{
+			unsafeWindow._initFarmhouseResponse(unsafeCloneObject(response));
+		}catch(err){GM_logError("_initFarmhouseResponse\n"+err);}
+		try{
+			if(unsafeWindow.reallocatebuildinghead&&!$("reallocatebuildingbutton")){
+				var newdiv=createElement("div",{"onclick":"initReallocateBuilding();showDiv('transp');","style":"position:absolute;top:70px;right:20px;","class":"link"},$("farmhousecontainer"));
+				createElement("img",{"id":"reallocatebuildingbutton","onmouseout":"this.src=_GFX+'reallocatebuildingbutton_off.png';hideDiv('reallocatebuildinginfo');","onmouseover":"this.src=_GFX+'reallocatebuildingbutton_on.png';showDiv('reallocatebuildinginfo');","src":GFX+"reallocatebuildingbutton_off.png","class":"link","style":"width:25px;height:25px;"},newdiv);
+				createElement("div",{"id":"reallocatebuildinginfo","style":"display:none;position:absolute;top:70px;right:50px;","class":"blackbox"},$("farmhousecontainer"),unsafeWindow.reallocatebuildinghead);
+				newdiv=null;
+			}
+		}catch(err){GM_logError("initFarmhouseResponse\n"+err);}
+	});
 	// Dog Ben
 	function doDogBen(){
 		try{
@@ -12277,8 +12284,7 @@ return false;
 		tempZoneProductionData=null;
 	}catch(err){GM_logError("doStable\n"+err);}
 	}
-	unsafeWindow._rewriteBuildingInnerFeed=unsafeWindow.rewriteBuildingInnerFeed;
-	unsafeWindow.rewriteBuildingInnerFeed = function(e,a){
+	unsafeOverwriteFunction("rewriteBuildingInnerFeed",function(e,a){
 		try{
 			unsafeWindow._rewriteBuildingInnerFeed(e,a);
 		}catch(err){GM_logError("_rewriteBuildingInnerFeed\n"+err);}
@@ -12294,11 +12300,10 @@ return false;
 				}
 			}		
 		}catch(err){GM_logError("rewriteBuildingInnerFeed\n"+err);}
-	};	
-	unsafeWindow._buildingInnerActionResponse=unsafeWindow.buildingInnerActionResponse;
-	unsafeWindow.buildingInnerActionResponse = function(request,action,farm,position){
+	});	
+	unsafeOverwriteFunction("buildingInnerActionResponse",function(request,action,farm,position){
 		try{
-			unsafeWindow._buildingInnerActionResponse(request,action,farm,position);
+			unsafeWindow._buildingInnerActionResponse(unsafeCloneObject(request),action,farm,position);
 		}catch(err){GM_logError("_buildingInnerActionResponse\n"+err);}
 		try{
 			if(checkRequest(request)){
@@ -12309,17 +12314,15 @@ return false;
 				}
 			}
 		}catch(err){GM_logError("buildingInnerActionResponse\n"+err);}
-	};
-	unsafeWindow._newBuildingInner=unsafeWindow.newBuildingInner;
-	unsafeWindow.newBuildingInner = function(farm,position){
-		// logBubble.add("newBuildingInner<br>farm="+farm+"("+typeof(farm)+")<br>position="+position+"("+typeof(position)+")");
+	});
+	unsafeOverwriteFunction("newBuildingInner",function(farm,position){
 		try{
 			unsafeWindow._newBuildingInner(farm,position);
 		}catch(err){GM_logError("_newBuildingInner\n"+err);}
 		try{
 			doStable(farm,position);
 		}catch(err){GM_logError("newBuildingInner\n"+err);}
-	};	
+	});	
 	// Factory
 	function doFactory(zoneNr){
 		try{
@@ -12384,91 +12387,89 @@ return false;
 		drawZoneNavi(zoneNrF,$("innermaincontainer"));
 		raiseEvent("gameOpenFactoryOil");
 	}
-	unsafeWindow._buildOilpressInner=unsafeWindow.buildOilpressInner;
-	unsafeWindow.buildOilpressInner = function(position,buildingid,info){
+	unsafeOverwriteFunction("buildOilpressInner",function(position,buildingid,info){
 		try{
 			unsafeWindow._buildOilpressInner(position,buildingid,info);
 		}catch(err){GM_logError("_buildOilpressInner\n"+err);}
 		try{
-		var zoneNr=position;
-		var zoneNrF=zoneNr+6*gameLocation[1];
-		var zoneNrS;
-		var data=unsafeWindow.oilproduction;
-		var newDiv,newDiv1;
-		var tempZoneProductionData=[[{}],0,0,true];
-		var tempZoneProductionDataSlot;
-		for(var slot=1;slot<=3;slot++){
-			zoneNrS=zoneNrF+"."+slot;
-			if((slot==1)||(!unsafeWindow.oilslots[slot]["block"])){
-				zones.setBlock(zoneNrS,"");
-				tempZoneProductionDataSlot=[[{}],0,0,true];
-				tempZoneProductionData[1]++;
-				tempZoneProductionData[2]++;
-				tempZoneProductionDataSlot[1]++;
-				tempZoneProductionDataSlot[2]++;
-				if(data[slot]){
-					var iPrTyp=0;
-					var iProd=parseInt(data[slot].pid,10);
-					var iAmount=data[slot].amount;
-					var iPoints=data[slot].amount*prodPoints[iPrTyp][iProd];
-					var iTime=now+data[slot].remain;
-					var endDay=countDays(now,iTime);
-					newDiv=createElement("div",{"class":"blackbox","id":"oil_slot"+slot+"_prodinfo","style":"position:absolute;left:105px;top:0;white-space:nowrap;"},$("oil_slot"+slot));
-					if(iTime<now){
-						if(iTime+20*60*60<now){
-							createElement("div",{},newDiv,getText("readySinceX").replace(/%1%/,getFormattedDateStr(iTime)));
-						}else{
-							createElement("div",{},newDiv,getText("readySinceX").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-						}				
-					} else if (endDay==0){
-						createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-					} else if ((endDay==1)&&(getText("readyAtX_day1"))){
-						createElement("div",{},newDiv,getText("readyAtX_day1").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-					} else if ((endDay==2)&&(getText("readyAtX_day2"))){
-						createElement("div",{},newDiv,getText("readyAtX_day2").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-					} else{ 
-						createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,new Date(1000*iTime).toLocaleString())); 
+			var zoneNr=position;
+			var zoneNrF=zoneNr+6*gameLocation[1];
+			var zoneNrS;
+			var data=unsafeWindow.oilproduction;
+			var newDiv,newDiv1;
+			var tempZoneProductionData=[[{}],0,0,true];
+			var tempZoneProductionDataSlot;
+			for(var slot=1;slot<=3;slot++){
+				zoneNrS=zoneNrF+"."+slot;
+				if((slot==1)||(!unsafeWindow.oilslots[slot]["block"])){
+					zones.setBlock(zoneNrS,"");
+					tempZoneProductionDataSlot=[[{}],0,0,true];
+					tempZoneProductionData[1]++;
+					tempZoneProductionData[2]++;
+					tempZoneProductionDataSlot[1]++;
+					tempZoneProductionDataSlot[2]++;
+					if(data[slot]){
+						var iPrTyp=0;
+						var iProd=parseInt(data[slot].pid,10);
+						var iAmount=data[slot].amount;
+						var iPoints=data[slot].amount*prodPoints[iPrTyp][iProd];
+						var iTime=now+data[slot].remain;
+						var endDay=countDays(now,iTime);
+						newDiv=createElement("div",{"class":"blackbox","id":"oil_slot"+slot+"_prodinfo","style":"position:absolute;left:105px;top:0;white-space:nowrap;"},$("oil_slot"+slot));
+						if(iTime<now){
+							if(iTime+20*60*60<now){
+								createElement("div",{},newDiv,getText("readySinceX").replace(/%1%/,getFormattedDateStr(iTime)));
+							}else{
+								createElement("div",{},newDiv,getText("readySinceX").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
+							}				
+						} else if (endDay==0){
+							createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
+						} else if ((endDay==1)&&(getText("readyAtX_day1"))){
+							createElement("div",{},newDiv,getText("readyAtX_day1").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
+						} else if ((endDay==2)&&(getText("readyAtX_day2"))){
+							createElement("div",{},newDiv,getText("readyAtX_day2").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
+						} else{ 
+							createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,new Date(1000*iTime).toLocaleString())); 
+						}
+						newDiv1=$("oil_slot"+slot+"_img_tt_time");
+						if(newDiv1){ newDiv.appendChild(newDiv1); }
+						newDiv1=createElement("div",{},newDiv); 
+						produktPic(iPrTyp,iProd,newDiv1);
+						createElement("span",{},newDiv1,numberFormat(iAmount)+" "+prodName[iPrTyp][iProd]); 
+						pointsFormat(iPoints,"div",newDiv1);
+			
+						iTime-=unsafeWindow.Zeit.Verschiebung;
+						tempZoneProductionData[1]--;
+						if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
+						tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
+						tempZoneProductionDataSlot[1]--;
+						if(!tempZoneProductionDataSlot[0][iPrTyp][iProd]){ tempZoneProductionDataSlot[0][iPrTyp][iProd]=[]; }
+						tempZoneProductionDataSlot[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
+						//auto-cropping
+						if((top.unsafeData.autoAction==null)&&valAutoCrop["farm"] && (newDiv=$("oil_slot"+slot+"_cropbutton")) && (newDiv.style.display=="block")){
+							top.unsafeData.autoAction="berater: oil crop";
+							window.setTimeout(function(div){
+								click(div);
+								top.unsafeData.autoAction=null;
+							},500,newDiv);
+						}
 					}
-					newDiv1=$("oil_slot"+slot+"_img_tt_time");
-					if(newDiv1){ newDiv.appendChild(newDiv1); }
-					newDiv1=createElement("div",{},newDiv); 
-					produktPic(iPrTyp,iProd,newDiv1);
-					createElement("span",{},newDiv1,numberFormat(iAmount)+" "+prodName[iPrTyp][iProd]); 
-					pointsFormat(iPoints,"div",newDiv1);
-		
-					iTime-=unsafeWindow.Zeit.Verschiebung;
-					tempZoneProductionData[1]--;
-					if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
-					tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
-					tempZoneProductionDataSlot[1]--;
-					if(!tempZoneProductionDataSlot[0][iPrTyp][iProd]){ tempZoneProductionDataSlot[0][iPrTyp][iProd]=[]; }
-					tempZoneProductionDataSlot[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
-					//auto-cropping
-					if((top.unsafeData.autoAction==null)&&valAutoCrop["farm"] && (newDiv=$("oil_slot"+slot+"_cropbutton")) && (newDiv.style.display=="block")){
-						top.unsafeData.autoAction="berater: oil crop";
-						window.setTimeout(function(div){
-							click(div);
-							top.unsafeData.autoAction=null;
-						},500,newDiv);
-					}
+					zones.setProduction(zoneNrF+"."+slot,tempZoneProductionDataSlot.clone());
+				} else {
+					zones.setBlock(zoneNrS,"b");
 				}
-				zones.setProduction(zoneNrF+"."+slot,tempZoneProductionDataSlot.clone());
-			} else {
-				zones.setBlock(zoneNrS,"b");
 			}
-		}
-		zones.setProduction(zoneNrF,tempZoneProductionData.clone());
-		var tempZoneProductionData=null;newDiv=null;newDiv1=null;
+			zones.setProduction(zoneNrF,tempZoneProductionData.clone());
+			var tempZoneProductionData=null;newDiv=null;newDiv1=null;
 		}catch(err){GM_logError("buildOilpressInner\n"+err);}
-	};
+	});
 	// Knitting
-	unsafeWindow._strickereiAjaxActionResponse=unsafeWindow.strickereiAjaxActionResponse;
-	unsafeWindow.strickereiAjaxActionResponse = function(c, b, mode){
+	unsafeOverwriteFunction("strickereiAjaxActionResponse",function(request,pos,mode){
 		try{
-			unsafeWindow._strickereiAjaxActionResponse(c, b, mode);
+			unsafeWindow._strickereiAjaxActionResponse(unsafeCloneObject(request),pos,mode);
 		}catch(err){GM_logError("_strickereiAjaxActionResponse\n"+err);}
 		try{
-			var result = checkRequest(c);
+			var result = checkRequest(request);
 			if((result!=0)&&(result[0]!=0)){
 				switch(mode){
 				case "buy": break;
@@ -12480,81 +12481,79 @@ return false;
 				}
 			}
 		}catch(err){GM_logError("strickereiAjaxActionResponse\n"+err);}
-	}
-	unsafeWindow._strickereiSelection=unsafeWindow.strickereiSelection;
-	unsafeWindow.strickereiSelection = function(a, c, slot){
-		unsafeWindow._strickereiSelection(a, c, slot);
+	});
+	unsafeOverwriteFunction("strickereiSelection",function(a,c,slot){
+		try{
+			unsafeWindow._strickereiSelection(a,c,slot);
+		}catch(err){GM_logError("_strickereiSelection\n"+err);}
 		try{
 			raiseEvent("gameFactoryKnittingDialogStart");
 		}catch(err){GM_logError("strickereiSelection\n"+err);}
-	}
-	unsafeWindow._buildStrickereiInner=unsafeWindow.buildStrickereiInner;
-	unsafeWindow.buildStrickereiInner = function(position,s){
-	try{
-		unsafeWindow._buildStrickereiInner(position,s);
-		// GM_log("buildStrickereiInner\nl="+implode(l)+"\ns="+implode(s));
-	}catch(err){GM_logError("_buildStrickereiInner\n"+err);}		
-	try{
-		var zoneNr=position;
-		var zoneNrF=zoneNr+6*gameLocation[1];
-		var zoneNrS;
-		showBlase(zoneNrF);
-		drawZoneNavi(zoneNrF,$("innermaincontainer"));
-		var newDiv,newDiv1;
-		var tempZoneProductionData=[[{}],0,0,true];
-		var tempZoneProductionDataSlot;
-		var data=unsafeWindow.strickerei_data;
-		for(var slot=1;slot<=3;slot++){
-			zoneNrS=zoneNrF+"."+slot;
-			if((slot==1)||(!data.slots[slot]["block"])){
-				zones.setBlock(zoneNrS,"");
-				tempZoneProductionDataSlot=[[{}],0,0,true];
-				tempZoneProductionData[1]++;
-				tempZoneProductionData[2]++;
-				tempZoneProductionDataSlot[1]++;
-				tempZoneProductionDataSlot[2]++;
-				if(data.slots[slot]){
-					var iPrTyp=0;
-					var iProd=data.slots[slot].pid;
-					if(iProd){
-						var iAmount=data.slots[slot].amount;
-						var iPoints=iAmount*prodPoints[iPrTyp][iProd];
-						if(data.slots[slot].ready){
-							var iTime=zones.getEndtime(zoneNrF);
-						} else{
-							var iTime=now+data.slots[slot].remain-unsafeWindow.Zeit.Verschiebung;
-						}
-						newDiv=$("strickerei_slot"+slot).children[1];
-						newDiv1=createElement("div",{},newDiv);
-						pointsFormat(iPoints,"div",newDiv1);
-						tempZoneProductionData[1]--;
-						if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
-						tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
-						tempZoneProductionDataSlot[1]--;
-						if(!tempZoneProductionDataSlot[0][iPrTyp][iProd]){ tempZoneProductionDataSlot[0][iPrTyp][iProd]=[]; }
-						tempZoneProductionDataSlot[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
-						//auto-cropping
-						if(data.slots[slot].ready&&(top.unsafeData.autoAction==null)&&valAutoCrop["farm"]&&(newDiv=$("strickerei_slot"+slot))){
-							top.unsafeData.autoAction="berater: knitting crop";
-							window.setTimeout(function(div){
-								click(div);
-								top.unsafeData.autoAction=null;
-							},500,newDiv);
+	});
+	unsafeOverwriteFunction("buildStrickereiInner",function(position,buildingid){
+		try{
+			unsafeWindow._buildStrickereiInner(position,buildingid);
+		}catch(err){GM_logError("_buildStrickereiInner\n"+err);}		
+		try{
+			var zoneNr=position;
+			var zoneNrF=zoneNr+6*gameLocation[1];
+			var zoneNrS;
+			showBlase(zoneNrF);
+			drawZoneNavi(zoneNrF,$("innermaincontainer"));
+			var newDiv,newDiv1;
+			var tempZoneProductionData=[[{}],0,0,true];
+			var tempZoneProductionDataSlot;
+			var data=unsafeWindow.strickerei_data;
+			for(var slot=1;slot<=3;slot++){
+				zoneNrS=zoneNrF+"."+slot;
+				if((slot==1)||(!data.slots[slot]["block"])){
+					zones.setBlock(zoneNrS,"");
+					tempZoneProductionDataSlot=[[{}],0,0,true];
+					tempZoneProductionData[1]++;
+					tempZoneProductionData[2]++;
+					tempZoneProductionDataSlot[1]++;
+					tempZoneProductionDataSlot[2]++;
+					if(data.slots[slot]){
+						var iPrTyp=0;
+						var iProd=data.slots[slot].pid;
+						if(iProd){
+							var iAmount=data.slots[slot].amount;
+							var iPoints=iAmount*prodPoints[iPrTyp][iProd];
+							if(data.slots[slot].ready){
+								var iTime=zones.getEndtime(zoneNrF);
+							} else{
+								var iTime=now+data.slots[slot].remain-unsafeWindow.Zeit.Verschiebung;
+							}
+							newDiv=$("strickerei_slot"+slot).children[1];
+							newDiv1=createElement("div",{},newDiv);
+							pointsFormat(iPoints,"div",newDiv1);
+							tempZoneProductionData[1]--;
+							if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
+							tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
+							tempZoneProductionDataSlot[1]--;
+							if(!tempZoneProductionDataSlot[0][iPrTyp][iProd]){ tempZoneProductionDataSlot[0][iPrTyp][iProd]=[]; }
+							tempZoneProductionDataSlot[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
+							//auto-cropping
+							if(data.slots[slot].ready&&(top.unsafeData.autoAction==null)&&valAutoCrop["farm"]&&(newDiv=$("strickerei_slot"+slot))){
+								top.unsafeData.autoAction="berater: knitting crop";
+								window.setTimeout(function(div){
+									click(div);
+									top.unsafeData.autoAction=null;
+								},500,newDiv);
+							}
 						}
 					}
+					zones.setProduction(zoneNrF+"."+slot,tempZoneProductionDataSlot.clone());
+				} else {
+					zones.setBlock(zoneNrS,"b");
 				}
-				zones.setProduction(zoneNrF+"."+slot,tempZoneProductionDataSlot.clone());
-			} else {
-				zones.setBlock(zoneNrS,"b");
 			}
-		}
-		zones.setProduction(zoneNrF,tempZoneProductionData.clone());
-		var tempZoneProductionData=null;newDiv=null;newDiv1=null;
-		raiseEvent("gameOpenFactoryKnitting");
-	}catch(err){GM_logError("buildStrickereiInner\n"+err);}
-	}
-	unsafeWindow._innerInfosResponse=unsafeWindow.innerInfosResponse;
-	unsafeWindow.innerInfosResponse = function(zoneNr){
+			zones.setProduction(zoneNrF,tempZoneProductionData.clone());
+			var tempZoneProductionData=null;newDiv=null;newDiv1=null;
+			raiseEvent("gameOpenFactoryKnitting");
+		}catch(err){GM_logError("buildStrickereiInner\n"+err);}
+	});
+	unsafeOverwriteFunction("innerInfosResponse",function(zoneNr){
 	// oil, knitting, factory, pony
 		try{
 			unsafeWindow._innerInfosResponse(zoneNr);
@@ -12575,7 +12574,7 @@ return false;
 				doFactory(zoneNr); 
 			}
 		}catch(err){GM_logError("innerInfosResponse\n"+err);}
-	};
+	});
 	// Club
 	err_trace="Club";
 	// Clubquest direct show
@@ -12655,311 +12654,321 @@ return false;
 	}
 
 	// Clubquest updated
-	unsafeWindow._setGuildQuestResponse=unsafeWindow.setGuildQuestResponse;
-	unsafeWindow.setGuildQuestResponse = function(request){
+	/* TODO: function is not existing anymore
+	unsafeOverwriteFunction("setGuildQuestResponse",function(request){
 		unsafeWindow._setGuildQuestResponse(request);
 		var result=checkRequest(request);
 		if(result){
 			lastGuildQuestRequest=now;
 			clubQuestToolTip(result[1]);
 		}
-	};
-
+	});
+	*/
+	
 	// Clubdata loaded
-	unsafeWindow._initGuildResponse=unsafeWindow.initGuildResponse;
-	unsafeWindow.initGuildResponse = function(a){
-		unsafeWindow._initGuildResponse(a);
-		lastGuildQuestRequest=now;
-		clubQuestToolTip(a[0][2]);
-	};
+	unsafeOverwriteFunction("initGuildResponse",function(response){
+		try{
+			unsafeWindow._initGuildResponse(unsafeCloneObject(response));
+		}catch(err){GM_logError("_initGuildResponse\n"+err);}
+		try{
+			lastGuildQuestRequest=now;
+			clubQuestToolTip(response[0][2]);
+		}catch(err){GM_logError("initGuildResponse\n"+err);}
+	});
 
 	// Memberlist
-	unsafeWindow._openMultiBox=unsafeWindow.openMultiBox;
-	unsafeWindow.openMultiBox = function(id){
-		if(id==5){
-			$('guildmultiboxheader').innerHTML='<img class="link" src="' + unsafeWindow.imgpath + 'button_cancel_off.png" onclick="hideDiv(\'transp9\'); hideDiv(\'guildmultibox\');" onmouseover="this.src=\'' + unsafeWindow.imgpath + 'button_cancel_on.png\';" onmouseout="this.src=\'' + unsafeWindow.imgpath + 'button_cancel_off.png\';"></div>';
-			$('guildmultiboxcontent').innerHTML='';
-			unsafeWindow.showGuildQuestStats(2,1,0);
-			for(var i=1;i<=3;i++){
-				$('guildmultiboxmenue'+i).style.backgroundImage="url(" + unsafeWindow.imgpath + "leer.gif)";
+	unsafeOverwriteFunction("openMultiBox",function(id){
+		try{
+			if(id==5){
+				$('guildmultiboxheader').innerHTML='<img class="link" src="' + unsafeWindow.imgpath + 'button_cancel_off.png" onclick="hideDiv(\'transp9\'); hideDiv(\'guildmultibox\');" onmouseover="this.src=\'' + unsafeWindow.imgpath + 'button_cancel_on.png\';" onmouseout="this.src=\'' + unsafeWindow.imgpath + 'button_cancel_off.png\';"></div>';
+				$('guildmultiboxcontent').innerHTML='';
+				unsafeWindow.showGuildQuestStats(2,1,0);
+				for(var i=1;i<=3;i++){
+					$('guildmultiboxmenue'+i).style.backgroundImage="url(" + unsafeWindow.imgpath + "leer.gif)";
+				}
+				$('guildmultiboxmenue4').style.backgroundImage="url(" + unsafeWindow.imgpath + "multiscreen_reiter4.jpg)";
+				$('guildmultiboxheadline').innerHTML=unsafeWindow.guildmultibox_headline4;
+				unsafeWindow.hideDiv('guildnewsticker');
+				unsafeWindow.showDiv('transp9');
+				unsafeWindow.showDiv('guildmultibox');
+			}else{
+				try{
+					unsafeWindow._openMultiBox(id);
+				}catch(err){GM_logError("_openMultiBox\n"+err);}
 			}
-			$('guildmultiboxmenue4').style.backgroundImage="url(" + unsafeWindow.imgpath + "multiscreen_reiter4.jpg)";
-			$('guildmultiboxheadline').innerHTML=unsafeWindow.guildmultibox_headline4;
-			unsafeWindow.hideDiv('guildnewsticker');
-			unsafeWindow.showDiv('transp9');
-			unsafeWindow.showDiv('guildmultibox');
-		}else{
-			unsafeWindow._openMultiBox(id);
-		}
-	};
+		}catch(err){GM_logError("openMultiBox\n"+err);}
+	});
 	$("guildmultiboxmenue4").setAttribute("onclick","openMultiBox(5)");
 
-	unsafeWindow._getGuildMembersResponse=unsafeWindow.getGuildMembersResponse;
-	unsafeWindow.getGuildMembersResponse = function(request){
-		unsafeWindow._getGuildMembersResponse(request);
-		if(request.readyState == 4 && request.status == 200){
-			var canddiv=Array.prototype.slice.call($("guildmultiboxcontent").getElementsByClassName("guildmemberlist_even")).concat(Array.prototype.slice.call($("guildmultiboxcontent").getElementsByClassName("guildmemberlist_uneven")));
-			var newdiv,newspan,newa;
-			for(var v=0;v<canddiv.length;v++){
-				newdiv=canddiv[v].children[1].firstElementChild;
-				var thisUser=/(.*?)&nbsp;/.exec(newdiv.innerHTML);
-				newdiv.innerHTML=newdiv.innerHTML.replace(thisUser[0],"");
-				newspan=createElement("span");
-				newspan.innerHTML="&nbsp;";
-				newdiv.insertBefore(newspan,newdiv.firstElementChild);
-				newa=createElement("a",{"class":"link2"});
-				newa.innerHTML=thisUser[1];
-				newdiv.insertBefore(newa,newdiv.firstElementChild);
-				newa.addEventListener("click",function(){
-					showShopframePage("http://s"+SERVER+"."+GAMEPAGES[COUNTRY]+"/stadt/stats.php?search=1&searchterm="+this.innerHTML);
-				},false);
-				//newdiv.insertBefore(igm(thisUser[1]),newdiv.firstElementChild);
+	unsafeOverwriteFunction("getGuildMembersResponse",function(request){
+		try{
+			unsafeWindow._getGuildMembersResponse(unsafeCloneObject(request));
+		}catch(err){GM_logError("_getGuildMembersResponse\n"+err);}
+		try{
+			if(request.readyState == 4 && request.status == 200){
+				var canddiv=Array.prototype.slice.call($("guildmultiboxcontent").getElementsByClassName("guildmemberlist_even")).concat(Array.prototype.slice.call($("guildmultiboxcontent").getElementsByClassName("guildmemberlist_uneven")));
+				var newdiv,newspan,newa;
+				for(var v=0;v<canddiv.length;v++){
+					newdiv=canddiv[v].children[1].firstElementChild;
+					var thisUser=/(.*?)&nbsp;/.exec(newdiv.innerHTML);
+					newdiv.innerHTML=newdiv.innerHTML.replace(thisUser[0],"");
+					newspan=createElement("span");
+					newspan.innerHTML="&nbsp;";
+					newdiv.insertBefore(newspan,newdiv.firstElementChild);
+					newa=createElement("a",{"class":"link2"});
+					newa.innerHTML=thisUser[1];
+					newdiv.insertBefore(newa,newdiv.firstElementChild);
+					newa.addEventListener("click",function(){
+						showShopframePage("http://s"+SERVER+"."+GAMEPAGES[COUNTRY]+"/stadt/stats.php?search=1&searchterm="+this.innerHTML);
+					},false);
+					//newdiv.insertBefore(igm(thisUser[1]),newdiv.firstElementChild);
+				}
+				newdiv=null;newspan=null;newa=null;canddiv=null;
 			}
-			newdiv=null;newspan=null;newa=null;canddiv=null;
-		}
-	};
+		}catch(err){GM_logError("getGuildMembersResponse\n"+err);}
+	});
 	// Questhistory
-	unsafeWindow._showGuildQuestStatsResponse=unsafeWindow.showGuildQuestStatsResponse;
-	unsafeWindow.showGuildQuestStatsResponse = function(request,type,page,self){
-		unsafeWindow._showGuildQuestStatsResponse(request,type,page,self);
-		var result=checkRequest(request);
-		if(result&&result[0]!=0){
-			window.setTimeout(function(){
-				if(DEVMODE){ GM_log("showGuildQuestStatsResponse "+request+":"+type+"("+typeof type+"):"+page+"("+typeof page+"):"+self+"("+typeof self+")"); };
-
-				var newdiv=$("chg_guildqueststats");
-				newdiv.setAttribute("onchange","");
-				newdiv.addEventListener("change",function(){
-					var type=parseInt($("chg_guildqueststats").value,10);
-					if(type<4){
-						unsafeWindow.showGuildQuestStats(type,1,0);
-					}else{
-						showGuildQuestStatsLastDays(7);
-					}
-				},false);
-				createElement("option",{"value":"4"},newdiv,getText("stat_days7"));
-				if(type>3){
-					newdiv.value=type;
-					newdiv.nextElementSibling.style.display="none";
-				}
-
-				//todayStr=getDateStr(now,2,false);
-				var clubmemberLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog","[]"),"showGuildQuestStatsResponse/clubmemberLog",[]);
-// GM_log(print_r(clubmemberLog,"",true,"\n"));
-				for(var u=0;u<clubmemberLog.length;u++){
-					if(typeof clubmemberLog[u][0]!="string"){
-						clubmemberLog.splice(u,1);
-						u--;continue;
-					}
-					if(!clubmemberLog[u][1] instanceof Array){
-						clubmemberLog[u][1]=[];
-					}
-					for(var v=0;v<clubmemberLog[u][1].length;v++){
-// GM_log(u+" "+v+" "+implode(clubmemberLog[u][1][v]));
-						if((typeof clubmemberLog[u][0][v][0]!="string")||(typeof clubmemberLog[u][0][v][1]!="number")){
-							clubmemberLog[u][1].splice(v,1);
-							v--;continue;
+	unsafeOverwriteFunction("showGuildQuestStatsResponse",function(request,type,page,self){
+		try{
+			unsafeWindow._showGuildQuestStatsResponse(unsafeCloneObject(request),type,page,self);
+		}catch(err){GM_logError("_showGuildQuestStatsResponse\n"+err);}
+		try{
+			var result=checkRequest(request);
+			if(result&&result[0]!=0){
+				window.setTimeout(function(){
+					if(DEVMODE){ GM_log("showGuildQuestStatsResponse "+request+":"+type+"("+typeof type+"):"+page+"("+typeof page+"):"+self+"("+typeof self+")"); };
+	
+					var newdiv=$("chg_guildqueststats");
+					newdiv.setAttribute("onchange","");
+					newdiv.addEventListener("change",function(){
+						var type=parseInt($("chg_guildqueststats").value,10);
+						if(type<4){
+							unsafeWindow.showGuildQuestStats(type,1,0);
+						}else{
+							showGuildQuestStatsLastDays(7);
 						}
-						if(!clubmemberLog[u][1][v][2] instanceof Array){
-							clubmemberLog[u][1][v][2]=[];
+					},false);
+					createElement("option",{"value":"4"},newdiv,getText("stat_days7"));
+					if(type>3){
+						newdiv.value=type;
+						newdiv.nextElementSibling.style.display="none";
+					}
+	
+					//todayStr=getDateStr(now,2,false);
+					var clubmemberLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog","[]"),"showGuildQuestStatsResponse/clubmemberLog",[]);
+					for(var u=0;u<clubmemberLog.length;u++){
+						if(typeof clubmemberLog[u][0]!="string"){
+							clubmemberLog.splice(u,1);
+							u--;continue;
 						}
-						if(clubmemberLog[u][1][v][0]=="0"){ continue; }
-						// join old data
-						var w=null;
-						if(clubmemberLog[u][1][v][0].match(/^\d+\.\d+\.\d+$/)){
-							if(now-getTime(clubmemberLog[u][1][v][0])>604800){ // 1 week (7*86400)
-								for(var x=0;x<clubmemberLog[u][1].length;x++){
-									if(clubmemberLog[u][1][x][0]==clubmemberLog[u][1][v][0].replace(/^(\d+\.)/,"")){
-										w=x; break;
+						if(!clubmemberLog[u][1] instanceof Array){
+							clubmemberLog[u][1]=[];
+						}
+						for(var v=0;v<clubmemberLog[u][1].length;v++){
+							if((typeof clubmemberLog[u][0][v][0]!="string")||(typeof clubmemberLog[u][0][v][1]!="number")){
+								clubmemberLog[u][1].splice(v,1);
+								v--;continue;
+							}
+							if(!clubmemberLog[u][1][v][2] instanceof Array){
+								clubmemberLog[u][1][v][2]=[];
+							}
+							if(clubmemberLog[u][1][v][0]=="0"){ continue; }
+							// join old data
+							var w=null;
+							if(clubmemberLog[u][1][v][0].match(/^\d+\.\d+\.\d+$/)){
+								if(now-getTime(clubmemberLog[u][1][v][0])>604800){ // 1 week (7*86400)
+									for(var x=0;x<clubmemberLog[u][1].length;x++){
+										if(clubmemberLog[u][1][x][0]==clubmemberLog[u][1][v][0].replace(/^(\d+\.)/,"")){
+											w=x; break;
+										}
+									}
+									if(w==null){
+										w=clubmemberLog[u].length;
+										clubmemberLog[u].push([0,[]]);
+									}							}
+							}else if(clubmemberLog[u][1][v][0].match(/^\d+\.\d+$/)){
+								if(now-getTime(clubmemberLog[u][1][v][0])>16070400){ // 6 months (6*31*86400)
+									for(var x=0;x<clubmemberLog[u].length;x++){
+										if(clubmemberLog[u][1][x][0]==clubmemberLog[u][1][v][0].replace(/^(\d+\.)/,"")){
+											w=x; break;
+										}
+									}
+									if(w==null){
+										w=clubmemberLog[u].length;
+										clubmemberLog[u].push([0,[]]);
 									}
 								}
-								if(w==null){
-									w=clubmemberLog[u].length;
-									clubmemberLog[u].push([0,[]]);
-								}							}
-						}else if(clubmemberLog[u][1][v][0].match(/^\d+\.\d+$/)){
-							if(now-getTime(clubmemberLog[u][1][v][0])>16070400){ // 6 months (6*31*86400)
-								for(var x=0;x<clubmemberLog[u].length;x++){
-									if(clubmemberLog[u][1][x][0]==clubmemberLog[u][1][v][0].replace(/^(\d+\.)/,"")){
-										w=x; break;
+							}
+							if(w!=null){
+								clubmemberLog[u][1][w][1] += clubmemberLog[u][1][v][1];
+								for(var x=0;x<clubmemberLog[u][1][v][2].length;x++){
+									for(var y=0;y<clubmemberLog[u][1][w][2].length;y++){
+										if(clubmemberLog[u][1][v][2][x]==clubmemberLog[u][1][w][2][y]){
+											break;
+										}
+									}
+									if(clubmemberLog[u][1][w][2][y]){
+										clubmemberLog[u][1][w][2][y][1] += clubmemberLog[u][1][v][2][x][1];
+									} else {
+										clubmemberLog[u][1][w][2].push(clubmemberLog[u][1][v][2][x]);
 									}
 								}
-								if(w==null){
-									w=clubmemberLog[u].length;
-									clubmemberLog[u].push([0,[]]);
-								}
+								clubmemberLog[u][1].splice(v,1);
+								clubmemberLog[u][1].sort(sortObjFunctions["date"]);
 							}
-						}
-						if(w!=null){
-							clubmemberLog[u][1][w][1] += clubmemberLog[u][1][v][1];
-							for(var x=0;x<clubmemberLog[u][1][v][2].length;x++){
-								for(var y=0;y<clubmemberLog[u][1][w][2].length;y++){
-									if(clubmemberLog[u][1][v][2][x]==clubmemberLog[u][1][w][2][y]){
-										break;
-									}
-								}
-								if(clubmemberLog[u][1][w][2][y]){
-									clubmemberLog[u][1][w][2][y][1] += clubmemberLog[u][1][v][2][x][1];
-								} else {
-									clubmemberLog[u][1][w][2].push(clubmemberLog[u][1][v][2][x]);
-								}
-							}
-							clubmemberLog[u][1].splice(v,1);
-							clubmemberLog[u][1].sort(sortObjFunctions["date"]);
 						}
 					}
-				}
-
-				var clubmembers=new Object();
-				var clubmemberLogSum=new Object();
-				for(var i=0;i<clubmemberLog.length;i++){
-					var u=clubmemberLog[i][0];
-					clubmemberLogSum[u]=[0,{}];
-					for(var j=0;j<clubmemberLog[i][1].length;j++){
-						var v=clubmemberLog[i][1][j][0];
-						if(v==todayStr){ continue; }
-						clubmemberLogSum[u][0] += clubmemberLog[i][1][j][1];
-						for(var k=0;k<clubmemberLog[i][1][j][2].length;k++){
-							var w=clubmemberLog[i][1][j][2][k][0];
-							if(clubmemberLogSum[u][1][w]==undefined){
-								clubmemberLogSum[u][1][w]=0;
-								clubmemberLogSum[u][1].sortObj(sortObjFunctions["productId"]);
+	
+					var clubmembers=new Object();
+					var clubmemberLogSum=new Object();
+					for(var i=0;i<clubmemberLog.length;i++){
+						var u=clubmemberLog[i][0];
+						clubmemberLogSum[u]=[0,{}];
+						for(var j=0;j<clubmemberLog[i][1].length;j++){
+							var v=clubmemberLog[i][1][j][0];
+							if(v==todayStr){ continue; }
+							clubmemberLogSum[u][0] += clubmemberLog[i][1][j][1];
+							for(var k=0;k<clubmemberLog[i][1][j][2].length;k++){
+								var w=clubmemberLog[i][1][j][2][k][0];
+								if(clubmemberLogSum[u][1][w]==undefined){
+									clubmemberLogSum[u][1][w]=0;
+									clubmemberLogSum[u][1].sortObj(sortObjFunctions["productId"]);
+								}
+								clubmemberLogSum[u][1][w] += clubmemberLog[i][1][j][2][k][1];
 							}
-							clubmemberLogSum[u][1][w] += clubmemberLog[i][1][j][2][k][1];
 						}
 					}
-				}
-				var container=$("guildmultiboxcontent");
-				var newtable,newtable1,newtr,newtr1,newtd,newdiv1,cell;
-				for(var v=0;v<container.childElementCount;v++){
-					if(container.children[v].id.match(/^line\d+$/)){
-						var lineNr=parseInt(/^line(\d+)$/.exec(container.children[v].id)[1],10);
-
-						var thisUser=container.children[v].children[1].innerHTML;
-						var thisPoints=parseInt(container.children[v].children[3].innerHTML,10);
-						container.children[v].children[3].innerHTML=numberFormat(thisPoints);
-
-						clubmembers[thisUser]=[thisPoints,{}];
-
-						// reformat of info bubble
-						cell=$("bartt"+lineNr);
-						cell.style.whiteSpace="nowrap";
-						cell.style.left="";
-						cell.style.right="30px";
-						for(var w=0;w+1<cell.childElementCount;w++){
-							if(cell.children[w].style.clear == "both"){ continue; }
-							var help=parseInt(cell.children[w].getAttribute("class").replace(/kp/,""),10);
-							var help1=parseInt(cell.children[++w].innerHTML.replace(/&nbsp;/g,""),10);
-							clubmembers[thisUser][1][help]=help1;
-						}
-						cell.innerHTML="";
-
-						clubmembers[thisUser][1].sortObj(sortObjFunctions["productId"]);
-
-						newtable=createElement("table",{"cellspacing":"0","style":"display:inline-block;vertical-align:top;"},cell);
-						var c=2;
-						for(var w in clubmembers[thisUser][1]){
-							if(!clubmembers[thisUser][1].hasOwnProperty(w)){ continue; }
-							if(c==2){
-								c=0;
-								newtr=createElement("tr",{},newtable);
+					var container=$("guildmultiboxcontent");
+					var newtable,newtable1,newtr,newtr1,newtd,newdiv1,cell;
+					for(var v=0;v<container.childElementCount;v++){
+						if(container.children[v].id.match(/^line\d+$/)){
+							var lineNr=parseInt(/^line(\d+)$/.exec(container.children[v].id)[1],10);
+	
+							var thisUser=container.children[v].children[1].innerHTML;
+							var thisPoints=parseInt(container.children[v].children[3].innerHTML,10);
+							container.children[v].children[3].innerHTML=numberFormat(thisPoints);
+	
+							clubmembers[thisUser]=[thisPoints,{}];
+	
+							// reformat of info bubble
+							cell=$("bartt"+lineNr);
+							cell.style.whiteSpace="nowrap";
+							cell.style.left="";
+							cell.style.right="30px";
+							for(var w=0;w+1<cell.childElementCount;w++){
+								if(cell.children[w].style.clear == "both"){ continue; }
+								var help=parseInt(cell.children[w].getAttribute("class").replace(/kp/,""),10);
+								var help1=parseInt(cell.children[++w].innerHTML.replace(/&nbsp;/g,""),10);
+								clubmembers[thisUser][1][help]=help1;
 							}
-							c++;
-							newtd=createElement("td",{"class":"link hoverBgDarkgreen","style":"text-align:right;padding-right:5px;","prod":w},newtr);
-							newtd.addEventListener("mouseover",function(event){
-								showGoToMarketToolTip(event,this.getAttribute("prod"));
-							},false);
-							newtd.addEventListener("click",function(){
-								showMarket(this.getAttribute("prod"));
-							},false);
-							produktPic(0,w,newtd).style.cssFloat="left";
-							createElement("span",{},newtd,numberFormat(clubmembers[thisUser][1][w]));
-						}
-
-						var clubmemberLogId = null;
-						for(var x=0;x<clubmemberLog.length;x++){
-							if(clubmemberLog[x][0]==thisUser){
-								clubmemberLogId=x; break;
-							}
-						}
-						if(!clubmemberLog[clubmemberLogId]){
-							clubmemberLogId=clubmemberLog.length;
-							clubmemberLog.push([thisUser,["0",0,[]]]);
-							clubmemberLogSum[thisUser]=clubmembers[thisUser];
-						}
-						if(type==2){ // all quests
-							var clubmemberLogDateId = null;
-							for(var x=0;x<clubmemberLog[clubmemberLogId][1].length;x++){
-								if(clubmemberLog[clubmemberLogId][1][x][0]==todayStr){
-									clubmemberLogDateId=x; break;
-								}
-							}
-							if(!clubmemberLog[clubmemberLogId][1][clubmemberLogDateId]){
-								clubmemberLogDateId=clubmemberLog[clubmemberLogId][1].length;
-								clubmemberLog[clubmemberLogId][1].push([todayStr,0,[]]);
-							}
-							clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][0]=thisPoints-clubmemberLogSum[thisUser][0];
+							cell.innerHTML="";
+	
+							clubmembers[thisUser][1].sortObj(sortObjFunctions["productId"]);
+	
+							newtable=createElement("table",{"cellspacing":"0","style":"display:inline-block;vertical-align:top;"},cell);
+							var c=2;
 							for(var w in clubmembers[thisUser][1]){
 								if(!clubmembers[thisUser][1].hasOwnProperty(w)){ continue; }
-								var help=clubmembers[thisUser][1][w]-(clubmemberLogSum[thisUser][1][w]==undefined?0:clubmemberLogSum[thisUser][1][w]);
-								for(var x=0;x<clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1].length;x++){
-									if(clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x][0]==w){
-										break;
-									}
-								}								
-								if(help>0){
-									if(!clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x]){
-										clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x].push([w,help]);
-										clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1].sort(sortObjFunctions["productId"]);
-									}else{
-										clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x][1]=help;
-									}
+								if(c==2){
+									c=0;
+									newtr=createElement("tr",{},newtable);
+								}
+								c++;
+								newtd=createElement("td",{"class":"link hoverBgDarkgreen","style":"text-align:right;padding-right:5px;","prod":w},newtr);
+								newtd.addEventListener("mouseover",function(event){
+									showGoToMarketToolTip(event,this.getAttribute("prod"));
+								},false);
+								newtd.addEventListener("click",function(){
+									showMarket(this.getAttribute("prod"));
+								},false);
+								produktPic(0,w,newtd).style.cssFloat="left";
+								createElement("span",{},newtd,numberFormat(clubmembers[thisUser][1][w]));
+							}
+	
+							var clubmemberLogId = null;
+							for(var x=0;x<clubmemberLog.length;x++){
+								if(clubmemberLog[x][0]==thisUser){
+									clubmemberLogId=x; break;
 								}
 							}
-							clubmemberLog[clubmemberLogId][1].sort(sortObjFunctions["date"]);
-						}
-						newtable=createElement("table",{"cellspacing":"0","style":"display:inline-block;margin-left:5px;vertical-align:top;"},cell);
-						var sum=0;
-						for(var i=0;i<clubmemberLog[clubmemberLogId][1].length;i++){
-							sum += clubmemberLog[clubmemberLogId][1][i][1];
-							if(clubmemberLog[clubmemberLogId][1][0]=="0"){ continue; }
-							newtr=createElement("tr",{"class":"hoverBgDarkgreen"});
-							newtable.insertBefore(newtr,newtable.firstElementChild);
-							newdiv=createElement("div");
-							newtable1=createElement("table",{"cellspacing":"0","style":"display:inline-block;vertical-align:top;"},newdiv);
-							var c=2;
-							//var pkte=0;
-								for(var j=0;j<clubmemberLog[clubmemberLogId][1][i][2].length;j++){
-									var prod=clubmemberLog[clubmemberLogId][1][i][2][j][0];
-									var amount=clubmemberLog[clubmemberLogId][1][i][2][j][1];
-									if(c==2){
-										c=0;
-										newtr1=createElement("tr",{},newtable1);
-									}
-									newtd=createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr1);
-									c++;
-									produktPic(0,prod,newtd).style.cssFloat="left";
-									createElement("span",{},newtd,numberFormat(amount));
-									//pkte += POINTS[0][prod]*clubmemberLog[thisUser][w][1][prod];
-								}
-								//createElement("div",{},newdiv,numberFormat(0.05*Math.round(pkte)));
-							if(newtable1.childElementCount>0){
-								newtr.setAttribute("mouseOverText",newdiv.innerHTML);
-								newtr.addEventListener("mouseover",function(event){ toolTip.show(event,this.getAttribute("mouseOverText")); },false);
+							if(!clubmemberLog[clubmemberLogId]){
+								clubmemberLogId=clubmemberLog.length;
+								clubmemberLog.push([thisUser,["0",0,[]]]);
+								clubmemberLogSum[thisUser]=clubmembers[thisUser];
 							}
-							createElement("td",{"style":"text-align:right;padding-right:5px;border-left:1px solid black;"},newtr,clubmemberLog[clubmemberLogId][1][i][0]);
-							createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr,numberFormat(sum));
-							createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr,(clubmemberLog[clubmemberLogId][1][i][1]>0)?("+"+numberFormat(clubmemberLog[clubmemberLogId][1][i][1])):"");
+							if(type==2){ // all quests
+								var clubmemberLogDateId = null;
+								for(var x=0;x<clubmemberLog[clubmemberLogId][1].length;x++){
+									if(clubmemberLog[clubmemberLogId][1][x][0]==todayStr){
+										clubmemberLogDateId=x; break;
+									}
+								}
+								if(!clubmemberLog[clubmemberLogId][1][clubmemberLogDateId]){
+									clubmemberLogDateId=clubmemberLog[clubmemberLogId][1].length;
+									clubmemberLog[clubmemberLogId][1].push([todayStr,0,[]]);
+								}
+								clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][0]=thisPoints-clubmemberLogSum[thisUser][0];
+								for(var w in clubmembers[thisUser][1]){
+									if(!clubmembers[thisUser][1].hasOwnProperty(w)){ continue; }
+									var help=clubmembers[thisUser][1][w]-(clubmemberLogSum[thisUser][1][w]==undefined?0:clubmemberLogSum[thisUser][1][w]);
+									for(var x=0;x<clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1].length;x++){
+										if(clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x][0]==w){
+											break;
+										}
+									}								
+									if(help>0){
+										if(!clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x]){
+											clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x].push([w,help]);
+											clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1].sort(sortObjFunctions["productId"]);
+										}else{
+											clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x][1]=help;
+										}
+									}
+								}
+								clubmemberLog[clubmemberLogId][1].sort(sortObjFunctions["date"]);
+							}
+							newtable=createElement("table",{"cellspacing":"0","style":"display:inline-block;margin-left:5px;vertical-align:top;"},cell);
+							var sum=0;
+							for(var i=0;i<clubmemberLog[clubmemberLogId][1].length;i++){
+								sum += clubmemberLog[clubmemberLogId][1][i][1];
+								if(clubmemberLog[clubmemberLogId][1][0]=="0"){ continue; }
+								newtr=createElement("tr",{"class":"hoverBgDarkgreen"});
+								newtable.insertBefore(newtr,newtable.firstElementChild);
+								newdiv=createElement("div");
+								newtable1=createElement("table",{"cellspacing":"0","style":"display:inline-block;vertical-align:top;"},newdiv);
+								var c=2;
+								//var pkte=0;
+									for(var j=0;j<clubmemberLog[clubmemberLogId][1][i][2].length;j++){
+										var prod=clubmemberLog[clubmemberLogId][1][i][2][j][0];
+										var amount=clubmemberLog[clubmemberLogId][1][i][2][j][1];
+										if(c==2){
+											c=0;
+											newtr1=createElement("tr",{},newtable1);
+										}
+										newtd=createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr1);
+										c++;
+										produktPic(0,prod,newtd).style.cssFloat="left";
+										createElement("span",{},newtd,numberFormat(amount));
+										//pkte += POINTS[0][prod]*clubmemberLog[thisUser][w][1][prod];
+									}
+									//createElement("div",{},newdiv,numberFormat(0.05*Math.round(pkte)));
+								if(newtable1.childElementCount>0){
+									newtr.setAttribute("mouseOverText",newdiv.innerHTML);
+									newtr.addEventListener("mouseover",function(event){ toolTip.show(event,this.getAttribute("mouseOverText")); },false);
+								}
+								createElement("td",{"style":"text-align:right;padding-right:5px;border-left:1px solid black;"},newtr,clubmemberLog[clubmemberLogId][1][i][0]);
+								createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr,numberFormat(sum));
+								createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr,(clubmemberLog[clubmemberLogId][1][i][1]>0)?("+"+numberFormat(clubmemberLog[clubmemberLogId][1][i][1])):"");
+							}
 						}
 					}
-				}
-				cell=null;newtable=null;newtable1=null;newtr=null;newtr1=null;newtd=null;newdiv1=null;
-				GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog",implode(clubmemberLog));
-				container=null;newdiv=null;
-			},0);
-		}
-	};
-/*!!*/
+					cell=null;newtable=null;newtable1=null;newtr=null;newtr1=null;newtd=null;newdiv1=null;
+					GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog",implode(clubmemberLog));
+					container=null;newdiv=null;
+				},0);
+			}
+		}catch(err){GM_logError("showGuildQuestStatsResponse\n"+err);}
+	});
 	// New mode for questhistory
 	function showGuildQuestStatsLastDays(days){
 	//GM_log("showGuildQuestStatsLastDays "+days);
@@ -13018,10 +13027,9 @@ return false;
 	}
 
 	// Clubquest reformat
-	unsafeWindow._setGuildQuestRun=unsafeWindow.setGuildQuestRun;
-	unsafeWindow.setGuildQuestRun = function(r){
+	unsafeOverwriteFunction("setGuildQuestRun",function(r){
 		try{
-			unsafeWindow._setGuildQuestRun(r);
+			unsafeWindow._setGuildQuestRun(unsafeCloneObject(r));
 		}catch(err){GM_logError("_setGuildQuestRun\n"+err);}
 		try{
 			if(!$("guildquestboxBerater")){
@@ -13039,12 +13047,11 @@ return false;
 				cand=null;newdiv=null;
 			}
 		}catch(err){GM_logError("setGuildQuestRun\n"+err);}
-	};
+	});
 	// Clubquest product submitting
-	unsafeWindow._commitboxguild=unsafeWindow.commitboxguild;
-	unsafeWindow.commitboxguild = function(c, a, d, b, e){
+	unsafeOverwriteFunction("commitboxguild",function(c,a,d,b,e){
 		try{
-			unsafeWindow._commitboxguild(c, a, d, b, e);
+			unsafeWindow._commitboxguild(c,a,d,b,e);
 		}catch(err){GM_logError("_commitboxguild\n"+err);}
 		try{
 			if(!$("commitboxguildBerater")){
@@ -13068,77 +13075,81 @@ return false;
 				}
 			}
 		}catch(err){GM_logError("commitboxguild\n"+err);}
-	};
+	});
 
 	/*
 	// wanna see all clubhouses ? ^^
-	unsafeWindow._setBeauties=unsafeWindow.setBeauties;
-	unsafeWindow.setBeauties = function setBeauties(){
+	unsafeOverwriteFunction("setBeauties",function setBeauties(){
 		for(var v=0;v<15;v++){ // <- edit the 18 (=max) to see the steps
 			unsafeWindow.guilddata[4][v]=v+1;
 		}
 		unsafeWindow._setBeauties();
-	}
+	});
 	*/
 
 	// Friendslist
-	unsafeWindow._showfriendslist=unsafeWindow.showfriendslist;
-	unsafeWindow.showfriendslist = function(status){
-		unsafeWindow._showfriendslist(status);
-		var cand=$("friendslistcon").getElementsByClassName("friendslinename");
-		// for(var v=0;v<cand.length;v++){
-		// 	var player=cand[v].getElementsByTagName("div")[0].innerHTML.replace(/&nbsp;.*/g,"");
-		// 	newspan=vertrag(player,cand[v].nextSibling);
-		// }
-		cand=$("friendslistcon").getElementsByTagName("img");
-		for(var v=0;v<cand.length;v++){
-			if(cand[v].getAttribute("src").match(/\/guild\/1\.gif/)){
-				cand[v].addEventListener("mouseover",function(event){ toolTip.show(event,unsafeWindow.guildrank[1]); },false);
-			}else if(cand[v].getAttribute("src").match(/\/guild\/2\.gif/)){
-				cand[v].addEventListener("mouseover",function(event){ toolTip.show(event,unsafeWindow.guildrank[2]); },false);
-			}else if(cand[v].getAttribute("src").match(/\/star\.png/)){
-				cand[v].addEventListener("mouseover",function(event){ toolTip.show(event,unsafeWindow.lng_t_premium); },false);
+	unsafeOverwriteFunction("showfriendslist",function(status){
+		try{
+			unsafeWindow._showfriendslist(status);
+		}catch(err){GM_logError("_showfriendslist\n"+err);}
+		try{
+			var cand=$("friendslistcon").getElementsByClassName("friendslinename");
+			// for(var v=0;v<cand.length;v++){
+			// 	var player=cand[v].getElementsByTagName("div")[0].innerHTML.replace(/&nbsp;.*/g,"");
+			// 	newspan=vertrag(player,cand[v].nextSibling);
+			// }
+			cand=$("friendslistcon").getElementsByTagName("img");
+			for(var v=0;v<cand.length;v++){
+				if(cand[v].getAttribute("src").match(/\/guild\/1\.gif/)){
+					cand[v].addEventListener("mouseover",function(event){ toolTip.show(event,unsafeWindow.guildrank[1]); },false);
+				}else if(cand[v].getAttribute("src").match(/\/guild\/2\.gif/)){
+					cand[v].addEventListener("mouseover",function(event){ toolTip.show(event,unsafeWindow.guildrank[2]); },false);
+				}else if(cand[v].getAttribute("src").match(/\/star\.png/)){
+					cand[v].addEventListener("mouseover",function(event){ toolTip.show(event,unsafeWindow.lng_t_premium); },false);
+				}
 			}
-		}
-		cand=null;
-	};
+			cand=null;
+		}catch(err){GM_logError("showfriendslist\n"+err);}
+	});
 
 	// Friendpage loaded
 	err_trace="Friendpage";
-	unsafeWindow._setFriendInfoContent=unsafeWindow.setFriendInfoContent;
-	unsafeWindow.setFriendInfoContent = function(status,sel){
-		unsafeWindow._setFriendInfoContent(status,sel);
-		if(status == 1){
-			var container=$("friendlistinfoblock");
-			var cand=container.getElementsByTagName("li");
-			var nextQuest=parseInt(cand[5].children[1].innerHTML,10)+1;
-			if(QUESTS["main"]["1"][nextQuest]){
-				cand[5].setAttribute("nextQuest",nextQuest);
-				cand[5].addEventListener("mouseover",function(event){
-					var nextQuest=this.getAttribute("nextQuest");
-					var str="<div style='border-bottom:1px solid black;'>"+getText("quest_farm")+"&nbsp;"+nextQuest+"</div>";
-					for(var i=0;i<QUESTS["main"]["1"][nextQuest][0].length;i++){
-						if(typeof QUESTS["main"]["1"][nextQuest][0][i][0]=="object"){
-							for(var j=0;j<QUESTS["main"]["1"][nextQuest][0][i].length;j++){					
-								str += "<div>*"+numberFormat(QUESTS["main"]["1"][nextQuest][0][i][j][2])+"&nbsp;"+prodName[QUESTS["main"]["1"][nextQuest][0][i][j][0]][QUESTS["main"]["1"][nextQuest][0][i][j][1]]+"</div>";
+	unsafeOverwriteFunction("setFriendInfoContent",function(status,sel){
+		try{
+			unsafeWindow._setFriendInfoContent(status,sel);
+		}catch(err){GM_logError("_setFriendInfoContent\n"+err);}
+		try{
+			if(status == 1){
+				var container=$("friendlistinfoblock");
+				var cand=container.getElementsByTagName("li");
+				var nextQuest=parseInt(cand[5].children[1].innerHTML,10)+1;
+				if(QUESTS["main"]["1"][nextQuest]){
+					cand[5].setAttribute("nextQuest",nextQuest);
+					cand[5].addEventListener("mouseover",function(event){
+						var nextQuest=this.getAttribute("nextQuest");
+						var str="<div style='border-bottom:1px solid black;'>"+getText("quest_farm")+"&nbsp;"+nextQuest+"</div>";
+						for(var i=0;i<QUESTS["main"]["1"][nextQuest][0].length;i++){
+							if(typeof QUESTS["main"]["1"][nextQuest][0][i][0]=="object"){
+								for(var j=0;j<QUESTS["main"]["1"][nextQuest][0][i].length;j++){					
+									str += "<div>*"+numberFormat(QUESTS["main"]["1"][nextQuest][0][i][j][2])+"&nbsp;"+prodName[QUESTS["main"]["1"][nextQuest][0][i][j][0]][QUESTS["main"]["1"][nextQuest][0][i][j][1]]+"</div>";
+								}
+							}else{
+								str += "<div>"+numberFormat(QUESTS["main"]["1"][nextQuest][0][i][2])+"&nbsp;"+prodName[QUESTS["main"]["1"][nextQuest][0][i][0]][QUESTS["main"]["1"][nextQuest][0][i][1]]+"</div>";
 							}
-						}else{
-							str += "<div>"+numberFormat(QUESTS["main"]["1"][nextQuest][0][i][2])+"&nbsp;"+prodName[QUESTS["main"]["1"][nextQuest][0][i][0]][QUESTS["main"]["1"][nextQuest][0][i][1]]+"</div>";
 						}
-					}
-					
-					toolTip.show(event,str);
-				},false);
+						
+						toolTip.show(event,str);
+					},false);
+				}
+				cand=null;container=null;
 			}
-			cand=null;container=null;
-		}
-	};
+		}catch(err){GM_logError("setFriendInfoContent\n"+err);}
+	});
 
 	// Farmis
 	err_trace="Farmis";
 	// Buylist opening
-	unsafeWindow._showCart=unsafeWindow.showCart;
-	unsafeWindow.showCart = function(farmi,type){
+	unsafeOverwriteFunction("showCart",function(farmi,type){
 	try{
 		unsafeWindow._showCart(farmi,type);
 	}catch(err){GM_logError("_showCart\n"+err);}
@@ -13326,10 +13337,9 @@ return false;
 		}
 		buildTable();
 	}catch(err){GM_logError("showCart\n"+err);}	
-	};
+	});
 	// Farmis displayed
-	unsafeWindow._setFarmis=unsafeWindow.setFarmis;
-	unsafeWindow.setFarmis = function(){
+	unsafeOverwriteFunction("setFarmis",function(){
 		try{
 			unsafeWindow._setFarmis();
 		}catch(err){GM_logError("_setFarmis\n"+err);}
@@ -13338,20 +13348,23 @@ return false;
 			calcTotalFarmis();
 			doFarmis();
 		}catch(err){GM_logError("setFarmis\n"+err);}	
-	};
+	});
 
 	// Reallocate Buildings
 	err_trace="Reallocate Buildings";
-	unsafeWindow._reallocateBuilding=unsafeWindow.reallocateBuilding;
-	unsafeWindow.reallocateBuilding = function(set){
-		unsafeWindow._reallocateBuilding(set);
-		//reallocateBuilding('farm1,zone1,farm2,zone2');
-		var building1=(6*set[0])+set[1];
-		var building2=(6*set[2])+set[3];
-		zones.swap(building1,building2);		
-		unsafeData.reallocateBuildingSet=[building1,building2];
-		raiseEvent("gameReallocateBuilding");
-	};
+	unsafeOverwriteFunction("reallocateBuilding",function(set){
+		try{
+			unsafeWindow._reallocateBuilding(unsafeCloneObject(set));
+		}catch(err){GM_logError("_reallocateBuilding\n"+err);}
+		try{
+			//reallocateBuilding('farm1,zone1,farm2,zone2');
+			var building1=(6*set[0])+set[1];
+			var building2=(6*set[2])+set[3];
+			zones.swap(building1,building2);		
+			unsafeData.reallocateBuildingSet=[building1,building2];
+			raiseEvent("gameReallocateBuilding");
+		}catch(err){GM_logError("reallocateBuilding\n"+err);}
+	});
 	
 	// Farmersmarket
 	function doFarmersMarketData(){
@@ -13514,15 +13527,14 @@ return false;
 		}catch(err){GM_logError("doFarmersMarketData ("+err_trace+")\n"+err);}
 	};
 	if(unsafeWindow.farmersmarket_data){ doFarmersMarketData(); }
-	unsafeWindow._farmersMarketHandler=unsafeWindow.farmersMarketHandler;
-	unsafeWindow.farmersMarketHandler = function(response){
+	unsafeOverwriteFunction("farmersMarketHandler",function(response){
 		try{
-			unsafeWindow._farmersMarketHandler(response);
+			unsafeWindow._farmersMarketHandler(unsafeCloneObject(response));
 		}catch(err){GM_logError("_farmersMarketHandler\n"+err);}
 		try{
 			doFarmersMarketData()
-		}catch(err){GM_logError("farmersMarketHandler ("+err_trace+")\n"+err);}
-	}
+		}catch(err){GM_logError("farmersMarketHandler\n"+err);}
+	});
 	function doFarmersMarket(){
 		try{
 			var div,div1,divZone;
@@ -13572,17 +13584,15 @@ return false;
 		}catch(err){GM_logError("doFarmersMarket\n"+err);}
 	}
 	if($("farmersmarket_pos1")){ doFarmersMarket(); }
-	unsafeWindow._setFarmersMarket=unsafeWindow.setFarmersMarket;
-	unsafeWindow.setFarmersMarket = function(){
+	unsafeOverwriteFunction("setFarmersMarket",function(){
 		try{
 			unsafeWindow._setFarmersMarket();
 		}catch(err){GM_logError("_setFarmersMarket\n"+err);}
 		try{
 			doFarmersMarket();
 		}catch(err){GM_logError("setFarmersMarket\n"+err);}
-	};
-	unsafeWindow._initFlowerArea=unsafeWindow.initFlowerArea;
-	unsafeWindow.initFlowerArea = function(){
+	});
+	unsafeOverwriteFunction("initFlowerArea",function(){
 		try{
 			unsafeWindow._initFlowerArea();
 		}catch(err){GM_logError("_initFlowerArea\n"+err);}
@@ -13590,29 +13600,26 @@ return false;
 			showLagerZeitZiel("farmersmarket-1");
 			raiseEvent("gameFarmersmarketOpened1");
 		}catch(err){GM_logError("initFlowerArea\n"+err);}
-	};
-	unsafeWindow._closeFlowerArea=unsafeWindow.closeFlowerArea;
-	unsafeWindow.closeFlowerArea = function(){
+	});
+	unsafeOverwriteFunction("closeFlowerArea",function(){
 		try{
 			unsafeWindow._closeFlowerArea();
 		}catch(err){GM_logError("_closeFlowerArea\n"+err);}
 		try{
 			hideLagerZeitZiel("farmersmarket-1");
 		}catch(err){GM_logError("closeFlowerArea\n"+err);}
-	};
-	unsafeWindow._initNursery=unsafeWindow.initNursery;
-	unsafeWindow.initNursery = function(){
+	});
+	unsafeOverwriteFunction("initNursery",function(){
 		try{
 			unsafeWindow._initNursery();
 		}catch(err){GM_logError("_initNursery\n"+err);}
 		try{
 			raiseEvent("gameFarmersmarketOpened2");
 		}catch(err){GM_logError("initNursery\n"+err);}
-	};
-	unsafeWindow._dialogNursery=unsafeWindow.dialogNursery;
-	unsafeWindow.dialogNursery = function(mode, c, t, h){
+	});
+	unsafeOverwriteFunction("dialogNursery",function(mode,c,t,h){
 		try{
-			unsafeWindow._dialogNursery(mode, c, t, h);
+			unsafeWindow._dialogNursery(mode,c,t,h);
 		}catch(err){GM_logError("_dialogNursery\n"+err);}
 		try{
 			switch(mode){
@@ -13620,18 +13627,17 @@ return false;
 			case "production_commit": raiseEvent("gameFarmersmarketDialogCommit");
 			}
 		}catch(err){GM_logError("dialogNursery\n"+err);}
-	};
-	unsafeWindow._dialogFlowerArea=unsafeWindow.dialogFlowerArea;
-	unsafeWindow.dialogFlowerArea = function(mode, l){
+	});
+	unsafeOverwriteFunction("dialogFlowerArea",function(mode,l){
 		try{
-			unsafeWindow._dialogFlowerArea(mode, l);
+			unsafeWindow._dialogFlowerArea(mode,l);
 		}catch(err){GM_logError("_dialogFlowerArea\n"+err);}
 		try{
 			switch(mode){
 			case "autoplant": raiseEvent("gameFarmersmarketDialogStart");
 			}
 		}catch(err){GM_logError("dialogFlowerArea\n"+err);}
-	};
+	});
 	// events forestry ==============================================================================
 	err_trace="events forestry";
 
@@ -13658,8 +13664,7 @@ return false;
 	forestry_area_pid       : tree id {1,2,3,...}
 	*/
 /*
-	unsafeWindow._forestryAjaxAction=unsafeWindow.forestryAjaxAction;
-	unsafeWindow.forestryAjaxAction = function(action,position,pid,slot){
+	unsafeOverwriteFunction("forestryAjaxAction",function(action,position,pid,slot){
 		// GM_log("forestryAjaxAction action="+action+" position="+position+" pid="+pid+" slot="+slot);
 		// GM_log("currentslot="+unsafeWindow.currentslot);
 		// open menu again
@@ -13675,190 +13680,189 @@ return false;
 			}
 		}
 		unsafeWindow._forestryAjaxAction(action,position,pid,slot);
-	}
+	});
 */
-	unsafeWindow._initForestryResponse=unsafeWindow.initForestryResponse;
-	unsafeWindow.initForestryResponse = function(request, a, C, r, J){
-	try{
- 	if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","initForestryResponse"); }
-		unsafeWindow._initForestryResponse(request, a, C, r, J);
-		// initForestryResponse(request,uprack,upmenu,action,pos,tutorialstep,position);
-		var result = checkRequest(request);
-		if(result && result[0]!=0){
-			unsafeWindow.farm=""; //Hack for the scripts
-			unsafeWindow.city=""; //Hack for the scripts
-			// GM_log("forestry: result:\n"+implode(result));
-			if(unsafeWindow.forestry_unlock){
-				try{
-					/* forestry_production_products{stock}{iProd}
-					{0} = 36000 // Time
-					{1}{1}{1} = 30 //points you get with harwisting this product
-					{1}{1}{2} = 1 //amount it will produce
-					{1}{1}{3} = 1 //stock number
-					{1}{1}{4}{0} = 1 //campain number after which it can be used
-					{1}{1}{4}{1} = 3 //quest number after which it can be used
-					{1}{1}{5} = 21 //What can i make of this: stock 2 =[{0:product,1:amount}]; stock 1 = product; stock 3,4 = 0;
-					{1}{1}{6} = 0 //What do i need for this: stock 4 =[{0:product,1:amount}]; stock 1 to 3 = 0
-					{1}{1}{7} = 3 //something with the price.. but this could change dayly
-					{1}{1}{8} = 0 //stock 5: [prod,amount] to be payed to get this forestry_area[][block] of the field.
-					{1}{1}{9} = Fijnspar //NAME
-					{1}{1}{10}{0} = 1 //only at stock 1
-					{1}{1}{10}{1} = 2 //only at stock 1
-					{1}{1}{11} = 0 ->stock 3: fid needed to produce
-					{1}{1}{12} = 0 //item for in the farmbuilding
-					*/
-				
-					//make prodName[1] && prodYield[1] && prodRequire[1] = [[type,fId,amount]]
-					var store,stock,fId,bChanged=false,help,building;
-					for(var stock in result[4]){ //forestry_production_products==initForestryResponce->result[4]
-						if (!result[4].hasOwnProperty(stock)){ continue; }
-						for(var fId in result[4][stock]){
-							if (!result[4][stock].hasOwnProperty(fId)){ continue; }
-							help=result[4][stock][fId];
-							// if (!prodName[1][fId]){
-							// 	prodName[1][fId] = help[9]; // set prodName[1]
-							// 	//GM_log("initForestryResponse ADD prodName production fId:"+fId+" name:"+prodName[1][fId]);
-							// 	bChanged=true;
-							// }
-							prodTyp[1][fId]="f"+stock;
-							prodPoints[1][fId]=help[1];
-							//GM_log("prodYield fId:"+fId+" [5]:"+typeof help[5]);
-							building=getForestryUserBuilding(stock-1);
-							prodStockMax[1][fId]=building?unsafeWindow.forestry_user_buildings[building]["capacity"]:0;
-							if(stock==1){
-								prodYield[1][fId]=1;
-								prodYield[1][help[5]]=1;
-								delete prodRequire[1][fId]; //[[1,parseInt(fId,10),1]];
-								prodRequire[1][help[5]]=[[1,parseInt(fId,10),1]];
-								prodGrowTime[1][fId]=help[0]/60;
-							}else if(stock==2){//forestry
-								// [4]{2}{23}[5][0][0] = 47 //id
-								// [4]{2}{23}[5][0][1] = 7 //#
-								// for(var i=0;i<help[5].length;i++){
-									 //prodYield[1][help[5][i][0]]=help[5][i][1];
-									 //prodRequire[1][help[5][i][0]]=[[1,parseInt(fId,10),1]];
+	unsafeOverwriteFunction("initForestryResponse",function(request,a,C,r,J){
+		try{
+			if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","initForestryResponse"); }
+			unsafeWindow._initForestryResponse(unsafeCloneObject(request),a,C,r,J);
+			// initForestryResponse(request,uprack,upmenu,action,pos,tutorialstep,position);
+			var result = checkRequest(request);
+			if(result && result[0]!=0){
+				unsafeWindow.farm=""; //Hack for the scripts
+				unsafeWindow.city=""; //Hack for the scripts
+				// GM_log("forestry: result:\n"+implode(result));
+				if(unsafeWindow.forestry_unlock){
+					try{
+						/* forestry_production_products{stock}{iProd}
+						{0} = 36000 // Time
+						{1}{1}{1} = 30 //points you get with harwisting this product
+						{1}{1}{2} = 1 //amount it will produce
+						{1}{1}{3} = 1 //stock number
+						{1}{1}{4}{0} = 1 //campain number after which it can be used
+						{1}{1}{4}{1} = 3 //quest number after which it can be used
+						{1}{1}{5} = 21 //What can i make of this: stock 2 =[{0:product,1:amount}]; stock 1 = product; stock 3,4 = 0;
+						{1}{1}{6} = 0 //What do i need for this: stock 4 =[{0:product,1:amount}]; stock 1 to 3 = 0
+						{1}{1}{7} = 3 //something with the price.. but this could change dayly
+						{1}{1}{8} = 0 //stock 5: [prod,amount] to be payed to get this forestry_area[][block] of the field.
+						{1}{1}{9} = Fijnspar //NAME
+						{1}{1}{10}{0} = 1 //only at stock 1
+						{1}{1}{10}{1} = 2 //only at stock 1
+						{1}{1}{11} = 0 ->stock 3: fid needed to produce
+						{1}{1}{12} = 0 //item for in the farmbuilding
+						*/
+					
+						//make prodName[1] && prodYield[1] && prodRequire[1] = [[type,fId,amount]]
+						var store,stock,fId,bChanged=false,help,building;
+						for(var stock in result[4]){ //forestry_production_products==initForestryResponce->result[4]
+							if (!result[4].hasOwnProperty(stock)){ continue; }
+							for(var fId in result[4][stock]){
+								if (!result[4][stock].hasOwnProperty(fId)){ continue; }
+								help=result[4][stock][fId];
+								// if (!prodName[1][fId]){
+								// 	prodName[1][fId] = help[9]; // set prodName[1]
+								// 	//GM_log("initForestryResponse ADD prodName production fId:"+fId+" name:"+prodName[1][fId]);
+								// 	bChanged=true;
 								// }
-							}else if(stock==3){//sawmill
-								prodYield[1][fId]=help[2];
-								prodRequire[1][fId]=[[1,help[11],1]];
-								building=getForestryUserBuilding(1);
-								if(!prodGrowTime[1][fId]){
-									if(building&&unsafeWindow.forestry_user_buildings[building]["boni"]){
-										prodGrowTime[1][fId]=((help[0]*100)/(100-unsafeWindow.forestry_user_buildings[building]["boni"]))/60;
-									}else{
-										prodGrowTime[1][fId]=help[0]/60;
+								prodTyp[1][fId]="f"+stock;
+								prodPoints[1][fId]=help[1];
+								//GM_log("prodYield fId:"+fId+" [5]:"+typeof help[5]);
+								building=getForestryUserBuilding(stock-1);
+								prodStockMax[1][fId]=building?unsafeWindow.forestry_user_buildings[building]["capacity"]:0;
+								if(stock==1){
+									prodYield[1][fId]=1;
+									prodYield[1][help[5]]=1;
+									delete prodRequire[1][fId]; //[[1,parseInt(fId,10),1]];
+									prodRequire[1][help[5]]=[[1,parseInt(fId,10),1]];
+									prodGrowTime[1][fId]=help[0]/60;
+								}else if(stock==2){//forestry
+									// [4]{2}{23}[5][0][0] = 47 //id
+									// [4]{2}{23}[5][0][1] = 7 //#
+									// for(var i=0;i<help[5].length;i++){
+										//prodYield[1][help[5][i][0]]=help[5][i][1];
+										//prodRequire[1][help[5][i][0]]=[[1,parseInt(fId,10),1]];
+									// }
+								}else if(stock==3){//sawmill
+									prodYield[1][fId]=help[2];
+									prodRequire[1][fId]=[[1,help[11],1]];
+									building=getForestryUserBuilding(1);
+									if(!prodGrowTime[1][fId]){
+										if(building&&unsafeWindow.forestry_user_buildings[building]["boni"]){
+											prodGrowTime[1][fId]=((help[0]*100)/(100-unsafeWindow.forestry_user_buildings[building]["boni"]))/60;
+										}else{
+											prodGrowTime[1][fId]=help[0]/60;
+										}
 									}
-								}
-							}else if(stock==4){//carpentry
-								//[4]{4}{101}[6][0][0] = 41 //id
-								//[4]{4}{101}[6][0][1] = 4 //#
-								prodYield[1][fId]=1;
-								prodRequire[1][fId]=new Array();
-								for(var i=0;i<help[6].length;i++){
-
-									prodRequire[1][fId].push([1,help[6][i][0],help[6][i][1]]);
-								}
-								building=getForestryUserBuilding(2);
-								if(!prodGrowTime[1][fId]){
-									if(building&&unsafeWindow.forestry_user_buildings[building]["boni"]){
-										prodGrowTime[1][fId]=((help[0]*100)/(100-unsafeWindow.forestry_user_buildings[building]["boni"]))/60;
-									}else{
-										prodGrowTime[1][fId]=help[0]/60;
+								}else if(stock==4){//carpentry
+									//[4]{4}{101}[6][0][0] = 41 //id
+									//[4]{4}{101}[6][0][1] = 4 //#
+									prodYield[1][fId]=1;
+									prodRequire[1][fId]=new Array();
+									for(var i=0;i<help[6].length;i++){
+	
+										prodRequire[1][fId].push([1,help[6][i][0],help[6][i][1]]);
+									}
+									building=getForestryUserBuilding(2);
+									if(!prodGrowTime[1][fId]){
+										if(building&&unsafeWindow.forestry_user_buildings[building]["boni"]){
+											prodGrowTime[1][fId]=((help[0]*100)/(100-unsafeWindow.forestry_user_buildings[building]["boni"]))/60;
+										}else{
+											prodGrowTime[1][fId]=help[0]/60;
+										}
 									}
 								}
 							}
 						}
-					}
-					stock=null;fId=null;help=null;
-					// prodPoints[1].sortObj();
-					// GM_log("initForestryResponse prodPoints:"+implode(prodPoints,"prodPoints"));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_prodPoints",implode(prodPoints,"initForestryResponse\prodPoints"));
-					// prodTyp[1].sortObj();
-					// GM_log("initForestryResponse prodTyp:"+implode(prodTyp,"prodTyp"));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_prodTyp",implode(prodTyp,"initForestryResponse\prodTyp"));
-					// prodYield[1].sortObj();
-					// GM_log("initForestryResponse prodYield:"+implode(prodYield,"prodYield"));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodYield",implode(prodYield,"initForestryResponse\prodYield"));
-					// prodRequire[1].sortObj();
-					// GM_log("initForestryResponse prodRequire:"+implode(prodRequire,"prodRequire"));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_prodRequire",implode(prodRequire,"initForestryResponse\prodRequire"));
-					// prodGrowTime[1].sortObj();
-					// GM_log("initForestryResponse prodGrowTime:"+implode(prodGrowTime,"prodGrowTime"));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodGrowTime",implode(prodGrowTime,"initForestryResponse\prodGrowTime"));
-					// prodStockMax[1].sortObj();
-					// GM_log("initForestryResponse prodStockMax:"+implode(prodStockMax,"prodStockMax"));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStockMax",implode(prodStockMax,"initForestryResponse\prodStockMax"));
-					// make prodName[1] && forestry_stock
-					prodStock[1]=new Object();
-					for(store in result[3]){ //forestry_stock
-						if (!result[3].hasOwnProperty(store)){ continue; }
-						for(fId in result[3][store]){
-							if (!result[3][store].hasOwnProperty(fId)){ continue; }
-							// if (!prodName[1][fId]){
-							// 	prodName[1][fId] = result[3][store][fId]["name"]; // set prodName[1]
-							// 	//GM_log("initForestryResponse ADD prodName stock fId:"+fId+" name:"+prodName[1][fId]);
-							// 	bChanged=true;
-							// }
-							if(!prodStock[1][fId]) prodStock[1][fId]=0;
-							prodStock[1][fId] += parseInt(result[3][store][fId]["amount"],10);
+						stock=null;fId=null;help=null;
+						// prodPoints[1].sortObj();
+						// GM_log("initForestryResponse prodPoints:"+implode(prodPoints,"prodPoints"));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_prodPoints",implode(prodPoints,"initForestryResponse\prodPoints"));
+						// prodTyp[1].sortObj();
+						// GM_log("initForestryResponse prodTyp:"+implode(prodTyp,"prodTyp"));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_prodTyp",implode(prodTyp,"initForestryResponse\prodTyp"));
+						// prodYield[1].sortObj();
+						// GM_log("initForestryResponse prodYield:"+implode(prodYield,"prodYield"));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodYield",implode(prodYield,"initForestryResponse\prodYield"));
+						// prodRequire[1].sortObj();
+						// GM_log("initForestryResponse prodRequire:"+implode(prodRequire,"prodRequire"));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_prodRequire",implode(prodRequire,"initForestryResponse\prodRequire"));
+						// prodGrowTime[1].sortObj();
+						// GM_log("initForestryResponse prodGrowTime:"+implode(prodGrowTime,"prodGrowTime"));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodGrowTime",implode(prodGrowTime,"initForestryResponse\prodGrowTime"));
+						// prodStockMax[1].sortObj();
+						// GM_log("initForestryResponse prodStockMax:"+implode(prodStockMax,"prodStockMax"));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStockMax",implode(prodStockMax,"initForestryResponse\prodStockMax"));
+						// make prodName[1] && forestry_stock
+						prodStock[1]=new Object();
+						for(store in result[3]){ //forestry_stock
+							if (!result[3].hasOwnProperty(store)){ continue; }
+							for(fId in result[3][store]){
+								if (!result[3][store].hasOwnProperty(fId)){ continue; }
+								// if (!prodName[1][fId]){
+								// 	prodName[1][fId] = result[3][store][fId]["name"]; // set prodName[1]
+								// 	//GM_log("initForestryResponse ADD prodName stock fId:"+fId+" name:"+prodName[1][fId]);
+								// 	bChanged=true;
+								// }
+								if(!prodStock[1][fId]) prodStock[1][fId]=0;
+								prodStock[1][fId] += parseInt(result[3][store][fId]["amount"],10);
+							}
 						}
-					}
-					for(fId in prodName[1]){
-						if (!prodName[1].hasOwnProperty(fId)){ continue; }
-						if(!prodStock[1][fId]){ prodStock[1][fId]=0; }
-					}
-					//GM_log("initForestryResponse prodStock:"+implode(prodStock,"prodStock"));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initForestryResponse\prodStock"));
-
-					for(fId in prodName[1]){
-						if(!prodName[1].hasOwnProperty(fId)){continue;}
-
-						stock=prodTyp[1][fId].replace("f","");
-						if(!!prodTyp[1][fId]&&!(result[4][stock]&&result[4][stock][fId])&&!prodBlock[1][fId].match(/b/)){
-							prodBlock[1][fId]+="b";
+						for(fId in prodName[1]){
+							if (!prodName[1].hasOwnProperty(fId)){ continue; }
+							if(!prodStock[1][fId]){ prodStock[1][fId]=0; }
 						}
-					}
-					store=null;fId=null;
-					// prodStock[1].sortObj();
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
-
-					//forestry_farmis
-					var farmi, i;
-					totalFarmis[1]=new Object();
-					for(farmi in result[5]){ //forestry_farmis==initForestryResponce->result[5]
-						if (!result[5].hasOwnProperty(farmi)){ continue; }
-						for(i in result[5][farmi]["products"]){
-							if (!result[5][farmi]["products"].hasOwnProperty(i)){ continue; }
-							fId = result[5][farmi]["products"][i]["product"];
-							// if (!prodName[1][fId]){
-							// 	prodName[1][fId] = result[5][farmi]["products"][i]["name"]; // set prodName[1]
-							// 	//GM_log("initForestryResponse ADD prodName farmis fId:"+fId+" name:"+prodName[1][fId]);
-							// 	bChanged=true;
-							// }
-							if(!totalFarmis[1][fId]) totalFarmis[1][fId]=0;
-							totalFarmis[1][fId] += parseInt(result[5][farmi]["products"][i]["amount"],10);
+						//GM_log("initForestryResponse prodStock:"+implode(prodStock,"prodStock"));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initForestryResponse\prodStock"));
+	
+						for(fId in prodName[1]){
+							if(!prodName[1].hasOwnProperty(fId)){continue;}
+	
+							stock=prodTyp[1][fId].replace("f","");
+							if(!!prodTyp[1][fId]&&!(result[4][stock]&&result[4][stock][fId])&&!prodBlock[1][fId].match(/b/)){
+								prodBlock[1][fId]+="b";
+							}
 						}
-					}
-					// totalFarmis[1].sortObj();
-					// GM_log("initForestryResponse totalFarmis:"+implode(totalFarmis));
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis",implode(totalFarmis));
-
-					if(bChanged){
-						// prodName[1].sortObj();
-						// GM_log("initForestryResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
-						GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
-					}
-				}catch(err){GM_logError("initForestryResponse \n"+err);}
-
-				updateProductDataForestry();
-				doForestry();
-				raiseEvent("gameOpenForestry");
+						store=null;fId=null;
+						// prodStock[1].sortObj();
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
+	
+						//forestry_farmis
+						var farmi, i;
+						totalFarmis[1]=new Object();
+						for(farmi in result[5]){ //forestry_farmis==initForestryResponce->result[5]
+							if (!result[5].hasOwnProperty(farmi)){ continue; }
+							for(i in result[5][farmi]["products"]){
+								if (!result[5][farmi]["products"].hasOwnProperty(i)){ continue; }
+								fId = result[5][farmi]["products"][i]["product"];
+								// if (!prodName[1][fId]){
+								// 	prodName[1][fId] = result[5][farmi]["products"][i]["name"]; // set prodName[1]
+								// 	//GM_log("initForestryResponse ADD prodName farmis fId:"+fId+" name:"+prodName[1][fId]);
+								// 	bChanged=true;
+								// }
+								if(!totalFarmis[1][fId]) totalFarmis[1][fId]=0;
+								totalFarmis[1][fId] += parseInt(result[5][farmi]["products"][i]["amount"],10);
+							}
+						}
+						// totalFarmis[1].sortObj();
+						// GM_log("initForestryResponse totalFarmis:"+implode(totalFarmis));
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis",implode(totalFarmis));
+	
+						if(bChanged){
+							// prodName[1].sortObj();
+							// GM_log("initForestryResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
+							GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
+						}
+					}catch(err){GM_logError("initForestryResponse \n"+err);}
+	
+					updateProductDataForestry();
+					doForestry();
+					raiseEvent("gameOpenForestry");
+				}
+				calcProdMinRack();
 			}
-			calcProdMinRack();
-		}
-		if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
+			if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
 		}catch(err){GM_logError("initForestryResponse \n"+err);}
-	};
+	});
 
 	var container = $("forestry_sawmill_productbox");
 	var treeContainer, el1, el2;
@@ -13960,124 +13964,128 @@ return false;
 	}
 	container=null;treeContainer=null;el1=null;el2=null;
 	
-	unsafeWindow._showForestryProductionBox=unsafeWindow.showForestryProductionBox;
-	unsafeWindow.showForestryProductionBox = function(type){
-		unsafeWindow._showForestryProductionBox(type);
-		if(DEVMODE){ GM_log("showForestryProductionBox type="+type); }
-		$("forestry_productiondialog").setAttribute("type",type);
-		if(type==1){ // sawmill
-			var container,prod,classStr,flagDisplay,div;
-			var zoneNrF="sawmill";
-			for(var treeId=1;treeId<=5;treeId++){
-				try{
-					container = $("forestry_sawmill_productbox_tree"+treeId);
-					classStr = container.children[0].getAttribute("class");
-					prod = parseInt(/f_symbol(\d+)/.exec(classStr)[1],10);
-					$(container.children[0].id+"_amount").innerHTML = numberFormat(prodStock[1][prod]);
-					
-					flagDisplay = "none";
-					for(var i=1;i<=3;i++){
-						if(container.children[i].style.display!="none"){
-							flagDisplay = "block"; 
-							classStr = container.children[i].getAttribute("class");
-							prod = parseInt(/f_symbol(\d+)/.exec(classStr)[1],10);
-							if(!classStr.match(/ link$/)){ container.children[i].setAttribute("class",classStr+" link"); }
-							$(container.children[i].id+"_amount").innerHTML = numberFormat(prodStock[1][prod]);
+	unsafeOverwriteFunction("showForestryProductionBox",function(type){
+		try{
+			unsafeWindow._showForestryProductionBox(type);
+		}catch(err){GM_logError("_showForestryProductionBox\n"+err);}
+		try{
+			if(DEVMODE){ GM_log("showForestryProductionBox type="+type); }
+			$("forestry_productiondialog").setAttribute("type",type);
+			if(type==1){ // sawmill
+				var container,prod,classStr,flagDisplay,div;
+				var zoneNrF="sawmill";
+				for(var treeId=1;treeId<=5;treeId++){
+					try{
+						container = $("forestry_sawmill_productbox_tree"+treeId);
+						classStr = container.children[0].getAttribute("class");
+						prod = parseInt(/f_symbol(\d+)/.exec(classStr)[1],10);
+						$(container.children[0].id+"_amount").innerHTML = numberFormat(prodStock[1][prod]);
+						
+						flagDisplay = "none";
+						for(var i=1;i<=3;i++){
+							if(container.children[i].style.display!="none"){
+								flagDisplay = "block"; 
+								classStr = container.children[i].getAttribute("class");
+								prod = parseInt(/f_symbol(\d+)/.exec(classStr)[1],10);
+								if(!classStr.match(/ link$/)){ container.children[i].setAttribute("class",classStr+" link"); }
+								$(container.children[i].id+"_amount").innerHTML = numberFormat(prodStock[1][prod]);
+							}
+						}
+						container.style.display = flagDisplay;
+					}catch(err){ GM_logError("showForestryProductionBox sawmill\ntreeId="+treeId+"\n"+err); }
+				}
+				//auto-cropping
+				for(var slot=1;slot<=3;slot++){
+					try{
+						if((top.unsafeData.autoAction==null) && valAutoCrop["forestry"] && (div=$("forestry_slot_crop"+slot)) && (div.style.display=="block")){
+							top.unsafeData.autoAction="berater: sawmill crop";
+							document.addEventListener("gameOpenGlobalCommitBox",function(){
+								document.removeEventListener("gameOpenGlobalCommitBox",arguments.callee,false);
+								window.setTimeout(function(){ 
+									click($("globalcommitboxfooter").firstElementChild); 
+									top.unsafeData.autoAction=null;
+								},500);
+							});
+							window.setTimeout(function(div){ click(div); },500,div);
+						}
+						div=null;
+					}catch(err){ GM_logError("showForestryProductionBox sawmill\nslot="+slot+"\n"+err); }
+				}
+				container=null;prod=null;classStr=null;flagDisplay=null;
+				raiseEvent("gameOpenSawmill");
+			} else if(type==2){ // carpentry
+				var container,icon,prod,help;
+				for(var i=1;i<=20;i++){
+					try{			
+					container=$("forestry_productiondialog_content_item_con"+i);
+					icon=$("forestry_productiondialog_content_item"+i);
+					if(container&&icon&&(container.style.display=="block")){
+						prod = parseInt(/f_symbol(\d+)/.exec(icon.getAttribute("class"))[1],10);
+						// show rack amount
+						// $("forestry_productiondialog_content_item_rackamount"+i).innerHTML = numberFormat(prodStock[1][prod]);
+						// check required products
+						help=true;
+						for(var j=0;j<prodRequire[1][prod].length;j++){
+							if(prodStock[1][prodRequire[1][prod][j][1]]<prodRequire[1][prod][j][2]){ help=false; }
+						}
+						if(help){
+							if(icon.childElementCount>0){ removeElement(icon.children[0]); }
+						} else {
+							if(icon.childElementCount==0){ createElement("img",{"alt":"X","style":"width:25px;height:25px;","src":GFX+"cursors/cursor_forbidden.gif"},icon); }
+						}
+						// show times
+						help=calcProductionTime("carpentry",1,prod,1-zones.getBonus("carpentry")/100);
+						if(icon=$("forestry_productiondialog_content_item_amount"+i)){
+							icon.innerHTML = prodName[1][prod];
+						}
+						if(icon=$("forestry_productiondialog_content_item_times"+i)){
+							icon.innerHTML = getTimeStr(help,true)+"&nbsp;"+getText("shortHours");
+						}
+						if(icon=$("forestry_productiondialog_content_item_endtimes"+i)){
+							icon.innerHTML = getDaytimeStr(now+help,true,true)+"&nbsp;"+getText("shortOClock");
 						}
 					}
-					container.style.display = flagDisplay;
-				}catch(err){ GM_logError("showForestryProductionBox sawmill\ntreeId="+treeId+"\n"+err); }
-			}
-			//auto-cropping
-			for(var slot=1;slot<=3;slot++){
-				try{
-					if((top.unsafeData.autoAction==null) && valAutoCrop["forestry"] && (div=$("forestry_slot_crop"+slot)) && (div.style.display=="block")){
-						top.unsafeData.autoAction="berater: sawmill crop";
-						document.addEventListener("gameOpenGlobalCommitBox",function(){
-							document.removeEventListener("gameOpenGlobalCommitBox",arguments.callee,false);
-							window.setTimeout(function(){ 
-								click($("globalcommitboxfooter").firstElementChild); 
-								top.unsafeData.autoAction=null;
-							},500);
-						});
-						window.setTimeout(function(div){ click(div); },500,div);
-					}
-					div=null;
-				}catch(err){ GM_logError("showForestryProductionBox sawmill\nslot="+slot+"\n"+err); }
-			}
-			container=null;prod=null;classStr=null;flagDisplay=null;
-			raiseEvent("gameOpenSawmill");
-		} else if(type==2){ // carpentry
-			var container,icon,prod,help;
-			for(var i=1;i<=20;i++){
-				try{			
-				container=$("forestry_productiondialog_content_item_con"+i);
-				icon=$("forestry_productiondialog_content_item"+i);
-				if(container&&icon&&(container.style.display=="block")){
-					prod = parseInt(/f_symbol(\d+)/.exec(icon.getAttribute("class"))[1],10);
-					// show rack amount
-					// $("forestry_productiondialog_content_item_rackamount"+i).innerHTML = numberFormat(prodStock[1][prod]);
-					// check required products
-					help=true;
-					for(var j=0;j<prodRequire[1][prod].length;j++){
-						if(prodStock[1][prodRequire[1][prod][j][1]]<prodRequire[1][prod][j][2]){ help=false; }
-					}
-					if(help){
-						if(icon.childElementCount>0){ removeElement(icon.children[0]); }
-					} else {
-						if(icon.childElementCount==0){ createElement("img",{"alt":"X","style":"width:25px;height:25px;","src":GFX+"cursors/cursor_forbidden.gif"},icon); }
-					}
-					// show times
-					help=calcProductionTime("carpentry",1,prod,1-zones.getBonus("carpentry")/100);
-					if(icon=$("forestry_productiondialog_content_item_amount"+i)){
-						icon.innerHTML = prodName[1][prod];
-					}
-					if(icon=$("forestry_productiondialog_content_item_times"+i)){
-						icon.innerHTML = getTimeStr(help,true)+"&nbsp;"+getText("shortHours");
-					}
-					if(icon=$("forestry_productiondialog_content_item_endtimes"+i)){
-						icon.innerHTML = getDaytimeStr(now+help,true,true)+"&nbsp;"+getText("shortOClock");
-					}
+					}catch(err){ GM_logError("showForestryProductionBox carpentry\ni="+i+"\n"+err); }
 				}
-				}catch(err){ GM_logError("showForestryProductionBox carpentry\ni="+i+"\n"+err); }
+				//auto-cropping
+				for(var slot=1;slot<=3;slot++){
+					try{
+						if((top.unsafeData.autoAction==null) && valAutoCrop["forestry"] && (div=$("forestry_slot_crop"+slot)) && (div.style.display=="block")){
+							top.unsafeData.autoAction="berater: carpentry crop";
+							document.addEventListener("gameOpenGlobalCommitBox",function(){
+								document.removeEventListener("gameOpenGlobalCommitBox",arguments.callee,false);
+								window.setTimeout(function(){
+									click($("globalcommitboxfooter").firstElementChild);
+									top.unsafeData.autoAction=null;
+								},500);
+							});
+							window.setTimeout(function(div){ click(div); },500,div);
+						}
+						div=null;
+					}catch(err){ GM_logError("showForestryProductionBox carpentry\nslot="+slot+"\n"+err); }
+				}
+				container=null;icon=null;prod=null;help=null;
+				raiseEvent("gameOpenCarpentry");
 			}
-			//auto-cropping
-			for(var slot=1;slot<=3;slot++){
-				try{
-					if((top.unsafeData.autoAction==null) && valAutoCrop["forestry"] && (div=$("forestry_slot_crop"+slot)) && (div.style.display=="block")){
-						top.unsafeData.autoAction="berater: carpentry crop";
-						document.addEventListener("gameOpenGlobalCommitBox",function(){
-							document.removeEventListener("gameOpenGlobalCommitBox",arguments.callee,false);
-							window.setTimeout(function(){
-								click($("globalcommitboxfooter").firstElementChild);
-								top.unsafeData.autoAction=null;
-							},500);
-						});
-						window.setTimeout(function(div){ click(div); },500,div);
-					}
-					div=null;
-				}catch(err){ GM_logError("showForestryProductionBox carpentry\nslot="+slot+"\n"+err); }
-			}
-			container=null;icon=null;prod=null;help=null;
-			raiseEvent("gameOpenCarpentry");
-		}
-	}	
-
-	unsafeWindow._forestrySetSlot=unsafeWindow.forestrySetSlot;
-	unsafeWindow.forestrySetSlot = function(type,slot){
-		unsafeWindow._forestrySetSlot(type,slot);
-		if(type==1){
-			raiseEvent("gameOpenSawmillSlot")
-		}else if(type==2){
-			raiseEvent("gameOpenCarpentrySlot")
-		}		
-	}
+		}catch(err){GM_logError("showForestryProductionBox\n"+err);}
+	});
+	unsafeOverwriteFunction("forestrySetSlot",function(type,slot){
+		try{
+			unsafeWindow._forestrySetSlot(type,slot);
+		}catch(err){GM_logError("_forestrySetSlot\n"+err);}
+		try{
+			if(type==1){
+				raiseEvent("gameOpenSawmillSlot")
+			}else if(type==2){
+				raiseEvent("gameOpenCarpentrySlot")
+			}		
+		}catch(err){GM_logError("forestrySetSlot\n"+err);}
+	});
 
 	/*
 	createElement("div",{"id":"analyzediv","style":"position: fixed; top: 0px; right: 0px; z-index: 995; display: block;","class":"blackbox"},ALL);
 	$("analyzediv").addEventListener("click",function(){this.innerHTML="";},false);
-	unsafeWindow._forestrySetStatus=unsafeWindow.forestrySetStatus;
-	unsafeWindow.forestrySetStatus = function(position,status,product){
+	unsafeOverwriteFunction("forestrySetStatus",function(position,status,product){
 		unsafeWindow._forestrySetStatus(position,status,product);
 		var str = 'forestry_area_run       = '+unsafeWindow.forestry_area_run      [position]+'<br>'+
                   'forestry_area_time      = '+unsafeWindow.forestry_area_time     [position]+'<br>'+
@@ -14093,7 +14101,7 @@ return false;
 		}
 		GM_log(str);
 		$("analyzediv").innerHTML=str;
-	}
+	});
 	*/
 
 	function doForestry(){
@@ -14478,167 +14486,167 @@ return false;
 		listeningEvent=null;action=null;
 	}
 	
-	unsafeWindow._forestryBuySlotResponse=unsafeWindow.forestryBuySlotResponse;
-	unsafeWindow.forestryBuySlotResponse = function(request,b){
-	try{
-		unsafeWindow._forestryBuySlotResponse(request,b);
-		var result = checkRequest(request);
-		if(result){
-			if(DEVMODE){ GM_log("forestryBuySlotResponse result:"+implode(result)); }
-			doForestry();
-			calcProdMinRack();
-		}
+	unsafeOverwriteFunction("forestryBuySlotResponse",function(request,b){
+		try{
+			unsafeWindow._forestryBuySlotResponse(unsafeCloneObject(request),b);
+		}catch(err){GM_logError("_forestryBuySlotResponse\n"+err);}
+		try{
+			var result = checkRequest(request);
+			if(result){
+				if(DEVMODE){ GM_log("forestryBuySlotResponse result:"+implode(result)); }
+				doForestry();
+				calcProdMinRack();
+			}
 		}catch(err){GM_logError("forestryBuySlotResponse \n"+err);}
-	};
-
-	unsafeWindow._initCampaignsResponse=unsafeWindow.initCampaignsResponse;
-	unsafeWindow.initCampaignsResponse = function(request,update){
-	try{
-		unsafeWindow._initCampaignsResponse(request,update);
-		var result = checkRequest(request);
-		if(result&&result[0]!=0){
-			if(DEVMODE){ GM_log("initCampaignsResponse"); }
-			// GM_log("initCampaignsResponse result="+implode(result));
-			//if(DEVMODE){ GM_log("campaign: result:"+print_r(result)); }
-			for(campaign in QUESTS["forestry"]){
-				if(!QUESTS["forestry"].hasOwnProperty(campaign)){continue;}
-				if(result[1][campaign]){
-					if(result[1][campaign]==0){
-						// campaign not available
-						var newforestryQuestNr = 0;
+	});
+	unsafeOverwriteFunction("initCampaignsResponse",function(request,update){
+		try{
+			unsafeWindow._initCampaignsResponse(unsafeCloneObject(request),update);
+		}catch(err){GM_logError("_initCampaignsResponse\n"+err);}
+		try{
+			var result = checkRequest(request);
+			if(result&&result[0]!=0){
+				if(DEVMODE){ GM_log("initCampaignsResponse"); }
+				// GM_log("initCampaignsResponse result="+implode(result));
+				//if(DEVMODE){ GM_log("campaign: result:"+print_r(result)); }
+				for(campaign in QUESTS["forestry"]){
+					if(!QUESTS["forestry"].hasOwnProperty(campaign)){continue;}
+					if(result[1][campaign]){
+						if(result[1][campaign]==0){
+							// campaign not available
+							var newforestryQuestNr = 0;
+							if(questData["forestry"][campaign]["nr"]!=newforestryQuestNr){
+								questData["forestry"][campaign]["nr"]=newforestryQuestNr;
+								if(questData["forestry"][campaign]["calcTo"]!=0){
+									setCalcToQuest("forestry",campaign,0);
+								}
+							}
+						}else{
+							// quest available
+							/*
+							GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+print_r(result[1][campaign],"",true,"\n"));
+							[1]{1}{1}[0]{8} = 300
+							[1]{1}{1}[0]{6} = 2000
+							[1]{1}{entries}{1}[0]{productid} = 8
+							[1]{1}{entries}{1}[0]{sum} = 300
+							[1]{1}{entries}{1}[0]{type} = 1
+							
+							[1]{1}{1}[0]{24} = 1800
+							[1]{1}{1}[1]{21} = 12
+							[1]{1}{1}[1]{41} = 10
+							[1]{1}{entries}{1}[0]{productid} = 24
+							[1]{1}{entries}{1}[0]{sum} = 1800
+							[1]{1}{entries}{1}[0]{type} = 1
+							[1]{1}{entries}{2}[0]{productid} = 21
+							[1]{1}{entries}{2}[0]{sum} = 12
+							[1]{1}{entries}{2}[0]{type} = 2
+							[1]{1}{entries}{2}[1]{productid} = 41
+							[1]{1}{entries}{2}[1]{sum} = 9
+							[1]{1}{entries}{2}[1]{type} = 2
+							*/
+							// Time
+							if(result[1][campaign]["remain"]){
+								questData["forestry"][campaign]["time"] = now+result[1][campaign]["remain"];
+							}else if(now<questData["forestry"][campaign]["time"]){
+								questData["forestry"][campaign]["time"] = now;
+							}
+							// Given
+							questData["forestry"][campaign]["given"] = new Object();
+							if(result[1][campaign]["entries"]){
+							for(var t in result[1][campaign]["entries"]){
+								if(!result[1][campaign]["entries"].hasOwnProperty(t)){continue;}
+								for(var i=0;i<result[1][campaign]["entries"][t].length;i++){
+									var prod = result[1][campaign]["entries"][t][i]["productid"];
+									var type = parseInt(t,10)-1;
+									if(!questData["forestry"][campaign]["given"][type]){ questData["forestry"][campaign]["given"][type] = new Object(); }
+									if(!questData["forestry"][campaign]["given"][type][prod]){ questData["forestry"][campaign]["given"][type][prod] = 0; }
+									questData["forestry"][campaign]["given"][type][prod] += parseInt(result[1][campaign]["entries"][t][i]["sum"],10);
+								}
+							}
+							}
+							// Number
+							var newforestryQuestNr = parseInt(result[1][campaign]["questid"],10);
+							if((questData["forestry"][campaign]["nr"]!=newforestryQuestNr)||(typeof questData["forestry"][campaign]["nr"]!=typeof newforestryQuestNr)){
+								questData["forestry"][campaign]["nr"]=newforestryQuestNr;
+								if((0<questData["forestry"][campaign]["calcTo"])&&(questData["forestry"][campaign]["calcTo"]<questData["forestry"][1]["nr"])){
+									setCalcToQuest("forestry",campaign,questData["forestry"][campaign]["nr"]);
+								}
+							}
+							// Data
+							calcQuestData("forestry",campaign);
+						}
+					}else{
+						// all quests solved
+						var newforestryQuestNr = QUESTS["forestry"][campaign].length;
 						if(questData["forestry"][campaign]["nr"]!=newforestryQuestNr){
 							questData["forestry"][campaign]["nr"]=newforestryQuestNr;
 							if(questData["forestry"][campaign]["calcTo"]!=0){
 								setCalcToQuest("forestry",campaign,0);
 							}
 						}
-					}else{
-						// quest available
-/*
-GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+print_r(result[1][campaign],"",true,"\n"));
-[1]{1}{1}[0]{8} = 300
-[1]{1}{1}[0]{6} = 2000
-[1]{1}{entries}{1}[0]{productid} = 8
-[1]{1}{entries}{1}[0]{sum} = 300
-[1]{1}{entries}{1}[0]{type} = 1
-
-[1]{1}{1}[0]{24} = 1800
-[1]{1}{1}[1]{21} = 12
-[1]{1}{1}[1]{41} = 10
-[1]{1}{entries}{1}[0]{productid} = 24
-[1]{1}{entries}{1}[0]{sum} = 1800
-[1]{1}{entries}{1}[0]{type} = 1
-[1]{1}{entries}{2}[0]{productid} = 21
-[1]{1}{entries}{2}[0]{sum} = 12
-[1]{1}{entries}{2}[0]{type} = 2
-[1]{1}{entries}{2}[1]{productid} = 41
-[1]{1}{entries}{2}[1]{sum} = 9
-[1]{1}{entries}{2}[1]{type} = 2
-*/
-						// Time
-						if(result[1][campaign]["remain"]){
-							questData["forestry"][campaign]["time"] = now+result[1][campaign]["remain"];
-						}else if(now<questData["forestry"][campaign]["time"]){
-							questData["forestry"][campaign]["time"] = now;
-						}
-						// Given
-						questData["forestry"][campaign]["given"] = new Object();
-						if(result[1][campaign]["entries"]){
-						for(var t in result[1][campaign]["entries"]){
-							if(!result[1][campaign]["entries"].hasOwnProperty(t)){continue;}
-							for(var i=0;i<result[1][campaign]["entries"][t].length;i++){
-								var prod = result[1][campaign]["entries"][t][i]["productid"];
-								var type = parseInt(t,10)-1;
-								if(!questData["forestry"][campaign]["given"][type]){ questData["forestry"][campaign]["given"][type] = new Object(); }
-								if(!questData["forestry"][campaign]["given"][type][prod]){ questData["forestry"][campaign]["given"][type][prod] = 0; }
-								questData["forestry"][campaign]["given"][type][prod] += parseInt(result[1][campaign]["entries"][t][i]["sum"],10);
-							}
-						}
-						}
-						// Number
-						var newforestryQuestNr = parseInt(result[1][campaign]["questid"],10);
-						if((questData["forestry"][campaign]["nr"]!=newforestryQuestNr)||(typeof questData["forestry"][campaign]["nr"]!=typeof newforestryQuestNr)){
-							questData["forestry"][campaign]["nr"]=newforestryQuestNr;
-							if((0<questData["forestry"][campaign]["calcTo"])&&(questData["forestry"][campaign]["calcTo"]<questData["forestry"][1]["nr"])){
-								setCalcToQuest("forestry",campaign,questData["forestry"][campaign]["nr"]);
-							}
-						}
-						// Data
-						calcQuestData("forestry",campaign);
-					}
-				}else{
-					// all quests solved
-					var newforestryQuestNr = QUESTS["forestry"][campaign].length;
-					if(questData["forestry"][campaign]["nr"]!=newforestryQuestNr){
-						questData["forestry"][campaign]["nr"]=newforestryQuestNr;
-						if(questData["forestry"][campaign]["calcTo"]!=0){
-							setCalcToQuest("forestry",campaign,0);
-						}
 					}
 				}
+				handleQuestLine();
+				GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
+				unsafeData.questData=questData.clone();
+				//GM_log("onclick:"+$('forestry_quest_entry' + forestryCampaignNr + '_' + questData["forestry"][1]["nr"] + '_1_6').onclick);
+	
+				//make prodName[1] && forestry_stock
+					//GM_log("initCampaignsResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
+				try{
+					var store, fId, bChanged=false;
+					prodStock[1]= new Object();
+					for(store in result[3]){ //forestry_stock
+						if (!result[3].hasOwnProperty(store)){ continue; }
+						for(fId in result[3][store]){
+							if (!result[3][store].hasOwnProperty(fId)){ continue; }
+							// if (!prodName[1][fId]){
+							// 	prodName[1][fId] = result[3][store][fId]["name"]; // set prodName[1]
+							// 	//GM_log("initCampaignsResponse ADD prodName stock fId:"+fId+" name:"+prodName[1][fId]);
+							// 	bChanged=true;
+							// }
+							if(!prodStock[1][fId]) prodStock[1][fId]=0;
+							prodStock[1][fId] += parseInt(result[3][store][fId]["amount"],10);
+						}
+					}
+					for(fId in prodName[1]){
+						if (!prodName[1].hasOwnProperty(fId)){ continue; }
+						if(!prodStock[1][fId]){ prodStock[1][fId]=0; }
+					}
+					store=null;fId=null;
+					// GM_log("initCampaignsResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
+					if(bChanged){
+						// prodName[1].sortObj();
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
+					}
+					// prodStock[1].sortObj();
+					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
+				}catch(err){GM_logError("initCampaignsResponse \n"+err);}
+				updateProductDataForestry();
+				calcProdMinRack();
+				raiseEvent("gameOpenCampaign");
 			}
-			handleQuestLine();
-			GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
-			unsafeData.questData=questData.clone();
-			//GM_log("onclick:"+$('forestry_quest_entry' + forestryCampaignNr + '_' + questData["forestry"][1]["nr"] + '_1_6').onclick);
-
-			//make prodName[1] && forestry_stock
-				//GM_log("initCampaignsResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
-			try{
-				var store, fId, bChanged=false;
-				prodStock[1]= new Object();
-				for(store in result[3]){ //forestry_stock
-					if (!result[3].hasOwnProperty(store)){ continue; }
-					for(fId in result[3][store]){
-						if (!result[3][store].hasOwnProperty(fId)){ continue; }
-						// if (!prodName[1][fId]){
-						// 	prodName[1][fId] = result[3][store][fId]["name"]; // set prodName[1]
-						// 	//GM_log("initCampaignsResponse ADD prodName stock fId:"+fId+" name:"+prodName[1][fId]);
-						// 	bChanged=true;
-						// }
-						if(!prodStock[1][fId]) prodStock[1][fId]=0;
-						prodStock[1][fId] += parseInt(result[3][store][fId]["amount"],10);
-					}
-				}
-				for(fId in prodName[1]){
-					if (!prodName[1].hasOwnProperty(fId)){ continue; }
-					if(!prodStock[1][fId]){ prodStock[1][fId]=0; }
-				}
-				store=null;fId=null;
-				// GM_log("initCampaignsResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
-				if(bChanged){
-					// prodName[1].sortObj();
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
-				}
-				// prodStock[1].sortObj();
-				GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
-			}catch(err){GM_logError("initCampaignsResponse \n"+err);}
-			updateProductDataForestry();
-			calcProdMinRack();
-			raiseEvent("gameOpenCampaign");
-		}
-	}catch(err){GM_logError("initCampaignsResponse \n"+err);}
-	};
+		}catch(err){GM_logError("initCampaignsResponse\n"+err);}
+	});
 
 	// events city 1 ==============================================================================
 	err_trace="events city 1";
-	unsafeWindow._cityActionResponse=unsafeWindow.cityActionResponse;
-	unsafeWindow.cityActionResponse = function(h, j, f, e, d, c){
-		unsafeWindow._cityActionResponse(h, j, f, e, d, c);
+	unsafeOverwriteFunction("cityActionResponse",function(request,mode,f,e,d,c){
 		try{
-			var result = checkRequest(h);
+			unsafeWindow._cityActionResponse(unsafeCloneObject(request),mode,f,e,d,c);
+		}catch(err){GM_logError("_cityActionResponse\nj="+mode+"\n"+err);}
+		try{
+			var result = checkRequest(request);
 			if((result!=0)&&(result[0]!=0)){
-				switch(j){
+				switch(mode){
 				case "windmillinit": raiseEvent("gameOpenWindmill"); break;
 				case "windmillcrop": raiseEvent("gameWindmillCropped"); break;
 				case "windmillstartproduction": raiseEvent("gameWindmillStarted"); break;
 				}
 			}
-		}catch(err){GM_logError("cityActionResponse\nj="+j+"\n"+err);}
-	}
-		 
-	unsafeWindow._cityArrived=unsafeWindow.cityArrived;
-	unsafeWindow.cityArrived = function(questbox){
+		}catch(err){GM_logError("cityActionResponse\nmode="+mode+"\n"+err);}
+	});
+	unsafeOverwriteFunction("cityArrived",function(questbox){
 		try{
 			unsafeWindow._cityArrived(questbox);
 		}catch(err){GM_logError("_cityArrived\n"+err);}
@@ -14647,42 +14655,41 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 			unsafeData.gameLocation=gameLocation.clone();
 			raiseEvent("gameCity"+unsafeWindow.city);
 		}catch(err){GM_logError("cityArrived\n"+err);}
-	};
-	// unsafeWindow._initCity=unsafeWindow.initCity;
-	// unsafeWindow.initCity = function(e, c, d){
+	});
+	// unsafeOverwriteFunction("initCity",function(e, c, d){
 	// 	try{
 	// 		unsafeWindow._initCity(e, c, d);
 	// 	}catch(err){GM_logError("_initCity\ne="+e+"\nc="+c+"\nd="+d+"\n"+err);}
-	// };
+	// });
 
 	// Werbung
-	unsafeWindow._fillAdColumn=unsafeWindow.fillAdColumn;
-	unsafeWindow.fillAdColumn = function(){
-		unsafeWindow._fillAdColumn();
-		var images=$("adzonetooltip1").getElementsByTagName("img");
-
-		if(COUNTRY=="SE"){
-			$("adzonetooltip1").firstElementChild.innerHTML=$("adzonetooltip1").firstElementChild.innerHTML.replace(/\.(\d\d) /,",$1 ");
-		}
-
-		var preis=parseFloat(/&nbsp;(.*)/.exec($("adzonetooltip1").firstElementChild.innerHTML)[1].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
-		createElement("div",{},$("adzonetooltip1"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/8));
-
-		var preis=gut[0]*parseInt(/&nbsp;(\d*)/.exec($("adzonetooltip2").firstElementChild.innerHTML)[1],10);
-		createElement("div",{},$("adzonetooltip2"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/16));
-		$("adzonetooltip2").firstElementChild.innerHTML +="&nbsp;("+moneyFormatInt(preis)+")";
-
-		var preis=gut[0]*parseInt(/&nbsp;(\d*)/.exec($("adzonetooltip3").firstElementChild.innerHTML)[1],10);
-		createElement("div",{},$("adzonetooltip3"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/24));
-		$("adzonetooltip3").firstElementChild.innerHTML +="&nbsp;("+moneyFormatInt(preis)+")";
-		images=null;
-	};
+	unsafeOverwriteFunction("fillAdColumn",function(){
+		try{
+			unsafeWindow._fillAdColumn();
+		}catch(err){GM_logError("_fillAdColumn\n"+err);}
+		try{
+			var images=$("adzonetooltip1").getElementsByTagName("img");
+			if(COUNTRY=="SE"){
+				$("adzonetooltip1").firstElementChild.innerHTML=$("adzonetooltip1").firstElementChild.innerHTML.replace(/\.(\d\d) /,",$1 ");
+			}
+			var preis=parseFloat(/&nbsp;(.*)/.exec($("adzonetooltip1").firstElementChild.innerHTML)[1].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
+			createElement("div",{},$("adzonetooltip1"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/8));
+	
+			var preis=gut[0]*parseInt(/&nbsp;(\d*)/.exec($("adzonetooltip2").firstElementChild.innerHTML)[1],10);
+			createElement("div",{},$("adzonetooltip2"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/16));
+			$("adzonetooltip2").firstElementChild.innerHTML +="&nbsp;("+moneyFormatInt(preis)+")";
+	
+			var preis=gut[0]*parseInt(/&nbsp;(\d*)/.exec($("adzonetooltip3").firstElementChild.innerHTML)[1],10);
+			createElement("div",{},$("adzonetooltip3"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/24));
+			$("adzonetooltip3").firstElementChild.innerHTML +="&nbsp;("+moneyFormatInt(preis)+")";
+			images=null;
+		}catch(err){GM_logError("fillAdColumn\n"+err);}
+	});
 
 	// Marktschreier
-	unsafeWindow._openMarktschreiberResponse=unsafeWindow.openMarktschreiberResponse;
-	unsafeWindow.openMarktschreiberResponse = function(l){
+	unsafeOverwriteFunction("openMarktschreiberResponse",function(response){
 		try{
-			unsafeWindow._openMarktschreiberResponse(l);
+			unsafeWindow._openMarktschreiberResponse(unsafeCloneObject(response));
 		}catch(err){GM_logError("_openMarktschreiberResponse\n"+err);}
 		try{
 			var div,container;
@@ -14696,13 +14703,15 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 			}
 			div=null;container=null;
 		}catch(err){GM_logError("openMarktschreiberResponse\n"+err);}
-	};
+	});
 	// Competition
-	unsafeWindow._setCityWBWContentResponse=unsafeWindow.setCityWBWContentResponse;
-	unsafeWindow.setCityWBWContentResponse = function(request){
-		unsafeWindow._setCityWBWContentResponse(request);
-		var result=checkRequest(request);
-		if(result){
+	unsafeOverwriteFunction("setCityWBWContentResponse",function(request){
+		try{
+			unsafeWindow._setCityWBWContentResponse(unsafeCloneObject(request));
+		}catch(err){GM_logError("_setCityWBWContentResponse\n"+err);}
+		try{
+			var result=checkRequest(request);
+			if(result){
 			window.setTimeout(function(result){
 				if(result[1]['open']==1){
 					var product=parseInt(result[1]['wettbewerb_produkt'],10);
@@ -14743,7 +14752,8 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 				}
 			},0,result);
 		}
-	};
+		}catch(err){GM_logError("setCityWBWContentResponse\n"+err);}
+	});
 
 	// events city 2 ==============================================================================
 	err_trace="events city 2";
@@ -14855,8 +14865,7 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 		},false);
 		// windmill production
 		err_trace="events city 2: windmillSlots";
-		unsafeWindow._windmillSlots=unsafeWindow.windmillSlots;
-		unsafeWindow.windmillSlots = function(){
+		unsafeOverwriteFunction("windmillSlots",function(){
 			try{
 				unsafeWindow._windmillSlots();	
 			}catch(err){ GM_logError("_windmillSlots\n"+err); }
@@ -14904,12 +14913,13 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 				calcTotalZones();
 				publishProductData();
 			}catch(err){ GM_logError("windmillSlots\n"+err); }
-		}
+		});
 		// windmill stock
 		err_trace="events city 2: windmillStock";
-		unsafeWindow._windmillStock=unsafeWindow.windmillStock;
-		unsafeWindow.windmillStock = function(){
-			unsafeWindow._windmillStock();
+		unsafeOverwriteFunction("windmillStock",function(){
+			try{
+				unsafeWindow._windmillStock();
+			}catch(err){GM_logError("_windmillStock\n"+err);}
 			try{
 				for(var i=0;i<prodStock[2].length;i++){
 					prodStock[2][i]=0;
@@ -14923,16 +14933,15 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 				unsafeData.prodStock = prodStock.clone();
 				GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"windmillStock\prodStock"));
 			}catch(err){ GM_logError("windmillStock\n"+err); }
-		};
+		});
 		// windmill dialog
 		err_trace="events city 2: windmillDialog";
-		unsafeWindow._windmillDialog=unsafeWindow.windmillDialog;
-		unsafeWindow.windmillDialog = function(f, q, a){
+		unsafeOverwriteFunction("windmillDialog",function(mode,q,a){
 			try{
-				unsafeWindow._windmillDialog(f, q, a) ;
+				unsafeWindow._windmillDialog(mode,q,a) ;
 			}catch(err){ GM_logError("_windmillDialog\n"+err); }
 			try{
-				switch(f){
+				switch(mode){
 				case "windmillstartproduction": {
 					raiseEvent("gameWindmillDialogStart"); 
 				break; }
@@ -14952,14 +14961,15 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 					raiseEvent("gameWindmillDialogCommit"); 
 				break; }
 				}
-			}catch(err){ GM_logError("windmillDialog\n"+err); }
-		};
+			}catch(err){GM_logError("windmillDialog\n"+err);}
+		});
 
 		// Clothing donation
 		err_trace="events city 2: showClothingDonation";
-		unsafeWindow._showClothingDonation=unsafeWindow.showClothingDonation;
-		unsafeWindow.showClothingDonation = function(){
-			unsafeWindow._showClothingDonation() ;
+		unsafeOverwriteFunction("showClothingDonation",function(){
+			try{
+				unsafeWindow._showClothingDonation() ;
+			}catch(err){GM_logError("_showClothingDonation\n"+err);}
 			try{
 				var data = unsafeWindow.clothingdonation_data.data.data;
 				var goodsValue = [0,0];
@@ -15009,7 +15019,7 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 				div.innerHTML = numberFormat(unsafeWindow.clothingdonation_data.data.percent)+"%";
 				div=null; container=null;
 			}catch(err){ GM_logError("showClothingDonation\nprodId="+prodId+"\n"+err); }
-		};
+		});
 		// Recipedealer
 		err_trace="events city 2: Recipedealer";
 		document.addEventListener("gameUpdateFormuladealerOffers", function(event){
@@ -15148,24 +15158,30 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 			}
 			newdiv=null;newtable=null;newtr=null;newtd=null;
 		},false);
-		unsafeWindow._setFormulaDealerFormulas=unsafeWindow.setFormulaDealerFormulas;
-		unsafeWindow.setFormulaDealerFormulas = function(){
-			unsafeWindow._setFormulaDealerFormulas();
-			raiseEvent("gameUpdateFormuladealerOffers");
-		};
-		unsafeWindow._setFormulaDealerRack=unsafeWindow.setFormulaDealerRack;
-		unsafeWindow.setFormulaDealerRack = function(rack){
-			unsafeWindow._setFormulaDealerRack(rack);
-			for(var i=0;i<prodStock[2].length;i++){
-				prodStock[2][i]=0;
-			}
-			for(var i=0;i<rack.length;i++){
-				prodStock[2][parseInt(rack[i]["fid"],10)]=parseInt(rack[i]["amount"],10);
-			}
-			unsafeData.prodStock = prodStock.clone();
-			GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"setFormulaDealerRack\prodStock"));
-			raiseEvent("gameUpdateFormuladealerRack");
-		};
+		unsafeOverwriteFunction("setFormulaDealerFormulas",function(){
+			try{
+				unsafeWindow._setFormulaDealerFormulas();
+			}catch(err){GM_logError("_setFormulaDealerFormulas\n"+err);}
+			try{
+				raiseEvent("gameUpdateFormuladealerOffers");
+			}catch(err){GM_logError("setFormulaDealerFormulas\n"+err);}
+		});
+		unsafeOverwriteFunction("setFormulaDealerRack",function(rack){
+			try{
+				unsafeWindow._setFormulaDealerRack(unsafeCloneObject(rack));
+			}catch(err){GM_logError("_setFormulaDealerRack\n"+err);}
+			try{
+				for(var i=0;i<prodStock[2].length;i++){
+					prodStock[2][i]=0;
+				}
+				for(var i=0;i<rack.length;i++){
+					prodStock[2][parseInt(rack[i]["fid"],10)]=parseInt(rack[i]["amount"],10);
+				}
+				unsafeData.prodStock = prodStock.clone();
+				GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"setFormulaDealerRack\prodStock"));
+				raiseEvent("gameUpdateFormuladealerRack");
+			}catch(err){GM_logError("setFormulaDealerRack\n"+err);}
+		});
 
 		// Lottery
 		err_trace="events city 2: Lottery";
@@ -15199,11 +15215,12 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 				}
 			}
 
-			unsafeWindow._updateLotRack=unsafeWindow.updateLotRack;
-			unsafeWindow.updateLotRack = function(){
-				unsafeWindow._updateLotRack();
+			unsafeOverwriteFunction("updateLotRack",function(){
+				try{
+					unsafeWindow._updateLotRack();
+				}catch(err){GM_logError("_updateLotRack\n"+err);}
 				window.setTimeout(function(){
-					try{
+				try{
 					if(unsafeData.lotteryCollectForPrize){
 						var lotteryCollectForPrize=unsafeData.lotteryCollectForPrize.clone();
 					}else{
@@ -15229,13 +15246,15 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 					lrack=null;
 					newdiv=null;
 
-					}catch(err){GM_log("updateLotRack error:"+err);}
+				}catch(err){GM_log("updateLotRack error:"+err);}
 				},0);
-			};
-			unsafeWindow._updateLotteryPrizes=unsafeWindow.updateLotteryPrizes;
-			unsafeWindow.updateLotteryPrizes = function(item){
-				unsafeWindow._updateLotteryPrizes(item);
+			});
+			unsafeOverwriteFunction("updateLotteryPrizes",function(item){
+				try{
+					unsafeWindow._updateLotteryPrizes(item);
+				}catch(err){GM_logError("_updateLotteryPrizes\n"+err);}
 				window.setTimeout(function(){
+				try{
 					if(unsafeData.lotteryCollectForPrize){
 						var lotteryCollectForPrize=unsafeData.lotteryCollectForPrize.clone();
 					}else{
@@ -15312,15 +15331,17 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 					divLotteryprizes=null;
 					cell=null;
 					unsafeData.lotteryCollectForPrize=lotteryCollectForPrize.clone();
+				}catch(err){GM_logError("updateLotteryPrizes\n"+err);}
 				},0);
-			};
-			unsafeWindow._initLotteryResponse=unsafeWindow.initLotteryResponse;
-			unsafeWindow.initLotteryResponse = function(a){
-				unsafeWindow._initLotteryResponse(a);
-				window.setTimeout(function(a){
+			});
+			unsafeOverwriteFunction("initLotteryResponse",function(response){
+				try{
+					unsafeWindow._initLotteryResponse(unsafeCloneObject(response));
+				}catch(err){GM_logError("_initLotteryResponse\n"+err);}
+				window.setTimeout(function(response){
 					try{
 						// [1(isOk), [...](lotrack), 1(dailyLotTaken), 0(id), {...}(lotteryprizes), 0(won products)]
-						if(a[2]!=0){
+						if(response[2]!=0){
 							hideGoToLottery();
 						}
 						// Log-Button
@@ -15328,26 +15349,29 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 						button.addEventListener("click",function(){ unsafeWindow.buildInfoPanel("lottery"); },false);
 						button=null;
 						//unsafeWindow.updateLotRack();
+						raiseEvent("gameLotteryOpen");
 					}catch(err){GM_log("initLotteryResponse error:"+err);}
-					raiseEvent("gameLotteryOpen");
-				},0,a);
-			};
-			unsafeWindow._dailyLotResponse=unsafeWindow.dailyLotResponse;
-			unsafeWindow.dailyLotResponse = function(a){
-				unsafeWindow._dailyLotResponse(a);
-				//GM_log("dailyLotResponse: "+implode(result));
-				hideGoToLottery();
-				if(a[3]){
-					lotteryLog[lotteryLogId][1]=a[3];
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
-					raiseEvent("gameLotteryGotDailyLot");
-				}
-			};
-			unsafeWindow._showLotDecision=unsafeWindow.showLotDecision;
-			unsafeWindow.showLotDecision = function(lotid){
-				//GM_log("showLotDecision: "+lotid);
-				unsafeWindow._showLotDecision(lotid);
-				window.setTimeout(function(){
+				},0,response);
+			});
+			unsafeOverwriteFunction("dailyLotResponse",function(response){
+				try{
+					unsafeWindow._dailyLotResponse(unsafeCloneObject(response));
+				}catch(err){GM_logError("_dailyLotResponse\n"+err);}
+				try{
+					hideGoToLottery();
+					if(response[3]){
+						lotteryLog[lotteryLogId][1]=response[3];
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
+						raiseEvent("gameLotteryGotDailyLot");
+					}
+				}catch(err){GM_logError("dailyLotResponse\n"+err);}
+			});
+			unsafeOverwriteFunction("showLotDecision",function(lotid){
+				try{
+					unsafeWindow._showLotDecision(lotid);
+				}catch(err){GM_logError("_showLotDecision\n"+err);}
+				window.setTimeout(function(lotid){
+				try{
 					if(unsafeData.lotteryCollectForPrize){
 						var lotteryCollectForPrize=unsafeData.lotteryCollectForPrize.clone();
 					}else{
@@ -15366,28 +15390,33 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 					}
 					newdiv=null;
 					raiseEvent("gameLotteryGotLot");
-				},0);
-			};
-			unsafeWindow._lotGetPrizeResponse=unsafeWindow.lotGetPrizeResponse;
-			unsafeWindow.lotGetPrizeResponse = function(b){
-				unsafeWindow._lotGetPrizeResponse(b);
-				//GM_log("lotGetPrizeResponse: "+implode(result));
-				if(b[5]){
-					lotteryLog[lotteryLogId][2]=b[5];
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
-					raiseEvent("gameLotteryGotPrize");
-				}
-			};
-			unsafeWindow._buyNewLotResponse=unsafeWindow.buyNewLotResponse;
-			unsafeWindow.buyNewLotResponse = function(a){
-				unsafeWindow._buyNewLotResponse(a);
-				//GM_log("buyNewLotResponse: "+implode(result));
-				if(a[5]&a[3]){
-					lotteryLog[lotteryLogId][3].push(a[3]);
-					GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
-					raiseEvent("gameLotteryGotPrize");
-				}
-			};
+				}catch(err){GM_logError("showLotDecision\n"+err);}
+				},0,lotid);
+			});
+			unsafeOverwriteFunction("lotGetPrizeResponse",function(response){
+				try{
+					unsafeWindow._lotGetPrizeResponse(unsafeCloneObject(response));
+				}catch(err){GM_logError("_lotGetPrizeResponse\n"+err);}
+				try{
+					if(response[5]){
+						lotteryLog[lotteryLogId][2]=response[5];
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
+						raiseEvent("gameLotteryGotPrize");
+					}
+				}catch(err){GM_logError("lotGetPrizeResponse\n"+err);}
+			});
+			unsafeOverwriteFunction("buyNewLotResponse",function(response){
+				try{
+					unsafeWindow._buyNewLotResponse(unsafeCloneObject(response));
+				}catch(err){GM_logError("_buyNewLotResponse\n"+err);}
+				try{
+					if(response[5]&response[3]){
+						lotteryLog[lotteryLogId][3].push(response[3]);
+						GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
+						raiseEvent("gameLotteryGotPrize");
+					}
+				}catch(err){GM_logError("buyNewLotResponse\n"+err);}
+			});
 		}
 	}
 
@@ -15407,8 +15436,6 @@ GM_log("initCampaignsResponse\ncampaign="+campaign+"\nresult[1][campaign]:\n"+pr
 	if(unsafeWindow.showQuests){ //FastFix2012/01/18
 		unsafeWindow.showQuests(); //TODO review
 	}
-
-
 
 	if(COUNTRY=="SE"){ $("bar").innerHTML=$("bar").innerHTML.replace(/\.(\d\d) /,",$1 "); }
 	GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_bargeld",$("bar").innerHTML.replace(" "+getText("gamecurrency"),"").replace(regDelimThou,"").replace(regDelimDeci,"."));
@@ -15736,7 +15763,7 @@ try{
 		createElement("div",{"id":"preis_total","style":"position:absolute;top:215px;left:480px;padding:2px;color:black;background-color:#b8a789;border:1px solid black;border-radius:5px;"},ALL);
 		// Change of the contract
 		//unsafeWindow._buildCart=unsafeWindow.buildCart;
-		unsafeWindow.buildCart = function (){
+		unsafeOverwriteFunction("buildCart",function(){
 			// try{
 			// 	unsafeWindow._buildCart();
 			// }catch(err){ GM_logError("_buildCart\n"+err); }		
@@ -15781,8 +15808,8 @@ try{
 				
 				$("preis_total").innerHTML=getText("total")+":<br>"+moneyFormat(sum);
 				newdiv=null;newdiv1=null;newdiv2=null;
-			}catch(err){ GM_logError("buildCart\n"+err); }		
-		};
+			}catch(err){GM_logError("buildCart\n"+err);}
+		});
 		unsafeWindow.buildCart();
 		
 		// Filling data
@@ -15828,8 +15855,7 @@ try{
 
 		// set remembered price
 		err_trace="set remembered price";
-		unsafeWindow._addItem=unsafeWindow.addItem;
-		unsafeWindow.addItem = function (pid){
+		unsafeOverwriteFunction("addItem",function(pid){
 			try{
 				unsafeWindow._addItem(pid);
 			}catch(err){ GM_logError("_addItem\npid="+pid+"\n"+err); }		
@@ -15852,8 +15878,8 @@ try{
 					}
 					cell=null;
 				},0);
-			}catch(err){ GM_logError("addItem\npid="+pid+"\n"+err); }
-		}
+			}catch(err){GM_logError("addItem\npid="+pid+"\n"+err);}
+		});
 
 		// save contract, [target user,{"prod":[amount,price],...}]
 		err_trace="save contract";
