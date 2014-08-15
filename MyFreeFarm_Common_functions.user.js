@@ -3,11 +3,11 @@
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           14.08.2014
-// @version        2.1
+// @date           15.08.2014
+// @version        2.1.1
 // ==/UserScript==
 
-const VERSIONfunctionFile = "2.1";
+const VERSIONfunctionFile = "2.1.1";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
@@ -187,7 +187,7 @@ try{
 function unsafeCloneObject(obj){
 try{
 	if(typeof obj!="object"){
-		throw ("Argument is not an object: "+implode(obj));
+		return obj;
 	}else if(!obj.valueOf){
 		return obj;
 	}else{
