@@ -4,10 +4,10 @@
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
 // @date           15.08.2014
-// @version        2.1.1
+// @version        2.1.2
 // ==/UserScript==
 
-const VERSIONfunctionFile = "2.1.1";
+const VERSIONfunctionFile = "2.1.2";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
@@ -190,8 +190,10 @@ try{
 		return obj;
 	}else if(!obj.valueOf){
 		return obj;
-	}else{
+	}else if(typeof cloneInto=="function"){
 		return cloneInto(obj,unsafeWindow,{cloneFunctions:true});
+	}else{
+		return obj;
 	}
 }catch(err){GM_logError("unsafeCloneObject\n"+err);}
 }
@@ -200,7 +202,11 @@ try{
 	if(!unsafeWindow[fooName]){
 		GM_logWarning("unsafeOverwriteFunction\nFunction "+fooName+" does not exist.");
 	}
-	exportFunction(newFoo,unsafeWindow,{"defineAs":"unsafe_"+fooName});
+	if(typeof exportFunction=="function"){
+		exportFunction(newFoo,unsafeWindow,{"defineAs":"unsafe_"+fooName});
+	}else{
+		unsafeWindow["unsafe_"+fooName]=newFoo;
+	}
 	unsafeWindow["_"+fooName]=unsafeWindow[fooName];
 	unsafeWindow[fooName]=unsafeWindow["unsafe_"+fooName];
 }catch(err){GM_logError("unsafeOverwriteFunction "+fooName+"\n"+err);}
