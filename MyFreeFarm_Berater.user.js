@@ -15711,7 +15711,6 @@ return false;
 		showGoToDonkey();
 		unsafeOverwriteFunction("dailyDonkeyResult",function(response){
 			try{
-GM_log("dailyDonkeyResult\nresponse="+implode(response));
 				unsafeWindow._dailyDonkeyResult(unsafeCloneObject(response));
 			}catch(err){GM_logError("_dailyDonkeyResult\n"+err);}
 			try{
@@ -15740,8 +15739,6 @@ GM_log("dailyDonkeyResult\nresponse="+implode(response));
 				}
 			}catch(err){GM_logError("dailyDonkeyResult\n"+err);}
 		});		
-// logDonkey=[];
-// unsafeWindow.dailyDonkeyResult(unsafeCloneObject([1,2075,0,{"35":2,"157":1},0,0,0,0,[]]));
 	}
 
 	// on load execute ============================================================================
