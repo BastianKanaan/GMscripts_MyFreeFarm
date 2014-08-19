@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           24.06.2014
-// @version        2.1
+// @date           12.07.2014
+// @version        2.1.1
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -54,13 +54,15 @@
 // GM_log("Run Code Automat :"+location.href);
 
 const VERSION=GM_info["script"]["version"];
-// 1.2 Rack-mode queues
-// 1.3 Zone pairing
-// 1.4 Firefox 4
-const neededVersionBerater="2.0";
+const neededVersionBerater="2.2";
 const neededVersionFunctionFile="2.0";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
+// [version,date,[[de,en],[de,en],...]]
+const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migration to openuserjs.org"],["Script wird jetzt auf GitHub entwickelt","Script now developed on GitHub"]]],
+				 ["2.1","11.07.2014",[["Neu: Changelog","New: Changelog"],["Refaktorierung der Zonen-Daten","Refactoring of zones data"]]],
+				 ["2.1.1","12.07.2014",[["Bugfix","Bugfix"]]]
+				];
 if(!VERSIONfunctionFile){
 	alert("Hi, I am the Automaton-Script.\nThe function-file is missing.\nPlease install me again.");
 	location.href=GM_Source;
@@ -197,8 +199,7 @@ var zoneTimeline=new Object();
 const CLOSETIME=180;
 const RAISETIME=2; //seconds
 const OpenWindow={"all":["multiframe","divQueueBox","divChooseBox","infoPanel","friendscontainer","guildmaincontainer","createguildbox","reallocateBuildingContainer"],"farm":["farmhousecontainer"],"city1":["cart","shop","shopframe","animaldealer","wbwcontainer","adcolumn"],"city2":["lotterycontainer","fishpoolinner","formuladealer","windmillinner","collectorscontainer"]};
-// const MenuCommand=["rackElement","racksortinfo","userfarminfos","locationinfo","buildinginfos","windmillinfo","formulas","poweruprack","produkt_name","garten_kategorie","garten_zeit","garten_prod","_currRack","cityzones","punkte","zoneSettings","zoneList","autoMillStorage","GMzoneBonus","prodName","prodNameSort","prodTyp","GMprodBlock","GMgut","GMzoneEndTimes","prodGrowTime","GMzoneErnte","GMwindmillRecipe","GMcurrentPowerup","GMzoneEndTimes","zoneEndProducts","GMzoneWaterTimes","GMzoneFieldData","zoneTyp","zoneToList","produkt_ernte","produkt_x","produkt_y","GMprodMinRack","GMzoneAnimals","produkt_category","produkt_level","zoneBlock","GMstatBotpreisBeob","GMstatBotgutBeob","guildquestlist_level","userquests","unsolvedquests","QUESTS","readyZone","lotteryprizes","lotrack","GMzoneBonusSpecialAmount","GMzoneBonusSpecialProduct","now","GMquestState","city","farm","farmisinfo","zoneWaiting","GMquestNr","forestry_production_run","forestry_production_time","forestry_action","forestry_area_run","forestry_area_time","forestry_area_watertime","forestry_area_name","forestry_area_pid","forestry_stock","forestry_production_products","forestry_farmis","forestry_area","forestry_cache_area","forestry_waterall_cost","forestry_quests","forestry_quicknavi","forestry_user_buildings","forestry_questdelay_run","forestry_questdelay_time","forestry_unlock","forestry_slots","forestry_run","forestry_remain","forestry_slotrun","forestry_slotremain","currentslot","ftimer","fremains"];
-const MenuCommand=["_currRack","autoMillStorage","buildinginfos","city","cityzones","currentslot","farm","farmamount","farmisinfo","farmisaway","forestry_action","forestry_area","forestry_area_name","forestry_area_pid","forestry_area_run","forestry_area_time","forestry_area_watertime","forestry_cache_area","forestry_farmis","forestry_production_products","forestry_production_run","forestry_production_time","forestry_questdelay_run","forestry_questdelay_time","forestry_quests","forestry_quicknavi","forestry_remain","forestry_run","forestry_slotremain","forestry_slotrun","forestry_slots","forestry_stock","forestry_unlock","forestry_user_buildings","forestry_waterall_cost","formulas","fremains","ftimer","garten_kategorie","garten_prod","garten_zeit","GMberaterDone","GMberaterVersion","GMbotConfigData","GMcalcToLodgeCampaignNr","GMcalcToLodgeQuestNr","GMcalcToQuestNr","GMcurrentPowerup","GMguid","GMgut","GMlodgeCampaignNr","GMlodgeQuestData","GMlodgeQuestNr","GMlodgeTimeEnd","GMlotteryCollectForPrize","GMnpcSaison","GMpreisBeob","GMprodBlock","GMprodGrowTime","GMprodMinRack","GMprodMinRackInit","GMprodMinRackSettings","prodName","prodNameSort","GMprodPlantSize","GMprodRequire","prodStock","prodTyp","prodYield","GMquestNr","GMquestState","readyZone","reallocateBuildingSet","GMsetCalcToLodgeQuest","GMsetCalcToQuest","GMstatBotgutBeob","GMstatBotpreisBeob","GMstatBotVersion","GMusername","GMvalFarmiLimits","GMzoneAddToGlobalTime","GMzoneAnimals","GMzoneBlock","GMzoneBonus","GMzoneBonusSpecialAmount","GMzoneBonusSpecialProduct","zoneEndProducts","GMzoneEndTimes","GMzoneErnte","zoneProductionData","GMzoneMainProd","zoneTyp","GMzoneWaterTimes","guildquestlist_level","locationinfo","lotrack","lotteryprizes","now","poweruprack","produkt_category","produkt_ernte","produkt_level","produkt_name","produkt_x","produkt_y","punkte","QUESTS","rackElement","racksortinfo","unsolvedquests","userfarminfos","userquests","windmillinfo","zoneList","zoneSettings","zoneToList","zoneWaiting"];
+const MenuCommand=["_currRack","autoMillStorage","buildinginfos","city","cityzones","currentslot","farm","farmamount","farmisinfo","farmisaway","forestry_action","forestry_area","forestry_area_name","forestry_area_pid","forestry_area_run","forestry_area_time","forestry_area_watertime","forestry_cache_area","forestry_farmis","forestry_production_products","forestry_production_run","forestry_production_time","forestry_questdelay_run","forestry_questdelay_time","forestry_quests","forestry_quicknavi","forestry_remain","forestry_run","forestry_slotremain","forestry_slotrun","forestry_slots","forestry_stock","forestry_unlock","forestry_user_buildings","forestry_waterall_cost","formulas","fremains","ftimer","garten_kategorie","garten_prod","garten_zeit","GMberaterDone","GMberaterVersion","GMbotConfigData","GMcalcToLodgeCampaignNr","GMcalcToLodgeQuestNr","GMcalcToQuestNr","GMcurrentPowerup","GMguid","GMgut","GMlodgeCampaignNr","GMlodgeQuestData","GMlodgeQuestNr","GMlodgeTimeEnd","GMlotteryCollectForPrize","GMnpcSaison","GMpreisBeob","GMprodBlock","GMprodGrowTime","GMprodMinRack","GMprodMinRackInit","GMprodMinRackSettings","prodName","prodNameSort","GMprodPlantSize","GMprodRequire","prodStock","prodTyp","prodYield","GMquestNr","GMquestState","readyZone","reallocateBuildingSet","GMsetCalcToLodgeQuest","GMsetCalcToQuest","GMstatBotgutBeob","GMstatBotpreisBeob","GMstatBotVersion","GMusername","GMvalFarmiLimits","GMzoneAddToGlobalTime","guildquestlist_level","locationinfo","lotrack","lotteryprizes","now","poweruprack","produkt_category","produkt_ernte","produkt_level","produkt_name","produkt_x","produkt_y","punkte","QUESTS","rackElement","racksortinfo","unsolvedquests","userfarminfos","userquests","windmillinfo","zoneList","zoneSettings","zoneToList","zoneWaiting"];
 
 var botArbiterStack=new Object();
 var botArbiterInterval=null;
@@ -473,14 +474,16 @@ try{
 }
 function getFarmZoneBonus(zoneNr,product){
 	if(DEVMODE_FUNCTION){GM_log("Begin getFarmZoneBonus zoneNr:"+zoneNr+" product:"+product);}
-	var bonus=1;
 	try{
+		var bonus=1;
 		var zoneNrF=zoneNr.toString().replace(/\.\d+$/,"");
-		if(!!unsafeData.zoneBonusSpecialProduct[zoneNrF] && unsafeData.zoneBonusSpecialProduct[zoneNrF]==product){
-			bonus -=unsafeData.zoneBonusSpecialAmount[zoneNrF]/100;
+		var currBonus=unsafeData.zones.getBonus(zoneNrF);
+		var currBonusSpecial=unsafeData.zones.getBonusSpecial(zoneNrF);
+		if(currBonusSpecial&&(currBonusSpecial[0]==product)){
+			bonus-=currBonusSpecial[1]/100;
 		}
-		if(unsafeData.zoneBonus[zoneNrF]){
-			bonus -=unsafeData.zoneBonus[zoneNrF]/100;
+		if(currBonus){
+			bonus-=currBonus/100;
 		}
 	}catch(err){
 		GM_logError("getFarmZoneBonus \n"+err);
@@ -622,11 +625,11 @@ function calcProductScore(product, zoneNrF, amount, endtime){
 		}
 	break;
 	case 2:
-		if(amount==null || amount==undefined) amount=unsafeData.zoneAnimals[zoneNrF];
+		if(amount==null || amount==undefined){ amount=unsafeData.zones.getAnimals(zoneNrF); }
 		return unsafeData.prodPoints[0][product]*unsafeData.prodYield[0][product]*amount;
 	break;
 	case 3:case 4:
-		if(amount==null || amount==undefined) amount=1;
+		if(amount==null || amount==undefined){ amount=1; }
 		return unsafeData.prodPoints[0][product]*unsafeData.prodYield[0][product]*amount;
 	break;
 	default:
@@ -657,7 +660,7 @@ function calcProductAmount(product, zoneNrF, amount, endtime, minPlanted){
 		}
 	break;
 	case 2:
-		return unsafeData.zoneAnimals[zoneNrF] * unsafeData.prodYield[0][product];
+		return unsafeData.zones.getAnimals(zoneNrF) * unsafeData.prodYield[0][product];
 	break;
 	case 3:
 		return unsafeData.prodYield[0][product];
@@ -671,23 +674,25 @@ function calcEmptyProductPositions(product, zoneNrF){
 	var returnn=0;
 	if(getBuildingTyp(zoneNrF)==1){
 		var size=unsafeData.prodPlantSize[0][product];
-		if(unsafeData.zoneProductionData && unsafeData.zoneProductionData[zoneNrF]){
-			if(unsafeData.zoneProductionData[zoneNrF][1] && !isNaN(unsafeData.zoneProductionData[zoneNrF][1][size])){
-				returnn=unsafeData.zoneProductionData[zoneNrF][1][size];
+		var tempZoneProductionData=unsafeData.zones.getProduction(zoneNrF);
+		if(tempZoneProductionData){
+			if(tempZoneProductionData[1] && !isNaN(tempZoneProductionData[1][size])){
+				returnn=tempZoneProductionData[1][size];
 			}else{
 				returnn=120/size;
 			}
-			if(DEVMODE&&!unsafeData.zoneProductionData[zoneNrF][3]){
+			if(DEVMODE&&!tempZoneProductionData[3]){
 				GM_log("calcEmptyProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
 			}
 		}
 	}else if(isNaN(zoneNrF)){
 		var size=unsafeData.prodPlantSize[1][product];
-		if(unsafeData.zoneProductionData && unsafeData.zoneProductionData[zoneNrF]){
-			if(unsafeData.zoneProductionData[zoneNrF][1] && !isNaN(unsafeData.zoneProductionData[zoneNrF][1][size])){
-				returnn=unsafeData.zoneProductionData[zoneNrF][1][size];
+		var tempZoneProductionData=unsafeData.zones.getProduction(zoneNrF);
+		if(tempZoneProductionData){
+			if(tempZoneProductionData[1] && !isNaN(tempZoneProductionData[1][size])){
+				returnn=tempZoneProductionData[1][size];
 			}
-			if(DEVMODE&&!unsafeData.zoneProductionData[zoneNrF][3]){
+			if(DEVMODE&&!tempZoneProductionData[3]){
 				GM_log("calcEmptyProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
 			}
 		}
@@ -700,24 +705,26 @@ function calcProductPositions(product, zoneNrF){
 	var returnn=1;
 	if(getBuildingTyp(zoneNrF)==1){
 		var size=unsafeData.prodPlantSize[0][product];
-		if(unsafeData.zoneProductionData && unsafeData.zoneProductionData[zoneNrF]){
-			if(unsafeData.zoneProductionData[zoneNrF][2] && !isNaN(unsafeData.zoneProductionData[zoneNrF][2][size])){
-				returnn=unsafeData.zoneProductionData[zoneNrF][2][size];
+		var tempZoneProductionData=unsafeData.zones.getProduction(zoneNrF);		
+		if(tempZoneProductionData){
+			if(tempZoneProductionData[2] && !isNaN(tempZoneProductionData[2][size])){
+				returnn=tempZoneProductionData[2][size];
 			}else{
 				returnn=120/size;
 			}
-			if(DEVMODE&&!unsafeData.zoneProductionData[zoneNrF][3]){
+			if(DEVMODE&&!tempZoneProductionData[3]){
 				GM_log("calcProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
 			}
 		}
 	}else if(isNaN(zoneNrF)){
-		if(unsafeData.zoneProductionData && unsafeData.zoneProductionData[zoneNrF]){
+		var tempZoneProductionData=unsafeData.zones.getProduction(zoneNrF);		
+		if(tempZoneProductionData){
 			// var size=unsafeData.prodPlantSize[1][product];
-			if(unsafeData.zoneProductionData[zoneNrF][2] && !isNaN(unsafeData.zoneProductionData[zoneNrF][2])){
-				returnn=unsafeData.zoneProductionData[zoneNrF][2];
+			if(tempZoneProductionData[2] && !isNaN(tempZoneProductionData[2])){
+				returnn=tempZoneProductionData[2];
 			}
 
-			if(DEVMODE&&!unsafeData.zoneProductionData[zoneNrF][3]){
+			if(DEVMODE&&!tempZoneProductionData[3]){
 				GM_log("calcProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
 			}
 		}
@@ -729,16 +736,17 @@ function calcProductPositions(product, zoneNrF){
 function calcInGameProductAmountOnField(product, zoneNrF, endtime){
 	try{
 		var iBase=0;
-		if(unsafeData.zoneProductionData && unsafeData.zoneProductionData[zoneNrF]){
-			if(unsafeData.zoneProductionData[zoneNrF][0][0][product]){
-				for(var i in unsafeData.zoneProductionData[zoneNrF][0][0][product]){
-					if(!unsafeData.zoneProductionData[zoneNrF][0][0][product].hasOwnProperty(i)){ continue; }
-					if(endtime==undefined || endtime==null || unsafeData.zoneProductionData[zoneNrF][0][0][product][i][1]<=endtime){
-						iBase +=calcProductAmount(product,zoneNrF,unsafeData.zoneProductionData[zoneNrF][0][0][product][i][0],unsafeData.zoneProductionData[zoneNrF][0][0][product][i][1],false);
+		var tempZoneProductionData=unsafeData.zones.getProduction(zoneNrF);
+		if(tempZoneProductionData){
+			if(tempZoneProductionData[0][0][product]){
+				for(var i in tempZoneProductionData[0][0][product]){
+					if(!tempZoneProductionData[0][0][product].hasOwnProperty(i)){ continue; }
+					if(endtime==undefined || endtime==null || tempZoneProductionData[0][0][product][i][1]<=endtime){
+						iBase +=calcProductAmount(product,zoneNrF,tempZoneProductionData[0][0][product][i][0],tempZoneProductionData[0][0][product][i][1],false);
 					}
 				}
 			}
-			if(DEVMODE&&!unsafeData.zoneProductionData[zoneNrF][3]){
+			if(DEVMODE&&!tempZoneProductionData[3]){
 				GM_log("calcInGameProductAmountOnField OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" endtime:"+endtime+" return:"+iBase);
 			}
 		}
@@ -777,9 +785,9 @@ try{
 		time *=bonus;
 		var zoneNrL=getZoneListId(zoneNrF);
 		if(zoneList[zoneNrL][0][0]!=PRODSTOP){
-			time -=zoneList[zoneNrL][0][1]*FEEDBONUSTIME[zoneList[zoneNrL][0][0]]/unsafeData.zoneAnimals[zoneNrF];
+			time -=zoneList[zoneNrL][0][1]*FEEDBONUSTIME[zoneList[zoneNrL][0][0]]/unsafeData.zones.getAnimals(zoneNrF);
 			if(zoneList[zoneNrL][1][1]>0){
-				time -=zoneList[zoneNrL][1][1]*FEEDBONUSTIME[zoneList[zoneNrL][1][0]]/unsafeData.zoneAnimals[zoneNrF];
+				time -=zoneList[zoneNrL][1][1]*FEEDBONUSTIME[zoneList[zoneNrL][1][0]]/unsafeData.zones.getAnimals(zoneNrF);
 			}
 		}
 		break;
@@ -802,22 +810,6 @@ try{
 	}
 	return time;
 }catch(err){GM_logError("calcProductionTime product:"+product+" zoneNrF:"+zoneNrF+" \n"+err);return 0;}
-}
-function isMultiSlotZone(zoneNrF){
-	try{
-		switch(getZoneType(zoneNrF)){
-		case 13: // Oil
-		case 14: // Special oil
-		case 16: // Knitting
-		case "windmill":
-		case "sawmill": case "carpentry":
-		case "fw1": case "fw2": case "fw3": // Foodworld
-		case "fl2": // Flowers
-			return true;
-		default:
-			return false;
-		}
-	}catch(err){GM_logError("isMultiSlotZone\n"+err);}
 }
 function isVisibleZone(zoneNr){
 	if(extendedListReg.test(zoneNr)){
@@ -848,15 +840,17 @@ function isVisibleZone(zoneNr){
 function getZoneTimes(zoneNrL){
 	if(DEVMODE_FUNCTION){GM_log("Begin getZoneTimes " + zoneNrL);}
 	try{
+		var help;
 		if(!valShowQueueTime){
 			if(DEVMODE_FUNCTION){GM_log("End getZoneTimes DISABLED:" + zoneNrL);}
 			return new Object();
 		}
 		noTime=false;
 		var zoneTimes=new Object();
-		for(var fz in unsafeData.zoneEndTimes){
-			if (!unsafeData.zoneEndTimes.hasOwnProperty(fz)){continue;}
-			zoneTimes[fz]=((unsafeData.zoneEndTimes[fz]==NEVER)?now:unsafeData.zoneEndTimes[fz]);
+		for(var fz in unsafeData.ALL_SLOTS){
+			if(!unsafeData.ALL_SLOTS.hasOwnProperty(fz)){ continue; }
+			help=unsafeData.zones.getEndtime(fz);
+			zoneTimes[fz]=((help==NEVER)?now:help);
 		}
 		if(zoneNrL==undefined){
 			if(DEVMODE_FUNCTION){GM_log("End getZoneTimes " + zoneNrL);}
@@ -926,13 +920,13 @@ function createZoneList(zoneNrS){
 function getZoneListId(zoneNrF,slot){
 try{
 	var zoneToListId = zoneNrF;
-	if(isMultiSlotZone(zoneNrF)&&(!zoneNrF.match(/\.\d+$/))){
+	if(unsafeData.zones.isMultiSlot(zoneNrF)&&(!zoneNrF.match(/\.\d+$/))){
 		zoneToListId += "."+(slot?+slot:1);
 	}
 	// if(isNaN(zoneNrF)){
-	// 	var zoneToListId = zoneNrF+(isMultiSlotZone(zoneNrF)?(slot?"."+slot:".1"):"");
+	// 	var zoneToListId = zoneNrF+(unsafeData.zones.isMultiSlot(zoneNrF)?(slot?"."+slot:".1"):"");
 	// }else{
-	// 	var zoneToListId = zoneNrF.toString()+(isMultiSlotZone(zoneNrF)?(slot?"."+slot:".1"):"");
+	// 	var zoneToListId = zoneNrF.toString()+(unsafeData.zones.isMultiSlot(zoneNrF)?(slot?"."+slot:".1"):"");
 	// }
 	if(!zoneToList[zoneToListId]){ setZoneListId(zoneToListId,zoneToListId); }
 	if(!zoneList[zoneToList[zoneToListId]]){ createZoneList(zoneToList[zoneToListId]); }
@@ -1022,25 +1016,8 @@ function getZoneType(zoneNr){
 	try{
 		if(extendedListReg.test(zoneNr)){ //extended is always a field of type 1
 			return 1;
-		}
-		var help=zoneNr.toString().replace(/\.\d+$/g,"");
-		if(isNaN(help)){
-			switch(help){
-			case "foodworld-1": return "fw1";
-			case "foodworld-2": return "fw2";
-			case "foodworld-3": return "fw3";
-			case "foodworld-4": return "fw4";
-			case "farmersmarket-0": return "fl0";
-			case "farmersmarket-1": return "fl1";
-			case "farmersmarket-2": return "fl2";
-			case "farmersmarket-3": return "fl3";
-			case "farmersmarket-4": return "fl4";
-			case "farmersmarket-5": return "fl5";
-			case "farmersmarket-6": return "fl6";			
-			default: return help;
-			}
-		}else{
-			return unsafeData.zoneTyp[help];
+		}else{ 
+			return unsafeData.zones.getBuilding(zoneNr);
 		}
 	}catch(err){GM_logError("getZoneType\n"+err);}
 }
@@ -1089,7 +1066,7 @@ try{
 			// txt +="&nbsp;("+ getZoneName(++recursionCount,zones[0],zoneNrL,null,false,false,showBonus,showName) + ")";
 		}
 	}else if(showPaired && (zones.length > 1 || zoneNrS!=zoneNrL)){
-		// if(showName) txt +=unsafeWindow.buildinginfos[0][unsafeData.zoneTyp[zoneNrF]][10].replace(" ","&nbsp;")+"&nbsp;";
+		// if(showName) txt +=unsafeWindow.buildinginfos[0][unsafeData.zones.getBuilding(zoneNrF)][10].replace(" ","&nbsp;")+"&nbsp;";
 		if(showName){
 			txt +=(isNaN(zoneNrF)?getText(getZoneType(zoneNrF)):unsafeWindow.buildinginfos[0][getZoneType(zoneNrF)][10].replace(" ","&nbsp;"))+"&nbsp;";
 		}
@@ -1115,33 +1092,35 @@ try{
 					txt="&nbsp;{" + queueNum + "}";
 				}
 				if(showBonus){
+					var currBonus=unsafeData.zones.getBonus(zoneNrF);
+					var currBonusSpecial=unsafeData.zones.getBonusSpecial(zoneNrF);
 					txt='<div style="position:relative;display:inline-block;">';
-					if(unsafeData.zoneBonus[zoneNrF]>0){
-						txt+='<span>'+unsafeData.zoneBonus[zoneNrF]+'%</span>';
+					if(currBonus>0){
+						txt+='<span>'+currBonus+'%</span>';
 					}
-					if(unsafeData.zoneBonusSpecialProduct[zoneNrF]!="0"){
-						txt+='<span>,</span><span><div class="kp'+unsafeData.zoneBonusSpecialProduct[zoneNrF]+'" style="display:inline-block;"></div>'+(unsafeData.zoneBonus[zoneNrF]+unsafeData.zoneBonusSpecialAmount[zoneNrF])+'%</span>';
+					if(currBonusSpecial){
+						txt+='<span>,</span><span><div class="kp'+currBonusSpecial[0]+'" style="display:inline-block;"></div>'+(currBonus+currBonusSpecial[1])+'%</span>';
 					}
 					txt+='</div>';
 				}
 				break;
 			case 2:
 				if(showBonus){
-					if(unsafeData.zoneBonus[zoneNrF]>0){
-						txt+=unsafeData.zoneBonus[zoneNrF]+"%";
+					if(unsafeData.zones.getBonus(zoneNrF)>0){
+						txt+=unsafeData.zones.getBonus(zoneNrF)+"%";
 					}
 					if(txt!="") txt+=",";
-					txt+="#"+unsafeData.zoneAnimals[zoneNrF];
+					txt+="#"+unsafeData.zones.getAnimals(zoneNrF);
 				}
 				break;
 			case 3:
-				if(showBonus && unsafeData.zoneBonus[zoneNrF]>0){
-					txt=unsafeData.zoneBonus[zoneNrF]+"%";
+				if(showBonus && unsafeData.zones.getBonus(zoneNrF)>0){
+					txt=unsafeData.zones.getBonus(zoneNrF)+"%";
 				}
 				break;
 			default:
-				if(showBonus && unsafeData.zoneBonus[zoneNrF]>0){
-					txt=unsafeData.zoneBonus[zoneNrF]+"%";
+				if(showBonus && unsafeData.zones.getBonus(zoneNrF)>0){
+					txt=unsafeData.zones.getBonus(zoneNrF)+"%";
 				}
 		}
 		if(showLocation){
@@ -1785,9 +1764,9 @@ function drawQueueListSmall(zoneNrF, zoneNrL, appendTo){
 
 	var newdiv=null;
 	if(false && fzType==3){//OPTION this show the factory begin product..
-		for(var k=0;k<BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]].length;k++){
-			newdiv=createElement("div",{id:"divQueueItemListList"+zoneNrL+"Q"+k+"Item","class":"divQueueItemListChooseItem v"+BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][k]},appendTo);
-			createElement("div",{"class":"divQueueItemListNumber"},newdiv, FEEDBONUSTIME[BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][k]]);
+		for(var k=0;k<BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)].length;k++){
+			newdiv=createElement("div",{id:"divQueueItemListList"+zoneNrL+"Q"+k+"Item","class":"divQueueItemListChooseItem v"+BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][k]},appendTo);
+			createElement("div",{"class":"divQueueItemListNumber"},newdiv, FEEDBONUSTIME[BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][k]]);
 		}
 	}else{
 		for(queueNum=0;queueNum<zoneList[zoneNrL].length; queueNum++){
@@ -1976,7 +1955,7 @@ try{
 	var feedMax=[0,0];
 	var feedTime=[,];
 	// the time needed if full fed
-	var growTime=30 * unsafeData.prodGrowTime[0][unsafeData.BUILDING2PRODUCT[unsafeData.zoneTyp[zoneNrF]][0]] * getFarmZoneBonus(zoneNrF, null);
+	var growTime=30 * unsafeData.prodGrowTime[0][unsafeData.BUILDING2PRODUCT[unsafeData.zones.getBuilding(zoneNrF)][0]] * getFarmZoneBonus(zoneNrF, null);
 	if(unsafeWindow.premium==0 && level>9){ growTime -=1; } // small hack. non-premiums cant feed completely
 
 	function calcStableChooseFeedBox(index,val){
@@ -2041,7 +2020,7 @@ try{
 		if(!(unsafeData.prodBlock[0][iProd]&&unsafeData.prodBlock[0][iProd].match(/l/))){
 			feedSort[k]=iProd;
 			feedAmount[k]=zoneList[zoneNrL][queueNum][1];
-			feedTime[k]=FEEDBONUSTIME[iProd]/unsafeData.zoneAnimals[zoneNrF];
+			feedTime[k]=FEEDBONUSTIME[iProd]/unsafeData.zones.getAnimals(zoneNrF);
 			feedMax[k]=Math.floor(growTime/feedTime[k],1);
 
 			newdiv1=createElement("div",{"class":"link divChooseFeedAmount","id":"divChooseFeedAmount"+zoneNrL+"Q"+iProd+"I"},newdiv);
@@ -2878,14 +2857,14 @@ try{
 			newrow=createElement("div",{style:"display:table-row;width:100%;"},content);
 			createElement("div",{"class":"tableTd1"},newrow, getText("automat_QueFutter"));
 			newdiv=createElement("div",{"class":"tableTd2"},newrow);
-			produktPic(iType,BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][0],newdiv);
-			createElement("span",{},newdiv, getTimeStr(FEEDBONUSTIME[BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][0]]/unsafeData.zoneAnimals[zoneNrF]) + "&nbsp;" + unsafeData.prodName[0][BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][0]]);
+			produktPic(iType,BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][0],newdiv);
+			createElement("span",{},newdiv, getTimeStr(FEEDBONUSTIME[BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][0]]/unsafeData.zones.getAnimals(zoneNrF)) + "&nbsp;" + unsafeData.prodName[0][BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][0]]);
 
 			newrow=createElement("div",{style:"display:table-row;width:100%;"},content);
 			createElement("div",{"class":"tableTd1"},newrow, "");
 			newdiv=createElement("div",{"class":"tableTd2"},newrow);
-			produktPic(0,BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][1],newdiv);
-			createElement("span",{},newdiv, getTimeStr(FEEDBONUSTIME[BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][1]]/unsafeData.zoneAnimals[zoneNrF]) + "&nbsp;" + unsafeData.prodName[0][BUILDING2FEED[unsafeData.zoneTyp[zoneNrF]][1]]);
+			produktPic(0,BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][1],newdiv);
+			createElement("span",{},newdiv, getTimeStr(FEEDBONUSTIME[BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][1]]/unsafeData.zones.getAnimals(zoneNrF)) + "&nbsp;" + unsafeData.prodName[0][BUILDING2FEED[unsafeData.zones.getBuilding(zoneNrF)][1]]);
 		}
 		if(valShowQueueTime && !isTimeLine && lShowTime && (!iStop || foundStop)){
 			if(lZonesAmount > 1 || fzType=="sawmill"){
@@ -3733,7 +3712,7 @@ TypeError: can't convert undefined to object
 			case 1:
 				//-- GM_log("autoZoneHandle run nextFkt case:1");
 				try{
-					if(!unsafeData.zoneProductionData[handled.zoneNrF][3]){
+					if(!unsafeData.zones.getProduction(handled.zoneNrF)[3]){
 						if(DEVMODE){ logBubble.add("Field-Data not ready"); }
 						logBubble.add("Field-Data not ready");
 						window.setTimeout(autoZoneHandle,getRandom(tmin2,tmax2));
@@ -3803,7 +3782,7 @@ TypeError: can't convert undefined to object
 				break;
 			case "forest":
 				try{
-					if(!unsafeData.zoneProductionData[handled.zoneNrF][3]){
+					if(!unsafeData.getProduction(handled.zoneNrF)[3]){
 						if(DEVMODE){ logBubble.add("Field-Data not ready"); }
 						window.setTimeout(autoZoneHandle,getRandom(tmin2,tmax2));
 					}else{
@@ -3854,7 +3833,7 @@ try{
 			if(DEVMODE){GM_log("Cropping cropable:"+cropable);}
 			if(cropable){
 				logBubble.add("Cropping");
-				unsafeData.zoneProductionData[handled.zoneNrF][3]=false;
+				unsafeData.zones.getProduction(handled.zoneNrF)[3]=false;
 				click($("cropall").getElementsByTagName("img")[0]);
 				return true;
 			}else{
@@ -3883,7 +3862,7 @@ try{
 				for(var i=0;i<unsafeWindow.forestry_area.length;i++){
 					v=unsafeWindow.forestry_area[i]['position'];
 					//GM_log("Cropping forestry_area["+i+"]['category']="+unsafeWindow.forestry_area[i]['category']+" forestry_area["+i+"]['block']="+unsafeWindow.forestry_area[i]['block']+" forestry_area_time["+v+"]="+unsafeWindow.forestry_area_time[v]);
-					if(unsafeWindow.forestry_area[i]['category']==1 && unsafeWindow.forestry_area[i]['block']==0 && unsafeWindow.forestry_area_time[v]!=undefined && unsafeWindow.forestry_area_time[v]<=0 && !unsafeData.zoneProductionData["forest"][2]<25){
+					if(unsafeWindow.forestry_area[i]['category']==1 && unsafeWindow.forestry_area[i]['block']==0 && unsafeWindow.forestry_area_time[v]!=undefined && unsafeWindow.forestry_area_time[v]<=0 && !unsafeData.zones.getProduction("forest")[2]<25){
 						var prod=20+parseInt(unsafeWindow.forestry_area[i]["productid"],10);
 						if(unsafeData.prodStock[1][prod]+unsafeData.prodYield[1][prod]<=unsafeData.prodStockMax[1][prod]){
 							cropable=true;
@@ -3897,7 +3876,7 @@ try{
 			if(DEVMODE){GM_log("Cropping cropable:"+cropable);}
 			if(cropable){
 				logBubble.add("Cropping");
-				unsafeData.zoneProductionData["forest"][3]=false;
+				unsafeData.zones.getProduction("forest")[3]=false;
 				click($("forestry_forest_button2"));
 				return true;
 			}else{
@@ -3917,7 +3896,7 @@ function autoZoneFinish(runId,closeButton){
 	busy_action="autoZoneFinish: init";
 	top.unsafeData.autoAction="automat: autoZoneFinish";
 	var help;
-	if(unsafeData.zoneProductionData[handled.zoneNrF]&&!unsafeData.zoneProductionData[handled.zoneNrF][3]){
+	if((help=unsafeData.zones.getProduction(handled.zoneNrF))&&(!help[3])){
 		busy_action="autoZoneFinish: data not ready";
 		window.setTimeout(autoZoneFinish,getRandom(tmin2,tmax2),runId,closeButton);
 	}else {
@@ -4097,7 +4076,7 @@ try{
 				if((z>0)&&(unsafeWindow.garten_x[v]==1)&&(unsafeWindow.garten_y[v]==1)){ // first part plants
 					if(z<unsafeWindow.Zeit.Server){
 						wait=true;
-						unsafeData.zoneProductionData[handled.zoneNrF][3]=false;
+						unsafeData.zones.flagProduction(handled.zoneNrF);
 						click($("f"+v));
 			
 					}
@@ -4356,7 +4335,7 @@ try{
 							}
 						}
 						if(frei){
-							unsafeData.zoneProductionData[handled.zoneNrF][3]=false;
+							unsafeData.zones.flagProduction(handled.zoneNrF);
 							click($("f"+v));
 							v+=parseInt(unsafeWindow.global_x,10);
 							linecount +=parseInt(unsafeWindow.global_x,10);
@@ -4414,7 +4393,7 @@ try{
 				}
 			break;}
 			case 2:{ // commit automatic planting
-				unsafeData.zoneProductionData[handled.zoneNrF][3]=false;
+				unsafeData.zones.flagProduction(handled.zoneNrF);
 				setNextQueueItem(handled.zoneNrS);			
 				action=function(){ click($("globalbox_button1")); }
 				listeningEvent="gameFieldPlanted";
@@ -4454,7 +4433,7 @@ try{
 			if($("tooltipwaterall")){
 				busy_action="autoFarmWater "+v+": premium";
 				logBubble.add("Water all");
-				unsafeData.zoneProductionData[handled.zoneNrF][3]=false;
+				unsafeData.zones.flagProduction(handled.zoneNrF);
 				document.addEventListener("gameFieldWatered",function(runId,v,didPlant,isBot){
 					return function(){
 						document.removeEventListener("gameFieldWatered",arguments.callee,false);
@@ -4470,7 +4449,7 @@ try{
 				if(v<121){
 					if((unsafeWindow.garten_kategorie[v]=="v") && (unsafeWindow.garten_zeit[v]!="0") && (isNaN(parseInt(unsafeWindow.garten_wasser[v],10))||(parseInt(unsafeWindow.garten_wasser[v],10)+86400<unsafeWindow.Zeit.Server))){
 						busy_action="autoFarmWater "+v+": click ";
-						unsafeData.zoneProductionData[handled.zoneNrF][3]=false;
+						unsafeData.zones.flagProduction(handled.zoneNrF);
 						click($("f"+v));
 						window.setTimeout(autoFarmWater,getRandom(tmin,tmax),runId,v+parseInt(unsafeWindow.garten_max_x[v],10),didPlant,isBot);
 					}else{
@@ -4532,7 +4511,7 @@ try{
 			break;}
 			case 4:{ // check storage of feed
 				if(unsafeData.prodStock[0][sorte]&&unsafeData.prodStock[0][sorte]>0){
-					autoFarmStable(runId,step+1,didFeed,isBot,sorte,feedcounter,maxFeed);
+					window.setTimeout(autoFarmStable, 3*getRandom(tmin,tmax),runId,step+1,didFeed,isBot,sorte,feedcounter,maxFeed)
 				}else{
 					// feed not found
 					if(1+parseInt(unsafeWindow._currRack,10)<unsafeWindow.userracks){
@@ -4704,7 +4683,7 @@ function autoFarmFactoryOil(runId,step){
 			switch(step){
 			case 1:{ // init
 				// TODO check required products earlier (recalcQueue)
-				if(unsafeData.zoneBlock[handled.zoneNrS]){
+				if(unsafeData.zones.getBlock(handled.zoneNrS)){
 					zoneList[handled.zoneNrL].unshift(DEFAULT_ZONELIST_ITEM.clone());
 					updateQueueBox(handled.zoneNrS);
 					window.setTimeout(autoFarmFactoryOil,getRandom(tmin2,tmax2),runId,6);
@@ -4718,9 +4697,9 @@ function autoFarmFactoryOil(runId,step){
 							}
 						}
 					}
-					if(unsafeData.zoneEndTimes[handled.zoneNrS]==NEVER){ // empty
+					if(unsafeData.zones.getEndtime(handled.zoneNrS)==NEVER){ // empty
 						window.setTimeout(autoFarmFactoryOil,getRandom(tmin2,tmax2),runId,3);
-					}else if(unsafeData.zoneEndTimes[handled.zoneNrS]<=unsafeWindow.Zeit.Server){ // cropable
+					}else if(unsafeData.zones.getEndtime(handled.zoneNrS)<=unsafeWindow.Zeit.Server){ // cropable
 						window.setTimeout(autoFarmFactoryOil,getRandom(tmin2,tmax2),runId,step+1);
 					}else{ // busy
 						window.setTimeout(autoFarmFactoryOil,getRandom(tmin2,tmax2),runId,6);
@@ -4830,7 +4809,7 @@ function autoFarmFactoryKnitting(runId,step){
 			switch(step){
 			case 1:{ // init
 				// TODO check required products earlier (recalcQueue)
-				if(unsafeData.zoneBlock[handled.zoneNrS]){
+				if(unsafeData.zones.getBlock(handled.zoneNrS)){
 					zoneList[handled.zoneNrL].unshift(DEFAULT_ZONELIST_ITEM.clone());
 					updateQueueBox(handled.zoneNrS);
 					autoFarmFactoryKnitting(runId,5);
@@ -4844,9 +4823,9 @@ function autoFarmFactoryKnitting(runId,step){
 							}
 						}
 					}
-					if(unsafeData.zoneEndTimes[handled.zoneNrS]==NEVER){ // empty
+					if(unsafeData.zones.getEndtime(handled.zoneNrS)==NEVER){ // empty
 						window.setTimeout(autoFarmFactoryKnitting,getRandom(tmin2,tmax2),runId,3);
-					}else if(unsafeData.zoneEndTimes[handled.zoneNrS]<=unsafeWindow.Zeit.Server){ // cropable
+					}else if(unsafeData.zones.getEndtime(handled.zoneNrS)<=unsafeWindow.Zeit.Server){ // cropable
 						window.setTimeout(autoFarmFactoryKnitting,getRandom(tmin2,tmax2),runId,step+1);
 					}else{ // busy
 						window.setTimeout(autoFarmFactoryKnitting,getRandom(tmin2,tmax2),runId,5);
@@ -4969,8 +4948,8 @@ try{
 				action=function(){ click($("cityzone_2_1")); };
 			break;
 			case 3: // get powerup
-				// GM_log(busy_action+"\nhandled="+implode(handled)+"\ntime="+unsafeData.zoneEndTimes[handled.zoneNrS]+"\nservertime="+unsafeWindow.Zeit.Server+"\nreadyZone="+implode(unsafeData.readyZone[handled.zoneNrS]));
-				if(unsafeData.zoneEndTimes[handled.zoneNrS]<unsafeWindow.Zeit.Server){
+				// GM_log(busy_action+"\nhandled="+implode(handled)+"\ntime="+unsafeData.zones.getEndtime(handled.zoneNrS)+"\nservertime="+unsafeWindow.Zeit.Server+"\nreadyZone="+implode(unsafeData.readyZone[handled.zoneNrS]));
+				if(unsafeData.zones.getEndtime(handled.zoneNrS)<unsafeWindow.Zeit.Server){
 					listeningEvent="gameWindmillCropped";
 					action=function(){ click($("windmill_slot"+handled.slot)); };
 				}else{
@@ -5268,11 +5247,11 @@ try{
 			case 3:{ // cropping
 				if((!isBot)||(zoneList[handled.zoneNrL][0][0]!=PRODSTOP)||(!valDisableCropFields)){
 					logBubble.add("Forest automat<br>Cropping"); //TODO texte
-					if(!unsafeData.zoneProductionData[handled.zoneNrS][3]){
+					if(!unsafeData.zones.getProduction(handled.zoneNrS)[3]){
 						// logBubble.add("autoForestryForest step="+step+"\ndata not ready");
 						window.setTimeout(autoForestryForest,getRandom(tmin2,tmax2),runId,step,field,didPlant,isBot);
 					}else if(unsafeWindow.premium==1){
-						if(unsafeData.zoneEndTimes[handled.zoneNrS]<unsafeWindow.Zeit.Server){
+						if(unsafeData.zones.getEndtime(handled.zoneNrS)<unsafeWindow.Zeit.Server){
 							listeningEvent="gameOpenForestry";
 							action=function(){ click($top("forestry_forest_button2")); };
 						}else{
@@ -5289,7 +5268,7 @@ try{
 							var prod=20+parseInt(unsafeWindow.forestry_area[i]["productid"],10);
 							if(unsafeData.prodStock[1][prod]+unsafeData.prodYield[1][prod]<=unsafeData.prodStockMax[1][prod]){
 								unsafeData.prodStock[1][prod]+=unsafeData.prodYield[1][prod];
-								unsafeData.zoneProductionData[handled.zoneNrS][3]=false;
+								unsafeData.zones.flagProduction(handled.zoneNrS);
 								click($("forestry_pos"+field));
 								window.setTimeout(autoForestryForest,getRandom(tmin,tmax),runId,step,field+1,didPlant,isBot);
 							}else{
@@ -5347,7 +5326,7 @@ try{
 					click($("forestry_forest_button6"));
 					window.setTimeout(autoForestryForest,getRandom(tmin,tmax),runId,step+1,field,didPlant,isBot);
 				}else{
-					unsafeData.zoneProductionData[handled.zoneNrS][3]=false;
+					unsafeData.zones.flagProduction(handled.zoneNrS);
 					logBubble.add("click field:"+field,10,"orange"); //TODO texte
 					click($("forestry_pos"+field));
 					window.setTimeout(autoForestryForest,getRandom(tmin,tmax),runId,step,field+1,true,isBot);
@@ -5356,7 +5335,7 @@ try{
 			case 6:{ // premium planting: select tree and commit
 				var help=$("forestry_autoplant_pid");
 				if(help.value==zoneList[handled.zoneNrL][0][0]){
-					unsafeData.zoneProductionData[handled.zoneNrS][3]=false;
+					unsafeData.zones.flagProduction(handled.zoneNrS);
 					click($("globalbox_button1"));
 					window.setTimeout(autoForestryForest,getRandom(tmin,tmax),runId,step+1,field,true,isBot);
 				}else{
@@ -5365,7 +5344,7 @@ try{
 				}
 			break;}
 			case 7:{ // finish planting
-				if(unsafeData.zoneProductionData[handled.zoneNrS][3]){
+				if(unsafeData.zones.getProduction(handled.zoneNrS)[3]){
 					// if(autoZoneCrop()){ ... go back }
 					if(isBot&&didPlant){ setNextQueueItem(handled.zoneNrS); }
 					autoForestryForest(runId,step+1,1,didPlant,isBot);
@@ -5374,12 +5353,12 @@ try{
 				}
 			break;}
 			case 8:{ // watering
-				if(unsafeData.zoneBonus[handled.zoneNrF]>0){
+				if(unsafeData.zones.getBonus(handled.zoneNrF)>0){
 					logBubble.add("Forest automat<br>"+getText("automat_watering")); //TODO texte
-					if(!unsafeData.zoneProductionData[handled.zoneNrS][3]){
+					if(!unsafeData.zones.getProduction(handled.zoneNrS)[3]){
 						window.setTimeout(autoForestryForest,getRandom(tmin2,tmax2),runId,step,field,didPlant,isBot);
-					}else if(unsafeData.zoneWaterTimes[handled.zoneNrS]<unsafeWindow.Zeit.Server){
-						unsafeData.zoneProductionData[handled.zoneNrS][3]=false;
+					}else if(unsafeData.zones.getWatertime(handled.zoneNrS)<unsafeWindow.Zeit.Server){
+						unsafeData.zones.flagProduction(handled.zoneNrS);
 						listeningEvent="gameOpenForestry";
 						action=function(){ click($top("forestry_forest_button1")); };
 					}else{
@@ -6039,13 +6018,14 @@ try{
 							// here its not important if rack is updating
 							var time=NEVER;
 							var NowServer=unsafeWindow.Zeit.Server;
-							for(var iType=0;iType<unsafeData.zoneProductionData[handled.zoneNrS][0].length;iType++){
-								for(var iProd in unsafeData.zoneProductionData[handled.zoneNrS][0][iType]){
-									if(!unsafeData.zoneProductionData[handled.zoneNrS][0][iType].hasOwnProperty(iProd)){ continue; }
+							var tempZoneProductionData=unsafeData.zones.getProduction(handled.zoneNrS);
+							for(var iType=0;iType<tempZoneProductionData[0].length;iType++){
+								for(var iProd in tempZoneProductionData[0][iType]){
+									if(!tempZoneProductionData[0][iType].hasOwnProperty(iProd)){ continue; }
 									if((unsafeData.prodTyp[iType][iProd]!="u")&&(unsafeData.prodTyp[iType][iProd]!="z")){ // only products
-										for(var i=0;i<unsafeData.zoneProductionData[handled.zoneNrS][0][iType][iProd].length;i++){
-											if(unsafeData.zoneProductionData[handled.zoneNrS][0][iType][iProd][i][2]>0){
-												time=Math.min(time,unsafeData.zoneProductionData[handled.zoneNrS][0][iType][iProd][i][2]-NowServer);
+										for(var i=0;i<tempZoneProductionData[0][iType][iProd].length;i++){
+											if(tempZoneProductionData[0][iType][iProd][i][2]>0){
+												time=Math.min(time,tempZoneProductionData[0][iType][iProd][i][2]-NowServer);
 											}
 										}
 									}
@@ -6228,7 +6208,7 @@ try{
 			break;}
 			case 9:{
 				var zoneNrS,zoneNrL,help,next=false;
-				if(isMultiSlotZone(handled.zoneNrF)){
+				if(unsafeData.zones.isMultiSlot(handled.zoneNrF)){
 					for(var slot=1;slot<=3;slot++){
 						zoneNrS=handled.zoneNrF+"."+slot;
 						if((help=unsafeData.readyZone[zoneNrS])&&help[2]){
@@ -6669,7 +6649,7 @@ function drawZoneListTable(currZoneType){
 		var zones=new Array();
 		for(var fz in unsafeData.ALL_SLOTS){
 			if(!unsafeData.ALL_SLOTS.hasOwnProperty(fz)){ continue; }
-			if(unsafeData.zoneBlock[fz]){ continue; }
+			if(unsafeData.zones.getBlock(fz)){ continue; }
 			if(getZoneType(fz)!=currZoneType){ continue; }
 			zones.push(fz);
 		}
@@ -6785,9 +6765,41 @@ unsafeWindow.buildInfoPanelAutomat=function(mode,mode2){
  		if(div=$("divChooseBoxClose")){ click(div); }
 		div=null;
 		switch(mode){
+		case "automatChangelog": buildInfoPanelChangelog(); break;
 		case "automatOverview": buildInfoPanelOverview(mode2); break;
 		}
 	}catch(err){GM_logError("buildInfoPanelAutomat\n"+err);}
+}
+function buildInfoPanelChangelog(){
+	try{
+		var table,tr,td,div;
+		var container=$("infoPanelInner");
+		container.innerHTML="";
+		// Head
+		newdiv=createElement("div",{"class":"borderBottom1Black","style":"height:50px;"},container);
+		table=createElement("table",{"border":"0","cellspacing":"0","style":"width:100%;"},newdiv);
+		tr=createElement("tr",{},table);
+		createElement("td",{"class":"tnormal","style":"color:black;font-weight:bold;text-align:center;height:40px;"},tr,getText("automat")+" "+VERSION);
+		createElement("td",{},tr);
+		// Body
+		newdiv=createElement("div",{"style":"height:470px;width:100%;overflow:auto;"},container);
+		table=createElement("table",{"border":"0","cellspacing":"0","style":"width:100%;"},newdiv);
+		tr=createElement("tr",{},table);
+		createElement("th",{},tr,getText("version"));
+		createElement("th",{},tr,getText("date"));
+		createElement("th",{},tr,getText("change"));
+		for(var i=CHANGELOG.length-1;i>-1;i--){
+			tr=createElement("tr",{"class":"hoverBgCc9 borderBottom1dashedGrey"},table);
+			createElement("td",{},tr,CHANGELOG[i][0]);
+			createElement("td",{},tr,CHANGELOG[i][1]);
+			td=createElement("td",{},tr);
+			div=createElement("ul",{},td);
+			for(var j=0;j<CHANGELOG[i][2].length;j++){
+				createElement("li",{},div,CHANGELOG[i][2][j][LANGUAGE=="de"?0:1]);
+			}
+		}
+		container=null;table=null;tr=null;td=null;div=null;
+	}catch(err){GM_logError("buildInfoPanelChangelog\n"+err);}
 }
 function buildInfoPanelOverview(mode){
 	try{
@@ -6832,7 +6844,7 @@ function buildInfoPanelOverview(mode){
 			}
 			createElement("span",{"filter":"farm"+farmNr+",","class":"speedlink_text"},newdiv2,farmNr);
 		}
-		if(!unsafeData.zoneBlock[unsafeData.ALL_ZONES["farmersmarket"][0]]){
+		if(!unsafeData.zones.getBlock(unsafeData.ALL_ZONES["farmersmarket"][0])){
 			if(mode["filterZone"].search("farmersmarket,")==-1){
 				createElement("div",{"filter":"farmersmarket,","class":"link speedlink speedlink_farmersmarket","mouseOverText":getText("automat_title_on_farmersmarket")},newdiv1);
 			}else{
@@ -6840,7 +6852,7 @@ function buildInfoPanelOverview(mode){
 			}
 		}
 		for(var j=0;j<unsafeData.ALL_ZONES["city"].length;j++){
-			if(!unsafeData.zoneBlock[unsafeData.ALL_ZONES["city"][j]]){
+			if(!unsafeData.zones.getBlock(unsafeData.ALL_ZONES["city"][j])){
 				if(mode["filterZone"].search("city,")==-1){
 					createElement("div",{"filter":"city,","class":"link speedlink speedlink_city1","mouseOverText":getText("automat_title_on_city")},newdiv1);
 				}else{
@@ -6850,7 +6862,7 @@ function buildInfoPanelOverview(mode){
 			}
 		}
 		for(var j=0;j<unsafeData.ALL_ZONES["forestry"].length;j++){
-			if(!unsafeData.zoneBlock[unsafeData.ALL_ZONES["forestry"][j]]){
+			if(!unsafeData.zones.getBlock(unsafeData.ALL_ZONES["forestry"][j])){
 				if(mode["filterZone"].search("forestry,")==-1){
 					createElement("div",{"filter":"forestry,","class":"link speedlink speedlink_forestry","mouseOverText":getText("automat_title_on_forestry")},newdiv1);
 				}else{
@@ -6860,7 +6872,7 @@ function buildInfoPanelOverview(mode){
 			}
 		}
 		for(var j=0;j<unsafeData.ALL_ZONES["foodworld"].length;j++){
-			if(!unsafeData.zoneBlock[unsafeData.ALL_ZONES["foodworld"][j]]){
+			if(!unsafeData.zones.getBlock(unsafeData.ALL_ZONES["foodworld"][j])){
 				if(mode["filterZone"].search("foodworld,")==-1){
 					createElement("div",{"filter":"foodworld,","class":"link speedlink speedlink_foodworld","mouseOverText":getText("automat_title_on_foodworld")},newdiv1);
 				}else{
@@ -6899,7 +6911,7 @@ function buildInfoPanelOverview(mode){
 		var zones=new Array();
 		for(var i in unsafeData.ALL_SLOTS){
 			if(!unsafeData.ALL_SLOTS.hasOwnProperty(i)){ continue; }
-			if(unsafeData.zoneBlock[i]){ continue; }
+			if(unsafeData.zones.getBlock(i)){ continue; }
 			if(unsafeData.ALL_SLOTS[i]=="farm"){
 				if(mode["filterZone"].search(unsafeData.ALL_SLOTS[i]+Math.ceil(parseInt(i,10)/6))!=-1){
 					zones.push([unsafeData.ALL_SLOTS[i]+Math.ceil(parseInt(i,10)/6),i]);
@@ -6974,12 +6986,12 @@ unsafeWindow.buildInfoPanelAutomatMenu=function(mode){
 		newdiv=$("infoPanelL");
 		newdiv1=createElement("div",{"style":"margin-top:15px;border-bottom:1px solid #685338;font-weight:bold;float:left;width:100%;"},newdiv,getText("automat"));
 		newdiv1.addEventListener("mouseover",function(event){
-			toolTip.show(event,getText("automat")+"&nbsp;"+VERSION); 
+			toolTip.show(event,getText("showChangelog")); 
 		},false);
 		newdiv1.classList.add("link");
-		newdiv1.addEventListener("click",function(){
-			location.href=GM_Source;
-		},false);
+		newdiv1.addEventListener("click",function(event){
+			unsafeWindow.buildInfoPanel("automatChangelog");
+		},false);		
 		if(USERNAME){
 			newdiv1=createElement("div",{"id":"infoPanelNaviAutomatOptions","class":"link naviItem","style":"margin-top:5px;width:95px;"},newdiv,getText("options"));
 			newdiv1.addEventListener("click",function(event){ unsafeWindow.buildInfoPanelMenu("automatOptions"); },false);
@@ -7712,7 +7724,7 @@ function buildInfoPanelZonePairing(){
 		var zoneType;
 		for(var i in unsafeData.ALL_SLOTS){
 			if(!unsafeData.ALL_SLOTS.hasOwnProperty(i)){ continue; }
-			if(unsafeData.zoneBlock[i]){ continue; }
+			if(unsafeData.zones.getBlock(i)){ continue; }
 			zoneType=getZoneType(i);
 			if(!slotCount[zoneType]){ slotCount[zoneType]=0; }
 			slotCount[zoneType]++;
@@ -7764,7 +7776,6 @@ function buildInfoPanelDebugInfo(){
 		newdiv.innerHTML +="zoneList:"+implode(zoneList,"Debug/zoneList") + ";\n";
 		newdiv.innerHTML +="zoneToList:"+implode(zoneToList,"Debug/zoneToList") + ";\n";
 		newdiv.innerHTML +="autoMillStorage:"+implode(autoMillStorage,"Debug/autoMillStorage") + ";\n";
-		newdiv.innerHTML +="zoneType:"+implode(unsafeData.zoneTyp,"Debug/zoneTyp") + ";\n";
 		newdiv.innerHTML +="emergencyPlants:"+implode(emergencyPlants,"Debug/emergencyPlants") + ";\n";
 		newdiv.innerHTML +="valBot:"+valBot+ ";\n";
 		newdiv.innerHTML +="valAutoPflanz:"+valAutoPflanz+ ";\n";
@@ -7810,7 +7821,6 @@ function buildInfoPanelDebugInfo(){
 					newdiv.innerHTML +="zoneList:"+implode(zoneList,"recover/zoneList") + ";\n";
 					newdiv.innerHTML +="zoneToList:"+implode(zoneToList,"recover/zoneToList") + ";\n";
 					newdiv.innerHTML +="autoMillStorage:"+implode(autoMillStorage,"recover/autoMillStorage") + ";\n";
-					newdiv.innerHTML +="zoneType:"+implode(unsafeData.zoneTyp,"recover/zoneTyp") + ";\n";
 					newdiv.innerHTML +="emergencyPlants:"+implode(emergencyPlants,"recover/emergencyPlants") + ";\n";
 					newdiv.innerHTML +="valBot:"+valBot+ ";\n";
 					newdiv.innerHTML +="valAutoPflanz:"+valAutoPflanz+ ";\n";
@@ -7908,6 +7918,7 @@ function buildInfoPanelDebugInfo(){
 // ***************************************************************************************************
 
 function do_main(){
+try{
 	// GM_log("AUTOMAT START");
 	if(DEVMODE){ logBubble.add("Automat-Script started"); }
 	// **************************************************
@@ -7916,6 +7927,25 @@ function do_main(){
 	// GM_setValue2("changedata",1);
 	//
 	// **************************************************
+	// Show changelog of new version
+	var err_trace="Changelog of new version";
+	var container, newdiv;
+	if(CHANGELOG[CHANGELOG.length-1][0]!=GM_getValue("automatChangelogShownVersion","")){
+		container=createElement("div");
+		createElement("div",{},container,getText("automat_confirmChangelogVersion").replace("%1%",CHANGELOG[CHANGELOG.length-1][0]));
+		newdiv=createElement("ul",{},container);
+		for(var i=0;i<CHANGELOG[CHANGELOG.length-1][2].length;i++){
+			createElement("li",{},newdiv,CHANGELOG[CHANGELOG.length-1][2][i][LANGUAGE=="de"?0:1]);
+		}
+		alert2(container.innerHTML,getText("ok"),getText("showChangelog"),
+		function(){
+			GM_setValueCache("automatChangelogShownVersion",CHANGELOG[CHANGELOG.length-1][0]);
+		},
+		function(){
+			GM_setValueCache("automatChangelogShownVersion",CHANGELOG[CHANGELOG.length-1][0]);
+			unsafeWindow.buildInfoPanel("automatChangelog");
+		});
+	}
 
 	function recoverPreview(recoverData){
 		var newcont=$("recoverBuildingContainerContent");
@@ -8058,8 +8088,8 @@ function do_main(){
 		}
 	},false);
 	*/
-	try{
-		var err_trace="loading";
+
+		err_trace="loading";
 		////--------------------------------------------------------------------------------------------------------------------------------
 		//[zoneNrF][QueNr][0]=product number, [1]=number to grow, [2]=number grown in loop modus, [3]=Behaviour (Field (default), Rack, Time(//TODO)), [4]=mode (1 time (default), repeat)
 		//[zoneNrF][mill][0]=product number, [1]=number to grow, [2]=number grown in loop modus, [3]=Min([4]), [4]=Array([X]=Max recipes for product X)
@@ -8078,7 +8108,7 @@ function do_main(){
 				GM_log("zoneList delete bad queue:"+fz+"("+getZoneType(fz)+")");
 				delete zoneList[fz]; bChanged=true; continue;
 			}
-			if(unsafeData.zoneBlock[fz]){
+			if(unsafeData.zones.getBlock(fz)){
 				GM_log("zoneList delete blocked queue:"+fz+"("+getZoneType(fz)+")");
 				delete zoneList[fz]; bChanged=true; continue;
 			}
@@ -8086,7 +8116,7 @@ function do_main(){
 		// check completeness
 		for(var fz in unsafeData.ALL_SLOTS){
 			if(!unsafeData.ALL_SLOTS.hasOwnProperty(fz)){ continue; }
-			if(unsafeData.zoneBlock[fz]){ continue; }
+			if(unsafeData.zones.getBlock(fz)){ continue; }
 			if(!zoneList[fz]){ createZoneList(fz); }
 		}
 		if(bChanged){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneList",implode(zoneList,"settings/zoneList")); }
@@ -8102,7 +8132,7 @@ function do_main(){
 				GM_log("zoneToList delete bad zone:"+fz+"("+getZoneType(fz)+"):"+zoneToList[fz]+"("+getZoneType(zoneToList[fz])+")");
 				delete zoneToList[fz]; bChanged=true; continue;
 			}
-			if(unsafeData.zoneBlock[fz]){
+			if(unsafeData.zones.getBlock(fz)){
 				GM_log("zoneToList delete blocked zone:"+fz+"("+getZoneType(fz)+"):"+zoneToList[fz]+"("+getZoneType(zoneToList[fz])+")");
 				delete zoneToList[fz]; bChanged=true; continue;
 			}
@@ -8119,7 +8149,7 @@ function do_main(){
 		// check completeness
 		for(var fz in unsafeData.ALL_SLOTS){
 			if(!unsafeData.ALL_SLOTS.hasOwnProperty(fz)){ continue; }
-			if(unsafeData.zoneBlock[fz]){ continue; }
+			if(unsafeData.zones.getBlock(fz)){ continue; }
 			if(!zoneSettings[fz]){ zoneSettings[fz]={"repeat":false,"shuffle":false}; }
 			if(!zoneToList[fz]){ setZoneListId(fz,fz); }
 		}
@@ -8446,10 +8476,10 @@ function do_main(){
 			},false);
 			// Automat icons
 			drawAutomatIcon("forest","forest",$("forestry_forest_buttons"),"margin-top:10px;");
-			if(!unsafeData.zoneBlock["sawmill.1"]){
+			if(!unsafeData.zones.getBlock("sawmill.1")){
 				drawAutomatIcon("sawmill","sawmill.1",$("forestry_building1"),"position:absolute;right:0pt;bottom:15px;");
 			}
-			if(!unsafeData.zoneBlock["carpentry"]){
+			if(!unsafeData.zones.getBlock("carpentry.1")){
 				drawAutomatIcon("carpentry","carpentry.1",$("forestry_building2"),"position:absolute;right:0pt;bottom:15px;");
 			}
 			el1=null;
@@ -8467,7 +8497,7 @@ function do_main(){
 					if(help=container.querySelector(".divForestryIcon")){
 						removeElement(help);
 					}					
-					if(!unsafeData.zoneBlock[zoneNrS]){
+					if(!unsafeData.zones.getBlock(zoneNrS)){
 						drawAutomatIcon(zoneNrS,zoneNrS,container,"left:-20px;bottom:-25px;");
 					}
 				}
@@ -8486,7 +8516,7 @@ function do_main(){
 					if(help=container.querySelector(".divForestryIcon")){
 						removeElement(help);
 					}					
-					if(!unsafeData.zoneBlock[zoneNrS]){
+					if(!unsafeData.zones.getBlock(zoneNrS)){
 						drawAutomatIcon(zoneNrS,zoneNrS,container,"left:-20px;bottom:-25px;");
 					}
 				}
@@ -8498,7 +8528,7 @@ function do_main(){
 		try{
 			// Automat icons
 			for(var v=1;v<=4;v++){
-				if(!unsafeData.zoneBlock["foodworld-"+v]){
+				if(!unsafeData.zones.getBlock("foodworld-"+v+".1")){
 					drawAutomatIcon("foodworld-"+v,"foodworld-"+v+".1",$("food_pos"+v),"position:absolute;right:-10px;bottom:-10px;");
 				}
 			}
@@ -8518,7 +8548,7 @@ function do_main(){
 						if(help=container.querySelector(".divZoneIcon")){
 							removeElement(help);
 						}
-						if(!unsafeData.zoneBlock[zoneNrS]){
+						if(!unsafeData.zones.getBlock(zoneNrS)){
 							drawAutomatIcon(zoneNrS,zoneNrS,container,"left:-10px;");
 						}
 					}
@@ -8659,7 +8689,7 @@ function do_main(){
 			var zoneNrS;
 			for(var slot=1;slot<=3;slot++){
 				zoneNrS=zoneNrF+"."+slot;
-				if(!unsafeData.zoneBlock[zoneNrS]){
+				if(!unsafeData.zones.getBlock(zoneNrS)){
 					drawAutomatIcon(zoneNrS,zoneNrS,$("oil_slot"+slot),"left:-10px;");
 				}
 			}
@@ -8672,7 +8702,7 @@ function do_main(){
 			var zoneNrS;
 			for(var slot=1;slot<=3;slot++){
 				zoneNrS=zoneNrF+"."+slot;
-				if(!unsafeData.zoneBlock[zoneNrS]){
+				if(!unsafeData.zones.getBlock(zoneNrS)){
 					drawAutomatIcon(zoneNrS,zoneNrS,$("strickerei_slot"+slot),"left:-10px;");
 				}
 			}
@@ -8684,10 +8714,10 @@ function do_main(){
 			var farmNR,zoneNr,zoneNrF;
 			for(var i=unsafeData.ALL_ZONES["farm"].length-1;i>=0;i--){
 				zoneNrF=unsafeData.ALL_ZONES["farm"][i];
-				if((!unsafeData.zoneBlock[zoneNrF])&&(getBuildingTyp(zoneNrF)!=0)){
+				if((!unsafeData.zones.getBlock(zoneNrF))&&(getBuildingTyp(zoneNrF)!=0)){
 					farmNR=Math.floor((unsafeData.ALL_ZONES["farm"][i]-1)/6)+1;
 					zoneNr=zoneNrF-6*(farmNR-1);
-					drawAutomatIcon(zoneNrF,zoneNrF+(isMultiSlotZone(zoneNrF)?".1":""),$("farm"+farmNR+"_pos"+zoneNr),"");
+					drawAutomatIcon(zoneNrF,zoneNrF+(unsafeData.zones.isMultiSlot(zoneNrF)?".1":""),$("farm"+farmNR+"_pos"+zoneNr),"");
 				}
 			}
 		}catch(err){GM_logError("drawFarmIcons\n"+err);}
@@ -8698,8 +8728,8 @@ function do_main(){
 			var zoneNrF;
 			for(var i=unsafeData.ALL_ZONES["farm"].length-1;i>=0;i--){
 				zoneNrF=unsafeData.ALL_ZONES["farm"][i];
-				if((!unsafeData.zoneBlock[zoneNrF])&&(getBuildingTyp(zoneNrF)!=0)){
-					updateQueueBox(zoneNrF+(isMultiSlotZone(zoneNrF)?".1":""));
+				if((!unsafeData.zones.getBlock(zoneNrF))&&(getBuildingTyp(zoneNrF)!=0)){
+					updateQueueBox(zoneNrF+(unsafeData.zones.isMultiSlot(zoneNrF)?".1":""));
 				}
 			}
 		}catch(err){GM_logError("updateFarmIcons\n"+err);}
@@ -8844,7 +8874,7 @@ function do_main(){
 			// help=null;
 			for(var slot=1;slot<=2;slot++){
 				var zoneNrS="windmill."+slot;
-				if(!unsafeData.zoneBlock[zoneNrS]){
+				if(!unsafeData.zones.getBlock(zoneNrS)){
 					drawAutomatIcon(zoneNrS,zoneNrS,$("windmill_slot"+slot),"top:135px;");
 				}
 			}
@@ -8858,8 +8888,8 @@ function do_main(){
 		try{
 			// Automat icons
 			for(var v=1;v<=6;v++){
-				if(!unsafeData.zoneBlock["farmersmarket-"+v]){
-					drawAutomatIcon("farmersmarket-"+v,"farmersmarket-"+v+(isMultiSlotZone("farmersmarket-"+v)?".1":""),$("farmersmarket_pos"+v),"position:absolute;right:0;bottom:0;");
+				if(!unsafeData.zones.getBlock("farmersmarket-"+v)){
+					drawAutomatIcon("farmersmarket-"+v,"farmersmarket-"+v+(unsafeData.zones.isMultiSlot("farmersmarket-"+v)?".1":""),$("farmersmarket_pos"+v),"position:absolute;right:0;bottom:0;");
 				}
 			}
 		}catch(err){GM_logError("eventListener:gameFarmersmarketOpened \n"+err);}
@@ -8983,7 +9013,6 @@ function do_main(){
 			rcData["zoneList"]=zoneList.clone();
 			rcData["zoneToList"]=zoneToList.clone();
 			rcData["autoMillStorage"]=autoMillStorage.clone();
-			rcData["zoneType"]=unsafeData.zoneTyp.clone();
 			rcData["emergencyPlants"]=emergencyPlants.clone();
 			rcData["valBot"]=valBot;
 			rcData["valAutoPflanz"]=valAutoPflanz;
@@ -9018,7 +9047,7 @@ function do_main(){
 		},false);
 */
 
-	} catch(err){GM_logError("General test settings ("+err_trace+")\n"+err);}
+	
 	document.addEventListener("gameSessionEnds",function(){
 		botArbiterAdd("sessionEnds");
 	},false);
@@ -9039,7 +9068,7 @@ function do_main(){
 	document.addEventListener("gameFarmOpened",function(){
 		if(valUseBot["farmi"]){ checkFarmi(1); }
 	},false);
-	
+} catch(err){GM_logError("do_main ("+err_trace+")\n"+err);}
 }
 
 function do_hilfe(){
@@ -9500,6 +9529,7 @@ try{
 		texte["de"]["automat_timing"] = "Timing";
 		texte["de"]["automat_general"] = "General";
 		texte["de"]["automat_development"] = "Development";
+		texte["de"]["automat_confirmChangelogVersion"]="Du hast eine neue Version des Automat-Scriptes installiert.<br>Die Version %1% beinhaltet folgende "+A_dots+"nderungen:";
 		texte["de"]["automat_shouldUpdateAdviser"] = "Du solltest das Berater-Script aktualisieren!<br>Der Automat wird nicht ordnungsgem"+a_dots+sz+" arbeiten.";
 		texte["de"]["automat_valUpdate"] = ["Update","Es wird gepr"+u_dots+"ft, ob eine neuere Version dieses Scriptes verf"+u_dots+"gbar ist."];
 		texte["de"]["automat_setvalUseBot_plant"] = "Soll der Pflanz-Automat angezeigt werden?";
@@ -9682,6 +9712,7 @@ try{
 		texte["en"]["automat_timing"] = "Timing";
 		texte["en"]["automat_general"] = "General";
 		texte["en"]["automat_development"] = "Development";
+		texte["en"]["automat_confirmChangelogVersion"]="You have installed a new version of the Automaton script.<br>The version %1% contains the following changes:";
 		texte["en"]["automat_msgUpdate"] = "There is a new script version of the automaton. Install?";
 		texte["en"]["automat_shouldUpdateAdviser"] = "You should update the script of the Adviser!<br>The Automaton will not run properly.";
 		texte["en"]["automat_valUpdate"] = ["Update","Checks whether an updated version of this Advisor script is available."];

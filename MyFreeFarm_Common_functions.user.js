@@ -3,11 +3,11 @@
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           29.05.2014
-// @version        2.0
+// @date           15.08.2014
+// @version        2.1.2
 // ==/UserScript==
 
-const VERSIONfunctionFile = GM_info["script"]["version"];
+const VERSIONfunctionFile = "2.1.2";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
@@ -28,10 +28,10 @@ Array.prototype.shuffle = function (){
 	var i=this.length, j, temp;
 	if (i==0) return;
 	while (--i) {
-			j = Math.floor( Math.random()*(i+1));
-			temp = this[i];
-			this[i] = this[j];
-			this[j] = temp;
+		j = Math.floor( Math.random()*(i+1));
+		temp = this[i];
+		this[i] = this[j];
+		this[j] = temp;
 	}
 	temp=null;
 };
@@ -145,60 +145,34 @@ GM_logError=function(txt){
 	if(DEVMODE_LOG_ERROR){ logBubble.add(txt,10,"red"); }
 };
 
-// saving management with localStorage
-function GM_setData(key,value,debugName){
-	localStorage[COUNTRY+"_"+SERVER+"_"+key]=implode([value],debugName);
-}
-function GM_getData(key,defaultValue,debugName){
-	var tmp = localStorage[COUNTRY+"_"+SERVER+"_"+key]
-	if(tmp){
-		tmp = explode(tmp,debugName,defaultValue);
-		if(tmp[0]){
-			return tmp[0];
-		} else{
-			return defaultValue;
-		}
-	}else{
-		return defaultValue;
-	}
-}
-function GM_listData(){
-	var help = Object.keys(localStorage);
-	var ret = [];
-	for(var i=0;i<help.length;i++){
-		if(help[i].search(COUNTRY+"_"+SERVER+"_")==0){
-			ret.push(help[i].replace(COUNTRY+"_"+SERVER+"_",""));
-		}
-	}
-	return ret;
-}
-function GM_deleteData(key){
-	delete localStorage[COUNTRY+"_"+SERVER+"_"+key];
-}
-	
 function $(ID){return document.getElementById(ID);}
 //function $(ID){GM_log("ID:"+ID);return document.getElementById(ID);}
 function $top(ID) {return top.document.getElementById(ID);}
 function unsafe$(ID){return unsafeWindow.document.getElementById(ID);}
 function unsafe$top(ID) {return top.window.wrappedJSObject.document.getElementById(ID);}
 function containerId(node) {
+try{
 	node = node.parentNode;
 	while(node.id==""){
 		if(node.parentNode){
 			node = node.parentNode; 
 		} else {
-			GM_logError("in containerId");
+			GM_logError("containerId - No found");
 			break;
 		}
 	}
 	return node.id;
+}catch(err){GM_logError("containerId\n"+err);}
 }
 function removeElement(node){
+try{
 	if(node&&node.parentNode){
 		node.parentNode.removeChild(node);
 	}
+}catch(err){GM_logError("removeElement\n"+err);}
 }
 function createElement(type, attributes, append, inner){
+try{
 	var node = document.createElement(type);
 	for (var attr in attributes) {
 		if (!attributes.hasOwnProperty(attr)){ continue; }
@@ -208,14 +182,45 @@ function createElement(type, attributes, append, inner){
 	if (append) append.appendChild(node);
 	if (inner) node.innerHTML = inner;
 	return node;
+}catch(err){GM_logError("createElement\n"+err);}
 }
+function unsafeCloneObject(obj){
+try{
+	if(typeof obj!="object"){
+		return obj;
+	}else if(!obj.valueOf){
+		return obj;
+	}else if(typeof cloneInto=="function"){
+		return cloneInto(obj,unsafeWindow,{cloneFunctions:true});
+	}else{
+		return obj;
+	}
+}catch(err){GM_logError("unsafeCloneObject\n"+err);}
+}
+function unsafeOverwriteFunction(fooName,newFoo) {
+try{
+	if(!unsafeWindow[fooName]){
+		GM_logWarning("unsafeOverwriteFunction\nFunction "+fooName+" does not exist.");
+	}
+	if(typeof exportFunction=="function"){
+		exportFunction(newFoo,unsafeWindow,{"defineAs":"unsafe_"+fooName});
+	}else{
+		unsafeWindow["unsafe_"+fooName]=newFoo;
+	}
+	unsafeWindow["_"+fooName]=unsafeWindow[fooName];
+	unsafeWindow[fooName]=unsafeWindow["unsafe_"+fooName];
+}catch(err){GM_logError("unsafeOverwriteFunction "+fooName+"\n"+err);}
+};
 
 function raiseEvent(A){
+try{
 	var B = document.createEvent("Event");
 	B.initEvent(A, true, true);
 	document.dispatchEvent(B);
+}catch(err){GM_logError("raiseEvent "+A+"\n"+err);}
 }
 function raiseEventTop(A){
+try{
 	// should be called from frame-documents to inform the top-document(main.php)
 	// if frame is top itself (=multi-window gaming) it instead saves to variable and do_main will raise the event in the main-window
 	if((PAGE!="main")&&(self==top)){
@@ -231,18 +236,13 @@ function raiseEventTop(A){
 		B.initEvent(A, true, true);
 		top.document.dispatchEvent(B);
 	}
-}
-function raiseDOMAttrModified(A){
- 	var B = document.createEvent("MutationEvent");
-	B.initEvent("DOMAttrModified", true, true);
-	A.dispatchEvent(B);
+}catch(err){GM_logError("raiseEventTop "+A+"\n"+err);}
 }
 
 function click(A){
 try{
-	var B = document.createEvent("MouseEvents");
-	B.initEvent("click", true, true);
-	A.dispatchEvent(B);
+	var evt=new MouseEvent('click',{'view':window,'bubbles':true,'cancelable':true});
+	A.dispatchEvent(evt);
 	if(DEVMODE){
 		var T = A;
 		var str = "";
@@ -250,7 +250,7 @@ try{
 			T = T.parentNode;
 			str += ".child";
 		}
-		//GM_log("Click :"+T.id+str);
+		GM_log("Click :"+T.id+str);
 	}
 	// if (A.href){ location.href = A.href; }
 }catch(err){
@@ -259,10 +259,15 @@ try{
 }
 }
 function dblclick(A){
+try{
 	var B = document.createEvent("MouseEvents");
 	B.initEvent("dblclick", true, true);
 	A.dispatchEvent(B);
 	// if (A.href){ location.href = A.href; }
+}catch(err){
+	GM_logError("dblclick: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+	throw ("ERROR dblclick: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+}
 }
 function mouseover(A){
 try{
@@ -284,7 +289,18 @@ try{
 	throw ("ERROR mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
 }
 }
+function change(A){
+try{
+	var B = document.createEvent("MouseEvents");
+	B.initEvent("change", true, true);
+	A.dispatchEvent(B);
+}catch(err){
+	GM_logError("change: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+	throw ("ERROR change: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+}	
+}
 function keyup(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg) {
+try{
 	if (!keycode) keycode=0;
 	var B = document.createEvent("KeyboardEvent");
 	B.initKeyEvent(
@@ -299,8 +315,13 @@ function keyup(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg) {
 		keycode,					//	in unsigned long keyCodeArg,
 		0);
 	A.dispatchEvent(B);
+}catch(err){
+	GM_logError("keyup: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+	throw ("ERROR keyup: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+}	
 }
 function keydown(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg){
+try{
 	if (!keycode) keycode=0;
 	var B = document.createEvent("KeyboardEvent");
 	B.initKeyEvent(
@@ -315,11 +336,10 @@ function keydown(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg){
 		keycode,					//	in unsigned long keyCodeArg,
 		0);
 	A.dispatchEvent(B);
+}catch(err){
+	GM_logError("keydown: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+	throw ("ERROR keydown: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
 }
-function change(A){
-	var B = document.createEvent("MouseEvents");
-	B.initEvent("change", true, true);
-	A.dispatchEvent(B);
 }
 
 var timeMeasure = new Object();
@@ -356,16 +376,16 @@ function getElementTop(Elem,toElem) {
 	return parseInt(yPos,10);
 }
 function getOffset(el){
-		var _x = 0;
-		var _y = 0;
-		while(el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop)){
-			if(el.style.position){
-				_x += el.offsetLeft - el.scrollLeft;
-				_y += el.offsetTop - el.scrollTop;
-			}
-			el = el.offsetParent; //.parentNode
+	var _x = 0;
+	var _y = 0;
+	while(el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop)){
+		if(el.style.position){
+			_x += el.offsetLeft - el.scrollLeft;
+			_y += el.offsetTop - el.scrollTop;
 		}
-		return { top: _y, left: _x };
+		el = el.offsetParent; //.parentNode
+	}
+	return { top: _y, left: _x };
 }
 function insertAfter(newNode, refNode){
 	return refNode.nextSibling ? refNode.parentNode.insertBefore(newNode, refNode.nextSibling) : refNode.parentNode.appendChild(newNode);
@@ -382,40 +402,6 @@ try{
 	}
 }catch(err){GM_logError("removeAllCSS\ni="+i+" j="+j+"\n"+err);}
 }
-/*
-function makeTablebodyScrollable(table,bodyHeight){
-	var innerTable = createElement("table",{});
-	//insert outer div to shorten the table which could remove additional outer scrollbars
-	var newdiv = createElement("div",{"style":"height:"+bodyHeight+";overflow-y:scroll;"});
-	table.parentNode.insertBefore(newdiv,table);
-	newdiv.appendChild(table);
-	//get the computed widths
-	var tbody = table.getElementsByTagName("tbody")[0];
-	var help = new Array();
-	for(var v=0;v<tbody.children[0].childElementCount;v++){
-		help[v] = parseInt(window.getComputedStyle(tbody.children[0].children[v]).width,10);
-	}
-	//set the widths
-	GM_log(help)
-	newdiv = createElement("colgroup");
-	table.insertBefore(newdiv,table.firstElementChild);
-	var newdiv1 = createElement("colgroup",{},innerTable);
-	for(var v=0;v<help.length;v++){
-		createElement("col",{"width":help[v]+"px"},newdiv);
-		createElement("col",{"width":help[v]+"px"},newdiv1);
-	}
-	//create new structure
-	newdiv = createElement("tbody");
-	tbody = table.replaceChild(newdiv,tbody);
-	newdiv = createElement("tr",{},newdiv);
-	newdiv = createElement("td",{"colspan":(1+help.length)},newdiv);
-	newdiv = createElement("div",{"style":"height:"+bodyHeight+";overflow-y:scroll;"},newdiv);
-	newdiv.appendChild(innerTable);	
-	innerTable.appendChild(tbody);
-	//remove outer div
-	table.parentNode.parentNode.replaceChild(table,table.parentNode);
-}
-*/
 
 //---------------------------------------------------------------------------------------------------------------------------
 // TODO name? timeStr, getTimeStr, time2timestr, time2str, 2->To ?
@@ -840,8 +826,7 @@ function implode(arr,debugName){
 				}
 				line += ",";
 			}catch(err){
-				GM_logError("implode "+debugName+" i="+i+"\n"+err);
-				continue;
+				// GM_logError("implode "+debugName+" i="+i+"\n"+err);
 			}
 		}
 		var endChar = line.substring(line.length-1,line.length);
@@ -1102,195 +1087,195 @@ function alert2(text,yes,no,yesFkt,noFkt){
 	newdiv=null;newdiv1=null;newbutton=null;
 }
 
-if(!unsafeWindow.top.toolTip){
-	unsafeWindow.top.toolTip= new function(){
-		var container=null;
-		this.mousemove=function(evt){
-			try{
-				if(container.style.display!="none"){
-					var help=getOffset(frameElement);
-					var cleft=(evt.pageX+help.left-(container.offsetWidth/3));
-					var mleft=Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
-					container.style.left=Math.max(0,cleft + mleft) + "px";
-					container.style.top=Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - container.offsetHeight)<0)?(evt.pageY+help.top-25-container.offsetHeight):(evt.pageY+help.top+25)) + "px";
-				}
-			}catch(err){GM_logError("toolTip.mousemove\n"+err);}
-		}
-		this.init=function(){
-			try{
-				container=$top("divToolTip");
-				if((container==null)&&(self==top)){
-					container=createElement("div",{"id":"divToolTip","style":"z-index:999;overflow:visible;max-width:1000px;display:none;position:absolute;padding:4px;background-color:#fff;color:#000;border:2px solid #885F49;border-radius:5px;font-size:11px;"},ALL); // ="class":"ttbox"
-					window.addEventListener("mousemove",toolTip.mousemove,false);					
-				}else{
-					toolTip.hide(); // important when a frame loads while tooltip opened
-				}			
-			}catch(err){GM_logError("toolTip.init\n"+err);}
-		}
-		this.show=function(evt,content){
-			try{
-				var help = getOffset(frameElement);
-				container.setAttribute("targetId",evt.target.id);
-				container.innerHTML = content;
-				container.style.display = "block";
-				window.addEventListener("mouseout",toolTip.hide,false);
-				var cleft = (evt.pageX+help.left-(container.offsetWidth/3));
-				var mleft = Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
-				container.style.left = Math.max(0,cleft + mleft) + "px";
-				container.style.top = Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - container.offsetHeight)<0)?(evt.pageY+help.top-25-container.offsetHeight):(evt.pageY+help.top+25)) + "px";
-			}catch(err){GM_logError("toolTip.show\n"+err);}
-		}
-		this.adjust=function(targetElem){
-			try{
-				if (targetElem!=undefined && container.getAttribute("targetId")==targetElem.id){
-					var xLeft = container.offsetLeft;
-					var xTop = container.offsetTop;
-					var B = document.createEvent("MouseEvents");
-					B.initEvent("mouseout", true, true);
-					targetElem.dispatchEvent(B);
-					B.initEvent("mouseover", true, true);
-					//B.initMouseEvent("mouseover", true, true, window,0, 0, 0, 0, 0, false, false, false, false, 0, null); //TODO set the correct coords
-					targetElem.dispatchEvent(B);
-					container.style.left = xLeft+"px";
-					container.style.top = xTop+"px";
-				}
-			}catch(err){GM_logError("toolTip.adjust\n"+err);}
-		}
-		this.hide=function(){
-			try{
-				window.removeEventListener("mouseout",toolTip.hide,false);
-				if(container){
-					container.setAttribute("targetId","");
-					container.style.display = "none";
-					container.innerHTML = "";
-				}
-			}catch(err){GM_logError("toolTip.hide\n"+err);}
-		}
-	}
+if(unsafeWindow.top.toolTip){
+	var toolTip=unsafeWindow.top.toolTip;
+}else{
+	var toolTip=createObjectIn(unsafeWindow.top,{defineAs:"toolTip"});
+	toolTip.container=null;
+	toolTip.mousemove=function(evt){
+		try{
+			if(toolTip.container.style.display!="none"){
+				var help=getOffset(frameElement);
+				var cleft=(evt.pageX+help.left-(toolTip.container.offsetWidth/3));
+				var mleft=Math.min(0,(top.document.body.clientWidth - cleft - toolTip.container.offsetWidth));
+				toolTip.container.style.left=Math.max(0,cleft + mleft) + "px";
+				toolTip.container.style.top=Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - toolTip.container.offsetHeight)<0)?(evt.pageY+help.top-25-toolTip.container.offsetHeight):(evt.pageY+help.top+25)) + "px";
+			}
+		}catch(err){GM_logError("toolTip.mousemove\n"+err);}
+	};
+	toolTip.init=function(){
+		try{
+			toolTip.container=$top("divToolTip");
+			if((toolTip.container==null)&&(self==top)){
+				toolTip.container=createElement("div",{"id":"divToolTip","style":"z-index:999;overflow:visible;max-width:1000px;display:none;position:absolute;padding:4px;background-color:#fff;color:#000;border:2px solid #885F49;border-radius:5px;font-size:11px;"},ALL); // ="class":"ttbox"
+				window.addEventListener("mousemove",toolTip.mousemove,false);					
+			}else{
+				toolTip.hide(); // important when a frame loads while tooltip opened
+			}			
+		}catch(err){GM_logError("toolTip.init\n"+err);}
+	};
+	toolTip.show=function(evt,content){
+		try{
+			var help = getOffset(frameElement);
+			toolTip.container.setAttribute("targetId",evt.target.id);
+			toolTip.container.innerHTML = content;
+			toolTip.container.style.display = "block";
+			window.addEventListener("mouseout",toolTip.hide,false);
+			var cleft = (evt.pageX+help.left-(toolTip.container.offsetWidth/3));
+			var mleft = Math.min(0,(top.document.body.clientWidth - cleft - toolTip.container.offsetWidth));
+			toolTip.container.style.left = Math.max(0,cleft + mleft) + "px";
+			toolTip.container.style.top = Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - toolTip.container.offsetHeight)<0)?(evt.pageY+help.top-25-toolTip.container.offsetHeight):(evt.pageY+help.top+25)) + "px";
+		}catch(err){GM_logError("toolTip.show\n"+err);}
+	};
+	toolTip.adjust=function(targetElem){
+		try{
+			if (targetElem!=undefined && toolTip.container.getAttribute("targetId")==targetElem.id){
+				var xLeft = toolTip.container.offsetLeft;
+				var xTop = toolTip.container.offsetTop;
+				var B = document.createEvent("MouseEvents");
+				B.initEvent("mouseout", true, true);
+				targetElem.dispatchEvent(B);
+				B.initEvent("mouseover", true, true);
+				//B.initMouseEvent("mouseover", true, true, window,0, 0, 0, 0, 0, false, false, false, false, 0, null); //TODO set the correct coords
+				targetElem.dispatchEvent(B);
+				toolTip.container.style.left = xLeft+"px";
+				toolTip.container.style.top = xTop+"px";
+			}
+		}catch(err){GM_logError("toolTip.adjust\n"+err);}
+	};
+	toolTip.hide=function(){
+		try{
+			window.removeEventListener("mouseout",toolTip.hide,false);
+			if(toolTip.container){
+				toolTip.container.setAttribute("targetId","");
+				toolTip.container.style.display = "none";
+				toolTip.container.innerHTML = "";
+			}
+		}catch(err){GM_logError("toolTip.hide\n"+err);}
+	};
 }
-toolTip=unsafeWindow.top.toolTip;
-if(!unsafeWindow.top.logBubble){
-	unsafeWindow.top.logBubble= new function(){
-		var container=null;
-		var elements=[];
-		var clearActive=false;
-		var isMouseOver=false;
-		this.init=function(){
-			try{
-				if(!container){
-					container=createElement("div",{"id":"_divLogBubbleBox","style":"position:fixed;right:0;bottom:0;z-index:999;","isMouseOver":"0"},ALL);
-					container.addEventListener("mouseover",function(event){
-						try{
-							isMouseOver=true;
-						}catch(err){GM_logError("logBubble.mouseOver\n"+err);}
-					},false);
-					container.addEventListener("mouseout",function(event){
-						try{
-							var nodeSource=event.target;
-							if(nodeSource&&(nodeSource!=this)){
-								while(nodeSource=nodeSource.parentNode){
-									if(this==nodeSource){ break; }
-								}
-							}
-							var nodeTarget=event.relatedTarget;
-							if(nodeTarget&&(nodeTarget!=this)){
-								while(nodeTarget=nodeTarget.parentNode){
-									if(this==nodeTarget){ break; }
-								}
-							}
-							if(nodeSource!=nodeTarget){
-								isMouseOver=false;
-								logBubble.clear();
-							}
-						}catch(err){GM_logError("logBubble.mouseOut\n"+err);}
-					},false);				
-				}
-			}catch(err){GM_logError("logBubble.init\n"+err);}
-		}	
-		this.add=function(text,timer,color){
-			try{
-				if(timer==undefined){ timer=10; }
-				if(color==undefined){ color="blue"; }
-				if(!container){ logBubble.init(); }
-				now=Math.floor((new Date()).getTime()/1000);
-				elements.push(now+timer);
-				createElement("div",{"class":"blackbox","style":"color:white;background-color:"+color+";border:2px solid black;border-radius:10px;padding:5px;margin-top:5px;"},container,getDaytimeStr(now)+"&nbsp;"+text);
-				window.setTimeout(logBubble.clear,1000*timer+1);			
-			}catch(err){GM_logError("logBubble.add\n"+err);}
-		}
-		this.clear=function(){
-			try{
-				if(clearActive){
-					window.setTimeout(logBubble.clear,200);
-				}else if(container){
-					clearActive=true;
-					now=Math.floor((new Date()).getTime()/1000);
-					if(!isMouseOver){
-						for (var i=elements.length-1;i>=0;i--){
-							if (elements[i]<=now){
-								removeElement(container.children[i]);
-								elements.splice(i,1);
+if(unsafeWindow.top.logBubble){
+	var logBubble=unsafeWindow.top.logBubble;
+}else{
+	var logBubble=createObjectIn(unsafeWindow.top,{defineAs:"logBubble"});
+	logBubble.container=null;
+	logBubble.elements=[];
+	logBubble.clearActive=false;
+	logBubble.isMouseOver=false;
+	logBubble.init=function(){
+		try{
+			if(!logBubble.container){
+				logBubble.container=createElement("div",{"id":"_divLogBubbleBox","style":"position:fixed;right:0;bottom:0;z-index:999;","isMouseOver":"0"},ALL);
+				logBubble.container.addEventListener("mouseover",function(event){
+					try{
+						logBubble.isMouseOver=true;
+					}catch(err){GM_logError("logBubble.mouseOver\n"+err);}
+				},false);
+				logBubble.container.addEventListener("mouseout",function(event){
+					try{
+						var nodeSource=event.target;
+						if(nodeSource&&(nodeSource!=this)){
+							while(nodeSource=nodeSource.parentNode){
+								if(this==nodeSource){ break; }
 							}
 						}
-					}
-					clearActive = false;
-				}
-			}catch(err){GM_logError("logBubble.clear\n"+err);}
-		}		
-	}
-}
-logBubble=unsafeWindow.top.logBubble;
-if(!unsafeWindow.top.tracking){
-	unsafeWindow.top.tracking= new function(){
-		var data={};
-		this.init=function(skriptName){
-			try{
-				if(!data[skriptName]){
-					data[skriptName] = [];
-					GM_registerMenuCommand("show tracking of "+skriptName, function(skriptName){
-					return function(){
-						tracking.plot(skriptName);
-					}
-					}(skriptName));
-				}
-			}catch(err){GM_logError("tracking.init\n"+err);}
-		}	
-		this.start=function(skriptName,functionName,parameterArray){
-			try{
-				return data[skriptName].push([functionName,(new Date()).getTime(),null,parameterArray]);
-			}catch(err){GM_logError("tracking.start\n"+err);}
-		}
-		this.end=function(skriptName,trackingHandle){
-			try{
-				data[skriptName][trackingHandle-1][2]=(new Date()).getTime();
-				// check for long durations?
-			}catch(err){GM_logError("tracking.end\n"+err);}
-		}
-		this.plot=function(skriptName){
-			var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
-			var div=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:0;right:0;width:20px;height:20px;margin:5px;"},container);
-			div.addEventListener("click",function(){ removeElement(this.parentNode); },false);
-			div=createElement("div",{"style":"height:100%;padding-right:20px;margin-right:30px;overflow:auto;"},container);
-			var table,tr,td;
-			table=createElement("table",{"border":"1"},div);
-			tr=createElement("tr",{},table);
-			createElement("th",{},table,"Nr");
-			createElement("th",{},table,"function");
-			createElement("th",{},table,"start");
-			createElement("th",{},table,"end");
-			createElement("th",{},table,"parameter");
-			for(var i=0;i<data[skriptName].length;i++){
-				tr=createElement("tr",{},table);
-				createElement("td",{},table,i);
-				for(var j=0;j<3;j++){
-					createElement("td",{},table,data[skriptName][i][j]);
-				}
-				createElement("td",{},table,data[skriptName][i][3]?implode(data[skriptName][i][3],"tracking.plot"):"");
+						var nodeTarget=event.relatedTarget;
+						if(nodeTarget&&(nodeTarget!=this)){
+							while(nodeTarget=nodeTarget.parentNode){
+								if(this==nodeTarget){ break; }
+							}
+						}
+						if(nodeSource!=nodeTarget){
+							logBubble.isMouseOver=false;
+							logBubble.clear();
+						}
+					}catch(err){GM_logError("logBubble.mouseOut\n"+err);}
+				},false);				
 			}
-		}
-	}
+		}catch(err){GM_logError("logBubble.init\n"+err);}
+	};
+	logBubble.add=function(text,timer,color){
+		try{
+			if(timer==undefined){ timer=10; }
+			if(color==undefined){ color="blue"; }
+			if(!logBubble.container){ logBubble.init(); }
+			now=Math.floor((new Date()).getTime()/1000);
+			logBubble.elements.push(now+timer);
+			createElement("div",{"class":"blackbox","style":"color:white;background-color:"+color+";border:2px solid black;border-radius:10px;padding:5px;margin-top:5px;"},logBubble.container,getDaytimeStr(now)+"&nbsp;"+text);
+			window.setTimeout(logBubble.clear,1000*timer+1);			
+		}catch(err){GM_logError("logBubble.add\n"+err);}
+	};
+	logBubble.clear=function(){
+		try{
+			if(logBubble.clearActive){
+				window.setTimeout(logBubble.clear,200);
+			}else if(logBubble.container){
+				logBubble.clearActive=true;
+				now=Math.floor((new Date()).getTime()/1000);
+				if(!logBubble.isMouseOver){
+					for (var i=logBubble.elements.length-1;i>=0;i--){
+						if (logBubble.elements[i]<=now){
+							removeElement(logBubble.container.children[i]);
+							logBubble.elements.splice(i,1);
+						}
+					}
+				}
+				logBubble.clearActive = false;
+			}
+		}catch(err){GM_logError("logBubble.clear\n"+err);}
+	};	
 }
-tracking=unsafeWindow.top.tracking;
+if(unsafeWindow.top.tracking){
+	var tracking=unsafeWindow.top.tracking;
+}else{
+	var tracking=createObjectIn(unsafeWindow.top,{defineAs:"tracking"});
+	tracking.data={};
+	tracking.init=function(skriptName){
+		try{
+			if(!tracking.data[skriptName]){
+				tracking.data[skriptName] = [];
+				GM_registerMenuCommand("show tracking of "+skriptName, function(skriptName){
+				return function(){
+					tracking.plot(skriptName);
+				}
+				}(skriptName));
+			}
+		}catch(err){GM_logError("tracking.init\n"+err);}
+	};
+	tracking.start=function(skriptName,functionName,parameterArray){
+		try{
+			return tracking.data[skriptName].push([functionName,(new Date()).getTime(),null,parameterArray]);
+		}catch(err){GM_logError("tracking.start\n"+err);}
+	};
+	tracking.end=function(skriptName,trackingHandle){
+		try{
+			tracking.data[skriptName][trackingHandle-1][2]=(new Date()).getTime();
+			// check for long durations?
+		}catch(err){GM_logError("tracking.end\n"+err);}
+	};
+	tracking.plot=function(skriptName){
+		var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
+		var div=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:0;right:0;width:20px;height:20px;margin:5px;"},container);
+		div.addEventListener("click",function(){ removeElement(this.parentNode); },false);
+		div=createElement("div",{"style":"height:100%;padding-right:20px;margin-right:30px;overflow:auto;"},container);
+		var table,tr,td;
+		table=createElement("table",{"border":"1"},div);
+		tr=createElement("tr",{},table);
+		createElement("th",{},table,"Nr");
+		createElement("th",{},table,"function");
+		createElement("th",{},table,"start");
+		createElement("th",{},table,"end");
+		createElement("th",{},table,"parameter");
+		for(var i=0;i<tracking.data[skriptName].length;i++){
+			tr=createElement("tr",{},table);
+			createElement("td",{},table,i);
+			for(var j=0;j<3;j++){
+				createElement("td",{},table,tracking.data[skriptName][i][j]);
+			}
+			createElement("td",{},table,tracking.data[skriptName][i][3]?implode(tracking.data[skriptName][i][3],"tracking.plot"):"");
+		}
+	};
+}
 
 // CONSTANTS / GLOBALS ************************************************************************************************
 // DOM
@@ -1299,7 +1284,7 @@ var container = null;
 	
 // Objects
 try{
-	if(!unsafeWindow.greaseMonkeyData){ unsafeWindow.greaseMonkeyData=new Object(); }
+	if(!unsafeWindow.greaseMonkeyData){ createObjectIn(unsafeWindow, {defineAs: "greaseMonkeyData"}); }
 	var unsafeData = unsafeWindow.greaseMonkeyData;
 }catch(err){ GM_logError("unsafeData ("+location.href+")\n"+err); }
 try{
