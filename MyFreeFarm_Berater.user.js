@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           19.08.2014
-// @version        2.3.3
+// @date           22.08.2014
+// @version        2.3.4
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -64,7 +64,8 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
 				 ["2.3","14.08.2014",[["Anpassung an Firefox 30","Adaptation to Firefox 30"]]],
 				 ["2.3.1","15.08.2014",[["Bugfix: Zeit von anderen Accounts auf dem Server (Umloggen)","Bugfix: Time of other account on the server (login)"],["Bugfix: Ignorieren von verwelkten Gestecken","Bugfix: Ignoring of faded arrangements"],["Ge"+a_dots+"ndert: Spezieller Portal-Login nicht mehr ben"+o_dots+"tigt","Change: Special Portal-Login not needed anymore"]]],
 				 ["2.3.2","17.08.2014",[["Bugfix: Farmi MiniInfo verschwindet","Bugfix: Farmi MiniInfo vanishes"],["Neu: Goldesel Waltraud Log","New: Donkey Luke Log"]]],
-				 ["2.3.3","19.08.2014",[["Neu: Baumereiprodukte und -quests durch Patch 18.08.2014","New: Forestry products and quests by patch 18.08.2014"]]]
+				 ["2.3.3","19.08.2014",[["Neu: Baumereiprodukte und -quests durch Patch 18.08.2014","New: Forestry products and quests by patch 18.08.2014"]]],
+				 ["2.3.4","22.08.2014",[["Bugfix: S"+a_dots+"gewerk und Schreinerei durch Patch 18.08.2014","Bugfix: Sawmill and carpentry by patch 18.08.2014"]]]
 				];
 if(!VERSIONfunctionFile){
 	alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -5889,7 +5890,6 @@ function buildInfoPanelAccounts(showPW){
 		newtable=createElement("table",{"align":"center"},container);
 		newtr=createElement("tr",{},newtable);
 		createElement("th",{},newtr);
-		createElement("th",{},newtr);
 		createElement("th",{},newtr,getText("server"));
 		createElement("th",{},newtr,getText("name"));
 		createElement("th",{},newtr,getText("password"));
@@ -7036,6 +7036,36 @@ var timer=new function(){
 				}
 			}
 		}catch(err){GM_logError("timer.run\n"+err);}
+	}
+}
+var clocks=new function(){
+	var running=[];
+	this.add=function(name,node,time){
+		try{
+			clocks.remove(name);
+			running.push([name,node,time]);
+			clocks.run(name);
+		}catch(err){GM_logError("clocks.add name="+name+"\n"+err);}
+	}
+	this.remove=function(name){
+		try{
+			for(var i=running.length-1;i>=0;i--){
+				if(running[i][0]==name){
+					running.splice(i,1);
+				}
+			}
+		}catch(err){GM_logError("clocks.remove\n"+err);}
+	}
+	this.run=function(){
+		try{
+			for(var i=running.length-1;i>=0;i--){
+				if(running[i][1]){
+					running[i][1].innerHTML=getDaytimeStr(running[i][2]+now);
+				}else{
+					running.splice(i,1);
+				}
+			}
+		}catch(err){GM_logError("clocks.run\n"+err);}
 	}
 }
 function createZoneTimer(name,zoneNrS,type,style,append){ // type="zonetimer" || "zonetimerWater"
@@ -13944,10 +13974,10 @@ return false;
 		unsafeWindow._forestryAjaxAction(action,position,pid,slot);
 	});
 */
-	unsafeOverwriteFunction("initForestryResponse",function(request,a,C,r,J){
+	unsafeOverwriteFunction("initForestryResponse",function(request,mode,C,r,type){
 		try{
 			if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","initForestryResponse"); }
-			unsafeWindow._initForestryResponse(unsafeCloneObject(request),a,C,r,J);
+			unsafeWindow._initForestryResponse(unsafeCloneObject(request),mode,C,r,type);
 			// initForestryResponse(request,uprack,upmenu,action,pos,tutorialstep,position);
 			var result = checkRequest(request);
 			if(result && result[0]!=0){
@@ -14115,10 +14145,18 @@ return false;
 							GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
 						}
 					}catch(err){GM_logError("initForestryResponse \n"+err);}
-	
+					var zoneNrF;
+					switch(type){
+					case 1: zoneNrF="sawmill"; break;
+					case 2: zoneNrF="carpentry"; break;
+					}
 					updateProductDataForestry();
 					doForestry();
-					raiseEvent("gameOpenForestry");
+					switch(mode){
+					case "cropproduction": raiseEvent("game"+zoneNrF.capitalize()+"Cropped"); break;
+					case "startproduction": raiseEvent("game"+zoneNrF.capitalize()+"Started"); break;
+					default: raiseEvent("gameOpenForestry");
+					}
 				}
 				calcProdMinRack();
 			}
@@ -14205,13 +14243,35 @@ return false;
 	}
 	container=null;treeContainer=null;el1=null;el2=null;
 	*/
+	// Redesign Forest Stock
+	var div,div2,span,iProd,iTime;
+	for(var v=1;v<=8;v++){
+		if(div=$("f_stock_item"+v)){
+			iProd=parseInt(/f_symbol(\d+)/.exec(div.firstElementChild.className)[1],10);
+			if(iProd&&(div=$("f_stock_growing_"+v))){
+				iTime=calcProductionTime("forest",1,iProd,1-zones.getBonus("forest")/100);
+				div.innerHTML=getTimeStr(iTime,true)+"&nbsp;"+getText("shortHours");
+				div.parentNode.parentNode.style.height="44px";
+				div2=createElement("div",{"style":"float:left;height:15px;width:15px;margin-right:5px;"},div.parentNode);
+				createElement("img",{"src":GFX+"adtime.gif","style":"width:14px;height:14px;"},div2);
+				div2=createElement("div",{"class":"forestry_stockitem_time"},div.parentNode);
+				span=createElement("span",{},div2);
+				clocks.add("forestItem_"+iProd,span,iTime);
+				createElement("span",{},div2,"&nbsp;"+getText("shortOClock"));
+				createElement("div",{"class":"clear"},div.parentNode);
+			}
+		}
+	}
+	
 	unsafeOverwriteFunction("showForestryProductionBox",function(type){
 		try{
 			unsafeWindow._showForestryProductionBox(type);
 		}catch(err){GM_logError("_showForestryProductionBox\n"+err);}
 		try{
 			if(DEVMODE){ GM_log("showForestryProductionBox type="+type); }
-			if(type==1){ // sawmill
+return; 
+			switch(type){
+			case 1:{// sawmill
 				var container,prod,classStr,flagDisplay,div;
 				var zoneNrF="sawmill";
 				for(var treeId=1;treeId<=5;treeId++){
@@ -14251,8 +14311,9 @@ return false;
 					}catch(err){ GM_logError("showForestryProductionBox sawmill\nslot="+slot+"\n"+err); }
 				}
 				container=null;prod=null;classStr=null;flagDisplay=null;
-				raiseEvent("gameOpenSawmill");
-			} else if(type==2){ // carpentry
+				raiseEvent("gameSawmillOpened");
+			break;}
+			case 2:{ // carpentry
 				var container,icon,prod,help;
 				for(var i=1;i<=20;i++){
 					try{			
@@ -14304,23 +14365,62 @@ return false;
 					}catch(err){ GM_logError("showForestryProductionBox carpentry\nslot="+slot+"\n"+err); }
 				}
 				container=null;icon=null;prod=null;help=null;
-				raiseEvent("gameOpenCarpentry");
+				raiseEvent("gameCarpentryOpened");
+			break;}
 			}
 		}catch(err){GM_logError("showForestryProductionBox\n"+err);}
 	});
-	unsafeOverwriteFunction("forestrySetSlot",function(type,slot){
+	unsafeOverwriteFunction("showForestrySelection",function(type,slot){
 		try{
-			unsafeWindow._forestrySetSlot(type,slot);
-		}catch(err){GM_logError("_forestrySetSlot\n"+err);}
+			unsafeWindow._showForestrySelection(type,slot);
+		}catch(err){GM_logError("_showForestrySelection\n"+err);}
 		try{
-			if(type==1){
-				raiseEvent("gameOpenSawmillSlot")
-			}else if(type==2){
-				raiseEvent("gameOpenCarpentrySlot")
-			}		
-		}catch(err){GM_logError("forestrySetSlot\n"+err);}
+			if(!type){ type=1; }
+			if(!slot){ slot=1; }
+			var container,div;
+			var zoneNrF,iProd,iTime;
+			switch(type){
+			case 1: zoneNrF="sawmill"; break;
+			case 2: zoneNrF="carpentry"; break;
+			}
+			container=$("forestry_selectproduction_scrollcontent");
+			for(var i=container.childElementCount-1;i>=0;i--){
+				div=container.children[i].firstElementChild;
+				iProd=parseInt(/f_symbol(\d+)/.exec(div.className)[1],10);
+				iTime=calcProductionTime(zoneNrF,1,iProd,1-zones.getBonus(zoneNrF)/100);
+				div2=createElement("div",{"style":"float:left;margin-right:10px;"});
+				div.parentNode.insertBefore(div2,div);
+				div.removeAttribute("style");
+				div2.appendChild(div);
+				createElement("div",{},div2,numberFormat(prodStock[1][iProd]));
+				div=container.children[i].children[1].children[1];
+				div.innerHTML="";
+				div.style.height="14px";
+				div2=createElement("div",{"class":"forestry_growing"},div);
+				createElement("div",{"style":"float:left;margin-right:5px;"},div,getTimeStr(iTime,true)+"&nbsp;"+getText("shortHours"));
+				div2=createElement("div",{"style":"float:left;height:15px;width:15px;margin-right:5px;"},div);
+				createElement("img",{"src":GFX+"adtime.gif","style":"width:14px;height:14px;"},div2);
+				div2=createElement("div",{"style":"float:left;"},div);
+				clocks.add("forestrySelection_"+iProd,div2,iTime);
+			}
+			raiseEvent("game"+zoneNrF.capitalize()+"SlotOpened");
+		}catch(err){GM_logError("showForestrySelection\n"+err);}
 	});
-
+	unsafeOverwriteFunction("showForestryBuildingInner",function(type){
+		try{
+			unsafeWindow._showForestryBuildingInner(type);
+		}catch(err){GM_logError("_showForestryBuildingInner\n"+err);}
+		try{
+			switch(type){
+			case 1:{// sawmill
+				raiseEvent("gameSawmillOpened");
+			break;}
+			case 2:{ // carpentry
+				raiseEvent("gameCarpentryOpened");
+			break;}
+			}
+		}catch(err){GM_logError("showForestryBuildingInner\n"+err);}
+	});
 	/*
 	createElement("div",{"id":"analyzediv","style":"position: fixed; top: 0px; right: 0px; z-index: 995; display: block;","class":"blackbox"},ALL);
 	$("analyzediv").addEventListener("click",function(){this.innerHTML="";},false);
@@ -14342,6 +14442,7 @@ return false;
 		$("analyzediv").innerHTML=str;
 	});
 	*/
+
 
 	function doForestry(){
 	try{
@@ -14564,53 +14665,15 @@ return false;
 			if(zones.getBonus(zoneNrF)>0){ createZoneTimer("zoneTimerWater_"+zoneNrF,zoneNrF,"zoneTimerWater","position:absolute;top:-40px;right:0;",div); }
 			// stock
 			unsafeWindow.forestrySetStockItem(1,Math.max(1,unsafeWindow.forestry_plant),Math.max(1,unsafeWindow.forestry_plant));
-			var newDiv;
-			for(var v=1;v<=6;v++){
+			for(var v=1;v<=8;v++){
 				if(div=$("f_stock_item"+v)){
 					iProd=parseInt(/f_symbol(\d+)/.exec(div.firstElementChild.className)[1],10);
 					if(iProd&&(div=$("f_stock_growing_"+v))){
-						iTime=calcProductionTime("forest",1,iProd,1-zones.getBonus(zoneNrF)/100);
+						iTime=calcProductionTime("forest",1,iProd,1-zones.getBonus("forest")/100);
 						div.innerHTML=getTimeStr(iTime,true)+"&nbsp;"+getText("shortHours");
-						if(!(newDiv=$("forestry_stock1_item_endtime"+v))){
-							div.parentNode.parentNode.style.height="44px";
-							newDiv=createElement("div",{"style":"float:left;height:15px;width:15px;margin-right:5px;"},div.parentNode);
-							createElement("img",{"src":GFX+"adtime.gif","style":"width:14px;height:14px;"},newDiv);
-							newDiv=createElement("div",{"id":"forestry_stock1_item_endtime"+v,"time":iTime,"class":"forestry_stockitem_time"},div.parentNode,getDaytimeStr(now+iTime)+"&nbsp;"+getText("shortOClock"));
-							createElement("div",{"class":"clear"},div.parentNode);
-						}
 					}
 				}
-			}
-			if(div=$("forestry_stock1_object")){
-				div.addEventListener("mouseover",function(){
-					var div,iTime;
-					if((div=$("forestry_stock1"))&&(div.getAttribute("clocksTicking")!="1")){
-						div.setAttribute("clocksTicking","1");
-						for(var v=1;v<=6;v++){
-							if(div=$("forestry_stock1_item_endtime"+v)){
-								iTime=parseInt(div.getAttribute("time"),10);
-								div.innerHTML=getDaytimeStr(now+iTime)+"&nbsp;"+getText("shortOClock");
-							}
-						}
-						window.setTimeout(function(){
-							var div,iTime;
-							for(var v=1;v<=6;v++){
-								if(div=$("forestry_stock1_item_endtime"+v)){
-									iTime=parseInt(div.getAttribute("time"),10);
-									div.innerHTML=getDaytimeStr(now+iTime)+"&nbsp;"+getText("shortOClock");
-								}
-							}
-							div=null;iTime=null;
-							if((div=$("forestry_stock1"))&&(div.style.display=="block")){
-								window.setTimeout(arguments.callee,950);
-							}else{
-								div.setAttribute("clocksTicking","0");
-							}
-						},950);
-					}
-					div=null;iTime=null;
-				},false);
-			}
+			}			
 			// farmies
 			for(var i=0;i<unsafeWindow.forestry_farmis.length;i++){
 				// GM_log("unsafeWindow.forestry_farmis["+i+"]:\n"+print_r(unsafeWindow.forestry_farmis[i],"",true,"\n"));
@@ -14696,7 +14759,7 @@ return false;
 			}
 		break;
 		case 2: // click OK. sawmill will be reopened
-			listeningEvent="gameOpenSawmill";
+			listeningEvent="gameSawmillOpened";
 		 	action=function(){ click($("globalcommitboxfooter").children[0]); };
 		break;
 		case 3: // click Abort
@@ -14704,12 +14767,12 @@ return false;
 		 	action=function(){ click($("forestry_slot_cancel"+unsafeWindow.currentslot)); };			
 		break;
 		case 4: // click OK. sawmill will be reopened
-			listeningEvent="gameOpenSawmill";
+			listeningEvent="gameSawmillOpened";
 		 	action=function(){ click($("globalcommitboxfooter").children[0]); };
 		break;
 		case 5: // open production menu again
 			amount--;step=0;
-			listeningEvent="gameOpenSawmillSlot";
+			listeningEvent="gameSawmillSlotOpened";
 		 	action=function(){ click($("forestry_slot"+unsafeWindow.currentslot)); };
 		break;
 		}
@@ -15801,6 +15864,7 @@ return false;
 
 		// timers
 		timer.run();
+		clocks.run();
 
 		// slots
 		var readyZoneAdded=0;
@@ -18663,10 +18727,14 @@ if(location.href==GM_Home){
 		allEvents.push("gameFoodworldOpened4");				// Foodworld building 4 is opened
 		allEvents.push("gameFoodworldSlotOpened");			// Foodworld slot has been opened
 		allEvents.push("gameFoodworldStarted");				// Foodworld building has been started
-		allEvents.push("gameOpenSawmill");					// Sawmill is opened
-		allEvents.push("gameOpenSawmillSlot");				// Sawmill-Slot is opened
-		allEvents.push("gameOpenCarpentry");				// Carpentry is opened
-		allEvents.push("gameOpenCarpentrySlot");			// Carpentry-Slot is opened
+		allEvents.push("gameSawmillCropped");				// Sawmill has been cropped
+		allEvents.push("gameSawmillOpened");				// Sawmill is opened
+		allEvents.push("gameSawmillStarted");				// Sawmill has been started
+		allEvents.push("gameSawmillSlotOpened");			// Sawmill-Slot is opened
+		allEvents.push("gameCarpentryCropped");				// Carpentry has been cropped
+		allEvents.push("gameCarpentryOpened");				// Carpentry is opened
+		allEvents.push("gameCarpentryStarted");				// Carpentry has been started
+		allEvents.push("gameCarpentrySlotOpened");			// Carpentry-Slot is opened
 		allEvents.push("gameCity1");						// city 1 is opened
 		allEvents.push("gameCity2");						// city 2 is opened
 		allEvents.push("gameLotteryOpen");					// lottery frame is opened
