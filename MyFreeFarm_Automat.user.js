@@ -179,6 +179,7 @@ var viewOverViewFarms=null;
 var valPowerUpActivate=null;
 var valLotteryActivate=null;
 var valLotteryDailyLot=null;
+var waltraudNextCheck = null;
 /* quest-bot needs review
 var valQuestActivate=null;
 var valQuestActivateUntilNr=null;
@@ -216,6 +217,7 @@ try{
 	case "forestry":       priority= 10;fkt=autoForestry;		break;
 	case "foodworld":      priority= 10;fkt=autoFoodworld;		break;
 	case "lottery":        priority=  5;fkt=autoLottery;        break;
+	case "waltraud":       priority=  5;fkt=autoWaltraud;		break;
 	case "activatePowerUp":priority=  5;fkt=autoActivatePowerUp;break;
 	case "farmi":          priority=  5;fkt=autoFarmi;          break;
 	// case "quest":          priority=  5;fkt=autoActivateQuest;	break;
@@ -315,6 +317,9 @@ function botArbiterCheck(){
 			}
 			if(valUseBot["lottery"]&&valLotteryActivate&&$("divGoToLottery")){
 				botArbiterAdd("lottery");
+			}
+			if (valUseBot["waltraud"] && waltraudNextCheck < new Date().getTime()) {
+				botArbiterAdd("waltraud");
 			}
 			var cell;
 			if(valUseBot["windmill"]){
@@ -5517,6 +5522,68 @@ try{
 	}
 }catch(err){GM_logError("autoForestryBuilding runId="+runId+" step="+step+"\n"+err);}
 }
+
+function autoWaltraud(runId, step) {
+	try {
+		if (valBot) {
+			if (!busy) {
+				GM_log("BUSY NOT SET: autoWaltraud");
+			} else if (runId != autoRunId) {
+				GM_log("WRONG RUN ID: autoWaltraud(" + runId + "!=" + autoRunId + ")");
+			} else {
+				var  action = null;
+				if (!step) {
+					step = 1;
+				}
+				top.unsafeData.autoAction = "automat: autoWaltraud";
+				busy_action = "autoWaltraud (" + step + ")";
+
+				// Step 1: Go to Farm1, if necessary
+				if (unsafeWindow.farm != 1) {
+					document.addEventListener("gameFarmOpened",function(){
+						document.removeEventListener("gameFarmOpened",arguments.callee,false);
+						autoWaltraud(runId, 2);
+					},false);
+
+					logBubble.add("Goto Farm 1", 5, "green");
+					click($("speedlink_farm1"));
+					return;
+				}
+
+				// Step 2: Open Waltraud and persist 'having opened Waltraud for today'
+				if (!($("globalbox").style.display == "block" || 
+					  $("box_donkeydialog").style.display == "block" || 
+					  $("buybox_donkey").style.display == "block")) {
+					logBubble.add("Waltraud: Opening", 5, "green");
+					click($("farm_inner_waltraud"));
+					window.setTimeout(autoWaltraud, getRandom(tmin2, tmax2), runId, 3);
+					waltraudNextCheck = new Date();
+					waltraudNextCheck.setHours(23, 59, 59, 999);
+					waltraudNextCheck = waltraudNextCheck.getTime();
+					GM_setValue2(COUNTRY + "_" + SERVER + "_" + USERNAME + "_waltraudNextCheck", waltraudNextCheck);
+					return;
+				}
+
+				// Step 3: Close Waltraud and/or finish procedure
+				if ($("box_donkeydialog").style.display == "block") { 
+					logBubble.add("Waltraud: Exiting", 5, "green");
+					autoZoneFinish(runId, $("box_donkeydialogsubmit").getElementsByTagName("button")[0]);
+				} else if ($("globalbox").style.display == "block") {
+					logBubble.add("Waltraud: Exiting", 5, "green");
+					autoZoneFinish(runId, $("globalbox_button1"));
+				} else if ($("buybox_donkey").style.display == "block") {
+					logBubble.add("Waltraud: Exiting", 5, "green");
+					autoZoneFinish(runId, $("buybox_donkey").getElementsByClassName("close")[0]);
+				} else {
+					autoZoneFinish(runId);
+				}
+			}
+		}
+	} catch (err) {
+		GM_logError("autoWaltraud runId=" + runId + " step=" + step + "\n" + err);
+	}
+}
+
 function autoLottery(runId,step){
 try{
 	// GM_log("autoLottery runId="+runId+" step="+step);
@@ -7255,6 +7322,35 @@ function buildInfoPanelOptions(){
 		},false);
 		newtd=createElement("td",{"colspan":"2"},newtr,getText("automat_setvaluseBot_farmersmarket"));
 
+		// *********** WALTRAUD ***********************************
+		newtr = createElement("tr", {
+			"style": "background-color:#b69162;"
+		}, newtable);
+		createElement("th", {
+			"colspan": "3"
+		}, newtr, "Waltraud" ); //getText("farmersmarket"));
+
+		newtr = createElement("tr", {
+			"style": "line-height:18px;"
+		}, newtable);
+		newtd = createElement("td", {
+			"align": "center",
+			"width": "40"
+		}, newtr);
+		inp = createElement("input", {
+			"class": "link",
+			"type": "checkbox",
+			"checked": valUseBot["waltraud"]
+		}, newtd);
+		inp.addEventListener("click", function() {
+			valUseBot["waltraud"] = this.checked;
+			GM_setValue2(COUNTRY + "_" + SERVER + "_" + USERNAME + "_valUseBot", implode(valUseBot));
+			botArbiterCheck();
+		}, false);
+		newtd = createElement("td", {
+			"colspan": "2"
+		}, newtr, getText("automat_setvaluseBot_waltraud"));
+
 		// *********** LOTTERY ************************************
 
 		newtr=createElement("tr",{"style":"background-color:#b69162;"},newtable);
@@ -8058,6 +8154,7 @@ try{
 		if(unsafeWindow.currentuserlevel<8){ 
 			valUseBot["windmill"]=false; 
 		}
+		waltraudNextCheck = GM_getValue(COUNTRY + "_" + SERVER + "_" + USERNAME + "_waltraudNextCheck", new Date(1970, 0, 1).getTime());
 
 		emergencyPlants=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_emergencyPlants","[1,17]"),"settings/emergencyPlants",[1,17]); // Grain,Carrots
 		//autoMillStorage: {[rId][0]=number bought, [1]=total number in zoneList[getZoneListId("windmill")], [2]=max number of recieps on products global Math.min([3][pId]), [3][pId]=max number of recieps for this products per products
@@ -9435,6 +9532,7 @@ try{
 		texte["de"]["automat_setvaluseBot_foodworld"] = "Bot auf Picknick Area anwenden"; // Harry
 		texte["de"]["automat_setvaluseBot_farmi"] = "Verwende Bot f"+u_dots+"r Farmis";
 		texte["de"]["automat_setvaluseBot_lottery"] = "Verwende Bot f"+u_dots+"r die Lotterie";
+		texte["de"]["automat_setvaluseBot_waltraud"] = "Verwende Bot f" + u_dots + "r Waltraud";
 		texte["de"]["automat_setvaluseBot_windmill"] = "Verwende Bot f"+u_dots+"r die Windm"+u_dots+"hle";
 		texte["de"]["automat_setvalDisableCropFields"]="Block the cropping of sleeping fields.";
 		texte["de"]["automat_settMin"] = "Minimale Klickzeit der Automaten";
@@ -9618,6 +9716,7 @@ try{
 		texte["en"]["automat_setvaluseBot_foodworld"] = "Use bot on picnic area"; // Harry;
 		texte["en"]["automat_setvaluseBot_farmi"] = "Use farmie bot";
 		texte["en"]["automat_setvaluseBot_lottery"] = "Use lottery bot";
+		texte["en"]["automat_setvaluseBot_waltraud"] = "Use waltraud bot";
 		texte["en"]["automat_setvaluseBot_windmill"] = "Use windmill bot";
 		texte["en"]["automat_setvalDisableCropFields"]="Block the cropping of sleeping fields.";
 		texte["en"]["automat_settMin"] = "Minimal clicking delay of the automaton";
