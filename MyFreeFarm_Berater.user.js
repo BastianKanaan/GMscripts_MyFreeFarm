@@ -10902,7 +10902,9 @@ return false;
 				if(id==unsafeWindow.market_offers[i].id){
 					var money=parseFloat($("bar").innerHTML.replace(getText("gamecurrency"),"").replace(/\s+/g,"").replace(regDelimThou,"").replace(regDelimDeci,"."),10);
 					$("marketbuyofferamount").value = Math.min(unsafeWindow.market_offers[i].a,Math.floor(money/unsafeWindow.market_offers[i].pr));
-					$("marketbuyofferamount").select();
+					window.setTimeout(function() {
+						$("marketbuyofferamount").select();
+					}, 50);
 					unsafeWindow.calcMarketOfferCost();
 					money=null;
 					break;

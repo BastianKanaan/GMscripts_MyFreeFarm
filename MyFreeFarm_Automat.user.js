@@ -3971,8 +3971,12 @@ TypeError: can't convert undefined to object
 						if(zoneList[handled.zoneNrL][0][0]==PRODSTOP){
 							autoZoneFinish(runId,$("cancelscreen").getElementsByClassName("link")[0]);
 						}else{
-							unsafeData.readyZone[handled.zoneNrS][2]=false;
-							autoFarmFactory(runId,1);
+							if (unsafeData.readyZone[handled.zoneNrS] === undefined) {
+								autoZoneFinish(runId,$("cancelscreen").getElementsByClassName("link")[0]);
+							} else {
+								unsafeData.readyZone[handled.zoneNrS][2]=false;
+								autoFarmFactory(runId,1);
+							}
 						}
 					},settings.getPause(),runId);
 				}catch(err){GM_logError("autoZoneHandle case 3 handled.zoneNrF:"+handled.zoneNrF+" readyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone")+" \n"+err);}
@@ -4774,7 +4778,7 @@ function autoFarmFactory(runId,step){
 		var action=null,listeningEvent=null;
 		switch(step){
 		case 1:{
-			if($("innermaincontainer").style.display=="block"){
+			if($("infoblock"+unsafeWindow.locationinfo[6]) != null && $("innermaincontainer").style.display=="block"){
 				logBubble.add(getText("automat_automatFactory"));
 				if($("infoblock"+unsafeWindow.locationinfo[6])){ // zone is running
 					autoFarmFactory(runId,4); // exit
