@@ -4778,7 +4778,8 @@ function autoFarmFactory(runId,step){
 		var action=null,listeningEvent=null;
 		switch(step){
 		case 1:{
-			if($("infoblock"+unsafeWindow.locationinfo[6]) != null && $("innermaincontainer").style.display=="block"){
+			// $("infoblock"+unsafeWindow.locationinfo[6]) != null && 
+			if($("innermaincontainer").style.display=="block"){
 				logBubble.add(getText("automat_automatFactory"));
 				if($("infoblock"+unsafeWindow.locationinfo[6])){ // zone is running
 					autoFarmFactory(runId,4); // exit
