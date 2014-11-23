@@ -176,7 +176,7 @@ unsafeData.PRODUCT2BUILDING=PRODUCT2BUILDING.clone();
 const BUILDING2PRODUCT=[,,[9],[10],[11],[12],,[25,144],[27,111],[28,152],[30],[91],[110],[116,117,118,119,120,121],[122,123,124,125],[151],[155,156,157]]; // task_new_product
 unsafeData.BUILDING2PRODUCT=BUILDING2PRODUCT.clone();
 // building -> -/field/stable/factory/foodworld
-const BUILDINGTYPE={"0":0,"1":1,"2":2,"3":2,"4":2,"5":2,"6":0,"7":3,"8":3,"9":3,"10":3,"11":2,"12":2,"13":3,"14":3,"15":2,"16":3,"17":0,"18":0,"fl1":1,"fl2":4,"fw1":4,"fw2":4,"fw3":4} // task_new_building
+const BUILDINGTYPE={"0":0,"1":1,"2":2,"3":2,"4":2,"5":2,"6":0,"7":3,"8":3,"9":3,"10":3,"11":2,"12":2,"13":3,"14":3,"15":2,"16":3,"17":0,"18":0, "19":0 ,"fl1":1,"fl2":4,"fw1":4,"fw2":4,"fw3":4} // task_new_building
 unsafeData.BUILDINGTYPE=BUILDINGTYPE.clone();
 const BUILDING_SIZE={"1":120,"forest":25,"fl0":17,"fl1":36};
 unsafeData.BUILDING_SIZE=BUILDING_SIZE.clone();
@@ -12862,6 +12862,7 @@ return false;
 				case "16":  // Knitting
 				case "17":  // Carpentry
 				case "18":  // Pony
+    			case "19":  // Güterhof
 				default: 
 				}
 			}else{ 
