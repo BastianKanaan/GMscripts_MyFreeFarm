@@ -3,18 +3,18 @@
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           15.08.2014
-// @version        2.1.2
+// @date           07.12.2014
+// @version        2.1.3
 // ==/UserScript==
 
-const VERSIONfunctionFile = "2.1.2";
+const VERSIONfunctionFile = "2.1.3";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
 var DEVMODE_LOG_WARNING=GM_getValue("devmode_log_warning",false);
 var DEVMODE_LOG_ERROR=GM_getValue("devmode_log_error",false);
 
-// PROTOTYPES ************************************************************************************************************	
+// PROTOTYPES ************************************************************************************************************
 String.prototype.reverse = function(){
 	splitext = this.split("");
 	revertext = splitext.reverse();
@@ -112,7 +112,7 @@ try{
 }catch(err){ GM_logError("Object.prototype.clone property="+property+"\n"+err); }
 };
 
-// FUNCTIONS *************************************************************************************************************	
+// FUNCTIONS *************************************************************************************************************
 
 function GM_setValueCache(a,b){
 	window.setTimeout(function(){
@@ -155,7 +155,7 @@ try{
 	node = node.parentNode;
 	while(node.id==""){
 		if(node.parentNode){
-			node = node.parentNode; 
+			node = node.parentNode;
 		} else {
 			GM_logError("containerId - No found");
 			break;
@@ -297,7 +297,7 @@ try{
 }catch(err){
 	GM_logError("change: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
 	throw ("ERROR change: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-}	
+}
 }
 function keyup(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg) {
 try{
@@ -318,7 +318,7 @@ try{
 }catch(err){
 	GM_logError("keyup: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
 	throw ("ERROR keyup: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-}	
+}
 }
 function keydown(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg){
 try{
@@ -392,7 +392,7 @@ function insertAfter(newNode, refNode){
 }
 function removeAllCSS(reg){
 try{
-		
+
 	for (var i = document.styleSheets.length - 1; i >= 0; i--) {
 		for (var j = document.styleSheets[i].cssRules.length - 1; j >= 0; j--) {
 			if(	document.styleSheets[i].cssRules[j].selectorText&&(document.styleSheets[i].cssRules[j].selectorText.match(reg))){
@@ -505,7 +505,7 @@ function getTime(str){ // was timestr2int
 				help[2] = parseInt(help2[3],10);
 				help[3] = parseInt(help2[1],10);
 				help[4] = parseInt(help2[2],10);
-			} else { 
+			} else {
 				help = [,,,0,0,0];
 				help2 = (/(\d+)\.(\d+)\.(\d+)/).exec(str);
 				help[0] = parseInt(help2[3],10);
@@ -531,7 +531,7 @@ function getTime(str){ // was timestr2int
 			help[1] = parseInt(help2[2],10);
 		}
 		if(help){
-			return ((Date.UTC(1970,0,1,help[0],help[1],help[2]))/1000); 
+			return ((Date.UTC(1970,0,1,help[0],help[1],help[2]))/1000);
 		}
 	}
 	GM_log("getTime failed at "+str);
@@ -579,7 +579,7 @@ function getFormattedTime(str){
 				help[0] = parseInt((new RegExp(dateFormatDMY.replace("day","\\d+").replace("month","\\d+").replace("year","(\\d+)").replace("hour","\\d+").replace("min","\\d+").replace(".","\\."))).exec(str)[1],10);
 				help[1] = parseInt((new RegExp(dateFormatDMY.replace("day","\\d+").replace("month","(\\d+)").replace("year","\\d+").replace(".","\\."))).exec(str)[1],10);
 				help[2] = parseInt((new RegExp(dateFormatDMY.replace("day","(\\d+)").replace("month","\\d+").replace("year","\\d+").replace(".","\\."))).exec(str)[1],10);
-			} else { 
+			} else {
 				help = [,,,0,0,0];
 				help[0] = parseInt((new RegExp(dateFormatDMY.replace("day","\\d+").replace("month","\\d+").replace("year","(\\d+)").replace("hour","\\d+").replace("min","\\d+").replace(".","\\."))).exec(str)[1],10);
 				help[1] = parseInt((new RegExp(dateFormatDMY.replace("day","\\d+").replace("month","(\\d+)").replace("year","\\d+").replace(".","\\."))).exec(str)[1],10);
@@ -605,7 +605,7 @@ function getFormattedTime(str){
 			}
 		}
 		if(help){
-			return ((Date.UTC(1970,0,1,help[0],help[1],help[2]))/1000); 
+			return ((Date.UTC(1970,0,1,help[0],help[1],help[2]))/1000);
 		}
 	}
 	GM_log("getFormattedTime failed at "+str);
@@ -659,7 +659,7 @@ function getDateStr(time,yearformat,padd){ //in seconds //was datum
 		case 0: str = "day.month"; break;
 		case 1: str = ("day.month.year").replace("year",time2.getFullYear().toString().slice(-2)); break;
 		case 2: str = ("day.month.year").replace("year",time2.getFullYear()); break;
-	}	
+	}
 	help = time2.getDate();
 	str = str.replace("day",((padd&&help<10)?"0":"")+help);
 	help = 1+time2.getMonth();
@@ -683,7 +683,7 @@ function getFormattedDateStr(time,yearformat,padd){
 		case 0: str = dateFormatDM; break;
 		case 1: str = dateFormatDMY.replace("year",time2.getFullYear().toString().slice(-2)); break;
 		case 2: str = dateFormatDMY.replace("year",time2.getFullYear()); break;
-	}	
+	}
 	help = time2.getDate();
 	str = str.replace("day",((padd&&help<10)?"0":"")+help);
 	help = 1+time2.getMonth();
@@ -720,17 +720,17 @@ function countDays(time1,time2){ //in seconds
 function explode(str,debugName,defaultReturn,depth){
 	//GM_log("Begin explode "+ str);
 	if(debugName==undefined){
-		debugName = ""; 
+		debugName = "";
 		GM_logWarning("Explode. DebugName not set. Argument:" + str);
 	}else if(typeof defaultReturn==undefined){
 		GM_logWarning("Explode "+debugName+". defaultReturn not set.");
 	}
-	try{	
-		if(str==undefined){ 
-			throw ("Argument is undefined."); 
+	try{
+		if(str==undefined){
+			throw ("Argument is undefined.");
 		}
 		if(typeof str != "number" && typeof str != "string"){
-			throw ("Argument is not a string nor a number."); 
+			throw ("Argument is not a string nor a number.");
 		}
 //	if(str==""){ return undefined; }
 		var help = eval('(' + str + ')');
@@ -786,7 +786,7 @@ function explode(str,debugName,defaultReturn,depth){
 function implode(arr,debugName){
 	try{
 		if(debugName==undefined){
-			debugName = ""; 
+			debugName = "";
 			// GM_logWarning("implode. DebugName not set. Argument:" + arr);
 		}
 		var line = new String();
@@ -909,9 +909,9 @@ function Log(obj,pre){
 		if(pre==undefined){ pre=""; }
 		if(typeof(obj)=="object"){
 			//GM_log("______________________________ object");
-			for(var v in obj){ 
+			for(var v in obj){
 				if(!obj.hasOwnProperty(v)){ continue; }
-				Log(obj[v],pre+v+" : "); 
+				Log(obj[v],pre+v+" : ");
 			}
 			//GM_log("______________________________ object end");
 		} else {
@@ -974,19 +974,19 @@ function numberFormat(number,decimals,dec_point,thousands_sep){
 		prec = !isFinite(+prec) ? 0 : Math.abs(prec);
 		var sep = (typeof thousands_sep == "undefined") ? delimThou : thousands_sep; // changed!
 		var dec = (typeof dec_point == "undefined") ? delimDeci : dec_point; // changed!
-	
+
 		var s = (prec > 0) ? n.toFixed(prec) : Math.round(n).toFixed(prec); //fix for IE parseFloat(0.55).toFixed(0) = 0;
-	
+
 		var abs = Math.abs(n).toFixed(prec);
 		var _, i;
-	
+
 		if (abs >= 1000) {
 			_ = abs.split(/\D/);
 			i = _[0].length % 3 || 3;
-	
+
 			_[0] = s.slice(0,i + (n < 0)) +
 				_[0].slice(i).replace(/(\d{3})/g, sep+'$1');
-	
+
 			s = _.join(dec);
 		} else {
 			s = s.replace('.', dec);
@@ -1087,211 +1087,223 @@ function alert2(text,yes,no,yesFkt,noFkt){
 	newdiv=null;newdiv1=null;newbutton=null;
 }
 
-if(unsafeWindow.top.toolTip){
-	var toolTip=unsafeWindow.top.toolTip;
-}else{
-	var toolTip=createObjectIn(unsafeWindow.top,{defineAs:"toolTip"});
-	toolTip.container=null;
-	toolTip.mousemove=function(evt){
-		try{
-			if(toolTip.container.style.display!="none"){
-				var help=getOffset(frameElement);
-				var cleft=(evt.pageX+help.left-(toolTip.container.offsetWidth/3));
-				var mleft=Math.min(0,(top.document.body.clientWidth - cleft - toolTip.container.offsetWidth));
-				toolTip.container.style.left=Math.max(0,cleft + mleft) + "px";
-				toolTip.container.style.top=Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - toolTip.container.offsetHeight)<0)?(evt.pageY+help.top-25-toolTip.container.offsetHeight):(evt.pageY+help.top+25)) + "px";
-			}
-		}catch(err){GM_logError("toolTip.mousemove\n"+err);}
-	};
-	toolTip.init=function(){
-		try{
-			toolTip.container=$top("divToolTip");
-			if((toolTip.container==null)&&(self==top)){
-				toolTip.container=createElement("div",{"id":"divToolTip","style":"z-index:999;overflow:visible;max-width:1000px;display:none;position:absolute;padding:4px;background-color:#fff;color:#000;border:2px solid #885F49;border-radius:5px;font-size:11px;"},ALL); // ="class":"ttbox"
-				window.addEventListener("mousemove",toolTip.mousemove,false);					
-			}else{
-				toolTip.hide(); // important when a frame loads while tooltip opened
-			}			
-		}catch(err){GM_logError("toolTip.init\n"+err);}
-	};
-	toolTip.show=function(evt,content){
-		try{
-			var help = getOffset(frameElement);
-			toolTip.container.setAttribute("targetId",evt.target.id);
-			toolTip.container.innerHTML = content;
-			toolTip.container.style.display = "block";
-			window.addEventListener("mouseout",toolTip.hide,false);
-			var cleft = (evt.pageX+help.left-(toolTip.container.offsetWidth/3));
-			var mleft = Math.min(0,(top.document.body.clientWidth - cleft - toolTip.container.offsetWidth));
-			toolTip.container.style.left = Math.max(0,cleft + mleft) + "px";
-			toolTip.container.style.top = Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - toolTip.container.offsetHeight)<0)?(evt.pageY+help.top-25-toolTip.container.offsetHeight):(evt.pageY+help.top+25)) + "px";
-		}catch(err){GM_logError("toolTip.show\n"+err);}
-	};
-	toolTip.adjust=function(targetElem){
-		try{
-			if (targetElem!=undefined && toolTip.container.getAttribute("targetId")==targetElem.id){
-				var xLeft = toolTip.container.offsetLeft;
-				var xTop = toolTip.container.offsetTop;
-				var B = document.createEvent("MouseEvents");
-				B.initEvent("mouseout", true, true);
-				targetElem.dispatchEvent(B);
-				B.initEvent("mouseover", true, true);
-				//B.initMouseEvent("mouseover", true, true, window,0, 0, 0, 0, 0, false, false, false, false, 0, null); //TODO set the correct coords
-				targetElem.dispatchEvent(B);
-				toolTip.container.style.left = xLeft+"px";
-				toolTip.container.style.top = xTop+"px";
-			}
-		}catch(err){GM_logError("toolTip.adjust\n"+err);}
-	};
-	toolTip.hide=function(){
-		try{
-			window.removeEventListener("mouseout",toolTip.hide,false);
-			if(toolTip.container){
-				toolTip.container.setAttribute("targetId","");
-				toolTip.container.style.display = "none";
-				toolTip.container.innerHTML = "";
-			}
-		}catch(err){GM_logError("toolTip.hide\n"+err);}
-	};
-}
-if(unsafeWindow.top.logBubble){
-	var logBubble=unsafeWindow.top.logBubble;
-}else{
-	var logBubble=createObjectIn(unsafeWindow.top,{defineAs:"logBubble"});
-	logBubble.container=null;
-	logBubble.elements=[];
-	logBubble.clearActive=false;
-	logBubble.isMouseOver=false;
-	logBubble.init=function(){
-		try{
-			if(!logBubble.container){
-				logBubble.container=createElement("div",{"id":"_divLogBubbleBox","style":"position:fixed;right:0;bottom:0;z-index:999;","isMouseOver":"0"},ALL);
-				logBubble.container.addEventListener("mouseover",function(event){
-					try{
-						logBubble.isMouseOver=true;
-					}catch(err){GM_logError("logBubble.mouseOver\n"+err);}
-				},false);
-				logBubble.container.addEventListener("mouseout",function(event){
-					try{
-						var nodeSource=event.target;
-						if(nodeSource&&(nodeSource!=this)){
-							while(nodeSource=nodeSource.parentNode){
-								if(this==nodeSource){ break; }
-							}
-						}
-						var nodeTarget=event.relatedTarget;
-						if(nodeTarget&&(nodeTarget!=this)){
-							while(nodeTarget=nodeTarget.parentNode){
-								if(this==nodeTarget){ break; }
-							}
-						}
-						if(nodeSource!=nodeTarget){
-							logBubble.isMouseOver=false;
-							logBubble.clear();
-						}
-					}catch(err){GM_logError("logBubble.mouseOut\n"+err);}
-				},false);				
-			}
-		}catch(err){GM_logError("logBubble.init\n"+err);}
-	};
-	logBubble.add=function(text,timer,color){
-		try{
-			if(timer==undefined){ timer=10; }
-			if(color==undefined){ color="blue"; }
-			if(!logBubble.container){ logBubble.init(); }
-			now=Math.floor((new Date()).getTime()/1000);
-			logBubble.elements.push(now+timer);
-			createElement("div",{"class":"blackbox","style":"color:white;background-color:"+color+";border:2px solid black;border-radius:10px;padding:5px;margin-top:5px;"},logBubble.container,getDaytimeStr(now)+"&nbsp;"+text);
-			window.setTimeout(logBubble.clear,1000*timer+1);			
-		}catch(err){GM_logError("logBubble.add\n"+err);}
-	};
-	logBubble.clear=function(){
-		try{
-			if(logBubble.clearActive){
-				window.setTimeout(logBubble.clear,200);
-			}else if(logBubble.container){
-				logBubble.clearActive=true;
-				now=Math.floor((new Date()).getTime()/1000);
-				if(!logBubble.isMouseOver){
-					for (var i=logBubble.elements.length-1;i>=0;i--){
-						if (logBubble.elements[i]<=now){
-							removeElement(logBubble.container.children[i]);
-							logBubble.elements.splice(i,1);
-						}
-					}
-				}
-				logBubble.clearActive = false;
-			}
-		}catch(err){GM_logError("logBubble.clear\n"+err);}
-	};	
-}
-if(unsafeWindow.top.tracking){
-	var tracking=unsafeWindow.top.tracking;
-}else{
-	var tracking=createObjectIn(unsafeWindow.top,{defineAs:"tracking"});
-	tracking.data={};
-	tracking.init=function(skriptName){
-		try{
-			if(!tracking.data[skriptName]){
-				tracking.data[skriptName] = [];
-				GM_registerMenuCommand("show tracking of "+skriptName, function(skriptName){
-				return function(){
-					tracking.plot(skriptName);
-				}
-				}(skriptName));
-			}
-		}catch(err){GM_logError("tracking.init\n"+err);}
-	};
-	tracking.start=function(skriptName,functionName,parameterArray){
-		try{
-			return tracking.data[skriptName].push([functionName,(new Date()).getTime(),null,parameterArray]);
-		}catch(err){GM_logError("tracking.start\n"+err);}
-	};
-	tracking.end=function(skriptName,trackingHandle){
-		try{
-			tracking.data[skriptName][trackingHandle-1][2]=(new Date()).getTime();
-			// check for long durations?
-		}catch(err){GM_logError("tracking.end\n"+err);}
-	};
-	tracking.plot=function(skriptName){
-		var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
-		var div=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:0;right:0;width:20px;height:20px;margin:5px;"},container);
-		div.addEventListener("click",function(){ removeElement(this.parentNode); },false);
-		div=createElement("div",{"style":"height:100%;padding-right:20px;margin-right:30px;overflow:auto;"},container);
-		var table,tr,td;
-		table=createElement("table",{"border":"1"},div);
-		tr=createElement("tr",{},table);
-		createElement("th",{},table,"Nr");
-		createElement("th",{},table,"function");
-		createElement("th",{},table,"start");
-		createElement("th",{},table,"end");
-		createElement("th",{},table,"parameter");
-		for(var i=0;i<tracking.data[skriptName].length;i++){
-			tr=createElement("tr",{},table);
-			createElement("td",{},table,i);
-			for(var j=0;j<3;j++){
-				createElement("td",{},table,tracking.data[skriptName][i][j]);
-			}
-			createElement("td",{},table,tracking.data[skriptName][i][3]?implode(tracking.data[skriptName][i][3],"tracking.plot"):"");
-		}
-	};
-}
 
 // CONSTANTS / GLOBALS ************************************************************************************************
 // DOM
 var ALL = null;
 var container = null;
-	
-// Objects
+// Objects ************************************************************************************************************
 try{
-	if(!unsafeWindow.greaseMonkeyData){ createObjectIn(unsafeWindow, {defineAs: "greaseMonkeyData"}); }
-	var unsafeData = unsafeWindow.greaseMonkeyData;
+    if(!unsafeWindow.greaseMonkeyData){ createObjectIn(unsafeWindow, {defineAs: "greaseMonkeyData"}); }
+    var unsafeData = unsafeWindow.greaseMonkeyData;
 }catch(err){ GM_logError("unsafeData ("+location.href+")\n"+err); }
 try{
-	if(!top.window.wrappedJSObject.greaseMonkeyData){ top.window.wrappedJSObject.greaseMonkeyData=new Object(); }
-	top.unsafeData = top.window.wrappedJSObject.greaseMonkeyData;
+    if(!top.window.wrappedJSObject.greaseMonkeyData){ createObjectIn(top.window.wrappedJSObject, {defineAs: "greaseMonkeyData"}); }
+    top.unsafeData = top.window.wrappedJSObject.greaseMonkeyData;
 }catch(err){ GM_logError("top.unsafeData ("+location.href+")\n"+err); }
 const STAT_SERVER = {"AE":"http://mff.metrax.eu","AU":"http://mff.metrax.eu","BG":"http://mff.metrax.eu","BR":"http://mff.metrax.eu","DE":"http://mff.metrax.eu","DK":"http://mff.metrax.eu","ES":"http://mff.metrax.eu","FR":"http://mff.metrax.eu","GR":"http://mff.metrax.eu","HR":"http://mff.metrax.eu","HU":"http://mff.metrax.eu","IR":"http://mff.metrax.eu","IT":"http://mff.metrax.eu","NL":"http://mff.metrax.eu","NO":"http://mff.metrax.eu","NZ":"http://mff.metrax.eu","PL":"http://mff.metrax.eu","PT":"http://mff.metrax.eu","RO":"http://mff.metrax.eu","RU":"http://mff.metrax.eu","SE":"http://mff.metrax.eu","TH":"http://mff.metrax.eu","TR":"http://mff.metrax.eu","UK":"http://mff.metrax.eu","US":"http://mff.metrax.eu","VN":"http://mff.metrax.eu"};
+// Helping Classes ****************************************************************************************************
+if(top.unsafeData.toolTip){
+    var toolTip=top.unsafeData.toolTip;
+}else{
+    var toolTip=new function(){
+        var container=null;
+        this.mousemove=function(evt){
+            try{
+                if(container.style.display!="none"){
+                    var help=getOffset(frameElement);
+                    var cleft=(evt.pageX+help.left-(container.offsetWidth/3));
+                    var mleft=Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
+                    container.style.left=Math.max(0,cleft + mleft) + "px";
+                    container.style.top=Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - container.offsetHeight)<0)?(evt.pageY+help.top-25-container.offsetHeight):(evt.pageY+help.top+25)) + "px";
+                }
+            }catch(err){GM_logError("toolTip.mousemove\n"+err);}
+        };
+        this.init=function(){
+            try{
+                container=$top("divToolTip");
+                if((container==null)&&(self==top)){
+                    container=createElement("div",{"id":"divToolTip","style":"z-index:999;overflow:visible;max-width:1000px;display:none;position:absolute;padding:4px;background-color:#fff;color:#000;border:2px solid #885F49;border-radius:5px;font-size:11px;"},ALL); // ="class":"ttbox"
+                    window.addEventListener("mousemove",toolTip.mousemove,false);
+                }else{
+                    toolTip.hide(); // important when a frame loads while tooltip opened
+                }
+            }catch(err){GM_logError("toolTip.init\n"+err);}
+        };
+        this.show=function(evt,content){
+            try{
+                var help = getOffset(frameElement);
+                container.setAttribute("targetId",evt.target.id);
+                container.innerHTML = content;
+                container.style.display = "block";
+                window.addEventListener("mouseout",toolTip.hide,false);
+                var cleft = (evt.pageX+help.left-(container.offsetWidth/3));
+                var mleft = Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
+                container.style.left = Math.max(0,cleft + mleft) + "px";
+                container.style.top = Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - container.offsetHeight)<0)?(evt.pageY+help.top-25-container.offsetHeight):(evt.pageY+help.top+25)) + "px";
+            }catch(err){GM_logError("toolTip.show\n"+err);}
+        };
+        this.adjust=function(targetElem){
+            try{
+                if (targetElem!=undefined && container.getAttribute("targetId")==targetElem.id){
+                    var xLeft = container.offsetLeft;
+                    var xTop = container.offsetTop;
+                    var B = document.createEvent("MouseEvents");
+                    B.initEvent("mouseout", true, true);
+                    targetElem.dispatchEvent(B);
+                    B.initEvent("mouseover", true, true);
+                    //B.initMouseEvent("mouseover", true, true, window,0, 0, 0, 0, 0, false, false, false, false, 0, null); //TODO set the correct coords
+                    targetElem.dispatchEvent(B);
+                    container.style.left = xLeft+"px";
+                    container.style.top = xTop+"px";
+                }
+            }catch(err){GM_logError("toolTip.adjust\n"+err);}
+        };
+        this.hide=function(){
+            try{
+                window.removeEventListener("mouseout",toolTip.hide,false);
+                if(container){
+                    container.setAttribute("targetId","");
+                    container.style.display = "none";
+                    container.innerHTML = "";
+                }
+            }catch(err){GM_logError("toolTip.hide\n"+err);}
+        };
+    }
+    top.unsafeData.toolTip=toolTip;}
+if(top.unsafeData.logBubble){
+    var logBubble=top.unsafeData.logBubble;
+}else{
+    var logBubble=new function(){
+        var container=null;
+        var elements=[];
+        var clearActive=false;
+        var isMouseOver=false;
+        this.init=function(){
+            try{
+                if(!container){
+                    container=createElement("div",{"id":"_divLogBubbleBox","style":"position:fixed;right:0;bottom:0;z-index:999;","isMouseOver":"0"},ALL);
+                    container.addEventListener("mouseover",function(event){
+                        try{
+                            isMouseOver=true;
+                        }catch(err){GM_logError("logBubble.mouseOver\n"+err);}
+                    },false);
+                    container.addEventListener("mouseout",function(event){
+                        try{
+                            var nodeSource=event.target;
+                            if(nodeSource&&(nodeSource!=this)){
+                                while(nodeSource=nodeSource.parentNode){
+                                    if(this==nodeSource){ break; }
+                                }
+                            }
+                            var nodeTarget=event.relatedTarget;
+                            if(nodeTarget&&(nodeTarget!=this)){
+                                while(nodeTarget=nodeTarget.parentNode){
+                                    if(this==nodeTarget){ break; }
+                                }
+                            }
+                            if(nodeSource!=nodeTarget){
+                                isMouseOver=false;
+                                logBubble.clear();
+                            }
+                        }catch(err){GM_logError("logBubble.mouseOut\n"+err);}
+                    },false);
+                }
+            }catch(err){GM_logError("logBubble.init\n"+err);}
+        };
+        this.add=function(text,timer,color){
+            try{
+                if(timer==undefined){ timer=10; }
+                if(color==undefined){ color="blue"; }
+                if(!container){ logBubble.init(); }
+                now=Math.floor((new Date()).getTime()/1000);
+                elements.push(now+timer);
+                createElement("div",{"class":"blackbox","style":"color:white;background-color:"+color+";border:2px solid black;border-radius:10px;padding:5px;margin-top:5px;"},container,getDaytimeStr(now)+"&nbsp;"+text);
+                window.setTimeout(logBubble.clear,1000*timer+1);
+            }catch(err){GM_logError("logBubble.add\n"+err);}
+        };
+        this.clear=function(){
+            try{
+                if(clearActive){
+                    window.setTimeout(logBubble.clear,200);
+                }else if(container){
+                    clearActive=true;
+                    now=Math.floor((new Date()).getTime()/1000);
+                    if(!isMouseOver){
+                        for (var i=elements.length-1;i>=0;i--){
+                            if (elements[i]<=now){
+                                removeElement(container.children[i]);
+                                elements.splice(i,1);
+                            }
+                        }
+                    }
+                    clearActive = false;
+                }
+            }catch(err){GM_logError("logBubble.clear\n"+err);}
+        };
+        this.test=function(){
+            try{
+    GM_log("CALL logBubble.test");
+    logBubble.add("logBubble.test");
+            }catch(err){GM_logError("logBubble.test\n"+err);}
+        };
+    }
+    top.unsafeData.logBubble=logBubble;
+}
+if(top.unsafeData.tracking){
+    var tracking=top.unsafeData.tracking;
+}else{
+    var tracking=new function(){
+        var data={};
+        this.init=function(skriptName){
+            try{
+                if(!data[skriptName]){
+                    data[skriptName] = [];
+                    GM_registerMenuCommand("show tracking of "+skriptName, function(skriptName){
+                    return function(){
+                        tracking.plot(skriptName);
+                    }
+                    }(skriptName));
+                }
+            }catch(err){GM_logError("tracking.init\n"+err);}
+        };
+        this.start=function(skriptName,functionName,parameterArray){
+            try{
+                return data[skriptName].push([functionName,(new Date()).getTime(),null,parameterArray]);
+            }catch(err){GM_logError("tracking.start\n"+err);}
+        };
+        this.end=function(skriptName,trackingHandle){
+            try{
+                data[skriptName][trackingHandle-1][2]=(new Date()).getTime();
+                // check for long durations?
+            }catch(err){GM_logError("tracking.end\n"+err);}
+        };
+        this.plot=function(skriptName){
+            var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
+            var div=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:0;right:0;width:20px;height:20px;margin:5px;"},container);
+            div.addEventListener("click",function(){ removeElement(this.parentNode); },false);
+            div=createElement("div",{"style":"height:100%;padding-right:20px;margin-right:30px;overflow:auto;"},container);
+            var table,tr,td;
+            table=createElement("table",{"border":"1"},div);
+            tr=createElement("tr",{},table);
+            createElement("th",{},table,"Nr");
+            createElement("th",{},table,"function");
+            createElement("th",{},table,"start");
+            createElement("th",{},table,"end");
+            createElement("th",{},table,"parameter");
+            for(var i=0;i<data[skriptName].length;i++){
+                tr=createElement("tr",{},table);
+                createElement("td",{},table,i);
+                for(var j=0;j<3;j++){
+                    createElement("td",{},table,data[skriptName][i][j]);
+                }
+                createElement("td",{},table,data[skriptName][i][3]?implode(data[skriptName][i][3],"tracking.plot"):"");
+            }
+        };
+    }
+    top.unsafeData.tracking=tracking;
+}
+// Constants **********************************************************************************************************
 const STAT_VIEW = {"DE":"http://mff.metrax.eu"};
 const GAMEPAGES = {"AE":"myfreefarm.ae","AU":"au.myfreefarm.com","BG":"veselaferma.com","BR":"myfreefarm.com.br","DE":"myfreefarm.de","CZ":"myfreefarm.cz","DK":"myfreefarm.dk","ES":"migranjalinda.es","FR":"mabelleferme.fr","GR":"myfreefarm.gr","HR":"myfreefarm.com.hr","HU":"enkicsitanyam.hu","IR":"myfreefarm.ir","IT":"myfreefarm.it","NL":"myfreefarm.nl","NO":"myfreefarm.no","NZ":"myfreefarm.co.nz","PL":"wolnifarmerzy.pl","PT":"pt.myfreefarm.com","RO":"fermavesela.ro","RU":"mojaderewnja.ru","SE":"myfreefarm.se","TH":"th.myfreefarm.com","TR":"tr.myfreefarm.com","UK":"myfreefarm.co.uk","US":"myfreefarm.com","VN":"myfreefarm.com.vn"};
 var pageZusatz = new Object();
@@ -1376,8 +1388,15 @@ const u_dots = "\u00FC";
 
 // ON LOAD ***************************************************************************************************************
 
-window.addEventListener("load",function(){
+function startScript(){
+try{
 	ALL = document.getElementsByTagName("body")[0];
 	GFX = top.window.wrappedJSObject._GFX?top.window.wrappedJSObject._GFX:"http://mff.wavecdn.de/mff/";
 	toolTip.init();
-},false);
+}catch(err){ GM_logError("startScript\npage="+location.href+"\n"+err); }
+}
+if((document.readyState=="complete")||(document.readyState=="loaded")){
+    startScript();
+}else{
+    window.addEventListener("load",startScript,false);
+}
