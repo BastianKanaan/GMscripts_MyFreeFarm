@@ -12402,7 +12402,7 @@ return false;
 			} else {
 				switch(mode) {
 					case "dailydonkey":
-						if (unsafeWindow.donkey_isset && r[1]=="Du hast Waltraud heute schon besucht.") {
+						if (unsafeWindow.donkey_isset && r!=0 && r[0]==0) {
 							for(var i=logDonkey.length-1;i>=0;i--){
 								if(logDonkey[i][0]==todayServerStr){
 									return; // Don't save dummy, if entry for today found
