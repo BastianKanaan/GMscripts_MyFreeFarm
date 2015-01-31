@@ -1,11 +1,11 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name           MyFreeFarm Berater
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           08.12.2014
-// @version        2.3.6
+// @date           31.01.2015
+// @version        2.4.0
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -69,6 +69,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
 				 ["2.3.5","23.11.2014",[["Bugfix: Im Markt wird manchmal die Menge nicht selektiert, wenn man ein Produkt kaufen will","Bugfix: Sometimes the amout of a product is not selected when buying a product"]]],
 				 ["2.3.6","08.12.2014",[["Bugfix: DonkeyInfoPanel-Verhalten, wenn von zwei Computern auf einen Account zugegriffen wird","Bugfix: Multi user handling of donkey info panel (when accessing an account from several computers)"]]],
 				 ["2.3.7","16.12.2014",[["Aktualisierung der Daten","Update of data"]]]
+				 ["2.4.0","31.01.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"]]]
 				];
 if(!VERSIONfunctionFile){
 	alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -169,8 +170,7 @@ const PRODUCT_YIELD=[,{"1":1,"2":1,"3":1,"4":1,"5":1,"7":1,"8":1,"21":1,"22":1,"
 const ANIMAL_MOVE=[,,[false,0,0,255,10,10,505],[false,0,0,280,1,0,525],[false,0,0,280,1,25,500],,,,,,,[false,2,20,120,4,0,200]];
 // Upgrade-data of buildings
 // BUILDING_UPGRADES[zoneType][levelNr-1][needed level,buildcost,bonus,animalamount]
-const BUILDING_UPGRADES={"1":[[1,2000,0.95,0],[15,21500,0.9,0],[21,76000,0.85,0],[27,192300,0.8,0],[33,"c20",0.8,0]],"2":[[2,2500,1,5],[7,15200,1,10],[12,32500,1,15],[23,134500,0.9,20],[29,350800,0.8,20]],"3":[[11,3400,1,2],[13,16300,1,3],[17,50200,1,4],[25,159600,0.9,5],[32,441000,0.8,6]],"4":[[14,6200,1,2],[18,33500,1,3],[20,76000,1,4],[28,210500,0.9,5],[34,482000,0.8,6]],"5":[[19,6800,1,1],[22,44800,1,2],[26,128200,1,3],[31,230600,0.9,4],[35,482000,0.8,4]],"7":[[16,5200,1,1],[19,33500,0.95,1],[25,106400,0.9,1],[30,230600,0.85,1],[33,441000,0.8,1]],"8":[[18,6800,1,1],[21,38000,0.95,1],[27,128200,0.9,1],[31,230600,0.85,1],[35,482000,0.8,1]],"9":[[27,8100,1,1],[30,53200,0.95,1],[33,140300,0.9,1],[36,264600,0.85,1],[38,597200,0.8,1]],"10":[[30,9700,1,1],[33,70200,0.95,1],[34,153700,0.9,1],[37,289200,0.85,1],[39,626300,0.8,1]],"11":[[16,10000,1,1],[20,85000,1,3],[24,200000,1,5],[28,"c22",0.9,6],[32,"c38",0.8,6]],"12":[[15,38000,1,2],[17,17200,1,3],[23,54600,1,4],[29,168800,0.9,5],[38,472400,0.8,6]],"13":[[31,16800,1,1],[32,86400,0.95,1],[34,174200,0.9,1],[36,362800,0.85,1],[38,796300,0.8,1]],"14":[[35,19400,1,1],[37,97100,0.95,1],[39,218400,0.9,1],[40,509800,0.85,1],[41,1388600,0.8,1]],"15":[[37,23000,1,1],[37,95300,1,2],[38,198500,1,3],[38,391700,0.9,4],[39,842200,0.8,5]],"16":[[38,97100,1,1],[39,209736,0.95,1],[40,467711,0.9,1],[41,1080413,0.85,1],[42,2538970,0.8,1]],"17":[[10,1000,1,1]],"18":[[10,5000,1,1]],"fw1":[[11,7000,1,1],[11,24600,0.95,1],[11,64200,0.9,1],[11,114400,0.85,1],[11,186300,0.8,1]],"fw2":[[12,8400,1,1],[12,32500,0.95,1],[12,68900,0.9,1],[12,122400,0.85,1],[12,178600,0.8,1]],"fw3":[[12,11200,1,1],[12,43300,0.95,1],[12,91900,0.9,1],[12,163200,0.85,1],[12,238100,0.8,1]],"fl1":[[23,85000,0.95,36]],"fl2":[[23,75000,1,1]],"fl3":[[31,900000,1,1]],"fl6":[[31,900000,1,1]]};  // task_new_building
-// [,[[1,2000,0.95,0],[15,21500,0.9,0],[21,76000,0.85,0],[27,192300,0.8,0],[33,"c20",0.7,0]],[[2,2500,1,5],[7,15200,1,10],[12,32500,1,15],[23,134500,0.9,20],[29,350800,0.8,20]],[[11,3400,1,2],[13,16300,1,3],[17,50200,1,4],[25,159600,0.9,5],[32,441000,0.8,6]],[[14,6200,1,2],[18,33500,1,3],[20,76000,1,4],[28,210500,0.9,5],[34,482000,0.8,6]],[[19,6800,1,1],[22,44800,1,2],[26,128200,1,3],[31,230600,0.9,4],[35,482000,0.8,4]],[],[[16,5200,1,1],[19,33500,0.95,1],[25,106400,0.9,1],[30,230600,0.85,1],[33,441000,0.8,1]],[[18,6800,1,1],[21,38000,0.95,1],[27,128200,0.9,1],[31,230600,0.85,1],[35,482000,0.8,1]],[[27,8100,1,1],[30,53200,0.95,1],[33,140300,0.9,1],[36,264600,0.85,1],[38,597200,0.8,1]],[[30,9700,1,1],[33,70200,0.95,1],[34,153700,0.9,1],[37,289200,0.85,1],[39,626300,0.8,1]],[[16,10000,1,1],[20,85000,1,3],[24,200000,1,5],[28,"c22",0.9,6],[32,"c38",0.8,6]],[[15,38000,1,2],[17,17200,1,3],[23,54600,1,4],[29,168800,0.9,5],[38,472400,0.8,6]],[[31,16800,1,1],[32,86400,0.95,1],[34,174200,0.9,1],[36,362800,0.85,1],[38,796300,0.8,1]],[[35,19400,1,1],[37,97100,0.95,1],[39,218400,0.9,1],[40,509800,0.85,1],[41,1388600,0.8,1]],[[37,23000,1,1],[37,95300,1,2],[38,198500,1,3],[38,391700,0.9,4],[39,842200,0.8,5]],[[38,97100,1,1],[39,209736,0.95,1],[40,467711,0.9,1],[41,1080413,0.85,1],[42,2538970,0.8,1]],[[10,1000,1,1]],[[10,5000,1,1]]];
+const BUILDING_UPGRADES={"1":[[1,2000,0.95,0],[15,21500,0.9,0],[21,76000,0.85,0],[27,192300,0.8,0],[33,"c20",0.8,0]],"2":[[2,2500,1,5],[7,15200,1,10],[12,32500,1,15],[23,134500,0.9,20],[29,350800,0.8,20]],"3":[[11,3400,1,2],[13,16300,1,3],[17,50200,1,4],[25,159600,0.9,5],[32,441000,0.8,6]],"4":[[14,6200,1,2],[18,33500,1,3],[20,76000,1,4],[28,210500,0.9,5],[34,482000,0.8,6]],"5":[[19,6800,1,1],[22,44800,1,2],[26,128200,1,3],[31,230600,0.9,4],[35,482000,0.8,4]],"7":[[16,5200,1,1],[19,33500,0.95,1],[25,106400,0.9,1],[30,230600,0.85,1],[33,441000,0.8,1]],"8":[[18,6800,1,1],[21,38000,0.95,1],[27,128200,0.9,1],[31,230600,0.85,1],[35,482000,0.8,1]],"9":[[27,8100,1,1],[30,53200,0.95,1],[33,140300,0.9,1],[36,264600,0.85,1],[38,597200,0.8,1]],"10":[[30,9700,1,1],[33,70200,0.95,1],[34,153700,0.9,1],[37,289200,0.85,1],[39,626300,0.8,1]],"11":[[16,10000,1,1],[20,85000,1,3],[24,200000,1,5],[28,"c22",0.9,6],[32,"c38",0.8,6]],"12":[[15,38000,1,2],[17,17200,1,3],[23,54600,1,4],[29,168800,0.9,5],[38,472400,0.8,6]],"13":[[31,16800,1,1],[32,86400,0.95,1],[34,174200,0.9,1],[36,362800,0.85,1],[38,796300,0.8,1]],"14":[[35,19400,1,1],[37,97100,0.95,1],[39,218400,0.9,1],[40,509800,0.85,1],[41,1388600,0.8,1]],"15":[[37,23000,1,1],[37,95300,1,2],[38,198500,1,3],[38,391700,0.9,4],[39,842200,0.8,5]],"16":[[38,97100,1,1],[39,209736,0.95,1],[40,467711,0.9,1],[41,1080413,0.85,1],[42,2538970,0.8,1]],"17":[[10,1000,1,1]],"18":[[10,5000,1,1]],"19":[[28,250000,1,1]],"fw1":[[11,7000,1,1],[11,24600,0.95,1],[11,64200,0.9,1],[11,114400,0.85,1],[11,186300,0.8,1]],"fw2":[[12,8400,1,1],[12,32500,0.95,1],[12,68900,0.9,1],[12,122400,0.85,1],[12,178600,0.8,1]],"fw3":[[12,11200,1,1],[12,43300,0.95,1],[12,91900,0.9,1],[12,163200,0.85,1],[12,238100,0.8,1]],"fl1":[[23,85000,0.95,36]],"fl2":[[23,75000,1,1]],"fl3":[[31,900000,1,1]],"fl6":[[31,900000,1,1]]};  // task_new_building
 // produced thing -> production area
 const PRODUCT2BUILDING=[[,1,1,1,1,1,1,1,1,2,3,4,5,,,,,1,1,1,1,1,1,1,1,7,1,8,9,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,1,,,,,,,1,,,1,1,1,12,8,1,1,1,1,13,13,13,13,13,13,14,14,14,14,1,1,1,1,"fw1","fw1","fw1","fw1","fw1","fw1","fw2","fw2","fw2","fw2","fw2","fw2","fw2","fw2",7,"fw1","fw1","fw1","fw2","fw2","fw2",15,9,1,1,16,16,16,1,,,"fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1",,,,,,,,,,,"fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2",,],{"1":"forest","2":"forest","3":"forest","4":"forest","5":"forest","7":"forest","8":"forest","21":"forest","22":"forest","23":"forest","24":"forest","25":"forest","26":"forest","27":"forest","41":"sawmill","42":"sawmill","43":"sawmill","44":"sawmill","45":"sawmill","46":"sawmill","47":"sawmill","48":"sawmill","49":"sawmill","50":"sawmill","51":"sawmill","52":"sawmill","53":"sawmill","54":"sawmill","55":"sawmill","56":"sawmill","57":"sawmill","58":"sawmill","59":"sawmill","60":"sawmill","61":"sawmill","101":"carpentry","102":"carpentry","103":"carpentry","104":"carpentry","105":"carpentry","106":"carpentry","107":"carpentry","108":"carpentry","109":"carpentry","110":"carpentry","111":"carpentry","112":"carpentry","113":"carpentry","114":"carpentry","115":"carpentry","116":"carpentry","117":"carpentry","118":"carpentry","119":"carpentry","120":"carpentry","121":"carpentry","122":"carpentry","123":"carpentry","124":"carpentry","125":"carpentry","126":"carpentry","127":"carpentry","128":"carpentry","129":"carpentry","130":"carpentry","131":"carpentry","132":"carpentry","133":"carpentry","300":"forest"},[],[,"windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill"]];// task_new_plant task_new_product
 unsafeData.PRODUCT2BUILDING=PRODUCT2BUILDING.clone();
@@ -178,9 +178,9 @@ unsafeData.PRODUCT2BUILDING=PRODUCT2BUILDING.clone();
 const BUILDING2PRODUCT=[,,[9],[10],[11],[12],,[25,144],[27,111],[28,152],[30],[91],[110],[116,117,118,119,120,121],[122,123,124,125],[151],[155,156,157]]; // task_new_product
 unsafeData.BUILDING2PRODUCT=BUILDING2PRODUCT.clone();
 // building -> -/field/stable/factory/foodworld
-const BUILDINGTYPE={"0":0,"1":1,"2":2,"3":2,"4":2,"5":2,"6":0,"7":3,"8":3,"9":3,"10":3,"11":2,"12":2,"13":3,"14":3,"15":2,"16":3,"17":0,"18":0, "19":0 ,"fl1":1,"fl2":4,"fw1":4,"fw2":4,"fw3":4} // task_new_building
+const BUILDINGTYPE={"0":0,"1":1,"2":2,"3":2,"4":2,"5":2,"6":0,"7":3,"8":3,"9":3,"10":3,"11":2,"12":2,"13":3,"14":3,"15":2,"16":3,"17":0,"18":0,"19":0,"fl1":1,"fl2":4,"fw1":4,"fw2":4,"fw3":4} // task_new_building
 unsafeData.BUILDINGTYPE=BUILDINGTYPE.clone();
-const BUILDING_SIZE={"1":120,"forest":25,"fl0":17,"fl1":36};
+const BUILDING_SIZE={"1":120,"forest":25,"fl0":17,"fl1":36,"19":99};
 unsafeData.BUILDING_SIZE=BUILDING_SIZE.clone();
 // Needed input of a zone
 // BUILDING_INPUT[buildTyp]{output}[alternatives]=[[prod1,amount1||reducing time1],...]
@@ -8118,7 +8118,7 @@ try{
 
 	unsafeOverwriteFunction("createAdvancedProductResponse",function(response,e,c){
 		try{
-			unsafeWindow._createAdvancedProductResponse(unsafeCloneObject(response),e,c);
+			unsafeWindow._createAdvancedProductResponse(response,e,c);
 		}catch(err){GM_logError("_createAdvancedProductResponse\n"+err);}
 		try{
 			raiseEvent("gameStartFactory");
@@ -8507,7 +8507,7 @@ try{
 	}
 	unsafeOverwriteFunction("foodworldActionResponse",function(request,action,id,table,chair){
 		try{
-			unsafeWindow._foodworldActionResponse(unsafeCloneObject(request),action,id,table,chair);
+			unsafeWindow._foodworldActionResponse(request,action,id,table,chair);
 		}catch(err){GM_logError("_foodworldActionResponse\n"+err);}
 		try{
 			var result = checkRequest(request);
@@ -9589,7 +9589,7 @@ try{
 	}
 	unsafeOverwriteFunction("questInitGo",function(response,mode,b,h,l){
 		try{
-			unsafeWindow._questInitGo(unsafeCloneObject(response),mode,b,h,l);
+			unsafeWindow._questInitGo(response,mode,b,h,l);
 		}catch(err){GM_logError("_questInitGo\n"+err);}
 		try{
 			handleQuestData();
@@ -9809,7 +9809,7 @@ try{
 	});
 	unsafeOverwriteFunction("questsHandler",function(status){
 		try{
-			unsafeWindow._questsHandler(unsafeCloneObject(status));
+			unsafeWindow._questsHandler(status);
 		}catch(err){GM_logError("_questsHandler\n"+err);}
 		try{
 			handleQuestLine();
@@ -11022,7 +11022,7 @@ return false;
 			}
 		}catch(err){GM_logError("marketActionResponse ("+err_trace+")\nv="+v+"\n"+err);}
 		try{
-			unsafeWindow._marketActionResponse(unsafeCloneObject(request),action,id,open);
+			unsafeWindow._marketActionResponse(request,action,id,open);
 		}catch(err){GM_logError("_marketActionResponse\n"+err);}
 	});
 	quicklinks();
@@ -11287,7 +11287,7 @@ return false;
 			cell=null;
 		}catch(err){GM_logError("cancelAdResponse\n"+err);}
 		try{
-			unsafeWindow._cancelAdResponse(unsafeCloneObject(response));
+			unsafeWindow._cancelAdResponse(response);
 		}catch(err){GM_logError("_cancelAdResponse\n"+err);}
 	});
 	// Sprechblase
@@ -11618,7 +11618,7 @@ return false;
 	// messages
 	unsafeOverwriteFunction("messagesActionResponse",function(request,mode,id){
 		try{
-			unsafeWindow._messagesActionResponse(unsafeCloneObject(request),mode,id);
+			unsafeWindow._messagesActionResponse(request,mode,id);
 		}catch(err){GM_logError("_messagesActionResponse\n"+err);}
 		try{
 			if(checkRequest(request,mode)){
@@ -12319,7 +12319,7 @@ return false;
 
 	unsafeOverwriteFunction("getGardenInfoResponse",function(request,zoneNr){
 		try{
-			unsafeWindow._getGardenInfoResponse(unsafeCloneObject(request),zoneNr);
+			unsafeWindow._getGardenInfoResponse(request,zoneNr);
 		}catch(err){GM_logError("_getGardenInfoResponse\n"+err);}
 		try{
 			// GM_log("getGardenInfoResponse zoneNr="+zoneNr+"\n"+print_r(eval('('+response+')'),"",true,"\n"));
@@ -12367,12 +12367,14 @@ return false;
 			}
 		}catch(err){GM_logError("farmAction (pre)\n"+err);}
 		try{
-			unsafeWindow._farmAction(mode,farm,position,unsafeCloneObject(s),d,b,a);
+			unsafeWindow._farmAction(mode,farm,position,s,d,b,a);
 		}catch(err){GM_logError("_farmAction\n"+err);}
 	});
-	unsafeOverwriteFunction("farmActionResponse",function(request,mode,farmNR,zoneNr,t,c,b,a){
-		try{
-			unsafeWindow._farmActionResponse(unsafeCloneObject(request),mode,farmNR,zoneNr,unsafeCloneObject(t),c,b,a);
+	unsafeOverwriteFunction("farmActionResponse",function(request,mode,farmNR,zoneNr,z,d,b,a){
+        GM_log("farmActionResponse\n"+JSON.stringify([request,mode,farmNR,zoneNr,z,d,b,a]));
+
+        try{
+ 			unsafeWindow._farmActionResponse(request,mode,farmNR,zoneNr,z,d,b,a);
 		}catch(err){GM_logError("_farmActionResponse\n"+err);}
 		try{
 			var r = checkRequest(request, mode);
@@ -12403,6 +12405,7 @@ return false;
 			} else {
 				switch(mode) {
 					case "dailydonkey":
+						raiseEvent("gameDonkeyResponse");
 						if (unsafeWindow.donkey_isset && r!=0 && r[0]==0) {
 							for(var i=logDonkey.length-1;i>=0;i--){
 								if(logDonkey[i][0]==todayServerStr){
@@ -12422,7 +12425,7 @@ return false;
 	});
 	unsafeOverwriteFunction("PflanzResponse",function(request){
 		try{
-			unsafeWindow._PflanzResponse(unsafeCloneObject(request));
+			unsafeWindow._PflanzResponse(request);
 		}catch(err){GM_logError("_PflanzResponse\n"+err);}
 		try{
 			if((request.readyState==4)&&(request.status==200)){
@@ -12433,7 +12436,7 @@ return false;
 	});
 	unsafeOverwriteFunction("WasserResponse",function(request){
 		try{
-			unsafeWindow._WasserResponse(unsafeCloneObject(request));
+			unsafeWindow._WasserResponse(request);
 		}catch(err){GM_logError("_WasserResponse\n"+err);}
 		try{
 			if((request.readyState==4)&&(request.status==200)){
@@ -12444,7 +12447,7 @@ return false;
 	});
 	unsafeOverwriteFunction("ErnteResponse",function(request){
 		try{
-			unsafeWindow._ErnteResponse(unsafeCloneObject(request));
+			unsafeWindow._ErnteResponse(request);
 		}catch(err){GM_logError("_ErnteResponse\n"+err);}
 		try{
 			if((request.readyState==4)&&(request.status==200)){
@@ -12455,7 +12458,7 @@ return false;
 	});
 	unsafeOverwriteFunction("AbrissResponse",function(request){
 		try{
-			unsafeWindow._AbrissResponse(unsafeCloneObject(request));
+			unsafeWindow._AbrissResponse(request);
 		}catch(err){GM_logError("_AbrissResponse\n"+err);}
 		try{
 			if((request.readyState==4)&&(request.status==200)){
@@ -12504,7 +12507,7 @@ return false;
 	// Farmhouse
 	unsafeOverwriteFunction("initFarmhouseResponse",function(response){
 		try{
-			unsafeWindow._initFarmhouseResponse(unsafeCloneObject(response));
+			unsafeWindow._initFarmhouseResponse(response);
 		}catch(err){GM_logError("_initFarmhouseResponse\n"+err);}
 		try{
 			if(unsafeWindow.reallocatebuildinghead&&!$("reallocatebuildingbutton")){
@@ -12617,7 +12620,7 @@ return false;
 	});	
 	unsafeOverwriteFunction("buildingInnerActionResponse",function(request,action,farm,position){
 		try{
-			unsafeWindow._buildingInnerActionResponse(unsafeCloneObject(request),action,farm,position);
+			unsafeWindow._buildingInnerActionResponse(request,action,farm,position);
 		}catch(err){GM_logError("_buildingInnerActionResponse\n"+err);}
 		try{
 			if(checkRequest(request)){
@@ -12780,7 +12783,7 @@ return false;
 	// Knitting
 	unsafeOverwriteFunction("strickereiAjaxActionResponse",function(request,pos,mode){
 		try{
-			unsafeWindow._strickereiAjaxActionResponse(unsafeCloneObject(request),pos,mode);
+			unsafeWindow._strickereiAjaxActionResponse(request,pos,mode);
 		}catch(err){GM_logError("_strickereiAjaxActionResponse\n"+err);}
 		try{
 			var result = checkRequest(request);
@@ -12983,7 +12986,7 @@ return false;
 	// Clubdata loaded
 	unsafeOverwriteFunction("initGuildResponse",function(response){
 		try{
-			unsafeWindow._initGuildResponse(unsafeCloneObject(response));
+			unsafeWindow._initGuildResponse(response);
 		}catch(err){GM_logError("_initGuildResponse\n"+err);}
 		try{
 			lastGuildQuestRequest=now;
@@ -13017,7 +13020,7 @@ return false;
 
 	unsafeOverwriteFunction("getGuildMembersResponse",function(request){
 		try{
-			unsafeWindow._getGuildMembersResponse(unsafeCloneObject(request));
+			unsafeWindow._getGuildMembersResponse(request);
 		}catch(err){GM_logError("_getGuildMembersResponse\n"+err);}
 		try{
 			if(request.readyState == 4 && request.status == 200){
@@ -13045,7 +13048,7 @@ return false;
 	// Questhistory
 	unsafeOverwriteFunction("showGuildQuestStatsResponse",function(request,type,page,self){
 		try{
-			unsafeWindow._showGuildQuestStatsResponse(unsafeCloneObject(request),type,page,self);
+			unsafeWindow._showGuildQuestStatsResponse(request,type,page,self);
 		}catch(err){GM_logError("_showGuildQuestStatsResponse\n"+err);}
 		try{
 			var result=checkRequest(request);
@@ -13344,7 +13347,7 @@ return false;
 	// Clubquest reformat
 	unsafeOverwriteFunction("setGuildQuestRun",function(r){
 		try{
-			unsafeWindow._setGuildQuestRun(unsafeCloneObject(r));
+			unsafeWindow._setGuildQuestRun(r);
 		}catch(err){GM_logError("_setGuildQuestRun\n"+err);}
 		try{
 			if(!$("guildquestboxBerater")){
@@ -13669,7 +13672,7 @@ return false;
 	err_trace="Reallocate Buildings";
 	unsafeOverwriteFunction("reallocateBuilding",function(set){
 		try{
-			unsafeWindow._reallocateBuilding(unsafeCloneObject(set));
+			unsafeWindow._reallocateBuilding(set);
 		}catch(err){GM_logError("_reallocateBuilding\n"+err);}
 		try{
 			//reallocateBuilding('farm1,zone1,farm2,zone2');
@@ -13844,7 +13847,7 @@ return false;
 	if(unsafeWindow.farmersmarket_data){ doFarmersMarketData(); }
 	unsafeOverwriteFunction("farmersMarketHandler",function(response){
 		try{
-			unsafeWindow._farmersMarketHandler(unsafeCloneObject(response));
+			unsafeWindow._farmersMarketHandler(response);
 		}catch(err){GM_logError("_farmersMarketHandler\n"+err);}
 		try{
 			doFarmersMarketData()
@@ -14000,7 +14003,7 @@ return false;
 	unsafeOverwriteFunction("initForestryResponse",function(request,mode,C,r,type){
 		try{
 			if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","initForestryResponse"); }
-			unsafeWindow._initForestryResponse(unsafeCloneObject(request),mode,C,r,type);
+			unsafeWindow._initForestryResponse(request,mode,C,r,type);
 			// initForestryResponse(request,uprack,upmenu,action,pos,tutorialstep,position);
 			var result = checkRequest(request);
 			if(result && result[0]!=0){
@@ -14813,7 +14816,7 @@ return;
 	
 	unsafeOverwriteFunction("forestryBuySlotResponse",function(request,b){
 		try{
-			unsafeWindow._forestryBuySlotResponse(unsafeCloneObject(request),b);
+			unsafeWindow._forestryBuySlotResponse(request,b);
 		}catch(err){GM_logError("_forestryBuySlotResponse\n"+err);}
 		try{
 			var result = checkRequest(request);
@@ -14826,7 +14829,7 @@ return;
 	});
 	unsafeOverwriteFunction("initCampaignsResponse",function(request,update){
 		try{
-			unsafeWindow._initCampaignsResponse(unsafeCloneObject(request),update);
+			unsafeWindow._initCampaignsResponse(request,update);
 		}catch(err){GM_logError("_initCampaignsResponse\n"+err);}
 		try{
 			var result = checkRequest(request);
@@ -14958,7 +14961,7 @@ return;
 	err_trace="events city 1";
 	unsafeOverwriteFunction("cityActionResponse",function(request,mode,f,e,d,c){
 		try{
-			unsafeWindow._cityActionResponse(unsafeCloneObject(request),mode,f,e,d,c);
+			unsafeWindow._cityActionResponse(request,mode,f,e,d,c);
 		}catch(err){GM_logError("_cityActionResponse\nj="+mode+"\n"+err);}
 		try{
 			var result = checkRequest(request);
@@ -15014,7 +15017,7 @@ return;
 	// Marktschreier
 	unsafeOverwriteFunction("openMarktschreiberResponse",function(response){
 		try{
-			unsafeWindow._openMarktschreiberResponse(unsafeCloneObject(response));
+			unsafeWindow._openMarktschreiberResponse(response);
 		}catch(err){GM_logError("_openMarktschreiberResponse\n"+err);}
 		try{
 			var div,container;
@@ -15032,7 +15035,7 @@ return;
 	// Competition
 	unsafeOverwriteFunction("setCityWBWContentResponse",function(request){
 		try{
-			unsafeWindow._setCityWBWContentResponse(unsafeCloneObject(request));
+			unsafeWindow._setCityWBWContentResponse(request);
 		}catch(err){GM_logError("_setCityWBWContentResponse\n"+err);}
 		try{
 			var result=checkRequest(request);
@@ -15493,7 +15496,7 @@ return;
 		});
 		unsafeOverwriteFunction("setFormulaDealerRack",function(rack){
 			try{
-				unsafeWindow._setFormulaDealerRack(unsafeCloneObject(rack));
+				unsafeWindow._setFormulaDealerRack(rack);
 			}catch(err){GM_logError("_setFormulaDealerRack\n"+err);}
 			try{
 				for(var i=0;i<prodStock[2].length;i++){
@@ -15661,7 +15664,7 @@ return;
 			});
 			unsafeOverwriteFunction("initLotteryResponse",function(response){
 				try{
-					unsafeWindow._initLotteryResponse(unsafeCloneObject(response));
+					unsafeWindow._initLotteryResponse(response);
 				}catch(err){GM_logError("_initLotteryResponse\n"+err);}
 				window.setTimeout(function(response){
 					try{
@@ -15680,7 +15683,7 @@ return;
 			});
 			unsafeOverwriteFunction("dailyLotResponse",function(response){
 				try{
-					unsafeWindow._dailyLotResponse(unsafeCloneObject(response));
+					unsafeWindow._dailyLotResponse(response);
 				}catch(err){GM_logError("_dailyLotResponse\n"+err);}
 				try{
 					hideGoToLottery();
@@ -15720,7 +15723,7 @@ return;
 			});
 			unsafeOverwriteFunction("lotGetPrizeResponse",function(response){
 				try{
-					unsafeWindow._lotGetPrizeResponse(unsafeCloneObject(response));
+					unsafeWindow._lotGetPrizeResponse(response);
 				}catch(err){GM_logError("_lotGetPrizeResponse\n"+err);}
 				try{
 					if(response[5]){
@@ -15732,7 +15735,7 @@ return;
 			});
 			unsafeOverwriteFunction("buyNewLotResponse",function(response){
 				try{
-					unsafeWindow._buyNewLotResponse(unsafeCloneObject(response));
+					unsafeWindow._buyNewLotResponse(response);
 				}catch(err){GM_logError("_buyNewLotResponse\n"+err);}
 				try{
 					if(response[5]&response[3]){
@@ -15782,7 +15785,8 @@ return;
 		showGoToDonkey();
 		unsafeOverwriteFunction("dailyDonkeyResult",function(response){
 			try{
-				unsafeWindow._dailyDonkeyResult(unsafeCloneObject(response));
+				unsafeWindow._dailyDonkeyResult(response);
+				raiseEvent("gameDonkeyResponse");
 			}catch(err){GM_logError("_dailyDonkeyResult\n"+err);}
 			try{
 				if (response[0]!=2) {
@@ -18041,6 +18045,7 @@ if(top.unsafeData.texte["de"]==undefined){
 	texte["de"]["delete"]="L"+o_dots+"schen";
 	texte["de"]["demand"]="Forderung";
 	texte["de"]["detail"]="Detail";
+	texte["de"]["donkey"]="Waltraud";
 	texte["de"]["duration"]="Dauer";
 	texte["de"]["editPrice"]="Preis "+a_dots+"ndern";
 	texte["de"]["emptyField"]="Feld leer!";
@@ -18383,6 +18388,7 @@ if(top.unsafeData.texte["en"]==undefined){
 	texte["en"]["delete"]="Delete";
 	texte["en"]["demand"]="Demand";
 	texte["en"]["detail"]="Detail";
+	texte["en"]["donkey"]="Donkey";
 	texte["en"]["duration"]="duration";
 	texte["en"]["editPrice"]="Edit price";
 	texte["en"]["emptyField"]="Empty field!";
