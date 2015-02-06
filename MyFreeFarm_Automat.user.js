@@ -53,20 +53,20 @@
 // ==/UserScript==
 
 const VERSION=GM_info["script"]["version"];
-const neededVersionBerater="2.3.7";
+const neededVersionBerater="2.4.1";
 const neededVersionFunctionFile="2.1.3";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
-const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migration to openuserjs.org"],["Script wird jetzt auf GitHub entwickelt","Script now developed on GitHub"]]],
-                 ["2.1","11.07.2014",[["Neu: Changelog","New: Changelog"],["Refaktorierung der Zonen-Daten","Refactoring of zones data"]]],
-                 ["2.1.1","12.07.2014",[["Bugfix","Bugfix"]]],
-                 ["2.1.2","22.08.2014",[["Bugfix: S"+a_dots+"gewerk und Schreinerei durch Patch 18.08.2014","Bugfix: Sawmill and carpentry by patch 18.08.2014"]]],
-                 ["2.1.3","02.09.2014",[["Neu: Doppelte Sicherung des Bots gegen Ausf"+a_dots+"lle. Entsprechende Optionen.","New: Double protection against failing of the bot. Corresponding options."],["Refaktorierung der Optionen","Refactoring of settings"]]],
-                 ["2.1.4","09.09.2014",[["Bugfix","Bugfix"]]],
-                 ["2.1.5","09.12.2014",[["Bugfix","Bugfix"]]],
-                 ["2.1.6","18.12.2014",[["Neu: Bot f"+u_dots+"r Waltraud kann jetzt in den Optionen aktiviert werden","New: Bot for donkey can be activated in options"]]],
-                 ["2.2.0","01.02.2015",[["Neu: Ernte-Bot f"+u_dots+"r G"+u_dots+"terhof","New: Cropping bot for megafield"]]]
+const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migration to openuserjs.org"],["Script wird jetzt auf GitHub entwickelt","Script now developed on GitHub"]]]
+                ,["2.1","11.07.2014",[["Neu: Changelog","New: Changelog"],["Refaktorierung der Zonen-Daten","Refactoring of zones data"]]]
+                ,["2.1.1","12.07.2014",[["Bugfix","Bugfix"]]]
+                ,["2.1.2","22.08.2014",[["Bugfix: S"+a_dots+"gewerk und Schreinerei durch Patch 18.08.2014","Bugfix: Sawmill and carpentry by patch 18.08.2014"]]]
+                ,["2.1.3","02.09.2014",[["Neu: Doppelte Sicherung des Bots gegen Ausf"+a_dots+"lle. Entsprechende Optionen.","New: Double protection against failing of the bot. Corresponding options."],["Refaktorierung der Optionen","Refactoring of settings"]]]
+                ,["2.1.4","09.09.2014",[["Bugfix","Bugfix"]]]
+                ,["2.1.5","09.12.2014",[["Bugfix","Bugfix"]]]
+                ,["2.1.6","18.12.2014",[["Neu: Bot f"+u_dots+"r Waltraud kann jetzt in den Optionen aktiviert werden","New: Bot for donkey can be activated in options"]]]
+                ,["2.2.0","01.02.2015",[["Neu: Ernte-Bot f"+u_dots+"r G"+u_dots+"terhof","New: Cropping bot for megafield"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Automaton-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -1401,13 +1401,13 @@ try {
                     drawFactoryChooseItemBox(zoneNrS, zoneNrL,$("divChooseBoxInner"));
                 }
                 break;
+            case 4: case 5:
             case "windmill":
             case "forest":case "sawmill":case "carpentry":
                 redrawQueueBox(zoneNrS, zoneNrL, $("divQueueBoxInner"));
                 break;
-            case 4:
-                redrawQueueBox(zoneNrS, zoneNrL, $("divQueueBoxInner"));
-                break;
+            default:
+                GM_logWarning("Click on $('"+this.id+"')\nBuilding type "+getBuildingTyp(zoneNrS)+" unknown.");
             }
             zoneNrF=null;zoneNrS=null;zoneNrL=null;
         },false);
@@ -1750,6 +1750,9 @@ try{
         break;
         case 4:
             drawFoodworldChooseItemBox(zoneNrS, zoneNrL, queueNum, $("divChooseBoxInner"));
+        break;
+        case 5:
+            drawChooseItemBoxMegafield(zoneNrS, zoneNrL, queueNum, $("divChooseBoxInner"));
         break;
         default:
             drawQueueChooseItemBox(zoneNrS, zoneNrL, queueNum, $("divChooseBoxInner"));
@@ -2290,7 +2293,6 @@ try{
     // GM_log("End drawStableChooseFeedBox :" + zoneNrF);
 }catch(err){GM_logError("drawStableChooseFeedBox \n"+err);}
 }
-
 function drawMillChooseItemBox(zoneNrF, zoneNrL, queueNum, appendTo){
 try {
     // GM_log("Begin drawMillChooseItemBox :" + queueNum);
@@ -2503,6 +2505,74 @@ try{
     // GM_log("End drawFoodworldChooseItemBox :" + zoneNrL);
 }catch(err){GM_logError("drawFoodworldChooseItemBox \n"+err);}
 }
+function drawChooseItemBoxMegafield(zoneNrS, zoneNrL, queueNum, appendTo){
+try{
+    // GM_log("Begin drawChooseItemBoxMegafield zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" queueNum="+queueNum+" appendTo.id="+appendTo.id);
+    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(queueNum==undefined){ queueNum=0; }
+    appendTo.innerHTML="";
+    appendTo.setAttribute("zoneNrS",zoneNrS);
+    appendTo.setAttribute("zoneNrL",zoneNrL);
+    appendTo.setAttribute("queueNum",queueNum);
+    var fzZoneType=getZoneType(zoneNrS);
+    createElement("div",{"id":"divChooseTitle"+zoneNrL,"class":"queueTitle"},appendTo, getZoneName(0,zoneNrS,zoneNrL, ($("divChooseBoxInner")==appendTo)?queueNum:null, true, true, true));
+    createElement("div",{"id":"divChooseEndTime"+zoneNrL,"class":"queueTime"},appendTo);
+    createElement("div",{"style":"clear:both;"},appendTo);
+
+    newdiv=createElement("div",{id:"divChooseItem"+zoneNrL+"Q"+queueNum + "I"+PRODSTOP,"class":"divChooseItem link v"+PRODSTOP,"product":PRODSTOP},appendTo);
+    newdiv.addEventListener("click",function(){
+            var zoneNrS=this.parentNode.getAttribute("zoneNrS");
+            var zoneNrL=this.parentNode.getAttribute("zoneNrL");
+            var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
+            zoneList[zoneNrL][queueNum]=DEFAULT_ZONELIST_ITEM.clone();
+            toolTip.hide(this);
+            if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
+            updateQueueBox(zoneNrS, zoneNrL);
+    },false);
+    newdiv.addEventListener("mouseover", function(evt){
+        var zoneNrS=this.parentNode.getAttribute("zoneNrS");
+        var zoneNrL=this.parentNode.getAttribute("zoneNrL");
+        var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
+        toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+    },false);
+    var iProd;
+    var products=unsafeWindow.megafield_data.job.products;
+    for(var i=0;i<products.length;i++){
+        if(products[i].harvest&&(products[i].have<products[i].need)){
+            iProd=products[i].pid;
+            newdiv=createElement("div",{"id":"divChooseItem"+zoneNrL+"Q"+queueNum+"I"+iProd,"class":"divChooseItem link v"+iProd,"product":iProd},appendTo);
+            newdiv.style.opacity=(unsafeData.prodStock[0][iProd]&&unsafeData.prodStock[0][iProd]>products[i].amount)?1:0.4;
+            newdiv.addEventListener("click",function(){
+                var zoneNrS=this.parentNode.getAttribute("zoneNrS");
+                var zoneNrL=this.parentNode.getAttribute("zoneNrL");
+                var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
+                var product=parseInt(this.getAttribute("product"),10);
+                if(zoneList[zoneNrL][queueNum][0]!=product){
+                    zoneList[zoneNrL][queueNum][0]=product;
+                    zoneList[zoneNrL][queueNum][1]=(zoneList[zoneNrL][queueNum][1]>=1?zoneList[zoneNrL][queueNum][1]:1);
+                    zoneList[zoneNrL][queueNum][2]=0;
+                }
+                toolTip.hide(this);
+                if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
+                updateQueueBox(zoneNrS, zoneNrL);
+            },false);
+            newdiv.addEventListener("mouseover", function(evt){
+                var zoneNrS=this.parentNode.getAttribute("zoneNrS");
+                var zoneNrL=this.parentNode.getAttribute("zoneNrL");
+                var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
+                toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+            },false);
+        }
+    }
+    if(appendTo==$("divChooseBoxInner")){
+        $("divChooseBox").style.display="block";
+        $("divChooseBox").style.top=Math.round(255 - $("divChooseBox").offsetHeight/2)+"px";
+    }
+    newdiv=null;appendTo=null;
+    updateQueueBox(zoneNrS, zoneNrL);
+    // GM_log("End drawChooseItemBoxMegafield :" + zoneNrL);
+}catch(err){GM_logError("drawChooseItemBoxMegafield \n"+err);}
+}
 
 function updateQueueBox(zoneNrS,zoneNrL){
 try{
@@ -2512,8 +2582,9 @@ try{
     if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
     var fzZoneType=getZoneType(zoneNrS);
-    var fzWindmill=(fzType=="windmill");
     var fzForestry=(fzType=="forest"||fzType=="sawmill"||fzType=="carpentry");
+    var fzMegafield=(fzType==5);
+    var fzWindmill=(fzType=="windmill");
     var iType=(fzWindmill?3:(fzForestry?1:0));
     var noTime=false;
     var level=parseInt($("levelnum").innerHTML,10);
@@ -2553,6 +2624,7 @@ try{
             case 1: // Field
             case 3: // Factory
             case 4: // Foodworld
+            case 5: // Megafield
                 farmIcon.setAttribute("class","link divZoneIcon v"+zoneList[zoneNrL][0][0]);
             break;
             case 2: // Stable
@@ -2588,10 +2660,10 @@ try{
 
         for(queueNum=0;queueNum<zoneList[zoneNrL].length;queueNum++){
             // GM_log("updateQueueBox Box :" + zoneNrS + ":"+queueNum + " | " + zoneList[zoneNrL].length);
-            var iRepeat=(!OPTION_ITEM_REPEAT||fzWindmill)?false:zoneList[zoneNrL][queueNum][4];
+            var iRepeat=(OPTION_ITEM_REPEAT && !fzWindmill && !fzMegafield)?zoneList[zoneNrL][queueNum][4]:false;
             fRepeat=fRepeat||(OPTION_ITEM_REPEAT?iRepeat:false);
-            var iLastInf=fzWindmill?false:(((zoneList[zoneNrL].length-1)==queueNum) && !fRepeat && !lShuffle);
-            var iRackMode=!iLastInf && !fzWindmill && zoneList[zoneNrL][queueNum][3];
+            var iLastInf=(!fzWindmill && !fzMegafield)?(((zoneList[zoneNrL].length-1)==queueNum) && !fRepeat && !lShuffle):false;
+            var iRackMode=!iLastInf && zoneList[zoneNrL][queueNum][3];
             var iProd=parseInt(zoneList[zoneNrL][queueNum][0],10);
             var iStop=(iProd==PRODSTOP);
             var iDone=iRackMode?0:parseInt(zoneList[zoneNrL][queueNum][2],10);
@@ -2612,7 +2684,7 @@ try{
                         }
                     }
                 }           
-                if(!newRackAmount[iProd] && !fzWindmill){ newRackAmount[iProd]=calcInGameProductAmount(iProd, zoneNrS, null, true); }
+                if(!newRackAmount[iProd] && !fzWindmill && !fzMegafield){ newRackAmount[iProd]=calcInGameProductAmount(iProd, zoneNrS, null, true); }
                 $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).style.backgroundColor=(foundStop?"red":(iRequireMissing?"yellow":"transparent"));
             }
 
@@ -2624,7 +2696,7 @@ try{
                 var endTime=zoneTimes[getLowestTimeFarmZone(zoneTimes)];
                 var currFeldPositions=0;
 
-                if(fzWindmill){
+                if(fzWindmill||fzMegafield){
                     beginTime[zoneNrS]=zoneTimes[zoneNrS];
                     timeArray[zoneNrS]=calcProductionTime(iProd, zoneNrS);
                     if(!timesArray[zoneNrS]) timesArray[zoneNrS]=new Array();
@@ -2696,11 +2768,11 @@ try{
                 iTogoAmount=iTogo*calcProductAmount(iProd, zoneNrS);
                 iTogoScore=iTogo*calcProductScore(iProd, zoneNrS);
             }
-            if(!fzWindmill && !iStop){
+            if(!fzWindmill && !fzMegafield && !iStop){
                 newRackAmount[iProd] +=iTogoAmount;
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogo",iTogo);//Not in Mill needed
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoAmount",iTogoAmount);//Not in Mill needed
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoScore",iTogoScore);//Not in Mill needed
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogo",iTogo);
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoAmount",iTogoAmount);
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoScore",iTogoScore);
             }
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("totalInQue",totalInQue);
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("foundStop",foundStop);
@@ -2738,7 +2810,7 @@ try{
             }
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"M").style.opacity=iTogo<=0? 0.4:1;
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"M").style.display=(iLastInf || iStop || iTot<=1) ?"none":"block";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display=(iLastInf || iStop || (fzWindmill && autoMillStorage[iProd][0]<=autoMillStorage[iProd][1])) ?"none":"block";
+            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display=(!iLastInf && !iStop && (!fzWindmill||(autoMillStorage[iProd][1]<autoMillStorage[iProd][0])) && (!fzMegafield||(true)))?"block":"none"; // TODO 2.4
 
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"ET").innerHTML=(settings.get("account","showQueueTime") && lShowTime)?iLastInf?sign_inf:(getDateText(endTime,0) + "<br/>" + getDaytimeStr(endTime,true)):null;
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"ET").style.color=noTime? "#DD0000":"black";
@@ -2754,7 +2826,7 @@ try{
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"A").style.top=((iRackMode))?row4+"px":"";
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"D").style.left=(iRackMode)?col3+"px":"";
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"D").style.display=(zoneList[zoneNrL].length > 1) ?"block":"none";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"B").style.display=(fzWindmill || iLastInf || iStop)?"none":"block";
+            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"B").style.display=(!fzWindmill && !fzMegafield && !iLastInf && !iStop)?"block":"none";
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"B").style.backgroundImage="url("+(iRackMode?IMAGES["functionR"]:IMAGES["functionF"])+")";
             // GM_log("updateQueueBox Box :" + zoneNrL + ":"+queueNum + " END");
         }
@@ -2762,7 +2834,7 @@ try{
 
         $("divAutoMatEndTime"+zoneNrL).style.display=(settings.get("account","showQueueTime"))?"block":"none";
         if(settings.get("account","showQueueTime")){
-            $("divAutoMatEndTime"+zoneNrL).innerHTML=(!fRepeat && !lShuffle && !foundStop && !fzWindmill)? getText("automat_inftext"):(getText("automat_QueTimeReady") + (lShowTime?(((!foundStop && (lRepeat || iRepeat || noTime))?" ~ ":" ") + getDateText(endTime,0) + "&nbsp;"+ getDaytimeStr(endTime,true)):" ~ ")); // why +- (\u00B1)?
+            $("divAutoMatEndTime"+zoneNrL).innerHTML=(!fzWindmill && !fzMegafield && !fRepeat && !lShuffle && !foundStop)? getText("automat_inftext"):(getText("automat_QueTimeReady") + (lShowTime?(((!foundStop && (lRepeat || iRepeat || noTime))?" ~ ":" ") + getDateText(endTime,0) + "&nbsp;"+ getDaytimeStr(endTime,true)):" ~ ")); // why +- (\u00B1)?
             $("divAutoMatEndTime"+zoneNrL).style.color=(noTime?"#DD0000":((foundStop || fRepeat)?"#0000DD":"#000000"));
         }
     }
@@ -4225,7 +4297,7 @@ function autoFarm(runId){
                                     }(runId),false);
                                     click($("farm"+handled.farmNr+"_pos"+handled.zoneNr+"_click"));
                                 break;
-                                case 3:
+                                case 3:{
                                     switch(getZoneType(handled.zoneNrF)){
                                     case 13: case 14:{
                                         document.addEventListener("gameOpenFactoryOil",function(runId){
@@ -4243,14 +4315,6 @@ function autoFarm(runId){
                                         }
                                         }(runId),false);
                                     break;}
-                                    case 19:{
-                                        document.addEventListener("gameOpenMegafield",function(runId){
-                                        return function(){
-                                            document.removeEventListener("gameOpenMegafield",arguments.callee,false);
-                                            window.setTimeout(autoFarmMegafield,settings.getPause(),runId,1);
-                                        }
-                                        }(runId),false);
-                                    break;}
                                     default:{
                                         document.addEventListener("gameOpenFactory",function(runId){
                                         return function(){
@@ -4261,7 +4325,16 @@ function autoFarm(runId){
                                     }
                                     }
                                     click($("farm"+handled.farmNr+"_pos"+handled.zoneNr+"_click"));
-                                break;
+                                break;}
+                                case 5:{
+                                    document.addEventListener("gameOpenMegafield",function(runId){
+                                    return function(){
+                                        document.removeEventListener("gameOpenMegafield",arguments.callee,false);
+                                        window.setTimeout(autoFarmMegafield,settings.getPause(),runId,1);
+                                    }
+                                    }(runId),false);
+                                    click($("speedlink_megafield"));
+                                break;}
                             }
                         }
                     }else{
@@ -5079,7 +5152,6 @@ function autoFarmMegafield(runId,step){
     if(!step){ step=1; }
     if(bot.checkRun("autoFarmMegafield",runId)){
         bot.setAction("autoFarmMegafield ("+step+")",true);
-GM_log("autoFarmMegafield ("+step+")");
         var action=null,listeningEvent=null;
         switch(step){
         case 1:{ // init
@@ -5108,7 +5180,7 @@ GM_log("autoFarmMegafield ("+step+")");
         case 3:{ // crop vehicle
             if(unsafeWindow.megafield_plant_pid>0){
                 click($("megafield_vehicle_select_slot"));
-                autoFarmMegafield(runId,step+1);
+                window.setTimeout(autoFarmMegafield,settings.getPause(),runId,step+1);
             }else{
                 autoFarmMegafield(runId,step+1);
             }
@@ -5130,14 +5202,42 @@ GM_log("autoFarmMegafield ("+step+")");
             if($("megafield_vehicle_go"+unsafeWindow.megafield_vehicle_id).style.display=="block"){
                 listeningEvent="gameMegafieldTourStarted";
                 action=function(){ click($("megafield_vehicle_go"+unsafeWindow.megafield_vehicle_id)); };
+            }else{
+                autoFarmMegafield(runId,step+1);
             }
         break;}
         case 5:{ // Plant
-            autoFarmMegafield(runId,step+1);
+            if(zoneList[handled.zoneNrL][0][0]==PRODSTOP){ // !unsafeData.readyZone[handled.zoneNrS])
+                autoFarmMegafield(runId,7); // exit
+            }else if(!unsafeData.readyZone[handled.zoneNrS][2]){
+                // wait for response
+                window.setTimeout(autoFarmMegafield,settings.getPause(),runId,step);
+            }else if(unsafeWindow.megafield_plant_pid){
+                var area=unsafeWindow.megafield_data.area;
+                var areaFree=unsafeWindow.megafield_data.area_free;
+                var areaSize=unsafeData.BUILDING_SIZE["19"][0]*unsafeData.BUILDING_SIZE["19"][1];
+                for(i=1;i<=areaSize;i++){
+                    if(areaFree[i]&&(!area[i])){
+                        break;
+                    }
+                }
+                if(i<=areaSize){
+                    listeningEvent="gameMegafieldPlanted";
+                    action=function(){ click($("megafield_tile"+i)); };
+                }else{
+                    // TODO no free field to plant
+                    autoFarmMegafield(runId,7);
+                }
+            }else{
+                click($("megafield_products").querySelector(".tt"+zoneList[handled.zoneNrL][0][0]));
+                window.setTimeout(autoFarmMegafield,settings.getPause(),runId,step);
+            }
         break;}
-        case 6:{ // Exit
-        
-        
+        case 6:{ // Plant
+            setNextQueueItem(handled.zoneNrS);
+            autoFarmMegafield(runId,step-1);
+        break;}
+        case 7:{ // Exit
             if(unsafeWindow.megafield_data.tour){
                 zoneWaiting[handled.zoneNrF]=now+unsafeWindow.megafield_data.tour.remain;
                 window.setTimeout(function(){
@@ -8167,6 +8267,24 @@ try{
 
             showCropWeed();
         }catch(err){GM_logError("eventListener:gameFieldOpened \n"+err);}
+        },false);
+
+        err_trace="listener gameOpenMegafield";
+        document.addEventListener("gameOpenMegafield",function(){
+        try{
+            var zoneNrF=null;
+            for(var i=0;i<unsafeData.ALL_ZONES["farm"].length;i++){
+                if(unsafeData.zones.getBuilding(unsafeData.ALL_ZONES["farm"][i])==19){
+                    zoneNrF=unsafeData.ALL_ZONES["farm"][i];
+                    break;
+                }
+            }
+            if(zoneNrF==null){
+                throw("Location of Megafield not found.");
+            }            
+            // Automat icon
+            drawAutomatIcon("megafield",zoneNrF,$("megafield_back"),"position:absolute;top:330px;left:600px;");
+        }catch(err){GM_logError("eventListener:gameOpenMegafield \n"+err);}
         },false);
 
         err_trace="listener gameCity2";
