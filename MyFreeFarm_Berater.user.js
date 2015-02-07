@@ -12430,6 +12430,7 @@ return false;
                 case "flowerarea_water_all": raiseEvent("gameFarmersmarketWatered"); break;
                 case "megafield_plant": raiseEvent("gameMegafieldPlanted"); break;
                 case "megafield_tour": raiseEvent("gameMegafieldTourStarted"); break;
+                case "megafield_vehicle_buy": raiseEvent("gameMegafieldVehicleBought"); break;
                 case "nursery_harvest": raiseEvent("gameFarmersmarketCropped"); break;
                 case "nursery_startproduction": raiseEvent("gameFarmersmarketStarted"); break;
                 case "sellfarmi":{
@@ -13004,7 +13005,6 @@ return false;
 }*/        
         try{
             if(unsafeWindow.megafield_data&&unsafeWindow.megafield_data.area_free){
-                GM_log("unsafeWindow.megafield_data\n"+JSON.stringify(unsafeWindow.megafield_data));
 /*                 var str="";
                 for(var i in unsafeWindow.megafield_data.vehicles){
                     str+=i+":"+getDateStr(unsafeWindow.megafield_data.vehicles[i].time)+" "+getDaytimeStr(unsafeWindow.megafield_data.vehicles[i].time)+"\n";
@@ -13074,6 +13074,14 @@ return false;
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_megafieldVehicle",implode(megafieldVehicle,"setTourVehicleMegafield\megafieldVehicle"));
             }
         }catch(err){GM_logError("setTourVehicleMegafield\n"+err);}
+    });
+    unsafeOverwriteFunction("dialogMegafield",function(mode, K, slot, B, pid){
+        try{
+            unsafeWindow._dialogMegafield(mode, K, slot, B, pid);
+        }catch(err){GM_logError("_dialogMegafield\n"+err);}
+        try{
+            raiseEvent("gameMegafieldDialogStarted");
+        }catch(err){GM_logError("dialogMegafield\n"+err);}
     });
     
     // Club
@@ -18929,8 +18937,10 @@ if(location.href==GM_Home){
         allEvents.push("gameFarmersmarketDialogCommit");    // the farmersmarket building has requested for commit of a dialog
         allEvents.push("gameFarmiNew");                     // a new farmi is appeared
         allEvents.push("gameFarmiResponse");                // a farmi is been rejected or accepted.
+        allEvents.push("gameMegafieldDialogStarted");       // a megafield dialog has been started
         allEvents.push("gameMegafieldTourStarted");         // a megafield tour has been started
         allEvents.push("gameMegafieldPlanted");             // a field has been planted on the megafield
+        allEvents.push("gameMegafieldVehicleBought");       // a megafield vehicle has been bought
         allEvents.push("gameOpenCampaign");                 // Forestry Quest is opened
         allEvents.push("gameOpenStable");                   // a stable is opened
         allEvents.push("gameOpenFactory");                  // a factory is opened
