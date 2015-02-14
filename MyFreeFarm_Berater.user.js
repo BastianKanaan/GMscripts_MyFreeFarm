@@ -71,6 +71,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.3.7","16.12.2014",[["Aktualisierung der Daten","Update of data"]]],
                 ,["2.4.0","01.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"],["Neu: G"+u_dots+"terhof","New: Megafield"]]]
                 ,["2.4.1","12.02.2015",[["Bugfix: Logging Waltraud","Bugfix: Logging Waltraud"]]]
+                ,["2.4.2","12.02.2015",[["Neu: G"+u_dots+"terhof","New: Megafield"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -173,7 +174,12 @@ const ANIMAL_MOVE=[,,[false,0,0,255,10,10,505],[false,0,0,280,1,0,525],[false,0,
 // BUILDING_UPGRADES[zoneType][levelNr-1][needed level,buildcost,bonus,animalamount]
 const BUILDING_UPGRADES={"1":[[1,2000,0.95,0],[15,21500,0.9,0],[21,76000,0.85,0],[27,192300,0.8,0],[33,"c20",0.8,0]],"2":[[2,2500,1,5],[7,15200,1,10],[12,32500,1,15],[23,134500,0.9,20],[29,350800,0.8,20]],"3":[[11,3400,1,2],[13,16300,1,3],[17,50200,1,4],[25,159600,0.9,5],[32,441000,0.8,6]],"4":[[14,6200,1,2],[18,33500,1,3],[20,76000,1,4],[28,210500,0.9,5],[34,482000,0.8,6]],"5":[[19,6800,1,1],[22,44800,1,2],[26,128200,1,3],[31,230600,0.9,4],[35,482000,0.8,4]],"7":[[16,5200,1,1],[19,33500,0.95,1],[25,106400,0.9,1],[30,230600,0.85,1],[33,441000,0.8,1]],"8":[[18,6800,1,1],[21,38000,0.95,1],[27,128200,0.9,1],[31,230600,0.85,1],[35,482000,0.8,1]],"9":[[27,8100,1,1],[30,53200,0.95,1],[33,140300,0.9,1],[36,264600,0.85,1],[38,597200,0.8,1]],"10":[[30,9700,1,1],[33,70200,0.95,1],[34,153700,0.9,1],[37,289200,0.85,1],[39,626300,0.8,1]],"11":[[16,10000,1,1],[20,85000,1,3],[24,200000,1,5],[28,"c22",0.9,6],[32,"c38",0.8,6]],"12":[[15,38000,1,2],[17,17200,1,3],[23,54600,1,4],[29,168800,0.9,5],[38,472400,0.8,6]],"13":[[31,16800,1,1],[32,86400,0.95,1],[34,174200,0.9,1],[36,362800,0.85,1],[38,796300,0.8,1]],"14":[[35,19400,1,1],[37,97100,0.95,1],[39,218400,0.9,1],[40,509800,0.85,1],[41,1388600,0.8,1]],"15":[[37,23000,1,1],[37,95300,1,2],[38,198500,1,3],[38,391700,0.9,4],[39,842200,0.8,5]],"16":[[38,97100,1,1],[39,209736,0.95,1],[40,467711,0.9,1],[41,1080413,0.85,1],[42,2538970,0.8,1]],"17":[[10,1000,1,1]],"18":[[10,5000,1,1]],"19":[[28,250000,1,1]],"fw1":[[11,7000,1,1],[11,24600,0.95,1],[11,64200,0.9,1],[11,114400,0.85,1],[11,186300,0.8,1]],"fw2":[[12,8400,1,1],[12,32500,0.95,1],[12,68900,0.9,1],[12,122400,0.85,1],[12,178600,0.8,1]],"fw3":[[12,11200,1,1],[12,43300,0.95,1],[12,91900,0.9,1],[12,163200,0.85,1],[12,238100,0.8,1]],"fl1":[[23,85000,0.95,36]],"fl2":[[23,75000,1,1]],"fl3":[[31,900000,1,1]],"fl6":[[31,900000,1,1]]};  // task_new_building
 // produced thing -> production area
-const PRODUCT2BUILDING=[[,1,1,1,1,1,1,1,1,2,3,4,5,,,,,1,1,1,1,1,1,1,1,7,1,8,9,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,1,,,,,,,1,,,1,1,1,12,8,1,1,1,1,13,13,13,13,13,13,14,14,14,14,1,1,1,1,"fw1","fw1","fw1","fw1","fw1","fw1","fw2","fw2","fw2","fw2","fw2","fw2","fw2","fw2",7,"fw1","fw1","fw1","fw2","fw2","fw2",15,9,1,1,16,16,16,1,,,"fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1",,,,,,,,,,,"fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2",,],{"1":"forest","2":"forest","3":"forest","4":"forest","5":"forest","7":"forest","8":"forest","21":"forest","22":"forest","23":"forest","24":"forest","25":"forest","26":"forest","27":"forest","41":"sawmill","42":"sawmill","43":"sawmill","44":"sawmill","45":"sawmill","46":"sawmill","47":"sawmill","48":"sawmill","49":"sawmill","50":"sawmill","51":"sawmill","52":"sawmill","53":"sawmill","54":"sawmill","55":"sawmill","56":"sawmill","57":"sawmill","58":"sawmill","59":"sawmill","60":"sawmill","61":"sawmill","101":"carpentry","102":"carpentry","103":"carpentry","104":"carpentry","105":"carpentry","106":"carpentry","107":"carpentry","108":"carpentry","109":"carpentry","110":"carpentry","111":"carpentry","112":"carpentry","113":"carpentry","114":"carpentry","115":"carpentry","116":"carpentry","117":"carpentry","118":"carpentry","119":"carpentry","120":"carpentry","121":"carpentry","122":"carpentry","123":"carpentry","124":"carpentry","125":"carpentry","126":"carpentry","127":"carpentry","128":"carpentry","129":"carpentry","130":"carpentry","131":"carpentry","132":"carpentry","133":"carpentry","300":"forest"},[],[,"windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill"]];// task_new_plant task_new_product
+const PRODUCT2BUILDING=[[,1,1,1,1,1,1,1,1,2,3,4,5,,,,,1,1,1,1,1,1,1,1,7,1,8,9,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,1,,,,,,,1,,,1,1,1,12,8,1,1,1,1,13,13,13,13,13,13,14,14,14,14,1,1,1,1,"fw1","fw1","fw1","fw1","fw1","fw1","fw2","fw2","fw2","fw2","fw2","fw2","fw2","fw2",7,"fw1","fw1","fw1","fw2","fw2","fw2",15,9,1,1,16,16,16,1,,,"fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1",,,,,,,,,,,"fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2",,]
+                       ,{"1":"forest","2":"forest","3":"forest","4":"forest","5":"forest","7":"forest","8":"forest","21":"forest","22":"forest","23":"forest","24":"forest","25":"forest","26":"forest","27":"forest","41":"sawmill","42":"sawmill","43":"sawmill","44":"sawmill","45":"sawmill","46":"sawmill","47":"sawmill","48":"sawmill","49":"sawmill","50":"sawmill","51":"sawmill","52":"sawmill","53":"sawmill","54":"sawmill","55":"sawmill","56":"sawmill","57":"sawmill","58":"sawmill","59":"sawmill","60":"sawmill","61":"sawmill","101":"carpentry","102":"carpentry","103":"carpentry","104":"carpentry","105":"carpentry","106":"carpentry","107":"carpentry","108":"carpentry","109":"carpentry","110":"carpentry","111":"carpentry","112":"carpentry","113":"carpentry","114":"carpentry","115":"carpentry","116":"carpentry","117":"carpentry","118":"carpentry","119":"carpentry","120":"carpentry","121":"carpentry","122":"carpentry","123":"carpentry","124":"carpentry","125":"carpentry","126":"carpentry","127":"carpentry","128":"carpentry","129":"carpentry","130":"carpentry","131":"carpentry","132":"carpentry","133":"carpentry","300":"forest"}
+                       ,[]
+                       ,[,"windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill"]
+                       ,[,19,19,19,19,19,19,19,19,19,19,19,19,,,,,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,19,19,,,,19,,,,,,,19,,,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,,,,,,,,,,,,,,,19,,,,,,,19,19,19,19,19,19,19,19,19,19]
+                       ];// task_new_plant task_new_product
 unsafeData.PRODUCT2BUILDING=PRODUCT2BUILDING.clone();
 // produced thing <- production area
 const BUILDING2PRODUCT=[,,[9],[10],[11],[12],,[25,144],[27,111],[28,152],[30],[91],[110],[116,117,118,119,120,121],[122,123,124,125],[151],[155,156,157]]; // task_new_product
@@ -463,8 +469,6 @@ var valKauflimit, valKauflimitNPC, highlightProducts, highlightUser, valNimmBeob
 var valMessagesSystemMarkRead;
 var megafieldVehicle;
 top.unsafeData.autoAction=null;
-var gameLocation=[null,null];
-unsafeData.gameLocation=gameLocation.clone();
 
 //***********************************************************************************************************
 // developer functions
@@ -838,7 +842,7 @@ function updateProductDataWindmill(){
             pId=unsafeWindow.formulas[0][v][0];
             // GM_log("updateProductDataWindmill loop formulas v="+v+" pId="+pId);
             prodName[2][pId]="*"+unsafeWindow.formulas[0][v][2];
-            prodId[2]["*"+unsafeWindow.formulas[0][v][2]]=pId;
+            prodId[2][prodName[2][pId]]=pId;
             prodId[2][unsafeWindow.formulas[0][v][2]]=pId;
             prodPlantSize[2][pId]=1;
             if(!prodStock[2][pId]||(typeof prodStock[2][pId]!="number")){ prodStock[2][pId]=0; }
@@ -918,6 +922,68 @@ function updateProductDataPowerup(){
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
     }catch(err){ GM_logError("updateProductDataPowerup\n"+err); }
 }
+function updateProductDataMegafield(){
+    try{
+    if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","updateProductDataMegafield"); }
+        if(!(prodName instanceof Array)){ prodName=[]; }
+        if(!(prodId instanceof Array)){ prodId=[]; }
+        if(!(prodPlantSize instanceof Array)){ prodPlantSize=[]; }
+        if(!(prodStock instanceof Array)){ prodStock=[]; }
+        if(!(prodStockMax instanceof Array)){ prodStockMax=[]; }
+        if(!(prodYield instanceof Array)){ prodYield=[]; }
+        if(!(prodRequire instanceof Array)){ prodRequire=[]; }
+        if(!(prodTyp instanceof Array)){ prodTyp=[]; }
+        if(!(prodGrowTime instanceof Array)){ prodGrowTime=[]; }
+        if(!(prodPoints instanceof Array)){ prodPoints=[]; }
+        if(!(prodNameSort instanceof Array)){ prodNameSort=[]; }
+        if(!(prodBlock instanceof Array)){ prodBlock=[]; }
+ 
+        if(!prodName[4]||!(prodName[4] instanceof Array)){ prodName[4]=[]; } 
+        if(!prodId[4]||(typeof prodId[4]!="object")||(prodId[4] instanceof Array)){ prodId[4]={}; } 
+        if(!prodPlantSize[4]||!(prodPlantSize[4] instanceof Array)){ prodPlantSize[4]=[]; } 
+        if(!prodStock[4]||!(prodStock[4] instanceof Array)){ prodStock[4]=[]; } 
+        if(!prodStockMax[4]||!(prodStockMax[4] instanceof Array)){ prodStockMax[4]=[]; } 
+        if(!prodYield[4]||!(prodYield[4] instanceof Array)){ prodYield[4]=[]; } 
+        if(!prodRequire[4]||!(prodRequire[4] instanceof Array)){ prodRequire[4]=[]; } 
+        if(!prodTyp[4]||!(prodTyp[4] instanceof Array)){ prodTyp[4]=[]; } 
+        if(!prodGrowTime[4]||!(prodGrowTime[4] instanceof Array)){ prodGrowTime[4]=[]; } 
+        if(!prodPoints[4]||!(prodPoints[4] instanceof Array)){ prodPoints[4]=[]; } 
+        if(!prodBlock[4]||!(prodBlock[4] instanceof Array)){ prodBlock[4]=[]; } 
+
+        var products,pId;
+        // collect new data from current job
+        if(unsafeWindow.megafield_data&&unsafeWindow.megafield_data.job&&(products=unsafeWindow.megafield_data.job.products)){
+            for(var v in products){
+                if(!products.hasOwnProperty(v)){continue;}
+                pId=products[v].pid;
+                prodName[4][pId]="*"+unsafeWindow.produkt_name[pId];
+                prodId[4][prodName[4][pId]]=pId;
+                prodPlantSize[4][pId]=1;
+                prodStock[4][pId]=products[v].have;
+                prodStockMax[4][pId]=products[v].need;
+                prodYield[4][pId]=1;
+                prodTyp[4][pId]=(products[v].harvest?"m1":"m2");
+                prodRequire[4][pId]=[[0,pId,products[v].amount?products[v].amount:1]];
+                prodGrowTime[4][pId]=(products[v].duration?products[v].duration/60:0);
+                prodPoints[4][pId]=0;
+            }
+        }
+        // calculate prodNameSort
+        var help={"v":[],"e":[],"o":[]};
+        for(var v in prodName[4]){
+            if(!prodName[4].hasOwnProperty(v)){continue;}
+            if(help[prodTyp[4][v]]){
+                help[prodTyp[4][v]].push(v);
+            }
+        }
+        prodNameSort[4]=help["v"].concat(help["e"],help["o"]);        
+        publishProductData();
+    if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
+    }catch(err){
+        GM_logError("updateProductDataMegafield\n"+err);
+        loadProductData();
+    }
+}
 function publishProductData(){
     window.setTimeout(function(){
     try{
@@ -960,7 +1026,26 @@ function saveProductData(){
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
     }catch(err){ GM_logError("saveProductData\n"+err); }
 }
-
+var gameLocation=new function(){
+    var data=[null,null];
+    this.set=function(main,sub){
+        try{
+            if(!sub){ sub=null; }
+            data=[main,sub];
+        }catch(err){GM_logError("gameLocation.set\n main="+main+" sub="+sub+"\n"+err);}
+    }
+    this.get=function(){
+        try{
+            return data;
+        }catch(err){GM_logError("gameLocation.get\n"+err);}
+    }
+    this.check=function(main,sub){
+        try{
+            return ((!main)||(main==data[0]))&&((!sub)||(sub==data[1]));
+        }catch(err){GM_logError("gameLocation.check\n main="+main+" sub="+sub+"\n"+err);}
+    }
+}
+unsafeData.gameLocation=gameLocation;
 /* 
 function checkRequest(request){
     if((request.readyState==4)&&(request.status==200)){
@@ -1059,7 +1144,7 @@ function showLottery(){
 function goToDonkey(){
 try{
     var div;
-    if((gameLocation[0]=="farm")&&(gameLocation[1]==0)){
+    if(gameLocation.check("farm",0)){
         if(div=$("farm_inner_waltraud")){
             click(div);
         }
@@ -1500,7 +1585,7 @@ var zones=new function(){
             
                                     if (z < data[zoneNrS]["endtime"]){
                                         data[zoneNrS]["endtime"]=z;
-                                        data[zoneNrS]["endproduct"]=iProd;
+                                        data[zoneNrS]["endproduct"]=[iType,iProd];
                                     }
                                 }
                             }
@@ -1769,7 +1854,7 @@ try{
 function calcTotalErnte(){
     try{
         var help;
-        totalErnte=new Array(new Object(),new Object(),new Object(),new Object());
+        totalErnte=new Array();
         for(var i in ALL_ZONES){
             if(!ALL_ZONES.hasOwnProperty(i)){ continue; }
             for(var j=0;j<ALL_ZONES[i].length;j++){
@@ -1777,6 +1862,7 @@ function calcTotalErnte(){
                     var zoneNrF=ALL_ZONES[i][j];
                     if(help=zones.getCrop(zoneNrF)){
                         for(var k=0;k<help.length;k++){
+                            if(!totalErnte[help[k][0]]){ totalErnte[help[k][0]]={}; }
                             if(!totalErnte[help[k][0]][help[k][1]]){ totalErnte[help[k][0]][help[k][1]]=0; }
                             totalErnte[help[k][0]][help[k][1]] += help[k][2];
                         }
@@ -1784,7 +1870,7 @@ function calcTotalErnte(){
                 }catch(err){ GM_logError("calcTotalErnte loop\ni="+i+" j="+j+" zoneNrF="+zoneNrF+" help="+implode(help)+"\n"+err); }
             }
         }
-        //GM_log("calcTotalErnte totalErnte:"+implode(totalErnte));
+        // GM_log("calcTotalErnte totalErnte="+implode(totalErnte));
     }catch(err){ GM_logError("calcTotalErnte\nzoneNrF="+zoneNrF+"\n"+err); }
 }
 function calcTotalFarmis(){
@@ -1892,7 +1978,7 @@ try{
                     }
                     totalZones[currZoneTyp]++;
                 }
-            }catch(err){ GM_logError("calcTotalErnte loop\ni="+i+" j="+j+" zoneNrF="+zoneNrF+"\n"+err); }
+            }catch(err){ GM_logError("calcTotalZones loop\ni="+i+" j="+j+" zoneNrF="+zoneNrF+"\n"+err); }
         }
     }
 }catch(err){ GM_logError("calcTotalZones\n"+err); }
@@ -2213,7 +2299,7 @@ try{
                     switch(type){
                     case "forestry":{
                         div.addEventListener("click",function(){ 
-                            if((gameLocation[0]=="city")&&(gameLocation[1]==2)){
+                            if(gameLocation.check("city",2)){
                                 unsafeWindow.close_page();
                                 unsafeWindow.showDiv("transp3");
                                 unsafeWindow.initCampaigns();
@@ -2230,7 +2316,7 @@ try{
                     break;}
                     case "foodworld":{
                         div.addEventListener("click",function(){ 
-                            if(gameLocation[0]=="foodworld"){
+                            if(gameLocation.check("foodworld")){
                                 click($("foodworld_questblock"));
                             }else{
                                 document.addEventListener("gameFoodworldOpened",function(){
@@ -3767,11 +3853,14 @@ function buildInfoPanelZones(){
         newtd.addEventListener("click",showSGH,false);
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{},newtr);
-        for(var k in totalErnte[0]){
-            if(!totalErnte[0].hasOwnProperty(k)){ continue; }
-            newdiv=createElement("div",{"style":"height:16px"},newtd);
-            produktPic(0,k,newdiv);
-            createElement("div",{"style":"display:inline-block;"},newdiv,numberFormat(totalErnte[0][k])+" "+prodName[0][k]);
+        for(var i in totalErnte){
+            if(!totalErnte.hasOwnProperty(i)){ continue; }
+            for(var k in totalErnte[i]){
+                if(!totalErnte[i].hasOwnProperty(k)){ continue; }
+                newdiv=createElement("div",{},newtd);
+                produktPic(i,k,newdiv);
+                createElement("div",{"style":"display:inline-block;"},newdiv,numberFormat(totalErnte[i][k])+" "+prodName[i][k]);
+            }
         }
         pointsFormat(totalPunkte,"div",newtd);
         var newtdfehlt=createElement("td",{},newtr);
@@ -6727,7 +6816,7 @@ function goToZone(zoneNrF){
         var div;
         switch(currLocation.location){
         case "farm":{
-            if((gameLocation[0]==currLocation.location)&&(gameLocation[1]==currLocation.farmNr)){
+            if(gameLocation.check(currLocation.location,currLocation.farmNr)){
                 if(div=$("farm"+(1+currLocation.farmNr)+"_pos"+currLocation.zoneNr+"_click")){ 
                     click(div);
                 }
@@ -6742,7 +6831,7 @@ function goToZone(zoneNrF){
             }           
         break;}
         case "city":{
-            if((gameLocation[0]==currLocation.location)&&(gameLocation[1]==currLocation.cityNr)){
+            if(gameLocation.check(currLocation.location,currLocation.cityNr)){
                 if((currLocation.zoneNr!=undefined)&&(div=$("cityzone_"+currLocation.cityNr+"_"+currLocation.zoneNr))){ 
                     click(div);
                 }
@@ -6757,7 +6846,7 @@ function goToZone(zoneNrF){
             }
         break;}
         case "forestry":{
-            if(gameLocation[0]==currLocation.location){
+            if(gameLocation.check(currLocation.location)){
                 if((currLocation.zoneNr!=undefined)&&(div=$("forestry_building_click"+currLocation.zoneNr))){ 
                     click(div);
                 }
@@ -6772,7 +6861,7 @@ function goToZone(zoneNrF){
             }
         break;}
         case "foodworld":{
-            if(gameLocation[0]==currLocation.location){
+            if(gameLocation.check(currLocation.location)){
                 if((currLocation.zoneNr!=undefined)&&(div=$("food_pos"+currLocation.zoneNr))){ 
                     click(div);
                 }
@@ -6787,7 +6876,7 @@ function goToZone(zoneNrF){
             }
         break;}
         case "farmersmarket":{
-            if(gameLocation[0]==currLocation.location){
+            if(gameLocation.check(currLocation.location)){
                 if((currLocation.zoneNr!=undefined)&&(div=$("farmersmarket_pos"+currLocation.zoneNr+"_click"))){ 
                     click(div);
                 }
@@ -6935,7 +7024,7 @@ function toolTipSales(nr){
 
 function showMarket(pid){
     try{
-        if((gameLocation[0]!="city")||(gameLocation[1]!=1)){
+        if(!gameLocation.check("city",1)){
             document.addEventListener("gameCity1",function(pid){ return function(){
                 document.removeEventListener("gameCity1",arguments.callee,false);
                 showMarket(pid);
@@ -6965,7 +7054,7 @@ function showMarket(pid){
 }
 function showMarketStall(){
     try{
-        if((gameLocation[0]!="city")||(gameLocation[1]!=1)){
+        if(!gameLocation.check("city",1)){
             document.addEventListener("gameCity1",function(){
                 document.removeEventListener("gameCity1",arguments.callee,false);
                 showMarketStall();
@@ -7217,23 +7306,10 @@ function showBlase(zoneNrF){
             }else{
                 time+=unsafeWindow.Zeit.Verschiebung;
                 var prod = zones.getEndproduct(zoneNrF);
-                if(prod!=null){
-                    switch(zones.getLocation(zoneNrF).location){
-                    case "windmill":
-                        createElement("div",{"class":"fm"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
-                        newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
-                        createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[3][prod]); // unsafeWindow.formulas[0][prod][2]
-                    break;
-                    case "forestry":
-                        createElement("div",{"class":"f_symbol"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
-                        newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
-                        createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[1][prod]);
-                    break;
-                    default:
-                        createElement("div",{"class":"tt"+prod,"style":"position:absolute;top:5px;left:0;"},bubble);
-                        newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
-                        createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[0][prod]);
-                    }
+                if(prod){
+                    createElement("div",{"class":["tt","f_symbol","fm","fm","tt"][prod[0]]+prod[1],"style":"position:absolute;top:5px;left:0;"},bubble);
+                    newdiv=createElement("div",{"style":"position:absolute;top:5px;left:55px;"},bubble);
+                    createElement("font",{"class":"tmenu","style":"font-weight:bold;"},createElement("div",{},newdiv),prodName[prod[0]][prod[1]]);
                 }
 
                 var newfont=createElement("font",{"class":"tmenu"},createElement("div",{},newdiv));
@@ -8013,120 +8089,6 @@ try{
     updateProductDataWindmill();
     updateProductDataPowerup();
 
-    err_trace="Show Data";
-    // SHOW DATA: BUILDING_INPUT
-    /*
-    for(var zone=0;zone<BUILDING_INPUT.length;zone++){
-        if(!BUILDING_INPUT[zone]){continue;}
-        for(var output in BUILDING_INPUT[zone]){
-        if(!BUILDING_INPUT[zone].hasOwnProperty(output)){continue;}
-            for(var alt=0;alt<BUILDING_INPUT[zone][output].length;alt++){
-                var str="Zone "+zone+": ";
-                for(var input=0;input<BUILDING_INPUT[zone][output][alt].length;input++){
-                    if(input>0){ str+=", "; }
-                    str+=numberFormat(BUILDING_INPUT[zone][output][alt][input][1])+" "+prodName[0][BUILDING_INPUT[zone][output][alt][input][0]]
-                }
-                str+=" -> "+prodName[0][output];
-                GM_log(str);
-            }
-        }
-    }   
-    */
-
-/*  
-        var div=createElement("div",{"style":"z-index:950;position:fixed;top:0;background-color:white;height:800px;overflow:auto;padding-right:40px;"},ALL);
-        var newimg=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:8px;right:0px;width:20px;height:20px;"},div);
-        newimg.addEventListener("click",function(){ removeElement(this.parentNode); },false);
-
-        var tr,td,table=createElement("table",{"border":"1"},div);
-        for(var campaign in QUESTS["forestry"]){
-        if(!QUESTS["forestry"].hasOwnProperty(campaign)){continue;} 
-            for(var v=1;v<QUESTS["forestry"][campaign].length;v++){
-                tr = createElement("tr",{},table);
-                if(questData["forestry"][campaign]["nr"]==v){ tr.style.backgroundColor="#FBB"; }
-                createElement("td",{},tr,campaign);
-                createElement("td",{},tr,v);
-                for(var w=0;w<6;w++){
-                    td = createElement("td",{"style":"white-space:nowrap;"},tr);
-                    if(QUESTS["forestry"][campaign][v][0][w]){
-                        produktPic(QUESTS["forestry"][campaign][v][0][w][0],QUESTS["forestry"][campaign][v][0][w][1],td);
-                        createElement("span",{},td,numberFormat(QUESTS["forestry"][campaign][v][0][w][2]));
-                        td.setAttribute("mouseovertext",numberFormat(QUESTS["forestry"][campaign][v][0][w][2])+" "+prodName[QUESTS["forestry"][campaign][v][0][w][0]][QUESTS["forestry"][campaign][v][0][w][1]]);
-                        td.addEventListener("mouseover",function(event){ toolTip.show(event,this.getAttribute("mouseovertext")); },false);
-                    }
-                }
-                createElement("td",{},tr,QUESTS["forestry"][campaign][v][1]);
-                td=createElement("td",{},tr);
-                    if(QUESTS["forestry"][campaign][v][2]){ pointsFormat(QUESTS["forestry"][campaign][v][2],"div",td); }
-                td=createElement("td",{},tr);
-                    if(QUESTS["forestry"][campaign][v][3]){ createElement("div",{},td,implode(QUESTS["forestry"][campaign][v][3])); }
-            }
-        }
-        div=null;newimg=null;
-        table=null;tr=null;td=null;
-    });
-*/
-    // SHOW BUILDING DATA
-    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Buildings", function(){
-    try{
-        var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
-        var div=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:0;right:0;width:20px;height:20px;margin:5px;"},container);
-        div.addEventListener("click",function(){ removeElement(this.parentNode); },false);
-        div=createElement("div",{"style":"height:100%;padding-right:20px;margin-right:30px;overflow:auto;"},container);
-        var table=createElement("table",{"border":"1"},div);
-        var tr=createElement("tr",{},table);
-        var td;
-        createElement("th",{},tr);
-        for(var w=1;w<unsafeWindow.buildinginfos[0][1].length;w++){
-            createElement("th",{},tr,w);
-        }
-        createElement("th",{},tr,"BUILDING_UPGRADES");
-        createElement("th",{},tr,"BUILDINGTYPE");
-        createElement("th",{},tr,"COUNT");
-        for(var v in unsafeWindow.buildinginfos[0]){
-            if(!unsafeWindow.buildinginfos[0].hasOwnProperty(v)){continue;}     
-            tr=createElement("tr",{},table);
-            createElement("td",{},tr,v);
-            for(var w=1;w<unsafeWindow.buildinginfos[0][v].length;w++){
-                createElement("td",{},tr,implode(unsafeWindow.buildinginfos[0][v][w]));
-            }
-            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
-            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
-            createElement("td",{},tr,implode(totalZones[v]));
-        }
-        for(var i=1;i<=4;i++){
-            v="fw"+i;
-            tr=createElement("tr",{},table);
-            createElement("td",{},tr,v);
-            for(var w=1;w<=12;w++){
-                td=createElement("td",{},tr);
-                switch(w){
-                case 10: td.innerHTML=getBuildingName(v); break;
-                }
-            }
-            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
-            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
-            createElement("td",{},tr,implode(totalZones[v]));
-        }
-        for(var i=1;i<=6;i++){
-            v="fl"+i;
-            tr=createElement("tr",{},table);
-            createElement("td",{},tr,v);
-            for(var w=1;w<=12;w++){
-                td=createElement("td",{},tr);
-                switch(w){
-                case 10: td.innerHTML=getBuildingName(v); break;
-                }
-            }
-            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
-            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
-            createElement("td",{},tr,implode(totalZones[v]));
-        }
-        container=null;div=null;
-        table=null;tr=null;td=null;
-    }catch(err){ GM_logError("show building data\n"+err); }
-    });
-    
     valMinRackMan=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRackMan",false);
     valMinRack=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRack"),"do_main/valMinRack");
     bChanged=false;
@@ -8434,8 +8396,7 @@ try{
     // Foodworld-Zones
     function doFoodworld(){
     try{
-        gameLocation=["foodworld",null];
-        unsafeData.gameLocation=gameLocation.clone();
+        gameLocation.set("foodworld");
         var nowServer=unsafeWindow.Zeit.Server;
         var zoneNrF,zoneNrS,tempZoneProductionData,tempZoneProductionDataSlot,currBlock;
         // Buildings
@@ -8555,7 +8516,6 @@ try{
                 case "init": raiseEvent("gameFoodworldOpened"); break;
                 case "open": raiseEvent("gameFoodworldOpened" + id); break
                 case "production": raiseEvent("gameFoodworldStarted"); break
-                // logBubble.add("gameLocation = " + gameLocation + "id = " + id);
                 }           
             }
             result=null;
@@ -8964,7 +8924,7 @@ try{
         unsafeWindow.speedLinks();
         unsafeWindow.travel2City2 = function(){
         try{
-            switch(gameLocation[0]){
+            switch(gameLocation.get()[0]){
             case "city": unsafeWindow.initCity(2); break;
             case "forestry": 
             case "foodworld": unsafeWindow.initCity(2,0,1); break;
@@ -8980,7 +8940,7 @@ try{
         };
         unsafeWindow.travel2forestry = function(){
         try{
-            if((gameLocation[0]=="forestry")||((gameLocation[0]=="city")&&(gameLocation[1]==2))){
+            if((gameLocation.check("forestry"))||(gameLocation.check("city",2))){
                 unsafeWindow.farm=0; 
                 unsafeWindow.city=0; 
                 unsafeWindow.forestry_quicknavi=1;
@@ -8996,7 +8956,7 @@ try{
         };
         unsafeWindow.travel2foodworld = function(){
         try{
-            if((gameLocation[0]=="foodworld")||((gameLocation[0]=="city")&&(gameLocation[1]==2))){
+            if((gameLocation.check("foodworld"))||(gameLocation.check("city",2))){
                 unsafeWindow.farm=0; 
                 unsafeWindow.city=0; 
                 unsafeWindow.foodworld_quicknavi=1;
@@ -9012,7 +8972,7 @@ try{
         };
         unsafeWindow.travel2farmersmarket = function(){
         try{
-            switch(gameLocation[0]){
+            switch(gameLocation.get()[0]){
             case "farm": case "farmersmarket":{
                 unsafeWindow.farmMove(99);
             break;}
@@ -9887,8 +9847,123 @@ return false;
     }
     handleQuestData(); // --> handleQuestLine
     
-    // SHOW RACK DATA
-    err_trace="Show rack data";
+    err_trace="Show Data";
+    // SHOW DATA: BUILDING_INPUT
+    /*
+    for(var zone=0;zone<BUILDING_INPUT.length;zone++){
+        if(!BUILDING_INPUT[zone]){continue;}
+        for(var output in BUILDING_INPUT[zone]){
+        if(!BUILDING_INPUT[zone].hasOwnProperty(output)){continue;}
+            for(var alt=0;alt<BUILDING_INPUT[zone][output].length;alt++){
+                var str="Zone "+zone+": ";
+                for(var input=0;input<BUILDING_INPUT[zone][output][alt].length;input++){
+                    if(input>0){ str+=", "; }
+                    str+=numberFormat(BUILDING_INPUT[zone][output][alt][input][1])+" "+prodName[0][BUILDING_INPUT[zone][output][alt][input][0]]
+                }
+                str+=" -> "+prodName[0][output];
+                GM_log(str);
+            }
+        }
+    }   
+    */
+/*  
+        var div=createElement("div",{"style":"z-index:950;position:fixed;top:0;background-color:white;height:800px;overflow:auto;padding-right:40px;"},ALL);
+        var newimg=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:8px;right:0px;width:20px;height:20px;"},div);
+        newimg.addEventListener("click",function(){ removeElement(this.parentNode); },false);
+
+        var tr,td,table=createElement("table",{"border":"1"},div);
+        for(var campaign in QUESTS["forestry"]){
+        if(!QUESTS["forestry"].hasOwnProperty(campaign)){continue;} 
+            for(var v=1;v<QUESTS["forestry"][campaign].length;v++){
+                tr = createElement("tr",{},table);
+                if(questData["forestry"][campaign]["nr"]==v){ tr.style.backgroundColor="#FBB"; }
+                createElement("td",{},tr,campaign);
+                createElement("td",{},tr,v);
+                for(var w=0;w<6;w++){
+                    td = createElement("td",{"style":"white-space:nowrap;"},tr);
+                    if(QUESTS["forestry"][campaign][v][0][w]){
+                        produktPic(QUESTS["forestry"][campaign][v][0][w][0],QUESTS["forestry"][campaign][v][0][w][1],td);
+                        createElement("span",{},td,numberFormat(QUESTS["forestry"][campaign][v][0][w][2]));
+                        td.setAttribute("mouseovertext",numberFormat(QUESTS["forestry"][campaign][v][0][w][2])+" "+prodName[QUESTS["forestry"][campaign][v][0][w][0]][QUESTS["forestry"][campaign][v][0][w][1]]);
+                        td.addEventListener("mouseover",function(event){ toolTip.show(event,this.getAttribute("mouseovertext")); },false);
+                    }
+                }
+                createElement("td",{},tr,QUESTS["forestry"][campaign][v][1]);
+                td=createElement("td",{},tr);
+                    if(QUESTS["forestry"][campaign][v][2]){ pointsFormat(QUESTS["forestry"][campaign][v][2],"div",td); }
+                td=createElement("td",{},tr);
+                    if(QUESTS["forestry"][campaign][v][3]){ createElement("div",{},td,implode(QUESTS["forestry"][campaign][v][3])); }
+            }
+        }
+        div=null;newimg=null;
+        table=null;tr=null;td=null;
+    });
+*/
+    // SHOW DATA: BUILDINGS
+    err_trace="Show data buildings";
+    function showDataAllBuildings(){
+    try{
+        var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
+        var div=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:0;right:0;width:20px;height:20px;margin:5px;"},container);
+        div.addEventListener("click",function(){ removeElement(this.parentNode); },false);
+        div=createElement("div",{"style":"height:100%;padding-right:20px;margin-right:30px;overflow:auto;"},container);
+        var table=createElement("table",{"border":"1"},div);
+        var tr=createElement("tr",{},table);
+        var td;
+        createElement("th",{},tr);
+        for(var w=1;w<unsafeWindow.buildinginfos[0][1].length;w++){
+            createElement("th",{},tr,w);
+        }
+        createElement("th",{},tr,"BUILDING_UPGRADES");
+        createElement("th",{},tr,"BUILDINGTYPE");
+        createElement("th",{},tr,"COUNT");
+        for(var v in unsafeWindow.buildinginfos[0]){
+            if(!unsafeWindow.buildinginfos[0].hasOwnProperty(v)){continue;}     
+            tr=createElement("tr",{},table);
+            createElement("td",{},tr,v);
+            for(var w=1;w<unsafeWindow.buildinginfos[0][v].length;w++){
+                createElement("td",{},tr,implode(unsafeWindow.buildinginfos[0][v][w]));
+            }
+            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
+            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
+            createElement("td",{},tr,implode(totalZones[v]));
+        }
+        for(var i=1;i<=4;i++){
+            v="fw"+i;
+            tr=createElement("tr",{},table);
+            createElement("td",{},tr,v);
+            for(var w=1;w<=12;w++){
+                td=createElement("td",{},tr);
+                switch(w){
+                case 10: td.innerHTML=getBuildingName(v); break;
+                }
+            }
+            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
+            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
+            createElement("td",{},tr,implode(totalZones[v]));
+        }
+        for(var i=1;i<=6;i++){
+            v="fl"+i;
+            tr=createElement("tr",{},table);
+            createElement("td",{},tr,v);
+            for(var w=1;w<=12;w++){
+                td=createElement("td",{},tr);
+                switch(w){
+                case 10: td.innerHTML=getBuildingName(v); break;
+                }
+            }
+            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
+            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
+            createElement("td",{},tr,implode(totalZones[v]));
+        }
+        container=null;div=null;
+        table=null;tr=null;td=null;
+    }catch(err){ GM_logError("showDataAllBuildings\n"+err); }
+    };
+    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Buildings", showDataAllBuildings);
+    
+    // SHOW DATA: PRODUCTS
+    err_trace="Show data products";
     function showDataAllProducts(){
     try{
         var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
@@ -9901,7 +9976,7 @@ return false;
         try{
             if(!prodName.hasOwnProperty(type)){continue;}
             tr=createElement("tr",{"style":"background-color:orange;color:black;"},table);
-            createElement("th",{"colspan":"16"},tr,type+": "+["farm","forestry","recipes","powerups"][type]);
+            createElement("th",{"colspan":"16"},tr,type+": "+["farm","forestry","recipes","powerups","megafield"][type]);
             tr=createElement("tr",{"style":"background-color:orange;color:black;"},table);
             createElement("th",{"style":"white-space:nowrap;"},tr,"id");
             createElement("th",{"style":"white-space:nowrap;"},tr,"Name");
@@ -9956,7 +10031,7 @@ return false;
                 td=createElement("td",{},tr,prodGrowTime[type][v]>0?getTimeStr(60*prodGrowTime[type][v],true):"");
                 td=createElement("td",{},tr,prodPoints[type][v]==undefined?"-":numberFormat(prodPoints[type][v]));
                 td=createElement("td",{},tr);
-                if(!NPC[type][v]){
+                if(!(NPC[type]&&NPC[type][v])){
                     createElement("span",{},td,"-");
                 }else if(!isNaN(NPC[type][v])){
                     createElement("span",{},td,moneyFormat(NPC[type][v]));
@@ -9965,7 +10040,7 @@ return false;
                 }else if (NPC[type][v].match(/^c/)){
                     coinsFormat(parseInt(NPC[type][v].replace("c",""),10),td);
                 }
-                td=createElement("td",{},tr,gut[v]==undefined||type>0?"-":moneyFormat(gut[v]));
+                td=createElement("td",{},tr,(type>0)||(gut[v]==undefined)?"-":moneyFormat(gut[v]));
                 td=createElement("td",{},tr,PRODUCT2BUILDING[type][v]);
             }catch(err){ GM_logError("showDataAllProducts type="+type+" v="+v+"\n"+err); }
             }
@@ -9977,8 +10052,8 @@ return false;
     }
     GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Products", showDataAllProducts);
     
-    // SHOW ZONE DATA
-    err_trace="Show zone data";
+    // SHOW DATA: ZONES
+    err_trace="Show data zones";
     function showDataAllZones(){
     try{
         var prType,zoneNrS,allZones=[],currZoneType,help;
@@ -10042,8 +10117,8 @@ return false;
             }
             td=createElement("td",{"style":style},tr);
             if(help=zones.getEndproduct(zoneNrS)){
-                produktPic(prType,help,td);
-                createElement("span",{},td,"("+prType+","+help+")");
+                produktPic(help[0],help[1],td);
+                createElement("span",{},td,"("+help[0]+","+help[1]+")");
             }
             help=zones.getEndtime(zoneNrS);
             td=createElement("td",{"style":style+(help<now?"font-weight:bold;":"")},tr);
@@ -10087,8 +10162,9 @@ return false;
     }
     GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Zones", showDataAllZones);
 
-    /*
-    function showDataForestryFarmi(){
+    /* // SHOW DATA: FORESTRY FARMIES
+    err_trace="Show data forestry farmies";
+    function showDataForestryFarmies(){
         var div=createElement("div",{"style":"z-index:995;position:fixed;top:0;background-color:white;height:800px;overflow:auto;padding-right:40px;"},ALL);
         var newimg=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:8px;right:0px;width:20px;height:20px;"},div);
         newimg.addEventListener("click",function(){ removeElement(this.parentNode); },false);
@@ -10128,7 +10204,7 @@ return false;
             }
         }
 
-        var farmies=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_forestry_farmies","{}"),"showDataForestryFarmi/forestry_farmies",{});
+        var farmies=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_forestry_farmies","{}"),"showDataForestryFarmies/forestry_farmies",{});
         for(var v in farmies){
             if(!farmies.hasOwnProperty(v)){continue;}
             tr=createElement("tr",{},table);
@@ -10189,7 +10265,7 @@ return false;
             }
         }
     }
-    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: forestry Farmi", showDataForestryFarmi);
+    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: forestry Farmi", showDataForestryFarmies);
     */
 
     // NPC-shop
@@ -11361,7 +11437,6 @@ return false;
     },false);
     function showLagerZeitZiel(zoneNrF){
     try{
-        // if(gameLocation[0]!="farm"){ return false; }
         var divLagerZeitZiel=$("lager_zeit_ziel");
         var growtime,help;
         switch(zones.getBuilding(zoneNrF)){
@@ -11415,7 +11490,7 @@ return false;
                 var zoneNr=/parent.cache_me\((\d+?),120/.exec($("gardenarea").innerHTML);
                 if(zoneNr){
                     zoneNr=parseInt(zoneNr[1],10);
-                    showLagerZeitZiel(zoneNr+6*gameLocation[1]);
+                    showLagerZeitZiel(zoneNr+6*gameLocation.get()[1]);
                 }
             }else if($("farmersmarket_pos1_inner").style.display=="block"){
                 showLagerZeitZiel("farmersmarket-1");
@@ -11839,12 +11914,10 @@ return false;
         }catch(err){GM_logError("_farmMove\n"+err);}
         try{
             if(b==99){
-                gameLocation=["farmersmarket"];
-                unsafeData.gameLocation=gameLocation.clone();
+                gameLocation.set("farmersmarket");
                 raiseEvent("gameFarmersmarketOpened");
             }else{
-                gameLocation=["farm",unsafeWindow.farm-1];
-                unsafeData.gameLocation=gameLocation.clone();
+                gameLocation.set("farm",unsafeWindow.farm-1);
                 raiseEvent("gameFarmOpened");
             }
         }catch(err){GM_logError("farmMove\n"+err);}
@@ -12205,7 +12278,7 @@ return false;
     try{
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","checkFieldTimes"); }
         var zoneNr=parseInt(/parent.cache_me\((\d+?),120/.exec($("gardenarea").innerHTML)[1],10);
-        var zoneNrF=zoneNr+6*gameLocation[1];
+        var zoneNrF=zoneNr+6*gameLocation.get()[1];
         var newData=[[{}],[,0,0,,0],[,0,0,,0],true];
 
         // save garden-informations
@@ -12362,7 +12435,7 @@ return false;
             // GM_log("getGardenInfoResponse zoneNr="+zoneNr+"\n"+print_r(eval('('+response+')'),"",true,"\n"));
             //waterlog GM_log("getGardenInfoResponse zoneNr="+zoneNr+"\nwater: "+print_r(eval('('+response+')')["water"],"",true,"\n"));
             zoneNr=parseInt(zoneNr,10);
-            var zoneNrF=zoneNr+6*gameLocation[1];
+            var zoneNrF=zoneNr+6*gameLocation.get()[1];
             if (!$("divErnteInfo")){ createElement("div",{"id":"divErnteInfo"},$("gardenmaincontainer")); }
             $("gardenmaincontainer").setAttribute("zoneNr",zoneNr);
             drawZoneNavi(zoneNrF,$("gardenmaincontainer"));
@@ -12681,7 +12754,7 @@ return false;
     // Factory
     function doFactory(zoneNr){
         try{
-        var zoneNrF=zoneNr+6*gameLocation[1];
+        var zoneNrF=zoneNr+6*gameLocation.get()[1];
         showBlase(zoneNrF);
         drawZoneNavi(zoneNrF,$("innermaincontainer"));
         var cand,newdiv;
@@ -12709,7 +12782,7 @@ return false;
         if(!$("articleline"+unsafeWindow.locationinfo[6])){
             cand=createElement("div",{"id":"articleline"+unsafeWindow.locationinfo[6]},$("innercontent"));
             for(var prodNr=0;prodNr<unsafeWindow.locationinfo["in"].length;prodNr++){
-                newdiv=createElement("div",{"id":(gameLocation[1]+1)+"_"+zoneNr+"_article"+unsafeWindow.locationinfo["in"][prodNr],"class":"feedproduct","style":"position:absolute;top:54px;left:"+(55+60*prodNr)+"px;border:2px solid black;z-index:11;","prodNr":prodNr},cand);
+                newdiv=createElement("div",{"id":(gameLocation.get()[1]+1)+"_"+zoneNr+"_article"+unsafeWindow.locationinfo["in"][prodNr],"class":"feedproduct","style":"position:absolute;top:54px;left:"+(55+60*prodNr)+"px;border:2px solid black;z-index:11;","prodNr":prodNr},cand);
                 createElement("div",{"id":"articleimg"+unsafeWindow.locationinfo["in"][prodNr],"style":"position:absolute;","class":"l"+unsafeWindow.locationinfo["in"][prodNr]},createElement("div",{"style":"position:absolute;top:5px;left:5px;width:40px;height:40px;overflow:hidden;"},newdiv));
                 newdiv.addEventListener("mouseover",function(event){ 
                     var prodNr = parseInt(this.getAttribute("prodNr"),10);
@@ -12737,7 +12810,7 @@ return false;
     // Oil factory, special oil factory
     function doFactoryOil(zoneNr){
         //GM_log("doFactoryOil "+unsafeWindow.currentposition);
-        var zoneNrF=zoneNr+6*gameLocation[1];
+        var zoneNrF=zoneNr+6*gameLocation.get()[1];
         showBlase(zoneNrF);
         drawZoneNavi(zoneNrF,$("innermaincontainer"));
         raiseEvent("gameOpenFactoryOil");
@@ -12748,7 +12821,7 @@ return false;
         }catch(err){GM_logError("_buildOilpressInner\n"+err);}
         try{
             var zoneNr=position;
-            var zoneNrF=zoneNr+6*gameLocation[1];
+            var zoneNrF=zoneNr+6*gameLocation.get()[1];
             var zoneNrS;
             var data=unsafeWindow.oilproduction;
             var newDiv,newDiv1;
@@ -12851,7 +12924,7 @@ return false;
         }catch(err){GM_logError("_buildStrickereiInner\n"+err);}        
         try{
             var zoneNr=position;
-            var zoneNrF=zoneNr+6*gameLocation[1];
+            var zoneNrF=zoneNr+6*gameLocation.get()[1];
             var zoneNrS;
             showBlase(zoneNrF);
             drawZoneNavi(zoneNrF,$("innermaincontainer"));
@@ -13004,40 +13077,38 @@ return false;
     }
 }*/        
         try{
-            if(unsafeWindow.megafield_data&&unsafeWindow.megafield_data.area_free){
-/*                 var str="";
-                for(var i in unsafeWindow.megafield_data.vehicles){
-                    str+=i+":"+getDateStr(unsafeWindow.megafield_data.vehicles[i].time)+" "+getDaytimeStr(unsafeWindow.megafield_data.vehicles[i].time)+"\n";
-                }
-                GM_log(str); */
-                
-                var zoneNrF=null;
-                for(var i=0;i<ALL_ZONES["farm"].length;i++){
-                    if(zones.getBuilding(ALL_ZONES["farm"][i])==19){
-                        zoneNrF=ALL_ZONES["farm"][i];
-                        break;
-                    }
-                }
-                if(zoneNrF==null){
-                    throw("Location of Megafield not found.");
-                }
-                var tempZoneProductionData=[[{}],0,0,true];
-                var iPrTyp=0,iProd,iTime;
-                for(var i=BUILDING_SIZE["19"][0]*BUILDING_SIZE["19"][1];i>=1;i--){
-                    if(unsafeWindow.megafield_data.area_free[i]){
-                        tempZoneProductionData[1]++;
-                        tempZoneProductionData[2]++;
-                        if(unsafeWindow.megafield_data.area[i]){
-                            iProd=unsafeWindow.megafield_data.area[i].pid;
-                            iTime=unsafeWindow.megafield_data.area[i].time+unsafeWindow.megafield_data.area[i].duration;
-                            iTime-=unsafeWindow.Zeit.Verschiebung;
-                            tempZoneProductionData[1]--;
-                            if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
-                            tempZoneProductionData[0][iPrTyp][iProd].push([1,0,iTime,NEVER]);
+            if(unsafeWindow.megafield_data){
+                updateProductDataMegafield();
+                if(unsafeWindow.megafield_data.area_free){
+                    var zoneNrF=null;
+                    for(var i=0;i<ALL_ZONES["farm"].length;i++){
+                        if(zones.getBuilding(ALL_ZONES["farm"][i])==19){
+                            zoneNrF=ALL_ZONES["farm"][i];
+                            break;
                         }
                     }
+                    if(zoneNrF==null){
+                        throw("Location of Megafield not found.");
+                    }
+                    var tempZoneProductionData=[[],0,0,true];
+                    var iPrTyp=4,iProd,iTime;
+                    tempZoneProductionData[0][iPrTyp]={};
+                    for(var i=BUILDING_SIZE["19"][0]*BUILDING_SIZE["19"][1];i>=1;i--){
+                        if(unsafeWindow.megafield_data.area_free[i]){
+                            tempZoneProductionData[1]++;
+                            tempZoneProductionData[2]++;
+                            if(unsafeWindow.megafield_data.area[i]){
+                                iProd=unsafeWindow.megafield_data.area[i].pid;
+                                iTime=unsafeWindow.megafield_data.area[i].time+unsafeWindow.megafield_data.area[i].duration;
+                                iTime-=unsafeWindow.Zeit.Verschiebung;
+                                tempZoneProductionData[1]--;
+                                if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
+                                tempZoneProductionData[0][iPrTyp][iProd].push([1,0,iTime,NEVER]);
+                            }
+                        }
+                    }
+                    zones.setProduction(zoneNrF,tempZoneProductionData.clone());
                 }
-                zones.setProduction(zoneNrF,tempZoneProductionData.clone());
             }
         }catch(err){GM_logError("_megafieldHandler\n"+err);}
     }
@@ -13059,8 +13130,18 @@ return false;
                 unsafeWindow.megafield_move_position=2;
                 unsafeWindow._setTourVehicleMegafield(megafieldVehicle[0]);
             }
+            gameLocation.set("megafield");
             raiseEvent("gameOpenMegafield");
         }catch(err){GM_logError("buildMegafield\n"+err);}
+    });
+    unsafeOverwriteFunction("moveMegafield",function(){
+        try{
+            unsafeWindow._moveMegafield(a);
+        }catch(err){GM_logError("_moveMegafield\n"+err);}
+        try{
+            gameLocation.set("megafield",unsafeWindow.megafield_move_position);
+            raiseEvent("gameMegafieldMoved");
+        }catch(err){GM_logError("moveMegafield\n"+err);}
     });
     unsafeOverwriteFunction("setTourVehicleMegafield",function(b){
         try{
@@ -14663,8 +14744,7 @@ return;
 
     function doForestry(){
     try{
-        gameLocation=["forestry",null];
-        unsafeData.gameLocation=gameLocation.clone();
+        gameLocation.set("forestry");
         var nowServer=unsafeWindow.Zeit.Server;
         var zoneNrF,zoneNrS,tempZoneProductionData,tempZoneProductionDataSlot,currBlock,currBonus;
         // GM_log("forestry_slots:\n"+print_r(unsafeWindow.forestry_slots,"",true,"\n"));
@@ -15170,8 +15250,7 @@ return;
             unsafeWindow._cityArrived(questbox);
         }catch(err){GM_logError("_cityArrived\n"+err);}
         try{
-            gameLocation=["city",unsafeWindow.city];
-            unsafeData.gameLocation=gameLocation.clone();
+            gameLocation.set("city",unsafeWindow.city);
             raiseEvent("gameCity"+unsafeWindow.city);
         }catch(err){GM_logError("cityArrived\n"+err);}
     });
@@ -18923,7 +19002,7 @@ if(location.href==GM_Home){
         allEvents.push("gameFieldDemolished");              // 
         allEvents.push("gameFactoryKnittingStarted");       // a knitting factory has been started
         allEvents.push("gameFactoryKnittingCropped");       // a knitting factory has been cropped
-        allEvents.push("gameFactoryKnittingDialogStart");   // a knitting factory has opened a production dialog
+        allEvents.push("gameFactoryKnittingDialogStart");   // a knitting factory has opened a production dialogue
         allEvents.push("gameFarmLoaded");                   // the farm is loaded
         allEvents.push("gameFarmOpened");                   // the farm is opened
         allEvents.push("gameFarmersmarketCropped");         // the farmersmarket is cropped
@@ -18933,11 +19012,12 @@ if(location.href==GM_Home){
         allEvents.push("gameFarmersmarketOpened1");         // the farmersmarket building 1 is opened
         allEvents.push("gameFarmersmarketOpened2");         // the farmersmarket building 2 is opened
         allEvents.push("gameFarmersmarketSlotOpened");      // the farmersmarket building slot has been opened
-        allEvents.push("gameFarmersmarketDialogStart");     // the farmersmarket building has opened a dialog
-        allEvents.push("gameFarmersmarketDialogCommit");    // the farmersmarket building has requested for commit of a dialog
+        allEvents.push("gameFarmersmarketDialogStart");     // the farmersmarket building has opened a dialogue
+        allEvents.push("gameFarmersmarketDialogCommit");    // the farmersmarket building has requested for commit of a dialogue
         allEvents.push("gameFarmiNew");                     // a new farmi is appeared
         allEvents.push("gameFarmiResponse");                // a farmi is been rejected or accepted.
-        allEvents.push("gameMegafieldDialogStarted");       // a megafield dialog has been started
+        allEvents.push("gameMegafieldDialogStarted");       // the megafield view has been moved
+        allEvents.push("gameMegafieldMoved");               // a megafield vehicle has been bought
         allEvents.push("gameMegafieldTourStarted");         // a megafield tour has been started
         allEvents.push("gameMegafieldPlanted");             // a field has been planted on the megafield
         allEvents.push("gameMegafieldVehicleBought");       // a megafield vehicle has been bought
@@ -18975,7 +19055,7 @@ if(location.href==GM_Home){
         allEvents.push("gameLotteryGotLot");                // lot decision question is shown
         allEvents.push("gameLotteryGotPrize");              // got price
         allEvents.push("gameLotteryDailyLotAvailable");     //
-        allEvents.push("gamePoweruprackUpdated");           // Powerup data updated
+        allEvents.push("gamePoweruprackUpdated");           // Power-up data updated
         allEvents.push("gameQuestNewAvailable");            // There is a new quest that can be played
         allEvents.push("gameQuestAccepted");                // Quest is accepted
         //allEvents.push("gameQuestActive");                    // There is an activated quest
@@ -18984,12 +19064,12 @@ if(location.href==GM_Home){
         allEvents.push("gameNewDay");                       // a new day started
         allEvents.push("gameWindmillStarted");              // the windmill has been started
         allEvents.push("gameWindmillCropped");              // the windmill has been cropped
-        allEvents.push("gameWindmillDialogStart");          // the windmill has opened a recipe dialog
-        allEvents.push("gameWindmillDialogCommit");         // the windmill has requested for commit of a recipe dialog
+        allEvents.push("gameWindmillDialogStart");          // the windmill has opened a recipe dialogue
+        allEvents.push("gameWindmillDialogCommit");         // the windmill has requested for commit of a recipe dialogue
         allEvents.push("gameZoneReady");                    // a zone is ready. unsafeData.readyZone is set
-        allEvents.push("gameUpdateFormuladealerOffers");    // the formuladealer has filled the offers
-        allEvents.push("gameUpdateFormuladealerRack");      // the formuladealer has filled the recipes rack
-        allEvents.push("gamePowerupActivated");             // a powerup has been executed
+        allEvents.push("gameUpdateFormuladealerOffers");    // the formula-dealer has filled the offers
+        allEvents.push("gameUpdateFormuladealerRack");      // the formula-dealer has filled the recipes rack
+        allEvents.push("gamePowerupActivated");             // a power-up has been executed
         allEvents.push("gameReallocateBuilding");           // 2 buildings are swapped. unsafeData.reallocateBuildingSet is set [1..18,1..18]
         allEvents.push("gameUserlevelUp");                  // a new level is reached
         allEvents.push("beraterDone");                      // script successfully executed
