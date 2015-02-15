@@ -147,9 +147,9 @@ const NPC=[[,0.5,1.1,1.34,2.75,3.95,8.05,17.8,18.5,"f85","f110","f180","f280",,,
     GM_log(implode(new_NPC));
     */
 const INIT_NPC_SAISON={"94":false,"95":false,"96":false,"98":false,"100":false,"101":false,"102":false,"103":false,"105":false}; // task_new_product
-const ALL_ZONES = {"farm":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],"farmersmarket":["farmersmarket-0","farmersmarket-1","farmersmarket-2","farmersmarket-3","farmersmarket-4","farmersmarket-5","farmersmarket-6"],"forestry":["forest","sawmill","carpentry"],"city":["windmill"],"foodworld":["foodworld-0","foodworld-1","foodworld-2","foodworld-3","foodworld-4"]}; // task_new_zone
+const ALL_ZONES = {"farm":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],"farmersmarket":["farmersmarket-0","farmersmarket-1","farmersmarket-2","farmersmarket-3","farmersmarket-4","farmersmarket-5","farmersmarket-6"],"forestry":["forest","sawmill","carpentry"],"city":["windmill"],"foodworld":["foodworld-0","foodworld-1","foodworld-2","foodworld-3","foodworld-4"],"megafield":["megafield"]}; // task_new_zone
 unsafeData.ALL_ZONES=ALL_ZONES.clone();
-const DATA_zones = {"1":{"location":"farm","farmNr":0,"zoneNr":1,"productional":true},"2":{"location":"farm","farmNr":0,"zoneNr":2,"productional":true},"3":{"location":"farm","farmNr":0,"zoneNr":3,"productional":true},"4":{"location":"farm","farmNr":0,"zoneNr":4,"productional":true},"5":{"location":"farm","farmNr":0,"zoneNr":5,"productional":true},"6":{"location":"farm","farmNr":0,"zoneNr":6,"productional":true},"7":{"location":"farm","farmNr":1,"zoneNr":1,"productional":true},"8":{"location":"farm","farmNr":1,"zoneNr":2,"productional":true},"9":{"location":"farm","farmNr":1,"zoneNr":3,"productional":true},"10":{"location":"farm","farmNr":1,"zoneNr":4,"productional":true},"11":{"location":"farm","farmNr":1,"zoneNr":5,"productional":true},"12":{"location":"farm","farmNr":1,"zoneNr":6,"productional":true},"13":{"location":"farm","farmNr":2,"zoneNr":1,"productional":true},"14":{"location":"farm","farmNr":2,"zoneNr":2,"productional":true},"15":{"location":"farm","farmNr":2,"zoneNr":3,"productional":true},"16":{"location":"farm","farmNr":2,"zoneNr":4,"productional":true},"17":{"location":"farm","farmNr":2,"zoneNr":5,"productional":true},"18":{"location":"farm","farmNr":2,"zoneNr":6,"productional":true},"19":{"location":"farm","farmNr":3,"zoneNr":1,"productional":true},"20":{"location":"farm","farmNr":3,"zoneNr":2,"productional":true},"21":{"location":"farm","farmNr":3,"zoneNr":3,"productional":true},"22":{"location":"farm","farmNr":3,"zoneNr":4,"productional":true},"23":{"location":"farm","farmNr":3,"zoneNr":5,"productional":true},"24":{"location":"farm","farmNr":3,"zoneNr":6,"productional":true},"windmill":{"location":"city","cityNr":2,"zoneNr":1,"productional":true},"forest":{"location":"forestry","productional":true},"sawmill":{"location":"forestry","zoneNr":1,"productional":true},"carpentry":{"location":"forestry","zoneNr":2,"productional":true},"foodworld-0":{"location":"foodworld","productional":false},"foodworld-1":{"location":"foodworld","zoneNr":1,"productional":true},"foodworld-2":{"location":"foodworld","zoneNr":2,"productional":true},"foodworld-3":{"location":"foodworld","zoneNr":3,"productional":true},"foodworld-4":{"location":"foodworld","zoneNr":4,"productional":true},"farmersmarket-0":{"location":"farmersmarket","productional":false},"farmersmarket-1":{"location":"farmersmarket","zoneNr":1,"productional":true},"farmersmarket-2":{"location":"farmersmarket","zoneNr":2,"productional":true},"farmersmarket-3":{"location":"farmersmarket","zoneNr":3,"productional":true},"farmersmarket-4":{"location":"farmersmarket","zoneNr":4,"productional":true},"farmersmarket-5":{"location":"farmersmarket","zoneNr":5,"productional":true},"farmersmarket-6":{"location":"farmersmarket","zoneNr":6,"productional":true}}; // task_new_zone
+const DATA_zones = {"1":{"location":"farm","farmNr":0,"zoneNr":1,"productional":true},"2":{"location":"farm","farmNr":0,"zoneNr":2,"productional":true},"3":{"location":"farm","farmNr":0,"zoneNr":3,"productional":true},"4":{"location":"farm","farmNr":0,"zoneNr":4,"productional":true},"5":{"location":"farm","farmNr":0,"zoneNr":5,"productional":true},"6":{"location":"farm","farmNr":0,"zoneNr":6,"productional":true},"7":{"location":"farm","farmNr":1,"zoneNr":1,"productional":true},"8":{"location":"farm","farmNr":1,"zoneNr":2,"productional":true},"9":{"location":"farm","farmNr":1,"zoneNr":3,"productional":true},"10":{"location":"farm","farmNr":1,"zoneNr":4,"productional":true},"11":{"location":"farm","farmNr":1,"zoneNr":5,"productional":true},"12":{"location":"farm","farmNr":1,"zoneNr":6,"productional":true},"13":{"location":"farm","farmNr":2,"zoneNr":1,"productional":true},"14":{"location":"farm","farmNr":2,"zoneNr":2,"productional":true},"15":{"location":"farm","farmNr":2,"zoneNr":3,"productional":true},"16":{"location":"farm","farmNr":2,"zoneNr":4,"productional":true},"17":{"location":"farm","farmNr":2,"zoneNr":5,"productional":true},"18":{"location":"farm","farmNr":2,"zoneNr":6,"productional":true},"19":{"location":"farm","farmNr":3,"zoneNr":1,"productional":true},"20":{"location":"farm","farmNr":3,"zoneNr":2,"productional":true},"21":{"location":"farm","farmNr":3,"zoneNr":3,"productional":true},"22":{"location":"farm","farmNr":3,"zoneNr":4,"productional":true},"23":{"location":"farm","farmNr":3,"zoneNr":5,"productional":true},"24":{"location":"farm","farmNr":3,"zoneNr":6,"productional":true},"windmill":{"location":"city","cityNr":2,"zoneNr":1,"productional":true},"forest":{"location":"forestry","productional":true},"sawmill":{"location":"forestry","zoneNr":1,"productional":true},"carpentry":{"location":"forestry","zoneNr":2,"productional":true},"foodworld-0":{"location":"foodworld","productional":false},"foodworld-1":{"location":"foodworld","zoneNr":1,"productional":true},"foodworld-2":{"location":"foodworld","zoneNr":2,"productional":true},"foodworld-3":{"location":"foodworld","zoneNr":3,"productional":true},"foodworld-4":{"location":"foodworld","zoneNr":4,"productional":true},"farmersmarket-0":{"location":"farmersmarket","productional":false},"farmersmarket-1":{"location":"farmersmarket","zoneNr":1,"productional":true},"farmersmarket-2":{"location":"farmersmarket","zoneNr":2,"productional":true},"farmersmarket-3":{"location":"farmersmarket","zoneNr":3,"productional":true},"farmersmarket-4":{"location":"farmersmarket","zoneNr":4,"productional":true},"farmersmarket-5":{"location":"farmersmarket","zoneNr":5,"productional":true},"farmersmarket-6":{"location":"farmersmarket","zoneNr":6,"productional":true},"megafield":{"location":"megafield","zoneNr":1,"productional":true}}; // task_new_zone
 // All single-slot-zones themselves and all slots of multi-slot-zones
 var ALL_SLOTS={};
 // [farm, forestry, recipes, powerups]
@@ -178,16 +178,16 @@ const PRODUCT2BUILDING=[[,1,1,1,1,1,1,1,1,2,3,4,5,,,,,1,1,1,1,1,1,1,1,7,1,8,9,1,
                        ,{"1":"forest","2":"forest","3":"forest","4":"forest","5":"forest","7":"forest","8":"forest","21":"forest","22":"forest","23":"forest","24":"forest","25":"forest","26":"forest","27":"forest","41":"sawmill","42":"sawmill","43":"sawmill","44":"sawmill","45":"sawmill","46":"sawmill","47":"sawmill","48":"sawmill","49":"sawmill","50":"sawmill","51":"sawmill","52":"sawmill","53":"sawmill","54":"sawmill","55":"sawmill","56":"sawmill","57":"sawmill","58":"sawmill","59":"sawmill","60":"sawmill","61":"sawmill","101":"carpentry","102":"carpentry","103":"carpentry","104":"carpentry","105":"carpentry","106":"carpentry","107":"carpentry","108":"carpentry","109":"carpentry","110":"carpentry","111":"carpentry","112":"carpentry","113":"carpentry","114":"carpentry","115":"carpentry","116":"carpentry","117":"carpentry","118":"carpentry","119":"carpentry","120":"carpentry","121":"carpentry","122":"carpentry","123":"carpentry","124":"carpentry","125":"carpentry","126":"carpentry","127":"carpentry","128":"carpentry","129":"carpentry","130":"carpentry","131":"carpentry","132":"carpentry","133":"carpentry","300":"forest"}
                        ,[]
                        ,[,"windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill"]
-                       ,[,19,19,19,19,19,19,19,19,19,19,19,19,,,,,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,19,19,,,,19,,,,,,,19,,,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,,,,,,,,,,,,,,,19,,,,,,,19,19,19,19,19,19,19,19,19,19]
+                       ,[,"megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield",,,,,"megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"megafield","megafield","megafield",,,,"megafield",,,,,,,"megafield",,,"megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield",,,,,,,,,,,,,,,"megafield",,,,,,,"megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield","megafield"]
                        ];// task_new_plant task_new_product
 unsafeData.PRODUCT2BUILDING=PRODUCT2BUILDING.clone();
 // produced thing <- production area
 const BUILDING2PRODUCT=[,,[9],[10],[11],[12],,[25,144],[27,111],[28,152],[30],[91],[110],[116,117,118,119,120,121],[122,123,124,125],[151],[155,156,157]]; // task_new_product
 unsafeData.BUILDING2PRODUCT=BUILDING2PRODUCT.clone();
-// building -> -, field, stable, factory, foodworld, megafield
-const BUILDINGTYPE={"0":0,"1":1,"2":2,"3":2,"4":2,"5":2,"6":0,"7":3,"8":3,"9":3,"10":3,"11":2,"12":2,"13":3,"14":3,"15":2,"16":3,"17":0,"18":0,"19":5,"fl1":1,"fl2":4,"fw1":4,"fw2":4,"fw3":4} // task_new_building
+// building -> -, field, stable, factory, foodworld
+const BUILDINGTYPE={"0":0,"1":1,"2":2,"3":2,"4":2,"5":2,"6":0,"7":3,"8":3,"9":3,"10":3,"11":2,"12":2,"13":3,"14":3,"15":2,"16":3,"17":0,"18":0,"19":0,"fl1":1,"fl2":4,"fw1":4,"fw2":4,"fw3":4} // task_new_building
 unsafeData.BUILDINGTYPE=BUILDINGTYPE.clone();
-const BUILDING_SIZE={"1":120,"forest":25,"fl0":17,"fl1":36,"19":[11,9]};
+const BUILDING_SIZE={"1":120,"forest":25,"fl0":17,"fl1":36,"megafield":[11,9]};
 unsafeData.BUILDING_SIZE=BUILDING_SIZE.clone();
 // Needed input of a zone
 // BUILDING_INPUT[buildTyp]{output}[alternatives]=[[prod1,amount1||reducing time1],...]
@@ -1293,6 +1293,7 @@ var zones=new function(){
                 case "foodworld-2":     building="fw2";break;
                 case "foodworld-3":     building="fw3";break;
                 case "foodworld-4":     building="fw4";break;
+                case "megafield":       building="megafield";break;
                 default:                building=null;
                 }
                 zones.setBuilding(zoneNrF,building);
@@ -10096,8 +10097,9 @@ return false;
             tr=createElement("tr",{},table);
             createElement("td",{"style":style},tr,zoneNrS);
             switch(zones.getLocation(zoneNrS).location){
-            case "windmill":{ prType=3; } break;
             case "forestry":{ prType=1; } break;
+            case "windmill":{ prType=3; } break;
+            case "megafield":{ prType=4; } break;
             default:{ prType=0; }
             }
             if(currZoneType=zones.getBuilding(zoneNrS)){
@@ -13080,20 +13082,13 @@ return false;
             if(unsafeWindow.megafield_data){
                 updateProductDataMegafield();
                 if(unsafeWindow.megafield_data.area_free){
-                    var zoneNrF=null;
-                    for(var i=0;i<ALL_ZONES["farm"].length;i++){
-                        if(zones.getBuilding(ALL_ZONES["farm"][i])==19){
-                            zoneNrF=ALL_ZONES["farm"][i];
-                            break;
-                        }
-                    }
-                    if(zoneNrF==null){
-                        throw("Location of Megafield not found.");
-                    }
+                    var zoneNrF="megafield";
+                    zones.setBlock(zoneNrF,"");
+                    zones.setBonus(zoneNrF,0);                    
                     var tempZoneProductionData=[[],0,0,true];
                     var iPrTyp=4,iProd,iTime;
                     tempZoneProductionData[0][iPrTyp]={};
-                    for(var i=BUILDING_SIZE["19"][0]*BUILDING_SIZE["19"][1];i>=1;i--){
+                    for(var i=BUILDING_SIZE["megafield"][0]*BUILDING_SIZE["megafield"][1];i>=1;i--){
                         if(unsafeWindow.megafield_data.area_free[i]){
                             tempZoneProductionData[1]++;
                             tempZoneProductionData[2]++;
@@ -13134,7 +13129,7 @@ return false;
             raiseEvent("gameOpenMegafield");
         }catch(err){GM_logError("buildMegafield\n"+err);}
     });
-    unsafeOverwriteFunction("moveMegafield",function(){
+    unsafeOverwriteFunction("moveMegafield",function(a){
         try{
             unsafeWindow._moveMegafield(a);
         }catch(err){GM_logError("_moveMegafield\n"+err);}

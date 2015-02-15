@@ -1218,6 +1218,9 @@ function getGarden(zoneNr){
         case "farmersmarket-0":case "farmersmarket-1":case "farmersmarket-2":case "farmersmarket-3":case "farmersmarket-4":case "farmersmarket-5":case "farmersmarket-6":
           return "farmersmarket";
         break;
+        case "megafield":
+            return "megafield";
+        break;
         default:
             GM_logWarning("getGarden returns null\nzoneNr="+zoneNr);
             return null;
@@ -1386,6 +1389,7 @@ try {
             automatIcons[name][1]=createElement("div",{"id":"divAutomatIcon_"+name,"class":"link divZoneIcon v"+PRODSTOP,"product":PRODSTOP,"zoneNrS":zoneNrS,"style":style},appendTo);
         }
         automatIcons[name][1].addEventListener("click", function(event){
+        try {
             event.stopPropagation();
             var zoneNrF=getFarmZone(this.id.replace("divAutomatIcon_","").replace("global_",""));
             var zoneNrS=this.getAttribute("zoneNrS");
@@ -1408,15 +1412,17 @@ try {
                     drawFactoryChooseItemBox(zoneNrS, zoneNrL,$("divChooseBoxInner"));
                 }
                 break;
-            case 4: case 5:
+            case 4: 
             case "windmill":
             case "forest":case "sawmill":case "carpentry":
+            case "megafield":
                 redrawQueueBox(zoneNrS, zoneNrL, $("divQueueBoxInner"));
                 break;
             default:
-                GM_logWarning("Click on $('"+this.id+"')\nBuilding type "+getBuildingTyp(zoneNrS)+" unknown.");
+                throw("Building type '"+getBuildingTyp(zoneNrS)+"' unknown.");
             }
             zoneNrF=null;zoneNrS=null;zoneNrL=null;
+        }catch(err){GM_logError("automatIcon.click\n $('"+this.id+"') zoneNrF="+zoneNrF+" zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" \n"+err);}
         },false);
         automatIcons[name][1].addEventListener("mouseover", function(evt){
             toolTip.show(evt, toolTipProductSmall(this.getAttribute("zoneNrS"),this.getAttribute("zoneNrL"),0,this));
@@ -1758,7 +1764,7 @@ try{
         case 4:
             drawFoodworldChooseItemBox(zoneNrS, zoneNrL, queueNum, $("divChooseBoxInner"));
         break;
-        case 5:
+        case "megafield":
             drawChooseItemBoxMegafield(zoneNrS, zoneNrL, queueNum, $("divChooseBoxInner"));
         break;
         default:
@@ -2590,7 +2596,7 @@ try{
     var fzType=getBuildingTyp(zoneNrS);
     var fzZoneType=getZoneType(zoneNrS);
     var fzForestry=(fzType=="forest"||fzType=="sawmill"||fzType=="carpentry");
-    var fzMegafield=(fzType==5);
+    var fzMegafield=(fzType=="megafield");
     var fzWindmill=(fzType=="windmill");
     var iType=(fzWindmill?3:(fzForestry?1:0));
     var noTime=false;
@@ -2618,7 +2624,7 @@ try{
             case 1: // Field
             case 3: // Factory
             case 4: // Foodworld
-            case 5: // Megafield
+            case "megafield": // Megafield
                 automatIcons[i][1].setAttribute("class","link divZoneIcon v"+zoneList[zoneNrL][0][0]);
             break;
             case 2: // Stable
@@ -3795,19 +3801,14 @@ try{
     }else if(fz){
         lz = getZoneListId(fz);
         if((help=unsafeData.readyZone[fz])&&help[2]&&((help[1]=="w")||(help[1]=="r" && (zoneList[lz][0][0]!=PRODSTOP||!settings.get("account","disableCropFields")))||(help[1]=="e" && zoneList[lz][0][0]!=PRODSTOP))){
-            if(!zoneWaiting[fz]){
+            if(zoneWaiting[fz]){
+                GM_log("checkReadyZone\n fz="+fz+" zoneWaiting="+getDateText(zoneWaiting[fz])+" "+getDaytimeStr(zoneWaiting[fz])+"\nZone is waiting.");
+            } else {
                 if(isNaN(fz)){
                     if(settings.get("account","botUse"+getGarden(fz).toTitleCase())){ botArbiter.add(getGarden(fz)); }
                 } else {
-                    switch(getZoneType(fz)){
-                    case 19: 
-                        botArbiter.add("megafield"); break;
-                    default:
-                        botArbiter.add("farm");
-                    }
+                    botArbiter.add("farm");
                 }
-            } else {
-                GM_log("checkReadyZone fz="+fz+" zoneWaiting="+getDateText(zoneWaiting[fz])+" "+getDaytimeStr(zoneWaiting[fz]));
             }
         }
     }else{
@@ -3824,12 +3825,7 @@ try{
                                 botArbiter.add(getGarden(fz));
                             }
                         } else {
-                            switch(getZoneType(fz)){
-                            case 19: 
-                                botArbiter.add("megafield"); break;
-                            default:
-                                botArbiter.add("farm");
-                            }
+                            botArbiter.add("farm");
                         }
                     }
                 }
@@ -4328,9 +4324,6 @@ function autoFarm(runId){
                                     }
                                     }
                                     click($("farm"+handled.farmNr+"_pos"+handled.zoneNr+"_click"));
-                                break;}
-                                case 5:{ // should not happen
-                                    autoMegafield(runId,1);
                                 break;}
                             }
                         }
@@ -5157,23 +5150,12 @@ function autoMegafield(runId,step){
         switch(step){
         case 1:{ // init
             // find location of megafield
-            var zoneNrF=null;
-            for(var i=0;i<unsafeData.ALL_ZONES["farm"].length;i++){
-                if(unsafeData.zones.getBuilding(unsafeData.ALL_ZONES["farm"][i])==19){
-                    zoneNrF=unsafeData.ALL_ZONES["farm"][i];
-                    break;
-                }
-            }
-            if(zoneNrF==null){
-                logBubble.add("Location of Megafield not found."); // TODO text
-                throw("Location of Megafield not found.");
-            }else{
-                handled.set(zoneNrF);
-                autoMegafield(runId,step+1);
-            }
+            var zoneNrF="megafield";
+            handled.set(zoneNrF);
+            autoMegafield(runId,step+1);
         break;}
         case 2:{ // switch action
-            if(gameLocation.check("megafield")){
+            if(unsafeData.gameLocation.check("megafield")){
                 if(unsafeWindow.megafield_data.tour){
                     autoMegafield(runId,6); // plant
                 }else{
@@ -5234,7 +5216,7 @@ logBubble.add("autoMegafield: select vehicle");
         break;}
         case 6:{ // crop
             var area=unsafeWindow.megafield_data.area;
-            var areaSize=unsafeData.BUILDING_SIZE["19"][0]*unsafeData.BUILDING_SIZE["19"][1];
+            var areaSize=unsafeData.BUILDING_SIZE["megafield"][0]*unsafeData.BUILDING_SIZE["megafield"][1];
             // Generate route
             var i=0;
             while(i<=areaSize){
@@ -5273,7 +5255,7 @@ logBubble.add("autoMegafield: PRODSTOP");
                         }
                     }
                 }
-                var areaSize=unsafeData.BUILDING_SIZE["19"][0]*unsafeData.BUILDING_SIZE["19"][1];
+                var areaSize=unsafeData.BUILDING_SIZE["megafield"][0]*unsafeData.BUILDING_SIZE["megafield"][1];
                 for(i=1;i<=areaSize;i++){
                     if(areaFree[i]&&(!area[i])&&(!tourSteps[i])){
                         break;
@@ -8339,18 +8321,8 @@ try{
         err_trace="listener gameOpenMegafield";
         document.addEventListener("gameOpenMegafield",function(){
         try{
-            var zoneNrF=null;
-            for(var i=0;i<unsafeData.ALL_ZONES["farm"].length;i++){
-                if(unsafeData.zones.getBuilding(unsafeData.ALL_ZONES["farm"][i])==19){
-                    zoneNrF=unsafeData.ALL_ZONES["farm"][i];
-                    break;
-                }
-            }
-            if(zoneNrF==null){
-                throw("Location of Megafield not found.");
-            }            
             // Automat icon
-            drawAutomatIcon("megafield",zoneNrF,$("megafield_back"),"position:absolute;top:350px;left:600px;");
+            drawAutomatIcon("megafield","megafield",$("megafield_back"),"position:absolute;top:350px;left:600px;");
         }catch(err){GM_logError("eventListener:gameOpenMegafield \n"+err);}
         },false);
 
