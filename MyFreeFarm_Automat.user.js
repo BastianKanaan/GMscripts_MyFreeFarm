@@ -5278,12 +5278,12 @@ logBubble.add("autoMegafield: set plant");
             }
         break;}
         case 8:{ // Plant Response
-            if(unsafeData.readyZone[handled.zoneNrS][2]){
-                setNextQueueItem(handled.zoneNrS);
-                autoMegafield(runId,2);
-            }else{
+            if(unsafeData.readyZone[handled.zoneNrS]&&unsafeData.readyZone[handled.zoneNrS][2]){
 logBubble.add("autoMegafield: wait for response");
                 window.setTimeout(autoMegafield,settings.getPause(),runId,step);
+            }else{
+                setNextQueueItem(handled.zoneNrS);
+                autoMegafield(runId,2);
             }
         break;}
         case 9:{ // Exit

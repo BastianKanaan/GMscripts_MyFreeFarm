@@ -1613,7 +1613,7 @@ var zones=new function(){
                                 data[zoneNrS]["endtime"]=NEVER;
                                 data[zoneNrS]["endproduct"]=null;
                             }
-                        }else if(iZoneTyp==5){
+                        }else if(iZoneTyp=="megafield"){
                             help=(typeof data[zoneNrS]["production"][1]=="object"?data[zoneNrS]["production"][1][1]:data[zoneNrS]["production"][1]);
                             if(help>0){ // TODO 2.4 compare with job
                                 data[zoneNrS]["endtime"]=NEVER;
