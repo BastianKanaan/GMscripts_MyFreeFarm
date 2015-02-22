@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94BGgo6NO+u5q4AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAS0ElEQVRo3t2aeYxl11ngf+fub3+172t3V1cv7sVuJ3bs7jh2QtoMDoHEwRlCbMJEATRiSaKBQTNBCKGwBwSDNAyTQVGCYJIMEINjxrFix3E73mO7TW/V1VXVtS+v6i13v+ee+aNvQSXDaCTS7W7nSE/v3veuzrm/8y3nO9934Dq08cE+APv9E/1//tDN+16/9+hNJ/l+bXv3jAHw4zf1P/sLdx5TRqXyc++fHPvsGzW+/kbC5vMOyyvrfOSDJz99eM/gj+09fkK9Na/fW8sVzr86NfOl7ydgB+iK46TnVz75wJNtHZX3rcuUI8dvFS9cnuHQ7YcOWprTfvb8pUe/H4BzwH7g0H/59INfq3Z09++ZHBPHbn8LpVKF3WNdWPlOdeIdd962MDf/8vSl+XPX8mW0awxrAiPAgd/4xXf+wdaG74yP7BL9w/vp7x2h1WrRM3SYwf5+8cLz31Yf/w8f/fK1nn3tGkt2D3AE6J7o6xoc7Cjyq//pt3ntm88wMzvDhfMX+dmP/AJJnDKxe0j09HQZDzzwns+9GVW6CBwGjgIdhbz91vfdffjg6soWrhcwf+p5Cu7L3DwhWTkdYvVWCeOEQsFm//5dY1/4wld+880kYQeYBG4CqoD23uMTk0mcQJTQF9R4/48PM3mwDU2HDz5Y5dk/+VPc5YuErZpKooZ9LSVsXOX+BNAB7AUK2X1yx97C7oXpNQb7Nrn5pw5hOA6FthLFYh4hdD7+B8NceHGKi2eqYmTfmAGwb3I3Z85O3fAS1oHubckC6IZ9uGCWCruHN6lWHNIwQRc6BjqkGpqCNEkZPTTG0aFZtuqBPjQ08NPXAvZaAJtA2w7NUQ+9c/Lt5XQOWh5hrY5yfbQoRAYBKvRJ4xgZxcReQD5vMaK9yu9+5j//iWEY4s2g0nYGvO0MxX9/9PTnT1R6P1UqCVJDR/kJdiIQrsIqRghT4KEIpCSNJAuLa3zm7179qJaibnRgDejJgP9JOp3thZueOJvygwdTND0lcFuEWhEtdTALvTTXlmikCV4ScHFhixefXEHSuStKkxveadnAQOas/qm1vHhlq5Uwta6rsUosiCWuVsfJF2itzNMKY+a36sxsNXnhYkI5LLBSWz71ZvDSCkiz739eoyyjMI81VV7Vd6skYLSasrK4gWnnWKt7PL+4wbwbcv6yRKsrZDHXSGqbr74ZAg8t89D9O/stWNbuTS+8+Mzs2hfqstBNnPYOdRpcXNjg4VeXeOqSz/RcghuIb6zr5m+2omQ1NZ2/q7da4c7O+3u6abruDQWsA0PfDTzSVji26QZWJOWFxbr73OTuwcPfeL1ezhcNljydlmdDW+XJ8zPzd/lRsr6vo/xbtkjW26qVwzKJb7INo6OtWl1fWl2LbkQvnQJxJm0NEKZh6yptpNvx9fmt5MXjk72DD798meFyldHDY6xeuMi79nYpJWXqJJH2ajOaqW3UHtvudMsLGOjtYWF55YZahwUggRngEuAC6txa7XHNMF/Z9txRLJNATxnuG2Civ5ORgS56nPTtaPrpr03V9DDwGztht9vVgL0WwBpwGXgKeAVwoyiqNf1gbXtC2goWInLYZUG1UqH25JP4iTr32JnlQ4D92OJm5f83UG93xw2h0gKwsusGcDZbl8eziVADXe33juXlD0QrDRWWcqK2sIDSneSx80sngX6E8IZ7OvvCIPx5Kwnu6eru7J1fWPLLPQMvrtc2v+XknadMzXhdIlr79k2kZ86cv67AaQbqZtd+di8Bdctw9ZerVb3njjvGeOyvT4tG1zD27GX8vqH/wfmlxf6eronRnJqKIt/RCqCcrjNzm+7Nq6GaX52bzxb1K166v7e7HIeRByTXEzgCpjKnlX5HgG3ak+++d39PwcirNAzEsZN38sg/rvPAJ3+WwTb7o3rs3xPWVsYKhQKRq3GmqR2bvrjwIkBfZztL67XvGGhxebVxoyQAomzWLaAL2AVU/u29t9y/d3Skc31pXcTSQG6sENpF3nLLfkwh1ckfua991/4J8fpzL4jXaukTtWbTLBdL7e3t1bzQ9Uaj2Ypv1M3Ddoi5F9iH0Mf/6Jfu/3hff2/n8uqaGpk8KjQErcYmt/YNUe7sxVCJiBPFI5//K0bGB5UoNnNffGL5z8BNLNNMhRDb/uGqbCautoS1LPh4i2ZYRz54fOxT02cv5A/ceozugWFh6RrDh46RMxX9g33IyOeRv36EXYfeQhi02FhaIG9pg1uxuVDbrD8p0zSQUsrvNpEbCTiXpXZGH7xj6NerxTIqidk9Ocljjz6Bcuv09HfxyFe+Stxy6R4a5IlHHuXlp75O4jbxo0jEErW3r3Ty3LL/a2EYXFXYqwksssTdGLC3krf3j7XlbtPRcEyTrz/9Eh0lm5X1TVIl2FxZZGpmjqVLM7SVHSqlAghFEkuWN13hWCb5fOH3Li2sRlwDFbwasJ3AMeCtQLtjm/vcZsDK0ipx4DMx2EGpYGPmHGYvnKVUKVCpFMmZkKQphbxFqlL8WHLq9ByXV+tYmnr4Rk3xlLKU7AGgAmiDbcXROI7xIonne4g0xrYMOtqKKB0sXWekr51c3sa2DNAExZyDbgiUUrx8YYGiKd9+cM/I0I0GrGe7o7EsPQsIYywXTUgF9Uhi6ALimJxlolKJY1uEcYRKFbahUcw5yCQlUQpN03jv8UnZ3T/6e4+/PM14d+F1gIN7x24YYCMLH/PbP1QKdpvrxtQiVHfBVK6fgoypbTZJZYqUkqYb0Gq51BsegecjU4Vp6FimSVuloPte0xsYHHnu+bNzxfvu2P/S6XOXtR86cdMNAWzuyD8DcGig7cFFTzLl6YslS6AZEEcRtVod3wuo111818P3ApIgIooTfM9ndnkLw9AJooR7Dvf/yumZpeMyFY3ZxfUj9905ceGpqcR49+0Hrjuwk9mwBqj+jvKEX6/1zSVO0JeT3cLURck2SJXACTxi10PFCaam02h4+J5HqxnQagUIDUzLIJKSYs7S9/ZXz69uNqtz6631raY7/s4J89w/PPM6B/eOXzdgLfPO5Svxslm9Y9D52DyVxDKNhW4rNUxDo5wzKBo6XqpI/AAZxsRxQj5no3QTJRSWbdBRLWFbFn2dbSgUd9/UN9zd1XVpq+l1P/Pa5ZnaVn38/e84/Nrpc9OMDQ1cF2Anc1gOkPzAwYFfPr0hieL46YG86u0pWMLUBW4sidDo6KzS0dlGV3cbpUKOaql4ZWnK5wmimDSVOI6FF0TIVKGhiYqVjpRLxc/t37/vyEtT66cCzzv4Y3cfefzS5QV2jY2+oYHHdv7qIKAf29VzX1vJmVgMrItFgkP1ZsserFg4to6tGygFVr5AgiBVYDsWmiEIY4lMU8rlIqZloJRASYmuCYIwYrS3Kp77x7nDfhAuOI716GpLqo5c+p5Dk2NDT7905itvFPB2wewo0FMpFQffc3Tgoadn/MgPAtMKG/nx9jwVxyDvGPihBNNB6Dq6YWCaJkLXcf0QhcJ2TDTdQEMgUZiGRhgmxHFCznHQdNT5uZUfHBgc/JlarXYp1osHunPpe7p7B+szC8vfeiNUusCVIwx9QO1Hjw3/4jcvNVLXD6OBkjDiVKiSdaXbpp+gmRapEDTDmI2WS8P1EAIKeQfbsdhqeDRaTYI4wnV9kFBrtIhlSsv1OTTeJ0p5G5toutFonlrf2Lzv23PuZncu/AzkR/fsGrumwGYWZIwD0Vv39LxrvRU4F5fr2sbm5meDVqs43u4IKSFNFZoSRGGEIaCQc+hpr2KYOkopQGEaBuVino5yBamg1fLZaLYo5hyUglimmJbJiSPjTM0utR05eji/Xqutu2H03hdeX/jGB06MPn3h4qVrBiyyRPu+LNAwBkvmQ6emNnyU+l89He0fyosUSxOkKiWIU/woIQgTGq0Av9EijWMsXYNUIVNoNT1sU6fp+bgND5mmyFjh+REKsC2Tjc06HaUcmoCVxaUBgHIhf07Y+enZ5fp/vf/43qeulQ0XM7sdAtI793R96HI9Km648fkkkSqvJUuDRXO8aOvkTAOlFJoQCAFJClbOQaBQQoMkxTINdEPH9ULCMMaxbaRUpGlKkqRX4FVKGEs620rUtpq4CV9yXW/2ns0t99spX0U3/02QiNroYF+nqZuvbDVbV03COjDMlRM5EjTVXS3fvpFYsZTyrKZp+ZxObzVvYusGhi4wdZ04VSRSIYDID2h5Ic2mT8sLCMOYzS2XVKZoCKIoQUMjjCVC10gVFPN5ysU8XpCwf9cAtdpGEeB/AqWCE11aWP7EesM/ZSfNP7+0EHbs3TV+1YArwO4MfOnEnvaPnpqubTbr9dO6pr3X8/2/7ygX26p5k0SlCK5ItmKbWLqGKQSJTFFSoWRK04+4vLKB6wW03ABTNwjDmCCKiRKJkXltL4yRSiA0TSGgo1rdzn2ztLoOwOziyudn17x77z7onD13cfqqAJvAKFeOMWzkC6UeX5jdbpRsaZro8Tz/V1WaunHghVGicEyNSKboQqMZJRhCQ8oEmUjcIKTpBshEUrBtio6NLgQtPyBOJE3PRyaStVodqRQqVTRavmr4sTB041LLC+0slP3OF9T1+a3Zxc7b9u/5yPcKLID2TJ0DYPX43p6fu7AWrIF6rOV6f6ZQAhCJZtYNTRBn2z5Ng7a8RStO0DVBkkiUlGi6Rhgl+F5IFMbouo7rRfhhTN62UUJQLhexLRs3DIklIkpk0PCT11zPS7JMaG7nS55fXDu9VR34xNTy+tr3Cmxly1AB8Hs622/ZjNJ+HYoykT+j69r2wMKP5GyqaypOwLEM5SWSVigpWgZ+IgmTBJRCi2NKtoFhGtRaHp4fYZk6OcfCDyLiRBJEEW4Y4waKWKGaftR0/fCroF7Jgp7hnQ53fGyE6csLv79e23z4e/HSItvrTmSJtODmfYMfO3NhfmKr5eaKxcIXPM9f2t4a6kKj3TZuacmUMFGiu+SIWCriVF7J7pk6ptAIAZWCbuhoAhQCzdBBaTiOQy6XI4xT5YYRKCXcIDntOPYDj3/r9N9mWtYF9ALrWXWDza36VVmW8lw5OlgE6sBpLySuNVo/Cnw7CAK5Q0NEmKZJTpMHLMtWUYq26SW6VGAYembTOoapkyqNOE2xHQelG0gEXpiAptEKY7XphuFGoyXbndic7BPKFP7//vIT5/44G0ftSDq4wObViqVFthPalu4isOD5/rcy9R7LbHv7WdJUxUut+JRlaL2aprXphrB9qVQrlFiGLrw4JVUQK5AIEqHjBpFKFEITBoFENfx4c2WjuXDrUNJ727jBSIcSBwaMwx1tldwLF7a+lgG7mQC2MolflUjLzuykLftUdjwbA142+P91liqX16MH7yqWBroMqmUDLyFtxiKN0NKtKEn9SKogTNRGvaWabkCqNLXa9NKl9a2VMzOrXx+vhGNv321zebaBYRpcXvTV0b74lz58ct/bdpRzljLoq1ZqcTKYy0AtK3L72X9JVhVMMg1RgJbP5wuHxjoO//xxcef0vMvJm6ts+Zp4/KWafmbRXdts+m5k5J93DJkbK5vHUxkJITQ1t7gcN1Nz5vLa5peUgnfd1/e+szMe3zzbYs9EiaWkcvTcc3NfvevW4tc+98+5s3912eX/BexnBe04m1G5YxC5Q52sTPLDcRTd8sl71Nv+8kXdPTMTBz/dGXacXTPCMNbCT93f1fWhP579Q2j6dWClxhPZZBmZr6gCb2svO3t6qpZ6/Fm/dWoxfPIDLflDDz8z99vnloK/3dW38e/+4/tGf/fTX5755LVI8YSZymzXYHfOqMqkvpVd54CxA4P5vlAvqi89PfP3F5brS3aq+Jvn1pcfPb124fSFRnrylp77d5RNkmwyrcwploD8B2/r3qOEEb+0Lv8QWEsTpW6f7MkpmWivzYfrR4btT0B+ZHJ88A1P8TSA2UzKGmD+8B5zNPRD0dtWHsrplE3L5qETvWVQ0aKr+x97R+Ew6IVsIs8BLwELmafdyplGZbIUGlEYGWut8NfzjjNpxam4a1QdB9Z1jbwfSH7nJ4f+/dnp+TccOM7sei3TgvLMuplsLgUEUsnJ7lLBqwUM5pI2YLrDTpwwEtxztKcGPAGcAp4HngXmgKYhlIg2EzYWWkRReELCVlKLWF2MASzdE4G35qnVmfrw9aoP17OKfwGQX359/excq1TYajSfnUqdNNoKT/zDlHgYaOnNRHlrLqbSXgGmd5jI+Uyte5qRrD06Q9Nqb/sw1NbCIFj64gWTFaUfA37kken6oyA/HHUMfwqWuV6tANwJ/BrwF9le+W7gs6OVwnYq4k9vGuy8cP/+8jPQb/4L6/0w8BPAFxHi+I7//puZyx/YMc5f2MXKEa5z07Ii2k8AN2c7KwG8e8czd+Rs+wN2tTM33Nv9L/XRA9wP3PVdGpf7rue6rsYL/x8HbwtumjbAVwAAAABJRU5ErkJggg==
-// @date           13.02.2015
-// @version        2.4.1
+// @date           22.02.2015
+// @version        2.4.2
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -54,7 +54,7 @@
 
 const VERSION=GM_info["script"]["version"];
 const neededVersionBerater="2.4.2";
-const neededVersionFunctionFile="2.1.3";
+const neededVersionFunctionFile="2.1.5";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
@@ -69,7 +69,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.2.0","01.02.2015",[["Neu: Ernte-Bot f"+u_dots+"r G"+u_dots+"terhof","New: Cropping bot for megafield"]]]
                 ,["2.4.0","12.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"]]]
                 ,["2.4.1","13.02.2015",[["Bugfix: Optionen","Bugfix: Settings"]]]
-                ,["2.4.2","13.02.2015",[["Neu: Bot f"+u_dots+"r G"+u_dots+"terhof","New: Bot for megafield"]]]
+                ,["2.4.2","22.02.2015",[["Neu: Bot f"+u_dots+"r G"+u_dots+"terhof","New: Bot for megafield"],["Refaktorierung des Loggings","Refactoring of logging"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Automaton-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -156,7 +156,7 @@ handled.set=function(zoneNrS){
         handled.zoneNr=getGarden(handled.zoneNrF);
         handled.zoneNrL=getZoneListId(handled.zoneNrF);
         handled.zoneBuildingTyp=getBuildingTyp(handled.zoneNrF);
-    }catch(err){GM_logError("handled.set zoneNrS="+zoneNrS+"\n"+err);}
+    }catch(err){GM_logError("handled.set","zoneNrS="+zoneNrS,"",err);}
 }
 const queueItemBoxWidth=58;
 const queueItemBoxTimeHeight=28;
@@ -190,11 +190,11 @@ var botArbiter=new function(){
     var stack=new Object();
     var interval=null;
     var intervalBusy=false;
-    this.add=function(evt){
+    this.add=function(event){
     try{
-        if(LOGGING_ARBITER){ GM_log("botArbiter.add evt="+evt+" bot.isActive()="+bot.isActive()); }
+        if(LOGGING_ARBITER){ GM_logInfo("botArbiter.add","event="+event,"bot.isActive()="+bot.isActive(),"Begin"); }
         var priority,fkt=null;
-        switch(evt){
+        switch(event){
         case "sessionEnds":    priority=999;fkt=doGameSessionEnds;  break;
         case "megafield":      priority= 35;fkt=autoMegafield;      break;
         case "farm":           priority= 30;fkt=autoFarm;           break;
@@ -211,34 +211,34 @@ var botArbiter=new function(){
         case "otherAccReady":  priority=  1;fkt=doGameOtherAccReady;break;
         }
         if(!bot.isActive()){
-            GM_logWarning("botArbiter.add evt="+evt+": Bot is off!");
+            GM_logWarning("botArbiter.add","event="+event,"","Bot is off");
         }else if(fkt==null){
-            GM_logWarning("botArbiter.add evt="+evt+": No bot-function!");
+            GM_logWarning("botArbiter.add","event="+event,"","No bot-function");
         }else{
             if(intervalBusy){
-                window.setTimeout(botArbiter.add,100,evt);
+                window.setTimeout(botArbiter.add,100,event);
             }else{
-                stack[evt]=[priority,fkt];
+                stack[event]=[priority,fkt];
                 window.setTimeout(botArbiter.start,100);
             }
         }
-    }catch(err){GM_logError("botArbiter.add evt="+evt+"\n"+err);}
+    }catch(err){GM_logError("botArbiter.add","event="+event,"",err);}
     }
-    this.clear=function(evt){
+    this.clear=function(event){
     try{
-        if(LOGGING_ARBITER){ GM_log("BEGIN botArbiter.clear evt="+evt+" intervalBusy="+intervalBusy); }
-        if(stack[evt]){
+        if(LOGGING_ARBITER){ GM_logInfo("botArbiter.clear","event="+event,"intervalBusy="+intervalBusy,"Begin"); }
+        if(stack[event]){
             if(intervalBusy){
-                window.setTimeout(botArbiter.clear,100,evt);
+                window.setTimeout(botArbiter.clear,100,event);
                 // window.setTimeout(function(){
-                //  botArbiter.clear(evt);
+                //  botArbiter.clear(event);
                 // },100);
             }else{
-                delete stack[evt];
+                delete stack[event];
             }
         }
-        if(LOGGING_ARBITER){ GM_log("END botArbiter.clear stack="+implode(stack)); }
-    }catch(err){GM_logError("botArbiter.clear evt="+evt+"\n"+err);}
+        if(LOGGING_ARBITER){ GM_logInfo("botArbiter.clear","","stack="+implode(stack,"botArbiter.clear/stack"),"End"); }
+    }catch(err){GM_logError("botArbiter.clear","event="+event,"",err);}
     }
     this.run=function(){
     try{
@@ -248,18 +248,18 @@ var botArbiter=new function(){
         //if(LOGGING_ARBITER){ GM_log("interval, busy:"+busy+" zoneWaiting:"+implode(zoneWaiting)+" stack:"+implode(stack)); }
         //if(LOGGING_ARBITER){ GM_log("interval, busy:"+busy+" zoneWaiting:"+implode(zoneWaiting)+" stack:"+print_r(stack)); }
         try{
-            if(LOGGING_ARBITER){ GM_log("interval stack="+implode(stack)+" readyZone="+implode(unsafeData.readyZone)); }
+            if(LOGGING_ARBITER){ GM_logInfo("botArbiter.run","","stack="+implode(stack,"botArbiter.run/stack")+" readyZone="+implode(unsafeData.readyZone,"botArbiter.run/readyZone"),"Begin"); }
             if(bot.isActive()&&(!bot.isBusy())&&checkOpenWindow()){
                 var found=null;
                 var count=0;
-                for(evt in stack){
-                    if(!stack.hasOwnProperty(evt)){ continue; }
+                for(event in stack){
+                    if(!stack.hasOwnProperty(event)){ continue; }
                     count++;
-                    if((found==null)||(stack[found][0]<stack[evt][0])){
-                        found=evt;
+                    if((found==null)||(stack[found][0]<stack[event][0])){
+                        found=event;
                     }
                 }
-                if(LOGGING_ARBITER){ GM_log("interval found="+found); }
+                if(LOGGING_ARBITER){ GM_logInfo("botArbiter.run","","stack="+implode(stack,"botArbiter.run/stack")+" readyZone="+implode(unsafeData.readyZone,"botArbiter.run/readyZone")+" found="+found,"After search"); }
                 if(found){
                     stack[found][1](bot.start()); // call bot function
                     delete stack[found];
@@ -270,9 +270,9 @@ var botArbiter=new function(){
                     interval=null;
                 }
             }
-        }catch(err){GM_logError("botArbiter.run\n"+err);}
+        }catch(err){GM_logError("botArbiter.run","","",err);}
         intervalBusy=false;
-    }catch(err){GM_logError("botArbiter.run\n"+err);}
+    }catch(err){GM_logError("botArbiter.run","","",err);}
     }
     this.start=function(){
     try{
@@ -280,11 +280,11 @@ var botArbiter=new function(){
         if(bot.isActive()&&(!interval)){
             interval=window.setInterval(botArbiter.run,RAISETIME);
         }
-    }catch(err){GM_logError("botArbiter.start\n"+err);}
+    }catch(err){GM_logError("botArbiter.start","","",err);}
     }
     this.stop=function(){ //TODO the bot is not deactivated until the timer is runS out .. after that the buttoN should change.. inbetween it should have a inbetween state.
     try{
-        if(LOGGING_ARBITER){ GM_log("BEGIN botArbiter.stop bot.isActive():"+bot.isActive()); }
+        if(LOGGING_ARBITER){ GM_logInfo("botArbiter.stop","","bot.isActive()="+bot.isActive(),"Begin"); }
         if(intervalBusy){
             window.setTimeout(botArbiter.stop,100);
             // window.setTimeout(function(){
@@ -295,52 +295,52 @@ var botArbiter=new function(){
             try{ window.clearInterval(interval); }catch(err){}
             interval=null;
         }
-    }catch(err){GM_logError("botArbiter.stop\n"+err);}
+    }catch(err){GM_logError("botArbiter.stop","","",err);}
     }
     this.check=function(){
     try{
-        if(LOGGING_ARBITER){GM_log("BEGIN botArbiter.check");}
+        if(LOGGING_ARBITER){GM_logInfo("botArbiter.check","","","Begin");}
         // Testing for actions to do
-            botArbiter.stop();
-            if(bot.isActive()){
-                if($("divSessionEnd")){
-                    botArbiter.add("sessionEnds");
-                }
-                checkReadyZone(); // farm, windmill, forestry
-                if(settings.get("account","botUseFarmi")&&unsafeWindow.farmisinfo && unsafeWindow.farmisinfo[0] && (settings.get("account","farmiReject") || settings.get("account","farmiAccept"))){
-                    checkFarmi(1);
-                }
-                if(settings.get("account","botUseDonkey") && $("divGoToDonkey")) {
-                    botArbiter.add("donkey");
-                }
-                if(settings.get("account","botUseLottery")&&settings.get("account","lotteryActivate")&&$("divGoToLottery")){
-                    botArbiter.add("lottery");
-                }
-                var cell;
-                if(settings.get("account","botUseWindmill")){
-                    if(checkPowerUp(1)){
-                        botArbiter.add("activatePowerUp");
-                    }
-                }
-                cell=null;
-                /* quest-bot needs review
-                if(settings.get("account","botUseQuest")&&unsafeData.questData["farm"]["1"]["state"]){
-                    if(unsafeData.questData["farm"]["1"]["state"]==1 && valQuestActivate && valQuestActivateUntilNr>=unsafeData.questData["farm"]["1"]["nr"]){
-                        botArbiter.add("quest");
-                    }else if(unsafeData.questData["farm"]["1"]["state"]==2 && valQuestSolving && valQuestSolvingUntilNr>=unsafeData.questData["farm"]["1"]["nr"] && checkQuest()){
-                        botArbiter.add("quest");
-                    }
-                }
-                if(settings.get("account","botUseQuest")&&valLodgeQuestSolving&&checkLodgeQuest()){
-                    botArbiter.add("lodgeQuest");
-                }
-                */
-                if($("linkOtherAccReady")){
-                    botArbiter.add("otherAccReady");
+        botArbiter.stop();
+        if(bot.isActive()){
+            if($("divSessionEnd")){
+                botArbiter.add("sessionEnds");
+            }
+            checkReadyZone(); // farm, windmill, forestry
+            if(settings.get("account","botUseFarmi")&&unsafeWindow.farmisinfo && unsafeWindow.farmisinfo[0] && (settings.get("account","farmiReject") || settings.get("account","farmiAccept"))){
+                checkFarmi(1);
+            }
+            if(settings.get("account","botUseDonkey") && $("divGoToDonkey")) {
+                botArbiter.add("donkey");
+            }
+            if(settings.get("account","botUseLottery")&&settings.get("account","lotteryActivate")&&$("divGoToLottery")){
+                botArbiter.add("lottery");
+            }
+            var cell;
+            if(settings.get("account","botUseWindmill")){
+                if(checkPowerUp(1)){
+                    botArbiter.add("activatePowerUp");
                 }
             }
-        if(LOGGING_ARBITER){GM_log("End botArbiter.check");}
-    }catch(err){GM_logError("botArbiter.check\n"+err);}
+            cell=null;
+            /* quest-bot needs review
+            if(settings.get("account","botUseQuest")&&unsafeData.questData["farm"]["1"]["state"]){
+                if(unsafeData.questData["farm"]["1"]["state"]==1 && valQuestActivate && valQuestActivateUntilNr>=unsafeData.questData["farm"]["1"]["nr"]){
+                    botArbiter.add("quest");
+                }else if(unsafeData.questData["farm"]["1"]["state"]==2 && valQuestSolving && valQuestSolvingUntilNr>=unsafeData.questData["farm"]["1"]["nr"] && checkQuest()){
+                    botArbiter.add("quest");
+                }
+            }
+            if(settings.get("account","botUseQuest")&&valLodgeQuestSolving&&checkLodgeQuest()){
+                botArbiter.add("lodgeQuest");
+            }
+            */
+            if($("linkOtherAccReady")){
+                botArbiter.add("otherAccReady");
+            }
+        }
+        if(LOGGING_ARBITER){GM_logInfo("botArbiter.check","","","End");}
+    }catch(err){GM_logError("botArbiter.check","","",err);}
     }
 }
 var bot=new function(){
@@ -349,12 +349,12 @@ try{
     this.isActive=function(){
     try{
         return !!active;
-    }catch(err){GM_logError("bot.isActive\n"+err);}
+    }catch(err){GM_logError("bot.isActive","","",err);}
     }
     this.isBusy=function(){
     try{
         return !!busy;
-    }catch(err){GM_logError("bot.isBusy\n"+err);}
+    }catch(err){GM_logError("bot.isBusy","","",err);}
     }
     this.init=function(){
     try{
@@ -366,7 +366,7 @@ try{
         }else{
             bot.deactivate();
         }
-    }catch(err){GM_logError("bot.init\n"+err);}
+    }catch(err){GM_logError("bot.init","","",err);}
     }
     this.activate=function(){
     try{
@@ -385,7 +385,7 @@ try{
         }
         cell=null;
         botArbiter.check();
-    }catch(err){GM_logError("bot.activate\n"+err);}
+    }catch(err){GM_logError("bot.activate","","",err);}
     }
     this.deactivate=function(){
     try{
@@ -404,7 +404,7 @@ try{
         cell=null;
         botArbiter.stop();//TODO the bot is not deactivated until the timer is runS out .. after that the buttoN should change.. inbetween it should have a inbetween state.
         stopCloseWindowTimer();
-    }catch(err){GM_logError("bot.deactivate\n"+err);}
+    }catch(err){GM_logError("bot.deactivate","","",err);}
     }
     this.start=function(){
     try{
@@ -416,7 +416,7 @@ try{
         interval=window.setInterval(bot.run,1000);
         runId++;
         return runId;
-    }catch(err){GM_logError("bot.start\n"+err);}
+    }catch(err){GM_logError("bot.start","","",err);}
     }
     this.end=function(){
     try{
@@ -424,7 +424,7 @@ try{
         top.unsafeData.autoAction=null;
         runId++;
         busy=false;
-    }catch(err){GM_logError("bot.end\n"+err);}
+    }catch(err){GM_logError("bot.end","","",err);}
     }
     this.run=function(){
     try{
@@ -452,7 +452,7 @@ try{
                 botArbiter.check();
             }
         }
-    }catch(err){GM_logError("bot.run\n"+err);}
+    }catch(err){GM_logError("bot.run","","",err);}
     }
     this.setAction=function(str,showInLogBubble){
     try{
@@ -462,25 +462,25 @@ try{
         if(showInLogBubble){
             logBubble.add(action);
         }
-    }catch(err){GM_logError("bot.setAction\n"+err);}
+    }catch(err){GM_logError("bot.setAction","","",err);}
     }
     this.checkRun=function(type,run,noBot){
     try{
         if((!noBot)&&(!active)){
-            GM_log("BOT INACTIVE: "+type);
+            GM_logInfo("bot.checkRun","type="+type+" run="+run,"","BOT INACTIVE");
             return false;
         }else if(!busy){
-            GM_log("BOT BUSY NOT SET: "+type);
+            GM_logInfo("bot.checkRun","type="+type+" run="+run,"","BOT BUSY NOT SET");
             return false;
         }else if(run!=runId){
-            GM_log("BOT WRONG RUN ID: "+type+" ("+run+"!="+runId+")");
+            GM_logInfo("bot.checkRun","type="+type+" run="+run,"runId="+runId,"BOT WRONG RUN ID");
             return false;
         }else{
             return true;
         }
-    }catch(err){GM_logError("bot.checkRun "+type+"\n"+err);}
+    }catch(err){GM_logError("bot.checkRun","type="+type,"",err);}
     }
-}catch(err){GM_logError("bot\n"+err);}
+}catch(err){GM_logError("bot","","",err);}
 }
 var settings=new function(){
     var data={"global":{},"country":{},"server":{},"account":{}};
@@ -500,7 +500,7 @@ var settings=new function(){
         settings.load("country");
         settings.load("server");
         settings.load("account");
-    }catch(err){GM_logError("settings.init\n"+err);}            
+    }catch(err){GM_logError("settings.init","","",err);}            
     }
     this.load=function(scope){
     try{            
@@ -514,7 +514,7 @@ var settings=new function(){
         if(key){
             data[scope]=explode(GM_getValue(key,"{}"),"settings");
         }
-    }catch(err){GM_logError("settings.load scope="+scope+"\n"+err);}            
+    }catch(err){GM_logError("settings.load","scope="+scope,"",err);}            
     }
     this.save=function(scope){
     try{    
@@ -528,7 +528,7 @@ var settings=new function(){
         if(key){
             GM_setValue(key,implode(data[scope],"settings"));
         }           
-    }catch(err){GM_logError("settings.save scope="+scope+"\n"+err);}            
+    }catch(err){GM_logError("settings.save","scope="+scope,"",err);}            
     }
     this.get=function(scope,key){
     try{            
@@ -537,23 +537,23 @@ var settings=new function(){
         }else if((scope in dataDefault)&&(key in dataDefault[scope])){
             return dataDefault[scope][key];
         }else{
-            GM_logWarning("settings.get returns null\nscope="+scope+" key="+key);
+            GM_logWarning("settings.get","scope="+scope+" key="+key,"","Settings unknown. Function returns null.");
             return null;
         }
-    }catch(err){GM_logError("settings.get scope="+scope+" key="+key+"\n"+err);}         
+    }catch(err){GM_logError("settings.get","scope="+scope+" key="+key,"",err);}         
     }
     this.set=function(scope,key,value){
     try{            
         data[scope][key]=value;
         settings.save(scope);
-    }catch(err){GM_logError("settings.set scope="+scope+" key="+key+"\n"+err);}         
+    }catch(err){GM_logError("settings.set","scope="+scope+" key="+key,"",err);}         
     }
     this.reset=function(scope,key){
     try{
         delete data[scope][key];
         settings.save(scope);
         return settings.get(scope,key);
-    }catch(err){GM_logError("settings.reset scope="+scope+" key="+key+"\n"+err);}           
+    }catch(err){GM_logError("settings.reset","scope="+scope+" key="+key,"",err);}           
     }
     this.checkRequire=function(scope,key){
     try{
@@ -563,14 +563,14 @@ var settings=new function(){
             }
         }
         return true;
-    }catch(err){GM_logError("settings.checkRequire scope="+scope+" key="+key+"\n"+err);}            
+    }catch(err){GM_logError("settings.checkRequire","scope="+scope+" key="+key,"",err);}            
     }
     // Special functions
     this.getPause=function(isShort){
     try{
         var val=settings.get("country",isShort?"pauseShort":"pause");
         return getRandom(val[0],val[1]);
-    }catch(err){GM_logError("settings.set scope="+scope+" key="+key+"\n"+err);}
+    }catch(err){GM_logError("settings.set","scope="+scope+" key="+key,"",err);}
     }
 }
 var closeWindowTimer=null;
@@ -643,25 +643,25 @@ try{
         stopCloseWindowTimer();
     }
     cell=null;
-}catch(err){GM_logError("startCloseWindowTimer\n"+err);}
+}catch(err){GM_logError("startCloseWindowTimer","","",err);}
 }
 function stopCloseWindowTimer(){
     try{
-        if(DEVMODE_FUNCTION){GM_log("Begin stopCloseWindowTimer "+ closeWindowTimer);}
+        if(DEVMODE_FUNCTION){GM_logInfo("stopCloseWindowTimer","","closeWindowTimer="+closeWindowTimer,"Begin");}
         try{ window.clearInterval(closeWindowTimer); }catch(err){}
         closeWindowTimer=null;
         closeWindowTime=CLOSETIME;
         if($("divCloseWindowLayer")){ $("divCloseWindowLayer").style.display="none";}
         if($("divCloseWindow")){ $("divCloseWindow").style.display="none";}
-        if(DEVMODE_FUNCTION){GM_log("End stopCloseWindowTimer "+ closeWindowTimer);}
-    }catch(err){GM_logError("stopCloseWindowTimer \n"+err);}
+        if(DEVMODE_FUNCTION){GM_logInfo("stopCloseWindowTimer","","closeWindowTimer="+closeWindowTimer,"End");}
+    }catch(err){GM_logError("stopCloseWindowTimer","","",err);}
 }
 
 function checkOpenWindow(justcheck){
 try{
     var allWinClosed=true;
     openWindows="";
-    if(DEVMODE_FUNCTION){GM_log("Begin checkOpenWindow automatStarted:"+automatStarted+" busy:"+bot.isBusy()+" closeWindowTimer:"+closeWindowTimer); }
+    if(DEVMODE_FUNCTION){GM_logInfo("checkOpenWindow","","automatStarted="+automatStarted+" busy="+bot.isBusy()+" closeWindowTimer="+closeWindowTimer,"Begin"); }
     if(automatStarted&&!bot.isBusy()){
         for(var ctn in OpenWindow){
             if(!OpenWindow.hasOwnProperty(ctn)){ ctn=null;continue; }
@@ -671,14 +671,15 @@ try{
                     if(typeof OpenWindow[ctn][wn]=="function"){ wn=null;continue; }
                     if($(OpenWindow[ctn][wn]) && $(OpenWindow[ctn][wn]).style.display=="block"){
                         openWindows +=(openWindows!=""?", ":"") + OpenWindow[ctn][wn];
-                        //if(DEVMODE){ GM_log("Container:"+ctn+" Window:"+OpenWindow[ctn][wn]+" is open"+(justcheck?" (checking)":" (timer)")); }
+                        GM_logInfo("checkOpenWindow","justcheck="+justcheck,"container="+ctn+" window="+OpenWindow[ctn][wn],"Window is open");
                         allWinClosed=false;
                     }
                 }
             }
         }
-        if(justcheck===true){ return allWinClosed; }
-        if(allWinClosed){
+        if(justcheck===true){ 
+            return allWinClosed; 
+        }else if(allWinClosed){
             if(closeWindowTimer&&!justcheck){
                 //-- GM_log("checkOpenWindow 1");
                 stopCloseWindowTimer();
@@ -693,10 +694,10 @@ try{
         stopCloseWindowTimer();
     }
     return false;
-}catch(err){GM_logError("checkOpenWindow ctn:"+ctn+" wn:"+wn+" \n"+err);}
+}catch(err){GM_logError("checkOpenWindow","","ctn="+ctn+" wn="+wn,err);}
 }
 function getFarmZoneBonus(zoneNr,product){
-    if(DEVMODE_FUNCTION){GM_log("Begin getFarmZoneBonus zoneNr:"+zoneNr+" product:"+product);}
+    if(DEVMODE_FUNCTION){GM_logInfo("getFarmZoneBonus","zoneNr="+zoneNr+" product="+product,"","Begin");}
     try{
         var bonus=1;
         var zoneNrF=zoneNr.toString().replace(/\.\d+$/,"");
@@ -709,7 +710,7 @@ function getFarmZoneBonus(zoneNr,product){
             bonus-=currBonus/100;
         }
     }catch(err){
-        GM_logError("getFarmZoneBonus \n"+err);
+        GM_logError("getFarmZoneBonus","","",err);
         if(Math.ceil(zoneNrF/6)==parseInt(unsafeWindow.farm,10)){
             if(unsafeWindow.userfarminfos[Math.ceil(zoneNrF/6)][getGarden(zoneNrF)]["specialwaterbonus"][0]==product){
                 bonus=1 - parseInt(unsafeWindow.userfarminfos[Math.ceil(zoneNrF/6)][getGarden(zoneNrF)]["specialwaterbonus"][1],10)/100;
@@ -720,11 +721,11 @@ function getFarmZoneBonus(zoneNr,product){
             }
         }
     }
-    if(DEVMODE_FUNCTION){GM_log("Begin getFarmZoneBonus zoneNrF:"+zoneNrF+" product:"+product+" bonus:"+bonus);}
+    if(DEVMODE_FUNCTION){GM_logInfo("getFarmZoneBonus","zoneNr="+zoneNr+" product="+product,"bonus="+bonus,"End");}
     return bonus;
 }
 function getLowestTimeFarmZone(timeTable){
-    if(DEVMODE_FUNCTION){GM_log("Begin getLowestTimeFarmZone:" + implode(timeTable,"getLowestTimeFarmZone/timeTable"));}
+    if(DEVMODE_FUNCTION){GM_logInfo("getLowestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin");}
     for(var i in timeTable){
         if(!timeTable.hasOwnProperty(i)){ continue; }
         if(zoneNrF==undefined) var zoneNrF=i;
@@ -732,11 +733,11 @@ function getLowestTimeFarmZone(timeTable){
             zoneNrF=i;
         }
     }
-    if(DEVMODE_FUNCTION){GM_log("End getLowestTimeFarmZone:" + zoneNrF);}
+    if(DEVMODE_FUNCTION){GM_logInfo("getLowestTimeFarmZone","","zoneNrF="+zoneNrF,"End");}
     return zoneNrF;
 }
 function getHighestTimeFarmZone(timeTable){
-    if(DEVMODE_FUNCTION){GM_log("Begin getHighestTimeFarmZone:" + zoneNrF);}
+    if(DEVMODE_FUNCTION){GM_logInfo("getHighestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin");}
     for(var i in timeTable){
         if(!timeTable.hasOwnProperty(i)){ continue; }
         if(zoneNrF==undefined) var zoneNrF=i;
@@ -744,7 +745,7 @@ function getHighestTimeFarmZone(timeTable){
             zoneNrF=i;
         }
     }
-    if(DEVMODE_FUNCTION){GM_log("End getHighestTimeFarmZone:" + zoneNrF);}
+    if(DEVMODE_FUNCTION){GM_logInfo("getHighestTimeFarmZone","","zoneNrF="+zoneNrF,"End");}
     return zoneNrF;
 }
 
@@ -826,7 +827,7 @@ function calcDauer(dauer,bonus){ //dauer in sek, bonus zB 0.85
     return gesamtdauer;
 }
 function calcProductScore(product, zoneNrF, amount, endtime){
-    if(DEVMODE_FUNCTION){GM_log("Begin calcScoreAmount: product:"+product+" zoneNrF:"+zoneNrF+" amount:"+amount);}
+    if(DEVMODE_FUNCTION){GM_logInfo("calcProductScore","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime,"","Begin");}
     switch(getBuildingTyp(zoneNrF)){
     case "windmill":
         return unsafeData.prodPoints[3][product];
@@ -859,12 +860,12 @@ function calcProductScore(product, zoneNrF, amount, endtime){
         return unsafeData.prodPoints[4][product];
     break;    
     default:
-        GM_logWarning("calcProductScore returns 0\nproduct="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime+"\ngetBuildingTyp="+getBuildingTyp(zoneNrF));
+        GM_logWarning("calcProductScore","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime,"getBuildingTyp="+getBuildingTyp(zoneNrF),"Building type unknown. Function returns 0.");
         return 0;
     }
 }
 function calcProductAmount(product, zoneNrF, amount, endtime, minPlanted){
-    if(DEVMODE_FUNCTION){GM_log("Begin calcProductAmount: product:"+product+" zoneNrF:"+zoneNrF+" amount:"+amount+" endtime:"+endtime+" minPlanted:"+minPlanted);}
+    if(DEVMODE_FUNCTION){GM_logInfo("calcProductAmount","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime+" minPlanted="+minPlanted,"","Begin");}
     switch(getBuildingTyp(zoneNrF)){
     case "windmill":
         return 1;
@@ -892,7 +893,7 @@ function calcProductAmount(product, zoneNrF, amount, endtime, minPlanted){
         return unsafeData.prodYield[0][product];
     break;
     default: 
-        GM_logWarning("calcProductAmount returns 0\nproduct="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime+"\ngetBuildingTyp="+getBuildingTyp(zoneNrF));
+        GM_logWarning("calcProductAmount","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime,"getBuildingTyp="+getBuildingTyp(zoneNrF),"Function returns 0");
         return 0;
     }
 }
@@ -907,9 +908,6 @@ function calcEmptyProductPositions(product, zoneNrF){
             }else{
                 returnn=120/size;
             }
-            if(DEVMODE&&!tempZoneProductionData[3]){
-                GM_log("calcEmptyProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
-            }
         }
     }else if(isNaN(zoneNrF)){
         var size=unsafeData.prodPlantSize[1][product];
@@ -918,12 +916,12 @@ function calcEmptyProductPositions(product, zoneNrF){
             if(tempZoneProductionData[1] && !isNaN(tempZoneProductionData[1][size])){
                 returnn=tempZoneProductionData[1][size];
             }
-            if(DEVMODE&&!tempZoneProductionData[3]){
-                GM_log("calcEmptyProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
-            }
         }
     }
-    if(DEVMODE_FUNCTION){ GM_log("calcEmptyProductPositions: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);}
+    if(DEVMODE&&!tempZoneProductionData[3]){
+        GM_logInfo("calcEmptyProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"Returned data is flagged to be old." );
+    }
+    if(DEVMODE_FUNCTION){ GM_logInfo("calcEmptyProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"End");}
     return returnn;
 }
 function calcProductPositions(product, zoneNrF){
@@ -938,9 +936,7 @@ function calcProductPositions(product, zoneNrF){
             }else{
                 returnn=120/size;
             }
-            if(DEVMODE&&!tempZoneProductionData[3]){
-                GM_log("calcProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
-            }
+
         }
     }else if(isNaN(zoneNrF)){
         var tempZoneProductionData=unsafeData.zones.getProduction(zoneNrF);     
@@ -949,15 +945,14 @@ function calcProductPositions(product, zoneNrF){
             if(tempZoneProductionData[2] && !isNaN(tempZoneProductionData[2])){
                 returnn=tempZoneProductionData[2];
             }
-
-            if(DEVMODE&&!tempZoneProductionData[3]){
-                GM_log("calcProductPositions OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
-            }
         }
+    }
+    if(DEVMODE&&!tempZoneProductionData[3]){
+        GM_logInfo("calcProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"Returned data is flagged to be old." );
     }
     // GM_log("calcProductPositions: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
     return returnn;
-    }catch(err){ GM_logError("calcProductPositions product="+product+" zoneNrF="+zoneNrF+"\n"+err); }
+    }catch(err){ GM_logError("calcProductPositions","product="+product+" zoneNrF="+zoneNrF,"",err); }
 }
 function calcInGameProductAmountOnField(product, zoneNrF, endtime){
     try{
@@ -973,15 +968,18 @@ function calcInGameProductAmountOnField(product, zoneNrF, endtime){
                 }
             }
             if(DEVMODE&&!tempZoneProductionData[3]){
-                GM_logWarning("calcInGameProductAmountOnField OLD DATA: zoneNrF:"+zoneNrF+" product:"+product+" endtime:"+endtime+" return:"+iBase);
+                GM_logWarning("calcInGameProductAmountOnField","zoneNrF="+zoneNrF+" product="+product+" endtime="+endtime,"return="+iBase,"Returned data is flagged to be old.");
             }
         }
         return iBase;
-    }catch(err){ GM_logError("calcInGameProductAmountOnField product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+"\n"+err);return 0; }
+    }catch(err){ 
+        GM_logError("calcInGameProductAmountOnField","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime,"",err);
+        return 0; 
+    }
 }
-function calcInGameProductAmount(product, zoneNrF, endtime, includeThisField){
+function calcInGameProductAmount(product,zoneNrF,endtime,includeThisField){
     try{
-        if(DEVMODE_FUNCTION){GM_log("Begin calcInGameProductAmount product:"+product); }
+        if(DEVMODE_FUNCTION){GM_logInfo("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"","Begin"); }
         var type=getZoneStockType(zoneNrF);
         var iBase=unsafeData.prodStock[type][product]?unsafeData.prodStock[type][product]:0;
         var fzType=getBuildingTyp(zoneNrF);
@@ -994,9 +992,12 @@ function calcInGameProductAmount(product, zoneNrF, endtime, includeThisField){
                 iBase +=calcInGameProductAmountOnField(product, fz, endtime);
             }
         }
-        if(DEVMODE_FUNCTION){GM_log("End calcInGameProductAmount product:"+product+" endTotal:"+iBase,5,"red");}
+        if(DEVMODE_FUNCTION){GM_logInfo("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"return="+iBase,"End");}
         return iBase;
-    }catch(err){ GM_logError("calcInGameProductAmount product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField+"\n"+err);return 0; }
+    }catch(err){ 
+        GM_logError("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"",err);
+        return 0; 
+    }
 }
 function calcProductionTime(product, zoneNrF){
 try{
@@ -1035,7 +1036,10 @@ try{
         break;
     }
     return time;
-}catch(err){GM_logError("calcProductionTime product:"+product+" zoneNrF:"+zoneNrF+" \n"+err);return 0;}
+}catch(err){
+    GM_logError("calcProductionTime","product:"+product+" zoneNrF:"+zoneNrF,"",err);
+    return 0;
+}
 }
 function isVisibleZone(zoneNr){
     if(extendedListReg.test(zoneNr)){
@@ -1064,11 +1068,11 @@ function isVisibleZone(zoneNr){
     }
 }
 function getZoneTimes(zoneNrL){
-    if(DEVMODE_FUNCTION){GM_log("Begin getZoneTimes " + zoneNrL);}
+    if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","Begin");}
     try{
         var help;
         if(!settings.get("account","showQueueTime")){
-            if(DEVMODE_FUNCTION){GM_log("End getZoneTimes DISABLED:" + zoneNrL);}
+            if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End: disabled");}
             return new Object();
         }
         noTime=false;
@@ -1079,7 +1083,7 @@ function getZoneTimes(zoneNrL){
             zoneTimes[fz]=((help==NEVER)?now:help);
         }
         if(zoneNrL==undefined){
-            if(DEVMODE_FUNCTION){GM_log("End getZoneTimes " + zoneNrL);}
+            if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End");}
             return zoneTimes.clone();
         }else{
             var returnn=new Object();
@@ -1088,10 +1092,13 @@ function getZoneTimes(zoneNrL){
                 returnn[zones[i]]=zoneTimes[zones[i]];
             }
             zoneTimes=null;
-            if(DEVMODE_FUNCTION){GM_log("End getZoneTimes " + zoneNrL);}
+            if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End");}
             return returnn.clone();
         }
-    }catch(err){GM_logError("getZoneTimes \n"+err);return new Object();}
+    }catch(err){
+        GM_logError("getZoneTimes","","",err);
+        return new Object();
+    }
 }
 function getFarmZonesTyp(zType){
     var zoneT=new Array();
@@ -1103,7 +1110,7 @@ function getFarmZonesTyp(zType){
     return zoneT;
 }
 function getZoneActiveList(){
-    if(DEVMODE_FUNCTION){ GM_log("Begin getZoneActiveList zoneNr:"+zoneNrL);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneActiveList","","","Begin");}
     var zones=new Object();
     var returnn=new Array();
     for(var zoneNrF in zoneList){
@@ -1115,11 +1122,11 @@ function getZoneActiveList(){
         returnn.push(zoneNrL);
     }
     zones=null;
-    if(DEVMODE_FUNCTION){ GM_log("End getZoneActiveList zoneNr:"+zoneNrL+" return:"+implode(returnn,"getZoneActiveList/returnn"));}
+    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneActiveList","","zoneNrL="+zoneNrL+" return="+implode(returnn,"getZoneActiveList/returnn"),"End");}
     return returnn;
 }
 function getZonesFromList(zoneNrL){
-    if(DEVMODE_FUNCTION){ GM_log("Begin getZonesFromList zoneNr:"+zoneNrL);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("getZonesFromList","zoneNrL="+zoneNrL,"","Begin"); }
     var returnn=new Array(); // [[zoneNrF,slot],...]
     // if(isNaN(zoneNrL)){
     //  returnn.push(zoneNrL);
@@ -1132,7 +1139,7 @@ function getZonesFromList(zoneNrL){
                 returnn.push(i);
             }
         }
-    if(DEVMODE_FUNCTION){ GM_log("End getZonesFromList zoneNr:"+zoneNrL+" return:"+implode(returnn,"getZonesFromList/returnn"));}
+    if(DEVMODE_FUNCTION){ GM_logInfo("getZonesFromList","zoneNrL="+zoneNrL,"return="+implode(returnn,"getZonesFromList/returnn"),"End");}
     return returnn;
 }
 function createZoneList(zoneNrS){
@@ -1157,7 +1164,7 @@ try{
     if(!zoneToList[zoneToListId]){ setZoneListId(zoneToListId,zoneToListId); }
     if(!zoneList[zoneToList[zoneToListId]]){ createZoneList(zoneToList[zoneToListId]); }
     return zoneToList[zoneToListId];
-}catch(err){GM_logError("getZoneListId\n"+err);}
+}catch(err){GM_logError("getZoneListId","","",err);}
 }
 function setZoneListId(zoneNrF,zoneNrL){
     if(!unsafeData.ALL_SLOTS[zoneNrF]){ return false; }
@@ -1222,7 +1229,7 @@ function getGarden(zoneNr){
             return "megafield";
         break;
         default:
-            GM_logWarning("getGarden returns null\nzoneNr="+zoneNr);
+            GM_logWarning("getGarden","zoneNr="+zoneNr,"","Zone unknown. Function returns null");
             return null;
         }
     }else{
@@ -1248,7 +1255,7 @@ function getZoneType(zoneNr){
         }else{ 
             return unsafeData.zones.getBuilding(zoneNr);
         }
-    }catch(err){GM_logError("getZoneType\n"+err);}
+    }catch(err){GM_logError("getZoneType","","",err);}
 }
 function getBuildingTyp(zoneNr){
     try{
@@ -1258,7 +1265,7 @@ function getBuildingTyp(zoneNr){
     }else{
         return unsafeData.BUILDINGTYPE[zoneType];
     }
-    }catch(err){ GM_logError("getBuildingTyp zoneNr="+zoneNr+"\n"+err); }
+    }catch(err){ GM_logError("getBuildingTyp","zoneNr="+zoneNr,"",err); }
 }
 function getZoneNameCorrected(zoneNrFL){
     if(extendedListReg.test(zoneNrFL)){//extended is always a field
@@ -1281,8 +1288,7 @@ function getOpenZoneNrF(){
 function getZoneName(recursionCount,zoneNrS,zoneNrL,queueNum,showPaired,showLocation,showBonus,showName){
 try{
     if(recursionCount>100){throw("TOO MUCH RECURSION")}
-    if(DEVMODE_FUNCTION){ GM_log("Begin getZoneName zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL);}
-    // GM_log("Begin getZoneName zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" args="+implode([queueNum,showPaired,showLocation,showBonus,showName]));
+    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneName","recursionCount="+recursionCount+" zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin"); }
     if(showName==undefined){ showName=true; }
     zoneNrS=zoneNrS.toString();
     var zoneNrF=zoneNrS.replace(/\.\d+$/,"");
@@ -1362,14 +1368,17 @@ try{
             txt=(isNaN(zoneNrF)?getText(getZoneType(zoneNrF)):unsafeWindow.buildinginfos[0][getZoneType(zoneNrF)][10].replace(" ","&nbsp;"))+"&nbsp;"+txt;
         }
     }
-    if(DEVMODE_FUNCTION){ GM_log("End getZoneName zoneNrL:"+zoneNrL);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneName","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"zoneNrF="+zoneNrF,"End"); }
     return txt;
-}catch(err){GM_logError("getZoneName zoneNrF:"+zoneNrF+" zoneNrS:"+zoneNrS+" zoneNrL:"+zoneNrL+" \n"+err);return "Error. See console.";}
+}catch(err){
+    GM_logError("getZoneName","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"zoneNrF="+zoneNrF,err);
+    return "Error. See console.";
+}
 }
 
 function drawAutomatIcon(name,zoneNrS,appendTo,style){
 try {
-    if(DEVMODE_FUNCTION){ GM_log("Begin drawAutomatIcon name=" + name);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("drawAutomatIcon","name="+name,"","Begin");}
     // logBubble.add("drawAutomatIcon name="+name+" zoneNrS="+zoneNrS);
     if(!(automatIcons[name]&&automatIcons[name][1]&&automatIcons[name][1].parentNode)){
         automatIcons[name]=[zoneNrS];
@@ -1422,20 +1431,20 @@ try {
                 throw("Building type '"+getBuildingTyp(zoneNrS)+"' unknown.");
             }
             zoneNrF=null;zoneNrS=null;zoneNrL=null;
-        }catch(err){GM_logError("automatIcon.click\n $('"+this.id+"') zoneNrF="+zoneNrF+" zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" \n"+err);}
+        }catch(err){GM_logError("automatIcon.click","$('"+this.id+"') zoneNrF="+zoneNrF+" zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"",err);}
         },false);
-        automatIcons[name][1].addEventListener("mouseover", function(evt){
-            toolTip.show(evt, toolTipProductSmall(this.getAttribute("zoneNrS"),this.getAttribute("zoneNrL"),0,this));
+        automatIcons[name][1].addEventListener("mouseover", function(event){
+            toolTip.show(event, toolTipProductSmall(this.getAttribute("zoneNrS"),this.getAttribute("zoneNrL"),0,this));
         },false);
         updateQueueBox(zoneNrS);
     }
-    if(DEVMODE_FUNCTION){ GM_log("End drawAutomatIcon:" + zoneNrS);}
-}catch(err){GM_logError("drawAutomatIcon "+zoneNrS+"\n"+err);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("drawAutomatIcon","zoneNrS="+zoneNrS,"","End");}
+}catch(err){GM_logError("drawAutomatIcon","zoneNrS="+zoneNrS,"",err);}
 }
 
 function drawQueueBox(zoneNrS, zoneNrL, appendTo){
 try{
-    if(DEVMODE_FUNCTION){ GM_log("Begin drawQueueBox zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id); }
+    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"","Begin"); }
     if(zoneNrS==undefined){ return; }
     if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
@@ -1452,9 +1461,9 @@ try{
     // Repeat button
     if(OPTION_LIST_REPEAT && zoneSettings[zoneNrL]["repeat"]!=undefined){
         newelm=createElement("div",{id:"divAutoMatButtonRepeat"+zoneNrL,"class":"link queueButtonRepeat"},$("divAutoMatButton"+zoneNrL));
-        newelm.addEventListener("mouseover", function(evt){
+        newelm.addEventListener("mouseover", function(event){
             var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
-            toolTip.show(evt, zoneSettings[zoneNrL]["repeat"]?getText("automat_repeat_on"):getText("automat_repeat_off"));
+            toolTip.show(event, zoneSettings[zoneNrL]["repeat"]?getText("automat_repeat_on"):getText("automat_repeat_off"));
         },false);
         newelm.style.backgroundImage=(zoneSettings[zoneNrL]["repeat"])?"url("+IMAGES["repeat_on"]+")":"url("+IMAGES["repeat_off"]+")";
         newelm.addEventListener("click", function(){
@@ -1469,9 +1478,9 @@ try{
     }
     // Shuffle button
     newelm=createElement("div",{id:"divAutoMatButtonShuffle"+zoneNrL,"class":"link queueButtonShuffle"},$("divAutoMatButton"+zoneNrL));
-    newelm.addEventListener("mouseover", function(evt){
+    newelm.addEventListener("mouseover", function(event){
         var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
-        toolTip.show(evt, zoneSettings[zoneNrL]["shuffle"]?getText("automat_shuffle_on"):getText("automat_shuffle_off"));
+        toolTip.show(event, zoneSettings[zoneNrL]["shuffle"]?getText("automat_shuffle_on"):getText("automat_shuffle_off"));
     },false);
     newelm.style.backgroundImage=(zoneSettings[zoneNrL]["shuffle"])?"url("+IMAGES["shuffle_on"]+")":"url("+IMAGES["shuffle_off"]+")";
     newelm.addEventListener("click",function(){
@@ -1484,7 +1493,7 @@ try{
     },false);
     // Rotate button
     newelm=createElement("div",{id:"divAutoMatButtonRotate"+zoneNrL,"class":"link queueButtonRotate"},$("divAutoMatButton"+zoneNrL));
-    newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_rotate"));},false);
+    newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_rotate"));},false);
     newelm.style.backgroundImage="url("+IMAGES["rotate"]+")";
     newelm.addEventListener("click",function(){
         var zoneNrS=this.parentNode.parentNode.getAttribute("zoneNrS");
@@ -1494,7 +1503,7 @@ try{
     },false);
     // add button.
     newelm=createElement("div",{id:"divAutoMatButtonAdd"+zoneNrL,"class":"link queueButtonAdd"},$("divAutoMatButton"+zoneNrL));
-    newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QueAddText"));},false);
+    newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueAddText"));},false);
     newelm.addEventListener("click",function(){
         var zoneNrS=this.parentNode.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
@@ -1512,7 +1521,7 @@ try{
         // Clear mill-list then add all button
         newelm=createElement("div",{id:"divAutoMatButtonAddAll"+zoneNrL,"class":"link queueButtonAddAll"},$("divAutoMatButton"+zoneNrL));
         createElement("img",{id:"divAutoMatButtonAddAll",style:"width:21px;height:15px;top:1px;left:1px;",src:IMAGES["reload_all"]},newelm);
-        newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_MillClearAddAll"));},false);
+        newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_MillClearAddAll"));},false);
         newelm.addEventListener("click",function(){
             var zoneNrS=this.parentNode.parentNode.getAttribute("zoneNrS");
             var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
@@ -1534,7 +1543,7 @@ try{
     if(!isNaN(zoneNrS)){
         // copy button
         newelm=createElement("div",{id:"divAutoMatButtonCopy"+zoneNrL,"class":"link queueButtonCopy"},$("divAutoMatButton"+zoneNrL));
-        newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QueCopyTextHeader"));},false);
+        newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueCopyTextHeader"));},false);
         newelm.addEventListener("click",function(){
             var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
             var appendTo=this.parentNode.parentNode.id;
@@ -1559,7 +1568,7 @@ try{
                 }
             }
             selectDiv.value="-";
-            selectDiv.addEventListener("change", function(evt){
+            selectDiv.addEventListener("change", function(event){
                 if(this.value!="-"){
                     drawQueueListSmall(this.value, this.value, $("farmZoneTo"));
                 }else{
@@ -1575,7 +1584,7 @@ try{
 
             var newdiv=createElement("div",{style:"position:absolute;top:0px;left:100px;","class":"link"},divfooter);
             createElement("img",{src:GFX + "button_ok.png"},newdiv);
-            newdiv.addEventListener("click", function(evt){
+            newdiv.addEventListener("click", function(event){
                 var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
                 var toZone=$("copyZone").value;
                 // GM_log("Copy "+ zoneNrL+ " to " + toZone);
@@ -1597,17 +1606,17 @@ try{
                     click($("divQueueBoxClose"));
                 }
             },false);
-            newdiv.addEventListener("mouseover", function(evt){
+            newdiv.addEventListener("mouseover", function(event){
                 this.src=GFX + "button_ok_over.png";
-                toolTip.show(evt,unsafeWindow.commitbox_text_yes);
+                toolTip.show(event,unsafeWindow.commitbox_text_yes);
             },false);
-            newdiv.addEventListener("mouseout", function(evt){
+            newdiv.addEventListener("mouseout", function(event){
                 this.src=GFX + "button_ok.png";
             },false);
 
             var newdiv=createElement("div",{style:"position:relative;top:0px;left:200px;","class":"link"},divfooter);
             createElement("img",{src:GFX + "button_no.png"},newdiv);
-            newdiv.addEventListener("click", function(evt){
+            newdiv.addEventListener("click", function(event){
                 var zoneNrS=this.parentNode.parentNode.getAttribute("zoneNrS");
                 var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
                 var reAppendTo=this.parentNode.parentNode.getAttribute("reappendto");
@@ -1617,11 +1626,11 @@ try{
                     click($("divQueueBoxClose"));
                 }
             },false);
-            newdiv.addEventListener("mouseover", function(evt){
+            newdiv.addEventListener("mouseover", function(event){
                 this.src=GFX + "button_no_over.png";
-                toolTip.show(evt,unsafeWindow.commitbox_text_no);
+                toolTip.show(event,unsafeWindow.commitbox_text_no);
             },false);
-            newdiv.addEventListener("mouseout", function(evt){
+            newdiv.addEventListener("mouseout", function(event){
                 this.src=GFX + "button_no.png";
             },false);
             newdiv=null;
@@ -1677,13 +1686,13 @@ try{
     $("divAutoMatScrollLeft"+zoneNrL).style.visibility=(scrlelm.scrollLeft>0?"visible":"hidden");
     $("divAutoMatScrollRight"+zoneNrL).style.visibility=((scrlelm.scrollLeft + scrlelm.clientWidth)<scrlelm.scrollWidth?"visible":"hidden");
 
-    if(DEVMODE_FUNCTION){ GM_log("End drawQueueBox :" + zoneNrL); }
+    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"","End"); }
     newlayer=null;newelm=null;newscrL=null;newscrR=null;scrlelm=null;appendTo=null;
-}catch(err){GM_logError("drawQueueBox \n"+err);}
+}catch(err){GM_logError("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"",err);}
 }
 function drawQueueItemBox(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
-    if(DEVMODE_FUNCTION){ GM_log("Begin drawQueueItemBox zoneNrS:" + zoneNrS + " zoneNrL:" + zoneNrL + " queueNum:"+ queueNum); }
+    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"","Begin"); }
     if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
     // begin adding new box
@@ -1694,23 +1703,23 @@ try{
     newlayer.setAttribute("queueNum",queueNum);
 /*
     newelm=createElement("div",{id:newlayerId+"test1",alt:"del","class":"link","style":"position:absolute;width:100%;height:10px;top:0px;left:0px;background:blue;opacity:0;z-index:250;cursor:default;"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){
+    newelm.addEventListener("mouseover", function(event){
         this.style.opacity = 0.5;
     },false);
-    newelm.addEventListener("mouseout", function(evt){
+    newelm.addEventListener("mouseout", function(event){
         this.style.opacity = 0;
     },false);
     newelm=createElement("div",{id:newlayerId+"test2",alt:"del","class":"link","style":"position:absolute;width:20px;height:100%;top:0px;left:-10px;background:blue;opacity:0;z-index:250;cursor:default;"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){
+    newelm.addEventListener("mouseover", function(event){
         this.style.opacity = 0.5;
     },false);
-    newelm.addEventListener("mouseout", function(evt){
+    newelm.addEventListener("mouseout", function(event){
         this.style.opacity = 0;
     },false);
 */
     // UP Button
     var newelm=createElement("div",{id:newlayerId+"Up",alt:"up","class":"link queueItemButton queueItemUpButton"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QueUpButton"));},false);
+    newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueUpButton"));},false);
     newelm.addEventListener("click", function(){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
@@ -1726,7 +1735,7 @@ try{
 
     // Down Button
     newelm=createElement("div",{id:newlayerId+"Down",alt:"down","class":"link queueItemButton queueItemDownButton"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QueDownButton"));},false);
+    newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueDownButton"));},false);
     newelm.addEventListener("click", function(){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
@@ -1771,16 +1780,16 @@ try{
             drawQueueChooseItemBox(zoneNrS, zoneNrL, queueNum, $("divChooseBoxInner"));
         }
     },false);
-    newelm.addEventListener("mouseover", function(evt){
+    newelm.addEventListener("mouseover", function(event){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
         var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-        toolTip.show(evt, toolTipMain(zoneNrS, zoneNrL, queueNum, this.parentNode));
+        toolTip.show(event, toolTipMain(zoneNrS, zoneNrL, queueNum, this.parentNode));
     },false);
 
     // Minus Button
     newelm=createElement("div",{id:newlayerId+"M",alt:"-","class":"link queueItemButton queueItemMinButton"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QueMin"));},false);
+    newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueMin"));},false);
     newelm.addEventListener("click", function(){
         // GM_log("Minus button id " + this.id.substring(0,this.id.length-1));
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
@@ -1794,7 +1803,7 @@ try{
 
     // Plus Button
     newelm=createElement("div",{id:newlayerId+"P",alt:"+","class":"link queueItemButton queueItemPlusButton"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QuePlus"));},false);
+    newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QuePlus"));},false);
     newelm.addEventListener("click", function(){
         // GM_log("Plus button id " + this.id.substring(0,this.id.length-1));
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
@@ -1809,11 +1818,11 @@ try{
     // Behaviour Type Button
     newelm=createElement("div",{id:newlayerId+"B",alt:"Behaviour","class":"link queueItemButton queueItemBehaviourButton"},newlayer);
     newelm.style.backgroundImage=(zoneNrS!="windmill"&&zoneList[zoneNrL][queueNum][3])?"url("+IMAGES["functionR"]+")":"url("+IMAGES["functionF"]+")";
-    newelm.addEventListener("mouseover", function(evt){
+    newelm.addEventListener("mouseover", function(event){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
         var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-        toolTip.show(evt, (zoneNrS!="windmill"&&zoneList[zoneNrL][queueNum][3])?getText("automat_QueBehaviourR"):getText("automat_QueBehaviourF"));
+        toolTip.show(event, (zoneNrS!="windmill"&&zoneList[zoneNrL][queueNum][3])?getText("automat_QueBehaviourR"):getText("automat_QueBehaviourF"));
     },false);
     newelm.addEventListener("click", function(){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
@@ -1846,11 +1855,11 @@ try{
     if(OPTION_ITEM_REPEAT){
         newelm=createElement("div",{id:newlayerId+"Mode",alt:"Mode","class":"link queueItemButton queueItemModeButton"},newlayer);
         newelm.style.backgroundImage=(getZoneType(zoneNrS)!=1 || zoneList[zoneNrL][queueNum][4])?"url("+IMAGES["mode_repeat"]+")":"url("+IMAGES["mode_1time"]+")";
-        newelm.addEventListener("mouseover", function(evt){
+        newelm.addEventListener("mouseover", function(event){
             var zoneNrS=this.parentNode.getAttribute("zoneNrS");
             var zoneNrL=this.parentNode.getAttribute("zoneNrL");
             var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-            toolTip.show(evt, (getZoneType(zoneNrS)==1 && zoneList[zoneNrL][queueNum][4])?getText("automat_QueBehaviourR"):getText("automat_QueBehaviourF"));
+            toolTip.show(event, (getZoneType(zoneNrS)==1 && zoneList[zoneNrL][queueNum][4])?getText("automat_QueBehaviourR"):getText("automat_QueBehaviourF"));
         },false);
         newelm.addEventListener("click", function(){
             var zoneNrS=this.parentNode.getAttribute("zoneNrS");
@@ -1881,7 +1890,7 @@ try{
             }else{
                 this.value=(isNaN(parseInt(this.value,"")))?1:parseInt(this.value,"");
             }
-        }catch(err){GM_logError("drawQueueItemBox InputRepeatField changed \n"+err);}
+        }catch(err){GM_logError("drawQueueItemBox InputRepeatField changed","","",err);}
         },false);
     }
     // Input Field
@@ -1901,7 +1910,7 @@ try{
         }else{
             this.value=(isNaN(parseInt(this.value,"")))?1:parseInt(this.value,"");
         }
-    }catch(err){GM_logError("drawQueueItemBox InputField changed \n"+err);}
+    }catch(err){GM_logError("drawQueueItemBox InputField changed","","",err);}
     },false);
 /*
     newelm.addEventListener("mouseover", function(){
@@ -1922,7 +1931,7 @@ try{
 
     // add button.
     newelm=createElement("img",{id:newlayerId+"A","class":"link queueItemAddButton",src:GFX+"buildingupdatebutton_off.png"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QueAddAboveText"));},false);
+    newelm.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueAddAboveText"));},false);
     newelm.addEventListener("click",function(){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
@@ -1936,21 +1945,21 @@ try{
         reFillQueueBox(zoneNrS, zoneNrL, queueNum);
         click($("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Item"));
     },false);
-    newelm.addEventListener("mouseover", function(evt){
+    newelm.addEventListener("mouseover", function(event){
         this.setAttribute("src",GFX+"buildingupdatebutton_on.png");
-        toolTip.show(evt, getText("automat_QueAddAboveText"));
+        toolTip.show(event, getText("automat_QueAddAboveText"));
     },false);
-    newelm.addEventListener("mouseout", function(evt){
+    newelm.addEventListener("mouseout", function(event){
         this.setAttribute("src",GFX+"buildingupdatebutton_off.png");
     },false);
 
     // Delete Button
     newelm=createElement("img",{id:newlayerId+"D","class":"link queueItemDeleteButton",src:GFX+"button_cancel_off.png"},newlayer);
-    newelm.addEventListener("mouseover", function(evt){
+    newelm.addEventListener("mouseover", function(event){
         this.setAttribute("src",GFX+"button_cancel_on.png");
-        toolTip.show(evt, getText("automat_QueDeleteText"));
+        toolTip.show(event, getText("automat_QueDeleteText"));
     },false);
-    newelm.addEventListener("mouseout", function(evt){
+    newelm.addEventListener("mouseout", function(event){
         this.setAttribute("src",GFX+"button_cancel_off.png");
     },false);
     newelm.addEventListener("click", function(){
@@ -1979,8 +1988,8 @@ try{
     // End Time
     createElement("div",{id:newlayerId+"ET","class":"queueItemTime",style:"height:"+queueItemBoxTimeHeight+"px;"},newlayer);
     newlayer=null;newelm=null;
-    if(DEVMODE_FUNCTION){ GM_log("End drawQueueItemBox :" + zoneNrL + " : " + queueNum); }
-}catch(err){GM_logError("drawQueueItemBox \n"+err);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"","End"); }
+}catch(err){GM_logError("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"",err);}
 }
 function drawQueueListSmall(zoneNrF, zoneNrL, appendTo){
     if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
@@ -2047,11 +2056,11 @@ try{
             if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
             updateQueueBox(zoneNrS, zoneNrL);
     },false);
-    newdiv.addEventListener("mouseover", function(evt){
+    newdiv.addEventListener("mouseover", function(event){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
         var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-        toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+        toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
     },false);
     for(var iProd=0;iProd<unsafeData.prodName[0].length;iProd++){
         //if((unsafeData.prodTyp[0][iProd]=="v")&&!(unsafeData.prodBlock[0][iProd]&&unsafeData.prodBlock[0][iProd].match(/l/))){
@@ -2072,11 +2081,11 @@ try{
                 if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
                 updateQueueBox(zoneNrS, zoneNrL);
             },false);
-            newdiv.addEventListener("mouseover", function(evt){
+            newdiv.addEventListener("mouseover", function(event){
                 var zoneNrS=this.parentNode.getAttribute("zoneNrS");
                 var zoneNrL=this.parentNode.getAttribute("zoneNrL");
                 var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-                toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+                toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
             },false);
         }
     }
@@ -2093,11 +2102,11 @@ try{
                 createElement("div",{"class":"kp"+iProd,style:"position:absolute;right:0px;bottom:0px;"},newdiv);
                 // newdiv.addEventListener("click", function(){
                 // },false);
-                newdiv.addEventListener("mouseover",function(evt){
+                newdiv.addEventListener("mouseover",function(event){
                     var zoneNrS=this.parentNode.getAttribute("zoneNrS");
                     var zoneNrL=this.parentNode.getAttribute("zoneNrL");
                     var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-                    toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+                    toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
                 },false);
             }
         }
@@ -2110,7 +2119,7 @@ try{
     newdiv=null;appendTo=null;
     updateQueueBox(zoneNrS, zoneNrL);
     // GM_log("End drawQueueChooseItemBox :" + zoneNrL);
-}catch(err){GM_logError("drawQueueChooseItemBox \n"+err);}
+}catch(err){GM_logError("drawQueueChooseItemBox ","","",err);}
 }
 function drawFactoryChooseItemBox(zoneNrS, zoneNrL, appendTo){
 try{
@@ -2134,10 +2143,10 @@ try{
         if(this.parentNode==$("divChooseBoxInner")){ click($("divChooseBoxClose")); }
         updateQueueBox(zoneNrF, zoneNrL);
     },false);
-    newdiv.addEventListener("mouseover", function(evt){
+    newdiv.addEventListener("mouseover", function(event){
         var zoneNrF=this.parentNode.getAttribute("zoneNrF");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
-        toolTip.show(evt, toolTipProductSmall(zoneNrF, zoneNrL, 0, this));
+        toolTip.show(event, toolTipProductSmall(zoneNrF, zoneNrL, 0, this));
     },false);
     for(var v in unsafeData.BUILDING_INPUT[getZoneType(zoneNrS)]){
         if(!unsafeData.BUILDING_INPUT[getZoneType(zoneNrS)].hasOwnProperty(v)){ continue; }
@@ -2152,10 +2161,10 @@ try{
             if(this.parentNode==$("divChooseBoxInner")){ click($("divChooseBoxClose")); }
             updateQueueBox(zoneNrF, zoneNrL);
         },false);
-        newdiv.addEventListener("mouseover", function(evt){
+        newdiv.addEventListener("mouseover", function(event){
             var zoneNrS=this.parentNode.getAttribute("zoneNrS");
             var zoneNrL=this.parentNode.getAttribute("zoneNrL");
-            toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, 0, this));
+            toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, 0, this));
         },false);
     }
     if(appendTo==$("divChooseBoxInner")){
@@ -2166,7 +2175,7 @@ try{
     zoneFeedCurr=null;zoneProdCurr=null;
     newdiv=null;appendTo=null;
     // GM_log("End drawFactoryChooseItemBox :" + zoneNrL);
-}catch(err){GM_logError("drawFactoryChooseItemBox \n"+err);}
+}catch(err){GM_logError("drawFactoryChooseItemBox ","","",err);}
 }
 function drawStableChooseFeedBox(zoneNrF, zoneNrL, appendTo){
 try{
@@ -2244,10 +2253,10 @@ try{
 
         newdiv=createElement("div",{"name":k,"queueNum":queueNum,"class":"divChooseFeed"},appendTo);
         newitem=createElement("div",{id:"divChooseItem"+zoneNrL+"Q"+queueNum+"I","class":"divChooseFeedIcon v"+iProd,"product":iProd},newdiv);
-        newitem.addEventListener("mouseover", function(evt){
+        newitem.addEventListener("mouseover", function(event){
             var zoneNrF=this.parentNode.parentNode.getAttribute("zoneNrF");
             var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
-            toolTip.show(evt, toolTipProductSmall(zoneNrF, zoneNrL, this.parentNode.getAttribute("name"), this));
+            toolTip.show(event, toolTipProductSmall(zoneNrF, zoneNrL, this.parentNode.getAttribute("name"), this));
         },false);
 
         // if(unsafeWindow.produkt_level[iProd]<=level){
@@ -2262,7 +2271,7 @@ try{
             for(var v=1;v<=Math.max(1,feedMax[k]);v++){
                 newval=createElement("div",{style:"width:"+help+"px;"+(v==1?"border:none;":"")},newdiv1);
                 newval.setAttribute("value",v);
-                newval.addEventListener("mouseover", function(evt){ toolTip.show(evt, this.getAttribute("value"));},false);
+                newval.addEventListener("mouseover", function(event){ toolTip.show(event, this.getAttribute("value"));},false);
             }
             newdiv1.addEventListener("click",function(event){
                 var help=parseInt(event.target.getAttribute("value"),10);
@@ -2304,7 +2313,7 @@ try{
     calcStableChooseFeedBox(0,feedAmount[0]);
     newdiv=null;newdiv1=null;newspan=null;newitem=null;newval=null;
     // GM_log("End drawStableChooseFeedBox :" + zoneNrF);
-}catch(err){GM_logError("drawStableChooseFeedBox \n"+err);}
+}catch(err){GM_logError("drawStableChooseFeedBox ","","",err);}
 }
 function drawMillChooseItemBox(zoneNrF, zoneNrL, queueNum, appendTo){
 try {
@@ -2331,7 +2340,7 @@ try {
             if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
             updateQueueBox(zoneNrF, zoneNrL);
     },false);
-    newdiv.addEventListener("mouseover", function(evt){ toolTip.show(evt, getText("automat_QueDontWork"));},false);
+    newdiv.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueDontWork"));},false);
     newdiv.style.backgroundColor=(zoneList[zoneNrL][0][0]==PRODSTOP)? "black":"";
     createElement("div",{"class":"fm"+PRODSTOP,style:"position:relative;"},newdiv);
     createElement("div",{"class":"divMillChooseItemNumber"},newdiv,sign_inf);
@@ -2351,8 +2360,8 @@ try {
                 if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
                 updateQueueBox(zoneNrF, zoneNrL);
             },false);
-            newdiv.addEventListener("mouseover", function(evt){
-                toolTip.show(evt, unsafeWindow.showFormulaInfos(parseInt(this.childNodes[0].getAttribute("class").replace("fm",""),10)));
+            newdiv.addEventListener("mouseover", function(event){
+                toolTip.show(event, unsafeWindow.showFormulaInfos(parseInt(this.childNodes[0].getAttribute("class").replace("fm",""),10)));
             },false);
             newdiv.style.backgroundColor=(zoneList[zoneNrL][queueNum][0]==iProd)? "black":"";
             createElement("div",{"class":"fm"+iProd,style:"position:absolute;"},newdiv);
@@ -2366,7 +2375,7 @@ try {
     updateQueueBox(zoneNrF,zoneNrL);
     newdiv=null;appendTo=null;
     // GM_log("End drawMillChooseItemBox :" + queueNum);
-}catch(err){GM_logError("drawMillChooseItemBox \n"+err);}
+}catch(err){GM_logError("drawMillChooseItemBox ","","",err);}
 }
 function drawForestryChooseItemBox(zoneNrF, zoneNrL, queueNum, appendTo){
 try{
@@ -2395,11 +2404,11 @@ try{
             if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
             updateQueueBox(zoneNrF, zoneNrL);
     },false);
-    newdiv.addEventListener("mouseover", function(evt){
+    newdiv.addEventListener("mouseover", function(event){
         var zoneNrF=this.parentNode.getAttribute("zoneNrF");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
         var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-        toolTip.show(evt, toolTipProductSmall(zoneNrF, zoneNrL, queueNum, this));
+        toolTip.show(event, toolTipProductSmall(zoneNrF, zoneNrL, queueNum, this));
     },false);
 
     // GM_log("drawForestryChooseItemBox prodName:"+implode(unsafeData.prodName[1],"GMprodName[1]"));
@@ -2432,11 +2441,11 @@ try{
                 if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
                 updateQueueBox(zoneNrF, zoneNrL);
             },false);
-            newdiv.addEventListener("mouseover", function(evt){
+            newdiv.addEventListener("mouseover", function(event){
                 var zoneNrF=this.parentNode.getAttribute("zoneNrF");
                 var zoneNrL=this.parentNode.getAttribute("zoneNrL");
                 var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-                toolTip.show(evt, toolTipProductSmall(zoneNrF, zoneNrL, queueNum, this));
+                toolTip.show(event, toolTipProductSmall(zoneNrF, zoneNrL, queueNum, this));
             },false);
         }
     }
@@ -2447,7 +2456,7 @@ try{
     newdiv=null;appendTo=null;
     updateQueueBox(zoneNrF, zoneNrL);
     // GM_log("End drawForestryChooseItemBox zoneNrF:"+zoneNrF+" zoneNrL:" + zoneNrL);
-}catch(err){GM_logError("drawForestryChooseItemBox iProd:"+iProd+"\n"+err);}
+}catch(err){GM_logError("drawForestryChooseItemBox","iProd:"+iProd,"",err);}
 }
 function drawFoodworldChooseItemBox(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
@@ -2473,11 +2482,11 @@ try{
             if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
             updateQueueBox(zoneNrS, zoneNrL);
     },false);
-    newdiv.addEventListener("mouseover", function(evt){
+    newdiv.addEventListener("mouseover", function(event){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
         var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-        toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+        toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
     },false);
   
     for(var iProd=0;iProd<unsafeData.prodName[0].length;iProd++){
@@ -2499,11 +2508,11 @@ try{
                 if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
                 updateQueueBox(zoneNrS, zoneNrL);
             },false);
-            newdiv.addEventListener("mouseover", function(evt){
+            newdiv.addEventListener("mouseover", function(event){
                 var zoneNrS=this.parentNode.getAttribute("zoneNrS");
                 var zoneNrL=this.parentNode.getAttribute("zoneNrL");
                 var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-                toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+                toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
             },false);
         }
         }
@@ -2516,7 +2525,7 @@ try{
     updateQueueBox(zoneNrS, zoneNrL);
 
     // GM_log("End drawFoodworldChooseItemBox :" + zoneNrL);
-}catch(err){GM_logError("drawFoodworldChooseItemBox \n"+err);}
+}catch(err){GM_logError("drawFoodworldChooseItemBox ","","",err);}
 }
 function drawChooseItemBoxMegafield(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
@@ -2542,11 +2551,11 @@ try{
             if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
             updateQueueBox(zoneNrS, zoneNrL);
     },false);
-    newdiv.addEventListener("mouseover", function(evt){
+    newdiv.addEventListener("mouseover", function(event){
         var zoneNrS=this.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.getAttribute("zoneNrL");
         var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-        toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+        toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
     },false);
     var iProd;
     var products=unsafeWindow.megafield_data.job.products;
@@ -2569,11 +2578,11 @@ try{
                 if(this.parentNode==$("divChooseBoxInner")) click($("divChooseBoxClose"));
                 updateQueueBox(zoneNrS, zoneNrL);
             },false);
-            newdiv.addEventListener("mouseover", function(evt){
+            newdiv.addEventListener("mouseover", function(event){
                 var zoneNrS=this.parentNode.getAttribute("zoneNrS");
                 var zoneNrL=this.parentNode.getAttribute("zoneNrL");
                 var queueNum=parseInt(this.parentNode.getAttribute("queueNum"),10);
-                toolTip.show(evt, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
+                toolTip.show(event, toolTipProductSmall(zoneNrS, zoneNrL, queueNum, this));
             },false);
         }
     }
@@ -2584,12 +2593,12 @@ try{
     newdiv=null;appendTo=null;
     updateQueueBox(zoneNrS, zoneNrL);
     // GM_log("End drawChooseItemBoxMegafield :" + zoneNrL);
-}catch(err){GM_logError("drawChooseItemBoxMegafield \n"+err);}
+}catch(err){GM_logError("drawChooseItemBoxMegafield ","","",err);}
 }
 
 function updateQueueBox(zoneNrS,zoneNrL){
 try{
-    if(DEVMODE_FUNCTION){ GM_log("Begin updateQueueBox zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL); }
+    if(DEVMODE_FUNCTION){ GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin"); }
     if(zoneNrS==undefined){ return; }
     var err_trace="init";
     if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
@@ -2974,22 +2983,22 @@ try{
         queueNum=null;zoneTimes=null;
     }
     divChooseEndTimeCurr=null;
-    if(DEVMODE_FUNCTION){ GM_log("End updateQueueBox :" + zoneNrS);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","End");}
     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneSettings",implode(zoneSettings,"updateQueueBox/zoneSettings"));
     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneList", implode(zoneList,"updateQueueBox/zoneList"));
     checkReadyZone();
-}catch(err){GM_logError("updateQueueBox ("+err_trace+") zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+"\n"+err);}
+}catch(err){GM_logError("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"err_trace="+err_trace,err);}
 }
 function redrawQueueBox(zoneNrS, zoneNrL, appendTo){
-    if(DEVMODE_FUNCTION){  GM_log("Begin redrawQueueBox zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id);}
+    if(DEVMODE_FUNCTION){  GM_logInfo("redrawQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id,"","Begin");}
     if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrS);
     if($("divChooseBox").style.display=="block") click($("divChooseBoxClose"));
     if($("divQueueBox").style.display=="block") click($("divQueueBoxClose"));
     drawQueueBox(zoneNrS, zoneNrL, appendTo);
-    if(DEVMODE_FUNCTION){ GM_log("End redrawQueueBox"); }
+    if(DEVMODE_FUNCTION){ GM_logInfo("redrawQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id,"","End");}
 }
 function reFillQueueBox(zoneNrF, zoneNrL, scrollToQueue){
-    if(DEVMODE_FUNCTION){ GM_log("Begin reFillQueueBox zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue=" +scrollToQueue);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","Begin");}
     if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
     // GM_log("Begin2 reFillQueueBox zoneNrF:"+ zoneNrF+" zoneNrL:"+ zoneNrL+" scrollToQueue:" + scrollToQueue);
     if($("divAutoMatQueueBox"+zoneNrL)){
@@ -3015,9 +3024,9 @@ function reFillQueueBox(zoneNrF, zoneNrL, scrollToQueue){
     }else if($("divAutomatIcon_"+zoneNrF)){
         updateQueueBox(zoneNrF, zoneNrL);
     }else{
-        GM_logWarning("reFillQueueBox zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue=" +scrollToQueue+"\nQueueBox not found");
+        GM_logWarning("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","QueueBox not found");
     }
-    if(DEVMODE_FUNCTION){ GM_log("End reFillQueueBox :"+zoneNrF);}
+    if(DEVMODE_FUNCTION){ GM_logInfo("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","End");}
 }
 
 function toolTipProductSmall(zoneNrS, zoneNrL, queueNum, parent){
@@ -3161,7 +3170,6 @@ try{
                 createElement("div",{style:"display:block"},content,queueNum==0?getText("automat_QueTimeNextReady"):getText("automat_QueTimeFirstReady"));//getText("automat_usedFarmFieldsReadyAt"));
                 createElement("div",{style:"margin:2px 0px 2px 0px;width:100%;height:1px;border-bottom:1px dashed black;"},content);
 
-                // GM_log ("toolTipProductSmall zoneArray:" + print_r(zoneArray));
                 for(var fz in zoneBeginTime){
                     if(!zoneBeginTime.hasOwnProperty(fz)){ continue; }
                     var cfz=getBuildingTyp(fz);//TODO cfz name change
@@ -3199,7 +3207,10 @@ try{
 
     // GM_log("End toolTipProductSmall : " + zoneNrF + " : " + queueNum);
     return thisTitle;
-}catch(err){GM_logError("toolTipProductSmall\nzoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" queueNum="+queueNum+" parent.id="+parent.id+"\n"+err);return "Error. See console.";}
+}catch(err){
+    GM_logError("toolTipProductSmall","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" queueNum="+queueNum+" parent.id="+parent.id,"",err);
+    return "Error. See console.";
+}
 }
 function toolTipMain(zoneNrF, zoneNrL, queueNum, parent){
     if(zoneNrF=="windmill"){
@@ -3397,7 +3408,10 @@ try{
 
     // GM_log("End toolTipProduct :" + zoneNrF + " : " + queueNum);
     return thisTitle;
-}catch(err){GM_logError("toolTipProduct \n"+err);return "Error. See console.";}
+}catch(err){
+    GM_logError("toolTipProduct","","",err);
+    return "Error. See console.";
+}
 }
 function toolTipRecipe(zoneNrF, zoneNrL, queueNum, parent){
 try{
@@ -3554,13 +3568,16 @@ try{
 
     // GM_log("End toolTipRecipe :" + zoneNrF + " : " + queueNum);
     return thisTitle;
-}catch(err){GM_logError("toolTipRecipe \n"+err);return "Error. See console.";}
+}catch(err){
+    GM_logError("toolTipRecipe ","","",err);
+    return "Error. See console.";
+}
 }
 
 function setNextQueueItem(zoneNrS){
 try{
     if(DEVMODE){
-        GM_log("setNextQueueItem zoneNrS="+zoneNrS);
+        GM_logInfo("setNextQueueItem","zoneNrS="+zoneNrS,"","Begin");
         logBubble.add("Setting next queue item ("+zoneNrS+")");
     }
     var zoneNrL=getZoneListId(zoneNrS);
@@ -3574,15 +3591,18 @@ try{
         }
     }
     reSortQueue(zoneNrS, true); //->reFillQueueBox
-    if(DEVMODE){GM_log("End setNextQueueItem :" + zoneNrS);}
+    if(DEVMODE){ GM_logInfo("setNextQueueItem","zoneNrS="+zoneNrS,"","End"); }
     return zoneList[zoneNrL][0];
-}catch(err){ GM_logError("setNextQueueItem zoneNrS="+zoneNrS+"\n"+err);return DEFAULT_ZONELIST_ITEM.clone(); }
+}catch(err){ 
+    GM_logError("setNextQueueItem","zoneNrS="+zoneNrS,"",err);
+    return DEFAULT_ZONELIST_ITEM.clone(); 
+}
 }
 
 function reSortQueue(zoneNrF, nextItemMode){
 try{
     if(DEVMODE){
-        GM_log("reSortQueue "+zoneNrF);
+        GM_logInfo("reSortQueue","zoneNrF="+zoneNrF,"","Begin");
         logBubble.add("reSort queue items ("+zoneNrF+")");
     }
     var itemsRackDone=0,itemsRepeatDone=0,itemsStopsFound=0,iDoRack=false;
@@ -3680,12 +3700,15 @@ try{
     reFillQueueBox(zoneNrF);
     // GM_log("End reSortQueue :" + zoneNrF);
     return zoneList[zoneNrL][0][0];
-}catch(err){GM_logError("reSortQueue \n"+err);return PRODSTOP;}
+}catch(err){
+    GM_logError("reSortQueue ","","",err);
+    return PRODSTOP;
+}
 }
 
 function reSortWindmill(shuffle){
 try{
-    if(DEVMODE){GM_log("Begin reSortWindmill shuffle:"+shuffle);}
+    if(DEVMODE){GM_logInfo("reSortWindmill","shuffle="+shuffle,"","Begin");}
     if(DEVMODE){logBubble.add("reSortWindmill items");}
     var zoneNrF="windmill";
     var zoneNrS="windmill.1";
@@ -3713,14 +3736,14 @@ try{
             zoneList[zoneNrL].splice(0,1); // delete first items
         }
     }while (zoneList[zoneNrL][0][1]<=0 || zoneList[zoneNrL].length==0 || (zoneList[zoneNrL][0][0]!=PRODSTOP && (!autoMillStorage[zoneList[zoneNrL][0][0]]||autoMillStorage[zoneList[zoneNrL][0][0]][2]<=0)));
-}catch(err){GM_logError("reSortWindmill \n"+err);}
+}catch(err){GM_logError("reSortWindmill ","","",err);}
 }
 //[zoneNrF][QueNr][0]=product number, [1]=number to grow, [2]=number grown in loop modus, [3]=Behaviour (Field (default), Rack, Time(//TODO)), [4]=mode (1 time (default), repeat)
 //[zoneNrF][mill][0]=product number, [1]=number to grow, [2]=number grown in loop modus, [3]=Min([4]), [4]=Array([X]=Max recipes for product X)
 //autoMillStorage: {[rId][0]=number bought, [1]=total number in zoneList[getZoneListId("windmill")], [2]=max number of recipes on products global Math.min([3][pId]), [3][pId]=max number of recipes for this products per products
 function reCalculateWindmill(){
 try{
-    if(DEVMODE){GM_log("Begin reCalculateWindmill");}
+    if(DEVMODE){GM_logInfo("reCalculateWindmill","","","Begin");}
     if(DEVMODE){logBubble.add("reCalculateWindmill");}
     var err_trace = "init";
     var zoneNrF="windmill";
@@ -3790,22 +3813,22 @@ try{
     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_autoMillStorage",implode(autoMillStorage,"reCalculateWindmill/autoMillStorage"));
     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneList",implode(zoneList,"reCalculateWindmill/zoneList"));
     // GM_log("End reCalculateWindmill");
-}catch(err){ GM_logError("reCalculateWindmill ("+err_trace+")\n"+err);}
+}catch(err){ GM_logError("reCalculateWindmill","","err_trace="+err_trace,err);}
 }
-function checkReadyZone(fz){
+function checkReadyZone(zoneNr){
 try{
-    if(DEVMODE_FUNCTION){GM_log("Begin checkReadyZone fz:"+fz+" readyZone:"+implode(unsafeData.readyZone,"checkReadyZone/readyZone"));}
+    if(DEVMODE_FUNCTION){GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"readyZone="+implode(unsafeData.readyZone,"checkReadyZone/readyZone"),"Begin");}
     var help,lz;
     if(!bot.isActive()){
         return false;
-    }else if(fz){
-        lz = getZoneListId(fz);
-        if((help=unsafeData.readyZone[fz])&&help[2]&&((help[1]=="w")||(help[1]=="r" && (zoneList[lz][0][0]!=PRODSTOP||!settings.get("account","disableCropFields")))||(help[1]=="e" && zoneList[lz][0][0]!=PRODSTOP))){
-            if(zoneWaiting[fz]){
-                GM_log("checkReadyZone\n fz="+fz+" zoneWaiting="+getDateText(zoneWaiting[fz])+" "+getDaytimeStr(zoneWaiting[fz])+"\nZone is waiting.");
+    }else if(zoneNr){
+        lz = getZoneListId(zoneNr);
+        if((help=unsafeData.readyZone[zoneNr])&&help[2]&&((help[1]=="w")||(help[1]=="r" && (zoneList[lz][0][0]!=PRODSTOP||!settings.get("account","disableCropFields")))||(help[1]=="e" && zoneList[lz][0][0]!=PRODSTOP))){
+            if(zoneWaiting[zoneNr]){
+                GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"zoneWaiting="+getDateText(zoneWaiting[zoneNr])+" "+getDaytimeStr(zoneWaiting[zoneNr]),"Zone is waiting.");
             } else {
-                if(isNaN(fz)){
-                    if(settings.get("account","botUse"+getGarden(fz).toTitleCase())){ botArbiter.add(getGarden(fz)); }
+                if(isNaN(zoneNr)){
+                    if(settings.get("account","botUse"+getGarden(zoneNr).toTitleCase())){ botArbiter.add(getGarden(zoneNr)); }
                 } else {
                     botArbiter.add("farm");
                 }
@@ -3818,7 +3841,7 @@ try{
                 lz = getZoneListId(fz);
                 if((help[1]=="w")||(help[1]=="r" && (zoneList[lz][0][0]!=PRODSTOP||!settings.get("account","disableCropFields")))||(help[1]=="e" && zoneList[lz][0][0]!=PRODSTOP)){
                     if(zoneWaiting[fz]){
-                        GM_log("checkReadyZone fz="+fz+" zoneWaiting="+getDateText(zoneWaiting[fz])+" "+getDaytimeStr(zoneWaiting[fz]));
+                        GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"fz="+fz+" zoneWaiting="+getDateText(zoneWaiting[fz])+" "+getDaytimeStr(zoneWaiting[fz]),"Zone is waiting.");
                     } else {
                         if(isNaN(fz)){
                             if(settings.get("account","botUse"+getGarden(fz).toTitleCase())){
@@ -3832,12 +3855,12 @@ try{
             }
         }
     }
-    if(DEVMODE_FUNCTION){GM_log("End checkReadyZone fz:"+fz+" return:"+false);}
+    if(DEVMODE_FUNCTION){GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"return="+false,"End");}
     return false;
-}catch(err){ GM_logError("checkReadyZone fz="+fz+"\n readyZone="+implode(unsafeData.readyZone,"checkReadyZone/readyZone")+"\n"+err);}
+}catch(err){ GM_logError("checkReadyZone","zoneNr="+zoneNr,"readyZone="+implode(unsafeData.readyZone,"checkReadyZone/readyZone"),err);}
 }
 function getReadyZone(location){
-    if(DEVMODE_FUNCTION){GM_log("Begin getReadyZone location:"+location+" readyZone:"+implode(unsafeData.readyZone,"getReadyZone/readyZone"));}
+    if(DEVMODE_FUNCTION){GM_logInfo("getReadyZone","location="+location,"readyZone="+implode(unsafeData.readyZone,"getReadyZone/readyZone"),"Begin");}
     var help,zoneNrS,zoneNrL;
     if(!bot.isActive()){
         return null;
@@ -3848,7 +3871,7 @@ function getReadyZone(location){
                 zoneNrL = getZoneListId(zoneNrS);
                 if((help[1]=="w")||(help[1]=="r" && (zoneList[zoneNrL][0][0]!=PRODSTOP||!settings.get("account","disableCropFields")))||(help[1]=="e" && zoneList[zoneNrL][0][0]!=PRODSTOP)){
                     if(zoneWaiting[zoneNrS]){
-                        GM_log("getReadyZone zoneNrS="+zoneNrS+" zoneWaiting="+getDateText(zoneWaiting[zoneNrS])+" "+getDaytimeStr(zoneWaiting[zoneNrS]));
+                        GM_logInfo("getReadyZone","location="+location,"zoneNrS="+zoneNrS+" zoneWaiting="+getDateText(zoneWaiting[zoneNrS])+" "+getDaytimeStr(zoneWaiting[zoneNrS]),"Zone is waiting.");
                     } else if((!isNaN(zoneNrS))||settings.get("account","botUse"+getGarden(zoneNrS).toTitleCase())){
                         return zoneNrS;
                     }
@@ -3856,7 +3879,7 @@ function getReadyZone(location){
             }
         }
     }
-    if(DEVMODE_FUNCTION){ GM_log("End getReadyZone location:"+location+" return:"+null); }
+    if(DEVMODE_FUNCTION){ GM_logInfo("getReadyZone","location="+location,"return="+null,"End"); }
     return null;
 }
 // Bot-functions handling fields,stables and factories
@@ -3980,7 +4003,7 @@ function autoZone(){
             }
         }
         if(DEVMODE_FUNCTION){ GM_log("End autoZone handled.zoneNr:"+handled.zoneNr);}
-    }catch(err){GM_logError("boterror \n"+err);autoZoneFinish();} //busy=false;
+    }catch(err){GM_logError("boterror ","","",err);autoZoneFinish();} //busy=false;
 }
 */
 function autoZoneHandle(runId){
@@ -3993,7 +4016,7 @@ DE-1: ERROR autoZoneHandle case 2* handled.zoneNrF=14
 readyZone:{"15":{"0":2,"1":"r","2":true},"18":{"0":2,"1":"r","2":true}} 
 TypeError: can't convert undefined to object
 */
-    if(DEVMODE_FUNCTION){GM_log("Begin autoZoneHandle"); }
+    if(DEVMODE_FUNCTION){GM_logInfo("autoZoneHandle","runId="+runId,"","Begin"); }
     bot.setAction("autoZoneHandle");
     window.setTimeout(function(){
         switch(handled.zoneBuildingTyp){
@@ -4020,13 +4043,13 @@ TypeError: can't convert undefined to object
                         }
                         }(runId),settings.getPause());
                     }
-                }catch(err){GM_logError("autoZoneHandle case 1 handled.zoneNrF:"+handled.zoneNrF+" readyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone")+" \n"+err);}
+                }catch(err){GM_logError("autoZoneHandle (case 1)","","handled.zoneNrF="+handled.zoneNrF+" readyZone="+implode(unsafeData.readyZone,"autoZoneHandle/readyZone"),err);}
                 break;
             case 2:
                 //-- GM_log("autoZoneHandle run nextFkt case:2");
                 // try{
                 //  autoZoneCrop();
-                // }catch(err){GM_logError("autoZoneHandle case 2 handled.zoneNrF="+handled.zoneNrF+"\nreadyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone")+" \n"+err);}
+                // }catch(err){GM_logError("autoZoneHandle (case 2)","","handled.zoneNrF="+handled.zoneNrF+" readyZone="+implode(unsafeData.readyZone,"autoZoneHandle/readyZone"),err);}
                 window.setTimeout(function(runId){
                 try{
                     bot.setAction("autoZoneHandle(2,cases)");
@@ -4038,7 +4061,7 @@ TypeError: can't convert undefined to object
                         unsafeData.readyZone[handled.zoneNrS][2]=false;
                         autoFarmStable(runId,1,false,true,zoneList[handled.zoneNrL][0][0],0,zoneList[handled.zoneNrL][0][1]);
                     }
-                }catch(err){GM_logError("autoZoneHandle case 2* handled.zoneNrF="+handled.zoneNrF+"\nreadyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone")+" \n"+err);}
+                }catch(err){GM_logError("autoZoneHandle (case 2*)","","handled.zoneNrF="+handled.zoneNrF+" readyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone"),err);}
                 },settings.getPause(),runId);
                 break;
             case 3:
@@ -4057,7 +4080,7 @@ TypeError: can't convert undefined to object
                             }
                         }
                     },settings.getPause(),runId);
-                }catch(err){GM_logError("autoZoneHandle case 3 handled.zoneNrF:"+handled.zoneNrF+" readyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone")+" \n"+err);}
+                }catch(err){GM_logError("autoZoneHandle (case 3)","","handled.zoneNrF="+handled.zoneNrF+" readyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone"),err);}
                 break;
             /*
             case "windmill":
@@ -4090,7 +4113,7 @@ TypeError: can't convert undefined to object
                             }
                         },settings.getPause());
                     }
-                }catch(err){GM_logError("autoZoneHandle case forest handled.zoneNrF:"+handled.zoneNrF+" readyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone")+" \n"+err);}
+                }catch(err){GM_logError("autoZoneHandle (forest)","","handled.zoneNrF="+handled.zoneNrF+" readyZone:"+implode(unsafeData.readyZone,"autoZoneHandle/readyZone"),err);}
                 break;
             */
         }
@@ -4108,7 +4131,7 @@ try{
     break;
     }
 
-    if(DEVMODE){GM_log("autoZoneCrop zoneTyp"+zoneTyp);}
+    if(DEVMODE){GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp,"Begin");}
     switch (zoneTyp){
         case 1:
             var cropable=false;
@@ -4121,7 +4144,7 @@ try{
                     break;
                 }
             }
-            if(DEVMODE){GM_log("Cropping cropable:"+cropable);}
+            if(DEVMODE){GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp+" cropable="+cropable,"Cropping");}
             if(cropable){
                 logBubble.add("Cropping");
                 unsafeData.zones.getProduction(handled.zoneNrF)[3]=false;
@@ -4162,9 +4185,9 @@ try{
                     }
                 }
                 v=null;
-            }catch(err){GM_logError("forest cropping i:"+i+" v:"+v+"\n"+err);}
+            }catch(err){GM_logError("autoZoneCrop (forest cropping)","","i="+i+" v="+v,err);}
 
-            if(DEVMODE){GM_log("Cropping cropable:"+cropable);}
+            if(DEVMODE){GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp+" cropable="+cropable,"Cropping");}
             if(cropable){
                 logBubble.add("Cropping");
                 unsafeData.zones.getProduction("forest")[3]=false;
@@ -4178,11 +4201,11 @@ try{
             return false;
     }
     // GM_log("End ernte do nothing");
-} catch(err){GM_logError("autoZoneCrop \n"+err);return false;}
+} catch(err){GM_logError("autoZoneCrop ","","",err);return false;}
 }
 function autoZoneFinish(runId,closeButton){
     // closeButton is optional, a click is fired on it
-    if(DEVMODE){GM_log("autoZoneFinish handled.zoneNrF:"+handled.zoneNrF +" closeButton:"+(closeButton?closeButton.id:closeButton) + " readyZone:"+implode(unsafeData.readyZone,"autoZoneFinish/readyZone"));}
+    if(DEVMODE){GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"handled.zoneNrF="+handled.zoneNrF+" readyZone="+implode(unsafeData.readyZone,"autoZoneFinish/readyZone"),"Begin");}
     //if(DEVMODE){GM_log("autoZoneFinish arg caller:"+autoZoneFinish.caller.toString());}
     bot.setAction("autoZoneFinish: init");
     var help;
@@ -4196,11 +4219,11 @@ function autoZoneFinish(runId,closeButton){
                 try{
                     click(closeButton);
                 }catch(err){
-                    GM_logError("autoZoneFinish closeButton\n"+err);
+                    GM_logError("autoZoneFinish (closeButton)","","",err);
                     autoZoneFinish(runId);
                 }
             }else if(closeButton!=undefined){
-                if(DEVMODE){GM_log("autoZoneFinish not found handled.zoneNrF:"+handled.zoneNrF+" closeButton:"+(closeButton?closeButton.id:closeButton));}
+                if(DEVMODE){GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"","Closebutton not found");}
             }
             bot.setAction("autoZoneFinish: reFillQueueBox");
             if(handled.zoneNrL){
@@ -4215,26 +4238,26 @@ function autoZoneFinish(runId,closeButton){
             bot.deactivate();
         }
     }
-    if(DEVMODE){GM_log("autoZoneFinish end");}
+    if(DEVMODE){GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"","End");}
 }
 
 function autoFarm(runId){
     try{
+        if(DEVMODE_FUNCTION){GM_logInfo("autoFarm","runId="+runId,"readyZone="+implode(unsafeData.readyZone,"autoFarm/readyZone"),"Begin");}
         if(bot.checkRun("autoFarm",runId)){
-            if(DEVMODE_FUNCTION){GM_log("Begin autoFarm readyZone:"+implode(unsafeData.readyZone,"autoFarm/readyZone"));}
             if(DEVMODE){ logBubble.add("autoFarm"); }
             bot.setAction("autoFarm");
             var farmNr=(parseInt(unsafeWindow.farm,10)-1);
             var zoneNrS=getReadyZone(farmNr);
-            if(DEVMODE){ GM_log("autoFarm 1 farmNr:"+farmNr+" zoneNrS="+zoneNrS); }
+            if(DEVMODE){ GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,""); }
             if(zoneNrS==null){
                 bot.setAction("autoFarm: wrong farm");
                 for(var i=0;i<parseInt(unsafeWindow.farmamount,10);i++){
                     if((zoneNrS==null)&&(i!=farmNr)){ zoneNrS=getReadyZone(i); }
                 }
-                if(DEVMODE){GM_log("autoFarm 2 zoneNrS:"+zoneNrS);}
+                if(DEVMODE){GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,""); }
                 if(zoneNrS==null){ // nothing to work (all fields waiting !?)
-                    if(DEVMODE){GM_log("autoFarm farmNr:"+farmNr+" zoneNrS="+zoneNrS);}
+                    if(DEVMODE){GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,"Nothing to work"); }
                     autoZoneFinish(runId);
                 }else{
                     document.addEventListener("gameFarmOpened",function(runId){
@@ -4275,7 +4298,7 @@ function autoFarm(runId){
                             window.setTimeout(autoFarm,settings.getPause(),runId);
                         }else{
                         // open zone
-                            if(DEVMODE){ GM_log("autoFarm click zone: "+farmNr+"."+handled.zoneNr+" readyZone=" +implode(unsafeData.readyZone,"autoFarm/readyZone")); }
+                            if(DEVMODE){ GM_logInfo("autoFarm","runId="+runId,"handled="+implode(handled,"autoFarm/handled")+" readyZone="+implode(unsafeData.readyZone,"autoFarm/readyZone"),"Click zone "+handled.farmNr+"-"+handled.zoneNr); }
                             logBubble.add("Opening zone "+handled.farmNr+"-"+handled.zoneNr);
                             switch(handled.zoneBuildingTyp){
                                 case 1:
@@ -4333,14 +4356,17 @@ function autoFarm(runId){
                     }
                 }
             }
-            if(DEVMODE_FUNCTION){ GM_log("End autoFarm handled.zoneNr:"+handled.zoneNr);}
+            if(DEVMODE_FUNCTION){ GM_logInfo("autoFarm","","handled.zoneNr:"+handled.zoneNr,"End");}
         }
-    }catch(err){GM_logError("autoFarm\n"+err);autoZoneFinish(runId);} //busy=false;
+    }catch(err){
+        GM_logError("autoFarm","","",err);
+        autoZoneFinish(runId);
+    } //busy=false;
 }
 function autoFarmCrop(runId,v){
 try{
     if(bot.checkRun("autoFarm",runId,true)){
-        if(DEVMODE){ GM_log("autoFarmCrop "+v); }
+        if(DEVMODE){ GM_logInfo("autoFarmCrop","runId="+runId+" v="+v,"","Begin"); }
         bot.setAction("autoFarmCrop "+v);
         var wait=false;
         if(unsafeWindow.mode!="1"){ 
@@ -4365,12 +4391,12 @@ try{
             }
         }
     }
-}catch(err){GM_logError("autoFarmCrop runId="+runId+"\n"+err);}         
+}catch(err){GM_logError("autoFarmCrop","runId="+runId,"",err);}         
 }
 function autoFarmPlantInit(runId,rackitemNr){
 try{
+    if(DEVMODE) GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"Begin");
     if(bot.checkRun("autoFarmPlantInit",runId)){
-        if(DEVMODE) GM_log("autoFarmPlantInit :"+rackitemNr + "(" + typeof rackitemNr+")");
         bot.setAction("autoFarmPlantInit");
         logBubble.add("Initializing planting ("+rackitemNr+")");
         if(unsafeWindow.racksort&&(unsafeWindow.racksort>4)){
@@ -4412,7 +4438,7 @@ try{
                     checkReadyZone();
                 },(1000*time)+settings.getPause());
                 logBubble.add("Waiting for crop in "+getTimeStr(time));
-                if(DEVMODE){GM_log("initAutoPlant Waiting for crop in "+getTimeStr(time));}
+                if(DEVMODE){GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"","Waiting for crop in "+getTimeStr(time));}
                 autoZoneFinish(runId);
                 return false;
             }
@@ -4483,12 +4509,12 @@ try{
             nextRack=null;
         }
     }
-}catch(err){GM_logError("autoFarmPlantInit runId="+runId+"\n"+err);}
+}catch(err){GM_logError("autoFarmPlantInit","runId="+runId,"",err);}
 }
 function autoFarmPlantDefault(runId){
 try{
+    if(DEVMODE){ GM_logInfo("autoFarmPlantDefault","runId="+runId,"","Begin"); }
     if(bot.checkRun("autoFarmPlantDefault",runId)){
-        if(DEVMODE) GM_log("autoFarmPlantDefault");
         bot.setAction("autoFarmPlantDefault");
         logBubble.add("Searching other plant");
         if(unsafeWindow.updateRackBusy){
@@ -4556,12 +4582,12 @@ try{
             }
         }
     }
-}catch(err){GM_logError("autoFoodworldBuilding runId="+runId+"\n"+err);}
+}catch(err){GM_logError("autoFoodworldBuilding","runId="+runId,"",err);}
 }
 function autoFarmPlant(runId,v,didPlant,isBot){
 try{
+    if(DEVMODE_FUNCTION){ GM_logInfo("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","Begin"); }
     if(bot.checkRun("autoFarmPlant",runId,!isBot)){
-        if(DEVMODE_FUNCTION){GM_log("Begin autoFarmPlant :"+v+":"+didPlant+":"+isBot);}
         bot.setAction("autoFarmPlant");
         if(v==1){ logBubble.add(getText("automat_planting")); }
         if(unsafeWindow.mode!="0"){ click($("anpflanzen")); }
@@ -4609,7 +4635,7 @@ try{
                     autoFarmWater(runId,1,didPlant,isBot);
                 }
             }else{
-                GM_log("All fields done");
+                GM_logInfo("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","All fields done");
                 logBubble.add("All fields done");
                 if(autoZoneCrop()){
                     window.setTimeout(autoFarmPlant,settings.getPause(),runId,1,didPlant,isBot);
@@ -4618,9 +4644,9 @@ try{
                     window.setTimeout(autoFarmWater,settings.getPause(),runId,1,didPlant,isBot);
                 }
             }
-        if(DEVMODE_FUNCTION){GM_log("End autoFarmPlant :"+ v);}
+        if(DEVMODE_FUNCTION){GM_logInfo("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","End");}
     }
-}catch(err){GM_logError("autoFarmPlant runId="+runId+"\n"+err);}    
+}catch(err){GM_logError("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"",err);}    
 }
 function autoFarmPlantPremium(runId, step){
 try{
@@ -4666,7 +4692,7 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
- }catch(err){GM_logError("autoFarmPlantPremium runId="+runId+" step="+step+"\n"+err);}
+ }catch(err){GM_logError("autoFarmPlantPremium","runId="+runId+" step="+step+"","",err);}
 }
 function autoFarmWater(runId,v,didPlant,isBot){
 try{
@@ -4674,9 +4700,8 @@ try{
         if(isBot&&!settings.get("account","autoWater")){ // bot shall not water (option)
             autoZoneFinish(runId,$("gardencancel"));
         }else{
-            if(DEVMODE_FUNCTION){GM_log("Begin autoFarmWater :"+v);}
+            if(DEVMODE_FUNCTION){GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","Begin");}
             bot.setAction("autoFarmWater "+v+": init");
-            if(DEVMODE&&v==1){ GM_log("autoFarmWater :"+v); }
             if(v==1){ logBubble.add(getText("automat_watering")); }
             if($("tooltipwaterall")){
                 bot.setAction("autoFarmWater "+v+": premium");
@@ -4716,10 +4741,10 @@ try{
                     }
                 }
             }
-            if(DEVMODE_FUNCTION){GM_log("End autoFarmWater :"+v);}
+            if(DEVMODE_FUNCTION){GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","End");}
         }
     }
-}catch(err){GM_logError("autoFarmWater runId="+runId+"\n"+err);}
+}catch(err){GM_logError("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"",err);}
 }
 
 function autoFarmStable(runId,step,didFeed,isBot,sorte,feedcounter,maxFeed){
@@ -4846,7 +4871,7 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
-}catch(err){GM_logError("autoFarmStable runId="+runId+" step="+step+" didFeed="+didFeed+" isBot="+isBot+" sorte="+sorte+" feedcounter="+feedcounter+" maxFeed="+maxFeed+"\n"+err);}
+}catch(err){GM_logError("autoFarmStable","runId="+runId+" step="+step+" didFeed="+didFeed+" isBot="+isBot+" sorte="+sorte+" feedcounter="+feedcounter+" maxFeed="+maxFeed,"",err);}
 }
 function autoFarmFactory(runId,step){
     try{
@@ -4900,7 +4925,7 @@ function autoFarmFactory(runId,step){
         if(action){ action(); }
         listeningEvent=null;action=null;
     }
-    }catch(err){ GM_logError("autoFarmFactory("+step+")\n"+err); }
+    }catch(err){ GM_logError("autoFarmFactory","runId="+runId+" step="+step,"",err); }
 }
 function autoFarmFactoryOil(runId,step){
     try{
@@ -5019,7 +5044,7 @@ function autoFarmFactoryOil(runId,step){
         if(action){ action(); }
         listeningEvent=null;action=null;
     }
-    }catch(err){ GM_logError("autoFarmFactoryOil("+step+")\n"+err); }
+    }catch(err){ GM_logError("autoFarmFactoryOil","runId="+runId+" step="+step,"",err); }
 }
 function autoFarmFactoryKnitting(runId,step){
     try{
@@ -5075,8 +5100,8 @@ function autoFarmFactoryKnitting(runId,step){
             } else if(zoneList[handled.zoneNrL][0][0]==PRODSTOP){
                 autoFarmFactoryKnitting(runId,5);
             }else if(!$("strickerei_slot"+handled.slot).onclick.toString().match(/strickereiSelection/)){
-                logBubble.add("LOGIC ERROR autoFarmFactoryKnitting 3: onclick="+$("strickerei_slot"+handled.slot).onclick);
-                GM_log("LOGIC ERROR autoFarmFactoryKnitting 3: onclick="+$("strickerei_slot"+handled.slot).onclick);
+                logBubble.add("LOGIC ERROR autoFarmFactoryKnitting 3: onclick="+$("strickerei_slot"+handled.slot).onclick); //TODO text
+                GM_logWarning("autoFarmFactoryKnitting","runId="+runId+" step="+step,"","LOGIC ERROR: onclick="+$("strickerei_slot"+handled.slot).onclick);
                 autoFarmFactoryKnitting(runId,5);
             }else{
                 listeningEvent="gameFactoryKnittingDialogStart";
@@ -5134,7 +5159,7 @@ function autoFarmFactoryKnitting(runId,step){
         if(action){ action(); }
         listeningEvent=null;action=null;
     }
-    }catch(err){ GM_logError("autoFarmFactoryKnitting("+step+")\n"+err); }
+    }catch(err){ GM_logError("autoFarmFactoryKnitting","runId="+runId+" step="+step,"",err); }
 }
 
 GM_registerMenuCommand("megafield_data", function(){ 
@@ -5278,7 +5303,7 @@ logBubble.add("autoMegafield: set plant");
             }
         break;}
         case 8:{ // Plant Response
-            if(unsafeData.readyZone[handled.zoneNrS]&&unsafeData.readyZone[handled.zoneNrS][2]){
+            if(unsafeData.readyZone[handled.zoneNrS]&&(!unsafeData.readyZone[handled.zoneNrS][2])){
 logBubble.add("autoMegafield: wait for response");
                 window.setTimeout(autoMegafield,settings.getPause(),runId,step);
             }else{
@@ -5313,7 +5338,7 @@ logBubble.add("autoMegafield: wait for response");
         if(action){ action(); }
         listeningEvent=null;action=null;
     }
-    }catch(err){ GM_logError("autoMegafield("+step+")\n"+err); }
+    }catch(err){ GM_logError("autoMegafield","runId="+runId+" step="+step,"",err); }
 }
 function autoWindmill(runId,step){
 try{
@@ -5426,7 +5451,7 @@ try{
         if(action){ action(); }
         listeningEvent=null;action=null;
     }
-}catch(err){ GM_logError("autoWindmill("+step+")\n"+err); }
+}catch(err){ GM_logError("autoWindmill","runId="+runId+" step="+step,"",err); }
 }
 function checkPowerUp(mode){
 try{
@@ -5441,7 +5466,10 @@ try{
         }
     }
     return mode==0?(!!foundPowerUp):foundPowerUp;
-}catch(err){ GM_logError("checkPowerUp\n"+err);return null; }
+}catch(err){ 
+    GM_logError("checkPowerUp","mode="+mode,"",err);
+    return null; 
+}
 }
 function autoActivatePowerUp(runId,step,foundPowerUp){
 try{
@@ -5541,35 +5569,38 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
-}catch(err){GM_logError("autoActivatePowerUp runId="+runId+" step="+step+"\n"+err);}
+}catch(err){ GM_logError("autoActivatePowerUp","runId="+runId+" step="+step,"",err); }
 }
 function autoForestry(runId){
-    try{
-        if(!settings.get("account","botUseForestry")){
-            GM_log("FORESTRY BOT OFF: autoForestry");
-        }else if(bot.checkRun("autoForestry",runId)){
-            bot.setAction("autoForestry");
-            var zoneNrS=getReadyZone("forestry");
-            if(zoneNrS==null){
-                GM_log("autoForestry. no ready zone\nreadyZone="+implode(unsafeData.readyZone));
-                autoZoneFinish(runId);
-            }else{
-                handled.set(zoneNrS);
-                try{ unsafeWindow.jsTimeStamp=unsafeWindow.Zeit.Client - unsafeWindow.Zeit.Verschiebung; }catch(err){}
-                if(unsafeData.readyZone[handled.zoneNrS][2]){
-                    switch(handled.zoneBuildingTyp){
-                        case "forest": autoForestryForest(runId,1,1,false,true); break;
-                        case "sawmill":
-                        case "carpentry": autoForestryBuilding(runId,1); break;
-                    }
-                }else{
-                    GM_log("autoForestry. data not ready\nreadyZone[handled.zoneNrS]="+implode(unsafeData.readyZone[handled.zoneNrS]));
-                    autoZoneFinish(runId); // TODO else
+try{
+    if(!settings.get("account","botUseForestry")){
+        GM_logInfo("autoForestry","runId="+runId,"","FORESTRY BOT OFF");
+    }else if(bot.checkRun("autoForestry",runId)){
+        bot.setAction("autoForestry");
+        var zoneNrS=getReadyZone("forestry");
+        if(zoneNrS==null){
+            GM_logInfo("autoForestry","runId="+runId,"readyZone="+implode(unsafeData.readyZone,"autoForestry/readyZone"),"No ready zone");
+            autoZoneFinish(runId);
+        }else{
+            handled.set(zoneNrS);
+            try{ unsafeWindow.jsTimeStamp=unsafeWindow.Zeit.Client - unsafeWindow.Zeit.Verschiebung; }catch(err){}
+            if(unsafeData.readyZone[handled.zoneNrS][2]){
+                switch(handled.zoneBuildingTyp){
+                    case "forest": autoForestryForest(runId,1,1,false,true); break;
+                    case "sawmill":
+                    case "carpentry": autoForestryBuilding(runId,1); break;
                 }
+            }else{
+                GM_logInfo("autoForestry","runId="+runId,"handled="+implode(handled,"autoForestry/handled")+" readyZone[handled.zoneNrS]="+implode(unsafeData.readyZone[handled.zoneNrS],"autoForestry/readyZone"),"Data not ready");
+                autoZoneFinish(runId); // TODO else
             }
         }
-        if(DEVMODE_FUNCTION){ GM_log("End autoForestry handled.zoneNr:"+handled.zoneNr);}
-    }catch(err){GM_logError("autoForestry runId="+runId+"\n"+err);autoZoneFinish(runId);} //busy=false;
+    }
+    if(DEVMODE_FUNCTION){ GM_logInfo("autoForestry","runId="+runId,"handled.zoneNr="+handled.zoneNr,"End");}
+}catch(err){
+    GM_logError("autoForestry","runId="+runId,"",err);
+    autoZoneFinish(runId);
+} //busy=false;
 }
 function autoForestryForest(runId,step,field,didPlant,isBot){
 try{
@@ -5752,7 +5783,7 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
-}catch(err){GM_logError("autoForestryForest runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot+"\n"+err);}
+}catch(err){ GM_logError("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"",err); }
 }
 function autoForestryBuilding(runId,step){
 try{
@@ -5880,68 +5911,65 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
-}catch(err){GM_logError("autoForestryBuilding runId="+runId+" step="+step+"\n"+err);}
+}catch(err){ GM_logError("autoForestryBuilding","runId="+runId+" step="+step,"",err); }
 }
 
 function autoDonkey(runId, step) {
-    try {
-        if (bot.checkRun("autoDonkey", runId)) {
-            var help, action=null, listeningEvent=null;
-            if (!step) { step=1; }
-            bot.setAction("autoDonkey (" + step + ")");
-            switch (step) {
-                case 1: { // go to farm 1
-                if (unsafeWindow.farm == 1) {
-                    autoDonkey(runId, step + 1);
-                } else {
-                    listeningEvent="gameFarmOpened";
-                    action=function(){
-                        logBubble.add("Goto Farm 1",5,"green");
-                        click($("speedlink_farm1"));
-                    };
-                }
-                break; }
-            case 2: { // open donkey
-                if ($("globalbox").style.display == "block" || $("box_donkeydialog").style.display == "block") {
-                    autoDonkey(runId, step + 1);
-                } else {
-                    listeningEvent = "gameDonkeyResponse";
-                    action = function() {
-                        logBubble.add("Donkey: Opening", 5, "green");
-                        click($("farm_inner_waltraud"));
-                    };
-                }
-                break; }
-            case 3: { // exit
-                logBubble.add("Donkey: Exiting", 5, "green");
-                if ($("box_donkeydialog").style.display == "block") { // Donkey gain dailog
-                    autoZoneFinish(runId, $("box_donkeydialogsubmit").getElementsByTagName("button")[0]);
-                } else if ($("globalbox").style.display == "block") { // Donkey already visited today
-                    autoZoneFinish(runId, $("globalbox_button1"));
-                } else if ($("buybox_donkey").style.display == "block") { // Donkey not bought
-                    autoZoneFinish(runId, $("buybox_donkey").getElementsByClassName("close")[0]);
-                } else {
-                    autoZoneFinish(runId);
-                }
-                break;}
+try{
+    if (bot.checkRun("autoDonkey", runId)) {
+        var help, action=null, listeningEvent=null;
+        if (!step) { step=1; }
+        bot.setAction("autoDonkey (" + step + ")");
+        switch (step) {
+            case 1: { // go to farm 1
+            if (unsafeWindow.farm == 1) {
+                autoDonkey(runId, step + 1);
+            } else {
+                listeningEvent="gameFarmOpened";
+                action=function(){
+                    logBubble.add("Goto Farm 1",5,"green");
+                    click($("speedlink_farm1"));
+                };
             }
-
-            if (listeningEvent) {
-                document.addEventListener(listeningEvent, function(listeningEvent, runId, step){
-                    return function() {
-                        document.removeEventListener(listeningEvent, arguments.callee, false);
-                        window.setTimeout(autoDonkey, settings.getPause(), runId, step+1);
-                    };
-                } (listeningEvent, runId, step), false);
+            break; }
+        case 2: { // open donkey
+            if ($("globalbox").style.display == "block" || $("box_donkeydialog").style.display == "block") {
+                autoDonkey(runId, step + 1);
+            } else {
+                listeningEvent = "gameDonkeyResponse";
+                action = function() {
+                    logBubble.add("Donkey: Opening", 5, "green");
+                    click($("farm_inner_waltraud"));
+                };
             }
-            if (action) { action(); }
-            help=null; listeningEvent=null; action=null;
+            break; }
+        case 3: { // exit
+            logBubble.add("Donkey: Exiting", 5, "green");
+            if ($("box_donkeydialog").style.display == "block") { // Donkey gain dailog
+                autoZoneFinish(runId, $("box_donkeydialogsubmit").getElementsByTagName("button")[0]);
+            } else if ($("globalbox").style.display == "block") { // Donkey already visited today
+                autoZoneFinish(runId, $("globalbox_button1"));
+            } else if ($("buybox_donkey").style.display == "block") { // Donkey not bought
+                autoZoneFinish(runId, $("buybox_donkey").getElementsByClassName("close")[0]);
+            } else {
+                autoZoneFinish(runId);
+            }
+            break;}
         }
-    } catch (err) {
-        GM_logError("autoDonkey runId=" + runId + "\n" + err);
-    }
-}
 
+        if (listeningEvent) {
+            document.addEventListener(listeningEvent, function(listeningEvent, runId, step){
+                return function() {
+                    document.removeEventListener(listeningEvent, arguments.callee, false);
+                    window.setTimeout(autoDonkey, settings.getPause(), runId, step+1);
+                };
+            } (listeningEvent, runId, step), false);
+        }
+        if (action) { action(); }
+        help=null; listeningEvent=null; action=null;
+    }
+}catch(err){ GM_logError("autoDonkey","runId="+runId+" step="+step,"",err); }
+}
 function autoLottery(runId,step){
 try{
     // GM_log("autoLottery runId="+runId+" step="+step);
@@ -6030,7 +6058,7 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
-}catch(err){GM_logError("autoLottery runId="+runId+" step="+step+"\n"+err);}
+}catch(err){ GM_logError("autoLottery","runId="+runId+" step="+step,"",err); }
 }
 /* quest-bot needs review
 function checkQuest(){
@@ -6202,31 +6230,34 @@ function autoActivateLodgeQuest(didGive){
 }
 */
 function autoFarmersmarket(runId){
-    try{
-        if(!settings.get("account","botUseFarmersmarket")){
-            GM_log("FARMERSMARKET BOT OFF: autoFarmersmarket");
-        }else if(bot.checkRun("autoFarmersmarket",runId)){
-            bot.setAction("autoFarmersmarket");
-            var zoneNrS=getReadyZone("farmersmarket");
-            if(zoneNrS==null){
-                GM_log("autoFarmersmarket: no ready zone\nreadyZone="+implode(unsafeData.readyZone));
-                autoZoneFinish(runId);
-            }else{
-                handled.set(zoneNrS);
-                try{ unsafeWindow.jsTimeStamp=unsafeWindow.Zeit.Client - unsafeWindow.Zeit.Verschiebung; }catch(err){}
-                autoFarmersmarketBuilding(runId,1); 
-                // if(unsafeData.readyZone[handled.zoneNrS][2]){
-                //  switch(handled.zoneBuildingTyp){
-                //  case 4:
-                //  break;}
-                // }else{
-                //  GM_log("autoFarmersmarket: data not ready\nreadyZone[handled.zoneNrS]="+implode(unsafeData.readyZone[handled.zoneNrS]));
-                //  autoZoneFinish(runId); // TODO else
-                // }
-            }
+try{
+    if(!settings.get("account","botUseFarmersmarket")){
+        GM_logInfo("autoFarmersmarket","runId="+runId,"","FARMERSMARKET BOT OFF");
+    }else if(bot.checkRun("autoFarmersmarket",runId)){
+        bot.setAction("autoFarmersmarket");
+        var zoneNrS=getReadyZone("farmersmarket");
+        if(zoneNrS==null){
+            GM_logInfo("autoFarmersmarket","runId="+runId,"readyZone="+implode(unsafeData.readyZone,"autoFarmersmarket/readyZone"),"No ready zone");
+            autoZoneFinish(runId);
+        }else{
+            handled.set(zoneNrS);
+            try{ unsafeWindow.jsTimeStamp=unsafeWindow.Zeit.Client - unsafeWindow.Zeit.Verschiebung; }catch(err){}
+            autoFarmersmarketBuilding(runId,1); 
+            // if(unsafeData.readyZone[handled.zoneNrS][2]){
+            //  switch(handled.zoneBuildingTyp){
+            //  case 4:
+            //  break;}
+            // }else{
+            //  GM_log("autoFarmersmarket: data not ready\nreadyZone[handled.zoneNrS]="+implode(unsafeData.readyZone[handled.zoneNrS]));
+            //  autoZoneFinish(runId); // TODO else
+            // }
         }
-        if(DEVMODE_FUNCTION){ GM_log("End autoFarmersmarket handled.zoneNrF:"+handled.zoneNrF);}
-    }catch(err){GM_logError("autoFarmersmarket runId="+runId+"\n"+err);autoZoneFinish(runId);}
+    }
+    if(DEVMODE_FUNCTION){ GM_logInfo("autoFarmersmarket","runId="+runId,"handled.zoneNrF="+handled.zoneNrF,"End"); }
+}catch(err){
+    GM_logError("autoFarmersmarket","runId="+runId,"",err);
+    autoZoneFinish(runId);
+}
 }
 function autoFarmersmarketBuilding(runId, step, field){
 try{
@@ -6572,34 +6603,37 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
- }catch(err){GM_logError("autoFarmersmarketBuilding runId="+runId+" step="+step+"\n"+err);}
+ }catch(err){ GM_logError("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",err); }
 }
 function autoFoodworld(runId){
-    try{
-        if(!settings.get("account","botUseFoodworld")){
-            GM_log("BOT OFF: autoFoodworld");
-        }else if(bot.checkRun("autoFoodworld",runId)){
-            bot.setAction("autoFoodworld");
-            var zoneNrS=getReadyZone("foodworld");
-            if(zoneNrS==null){
-                GM_log("autoFoodworld: no ready zone\nreadyZone="+implode(unsafeData.readyZone));
-                autoZoneFinish(runId);
-            }else{
-                handled.set(zoneNrS);
-                try{ unsafeWindow.jsTimeStamp=unsafeWindow.Zeit.Client - unsafeWindow.Zeit.Verschiebung; }catch(err){}
-                if(unsafeData.readyZone[handled.zoneNrS][2]){
-                    switch(handled.zoneBuildingTyp){ 
-                    case 4:
-                        autoFoodworldBuilding(runId,1); break;
-                    }
-                }else{
-                    GM_log("autoFoodworld: data not ready\nreadyZone[handled.zoneNrS]="+implode(unsafeData.readyZone[handled.zoneNrS]));
-                    autoZoneFinish(runId); // TODO else
+try{
+    if(!settings.get("account","botUseFoodworld")){
+        GM_logInfo("autoFoodworld","runId="+runId,"","BOT OFF");
+    }else if(bot.checkRun("autoFoodworld",runId)){
+        bot.setAction("autoFoodworld");
+        var zoneNrS=getReadyZone("foodworld");
+        if(zoneNrS==null){
+            GM_logInfo("autoFoodworld","runId="+runId,"readyZone="+implode(unsafeData.readyZone,"autoFoodworld/readyZone"),":No ready zone");
+            autoZoneFinish(runId);
+        }else{
+            handled.set(zoneNrS);
+            try{ unsafeWindow.jsTimeStamp=unsafeWindow.Zeit.Client - unsafeWindow.Zeit.Verschiebung; }catch(err){}
+            if(unsafeData.readyZone[handled.zoneNrS][2]){
+                switch(handled.zoneBuildingTyp){ 
+                case 4:
+                    autoFoodworldBuilding(runId,1); break;
                 }
+            }else{
+                GM_logInfo("autoFoodworld","runId="+runId,"handled="+implode(handled,"autoFoodworld/handled")+" readyZone[handled.zoneNrS]="+implode(unsafeData.readyZone[handled.zoneNrS],"autoFoodworld/readyZone"),"Data not ready");
+                autoZoneFinish(runId); // TODO else
             }
         }
-        if(DEVMODE_FUNCTION){ GM_log("End autoFoodworld handled.zoneNrF:"+handled.zoneNrF);}
-    }catch(err){GM_logError("autoFoodworld runId="+runId+"\n"+err);autoZoneFinish(runId);}
+    }
+    if(DEVMODE_FUNCTION){ GM_logInfo("autoFoodworld","runId="+runId,"handled.zoneNrF="+handled.zoneNrF,"End"); }
+}catch(err){ 
+    GM_logError("autoFoodworld","runId="+runId,"",err);
+    autoZoneFinish(runId);
+}
 }
 function autoFoodworldBuilding(runId, step){
 try{
@@ -6734,22 +6768,27 @@ try{
         if(action){ action(); }
         help=null;listeningEvent=null;action=null;
     }
- }catch(err){GM_logError("autoFoodworldBuilding runId="+runId+" step="+step+"\n"+err);}
+ }catch(err){ GM_logError("autoFoodworldBuilding","runId="+runId+" step="+step,"",err); }
 }
 function checkFarmi(mode){
-    if(DEVMODE_FUNCTION){GM_log("Begin checkFarmi");}
+try{
+    if(DEVMODE_FUNCTION){GM_logInfo("checkFarmi","mode="+mode,"","Begin");}
     var farmiNr=null;
     var farmiAmount=0;
     var farmiAcceptRemove=new Array();
     for(var i in unsafeWindow.farmisinfo[0]){
         if(!unsafeWindow.farmisinfo[0].hasOwnProperty(i)){ continue; }
         if(settings.get("account","farmiReject") && !unsafeWindow.farmisinfo[0][i]["sold"] && unsafeWindow.farmisinfo[0][i]["costQuotient"] < settings.get("account","farmiRejectUntilNr")){
-            if(DEVMODE){GM_log("gameFarmiReject farmiNr:"+i);}
-            if(farmiNr==null){ farmiNr=i; }
+            if(farmiNr==null){ 
+                farmiNr=i; 
+                if(DEVMODE){GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr,"farmiReject");}
+            }
             farmiAmount++;
         }else if(settings.get("account","farmiAccept") && !unsafeWindow.farmisinfo[0][i]["sold"] && unsafeWindow.farmisinfo[0][i]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && !unsafeWindow.farmisinfo[0][i]["missing"] && ((settings.get("account","farmiAcceptBelowMinValue")&&!unsafeWindow.farmisinfo[0][i]["belowMinRackInit"]) || !unsafeWindow.farmisinfo[0][i]["belowMinRack"])){
-            if(DEVMODE){GM_log("farmiAccept farmiNr:"+farmiNr);}
-            if(farmiNr==null){ farmiNr=i; }
+            if(farmiNr==null){
+                farmiNr=i; 
+                if(DEVMODE){GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr,"farmiAccept");}
+            }
             farmiAmount++;
         }else if(settings.get("account","farmiAccept") && settings.get("account","farmiRemoveMissing") && !unsafeWindow.farmisinfo[0][i]["sold"] && unsafeWindow.farmisinfo[0][i]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && unsafeWindow.farmisinfo[0][i]["missing"]){
             farmiAcceptRemove.push([i,unsafeWindow.farmisinfo[0][i]["price"]-unsafeWindow.farmisinfo[0][i]["marketValue"]]);
@@ -6760,10 +6799,10 @@ function checkFarmi(mode){
         farmiAcceptRemove.sort(function(a,b){return (parseInt(b[1],10)-parseInt(a[1],10));});
         farmiAcceptRemove.splice(0,settings.get("account","farmiRemoveMissingAboveNr"));
         farmiAcceptRemove.reverse();
-        if(DEVMODE){GM_log("farmiAcceptedRemove farmiNr:"+farmiNr+" farmiAcceptRemove:"+implode(farmiAcceptRemove,"checkFarmi/farmiAcceptRemove"));}
+        if(DEVMODE){GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr+" farmiAcceptRemove="+implode(farmiAcceptRemove,"checkFarmi/farmiAcceptRemove"),"farmiAcceptedRemove");}
         if(farmiNr==null){farmiNr = farmiAcceptRemove[0][0];}
     }
-    if(DEVMODE_FUNCTION){ GM_log("End checkFarmi");}
+    if(DEVMODE_FUNCTION){ GM_logInfo("checkFarmi","mode="+mode,"","End");}
     switch (mode){
     case 2:
         return [farmiAmount,farmiNr,farmiAcceptRemove];
@@ -6778,29 +6817,32 @@ function checkFarmi(mode){
         return (farmiNr!=null);
         break;
     }
+}catch(err){ GM_logError("checkFarmi","mode="+mode,"",err); }
 }
 function autoFarmi(){
-    if(DEVMODE_FUNCTION){ GM_log("Begin autoFarmi"); }
-    if(!bot.isBusy()){ GM_log("BUSY NOT SET: autoFarmi"); return false;}
-    logBubble.add("Begin for Farmi",5,"green");
 try{
+    if(DEVMODE_FUNCTION){ GM_logInfo("autoFarmi","","","Begin"); }
+    if(!bot.isBusy()){
+        GM_logInfo("autoFarmi","","","BUSY NOT SET"); 
+        return false;
+    }
+    logBubble.add("Begin for Farmi",5,"green");
     var help=checkFarmi(2);
     var farmiNr=help[1];
     var farmiAmount=help[0];
     var farmiAcceptRemove = help[2];
-    GM_log("autoFarmi farmiAmount:"+farmiAmount+" farmiNr:"+farmiNr);
+    GM_logInfo("autoFarmi","","farmiAmount="+farmiAmount+" farmiNr="+farmiNr,"Begin");
     if(farmiAmount>0){
         if(unsafeWindow.farm!=1){
             // change farm
             document.addEventListener("gameFarmOpened",function(){
                 document.removeEventListener("gameFarmOpened",arguments.callee,false);
-                logBubble.add("arrived in farm");
-                if(DEVMODE){GM_log("arrived in farm");}
-
+                logBubble.add("Arrived in farm"); //TODO text
+                if(DEVMODE){GM_logInfo("autoFarmi","","","Arrived in farm");}
                 autoFarmi();
             },false);
-            if(DEVMODE){GM_log("change farm to 1");}
-            logBubble.add("change farm to 1");
+            if(DEVMODE){GM_logInfo("autoFarmi","","","Change farm to 1");}
+            logBubble.add("Change farm to 1");
             click($("speedlink_farm1"));
             // click($("farmlinks").getElementsByClassName("link")[0]);
         }else if(unsafeWindow.farm==1){
@@ -6820,38 +6862,38 @@ try{
                                 },3000);
                             },false);
                             if(settings.get("account","farmiReject") && !unsafeWindow.farmisinfo[0][farmiNr]["sold"] && unsafeWindow.farmisinfo[0][farmiNr]["costQuotient"] < settings.get("account","farmiRejectUntilNr")){
-                                if(DEVMODE){GM_log("farmiReject farmiNr:"+farmiNr);}
+                                if(DEVMODE){GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiReject");}
                                 unsafeWindow.handleFarmi(farmiNr,2);
                                 unsafeWindow.farmisinfo[0][farmiNr]["sold"]=1;
                             }else if(settings.get("account","farmiAccept") && !unsafeWindow.farmisinfo[0][farmiNr]["sold"] && unsafeWindow.farmisinfo[0][farmiNr]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && !unsafeWindow.farmisinfo[0][farmiNr]["missing"] && ((settings.get("account","farmiAcceptBelowMinValue")&&!unsafeWindow.farmisinfo[0][farmiNr]["belowMinRackInit"]) || !unsafeWindow.farmisinfo[0][farmiNr]["belowMinRack"])){
-                                if(DEVMODE){GM_log("farmiAccept farmiNr:"+farmiNr);}
+                                if(DEVMODE){GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiAccept");}
                                 unsafeWindow.handleFarmi(farmiNr,1);
                                 unsafeWindow.farmisinfo[0][farmiNr]["sold"]=1;
                             }else if(settings.get("account","farmiAccept") && settings.get("account","farmiRemoveMissing") && !unsafeWindow.farmisinfo[0][farmiNr]["sold"] && unsafeWindow.farmisinfo[0][farmiNr]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && unsafeWindow.farmisinfo[0][farmiNr]["missing"]){
-                                if(DEVMODE){GM_log("farmiAcceptedRemove farmiNr:"+farmiNr);}
+                                if(DEVMODE){GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiAcceptedRemove");}
                                 unsafeWindow.handleFarmi(farmiNr,2);
                                 unsafeWindow.farmisinfo[0][farmiNr]["sold"]=1;
                             }else{
-                                GM_log("valFarmi Null farmiNr:"+farmiNr);
+                                GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"valFarmi Null");
                             }
                         }
                     }
-                    if(DEVMODE){ GM_log("Click Farmi:"+farmiNr,5,"green"); }
+                    if(DEVMODE){ GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Click Farmi"); }
                     logBubble.add("Click  Farmi:"+farmiNr,5,"green");
                     click($("kunde_"+farmiNr));
-                }catch(err){GM_logError("autoFarmi farmiNr:"+farmiNr+" farmiAmount:"+farmiAmount+"\n"+err);}
+                }catch(err){ GM_logError("autoFarmi","","farmiNr="+farmiNr+" farmiAmount="+farmiAmount,"",err);}
             },settings.getPause(true),farmiNr,farmiAmount);
         }else{
             logBubble.add("Exiting farmi unknown combination",10,"red");
-            if(DEVMODE){ GM_log("Exiting farmi unknown combination"); }
+            if(DEVMODE){ GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Exiting. unknown combination"); }
             bot.end();
         }
     }else{
         logBubble.add("Exiting no farmi");
-        if(DEVMODE){ GM_log("Exiting no farmi"); }
+        if(DEVMODE){ GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Exiting. no farmi"); }
         bot.end();
     }
-}catch(err){GM_logError("autoFarmi farmiNr:"+farmiNr+" farmiAmount:"+farmiAmount+"\n"+err);}
+}catch(err){ GM_logError("autoFarmi","","farmiNr="+farmiNr+" farmiAmount="+farmiAmount,err); }
 }
 function doGameSessionEnds(){  //NOTICE: Use only in combination with botArbiter.add("sessionEnds");
     // if(DEVMODE){ logBubble.add("doGameSessionEnds"); }
@@ -6871,146 +6913,149 @@ function drawButtons(){
     }
 }
 function drawZoneListTable(currZoneType){
-    try{
-        var newtable=createElement("table",{style:"",border:"1",cellspacing:"0",style:"margin-bottom:10px;"});
-        newtable.addEventListener("mouseout",function(event){
-            for(var y=0;y<this.rows.length;y++){
-                for(var x=0;x<this.rows[y].cells.length;x++){
-                    this.rows[y].cells[x].style.backgroundColor="";
-                }
+try{
+    var newtable=createElement("table",{style:"",border:"1",cellspacing:"0",style:"margin-bottom:10px;"});
+    newtable.addEventListener("mouseout",function(event){
+        for(var y=0;y<this.rows.length;y++){
+            for(var x=0;x<this.rows[y].cells.length;x++){
+                this.rows[y].cells[x].style.backgroundColor="";
             }
-        },false);
-        newtable.addEventListener("mouseover",function(event){
-            var node=event.target;
-            while((node!=this)&&(node.nodeName!="TD")){ node=node.parentNode;}
-            if(node!=this){
-                var posX=node.cellIndex;
-                var posY=node.parentNode.rowIndex;
-                if(node.parentNode.cells.length>1){
-                    if(0<posX){
-                        for(var v=0;v<this.rows.length;v++){
-                            if(this.rows[v].cells[posX]){ this.rows[v].cells[posX].style.backgroundColor="lightblue"; }
-                        }
-                    }
-                    if(0<posY){
-                        for(var v=0;v<this.rows[posY].cells.length;v++){
-                            if(this.rows[posY].cells[v]){ this.rows[posY].cells[v].style.backgroundColor="lightblue"; }
-                        }
+        }
+    },false);
+    newtable.addEventListener("mouseover",function(event){
+        var node=event.target;
+        while((node!=this)&&(node.nodeName!="TD")){ node=node.parentNode;}
+        if(node!=this){
+            var posX=node.cellIndex;
+            var posY=node.parentNode.rowIndex;
+            if(node.parentNode.cells.length>1){
+                if(0<posX){
+                    for(var v=0;v<this.rows.length;v++){
+                        if(this.rows[v].cells[posX]){ this.rows[v].cells[posX].style.backgroundColor="lightblue"; }
                     }
                 }
+                if(0<posY){
+                    for(var v=0;v<this.rows[posY].cells.length;v++){
+                        if(this.rows[posY].cells[v]){ this.rows[posY].cells[v].style.backgroundColor="lightblue"; }
+                    }
+                }
             }
-        },false);
-        // collect the handled zones
-        var zones=new Array();
-        for(var fz in unsafeData.ALL_SLOTS){
-            if(!unsafeData.ALL_SLOTS.hasOwnProperty(fz)){ continue; }
-            if(unsafeData.zones.getBlock(fz)){ continue; }
-            if(getZoneType(fz)!=currZoneType){ continue; }
-            zones.push(fz);
         }
-        // build table
-        var newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
-        var newtd=createElement("td",{"style":"text-align:right;border-bottom:none;"},newtr,"Zone"); // TODO texte
-        for(var i=0;i<zones.length;i++){
-            newtd=createElement("td",{"align":"center","style":"width:10px;","rowspan":2},newtr,getZoneName(0,zones[i],zones[i],null,false,true,false,false)+"<br>"+getZoneName(0,zones[i],zones[i],null,false,false,true,false).replace(/,/g,"<br>"));
-        }
-        if(currZoneType=="1"){
-            newtd=createElement("td",{align:"center","rowspan":2},newtr);
-        }
+    },false);
+    // collect the handled zones
+    var zones=new Array();
+    for(var fz in unsafeData.ALL_SLOTS){
+        if(!unsafeData.ALL_SLOTS.hasOwnProperty(fz)){ continue; }
+        if(unsafeData.zones.getBlock(fz)){ continue; }
+        if(getZoneType(fz)!=currZoneType){ continue; }
+        zones.push(fz);
+    }
+    // build table
+    var newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
+    var newtd=createElement("td",{"style":"text-align:right;border-bottom:none;"},newtr,"Zone"); // TODO texte
+    for(var i=0;i<zones.length;i++){
+        newtd=createElement("td",{"align":"center","style":"width:10px;","rowspan":2},newtr,getZoneName(0,zones[i],zones[i],null,false,true,false,false)+"<br>"+getZoneName(0,zones[i],zones[i],null,false,false,true,false).replace(/,/g,"<br>"));
+    }
+    if(currZoneType=="1"){
+        newtd=createElement("td",{align:"center","rowspan":2},newtr);
+    }
+    newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
+    createElement("td",{"style":"text-align:left;border-top:none;"},newtr,getText("automat_titleQueue"));
+    for(var lz in zoneList){
+        if(!zoneList.hasOwnProperty(lz)){ continue; }
+        if(lz==0 || lz=="windmill"){ continue; }
+        var extendedList=extendedListReg.exec(lz);
+        if((!extendedList && currZoneType!=getZoneType(lz)) || (extendedList && currZoneType!=1)) continue;
         newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
-        createElement("td",{"style":"text-align:left;border-top:none;"},newtr,getText("automat_titleQueue"));
-        for(var lz in zoneList){
-            if(!zoneList.hasOwnProperty(lz)){ continue; }
-            if(lz==0 || lz=="windmill"){ continue; }
-            var extendedList=extendedListReg.exec(lz);
-            if((!extendedList && currZoneType!=getZoneType(lz)) || (extendedList && currZoneType!=1)) continue;
-            newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
-            newtd=createElement("td",{"nowrap":"","style":"width:50px;text-align:right;","class":"link","lz":lz}, newtr, getZoneName(0,lz,lz,null,false,true,true,false));
-            // !!extendedList?
-            // getText("automat_titleGeneral").replace(" ","&nbsp;")+"&nbsp;"+extendedList[1]
-            // :getText("automat_titleQueue")+"&nbsp;"+((isNaN(Number(lz))?lz:(Math.ceil(lz/6)+"."+getGarden(lz))))
-            newtd.addEventListener("mouseover",function(evt){
-                var zoneNrL=this.getAttribute("lz");
-                var content=createElement("div");
-                drawQueueListSmall(zoneNrL, zoneNrL, content);
-                createElement("div",{"style":"margin:4px 0px 4px 0px;width:100%;height:0px;border-bottom:1px solid black;"},content);
-                createElement("div",{"class":"queueTitle"},content,getText("automat_queueshow"));
-                toolTip.show(evt, content.innerHTML);
-                content=null;
-            },false);
-            newtd.addEventListener("click",function(){
-                var zoneNrL=this.getAttribute("lz");
-                switch(getBuildingTyp(zoneNrL)){
-                case 1:
-                    if(settings.get("account","useQueueList")){
-                        redrawQueueBox(zoneNrL, zoneNrL, $("divQueueBoxInner"));
-                    }else{
-                        drawQueueChooseItemBox(zoneNrL, zoneNrL, 0, $("divChooseBoxInner"));
-                    }
-                    break;
-                case 2:
-                    drawStableChooseFeedBox(zoneNrL, zoneNrL, $("divChooseBoxInner"));
-                    break;
-                case 3:
-                    if(settings.get("account","useQueueList")){
-                        drawQueueBox(zoneNrL,zoneNrL,$("divChooseBoxInner"));
-                    }else{
-                        drawFactoryChooseItemBox(zoneNrL,zoneNrL,$("divChooseBoxInner"));
-                    }                       
-                    break;
-                case "windmill": case 4:
+        newtd=createElement("td",{"nowrap":"","style":"width:50px;text-align:right;","class":"link","lz":lz}, newtr, getZoneName(0,lz,lz,null,false,true,true,false));
+        // !!extendedList?
+        // getText("automat_titleGeneral").replace(" ","&nbsp;")+"&nbsp;"+extendedList[1]
+        // :getText("automat_titleQueue")+"&nbsp;"+((isNaN(Number(lz))?lz:(Math.ceil(lz/6)+"."+getGarden(lz))))
+        newtd.addEventListener("mouseover",function(event){
+            var zoneNrL=this.getAttribute("lz");
+            var content=createElement("div");
+            drawQueueListSmall(zoneNrL, zoneNrL, content);
+            createElement("div",{"style":"margin:4px 0px 4px 0px;width:100%;height:0px;border-bottom:1px solid black;"},content);
+            createElement("div",{"class":"queueTitle"},content,getText("automat_queueshow"));
+            toolTip.show(event, content.innerHTML);
+            content=null;
+        },false);
+        newtd.addEventListener("click",function(){
+            var zoneNrL=this.getAttribute("lz");
+            switch(getBuildingTyp(zoneNrL)){
+            case 1:
+                if(settings.get("account","useQueueList")){
                     redrawQueueBox(zoneNrL, zoneNrL, $("divQueueBoxInner"));
-                    break;
+                }else{
+                    drawQueueChooseItemBox(zoneNrL, zoneNrL, 0, $("divChooseBoxInner"));
                 }
+                break;
+            case 2:
+                drawStableChooseFeedBox(zoneNrL, zoneNrL, $("divChooseBoxInner"));
+                break;
+            case 3:
+                if(settings.get("account","useQueueList")){
+                    drawQueueBox(zoneNrL,zoneNrL,$("divChooseBoxInner"));
+                }else{
+                    drawFactoryChooseItemBox(zoneNrL,zoneNrL,$("divChooseBoxInner"));
+                }                       
+                break;
+            case "windmill": case 4:
+                redrawQueueBox(zoneNrL, zoneNrL, $("divQueueBoxInner"));
+                break;
+            }
+        },false);
+        for(var i=0;i<zones.length;i++){
+            var fz=zones[i];
+            newtd=createElement("td",{align:"center"},newtr);
+            var inp=createElement("input",{id:"inputZoneList"+lz,name:"farmZone"+fz,"class":"link",type:"radio",checked:getZoneListId(fz)==lz},newtd);
+            inp.addEventListener("click",function(){
+                var lz=this.id.replace("inputZoneList","");
+                var fz=this.name.replace("farmZone","");
+                setZoneListId(fz,lz);
+                updateQueueBox(fz,lz);
             },false);
-            for(var i=0;i<zones.length;i++){
-                var fz=zones[i];
-                newtd=createElement("td",{align:"center"},newtr);
-                var inp=createElement("input",{id:"inputZoneList"+lz,name:"farmZone"+fz,"class":"link",type:"radio",checked:getZoneListId(fz)==lz},newtd);
-                inp.addEventListener("click",function(){
-                    var lz=this.id.replace("inputZoneList","");
-                    var fz=this.name.replace("farmZone","");
-                    setZoneListId(fz,lz);
-                    updateQueueBox(fz,lz);
-                },false);
-                inp.addEventListener("mouseover", function(evt){
-                    var lz=this.id.replace("inputZoneList","");
-                    var content=createElement("div");
-                    drawQueueListSmall(lz, lz, content);
-                    toolTip.show(evt, content.innerHTML);
-                },false);
-            }
-            if(currZoneType=="1"){
-                newtd=createElement("td",{align:"center"},newtr);
-                if(extendedList){
-                    inp=createElement("img",{id:"inputZoneListDelete"+lz,"class":"link",style:"display:inline-block;width:15px;height:15px;",src:GFX+"button_cancel_off.png"},newtd);
-                    inp.addEventListener("mouseover", function(evt){
-                        this.setAttribute("src",GFX+"button_cancel_on.png");
-                        toolTip.show(evt, "Delete this queue");
-                    },false);
-                    inp.addEventListener("mouseout", function(evt){
-                        this.setAttribute("src",GFX+"button_cancel_off.png");
-                    },false);
-                    inp.addEventListener("click", function(){
-                        var lz=this.id.replace("inputZoneListDelete","");
-                        deleteZoneInList(lz);
-                        click($("infoPanelZoneList"));
-                    },false);
-                }
-            }
+            inp.addEventListener("mouseover", function(event){
+                var lz=this.id.replace("inputZoneList","");
+                var content=createElement("div");
+                drawQueueListSmall(lz, lz, content);
+                toolTip.show(event, content.innerHTML);
+            },false);
         }
         if(currZoneType=="1"){
-            var newtr=createElement("tr",{style:"line-height:18px;"},newtable);
-            var newtd=createElement("td",{align:"center",colspan:(zones.length+2)},newtr);
-            inp=createElement("button",{id:"inputZonesToGeneral","class":"link",style:"display:block;width:110px;margin:5px;padding:1px;"},newtd,"Add" + getText("automat_titleQueue"));
-            inp.addEventListener("click",function(){
-                addZoneToList();
-                click($("infoPanelZoneList"));
-            },false);
+            newtd=createElement("td",{align:"center"},newtr);
+            if(extendedList){
+                inp=createElement("img",{id:"inputZoneListDelete"+lz,"class":"link",style:"display:inline-block;width:15px;height:15px;",src:GFX+"button_cancel_off.png"},newtd);
+                inp.addEventListener("mouseover", function(event){
+                    this.setAttribute("src",GFX+"button_cancel_on.png");
+                    toolTip.show(event, "Delete this queue");
+                },false);
+                inp.addEventListener("mouseout", function(event){
+                    this.setAttribute("src",GFX+"button_cancel_off.png");
+                },false);
+                inp.addEventListener("click", function(){
+                    var lz=this.id.replace("inputZoneListDelete","");
+                    deleteZoneInList(lz);
+                    click($("infoPanelZoneList"));
+                },false);
+            }
         }
-        newtr=null;newtd=null;inp=null;help=null;zones=null;
-        return newtable;
-    }catch(err){GM_logError("drawZoneListTable currZoneType:"+currZoneType+" \n"+err);return newtable;}
+    }
+    if(currZoneType=="1"){
+        var newtr=createElement("tr",{style:"line-height:18px;"},newtable);
+        var newtd=createElement("td",{align:"center",colspan:(zones.length+2)},newtr);
+        inp=createElement("button",{id:"inputZonesToGeneral","class":"link",style:"display:block;width:110px;margin:5px;padding:1px;"},newtd,"Add" + getText("automat_titleQueue"));
+        inp.addEventListener("click",function(){
+            addZoneToList();
+            click($("infoPanelZoneList"));
+        },false);
+    }
+    newtr=null;newtd=null;inp=null;help=null;zones=null;
+    return newtable;
+}catch(err){
+    GM_logError("drawZoneListTable","","currZoneType="+currZoneType,err);
+    return newtable;
+}
 }
 
 unsafeWindow.buildInfoPanelAutomat=function(mode,mode2){
@@ -7023,7 +7068,7 @@ unsafeWindow.buildInfoPanelAutomat=function(mode,mode2){
         case "automatChangelog": buildInfoPanelChangelog(); break;
         case "automatOverview": buildInfoPanelOverview(mode2); break;
         }
-    }catch(err){GM_logError("buildInfoPanelAutomat\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelAutomat","","",err);}
 }
 function buildInfoPanelChangelog(){
     try{
@@ -7054,7 +7099,7 @@ function buildInfoPanelChangelog(){
             }
         }
         container=null;table=null;tr=null;td=null;div=null;
-    }catch(err){GM_logError("buildInfoPanelChangelog\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelChangelog","","",err);}
 }
 function buildInfoPanelOverview(mode){
     try{
@@ -7233,7 +7278,7 @@ function buildInfoPanelOverview(mode){
         }
         newtr=null;newtd=null;newinput=null;
         newimg=null;newtable=null;newdiv=null;
-    }catch(err){GM_logError("buildInfoPanelOverview\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelOverview","","",err);}
 }
 unsafeWindow.buildInfoPanelAutomatMenu=function(mode){
     try{
@@ -7266,7 +7311,7 @@ unsafeWindow.buildInfoPanelAutomatMenu=function(mode){
         case "automatDebugInfo": buildInfoPanelDebugInfo(); break;
         }
         newdiv=null;newdiv1=null;
-    }catch(err){GM_logError("buildInfoPanelAutomatMenu\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelAutomatMenu","","",err);}
 }
 function buildInfoPanelOptions(){
     try{
@@ -7400,9 +7445,9 @@ function buildInfoPanelOptions(){
         },false);
         newtd=createElement("td","",newtr,getText("automat_settings_useQueueList"));
         inp=createElement("img",{"src":IMAGES["help"],"style":"margin-left:3px;height:14px;width:14px;"},newtd);
-        inp.addEventListener("mouseover",function(evt){ toolTip.show(evt,"<div style='width:300px'><b>"+getText("automat_help_3")[0]+"</b><br>"+getText("automat_help_3")[1]+"</div>"); },false);
+        inp.addEventListener("mouseover",function(event){ toolTip.show(event,"<div style='width:300px'><b>"+getText("automat_help_3")[0]+"</b><br>"+getText("automat_help_3")[1]+"</div>"); },false);
         inp=createElement("img",{"src":IMAGES["help"],"style":"margin-left:3px;height:14px;width:14px;"},newtd);
-        inp.addEventListener("mouseover",function(evt){ toolTip.show(evt,"<div style='width:300px'><b>"+getText("automat_help_9")[0]+"</b><br>"+getText("automat_help_9")[1]+"</div>"); },false);
+        inp.addEventListener("mouseover",function(event){ toolTip.show(event,"<div style='width:300px'><b>"+getText("automat_help_9")[0]+"</b><br>"+getText("automat_help_9")[1]+"</div>"); },false);
         newtd=createElement("td",{"style":"width:120px;"},newtr);
         inp=createElement("button",{id:"inputDeleteAllQueueData","class":"link hoverBgCc9",style:"display:block;width:110px;margin:5px;padding:1px;"},newtd,getText("automat_set12a"));
         inp.addEventListener("click",function(){
@@ -7694,7 +7739,7 @@ function buildInfoPanelOptions(){
         },false);
         newtd=createElement("td",{},newtr,getText("automat_settings_botUse"));
         inp=createElement("img",{"src":IMAGES["help"],"style":"margin-left:3px;height:14px;width:14px;"},newtd);
-        inp.addEventListener("mouseover",function(evt){ toolTip.show(evt,"<div style='width:300px'><b>"+getText("automat_help_9")[0]+"</b><br>"+getText("automat_help_9")[1]+"</div>"); },false);
+        inp.addEventListener("mouseover",function(event){ toolTip.show(event,"<div style='width:300px'><b>"+getText("automat_help_9")[0]+"</b><br>"+getText("automat_help_9")[1]+"</div>"); },false);
         newtd=createElement("td",{"style":"width:120px;"},newtr);
         inp=createElement("button",{"class":"link hoverBgCc9",style:"display:block;width:110px;margin:5px;padding:1px;"},newtd,getText("automat_set18a"));
         inp.addEventListener("click",function(){
@@ -7703,9 +7748,9 @@ function buildInfoPanelOptions(){
             zoneSettings["windmill"]={"shuffle":false,"lack":0,"detail":new Array()};
             autoMillStorage=new Array();
             reFillQueueBox("windmill","windmill",0);
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneList",implode(zoneList));
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneSettings",implode(zoneSettings));
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_autoMillStorage",implode(autoMillStorage));
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneList",implode(zoneList,"gameInfoPanelOpen/options/zoneList"));
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneSettings",implode(zoneSettings,"gameInfoPanelOpen/options/zoneSettings"));
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_autoMillStorage",implode(autoMillStorage,"gameInfoPanelOpen/options/autoMillStorage"));
             alert(getText("automat_set18b"));
             this.disabled=false;
         },false);
@@ -7889,7 +7934,7 @@ function buildInfoPanelOptions(){
         createElement("td",{},newtr,"Show function calls");
         buildInfoPanelOptionsDisabling();
         newdiv=null;newtable=null;newtr=null;newtd=null;inp=null;
-    }catch(err){GM_logError("buildInfoPanelOptions\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelOptions","","",err);}
 }
 function buildInfoPanelOptionsDisabling(){
     try{
@@ -7911,7 +7956,7 @@ function buildInfoPanelOptionsDisabling(){
             }
         }
         help=null;
-    }catch(err){GM_logError("buildInfoPanelOptionsDisabling\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelOptionsDisabling","","",err);}
 }
 function buildInfoPanelZonePairing(){
     try{
@@ -7938,7 +7983,7 @@ function buildInfoPanelZonePairing(){
             }
         }
         container=null;newdiv=null;
-    }catch(err){GM_logError("buildInfoPanelZonePairing\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelZonePairing","","",err);}
 }
 function buildInfoPanelDebugInfo(){
     try{
@@ -7965,7 +8010,7 @@ function buildInfoPanelDebugInfo(){
         */
         newdiv.innerHTML +="devMode:"+DEVMODE+";\n";
         container=null;newdiv=null;
-    }catch(err){GM_logError("buildInfoPanelDebugInfo\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelDebugInfo","","",err);}
 }
 
 // ***************************************************************************************************
@@ -8031,16 +8076,16 @@ try{
         for(var fz in zoneList){
             if(!zoneList.hasOwnProperty(fz)){ continue; }
             if(!(zoneList[fz] instanceof Array)){
-                GM_log("zoneList delete not array:"+fz+"("+getZoneType(fz)+")");
+                GM_logInfo("do_main","","fz="+fz+"("+getZoneType(fz),"(zoneList) delete not array");
                 delete zoneList[fz]; bChanged=true; continue;
             }
             if(extendedListReg.test(fz)){ continue; }
             if(!unsafeData.ALL_SLOTS[fz]){
-                GM_log("zoneList delete bad queue:"+fz+"("+getZoneType(fz)+")");
+                GM_logInfo("do_main","","fz="+fz+"("+getZoneType(fz),"(zoneList) delete bad queue");
                 delete zoneList[fz]; bChanged=true; continue;
             }
             if(unsafeData.zones.getBlock(fz)){
-                GM_log("zoneList delete blocked queue:"+fz+"("+getZoneType(fz)+")");
+                GM_logInfo("do_main","","fz="+fz+"("+getZoneType(fz),"(zoneList) delete blocked queue");
                 delete zoneList[fz]; bChanged=true; continue;
             }
         }
@@ -8060,19 +8105,19 @@ try{
         for(var fz in zoneToList){
             if(!zoneToList.hasOwnProperty(fz)){ continue; }
             if(!unsafeData.ALL_SLOTS[fz]){
-                GM_log("zoneToList delete bad zone:"+fz+"("+getZoneType(fz)+"):"+zoneToList[fz]+"("+getZoneType(zoneToList[fz])+")");
+                GM_logInfo("do_main","","fz="+fz+"("+getZoneType(fz)+") zoneToList[fz]="+zoneToList[fz]+"("+getZoneType(zoneToList[fz]),"(zoneToList) delete bad zone");
                 delete zoneToList[fz]; bChanged=true; continue;
             }
             if(unsafeData.zones.getBlock(fz)){
-                GM_log("zoneToList delete blocked zone:"+fz+"("+getZoneType(fz)+"):"+zoneToList[fz]+"("+getZoneType(zoneToList[fz])+")");
+                GM_logInfo("do_main","","fz="+fz+"("+getZoneType(fz)+") zoneToList[fz]="+zoneToList[fz]+"("+getZoneType(zoneToList[fz]),"(zoneToList) delete blocked zone");
                 delete zoneToList[fz]; bChanged=true; continue;
             }
             if((!extendedListReg.test(zoneToList[fz]))&&(!unsafeData.ALL_SLOTS[zoneToList[fz]])){
-                GM_log("zoneToList delete bad queue:"+fz+"("+getZoneType(fz)+"):"+zoneToList[fz]+"("+getZoneType(zoneToList[fz])+")");
+                GM_logInfo("do_main","","fz="+fz+"("+getZoneType(fz)+") zoneToList[fz]="+zoneToList[fz]+"("+getZoneType(zoneToList[fz]),"(zoneToList) delete bad queue");
                 delete zoneToList[fz]; bChanged=true; continue;
             }
             if(getZoneType(fz)!=getZoneType(zoneToList[fz])){
-                GM_log("zoneToList delete bad pairing:"+fz+"("+getZoneType(fz)+"):"+zoneToList[fz]+"("+getZoneType(zoneToList[fz])+")");
+                GM_logInfo("do_main","","fz="+fz+"("+getZoneType(fz)+") zoneToList[fz]="+zoneToList[fz]+"("+getZoneType(zoneToList[fz]),"(zoneToList) delete bad pairing");
                 delete zoneToList[fz]; bChanged=true; continue;
             }
         }
@@ -8315,7 +8360,7 @@ try{
             cand=null;
 
             showCropWeed();
-        }catch(err){GM_logError("eventListener:gameFieldOpened \n"+err);}
+        }catch(err){GM_logError("eventListener:gameFieldOpened ","","",err);}
         },false);
 
         err_trace="listener gameOpenMegafield";
@@ -8323,7 +8368,7 @@ try{
         try{
             // Automat icon
             drawAutomatIcon("megafield","megafield",$("megafield_back"),"position:absolute;top:350px;left:600px;");
-        }catch(err){GM_logError("eventListener:gameOpenMegafield \n"+err);}
+        }catch(err){GM_logError("eventListener:gameOpenMegafield ","","",err);}
         },false);
 
         err_trace="listener gameCity2";
@@ -8331,7 +8376,7 @@ try{
         try{
             // Automat icons
             drawAutomatIcon("windmill","windmill.1",$("cityzone_2_1"),"position:absolute;bottom:0;right:0;");
-        }catch(err){GM_logError("eventListener:gameCity2 \n"+err);}
+        }catch(err){GM_logError("eventListener:gameCity2 ","","",err);}
         },false);
         
         err_trace="listener gameOpenForestry";
@@ -8350,9 +8395,9 @@ try{
             }
             // Planting automat
             var el1=createElement("img",{"id":"autoFarmForest","class":"link","style":"position:absolute;top:-25px;left:0;width:25px;height:25px;","src":GFX+"autoplant_off.png"},$("forestry_forest_buttons"));
-            el1.addEventListener("mouseover",function(evt){
+            el1.addEventListener("mouseover",function(event){
                 this.src=GFX+"autoplant_on.png";
-                toolTip.show(evt,"Automatic planting"); // TODO texte
+                toolTip.show(event,"Automatic planting"); // TODO texte
             },false);
             el1.addEventListener("mouseout",function(){this.src=GFX+"autoplant_off.png";},false);
             el1.addEventListener("click",function(){
@@ -8370,7 +8415,7 @@ try{
                 drawAutomatIcon("carpentry","carpentry.1",$("forestry_building2"),"position:absolute;right:0pt;bottom:15px;");
             }
             el1=null;
-        }catch(err){GM_logError("eventListener:gameOpenForestry \n"+err);}
+        }catch(err){GM_logError("eventListener:gameOpenForestry ","","",err);}
         },false);
         err_trace="listener gameSawmillOpened";
         document.addEventListener("gameSawmillOpened",function(){
@@ -8389,7 +8434,7 @@ try{
                     }
                 }
                 container=null;help=null;
-            }catch(err){GM_logError("eventListener:gameSawmillOpened\n"+err);}
+            }catch(err){GM_logError("eventListener:gameSawmillOpened","","",err);}
         },false);
         err_trace="listener gameCarpentryOpened";
         document.addEventListener("gameCarpentryOpened",function(){
@@ -8408,7 +8453,7 @@ try{
                     }
                 }
                 container=null;help=null;
-            }catch(err){GM_logError("eventListener:gameCarpentryOpened\n"+err);}
+            }catch(err){GM_logError("eventListener:gameCarpentryOpened","","",err);}
         },false);
         err_trace="listener gameFoodworldOpened";
         document.addEventListener("gameFoodworldOpened",function(){
@@ -8419,7 +8464,7 @@ try{
                     drawAutomatIcon("foodworld-"+v,"foodworld-"+v+".1",$("food_pos"+v),"position:absolute;right:-10px;bottom:-10px;");
                 }
             }
-        }catch(err){GM_logError("eventListener:gameFoodworldOpened \n"+err);}
+        }catch(err){GM_logError("eventListener:gameFoodworldOpened ","","",err);}
         },false);
         for(var v=1;v<=4;v++){
             err_trace="listener gameFoodworldOpened"+v;
@@ -8440,7 +8485,7 @@ try{
                         }
                     }
                     container=null;help=null;
-                }catch(err){GM_logError("eventListener:gameFoodworldOpened"+id+"\n"+err);}
+                }catch(err){GM_logError("eventListener:gameFoodworldOpened"+id+"","","",err);}
                 }
             }(v),false);
         }
@@ -8472,12 +8517,12 @@ try{
                                 this.style.border="";
                                 logBubble.add("Exiting Autoclear: stopping",5,"#880808");
                             }
-                        }catch(err){GM_logError("showCropWeed Icon Click \n"+err);}
+                        }catch(err){GM_logError("showCropWeed Icon Click ","","",err);}
                         },false);
-                        newspan.addEventListener("mouseover",function(evt){
+                        newspan.addEventListener("mouseover",function(event){
                             var product=this.getAttribute("product");
                             var amount=explode(this.getAttribute("velds"),"showCropWeed/mouseover/velds").length;
-                            toolTip.show(evt,getText("automat_removeAllWeed").replace("%PROD%",unsafeData.prodName[0][product]).replace("%TCOST%",moneyFormat(amount*CROPCOST[product])).replace("%AMOUNT%",amount).replace("%COST%",moneyFormat(CROPCOST[product])));
+                            toolTip.show(event,getText("automat_removeAllWeed").replace("%PROD%",unsafeData.prodName[0][product]).replace("%TCOST%",moneyFormat(amount*CROPCOST[product])).replace("%AMOUNT%",amount).replace("%COST%",moneyFormat(CROPCOST[product])));
                         },false);
                     }else{
                         newspan=$("cropWeed"+product);
@@ -8492,11 +8537,11 @@ try{
             }
             newspan=null;prods=null;product=null;
             $("gardenclearer").style.display="none";
-        }catch(err){GM_logError("showCropWeed \n"+err);}
+        }catch(err){GM_logError("showCropWeed ","","",err);}
         }
 
         function autoCropUndefined(felds,product){
-            if(DEVMODE_FUNCTION){GM_log("begin autoCropUndefined: handled.zoneNr="+handled.zoneNr+" felds="+implode(felds,"autoCropUndefined/felds")+" product="+product);}
+            if(DEVMODE_FUNCTION){GM_logInfo("autoCropUndefined","felds="+implode(felds,"autoCropUndefined/felds")+" product="+product,"handled.zoneNr="+handled.zoneNr,"Begin");}
             if(unsafeData.money < CROPCOST[product]){
                 logBubble.add("Exiting Autoclear: not enough money",5,"#880808");
                 showCropWeed();
@@ -8522,7 +8567,7 @@ try{
                                     toolTip.adjust($("cropWeed"+product));
                                     window.setTimeout(autoCropUndefined,settings.getPause(),felds,product);
 
-                                }catch(err){GM_logError("autoCropUndefined/gameFieldDemolish felds:"+felds+" product:"+product+"\n"+err);}
+                                }catch(err){GM_logError("autoCropUndefined/gameFieldDemolish","felds="+felds+" product="+product,"",err);}
                                 }
                             }(felds,product),false);
                             click($("globalbox").getElementsByClassName("link")[0]);
@@ -8550,9 +8595,9 @@ try{
                     if($("feed_item"+BUILDING2FEED[v][w])){
                         if(!$("autoFarmStable"+v+"t"+BUILDING2FEED[v][w])){
                             var newimg=createElement("img",{"id":"autoFarmStable"+v+"t"+BUILDING2FEED[v][w],"class":"link","style":"position:absolute;top:50px;width: 25px; height: 25px;z-index:11;","src":GFX+"autoplant_off.png"},$("feed_item"+BUILDING2FEED[v][w]));
-                            newimg.addEventListener("mouseover",function(evt){
+                            newimg.addEventListener("mouseover",function(event){
                                 this.src=GFX+"autoplant_on.png";
-                                toolTip.show(evt,"Automatic feeding"); // TODO texte
+                                toolTip.show(event,"Automatic feeding"); // TODO texte
                             },false);
                             newimg.addEventListener("mouseout",function(){this.src=GFX+"autoplant_off.png";},false);
                             newimg.addEventListener("click",function(){
@@ -8565,7 +8610,7 @@ try{
                     }
                 }
             }
-        }catch(err){GM_logError("eventListener:gameOpenStable \n"+err);}
+        }catch(err){GM_logError("eventListener:gameOpenStable ","","",err);}
         },false);
 
         err_trace="listener gameOpenFactoryOil";
@@ -8579,7 +8624,7 @@ try{
                     drawAutomatIcon(zoneNrS,zoneNrS,$("oil_slot"+slot),"left:-10px;");
                 }
             }
-        }catch(err){GM_logError("eventListener:gameOpenFactoryOil \n"+err);}
+        }catch(err){GM_logError("eventListener:gameOpenFactoryOil ","","",err);}
         },false);
         err_trace="listener gameOpenFactoryKnitting";
         document.addEventListener("gameOpenFactoryKnitting",function(){ // Knitting factory open
@@ -8592,7 +8637,7 @@ try{
                     drawAutomatIcon(zoneNrS,zoneNrS,$("strickerei_slot"+slot),"left:-10px;");
                 }
             }
-        }catch(err){GM_logError("eventListener:gameOpenFactoryKnitting \n"+err);}
+        }catch(err){GM_logError("eventListener:gameOpenFactoryKnitting ","","",err);}
         },false);
         
         function drawFarmIcons(){
@@ -8606,7 +8651,7 @@ try{
                     drawAutomatIcon(zoneNrF,zoneNrF+(unsafeData.zones.isMultiSlot(zoneNrF)?".1":""),$("farm"+farmNR+"_pos"+zoneNr),"");
                 }
             }
-        }catch(err){GM_logError("drawFarmIcons\n"+err);}
+        }catch(err){GM_logError("drawFarmIcons","","",err);}
         }
         document.addEventListener("gameFarmLoaded",drawFarmIcons,false);
         function updateFarmIcons(){
@@ -8618,7 +8663,7 @@ try{
                     updateQueueBox(zoneNrF+(unsafeData.zones.isMultiSlot(zoneNrF)?".1":""));
                 }
             }
-        }catch(err){GM_logError("updateFarmIcons\n"+err);}
+        }catch(err){GM_logError("updateFarmIcons","","",err);}
         }
         document.addEventListener("gameFarmOpened",updateFarmIcons,false);
         drawFarmIcons();
@@ -8696,13 +8741,13 @@ try{
         }
 
         document.addEventListener("gameReallocateBuilding",function(){
-            if(DEVMODE_FUNCTION){GM_log("Begin gameReallocateBuilding");}
+            if(DEVMODE_FUNCTION){GM_logInfo("gameReallocateBuilding","","","Begin");}
             try{
                 var building1=unsafeData.reallocateBuildingSet[0];
                 var building2=unsafeData.reallocateBuildingSet[1];
                 var zoneL1 = getZoneListId(building1);
                 var zoneL2 = getZoneListId(building2);
-                if(DEVMODE){GM_log("Automat gameReallocateBuilding: " + building1 + " : " + building2);}
+                if(DEVMODE){GM_logInfo("gameReallocateBuilding","","building1="+building1+" building2="+building2,"");}
                 var help;
 
                 help=zoneList[zoneL1].clone();
@@ -8721,8 +8766,8 @@ try{
                 GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneToList",implode(zoneToList,"gameReallocateBuilding/zoneToList"));
 
                 // GM_log("End Automat gameReallocateBuilding: " + building1 + " : " + building2);
-            }catch(err){GM_logError("gameReallocateBuilding \n"+err);}
-            if(DEVMODE_FUNCTION){GM_log("End gameReallocateBuilding");}
+            }catch(err){GM_logError("gameReallocateBuilding ","","",err);}
+            if(DEVMODE_FUNCTION){GM_logInfo("gameReallocateBuilding","","","End");}
         },false);
 
         document.addEventListener("gameUpdateRack",function(){
@@ -8743,7 +8788,7 @@ try{
             autoMillStorage=help.clone();
             help=null;
             reFillQueueBox("windmill","windmill",0);
-        }catch(err){GM_logError("eventListener:gameUpdateFormuladealerRack \n"+err);}
+        }catch(err){GM_logError("eventListener:gameUpdateFormuladealerRack ","","",err);}
         },false);
 
         document.addEventListener("gameOpenWindmill",function(){ // Windmill
@@ -8765,7 +8810,7 @@ try{
                 }
             }
             reFillQueueBox("windmill","windmill",0);
-        }catch(err){GM_logError("eventListener:gameOpenWindmill \n"+err);}
+        }catch(err){GM_logError("eventListener:gameOpenWindmill ","","",err);}
         },false);
 
         // Farmersmarket
@@ -8778,7 +8823,7 @@ try{
                     drawAutomatIcon("farmersmarket-"+v,"farmersmarket-"+v+(unsafeData.zones.isMultiSlot("farmersmarket-"+v)?".1":""),$("farmersmarket_pos"+v),"position:absolute;right:0;bottom:0;");
                 }
             }
-        }catch(err){GM_logError("eventListener:gameFarmersmarketOpened \n"+err);}
+        }catch(err){GM_logError("eventListener:gameFarmersmarketOpened ","","",err);}
         },false);
         
         //Bot Start-Stop-Button
@@ -8793,16 +8838,16 @@ try{
             }
         },false);
         newdiv=createElement("div",{"id":"divBotInfo","class":"link blackbox","style":"position:fixed;bottom:0px;left:0px;z-index:999;"},ALL);
-        newdiv.addEventListener("mouseover",function(evt){
-            toolTip.show(evt,"Click to break Automat business");
+        newdiv.addEventListener("mouseover",function(event){
+            toolTip.show(event,"Click to break Automat business");
         },false);
         newdiv.addEventListener("click",bot.end,false);
         bot.init();
 
         newdiv=createElement("div",{"id":"divCloseWindowLayer","class":"link ","style":"opacity:0.7;position:absolute;top:20px;z-index:101;display:none;background:black;height:84px;left:210px;width:770px;"},$("headercontainer"));
         newdiv=createElement("div",{"id":"divCloseWindow","class":"link blackbox","style":"width:250px;display:none;text-align:center;padding:10px;border-radius:5px 5px 5px 5px;position:relative;z-index:101;top:30px;left:470px;"},$("headercontainer"));
-        newdiv.addEventListener("mouseover",function(evt){
-            toolTip.show(evt,"Restart closing timer");
+        newdiv.addEventListener("mouseover",function(event){
+            toolTip.show(event,"Restart closing timer");
         },false);
         newdiv.addEventListener("click",function(){
             stopCloseWindowTimer();
@@ -8882,7 +8927,7 @@ try{
     document.addEventListener("gameFarmOpened",function(){
         if(settings.get("account","botUseFarmi")){ checkFarmi(1); }
     },false);
-} catch(err){GM_logError("do_main ("+err_trace+")\n"+err);}
+} catch(err){GM_logError("do_main","","err_trace="+err_trace,err);}
 }
 
 function do_hilfe(){
@@ -8907,7 +8952,7 @@ function do_hilfe(){
                 if(help[1]){ createElement("p",{},div,help[1]); }
             }
             container=null;div=null;
-        }catch(err){GM_logError("help.click\n"+err);}   
+        }catch(err){GM_logError("help.click","","",err);}   
     },false);
     newdiv=null;newa=null;
 }
@@ -9040,7 +9085,7 @@ function manageVariables(){
                 }
             }
             if(variables.length>0){
-                prompt("Copy this string to a text-file", implode(variables));
+                prompt("Copy this string to a text-file", implode(variables,"buildManageVariables/variables"));
             } else {
                 alert("Nothing selected");
             }
@@ -9280,7 +9325,7 @@ try{
         }
         }
         if(changedata<1){ GM_setValue("automatChangedata",1); }
-    }catch(err){GM_logError("changedata global\n"+err);}
+    }catch(err){GM_logError("changedata global","","",err);}
     // **************************************************
     // ChangeData Country
     err_trace="ChangeData Country";
@@ -9311,7 +9356,7 @@ try{
         }
         }
         if(changedata<1){ GM_setValue(COUNTRY+"_automatChangedata",1); }
-    }catch(err){GM_logError("changedata country\n"+err);}
+    }catch(err){GM_logError("changedata country","","",err);}
     // **************************************************
     
     // Multilingual
@@ -9397,8 +9442,8 @@ try{
         texte["de"]["automat_inftext"] = "L"+a_dots+"uft ohne Ende";
         texte["de"]["automat_removeAllWeed"] = "Entferne alle %AMOUNT% %PROD%<br>St"+u_dots+"ck = %COST%<br>Total = %TCOST%";
         texte["de"]["automat_usedFarmFieldsReadyAt"] = "Benutzte Felder sind fertig um:";
-        texte["de"]["automat_CloseWindowTimer"] = "Closing screen in :%1%";
-        texte["de"]["automat_CloseWindowTimerClick"] = "Click to reset timer!";
+        texte["de"]["automat_CloseWindowTimer"] = "Schlie"+sz+"e Fenster in %1%";
+        texte["de"]["automat_CloseWindowTimerClick"] = "Klick um Timer zur"+u_dots+"ckzusetzen";
         //%PRODNAME% = product name, %FLDFROM% = field nr from, %FLDTO% = field nr until,
         texte["de"]["automat_QueDoWork"] = "Zone wird vom Bot bearbeitet";
         texte["de"]["automat_QueDontWork"] = "Zone wird vom Bot ignoriert";
@@ -9451,7 +9496,7 @@ try{
         texte["de"]["automat_MillPowerUpText_1"] = top.window.wrappedJSObject.powerup_bonustext2;
         texte["de"]["automat_MillPowerUpText_2"] = top.window.wrappedJSObject.powerup_bonustext3;
         texte["de"]["automat_MillIngredients"] = top.window.wrappedJSObject.windmill_zutaten;
-        }catch(err){GM_logError("texte Mill from game missing \n"+err);}
+        }catch(err){GM_logError("texte mill","","",err);}
         texte["de"]["automat_number"] = "Anzahl";
         texte["de"]["automat_lack"] = "Fehlend";
         texte["de"]["automat_MillRecipesBought"] = "Total gekaufte Rezepte: ";
@@ -9578,8 +9623,8 @@ try{
         texte["en"]["automat_inftext"] = "Runs indefinitely";
         texte["en"]["automat_removeAllWeed"] = "Remove all %AMOUNT% %PROD%<br>a piece = %COST%<br>total = %TCOST%";
         texte["en"]["automat_usedFarmFieldsReadyAt"] = "Used farm fields are ready at:";
-        texte["en"]["automat_CloseWindowTimer"] = "Closing screen in :%1%";
-        texte["en"]["automat_CloseWindowTimerClick"] = "Click to reset timer!";
+        texte["en"]["automat_CloseWindowTimer"] = "Closing screen in %1%";
+        texte["en"]["automat_CloseWindowTimerClick"] = "Click to reset timer";
         //%PRODNAME% = product name, %FLDFROM% = field nr from, %FLDTO% = field nr until,
         texte["en"]["automat_QueDoWork"] = "Zone is done by bot";
         texte["en"]["automat_QueDontWork"] = "Zone is ignored by bot";
@@ -9632,7 +9677,7 @@ try{
         texte["en"]["automat_MillPowerUpText_1"] = top.window.wrappedJSObject.powerup_bonustext2;
         texte["en"]["automat_MillPowerUpText_2"] = top.window.wrappedJSObject.powerup_bonustext3;
         texte["en"]["automat_MillIngredients"] = top.window.wrappedJSObject.windmill_zutaten;
-        }catch(err){GM_log("Mill from game missing \n"+err);}
+        }catch(err){GM_logError("texte mill","","",err);}
         texte["en"]["automat_number"] = "Number";
         texte["en"]["automat_lack"] = "Lack";
         texte["en"]["automat_MillRecipesBought"] = "Total recipes bought: ";
@@ -9716,7 +9761,7 @@ try{
             }
             }
             if(changedata<1){ GM_setValue(COUNTRY+"_"+SERVER+"_automatChangedata",1); }
-        }catch(err){GM_logError("changedata server\n"+err);}
+        }catch(err){GM_logError("changedata server","","",err);}
         // **************************************************
         // ChangeData User
         err_trace="ChangeData Server";
@@ -9798,7 +9843,7 @@ try{
             }
             }
             if(changedata<1){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_automatChangedata",1); }
-        }catch(err){GM_logError("changedata user\n"+err);}
+        }catch(err){GM_logError("changedata user","","",err);}
         // **************************************************
         
         switch (PAGE){
@@ -9811,9 +9856,9 @@ try{
         settings.init();
         do_login();
     }
-    GM_log("Userscript \"MyFreeFarm Automat\" has started\nPage="+location.href);
+    GM_logInfo("start_script","","Page="+location.href,"Userscript \"MyFreeFarm Automat\" has started");
     unsafeData.automatStarted=automatStarted=true;
-}catch(err){GM_logError("start_script ("+err_trace+")\n"+err);}
+}catch(err){GM_logError("start_script","","err_trace="+err_trace,err);}
 }
 
 window.addEventListener("load",function(){

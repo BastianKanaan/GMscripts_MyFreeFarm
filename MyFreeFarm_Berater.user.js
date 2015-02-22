@@ -4,7 +4,7 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94BGgo6NO+u5q4AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAS0ElEQVRo3t2aeYxl11ngf+fub3+172t3V1cv7sVuJ3bs7jh2QtoMDoHEwRlCbMJEATRiSaKBQTNBCKGwBwSDNAyTQVGCYJIMEINjxrFix3E73mO7TW/V1VXVtS+v6i13v+ee+aNvQSXDaCTS7W7nSE/v3veuzrm/8y3nO9934Dq08cE+APv9E/1//tDN+16/9+hNJ/l+bXv3jAHw4zf1P/sLdx5TRqXyc++fHPvsGzW+/kbC5vMOyyvrfOSDJz99eM/gj+09fkK9Na/fW8sVzr86NfOl7ydgB+iK46TnVz75wJNtHZX3rcuUI8dvFS9cnuHQ7YcOWprTfvb8pUe/H4BzwH7g0H/59INfq3Z09++ZHBPHbn8LpVKF3WNdWPlOdeIdd962MDf/8vSl+XPX8mW0awxrAiPAgd/4xXf+wdaG74yP7BL9w/vp7x2h1WrRM3SYwf5+8cLz31Yf/w8f/fK1nn3tGkt2D3AE6J7o6xoc7Cjyq//pt3ntm88wMzvDhfMX+dmP/AJJnDKxe0j09HQZDzzwns+9GVW6CBwGjgIdhbz91vfdffjg6soWrhcwf+p5Cu7L3DwhWTkdYvVWCeOEQsFm//5dY1/4wld+880kYQeYBG4CqoD23uMTk0mcQJTQF9R4/48PM3mwDU2HDz5Y5dk/+VPc5YuErZpKooZ9LSVsXOX+BNAB7AUK2X1yx97C7oXpNQb7Nrn5pw5hOA6FthLFYh4hdD7+B8NceHGKi2eqYmTfmAGwb3I3Z85O3fAS1oHubckC6IZ9uGCWCruHN6lWHNIwQRc6BjqkGpqCNEkZPTTG0aFZtuqBPjQ08NPXAvZaAJtA2w7NUQ+9c/Lt5XQOWh5hrY5yfbQoRAYBKvRJ4xgZxcReQD5vMaK9yu9+5j//iWEY4s2g0nYGvO0MxX9/9PTnT1R6P1UqCVJDR/kJdiIQrsIqRghT4KEIpCSNJAuLa3zm7179qJaibnRgDejJgP9JOp3thZueOJvygwdTND0lcFuEWhEtdTALvTTXlmikCV4ScHFhixefXEHSuStKkxveadnAQOas/qm1vHhlq5Uwta6rsUosiCWuVsfJF2itzNMKY+a36sxsNXnhYkI5LLBSWz71ZvDSCkiz739eoyyjMI81VV7Vd6skYLSasrK4gWnnWKt7PL+4wbwbcv6yRKsrZDHXSGqbr74ZAg8t89D9O/stWNbuTS+8+Mzs2hfqstBNnPYOdRpcXNjg4VeXeOqSz/RcghuIb6zr5m+2omQ1NZ2/q7da4c7O+3u6abruDQWsA0PfDTzSVji26QZWJOWFxbr73OTuwcPfeL1ezhcNljydlmdDW+XJ8zPzd/lRsr6vo/xbtkjW26qVwzKJb7INo6OtWl1fWl2LbkQvnQJxJm0NEKZh6yptpNvx9fmt5MXjk72DD798meFyldHDY6xeuMi79nYpJWXqJJH2ajOaqW3UHtvudMsLGOjtYWF55YZahwUggRngEuAC6txa7XHNMF/Z9txRLJNATxnuG2Civ5ORgS56nPTtaPrpr03V9DDwGztht9vVgL0WwBpwGXgKeAVwoyiqNf1gbXtC2goWInLYZUG1UqH25JP4iTr32JnlQ4D92OJm5f83UG93xw2h0gKwsusGcDZbl8eziVADXe33juXlD0QrDRWWcqK2sIDSneSx80sngX6E8IZ7OvvCIPx5Kwnu6eru7J1fWPLLPQMvrtc2v+XknadMzXhdIlr79k2kZ86cv67AaQbqZtd+di8Bdctw9ZerVb3njjvGeOyvT4tG1zD27GX8vqH/wfmlxf6eronRnJqKIt/RCqCcrjNzm+7Nq6GaX52bzxb1K166v7e7HIeRByTXEzgCpjKnlX5HgG3ak+++d39PwcirNAzEsZN38sg/rvPAJ3+WwTb7o3rs3xPWVsYKhQKRq3GmqR2bvrjwIkBfZztL67XvGGhxebVxoyQAomzWLaAL2AVU/u29t9y/d3Skc31pXcTSQG6sENpF3nLLfkwh1ckfua991/4J8fpzL4jXaukTtWbTLBdL7e3t1bzQ9Uaj2Ypv1M3Ddoi5F9iH0Mf/6Jfu/3hff2/n8uqaGpk8KjQErcYmt/YNUe7sxVCJiBPFI5//K0bGB5UoNnNffGL5z8BNLNNMhRDb/uGqbCautoS1LPh4i2ZYRz54fOxT02cv5A/ceozugWFh6RrDh46RMxX9g33IyOeRv36EXYfeQhi02FhaIG9pg1uxuVDbrD8p0zSQUsrvNpEbCTiXpXZGH7xj6NerxTIqidk9Ocljjz6Bcuv09HfxyFe+Stxy6R4a5IlHHuXlp75O4jbxo0jEErW3r3Ty3LL/a2EYXFXYqwksssTdGLC3krf3j7XlbtPRcEyTrz/9Eh0lm5X1TVIl2FxZZGpmjqVLM7SVHSqlAghFEkuWN13hWCb5fOH3Li2sRlwDFbwasJ3AMeCtQLtjm/vcZsDK0ipx4DMx2EGpYGPmHGYvnKVUKVCpFMmZkKQphbxFqlL8WHLq9ByXV+tYmnr4Rk3xlLKU7AGgAmiDbcXROI7xIonne4g0xrYMOtqKKB0sXWekr51c3sa2DNAExZyDbgiUUrx8YYGiKd9+cM/I0I0GrGe7o7EsPQsIYywXTUgF9Uhi6ALimJxlolKJY1uEcYRKFbahUcw5yCQlUQpN03jv8UnZ3T/6e4+/PM14d+F1gIN7x24YYCMLH/PbP1QKdpvrxtQiVHfBVK6fgoypbTZJZYqUkqYb0Gq51BsegecjU4Vp6FimSVuloPte0xsYHHnu+bNzxfvu2P/S6XOXtR86cdMNAWzuyD8DcGig7cFFTzLl6YslS6AZEEcRtVod3wuo111818P3ApIgIooTfM9ndnkLw9AJooR7Dvf/yumZpeMyFY3ZxfUj9905ceGpqcR49+0Hrjuwk9mwBqj+jvKEX6/1zSVO0JeT3cLURck2SJXACTxi10PFCaam02h4+J5HqxnQagUIDUzLIJKSYs7S9/ZXz69uNqtz6631raY7/s4J89w/PPM6B/eOXzdgLfPO5Svxslm9Y9D52DyVxDKNhW4rNUxDo5wzKBo6XqpI/AAZxsRxQj5no3QTJRSWbdBRLWFbFn2dbSgUd9/UN9zd1XVpq+l1P/Pa5ZnaVn38/e84/Nrpc9OMDQ1cF2Anc1gOkPzAwYFfPr0hieL46YG86u0pWMLUBW4sidDo6KzS0dlGV3cbpUKOaql4ZWnK5wmimDSVOI6FF0TIVKGhiYqVjpRLxc/t37/vyEtT66cCzzv4Y3cfefzS5QV2jY2+oYHHdv7qIKAf29VzX1vJmVgMrItFgkP1ZsserFg4to6tGygFVr5AgiBVYDsWmiEIY4lMU8rlIqZloJRASYmuCYIwYrS3Kp77x7nDfhAuOI716GpLqo5c+p5Dk2NDT7905itvFPB2wewo0FMpFQffc3Tgoadn/MgPAtMKG/nx9jwVxyDvGPihBNNB6Dq6YWCaJkLXcf0QhcJ2TDTdQEMgUZiGRhgmxHFCznHQdNT5uZUfHBgc/JlarXYp1osHunPpe7p7B+szC8vfeiNUusCVIwx9QO1Hjw3/4jcvNVLXD6OBkjDiVKiSdaXbpp+gmRapEDTDmI2WS8P1EAIKeQfbsdhqeDRaTYI4wnV9kFBrtIhlSsv1OTTeJ0p5G5toutFonlrf2Lzv23PuZncu/AzkR/fsGrumwGYWZIwD0Vv39LxrvRU4F5fr2sbm5meDVqs43u4IKSFNFZoSRGGEIaCQc+hpr2KYOkopQGEaBuVino5yBamg1fLZaLYo5hyUglimmJbJiSPjTM0utR05eji/Xqutu2H03hdeX/jGB06MPn3h4qVrBiyyRPu+LNAwBkvmQ6emNnyU+l89He0fyosUSxOkKiWIU/woIQgTGq0Av9EijWMsXYNUIVNoNT1sU6fp+bgND5mmyFjh+REKsC2Tjc06HaUcmoCVxaUBgHIhf07Y+enZ5fp/vf/43qeulQ0XM7sdAtI793R96HI9Km648fkkkSqvJUuDRXO8aOvkTAOlFJoQCAFJClbOQaBQQoMkxTINdEPH9ULCMMaxbaRUpGlKkqRX4FVKGEs620rUtpq4CV9yXW/2ns0t99spX0U3/02QiNroYF+nqZuvbDVbV03COjDMlRM5EjTVXS3fvpFYsZTyrKZp+ZxObzVvYusGhi4wdZ04VSRSIYDID2h5Ic2mT8sLCMOYzS2XVKZoCKIoQUMjjCVC10gVFPN5ysU8XpCwf9cAtdpGEeB/AqWCE11aWP7EesM/ZSfNP7+0EHbs3TV+1YArwO4MfOnEnvaPnpqubTbr9dO6pr3X8/2/7ygX26p5k0SlCK5ItmKbWLqGKQSJTFFSoWRK04+4vLKB6wW03ABTNwjDmCCKiRKJkXltL4yRSiA0TSGgo1rdzn2ztLoOwOziyudn17x77z7onD13cfqqAJvAKFeOMWzkC6UeX5jdbpRsaZro8Tz/V1WaunHghVGicEyNSKboQqMZJRhCQ8oEmUjcIKTpBshEUrBtio6NLgQtPyBOJE3PRyaStVodqRQqVTRavmr4sTB041LLC+0slP3OF9T1+a3Zxc7b9u/5yPcKLID2TJ0DYPX43p6fu7AWrIF6rOV6f6ZQAhCJZtYNTRBn2z5Ng7a8RStO0DVBkkiUlGi6Rhgl+F5IFMbouo7rRfhhTN62UUJQLhexLRs3DIklIkpk0PCT11zPS7JMaG7nS55fXDu9VR34xNTy+tr3Cmxly1AB8Hs622/ZjNJ+HYoykT+j69r2wMKP5GyqaypOwLEM5SWSVigpWgZ+IgmTBJRCi2NKtoFhGtRaHp4fYZk6OcfCDyLiRBJEEW4Y4waKWKGaftR0/fCroF7Jgp7hnQ53fGyE6csLv79e23z4e/HSItvrTmSJtODmfYMfO3NhfmKr5eaKxcIXPM9f2t4a6kKj3TZuacmUMFGiu+SIWCriVF7J7pk6ptAIAZWCbuhoAhQCzdBBaTiOQy6XI4xT5YYRKCXcIDntOPYDj3/r9N9mWtYF9ALrWXWDza36VVmW8lw5OlgE6sBpLySuNVo/Cnw7CAK5Q0NEmKZJTpMHLMtWUYq26SW6VGAYembTOoapkyqNOE2xHQelG0gEXpiAptEKY7XphuFGoyXbndic7BPKFP7//vIT5/44G0ftSDq4wObViqVFthPalu4isOD5/rcy9R7LbHv7WdJUxUut+JRlaL2aprXphrB9qVQrlFiGLrw4JVUQK5AIEqHjBpFKFEITBoFENfx4c2WjuXDrUNJ727jBSIcSBwaMwx1tldwLF7a+lgG7mQC2MolflUjLzuykLftUdjwbA142+P91liqX16MH7yqWBroMqmUDLyFtxiKN0NKtKEn9SKogTNRGvaWabkCqNLXa9NKl9a2VMzOrXx+vhGNv321zebaBYRpcXvTV0b74lz58ct/bdpRzljLoq1ZqcTKYy0AtK3L72X9JVhVMMg1RgJbP5wuHxjoO//xxcef0vMvJm6ts+Zp4/KWafmbRXdts+m5k5J93DJkbK5vHUxkJITQ1t7gcN1Nz5vLa5peUgnfd1/e+szMe3zzbYs9EiaWkcvTcc3NfvevW4tc+98+5s3912eX/BexnBe04m1G5YxC5Q52sTPLDcRTd8sl71Nv+8kXdPTMTBz/dGXacXTPCMNbCT93f1fWhP579Q2j6dWClxhPZZBmZr6gCb2svO3t6qpZ6/Fm/dWoxfPIDLflDDz8z99vnloK/3dW38e/+4/tGf/fTX5755LVI8YSZymzXYHfOqMqkvpVd54CxA4P5vlAvqi89PfP3F5brS3aq+Jvn1pcfPb124fSFRnrylp77d5RNkmwyrcwploD8B2/r3qOEEb+0Lv8QWEsTpW6f7MkpmWivzYfrR4btT0B+ZHJ88A1P8TSA2UzKGmD+8B5zNPRD0dtWHsrplE3L5qETvWVQ0aKr+x97R+Ew6IVsIs8BLwELmafdyplGZbIUGlEYGWut8NfzjjNpxam4a1QdB9Z1jbwfSH7nJ4f+/dnp+TccOM7sei3TgvLMuplsLgUEUsnJ7lLBqwUM5pI2YLrDTpwwEtxztKcGPAGcAp4HngXmgKYhlIg2EzYWWkRReELCVlKLWF2MASzdE4G35qnVmfrw9aoP17OKfwGQX359/excq1TYajSfnUqdNNoKT/zDlHgYaOnNRHlrLqbSXgGmd5jI+Uyte5qRrD06Q9Nqb/sw1NbCIFj64gWTFaUfA37kken6oyA/HHUMfwqWuV6tANwJ/BrwF9le+W7gs6OVwnYq4k9vGuy8cP/+8jPQb/4L6/0w8BPAFxHi+I7//puZyx/YMc5f2MXKEa5z07Ii2k8AN2c7KwG8e8czd+Rs+wN2tTM33Nv9L/XRA9wP3PVdGpf7rue6rsYL/x8HbwtumjbAVwAAAABJRU5ErkJggg==
-// @date           12.02.2015
+// @date           22.02.2015
 // @version        2.4.2
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
@@ -52,7 +52,7 @@
 unsafeData.beraterDone=false;
 // global variables
 const VERSION=GM_info["script"]["version"];
-const neededVersionFunctionFile="2.1.3";
+const neededVersionFunctionFile="2.1.5";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
@@ -71,7 +71,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.3.7","16.12.2014",[["Aktualisierung der Daten","Update of data"]]],
                 ,["2.4.0","01.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"],["Neu: G"+u_dots+"terhof","New: Megafield"]]]
                 ,["2.4.1","12.02.2015",[["Bugfix: Logging Waltraud","Bugfix: Logging Waltraud"]]]
-                ,["2.4.2","12.02.2015",[["Neu: G"+u_dots+"terhof","New: Megafield"]]]
+                ,["2.4.2","22.02.2015",[["Neu: G"+u_dots+"terhof","New: Megafield"]],["Refaktorierung des Loggings","Refactoring of logging"]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -522,7 +522,7 @@ function SortableTable (sortRow){
             tbody.appendChild(newRows[i]);
         }
         tableEl=null;tbody=null;sortRow=null;newRows=null;
-    }catch(err){ GM_logError("sortCol\n"+sortRow.cells[i].innerHTML+"\n"+err); }
+    }catch(err){ GM_logError("sortCol","",sortRow.cells[i].innerHTML,err); }
     }
     // constructor actions
     try{
@@ -536,7 +536,7 @@ function SortableTable (sortRow){
             },false);
         }
     }
-    }catch(err){ GM_logError("SortableTable\n"+err); }
+    }catch(err){ GM_logError("SortableTable","","",err); }
  }
 function bar(size,markvalue,maxvalue){
     size=Math.floor(size);
@@ -587,14 +587,14 @@ try{
         unsafeWindow.showDiv("messages_view");
         unsafeWindow.messagesNavi("new");
         unsafeWindow.messagesCalcBody();
-    }catch(err){GM_logError("igm.click\n"+err);}
+    }catch(err){GM_logError("igm.click","","",err);}
     },false);
     link.addEventListener("mouseover",function(event){
         toolTip.show(event,getText("writeMessage"),this);
     },false);
     if (append){ append.appendChild(link); }
     return link;
-}catch(err){GM_logError("igm\n"+err);}
+}catch(err){GM_logError("igm","","",err);}
 }
 function vertrag(name,append){
     var link=createElement("span",{"to":name,"class":"link playerContract"});
@@ -603,7 +603,7 @@ function vertrag(name,append){
         var pagedata=new Object();
         pagedata["to"]=this.getAttribute("to");
         window.setTimeout(function(){
-            GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew",implode(pagedata));
+            GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew",implode(pagedata,"vertrag/pagedata"));
             if($top("multiframe")){
                 toolTip.hide(this);
                 $top("multiframe").src="../vertraege/new.php";
@@ -658,7 +658,7 @@ function loadProductData(){
         prodMinRackInit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRackInit"),"loadProductData/err/prodMinRackInit",[]);
         prodMinRack=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRack"),"loadProductData/err/prodMinRack",[]);
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("loadProductData\n"+err); }
+    }catch(err){ GM_logError("loadProductData","","",err); }
 }
 function updateProductDataFarm(){
     try{
@@ -759,7 +759,7 @@ function updateProductDataFarm(){
         publishProductData();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
     }catch(err){
-        GM_logError("updateProductDataFarm\n"+err);
+        GM_logError("updateProductDataFarm","","",err);
         loadProductData();
     }
 }
@@ -815,7 +815,7 @@ function updateProductDataForestry(){
         // prodName[1].sortObj();
         publishProductData();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("updateProductDataForestry\n"+err); }
+    }catch(err){ GM_logError("updateProductDataForestry","","",err); }
 }
 function updateProductDataWindmill(){
     try{
@@ -861,7 +861,7 @@ function updateProductDataWindmill(){
         prodNameSort[2]=help["r0"].concat(help["r1"],help["r2"]);
         publishProductData();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("updateProductDataWindmill\n"+err); }
+    }catch(err){ GM_logError("updateProductDataWindmill","","",err); }
 }
 function updateProductDataPowerup(){
     try{
@@ -920,7 +920,7 @@ function updateProductDataPowerup(){
         prodNameSort[3]=help["p0"].concat(help["p1"],help["p2"]);
         publishProductData();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("updateProductDataPowerup\n"+err); }
+    }catch(err){ GM_logError("updateProductDataPowerup","","",err); }
 }
 function updateProductDataMegafield(){
     try{
@@ -980,7 +980,7 @@ function updateProductDataMegafield(){
         publishProductData();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
     }catch(err){
-        GM_logError("updateProductDataMegafield\n"+err);
+        GM_logError("updateProductDataMegafield","","",err);
         loadProductData();
     }
 }
@@ -1003,28 +1003,28 @@ function publishProductData(){
         top.unsafeData.gut          =gut.clone();
         top.unsafeData.preisBeob    =explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob","[]"),"publishProductData/preisBeob",[]).clone();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("publishProductData\n"+err); }
+    }catch(err){ GM_logError("publishProductData","","",err); }
     },0);
 }
 function saveProductData(){
     try{
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","saveProductData"); }
-        GM_setValue(COUNTRY+"_"+SERVER+"_prodName",implode(prodName,"saveProductData\prodName"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_prodNameSort",implode(prodNameSort,"saveProductData\prodNameSort"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_prodId",implode(prodId,"saveProductData\prodId"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_prodPoints",implode(prodPoints,"saveProductData\prodPoints"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_prodPlantSize",implode(prodPlantSize,"saveProductData\prodPlantSize"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"saveProductData\prodStock"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStockMax",implode(prodStockMax,"saveProductData\prodStockMax"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodYield",implode(prodYield,"saveProductData\prodYield"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_prodRequire",implode(prodRequire,"saveProductData\prodRequire"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_prodTyp",implode(prodTyp,"saveProductData\prodTyp"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodGrowTime",implode(prodGrowTime,"saveProductData\prodGrowTime"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodBlock",implode(prodBlock,"saveProductData\prodBlock"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_gut",implode(gut,"saveProductData\gut"));
-        GM_setValue(COUNTRY+"_"+SERVER+"_gutBeob",implode(gutBeob,"saveProductData\gutBeob"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_prodName",implode(prodName,"saveProductData/prodName"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_prodNameSort",implode(prodNameSort,"saveProductData/prodNameSort"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_prodId",implode(prodId,"saveProductData/prodId"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_prodPoints",implode(prodPoints,"saveProductData/prodPoints"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_prodPlantSize",implode(prodPlantSize,"saveProductData/prodPlantSize"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"saveProductData/prodStock"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStockMax",implode(prodStockMax,"saveProductData/prodStockMax"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodYield",implode(prodYield,"saveProductData/prodYield"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_prodRequire",implode(prodRequire,"saveProductData/prodRequire"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_prodTyp",implode(prodTyp,"saveProductData/prodTyp"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodGrowTime",implode(prodGrowTime,"saveProductData/prodGrowTime"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodBlock",implode(prodBlock,"saveProductData/prodBlock"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_gut",implode(gut,"saveProductData/gut"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_gutBeob",implode(gutBeob,"saveProductData/gutBeob"));
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("saveProductData\n"+err); }
+    }catch(err){ GM_logError("saveProductData","","",err); }
 }
 var gameLocation=new function(){
     var data=[null,null];
@@ -1032,17 +1032,17 @@ var gameLocation=new function(){
         try{
             if(!sub){ sub=null; }
             data=[main,sub];
-        }catch(err){GM_logError("gameLocation.set\n main="+main+" sub="+sub+"\n"+err);}
+        }catch(err){GM_logError("gameLocation.set","main="+main+" sub="+sub,"",err);}
     }
     this.get=function(){
         try{
             return data;
-        }catch(err){GM_logError("gameLocation.get\n"+err);}
+        }catch(err){GM_logError("gameLocation.get","","",err);}
     }
     this.check=function(main,sub){
         try{
             return ((!main)||(main==data[0]))&&((!sub)||(sub==data[1]));
-        }catch(err){GM_logError("gameLocation.check\n main="+main+" sub="+sub+"\n"+err);}
+        }catch(err){GM_logError("gameLocation.check","main="+main+" sub="+sub,"",err);}
     }
 }
 unsafeData.gameLocation=gameLocation;
@@ -1075,7 +1075,10 @@ try{
         }
     }
     return 0;
-}catch(err){GM_logError("checkRequest\n"+err);return null;} 
+}catch(err){
+    GM_logError("checkRequest","","",err);
+    return null;
+} 
 }
 function showMultiframePage(page){
 try{
@@ -1089,14 +1092,14 @@ try{
     if(help=$top("popup_garden")){ help.style.display="block"; }
     if(help=$top("multiframe")){ help.style.display="block"; }
     if(help=$top("multiframe")){ help.src=page; }
-}catch(err){GM_logError("showMultiframePage page="+page+"\n"+err);} 
+}catch(err){GM_logError("showMultiframePage","page="+page,"",err);} 
 }
 function showShopframePage(page){
     var cell=$top("shop");
     if(cell){
         if (top.window.wrappedJSObject.city!=1){
             top.document.addEventListener("gameCity1",function(){
-                GM_log("showShopframePage:in stad 1");
+                GM_logInfo("showShopframePage","page="+page,"","Arrived in city 1");
                 top.document.removeEventListener("gameCity1",arguments.callee,false);
                 showShopframePage(page);
             },false);
@@ -1156,7 +1159,7 @@ try{
         click(div);
     }
     div=null;
-}catch(err){GM_logError("goToDonkey\n"+err);}
+}catch(err){GM_logError("goToDonkey","","",err);}
 }
 
 function showGoToMarketToolTip(event,prod,add1,add2){
@@ -1233,7 +1236,10 @@ try{
         break;
     }
     return time;
-}catch(err){GM_logError("calcProductionTime product:"+[productType,productId]+" bonus="+bonus+" \n"+err);return 0;}
+}catch(err){
+    GM_logError("calcProductionTime","product:"+[productType,productId]+" bonus="+bonus,"",err);
+    return 0;
+}
 }
 function calcGrowDuration(growDurationInitial,bonus){
 //growDurationInitial in seconds, bonus like 0.85
@@ -1264,12 +1270,12 @@ var zones=new function(){
                     zones.create(zoneNrF);
                 }
             }
-        }catch(err){GM_logError("zones.init\n"+err);}
+        }catch(err){GM_logError("zones.init","","",err);}
     }
     this.save=function(){
         try{
             GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones",implode(data,"zones.save/data"));
-        }catch(err){GM_logError("zones.save\n"+err);}
+        }catch(err){GM_logError("zones.save","","",err);}
     }
     this.create=function(zoneNrF){
         try{
@@ -1298,7 +1304,7 @@ var zones=new function(){
                 }
                 zones.setBuilding(zoneNrF,building);
             }
-        }catch(err){GM_logError("zones.create\n"+err);}
+        }catch(err){GM_logError("zones.create","","",err);}
     }
     this.swap=function(zoneNr1,zoneNr2){
         try{
@@ -1307,7 +1313,7 @@ var zones=new function(){
                 data[zoneNr1]=data[zoneNr2].clone();
                 data[zoneNr2]=help;
             }
-        }catch(err){GM_logError("zones.swap\n"+err);}
+        }catch(err){GM_logError("zones.swap","","",err);}
     }   
     // Values
     this.setAnimals=function(zoneNrF,value){
@@ -1320,7 +1326,7 @@ var zones=new function(){
                 zones.save();
                 calcTotalAnimals();
             }
-        }catch(err){GM_logError("zones.setAnimals\n"+err);}
+        }catch(err){GM_logError("zones.setAnimals","","",err);}
     }
     this.getAnimals=function(zoneNr){
         try{
@@ -1330,7 +1336,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["animals"];
             }
-        }catch(err){GM_logError("zones.getAnimals\n"+err);}
+        }catch(err){GM_logError("zones.getAnimals","","",err);}
     }
     this.setBlock=function(zoneNr,value){
         // b: payment
@@ -1355,7 +1361,7 @@ var zones=new function(){
                 data[zoneNrF]["block"]=value;
                 zones.save();
             }
-        }catch(err){GM_logError("zones.setBlock zoneNr="+zoneNr+"\n"+implode(data[zoneNrF])+"\n"+err);}
+        }catch(err){GM_logError("zones.setBlock","zoneNr="+zoneNr,implode(data[zoneNrF],"zones.setBlock/data"),err);}
     }
     this.getBlock=function(zoneNr){
         try{
@@ -1371,7 +1377,7 @@ var zones=new function(){
             }else{
                 return "";
             }
-        }catch(err){GM_logError("zones.getBlock zoneNr="+zoneNr+"\n"+err);}
+        }catch(err){GM_logError("zones.getBlock","zoneNr="+zoneNr,"",err);}
     }
     this.setBonus=function(zoneNrF,value){
         try{
@@ -1382,7 +1388,7 @@ var zones=new function(){
                 data[zoneNrF]["bonus"]=value;
                 zones.save();
             }
-        }catch(err){GM_logError("zones.setBonus\n"+err);}
+        }catch(err){GM_logError("zones.setBonus","","",err);}
     }
     this.getBonus=function(zoneNr){
         try{
@@ -1392,7 +1398,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["bonus"];
             }
-        }catch(err){GM_logError("zones.getBonus\n"+err);}
+        }catch(err){GM_logError("zones.getBonus","","",err);}
     }
     this.setBonusSpecial=function(zoneNrF,value){
         try{
@@ -1408,7 +1414,7 @@ var zones=new function(){
                 data[zoneNrF]["bonusSpecial"]=value;
                 zones.save();
             }
-        }catch(err){GM_logError("zones.setBonusSpecial\n"+err);}
+        }catch(err){GM_logError("zones.setBonusSpecial","","",err);}
     }
     this.getBonusSpecial=function(zoneNr){
         try{
@@ -1418,7 +1424,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["bonusSpecial"];
             }
-        }catch(err){GM_logError("zones.getBonusSpecial\n"+err);}
+        }catch(err){GM_logError("zones.getBonusSpecial","","",err);}
     }
     this.setBuilding=function(zoneNrF,value){
         /*  BUILDING    NAME                    TYPE        
@@ -1473,7 +1479,7 @@ var zones=new function(){
                 }               
                 zones.save();
             }
-        }catch(err){GM_logError("zones.setBuilding\n"+err);}
+        }catch(err){GM_logError("zones.setBuilding","","",err);}
     }
     this.getBuilding=function(zoneNr){
         try{
@@ -1483,12 +1489,12 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["building"];
             }
-        }catch(err){GM_logError("zones.getBuilding zoneNr="+zoneNr+"\n"+err);}
+        }catch(err){GM_logError("zones.getBuilding","zoneNr="+zoneNr,"",err);}
     }
     this.getBuildingName=function(zoneNr){
         try{
             return getBuildingName(zones.getBuilding(zoneNr));
-        }catch(err){GM_logError("zones.getBuildingName\n"+err);}
+        }catch(err){GM_logError("zones.getBuildingName","zoneNr="+zoneNr,"",err);}
     }
     this.getLocation=function(zoneNr){
         try{
@@ -1496,10 +1502,13 @@ var zones=new function(){
             if(DATA_zones[zoneNrF]){
                 return DATA_zones[zoneNrF];
             }else{
-                GM_logWarning("getLocation returns null\nzoneNr="+zoneNr);
+                GM_logWarning("getLocation","zoneNr="+zoneNr,"","Function returns null.");
                 return null;
             }
-        }catch(err){ GM_logError("getLocation\n"+err);return null; }
+        }catch(err){ 
+            GM_logError("getLocation","zoneNr="+zoneNr,"",err);
+            return null; 
+        }
     }   
     // Production
     this.setProduction=function(zoneNrS,value){
@@ -1521,7 +1530,7 @@ var zones=new function(){
             }
             data[zoneNrS]["production"]=value;
             zones.processProduction(zoneNrS);
-        }catch(err){GM_logError("zones.setProduction\n"+err);}
+        }catch(err){GM_logError("zones.setProduction","zoneNrS="+zoneNrS+" value="+value,"",err);}
     }
     this.getProduction=function(zoneNrS){
         try{
@@ -1530,7 +1539,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["production"];
             }
-        }catch(err){GM_logError("zones.getProduction\n"+err);}
+        }catch(err){GM_logError("zones.getProduction","zoneNrS="+zoneNrS,"",err);}
     }
     this.processProduction=function(zoneNrS){
         try{
@@ -1644,7 +1653,7 @@ var zones=new function(){
                 calcTotalEndtime();
                 zones.save();
                 if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-            }catch(err){ GM_logError("zones.processProduction ("+err_trace+") zoneNrS="+zoneNrS+" iProdStr="+iProdStr+" \n"+err); }
+            }catch(err){ GM_logError("zones.processProduction","zoneNrS="+zoneNrS,"err_trace="+err_trace+" iProdStr="+iProdStr,err); }
     }
     this.flagProduction=function(zoneNrS){
         try{
@@ -1652,7 +1661,7 @@ var zones=new function(){
                 zones.create(zoneNrS);
             }
             data[zoneNrS]["production"][3]=false;
-        }catch(err){GM_logError("zones.flagProduction\n"+err);}
+        }catch(err){GM_logError("zones.flagProduction","","",err);}
     }
     this.getEndproduct=function(zoneNr){
         try{
@@ -1661,7 +1670,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["endproduct"];
             }
-        }catch(err){GM_logError("zones.getEndproduct\n"+err);}
+        }catch(err){GM_logError("zones.getEndproduct","","",err);}
     }
     this.getEndtime=function(zoneNr){
         try{
@@ -1670,7 +1679,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["endtime"];
             }
-        }catch(err){GM_logError("zones.getEndtime\n"+err);}
+        }catch(err){GM_logError("zones.getEndtime","","",err);}
     }
     this.getWatertime=function(zoneNr){
         try{
@@ -1679,7 +1688,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["watertime"];
             }
-        }catch(err){GM_logError("zones.getWatertime\n"+err);}
+        }catch(err){GM_logError("zones.getWatertime","","",err);}
     }
     this.getCrop=function(zoneNr){
     // {"prodId1":[amount1,points1],"prodId2":[amount2,points2],...}
@@ -1689,7 +1698,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["crop"];
             }
-        }catch(err){GM_logError("zones.getCrop\n"+err);}
+        }catch(err){GM_logError("zones.getCrop","","",err);}
     }
     this.getMainproduct=function(zoneNr){
         try{
@@ -1698,7 +1707,7 @@ var zones=new function(){
             }else{
                 return INIT_zoneItem["mainproduct"];
             }
-        }catch(err){GM_logError("zones.getMainproduct\n"+err);}
+        }catch(err){GM_logError("zones.getMainproduct","","",err);}
     }
     this.checkReady=function(zoneNrS){
         try{
@@ -1717,6 +1726,7 @@ var zones=new function(){
                     if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="e")){
                         if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
                     }else{
+                        if(DEVMODE){ GM_logInfo("zones.checkReady","zoneNrS="+zoneNrS,"Empty zone found"); }
                         unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"e",true];
                         readyZoneAdded=1;
                     }
@@ -1727,7 +1737,7 @@ var zones=new function(){
                     if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="r")){
                         if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
                     }else{
-                        if(DEVMODE){GM_log("checkReady readyZone add=READY zoneNrS="+zoneNrS);}
+                        if(DEVMODE){ GM_logInfo("zones.checkReady","zoneNrS="+zoneNrS,"Ready zone for cropping found"); }
                         unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"r",true];
                         readyZoneAdded=1;
                     }
@@ -1740,7 +1750,7 @@ var zones=new function(){
                     if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="w")){
                         if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
                     }else{
-                        if(DEVMODE){GM_log("checkReady readyZone add:WATER zoneNrS:"+zoneNrS);}
+                        if(DEVMODE){ GM_logInfo("zones.checkReady","zoneNrS="+zoneNrS,"Ready zone for watering found"); }
                         unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"w",true];
                         readyZoneAdded=1;
                     }
@@ -1748,7 +1758,7 @@ var zones=new function(){
                         div.setAttribute("class","farm_production_ready1 fieldWaterReady blinking");
                     }
                 }else if(unsafeData.readyZone[zoneNrS]){
-                    if(DEVMODE){GM_log("checkReady readyZone add:DELETE zoneNrS:"+zoneNrS);}
+                    if(DEVMODE){ GM_logInfo("zones.checkReady","zoneNrS="+zoneNrS,"Zone not ready anymore"); }
                     delete unsafeData.readyZone[zoneNrS];
                     if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
                         div.setAttribute("class","farm_production_ready1");
@@ -1757,7 +1767,7 @@ var zones=new function(){
                 div=null;
             }
             return readyZoneAdded;
-        }catch(err){GM_logError("zones.checkReady zoneNrS="+zoneNrS+"\n"+err);}
+        }catch(err){GM_logError("zones.checkReady","zoneNrS="+zoneNrS,"",err);}
     }
     // Type
     this.isMultiSlot=function(zoneNrF){
@@ -1770,7 +1780,7 @@ var zones=new function(){
         }else{
             return true;
         }
-    }catch(err){GM_logError("isMultiSlot\n"+err);}
+    }catch(err){GM_logError("isMultiSlot","","",err);}
     }
     this.isProductional=function(zoneNr){
         try{
@@ -1778,10 +1788,13 @@ var zones=new function(){
             if(DATA_zones[zoneNrF]){
                 return DATA_zones[zoneNrF]["productional"];
             }else{
-                GM_logWarning("zones.isProductional returns null\nzoneNr="+zoneNr);
+                GM_logWarning("zones.isProductional","zoneNr="+zoneNr,"","Function returns null.");
                 return null;
             }
-        }catch(err){ GM_logError("zones.isProductional\n"+err);return null; }
+        }catch(err){ 
+            GM_logError("zones.isProductional","zoneNr="+zoneNr,"",err);
+            return null; 
+        }
     }
 }
 unsafeData.zones=zones;
@@ -1789,12 +1802,12 @@ function getBuildingName(building){
     try{
         if(unsafeWindow.buildinginfos[0][building]){
             return unsafeWindow.buildinginfos[0][building][10];
-        }else if(getText(building)){
+        }else if(getText(building,true)){
             return getText(building);
         }else{
             return "???";
         }
-    }catch(err){GM_logError("getBuildingName\n"+err);}
+    }catch(err){GM_logError("getBuildingName","","",err);}
 }
 // Totals
 function calcTotalRecursive(recursionCount,stack){
@@ -1850,7 +1863,7 @@ try{
     }
     if(next){ calcTotalRecursive(++recursionCount,nextStack); }
  if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-}catch(err){ GM_logError("calcTotalRecursive ("+err_trace+")\ntype="+type+" iProd="+iProd+" help="+implode(help)+" i="+i+"\n"+err); }
+}catch(err){ GM_logError("calcTotalRecursive","","err_trace="+err_trace+" type="+type+" iProd="+iProd+" help="+implode(help,"calcTotalRecursive/help")+" i="+i,err); }
 }
 function calcTotalErnte(){
     try{
@@ -1868,11 +1881,11 @@ function calcTotalErnte(){
                             totalErnte[help[k][0]][help[k][1]] += help[k][2];
                         }
                     }
-                }catch(err){ GM_logError("calcTotalErnte loop\ni="+i+" j="+j+" zoneNrF="+zoneNrF+" help="+implode(help)+"\n"+err); }
+                }catch(err){ GM_logError("calcTotalErnte","","i="+i+" j="+j+" zoneNrF="+zoneNrF+" help="+implode(help,"calcTotalErnte/help"),"(loop) "+err); }
             }
         }
         // GM_log("calcTotalErnte totalErnte="+implode(totalErnte));
-    }catch(err){ GM_logError("calcTotalErnte\nzoneNrF="+zoneNrF+"\n"+err); }
+    }catch(err){ GM_logError("calcTotalErnte","","zoneNrF="+zoneNrF,err); }
 }
 function calcTotalFarmis(){
     try{
@@ -1899,7 +1912,7 @@ function calcTotalFarmis(){
             }
             // totalFarmis[0].sortObj();
         }
-    }catch(err){GM_logError("calcTotalFarmis \n"+err);}
+    }catch(err){GM_logError("calcTotalFarmis","","",err);}
     //GM_log("calcTotalFarmis totalFarmis:"+implode(totalFarmis[0]));
     //calcProdMinRack(); //TODO possible security error this in wrappedJSObject .. and the calcProMinRack/doBuyNotePad is in unsafeWindow
 }
@@ -1916,7 +1929,7 @@ try{
         }
     }
     //GM_log("calcTotalPowerups totalPowerups:"+implode(totalPowerups));
-}catch(err){ GM_logError("calcTotalPowerups\n"+err); }
+}catch(err){ GM_logError("calcTotalPowerups","","",err); }
 }
 function calcTotalQuest(quTyp){
     try{
@@ -1960,7 +1973,7 @@ function calcTotalQuest(quTyp){
             }
         }
         // GM_log("totalQuest["+quTyp+"]="+implode(totalQuest[quTyp]));
-    }catch(err){ GM_logError("calcTotalQuest quTyp="+quTyp+" camp="+camp+" q="+q+"\n"+err); }
+    }catch(err){ GM_logError("calcTotalQuest","quTyp="+quTyp,"camp="+camp+" q="+q,err); }
     // GM_log("calcTotalQuest END");
 }
 function calcTotalZones(){
@@ -1979,10 +1992,10 @@ try{
                     }
                     totalZones[currZoneTyp]++;
                 }
-            }catch(err){ GM_logError("calcTotalZones loop\ni="+i+" j="+j+" zoneNrF="+zoneNrF+"\n"+err); }
+            }catch(err){ GM_logError("calcTotalZones","","i="+i+" j="+j+" zoneNrF="+zoneNrF,"(loop) "+err); }
         }
     }
-}catch(err){ GM_logError("calcTotalZones\n"+err); }
+}catch(err){ GM_logError("calcTotalZones","","",err); }
 }
 function calcTotalAnimals(){
 try{
@@ -1994,7 +2007,7 @@ try{
             totalAnimals[zones.getBuilding(ALL_ZONES["farm"][i])]+=help;
         }
     }
-}catch(err){ GM_logError("calcTotalAnimals\n"+err); }
+}catch(err){ GM_logError("calcTotalAnimals","","",err); }
 }
 function calcTotalEndtime(){                
     try{
@@ -2021,7 +2034,7 @@ function calcTotalEndtime(){
             }
         }
         GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalEndtime",totalEndtime);
-    }catch(err){ GM_logWarning("calcTotalEndtime\ni="+i+" j="+j+" zoneNrF="+zoneNrF+"\n"+err); }
+    }catch(err){ GM_logError("calcTotalEndtime","","i="+i+" j="+j+" zoneNrF="+zoneNrF,err); }
 }
 // calcProdMinRackInit: sets base values
 // -> calcProdMinRack: adds quests, farmis, growing, addons, forestry 
@@ -2029,7 +2042,7 @@ function calcTotalEndtime(){
 // -> doBuyNotepad, doRack, TODO doFarmis!
 // TODO: switch this logic to: calcTotalX -> calcProdMinRack
 function calcProdMinRackInit(){
-    try{
+try{
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","calcProdMinRackInit"); }
         prodMinRackInit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRackInit"),"calcProdMinRackInit/prodMinRackInit",[[],{},{},{}]);
         if(!(prodMinRackInit instanceof Array)){ prodMinRackInit=[]; }
@@ -2055,126 +2068,127 @@ function calcProdMinRackInit(){
             }
             // prodMinRackInit[type].sortObj();
         }
-        GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRackInit",implode(prodMinRackInit,"calcProdMinRackInit\prodMinRackInit"));
+        GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRackInit",implode(prodMinRackInit,"calcProdMinRackInit/prodMinRackInit"));
         unsafeData.prodMinRackInit=prodMinRackInit.clone();
         calcProdMinRack();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("calcProdMinRackInit\ntype="+type+" prod="+prod+"\n"+err); }
+}catch(err){ GM_logError("calcProdMinRackInit","","type="+type+" prod="+prod,err); }
 }
 function calcProdMinRack(caller){
-        try{
-        if(DEVMODE){ GM_log("begin calcProdMinRack"); }
-        prodMinRack=prodMinRackInit.clone();
-        // Quest
-        var err_trace="quest";
-        for(var quTyp in QUESTS){
-            if(!QUESTS.hasOwnProperty(quTyp)){ continue; }
-            calcTotalQuest(quTyp);
-            for(var type in totalQuest[quTyp]){
-                if(!totalQuest[quTyp].hasOwnProperty(type)){ continue; }
-                for(var prod in totalQuest[quTyp][type]){
-                    if(!totalQuest[quTyp][type].hasOwnProperty(prod)){ continue; }
-                    if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
-                    prodMinRack[type][prod] += totalQuest[quTyp][type][prod];
-                }
+try{
+    if(DEVMODE){ GM_logInfo("calcProdMinRack","caller="+caller,"","Begin"); }
+    prodMinRack=prodMinRackInit.clone();
+    // Quest
+    var err_trace="quest";
+    for(var quTyp in QUESTS){
+        if(!QUESTS.hasOwnProperty(quTyp)){ continue; }
+        calcTotalQuest(quTyp);
+        for(var type in totalQuest[quTyp]){
+            if(!totalQuest[quTyp].hasOwnProperty(type)){ continue; }
+            for(var prod in totalQuest[quTyp][type]){
+                if(!totalQuest[quTyp][type].hasOwnProperty(prod)){ continue; }
+                if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
+                prodMinRack[type][prod] += totalQuest[quTyp][type][prod];
             }
         }
-        // Farmis
-        err_trace="farmis";
-        if(valMinRackFarmis){
-            for(var prod in totalFarmis[0]){
-                if(!totalFarmis[0].hasOwnProperty(prod)){ continue; }
-                if(!prodMinRack[0][prod]){ prodMinRack[0][prod]=0;}
-                prodMinRack[0][prod] += totalFarmis[0][prod];
-            }
-        }
-        if(valMinRackForestryFarmis){
-            for(var prod in totalFarmis[1]){
-                if(!totalFarmis[1].hasOwnProperty(prod)){ continue; }
-                if(!prodMinRack[1][prod]){ prodMinRack[1][prod]=0;}
-                prodMinRack[1][prod] += totalFarmis[1][prod];
-            }
-        }
-        // Addons
-        err_trace="prodMinRackAddon";
-        for(var type in prodMinRackAddon){
-            if (!prodMinRackAddon.hasOwnProperty(type)){ continue; }
-            for(var prod in prodMinRackAddon[type]){
-                if(!prodMinRackAddon[type].hasOwnProperty(prod)){ continue; }
-                if(prodMinRackAddon[type][prod]){
-                    for(var k in prodMinRackAddon[type][prod]){
-                        if(!prodMinRackAddon[type][prod].hasOwnProperty(k)){ continue; }
-                        if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
-                        prodMinRack[type][prod] += prodMinRackAddon[type][prod][k];
-                    }
-                }
-            }
-        }
-        // Growing products
-        err_trace="growing";
-        if(valMinRackGrowing){
-            calcTotalErnte();
-            for(var type in totalErnte){
-                if (!totalErnte.hasOwnProperty(type)){ continue; }
-                for(var prod in totalErnte[type]){
-                    if(!totalErnte[type].hasOwnProperty(prod)){ continue; }
-                    if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
-                    prodMinRack[type][prod] -= totalErnte[type][prod];
-                }
-            }
-            for(var prod in totalPowerups){
-                if(!totalPowerups.hasOwnProperty(prod)){ continue; }
-                if(!prodMinRack[0][prod]){prodMinRack[0][prod]=0;}
-                prodMinRack[0][prod] -= totalPowerups[prod];
-            }
-        }
-        err_trace="recursive";
-        //GM_log("Before calcTotalRecursive prodMinRack:"+implode(prodMinRack[1]));
-        if(valMinRackRecursive){
-            calcTotalRecursive(1); // recursive need products calculation
-            for(var type in totalRecursive){
-                if (!totalRecursive.hasOwnProperty(type)){ continue; }
-                for(var prod in totalRecursive[type]){
-                    if(!totalRecursive[type].hasOwnProperty(prod)){ continue; }
-                    if(!prodMinRack[type][prod]){ prodMinRack[type][prod]=0; }
-                    prodMinRack[type][prod] += totalRecursive[type][prod];
-                }
-            }
-        }
-        //GM_log("After calcTotalRecursive totalRecursive:"+implode(totalRecursive));
-        //GM_log("After calcTotalRecursive prodMinRack:"+implode(prodMinRack[1]));
-        //GM_log("After calcTotalRecursive prodStock:"+implode(prodStock[1]));
-        
-        // delete wrong values
-        err_trace="QA";
-        for(var type in prodMinRack){
-            if (!prodMinRack.hasOwnProperty(type)){ continue; }
-            for(var prod in prodMinRack[type]){
-                if(!prodMinRack[type].hasOwnProperty(prod)){ continue; }
-                try{ 
-                    if(prodMinRack[type][prod]<0){ // delete negatives
-                        prodMinRack[type][prod]=0;
-                    }else if((type==0)&&(prodBlock[0][prod].match(/l/))){ // delete non-availables
-                        prodMinRack[type][prod]=0;
-                    }
-                }catch(err){}
-            }
-        }
-
-        err_trace="save";
-        unsafeData.prodMinRack=prodMinRack.clone();
-        unsafeData.prodMinRackSettings = {"valMinRackGrowing":valMinRackGrowing,"valMinRackFarmis":valMinRackFarmis,"valMinRackFarmis":valMinRackFarmis,"valMinRackRecursive":valMinRackRecursive};
-        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRack",implode(prodMinRack));
-        doBuyNotepad();
-        doRack();
-        doFarmis();
-        raiseEvent("gameCalcProdMinRack");
-        if(DEVMODE){ GM_log("end calcProdMinRack"); }
-        }catch(err){ GM_logError("calcProdMinRack ("+err_trace+")\ntype="+type+" prod="+prod+"\n"+err); }
     }
+    // Farmis
+    err_trace="farmis";
+    if(valMinRackFarmis){
+        for(var prod in totalFarmis[0]){
+            if(!totalFarmis[0].hasOwnProperty(prod)){ continue; }
+            if(!prodMinRack[0][prod]){ prodMinRack[0][prod]=0;}
+            prodMinRack[0][prod] += totalFarmis[0][prod];
+        }
+    }
+    if(valMinRackForestryFarmis){
+        for(var prod in totalFarmis[1]){
+            if(!totalFarmis[1].hasOwnProperty(prod)){ continue; }
+            if(!prodMinRack[1][prod]){ prodMinRack[1][prod]=0;}
+            prodMinRack[1][prod] += totalFarmis[1][prod];
+        }
+    }
+    // Addons
+    err_trace="prodMinRackAddon";
+    for(var type in prodMinRackAddon){
+        if (!prodMinRackAddon.hasOwnProperty(type)){ continue; }
+        for(var prod in prodMinRackAddon[type]){
+            if(!prodMinRackAddon[type].hasOwnProperty(prod)){ continue; }
+            if(prodMinRackAddon[type][prod]){
+                for(var k in prodMinRackAddon[type][prod]){
+                    if(!prodMinRackAddon[type][prod].hasOwnProperty(k)){ continue; }
+                    if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
+                    prodMinRack[type][prod] += prodMinRackAddon[type][prod][k];
+                }
+            }
+        }
+    }
+    // Growing products
+    err_trace="growing";
+    if(valMinRackGrowing){
+        calcTotalErnte();
+        for(var type in totalErnte){
+            if (!totalErnte.hasOwnProperty(type)){ continue; }
+            for(var prod in totalErnte[type]){
+                if(!totalErnte[type].hasOwnProperty(prod)){ continue; }
+                if(!prodMinRack[type][prod]){prodMinRack[type][prod]=0;}
+                prodMinRack[type][prod] -= totalErnte[type][prod];
+            }
+        }
+        for(var prod in totalPowerups){
+            if(!totalPowerups.hasOwnProperty(prod)){ continue; }
+            if(!prodMinRack[0][prod]){prodMinRack[0][prod]=0;}
+            prodMinRack[0][prod] -= totalPowerups[prod];
+        }
+    }
+    err_trace="recursive";
+    //GM_log("Before calcTotalRecursive prodMinRack:"+implode(prodMinRack[1]));
+    if(valMinRackRecursive){
+        calcTotalRecursive(1); // recursive need products calculation
+        for(var type in totalRecursive){
+            if (!totalRecursive.hasOwnProperty(type)){ continue; }
+            for(var prod in totalRecursive[type]){
+                if(!totalRecursive[type].hasOwnProperty(prod)){ continue; }
+                if(!prodMinRack[type][prod]){ prodMinRack[type][prod]=0; }
+                prodMinRack[type][prod] += totalRecursive[type][prod];
+            }
+        }
+    }
+    //GM_log("After calcTotalRecursive totalRecursive:"+implode(totalRecursive));
+    //GM_log("After calcTotalRecursive prodMinRack:"+implode(prodMinRack[1]));
+    //GM_log("After calcTotalRecursive prodStock:"+implode(prodStock[1]));
+    
+    // delete wrong values
+    err_trace="QA";
+    for(var type in prodMinRack){
+        if (!prodMinRack.hasOwnProperty(type)){ continue; }
+        for(var prod in prodMinRack[type]){
+            if(!prodMinRack[type].hasOwnProperty(prod)){ continue; }
+            try{ 
+                if(prodMinRack[type][prod]<0){ // delete negatives
+                    prodMinRack[type][prod]=0;
+                }else if((type==0)&&(prodBlock[0][prod].match(/l/))){ // delete non-availables
+                    prodMinRack[type][prod]=0;
+                }
+            }catch(err){}
+        }
+    }
+
+    err_trace="save";
+    unsafeData.prodMinRack=prodMinRack.clone();
+    unsafeData.prodMinRackSettings = {"valMinRackGrowing":valMinRackGrowing,"valMinRackFarmis":valMinRackFarmis,"valMinRackFarmis":valMinRackFarmis,"valMinRackRecursive":valMinRackRecursive};
+    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRack",implode(prodMinRack,"calcProdMinRack/prodMinRack"));
+    doBuyNotepad();
+    doRack();
+    doFarmis();
+    raiseEvent("gameCalcProdMinRack");
+    if(DEVMODE){ GM_logInfo("calcProdMinRack","caller="+caller,"","End"); }
+}catch(err){ GM_logError("calcProdMinRack","caller="+caller,"err_trace="+err_trace+" type="+type+" prod="+prod,err); }
+}
 
 function getQuestBestAlternative(arr){
 // item=[prodType,prodId,amount]. arr=item or arr=[item,item,...]
+try{
     if(typeof arr[0]=="object"){
         var returnId,minPrice=null,currPrice;
         for(var k=0;k<arr.length;k++){
@@ -2194,9 +2208,10 @@ function getQuestBestAlternative(arr){
     } if(typeof arr=="object"){
         return arr;
     } else {
-        GM_logWarning("getQuestBestAlternative bad call arr="+implode(arr));
+        GM_logWarning("getQuestBestAlternative","arr="+implode(arr,"getQuestBestAlternative/arr"),"","Wrong argument");
         return [];
     }
+}catch(err){ GM_logError("getQuestBestAlternative","arr="+implode(arr,"getQuestBestAlternative/arr"),"",err); }
 }
 unsafeData.getQuestBestAlternative=getQuestBestAlternative;
 function setCalcToQuest(type,campaign,nr){
@@ -2204,13 +2219,13 @@ try{
     // GM_log("setCalcToQuest type="+type+" campaign="+campaign+" nr="+nr); 
     if(QUESTS[type]&&QUESTS[type][campaign]&&questData[type][campaign]){
         questData[type][campaign]["calcTo"] = Math.min(nr,QUESTS[type][campaign].length);
-        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
+        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"setCalcToQuest/questData"));
         unsafeData.questData=questData.clone();     
         // if(farmiLog){ doFarmis(); } //hack bypass early call
         calcProdMinRack();
         handleQuestLine(); 
     }
-}catch(err){ GM_logError("setCalcToQuest\n"+err); }
+}catch(err){ GM_logError("setCalcToQuest","","",err); }
 }
 unsafeData.setCalcToQuest=setCalcToQuest;
 function handleQuestLine(){
@@ -2228,17 +2243,17 @@ try{
             if(unsafeWindow.quests_status&&unsafeWindow.quests_status[type]&&unsafeWindow.quests_status[type][campaign]){
                 help=parseInt(unsafeWindow.quests_status[type][campaign]["questid"],10);
                 if(isNaN(help)){ help=1; };
-                switch(implode([type,campaign])){
-                case implode(["main","2"]):{
+                switch(implode([type,campaign],"handleQuestLine/typeCampaign")){
+                case implode(["main","2"],"handleQuestLine/main2"):{
                     if(USERLEVEL<31){ help=-1; }
                 break;}
-                case implode(["forestry","1"]):{
+                case implode(["forestry","1"],"handleQuestLine/forestry1"):{
                     if(USERLEVEL<20){ help=-1; }
                 break;}
-                case implode(["forestry","2"]):{
+                case implode(["forestry","2"],"handleQuestLine/forestry2"):{
                     if(questData["forestry"]["1"]["nr"]<35){ help=-1; }
                 break;}
-                case implode(["foodworld","1"]):{
+                case implode(["foodworld","1"],"handleQuestLine/foodworld1"):{
                     if(USERLEVEL<12){ help=-1; }
                 break;}
                 }               
@@ -2253,23 +2268,23 @@ try{
                         questData[type][campaign]["nr"]=help;
                         questData[type][campaign]["given"] = new Object();
                         questData[type][campaign]["time"] = 0;
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"handleQuestLine/questData"));
                         unsafeData.questData=questData.clone();
                     }
                 }
             }else{
                 help=QUESTS[type][campaign].length;
-                switch(implode([type,campaign])){
-                case implode(["main","2"]):{
+                switch(implode([type,campaign],"handleQuestLine/typeCampaign")){
+                case implode(["main","2"],"handleQuestLine/main2"):{
                     if(USERLEVEL<31){ help=-1; }
                 break;}
-                case implode(["forestry","1"]):{
+                case implode(["forestry","1"],"handleQuestLine/forestry1"):{
                     if(USERLEVEL<20){ help=-1; }
                 break;}
-                case implode(["forestry","2"]):{
+                case implode(["forestry","2"],"handleQuestLine/forestry2"):{
                     if(questData["forestry"]["1"]["nr"]<35){ help=-1; }
                 break;}
-                case implode(["foodworld","1"]):{
+                case implode(["foodworld","1"],"handleQuestLine/foodworld1"):{
                     if(USERLEVEL<12){ help=-1; }
                 break;}
                 }
@@ -2277,7 +2292,7 @@ try{
                     questData[type][campaign]["nr"]=help;
                     questData[type][campaign]["given"] = new Object();
                     questData[type][campaign]["time"] = 0;
-                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
+                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"handleQuestLine/questData"));
                     unsafeData.questData=questData.clone();
                 }
             }
@@ -2334,7 +2349,7 @@ try{
         }
     }
     div=null;
-}catch(err){GM_logError("handleQuestLine\ntype="+type+"\ncampaign="+campaign+"\n"+err);}
+}catch(err){GM_logError("handleQuestLine","","type="+type+" campaign="+campaign,err);}
 };
 //***********************************************************************************************************
 
@@ -2347,7 +2362,7 @@ function do_shop(){
             npcSaison[v]=(document.getElementsByClassName("s"+v).length>0);
         }
         unsafeData.npcSaison=npcSaison.clone();
-        GM_setValue(COUNTRY+"_"+SERVER+"_NpcSaison",implode(npcSaison));
+        GM_setValue(COUNTRY+"_"+SERVER+"_NpcSaison",implode(npcSaison,"do_shop/npcSaison"));
     }
 }
 
@@ -2463,11 +2478,11 @@ try{
         div1=createElement("img",{"id":"infoPanelClose","class":"link","src":GFX+"close.jpg","style":"position:absolute;top:8px;right:8px;width:20px;height:20px;"},div1);
         div1.addEventListener("click",closeInfoPanel,false);
     }
-    if((mode==div.getAttribute("mode"))&&(implode(mode2)==div.getAttribute("mode2"))){
+    if((mode==div.getAttribute("mode"))&&(implode(mode2,"buildInfoPanel/mode2")==div.getAttribute("mode2"))){
         closeInfoPanel();
     }else{
         div.setAttribute("mode",mode);
-        div.setAttribute("mode2",implode(mode2));
+        div.setAttribute("mode2",implode(mode2,"buildInfoPanel/mode2"));
         div.style.display="block";
         $("infoPanelInner").innerHTML="";
         if(unsafeWindow.buildInfoPanelAutomat){ unsafeWindow.buildInfoPanelAutomat(mode,mode2); }
@@ -2489,7 +2504,7 @@ try{
         raiseEvent("gameInfoPanelOpen");
         div=null;div1=null;
     }
-}catch(err){ GM_logError("buildInfoPanel mode="+implode(mode)+" mode2="+implode(mode2)+"\n"+err); }
+}catch(err){ GM_logError("buildInfoPanel","mode="+implode(mode,"buildInfoPanel/mode")+" mode2="+implode(mode2,"buildInfoPanel/mode2"),"",err); }
 }
 function closeInfoPanel(){
     try{
@@ -2502,7 +2517,7 @@ function closeInfoPanel(){
             div.innerHTML="";
         }
         div=null;
-    } catch(err){ GM_logError("closeInfoPanel\n"+err); }
+    } catch(err){ GM_logError("closeInfoPanel","","",err); }
 }
 function buildInfoPanelChangelog(){
     try{
@@ -2533,7 +2548,7 @@ function buildInfoPanelChangelog(){
             }
         }
         container=null;table=null;tr=null;td=null;div=null;
-    }catch(err){GM_logError("buildInfoPanelChangelog\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelChangelog","","",err);}
 }
 function buildInfoPanelStock(mode){
 try{
@@ -2761,7 +2776,7 @@ try{
                             var thisNode=this;
                             var yesFkt = function(){
                                 gut[currId]=preis;
-                                GM_setValue(COUNTRY+"_"+SERVER+"_gut",implode(gut));
+                                GM_setValue(COUNTRY+"_"+SERVER+"_gut",implode(gut,"inp.change/gut"));
                                 raiseEventTop("gameChangedGut");
                                 thisNode.value=numberFormat(preis,2);
                                 thisNode.parentNode.nextSibling.innerHTML=numberFormat(0.9*preis,2);
@@ -2792,7 +2807,7 @@ try{
                     createElement("td",{"style":"text-align:right;"},newtr,numberFormat(0.9*gut[v],2));
                 }
             }
-        }catch(err){ GM_logError("buildInfoPanelStock\nmode="+implode(mode)+"\nv="+v+"\n"+err); }
+        }catch(err){ GM_logError("buildInfoPanelStock","mode="+implode(mode,"buildInfoPanelStock/mode"),"","v="+v,err); }
         }
     break;}
     case 2:{
@@ -2852,7 +2867,7 @@ try{
                         },false);
                         newinput.addEventListener("change",function(prodType,currId){ return function(){
                             prodMinRackInit[prodType][currId]=parseInt(this.value.replace(regDelimThou,""),10);
-                            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRackInit",implode(prodMinRackInit));
+                            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRackInit",implode(prodMinRackInit,"buildInfoPanelStock/prodMinRackInit"));
                             raiseEventTop("gameChangedProdMinRackInit");
                         }}(mode["prodType"],v),false);
                     }else{
@@ -2860,7 +2875,7 @@ try{
                     }
                 }
             }
-        }catch(err){ GM_logError("buildInfoPanelStock\nmode="+implode(mode)+"\nv="+v+"\n"+err); }
+        }catch(err){ GM_logError("buildInfoPanelStock","mode="+implode(mode,"buildInfoPanelStock/mode"),"v="+v,err); }
         }
     break;}
     }
@@ -2885,7 +2900,7 @@ try{
                     gut[v]=gutBeob[v];
                     if(!isNaN(NPC[0][v])){ gut[v]=Math.min(gut[v],NPC[0][v]); }
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_gut",implode(gut));
+                GM_setValue(COUNTRY+"_"+SERVER+"_gut",implode(gut,"buildInfoPanelStock/gut"));
                 raiseEventTop("gameChangedGut");
                 buildInfoPanelStock();
             });
@@ -2893,7 +2908,7 @@ try{
     }
     newtd=createElement("td",{"align":"center","style":"font-weight:bold;"},newtr,getText("stockValue")+":&nbsp;"+moneyFormatInt(sumwert));
     newtable=null;thead=null;newtablebody=null;newtr=null;newtd=null;newdiv=null;newdiv1=null;
-}catch(err){ GM_logError("buildInfoPanelStock\nmode="+implode(mode)+"\n"+err); }
+}catch(err){ GM_logError("buildInfoPanelStock","mode="+implode(mode,"buildInfoPanelStock/mode"),"",err); }
 }
 function buildInfoPanelProfit(mode){
 try{
@@ -3326,7 +3341,7 @@ try{
         err_trace="saving";
         container=null;table=null;newtr=null;newtd=null;newspan=null;newdiv=null;newtable1=null;newtr1=null;newtd1=null;
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeProfittable",implode(mode,"buildInfoPanelProfit/modeProfittable"));
-    }catch(err){ GM_logError("buildInfoPanelProfit ("+err_trace+")\nv="+v+"\n"+err); }
+    }catch(err){ GM_logError("buildInfoPanelProfit","","err_trace="+err_trace+" v="+v,err); }
 }
 function buildInfoPanelQuests(mode){
 try{
@@ -3769,14 +3784,14 @@ try{
         err_trace="saving";
         container=null;table=null;thead=null;tbody=null;tr=null;td=null;span=null;div=null;table1=null;tr1=null;td1=null;tr2=null;td2=null;
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable",implode(mode,"buildInfoPanelQuestsTotal/modeQuestsTable"));
-        }catch(err){ GM_logError("buildInfoPanelQuestsTotal ("+err_trace+")\n"+err); }
+        }catch(err){ GM_logError("buildInfoPanelQuestsTotal","","err_trace="+err_trace,err); }
     }   
     buildInfoPanelQuestsTotal(mode);
     
     err_trace="saving";
     container=null;table=null;thead=null;tbody=null;tr=null;td=null;span=null;div=null;table1=null;tr1=null;td1=null;tr2=null;td2=null;
     GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable",implode(mode,"buildInfoPanelQuests/modeQuestsTable"));
-    }catch(err){ GM_logError("buildInfoPanelQuests ("+err_trace+")\n"+err); }
+    }catch(err){ GM_logError("buildInfoPanelQuests","","err_trace="+err_trace,err); }
 }
 function buildInfoPanelZones(){
     try{
@@ -3815,7 +3830,7 @@ function buildInfoPanelZones(){
                         endDay=countDays(now,help);
                         if(endDay==0){ 
                             newdiv.innerHTML=getDaytimeStr(help,1)+"&nbsp;"+getText("shortOClock"); 
-                        }else if(getText("day"+endDay)){ 
+                        }else if(getText("day"+endDay,true)){ 
                             newdiv.innerHTML=getText("day"+endDay)+" "+getDaytimeStr(help,1)+"&nbsp;"+getText("shortOClock");
                         }else{
                             newdiv.innerHTML=new Date(1000*help).toLocaleString();
@@ -3971,7 +3986,7 @@ function buildInfoPanelZones(){
         }
         newtdfehlt=null;
 
-    }catch(err){GM_logError("buildInfoPanelZones\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelZones","","",err);}
 }
 function buildInfoPanelUpjersAds(){
     try{
@@ -3981,7 +3996,7 @@ function buildInfoPanelUpjersAds(){
         for(var v=0;v<upjersAds.length;v++){
             createElement("div",{"style":"padding:5px;margin:5px;border:1px solid black;"},container,upjersAds[v]);
         }
-    }catch(err){GM_logError("buildInfoPanelUpjersAds\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelUpjersAds","","",err);}
 }
 function buildInfoPanelLottery(mode){
     try{
@@ -4039,7 +4054,7 @@ function buildInfoPanelLottery(mode){
             }
         }
         lotteryLog.sort(sortObjFunctions["date"]);
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog,"buildInfoPanelLottery/lotteryLog"));
 
         var container,newdiv,newtable,newtable1,newtr,newtr1,newtd,newinput;
         container=$("infoPanelInner");
@@ -4265,7 +4280,7 @@ function buildInfoPanelLottery(mode){
             }
         }
         container=null;newdiv=null;newtable=null;newtable1=null;newtr=null;newtr1=null;newtd=null;newinput=null;
-    }catch(err){GM_logError("buildInfoPanelLottery\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelLottery","","",err);}
 }
 function buildInfoPanelDonkey(mode){
     try{
@@ -4320,8 +4335,8 @@ function buildInfoPanelDonkey(mode){
             }
         }
         logDonkey.sort(sortObjFunctions["date"]);
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey));
-    }catch(err){GM_logError("buildInfoPanelWaltraud (old data)\nv="+v+"\n"+err);}
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey,"buildInfoPanelWaltraud/logDonkey"));
+    }catch(err){GM_logError("buildInfoPanelWaltraud","","v="+v,"(old data) "+err);}
     
         var container,newdiv,newtable,newtr,newtd;
         container=$("infoPanelInner");
@@ -4513,7 +4528,7 @@ function buildInfoPanelDonkey(mode){
             }
         }
         container=null;newdiv=null;newtable=null;newtr=null;newtd=null;
-    }catch(err){GM_logError("buildInfoPanelWaltraud\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelWaltraud","","",err);}
 }
 function buildInfoPanelFarmies(mode){
     try{
@@ -4642,7 +4657,7 @@ function buildInfoPanelFarmies(mode){
                 if(levelLog[w][0]==v){ levelLog[w][5]=newFarmiumsatz[v]; break; } //dont override all because data could be joined to monthly
             }
         }
-        GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog),70);
+        GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog,"buildInfoPanelFarmies/levelLog"),70);
         for(var v in totalProducts){
             if(!totalProducts.hasOwnProperty(v)){ continue; }
             totalProducts[v][2]=totalProducts[v][1]/totalProducts[v][0];
@@ -4739,7 +4754,7 @@ function buildInfoPanelFarmies(mode){
                 createElement("div",{"mouseOverText":"90%"},newtd,(totalPrice>0.9*totalWert?"+":"")+moneyFormatInt((totalPrice-0.9*totalWert)/countFarmisAll));
         }
         container=null;newdiv=null;newtable=null;newtr=null;newtd=null;
-    }catch(err){GM_logError("buildInfoPanelFarmies\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelFarmies","","",err);}
 }
 function buildInfoPanelFormulas(mode){
     try{
@@ -4932,7 +4947,7 @@ function buildInfoPanelFormulas(mode){
         }
         container=null;
         newtable=null;thead=null;newtbody=null;newtr=null;newtd=null;newtd1=null;newdiv=null;newinput=null;
-    }catch(err){GM_logError("buildInfoPanelFormulas\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelFormulas","","",err);}
 }
 unsafeWindow.buildInfoPanelMenu=function(mode){
     try{
@@ -4991,7 +5006,7 @@ unsafeWindow.buildInfoPanelMenu=function(mode){
         case "import": buildInfoPanelImport(); break;
         }
         container=null;newdiv=null;newdiv1=null;
-    }catch(err){GM_logError("buildInfoPanelMenu\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelMenu","","",err);}
 }
 function buildInfoPanelOptions(){
     try{
@@ -5010,7 +5025,7 @@ function buildInfoPanelOptions(){
         newinput.addEventListener("click",function(){
             valAutoWater["farm"]=this.checked;
             unsafeData.valAutoWater=valAutoWater;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoWater",implode(valAutoWater),9);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoWater",implode(valAutoWater,"buildInfoPanelOptions/valAutoWater"),9);
         },false);
         createElement("td",{},newtr,getText("settings_valAutoWater")[0]);
         createElement("td",{},newtr,getText("settings_valAutoWater")[1]);
@@ -5021,7 +5036,7 @@ function buildInfoPanelOptions(){
         newinput.addEventListener("click",function(){
             valAutoCrop["farm"]=this.checked;
             unsafeData.valAutoCrop=valAutoCrop;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoCrop",implode(valAutoCrop),11);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoCrop",implode(valAutoCrop,"buildInfoPanelOptions/valAutoCrop"),11);
         },false);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[0]);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[1]);
@@ -5031,7 +5046,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valAssumeWater["farm"]},newtd);
         newinput.addEventListener("click",function(){
             valAssumeWater["farm"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAssumeWater",implode(valAssumeWater),10);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAssumeWater",implode(valAssumeWater,"buildInfoPanelOptions/valAssumeWater"),10);
         },false);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[0]);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[1]);
@@ -5041,7 +5056,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valWaterNeeded["farm"]},newtd);
         newinput.addEventListener("click",function(){
             valWaterNeeded["farm"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valWaterNeeded",implode(valWaterNeeded),12);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valWaterNeeded",implode(valWaterNeeded,"buildInfoPanelOptions/valWaterNeeded"),12);
         },false);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[0]);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[1]);
@@ -5068,7 +5083,7 @@ function buildInfoPanelOptions(){
             }else{
                 this.value=help;
                 valLimitEmptyFields["1"]=help;
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields),14);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields,"buildInfoPanelOptions/valLimitEmptyFields"),14);
                 for(var v=0;v<ALL_ZONES["farm"].length;v++){ 
                     if(zones.getBuilding(ALL_ZONES["farm"][v])==1){
                         zones.processProduction(ALL_ZONES["farm"][v]); 
@@ -5084,7 +5099,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["farm"]},newtd);
         newinput.addEventListener("click",function(){
             valGlobaltimeShowCroppedZone["farm"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone),16);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"buildInfoPanelOptions/valGlobaltimeShowCroppedZone"),16);
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
@@ -5099,7 +5114,7 @@ function buildInfoPanelOptions(){
             newinput=createElement("input",{"id":"inputvalMoveAnimals"+v,"type":"checkbox","class":"link","checked":valMoveAnimals[v]},newspan);
             newinput.addEventListener("click",function(){
                 valMoveAnimals[this.id.replace("inputvalMoveAnimals","")]=this.checked;
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMoveAnimals", implode(valMoveAnimals),15);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMoveAnimals", implode(valMoveAnimals,"buildInfoPanelOptions/valMoveAnimals"),15);
             },false);
         }}
         
@@ -5122,7 +5137,7 @@ function buildInfoPanelOptions(){
                 valFarmiLimits[0]=help;
                 doFarmis();
                 this.value=help;
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiLimits", implode(valFarmiLimits),19);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiLimits", implode(valFarmiLimits,"buildInfoPanelOptions/valFarmiLimits"),19);
                 unsafeData.valFarmiLimits=valFarmiLimits.clone();
             }
         },false);
@@ -5140,7 +5155,7 @@ function buildInfoPanelOptions(){
                 valFarmiLimits[1]=help;
                 doFarmis();
                 this.value=help;
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiLimits", implode(valFarmiLimits),20);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiLimits", implode(valFarmiLimits,"buildInfoPanelOptions/valFarmiLimits"),20);
                 unsafeData.valFarmiLimits=valFarmiLimits.clone();
             }
         },false);
@@ -5175,7 +5190,7 @@ function buildInfoPanelOptions(){
             }else{
                 this.value=help;
                 valLimitEmptyFields["fl1"]=help;
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields),14);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields,"buildInfoPanelOptions/valLimitEmptyFields"),14);
                 zones.processProduction("farmersmarket-1"); 
             }
         },false);
@@ -5194,7 +5209,7 @@ function buildInfoPanelOptions(){
                     var zoneNrF=this.getAttribute("zoneNrF");
                     zoneAddToGlobalTime[zoneNrF]=this.checked;
                     unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
-                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime,"buildInfoPanelOptions/zoneAddToGlobalTime"));
                     zones.processProduction(zoneNrF);
                 },false);
                 newtd=createElement("td",{},newtr);
@@ -5213,7 +5228,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["farmersmarket"]},newtd);
         newinput.addEventListener("click",function(){
             valGlobaltimeShowCroppedZone["farmersmarket"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone),16);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"buildInfoPanelOptions/valGlobaltimeShowCroppedZone"),16);
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
@@ -5234,7 +5249,7 @@ function buildInfoPanelOptions(){
                     var zoneNrF=this.getAttribute("zoneNrF");
                     zoneAddToGlobalTime[zoneNrF]=this.checked;
                     unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
-                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime,"buildInfoPanelOptions/zoneAddToGlobalTime"));
                     zones.processProduction(zoneNrF);
                 },false);
                 newtd=createElement("td",{},newtr);
@@ -5253,7 +5268,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["windmill"]},newtd);
         newinput.addEventListener("click",function(){
             valGlobaltimeShowCroppedZone["windmill"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone),16);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"buildInfoPanelOptions/valGlobaltimeShowCroppedZone"),16);
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
@@ -5268,7 +5283,7 @@ function buildInfoPanelOptions(){
         newinput.addEventListener("click",function(){
             valAutoWater["forestry"]=this.checked;
             unsafeData.valAutoWater=valAutoWater;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoWater",implode(valAutoWater),9);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoWater",implode(valAutoWater,"buildInfoPanelOptions/valAutoWater"),9);
         },false);
         createElement("td",{},newtr,getText("settings_valAutoWater")[0]);
         createElement("td",{},newtr,getText("settings_valAutoWater")[1]);
@@ -5279,7 +5294,7 @@ function buildInfoPanelOptions(){
         newinput.addEventListener("click",function(){
             valAutoCrop["forestry"]=this.checked;
             unsafeData.valAutoCrop=valAutoCrop;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoCrop",implode(valAutoCrop),11);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoCrop",implode(valAutoCrop,"buildInfoPanelOptions/valAutoCrop"),11);
         },false);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[0]);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[1]);
@@ -5289,7 +5304,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valAssumeWater["forestry"]},newtd);
         newinput.addEventListener("click",function(){
             valAssumeWater["forestry"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAssumeWater",implode(valAssumeWater),10);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAssumeWater",implode(valAssumeWater,"buildInfoPanelOptions/valAssumeWater"),10);
         },false);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[0]);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[1]);
@@ -5299,7 +5314,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valWaterNeeded["forestry"]},newtd);
         newinput.addEventListener("click",function(){
             valWaterNeeded["forestry"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valWaterNeeded",implode(valWaterNeeded),12);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valWaterNeeded",implode(valWaterNeeded,"buildInfoPanelOptions/valWaterNeeded"),12);
         },false);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[0]);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[1]);
@@ -5316,7 +5331,7 @@ function buildInfoPanelOptions(){
             }else{
                 this.value=help;
                 valLimitEmptyFields["forest"]=help;
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields));
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields,"buildInfoPanelOptions/valLimitEmptyFields"));
                 zones.processProduction("forest");
             }
         },false);
@@ -5335,7 +5350,7 @@ function buildInfoPanelOptions(){
                     var zoneNrF=this.getAttribute("zoneNrF");
                     zoneAddToGlobalTime[zoneNrF]=this.checked;
                     unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
-                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime,"buildInfoPanelOptions/zoneAddToGlobalTime"));
                     zones.processProduction(zoneNrF);
                 },false);
                 newtd=createElement("td",{},newtr);
@@ -5354,7 +5369,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["forestry"]},newtd);
         newinput.addEventListener("click",function(){
             valGlobaltimeShowCroppedZone["forestry"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone),16);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"buildInfoPanelOptions/valGlobaltimeShowCroppedZone"),16);
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
@@ -5375,7 +5390,7 @@ function buildInfoPanelOptions(){
                     var zoneNrF=this.getAttribute("zoneNrF");
                     zoneAddToGlobalTime[zoneNrF]=this.checked;
                     unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
-                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime));
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime,"buildInfoPanelOptions/zoneAddToGlobalTime"));
                     zones.processProduction(zoneNrF);
                 },false);
                 newtd=createElement("td",{},newtr);
@@ -5394,7 +5409,7 @@ function buildInfoPanelOptions(){
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["foodworld"]},newtd);
         newinput.addEventListener("click",function(){
             valGlobaltimeShowCroppedZone["foodworld"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone),16);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"buildInfoPanelOptions/valGlobaltimeShowCroppedZone"),16);
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
@@ -5449,7 +5464,7 @@ function buildInfoPanelOptions(){
                 }else{
                     this.value=help;
                     valMinRack[this.id.replace("inputvalMinRack_","")]=help;
-                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRack",implode(valMinRack,"valMinRack"));
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRack",implode(valMinRack,"buildInfoPanelOptions/valMinRack"));
                     calcProdMinRackInit();
                 }
             },false);
@@ -5576,7 +5591,7 @@ function buildInfoPanelOptions(){
             }else{
                 valKauflimit[0][0]=help;
                 this.value=valKauflimit[0][0];
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",implode(valKauflimit),33);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",implode(valKauflimit,"buildInfoPanelOptions/valKauflimit"),33);
             }
         },false);
         createElement("span",{},newtd,"%");
@@ -5595,7 +5610,7 @@ function buildInfoPanelOptions(){
             }
             this.style.backgroundColor="#"+this.value;
             valKauflimit[0][1]=this.value;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",implode(valKauflimit),34);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",implode(valKauflimit,"buildInfoPanelOptions/valKauflimit"),34);
         },false);
         
         newtr=createElement("tr",{},newtable);
@@ -5611,7 +5626,7 @@ function buildInfoPanelOptions(){
                 if(help<0){ help*=-1; }
                 valKauflimit[1]=help;
                 this.value=valKauflimit[1];
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",implode(valKauflimit),35);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",implode(valKauflimit,"buildInfoPanelOptions/valKauflimit"),35);
             }
         },false);
         createElement("span",{},newtd,"%");
@@ -5713,7 +5728,7 @@ function buildInfoPanelOptions(){
                 }else{
                     delete highlightUser[""];
                 }
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlight",implode(highlightUser),41);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlight",implode(highlightUser,"buildInfoPanelOptions/highlightUser"),41);
                 candinput=null;tableCell=null;
             },false);
         }
@@ -5751,7 +5766,7 @@ function buildInfoPanelOptions(){
                     i++;
                 }
             }
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts",implode(highlightProducts),42);
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts",implode(highlightProducts,"buildInfoPanelOptions/highlightProducts"),42);
         },false);
         createElement("span",{},newdiv,getText("useQuestProducts"));
         for(var i=0;i<2;i++){
@@ -5770,7 +5785,7 @@ function buildInfoPanelOptions(){
                 highlightProducts[1]={};
                 highlightProducts[1][$("highlightProducts0").value]=true;
                 highlightProducts[1][$("highlightProducts1").value]=true;
-                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts",implode(highlightProducts),43);
+                GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts",implode(highlightProducts,"buildInfoPanelOptions/highlightProducts"),43);
             },false);
         }
         if(!highlightProducts[0]){
@@ -6006,7 +6021,7 @@ function buildInfoPanelOptions(){
         
         newtable=null;newtr=null;newtd=null;newdiv=null;newinput=null;
         
-    }catch(err){GM_logError("buildInfoPanelOptions\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelOptions","","",err);}
 }
 function buildInfoPanelAccounts(showPW){
     try{
@@ -6031,7 +6046,7 @@ function buildInfoPanelAccounts(showPW){
             newinput.addEventListener("mouseover",function(event){ toolTip.show(event,getText("accountActive")); },false);
             newinput.addEventListener("change",function(){
                 logindata[this.parentNode.parentNode.getAttribute("v")][4]=this.checked;
-                GM_setValueCache("logindata",implode(logindata),57);
+                GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
             },false);
             newtd=createElement("td",{},newtr);
             newinput=createElement("input",{"class":"text","style":"width:20px","maxlength":"2"},newtd);
@@ -6044,7 +6059,7 @@ function buildInfoPanelAccounts(showPW){
                 }else{
                     this.value=readin;
                     logindata[this.parentNode.parentNode.getAttribute("v")][1]=readin;
-                    GM_setValueCache("logindata",implode(logindata),57);
+                    GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
                 }
             },false);
             newselect=createElement("select",{},newtd);
@@ -6055,14 +6070,14 @@ function buildInfoPanelAccounts(showPW){
             newselect.value=logindata[v][0];
             newselect.addEventListener("change",function(){
                 logindata[this.parentNode.parentNode.getAttribute("v")][0]=this.value;
-                GM_setValueCache("logindata",implode(logindata),57);
+                GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
             },false);
 
             newtd=createElement("td",{},newtr);
             newinput=createElement("input",{"value":logindata[v][2],"class":"text","style":"width:140px","maxlength":"20"},newtd);
             newinput.addEventListener("change",function(){
                 logindata[this.parentNode.parentNode.getAttribute("v")][2]=this.value;
-                GM_setValueCache("logindata",implode(logindata),57);
+                GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
             },false);
 
             newtd=createElement("td",{},newtr);
@@ -6070,7 +6085,7 @@ function buildInfoPanelAccounts(showPW){
             if (!showPW){ newinput.type="password"; }
             newinput.addEventListener("change",function(){
                 logindata[this.parentNode.parentNode.getAttribute("v")][3]=enc(this.value,4242);
-                GM_setValueCache("logindata",implode(logindata),57);
+                GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
             },false);
 
             newtd=createElement("td",{},newtr);
@@ -6082,7 +6097,7 @@ function buildInfoPanelAccounts(showPW){
                 newdiv.addEventListener("click",function(showPW){ return function(){
                     var currLine=parseInt(this.parentNode.parentNode.getAttribute("v"),10);
                     logindata.splice(currLine-1,2,logindata[currLine],logindata[currLine-1]);
-                    GM_setValueCache("logindata",implode(logindata),57);
+                    GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
                     buildInfoPanelAccounts(showPW);
                 }}(showPW),false);
             }
@@ -6094,7 +6109,7 @@ function buildInfoPanelAccounts(showPW){
                 newdiv.addEventListener("click",function(showPW){ return function(){
                     var currLine=parseInt(this.parentNode.parentNode.getAttribute("v"),10);
                     logindata.splice(currLine,2,logindata[currLine+1],logindata[currLine]);
-                    GM_setValueCache("logindata",implode(logindata),57);
+                    GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
                     buildInfoPanelAccounts(showPW);
                 }}(showPW),false);
             }
@@ -6109,7 +6124,7 @@ function buildInfoPanelAccounts(showPW){
             newtd.addEventListener("click",function(showPW){ return function(){
                 var currLine=parseInt(this.parentNode.getAttribute("v"),10);
                 logindata.splice(currLine,1);
-                GM_setValueCache("logindata",implode(logindata),57);
+                GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
                 buildInfoPanelAccounts(showPW);
             }}(showPW),false);
         }
@@ -6119,7 +6134,7 @@ function buildInfoPanelAccounts(showPW){
         newtd.addEventListener("mouseout",function(){this.style.backgroundColor="transparent";},false);
         newtd.addEventListener("click",function(showPW){ return function(){
             logindata.push([COUNTRY,"0","","",false]); // new empty line
-            GM_setValueCache("logindata",implode(logindata),57);
+            GM_setValueCache("logindata",implode(logindata,"buildInfoPanelAccounts/logindata"),57);
             buildInfoPanelAccounts(showPW);
         }}(showPW),false);
         newdiv=createElement("div",{"align":"center"},container);
@@ -6127,7 +6142,7 @@ function buildInfoPanelAccounts(showPW){
         newinput.addEventListener("click",function(){buildInfoPanelAccounts(this.checked);},false);
         createElement("span",{},newdiv,getText("showPasswords"));
         container=null;newtable=null;newtr=null;newtd=null;newinput=null;newselect=null;newdiv=null;
-    }catch(err){GM_logError("buildInfoPanelAccounts\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelAccounts","","",err);}
 }
 function buildInfoPanelHotkeys(){
     try{
@@ -6145,12 +6160,12 @@ function buildInfoPanelHotkeys(){
             newinput.addEventListener("keyup",function(event){
                 this.value=getKeySymbol(event.keyCode);
                 hotkeymap[this.id.replace("hotkey","")]=event.keyCode;
-                GM_setValue2("hotkeymap",implode(hotkeymap),58);
+                GM_setValue2("hotkeymap",implode(hotkeymap,"buildInfoPanelHotkeys/hotkeymap"),58);
             },false);
             createElement("td",{},newtr,getText("settings_hotkeymap")[tr]);
         }
         container=null;newtable=null;newtr=null;newtd=null;newinput=null;newdiv=null;
-    }catch(err){GM_logError("buildInfoPanelHotkeys\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelHotkeys","","",err);}
 }
 function buildInfoPanelCss(){
     try{
@@ -6176,7 +6191,7 @@ function buildInfoPanelCss(){
                     help=css_styles[css_styles[v][0][w]][1]+help;
                 }
                 this.parentNode.nextSibling.firstElementChild.setAttribute("style",help);
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"buildInfoPanelCss/css_styles"));
             },false);
             newtd=createElement("td",{},newtr);
             for(var w=0;w<css_styles[v][0].length;w++){
@@ -6185,7 +6200,7 @@ function buildInfoPanelCss(){
             newdiv=createElement("div",{"style":help},newtd,"test");
         }
         container=null;newtable=null;newtr=null;newtd=null;newinput=null;newdiv=null;
-    }catch(err){GM_logError("buildInfoPanelCss\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelCss","","",err);}
 }
 function buildInfoPanelImport(mode,showData,onlyThisAccount){
     try{
@@ -6338,7 +6353,7 @@ function buildInfoPanelImport(mode,showData,onlyThisAccount){
         break;}
         }
         container=null;newtable=null;newtr=null;newtd=null;newinput=null;newdiv=null;
-    }catch(err){GM_logError("buildInfoPanelImport\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelImport","","",err);}
 }
 function buildInfoPanelLevel(){
     try{
@@ -6455,7 +6470,7 @@ function buildInfoPanelLevel(){
                 }
             }
         }
-    }catch(err){GM_logError("buildInfoPanelLevel\n"+err);}
+    }catch(err){GM_logError("buildInfoPanelLevel","","",err);}
 }
 function buildInfoPanelMessages(mode){
 try{
@@ -6634,7 +6649,7 @@ try{
             }
             $("kaufDataCount").innerHTML=numberFormat(end)+"/"+numberFormat(plotLogSales.length);
             newtable=null;newtr=null;newtd=null;newdiv=null;
-        }catch(err){GM_logError("buildInfoPanelMessages plot\n"+err);}      
+        }catch(err){GM_logError("buildInfoPanelMessages","","","(plot) "+err);}      
         }
     break;}
     case 2:{
@@ -6808,7 +6823,7 @@ try{
     createElement("td",{"align":"right"},newtr,moneyFormat(sumProfit));
     if(mode["type"]==1){ plot(); }
     container=null;newtable=null;newtr=null;newtd=null;cell=null;div=null;
-    }catch(err){GM_logError("buildInfoPanelMessages\n"+err);}   
+    }catch(err){GM_logError("buildInfoPanelMessages","","",err);}   
 }
 
 function goToZone(zoneNrF){
@@ -6893,7 +6908,7 @@ function goToZone(zoneNrF){
         break;}
         }
         div=null;
-    }catch(err){GM_logError("goToZone zoneNrF="+zoneNrF+"\n"+err);}
+    }catch(err){GM_logError("goToZone","zoneNrF="+zoneNrF,"",err);}
 }
 function calcAllSlots(){
 try{
@@ -6911,7 +6926,7 @@ try{
         }
     }
     unsafeData.ALL_SLOTS=ALL_SLOTS.clone();
-}catch(err){ GM_logError("calcAllSlots\n"+err); }
+}catch(err){ GM_logError("calcAllSlots","","",err); }
 }
 function toolTipZoneProduction(zoneNrS){
     try{
@@ -6972,7 +6987,7 @@ function toolTipZoneProduction(zoneNrS){
         }
         table=null;tr=null;td=null;time=null;endDay=null;
         return content.innerHTML;
-    }catch(err){GM_logError("toolTipZoneProduction\n"+err);}    
+    }catch(err){GM_logError("toolTipZoneProduction","","",err);}    
 }
 function toolTipSales(nr){
     try{
@@ -7020,7 +7035,7 @@ function toolTipSales(nr){
 
         table=null;tr=null;td=null;
         return content.innerHTML;
-    }catch(err){GM_logError("toolTipSales\n"+err);} 
+    }catch(err){GM_logError("toolTipSales","","",err);} 
 }
 
 function showMarket(pid){
@@ -7051,7 +7066,7 @@ function showMarket(pid){
             unsafeWindow.market_guild_filter=0;
             unsafeWindow.showOffers();          
         }
-    }catch(err){ GM_logError("showMarket pid="+pid+"\n"+err); }
+    }catch(err){ GM_logError("showMarket","pid="+pid,"",err); }
 }
 function showMarketStall(){
     try{
@@ -7077,7 +7092,7 @@ function showMarketStall(){
             unsafeWindow.market_filter_own = 1;
             unsafeWindow.showOffers();              
         }
-    }catch(err){ GM_logError("showMarketStall\n"+err); }
+    }catch(err){ GM_logError("showMarketStall","","",err); }
 }
 function quicklinks(){
     try{
@@ -7135,7 +7150,7 @@ function quicklinks(){
             }
             newdiv=null;
         }
-    }catch(err){ GM_logError("quicklinks\n"+err); }             
+    }catch(err){ GM_logError("quicklinks","","",err); }             
 }
 var timer=new function(){
     var running=[];
@@ -7144,7 +7159,7 @@ var timer=new function(){
             timer.remove(name);
             running.push([name,node,endtime,callback]);
             timer.run(name);
-        }catch(err){GM_logError("timer.add name="+name+"\n"+err);}
+        }catch(err){GM_logError("timer.add","name="+name,"",err);}
     }
     this.remove=function(name){
         try{
@@ -7153,7 +7168,7 @@ var timer=new function(){
                     running.splice(i,1);
                 }
             }
-        }catch(err){GM_logError("timer.remove\n"+err);}
+        }catch(err){GM_logError("timer.remove","","",err);}
     }
     this.run=function(){
         try{
@@ -7165,7 +7180,7 @@ var timer=new function(){
                     running.splice(i,1);
                 }
             }
-        }catch(err){GM_logError("timer.run\n"+err);}
+        }catch(err){GM_logError("timer.run","","",err);}
     }
 }
 var clocks=new function(){
@@ -7175,7 +7190,7 @@ var clocks=new function(){
             clocks.remove(name);
             running.push([name,node,time]);
             clocks.run(name);
-        }catch(err){GM_logError("clocks.add name="+name+"\n"+err);}
+        }catch(err){GM_logError("clocks.add","name="+name,"",err);}
     }
     this.remove=function(name){
         try{
@@ -7184,7 +7199,7 @@ var clocks=new function(){
                     running.splice(i,1);
                 }
             }
-        }catch(err){GM_logError("clocks.remove\n"+err);}
+        }catch(err){GM_logError("clocks.remove","","",err);}
     }
     this.run=function(){
         try{
@@ -7195,7 +7210,7 @@ var clocks=new function(){
                     running.splice(i,1);
                 }
             }
-        }catch(err){GM_logError("clocks.run\n"+err);}
+        }catch(err){GM_logError("clocks.run","","",err);}
     }
 }
 function createZoneTimer(name,zoneNrS,type,style,append){ // type="zonetimer" || "zonetimerWater"
@@ -7234,13 +7249,13 @@ function createZoneTimer(name,zoneNrS,type,style,append){ // type="zonetimer" ||
                     time=null;endDay=null;
                 }
                 zoneNrS=null;type=null;
-            }catch(err){GM_logError("createTimer.mouseover\n"+err);}            
+            }catch(err){GM_logError("createTimer.mouseover","","zoneNrS="+zoneNrS,err);}            
             },false);
             div.addEventListener("mouseout",hideBlase,false);
             div=null;
         }
         updateZoneTimer(name,zoneNrS,type)
-    }catch(err){GM_logError("createZoneTimer\nname="+name+"\n"+err);}
+    }catch(err){GM_logError("createZoneTimer","name="+name+" zoneNrS="+zoneNrS,"",err);}
 }
 function updateZoneTimer(name,zoneNrS,type){
     try{
@@ -7273,7 +7288,7 @@ function updateZoneTimer(name,zoneNrS,type){
             }
             div=null;
         }
-    }catch(err){GM_logError("updateZoneTimer name:"+name+" zoneNrS:"+zoneNrS+"\n"+err);}
+    }catch(err){GM_logError("updateZoneTimer","name="+name+" zoneNrS="+zoneNrS,"",err);}
 }
 function removeZoneTimer(name){
     try{
@@ -7283,7 +7298,7 @@ function removeZoneTimer(name){
             removeElement(div);
             div=null;
         }
-    }catch(err){GM_logError("removeZoneTimer name:"+name+"\n"+err);}
+    }catch(err){GM_logError("removeZoneTimer","name="+name,"",err);}
 }   
 function showBlase(zoneNrF){
     try{
@@ -7336,13 +7351,13 @@ function showBlase(zoneNrF){
             }
         }
         bubble=null;newdiv=null;
-    }catch(err){ GM_logError("showBlase zoneNrF="+zoneNrF+"\n"+err); }
+    }catch(err){ GM_logError("showBlase","zoneNrF="+zoneNrF,"",err); }
 }
 function hideBlase(){
     try{
         $("sprcontent").style.display="";
         $("sprcontent2").style.display="none";
-    }catch(err){ GM_logError("hideBlase\n"+err); }
+    }catch(err){ GM_logError("hideBlase","","",err); }
 }
 
 var modeBuyNotepad=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeBuyNotepad",0);
@@ -7605,7 +7620,7 @@ try{
         newtable=null;newtr=null;newtd=null;
     }
     newdiv=null;
-}catch(err){ GM_logError("doBuyNotepad ("+err_trace+")\nprod="+prod+" \n"+err); }       
+}catch(err){ GM_logError("doBuyNotepad","","err_trace="+err_trace+" prod="+prod,err); }       
 }
 function doMarketoffersNotepad(){
     try{
@@ -7656,7 +7671,7 @@ function doMarketoffersNotepad(){
             newtable=null;newtr=null;newtd=null;
         }
         newdiv=null;
-    }catch(err){ GM_logError("doMarketoffersNotepad\nprod="+prod+"\n"+err); }
+    }catch(err){ GM_logError("doMarketoffersNotepad","","prod="+prod,err); }
     }
 function doRack(){
     try{
@@ -7677,7 +7692,7 @@ function doRack(){
             cell=null;
         }
         cand=null;
-    }catch(err){ GM_logError("doRack\nv="+v+"\n"+err); }
+    }catch(err){ GM_logError("doRack","","v="+v,err); }
 }
 function doFarmis(){
     try{
@@ -7788,8 +7803,8 @@ function doFarmis(){
                         // sorting
                         farmiLog.sort(function(a,b){return (getTime(b[1])-getTime(a[1]));});
                         // saving
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog",implode(farmiLog));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog",implode(farmiLog,"doFarmis/farmiLog"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog,"doFarmis/levelLog"));
                         window.setTimeout(doBuyNotepad,0);
                     }
                 }
@@ -7842,7 +7857,7 @@ function doFarmis(){
         }
         cell=null;str=null;
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("doFarmis ("+err_trace+")\n"+err); }
+    }catch(err){ GM_logError("doFarmis","","err_trace="+err_trace,err); }
 }
 
 function do_main(){
@@ -7901,7 +7916,7 @@ try{
     if(DEVMODE){ logBubble.add("Berater started"); }
     // Check if username is known
     if (!USERNAME){
-        GM_log("Username is not known. Login again with running script.")
+        GM_logWarning("do_main","","","Username is not known. Login again with running script.")
         location.href="http://www."+GAMEPAGES[COUNTRY]+"/login.php?start=1";
         return false;
     }
@@ -7971,12 +7986,12 @@ try{
         newdiv.style.left="600px";
         newdiv.style.top="105px";
     }else if(DEVMODE){
-        GM_logWarning("#errorboxgarden not found");
+        GM_logWarning("do_main","","","#errorboxgarden not found");
     }
     if(newdiv=$("popup_garden")){
         newdiv.style.top="";
     }else if(DEVMODE){
-        GM_logWarning("#popup_garden not found");
+        GM_logWarning("do_main","","","#popup_garden not found");
     }
 
     err_trace="Container - divRightBorder - divMiddleBorder";
@@ -8013,7 +8028,7 @@ try{
                 help["doserver"]=new Object();
             }
             help["doserver"][SERVER]=true;
-            GM_setValue(COUNTRY+"_pagedataLogin",implode(help));
+            GM_setValue(COUNTRY+"_pagedataLogin",implode(help,"do_relogin/help"));
             if($("logoutbutton")){
                 click($("logoutbutton"));
             } else {
@@ -8119,10 +8134,10 @@ try{
     unsafeOverwriteFunction("createAdvancedProductResponse",function(response,e,c){
         try{
             unsafeWindow._createAdvancedProductResponse(response,e,c);
-        }catch(err){GM_logError("_createAdvancedProductResponse\n"+err);}
+        }catch(err){GM_logError("_createAdvancedProductResponse","","",err);}
         try{
             raiseEvent("gameStartFactory");
-        }catch(err){GM_logError("createAdvancedProductResponse\n"+err);}
+        }catch(err){GM_logError("createAdvancedProductResponse","","",err);}
     });
     // Farmis
     err_trace="farmis";
@@ -8165,7 +8180,7 @@ try{
             unsafeWindow.farmisinfo[0][farmiNr]["marketValue"]=(priceMissing>0?0:wert);
         }
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("calcFarmiCost\n"+err); }
+    }catch(err){ GM_logError("calcFarmiCost","","",err); }
     }
     // Foodworld
     err_trace="Foodworld";
@@ -8211,13 +8226,13 @@ try{
                 }
             }
             newdiv=null;
-        }catch(err){ GM_logError("showFoodworldFarmiCart\n"+err); }
+        }catch(err){ GM_logError("showFoodworldFarmiCart","","",err); }
     });
 */
     unsafeOverwriteFunction("showFoodworldFarmiCart",function(farmi){
     try{
         unsafeWindow._showFoodworldFarmiCart(farmi);
-    }catch(err){GM_logError("_showFoodworldFarmiCart\n"+err);}
+    }catch(err){GM_logError("_showFoodworldFarmiCart","","",err);}
     try{
         // get farmi data
         var prod,menge;
@@ -8343,15 +8358,15 @@ try{
                 newtd.innerHTML=Math.round(100*thisFarmiData["money"]/sum)+"%";
             }
             cartContent=null;newtable=null;newtr=null;newtd=null;span=null;
-        }catch(err){GM_logError("showCart.buildTable\n"+err);}  
+        }catch(err){GM_logError("showCart.buildTable","","",err);}  
         }
         buildTable();
-    }catch(err){GM_logError("showFoodworldFarmiCart\n"+err);}   
+    }catch(err){GM_logError("showFoodworldFarmiCart","","",err);}   
     });
     unsafeOverwriteFunction("createFoodworldFarmis",function(){
         try{
             unsafeWindow._createFoodworldFarmis();
-        }catch(err){GM_logError("_createFoodworldFarmis\n"+err);}
+        }catch(err){GM_logError("_createFoodworldFarmis","","",err);}
         try{
             var div,input;
             if(div=$("food_farmis")){
@@ -8365,12 +8380,12 @@ try{
                     toolTip.show(event,getText("settings_valFoodworldFarmiPlacing")[1]);
                 },false);
             }
-        }catch(err){GM_logError("createFoodworldFarmis\n"+err);}
+        }catch(err){GM_logError("createFoodworldFarmis","","",err);}
     });
     unsafeOverwriteFunction("dragFoodworldFarmiTouch",function(id){
         try{
             unsafeWindow._dragFoodworldFarmiTouch(id);
-        }catch(err){GM_logError("_dragFoodworldFarmiTouch\n"+err);}
+        }catch(err){GM_logError("_dragFoodworldFarmiTouch","","",err);}
         try{
             if(valFoodworldFarmiPlacing){
                 loop:
@@ -8388,7 +8403,7 @@ try{
                     }
                 }               
             }
-        }catch(err){GM_logError("dragFoodworldFarmiTouch\n"+err);}
+        }catch(err){GM_logError("dragFoodworldFarmiTouch","","",err);}
     });
     if(newdiv=$("food_cart")){
         createElement("div",{"id":"food_cart_cost","style":"position:absolute;bottom:130px;left:135px;font-size:12px;color:#463824;"},newdiv);
@@ -8430,7 +8445,7 @@ try{
                     
                     tempZoneProductionData=[[{},{}],0,0,true];
                     for(var slot=1;slot<=(iSlotCount==0?1:iSlotCount);slot++){
-                        if(DEVMODE){ GM_log("doFoodworld zoneNrF="+zoneNrF+" slot="+slot+" res["+slot+"]="+implode(res[slot],"res")); }
+                        if(DEVMODE){ GM_logInfo("doFoodworld","","zoneNrF="+zoneNrF+" slot="+slot+" res["+slot+"]="+implode(res[slot],"res"),"Loop"); }
                         if(iSlotCount>0){
                             zoneNrS=zoneNrF+"."+slot;
                         }else{
@@ -8502,12 +8517,12 @@ try{
 
         err_trace="saving";
         publishProductData();
-    }catch(err){GM_logError("doFoodworld ("+err_trace+")\n"+err);}
+    }catch(err){GM_logError("doFoodworld","","err_trace="+err_trace,err);}
     }
     unsafeOverwriteFunction("foodworldActionResponse",function(request,action,id,table,chair){
         try{
             unsafeWindow._foodworldActionResponse(request,action,id,table,chair);
-        }catch(err){GM_logError("_foodworldActionResponse\n"+err);}
+        }catch(err){GM_logError("_foodworldActionResponse","","",err);}
         try{
             var result = checkRequest(request);
             if((result!=0)&&(result[0]!=0)){
@@ -8520,15 +8535,15 @@ try{
                 }           
             }
             result=null;
-        }catch(err){GM_logError("foodworldActionResponse\n"+err);}
+        }catch(err){GM_logError("foodworldActionResponse","","",err);}
     });
     unsafeOverwriteFunction("openFoodworldBuildingSelect",function(position,slot){
         try{
             unsafeWindow._openFoodworldBuildingSelect(position,slot);
-        }catch(err){GM_logError("_openFoodworldBuildingSelect\n"+err);}
+        }catch(err){GM_logError("_openFoodworldBuildingSelect","","",err);}
         try{
             raiseEvent("gameFoodworldSlotOpened")
-        }catch(err){GM_logError("openFoodworldBuildingSelect\n"+err);}
+        }catch(err){GM_logError("openFoodworldBuildingSelect","","",err);}
     });
         
     // Addons
@@ -8560,19 +8575,17 @@ try{
         pid=parseInt(pid,10);
         amount=parseInt(amount,10);
         if(isNaN(type)||isNaN(pid)||isNaN(amount)){
-            GM_log("prodMinRackAddon.add wrong arguments:");
-            GM_log([type,pid,reason,amount]);
-            return false;
+            throw("Wrong arguments");
         }
         unsafeWindow.prodMinRackAddon.newdata.push([type,pid,reason,amount]);
         raiseEvent("gameChangedProdMinRackAddon");
-    }catch(err){ GM_logError("prodMinRackAddon.add\n"+err); }
+    }catch(err){ GM_logError("prodMinRackAddon.add","type="+type+" pid="+pid+" reason="+reason+" amount="+amount,"",err); }
     };
     unsafeWindow.prodMinRackAddon.remove = function(type,pid,reason){
     try{
         unsafeWindow.prodMinRackAddon.newdata.push([type,pid,reason,null]);
         raiseEvent("gameChangedProdMinRackAddon");
-    }catch(err){ GM_logError("prodMinRackAddon.remove\n"+err); }
+    }catch(err){ GM_logError("prodMinRackAddon.remove","","",err); }
     };
     unsafeWindow.prodMinRackAddon.removeAll = function(type,reason){
     try{
@@ -8583,7 +8596,7 @@ try{
             }
         }
         raiseEvent("gameChangedProdMinRackAddon");
-    }catch(err){ GM_logError("prodMinRackAddon.removeAll\n"+err); }
+    }catch(err){ GM_logError("prodMinRackAddon.removeAll","","",err); }
     };
     document.addEventListener("gameChangedProdMinRackAddon",function(){
     try{
@@ -8623,7 +8636,7 @@ try{
         if(unsafeWindow.prodMinRackAddon.newdata.length>0){
             arguments.callee();
         }
-    }catch(err){ GM_logError("listener gameChangedProdMinRackAddon\n"+err); }
+    }catch(err){ GM_logError("gameChangedProdMinRackAddon.listener","","",err); }
     },false);
 
     GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmname",FARMNAME);
@@ -8636,7 +8649,7 @@ try{
     for(var j=0;j<ALL_ZONES["farm"].length;j++){
         help=zones.getBlock(ALL_ZONES["farm"][j]);
         if((!help.match(/b/))&&(unsafeWindow.farmamount<Math.ceil(ALL_ZONES["farm"][j]/6))){
-            GM_log("Blocking zone because farmamount is too low: "+ALL_ZONES["farm"][j]);
+            GM_logInfo("do_main","","farmamount="+unsafeWindow.farmamount+" zoneNr="+ALL_ZONES["farm"][j],"Blocking zone because farmamount is too low");
             zones.setBlock(ALL_ZONES["farm"][j],help+"b");
         }
     }
@@ -8656,7 +8669,7 @@ try{
     /*
     function findRecursiveNeededProducts(type,iProd,amount,addto){ //addto=new Array(new Object(), new Object());
         if(prodRequire[type]&&prodRequire[type][iProd]){
-            //if(DEVMODE_FUNCTION){GM_log("Begin findRecursiveNeededProducts name:"+prodName[type][iProd]+" iProd:"+iProd+" amount:"+amount+" totalRecursive:"+implode(totalRecursive,"findRecursiveNeededProducts\totalRecursive"));}
+            //if(DEVMODE_FUNCTION){GM_log("Begin findRecursiveNeededProducts name:"+prodName[type][iProd]+" iProd:"+iProd+" amount:"+amount+" totalRecursive:"+implode(totalRecursive,"findRecursiveNeededProducts/totalRecursive"));}
             var help;
             for(var i in prodRequire[type][iProd]){
                 if (!prodRequire[type][iProd].hasOwnProperty(i)){ continue; }
@@ -8729,7 +8742,7 @@ try{
             }
         }
         unsafeData.currentPowerup=currentPowerup.clone();
-    }catch(err){ GM_logError("calcCurrentPowerup\n"+err); }
+    }catch(err){ GM_logError("calcCurrentPowerup","","",err); }
     }
     calcCurrentPowerup();
 
@@ -8738,20 +8751,20 @@ try{
     unsafeOverwriteFunction("handlePowerups",function(page){
         try{
             unsafeWindow._handlePowerups(page);
-        }catch(err){ GM_logError("_handlePowerups\n"+err); }
+        }catch(err){ GM_logError("_handlePowerups","","",err); }
         try{
             // GM_log("unsafeWindow.poweruprack:\n"+implode(unsafeWindow.poweruprack));         
             calcTotalPowerups();
             updateProductDataPowerup();
             window.setTimeout(saveProductData,0);
             raiseEvent("gamePoweruprackUpdated");
-        }catch(err){ GM_logError("handlePowerups\n"+err); }
+        }catch(err){ GM_logError("handlePowerups","","",err); }
     });
 
     unsafeOverwriteFunction("activatePowerup",function(formula){
         try{
             unsafeWindow._activatePowerup(formula);
-        }catch(err){ GM_logError("_activatePowerup\n"+err); }
+        }catch(err){ GM_logError("_activatePowerup","","",err); }
         try{
             document.addEventListener("gamePoweruprackUpdated",function(){
             try{
@@ -8760,9 +8773,9 @@ try{
                 calcProdMinRack();
                 raiseEvent("gamePowerupActivated");
                 this.removeEventListener("gamePoweruprackUpdated",arguments.callee,false);
-            }catch(err){ GM_logError("listener gamePoweruprackUpdated\n"+err); }
+            }catch(err){ GM_logError("gamePoweruprackUpdated.listener","","",err); }
             },false);
-        }catch(err){ GM_logError("activatePowerup\n"+err); }
+        }catch(err){ GM_logError("activatePowerup","","",err); }
     });
     err_trace="valAutoWater";
     valAutoWater=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valAutoWater"),"valAutoWater",null); // TODO set true when automat handles it
@@ -8845,7 +8858,7 @@ try{
         unsafeOverwriteFunction("speedLinks",function(){
             try{
                 unsafeWindow._speedLinks();
-            }catch(err){GM_logError("_speedLinks\n"+err);}
+            }catch(err){GM_logError("_speedLinks","","",err);}
             try{  // taken from game-js and modified to run without premium
                 var err_trace="init";
                 if (!unsafeWindow.premium){
@@ -8920,7 +8933,7 @@ try{
                         $("speedlink_farmersmarket").onclick = new Function("unsafeWindow.travel2farmersmarket();")
                     }
                 }       
-            }catch(err){GM_logError("speedLinks ("+err_trace+")\n"+err);}
+            }catch(err){GM_logError("speedLinks","","err_trace="+err_trace,err);}
         });
         unsafeWindow.speedLinks();
         unsafeWindow.travel2City2 = function(){
@@ -8937,7 +8950,7 @@ try{
                 unsafeWindow.initCity(1);
             }
             }
-        }catch(err){GM_logError("travel2City2\n"+err);}     
+        }catch(err){GM_logError("travel2City2","","",err);}     
         };
         unsafeWindow.travel2forestry = function(){
         try{
@@ -8953,7 +8966,7 @@ try{
                 },false);
                 unsafeWindow.travel2City2();
             }
-        }catch(err){GM_logError("travel2forestry\n"+err);}
+        }catch(err){GM_logError("travel2forestry","","",err);}
         };
         unsafeWindow.travel2foodworld = function(){
         try{
@@ -8969,7 +8982,7 @@ try{
                 },false);
                 unsafeWindow.travel2City2();
             }
-        }catch(err){GM_logError("travel2foodworld\n"+err);}
+        }catch(err){GM_logError("travel2foodworld","","",err);}
         };
         unsafeWindow.travel2farmersmarket = function(){
         try{
@@ -8992,7 +9005,7 @@ try{
                 unsafeWindow.initCity(2,0,1);;
             }
             }
-        }catch(err){GM_logError("travel2farmersmarket\n"+err);}
+        }catch(err){GM_logError("travel2farmersmarket","","",err);}
         };
         
     }
@@ -9006,7 +9019,7 @@ try{
         newdiv1=$("userinfoscontainer");
         newdiv1.insertBefore(newdiv,newdiv1.children[1]);
     }
-    GM_setValue(COUNTRY+"_"+SERVER+"_farmNamen",implode(farmNamen));
+    GM_setValue(COUNTRY+"_"+SERVER+"_farmNamen",implode(farmNamen,"farmNamen"));
 
     var otherAccs=new Array();
     function calcOtherAccs(){
@@ -9028,7 +9041,7 @@ try{
             }
             if(!farmNamen[help[v][2]]){ farmNamen[help[v][2]]=help[v][2]; }
         }
-    }catch(err){GM_logError("calcOtherAccs\n"+err);}
+    }catch(err){GM_logError("calcOtherAccs","","",err);}
     }
     calcOtherAccs();
     function testOtherAccReady(){
@@ -9055,22 +9068,22 @@ try{
                         help["dologin"]=new Object();
                     }
                     help["dologin"][dologin]=true;
-                    GM_setValue(COUNTRY+"_pagedataLogin",implode(help));
+                    GM_setValue(COUNTRY+"_pagedataLogin",implode(help,"linkOtherAccReady/help"));
                     if($("logoutbutton")){
                         click($("logoutbutton"));
                     } else if(GAMEPAGES[COUNTRY]){
                         location.href="http://www."+GAMEPAGES[COUNTRY]+"/login.php?start=1";
                     }
-                }catch(err){ GM_logError("listener linkOtherAccReady.click\n"+err); }
+                }catch(err){ GM_logError("linkOtherAccReady.click","","","(inner) "+err); }
                 },0,dologin);
-            }catch(err){ GM_logError("listener linkOtherAccReady.click\n"+err); }
+            }catch(err){ GM_logError("linkOtherAccReady.click","","",err); }
             },false);
             cell=null;
             raiseEvent("gameOtherAccReady");
         }else{
             window.setTimeout(testOtherAccReady,5000);
         }
-    }catch(err){GM_logError("testOtherAccReady\n"+err);}
+    }catch(err){GM_logError("testOtherAccReady","","",err);}
     }
     if (otherAccs.length>1){
         newdiv=createElement("div",{"id":"divOtherAccountsTimes","class":"blackbox","style":"position:absolute;top:5px;right:150px;border:2px solid black;padding:2px;z-index:300;display:none;"},$("headercontainer"));
@@ -9099,7 +9112,7 @@ try{
                                     help["dologin"]=new Object();
                                 }
                                 help["dologin"][dologin]=true;
-                                GM_setValue(COUNTRY+"_pagedataLogin",implode(help));
+                                GM_setValue(COUNTRY+"_pagedataLogin",implode(help,"fillDivOtherAccountsTimes/help"));
                                 if($("logoutbutton")){
                                     click($("logoutbutton"));
                                 } else if(GAMEPAGES[COUNTRY]){
@@ -9150,7 +9163,7 @@ try{
                 help["doserver"]=new Object();
             }
             help["doserver"][SERVER]=true;
-            GM_setValue(COUNTRY+"_pagedataLogin",implode(help));
+            GM_setValue(COUNTRY+"_pagedataLogin",implode(help,"timerSessionEnd/help"));
             if($("logoutbutton")){
                 click($("logoutbutton"));
             } else if(GAMEPAGES[COUNTRY]){
@@ -9160,7 +9173,7 @@ try{
             window.setTimeout(function(){ timerSessionEnd(sec-1); },1000);
             $("divSessionEndTime").innerHTML=getTimeStr(sec);
         }
-    }catch(err){ GM_logError("timerSessionEnd\n"+err); }
+    }catch(err){ GM_logError("timerSessionEnd","","",err); }
     }
     var valSessionEndtime=null;
     if (unsafeWindow.logout_remain){
@@ -9277,7 +9290,7 @@ try{
             newdiv1=null;newimg=null;newobject=null;
 
             container=null;newdiv=null;newselect=null;newselect=null;
-        }catch(err){ GM_logError("buildStatistik\nmode="+implode(mode)+"\n"+err); }
+        }catch(err){ GM_logError("buildStatistik","mode="+implode(mode,"buildStatistik/mode"),"",err); }
         }
         function sendStatData (){
         try{
@@ -9300,7 +9313,7 @@ try{
                     }
                 }
                 if(bChanged){
-                    GM_setValue2(COUNTRY+"_"+SERVER+"_preisBeob",implode(preisBeob),8);
+                    GM_setValue2(COUNTRY+"_"+SERVER+"_preisBeob",implode(preisBeob,"sendStatData/preisBeob"),8);
                     raiseEventTop("gameChangedBeobPrice");
                 }
     
@@ -9318,20 +9331,20 @@ try{
                         return function(response){
                             try{
                                 logBubble.add(getText("sendingXObservedPricesToServer").replace(/%1%/,c)+" "+response.responseText)
-                            }catch(err){GM_logError("sendStatData.onload\n"+err);}          
+                            }catch(err){GM_logError("sendStatData.onload","","",err);}          
                         }
                     }(c),
                     onerror: function(response){
-                        GM_logError("sendStatData.onerror\n"+response.responseText);
+                        GM_logError("sendStatData.onerror","","",""+response.responseText);
                     },
                     timeout: function(response){
-                        GM_logError("sendStatData.timeout\n"+response.responseText);
+                        GM_logError("sendStatData.timeout","","",""+response.responseText);
                     }           
                     });
                     c=null;
                 }
             }
-        }catch(err){ GM_logError("sendStatData\n"+err); }
+        }catch(err){ GM_logError("sendStatData","","",err); }
         }
         if(STAT_VIEW && STAT_VIEW[COUNTRY]){
             newdiv=createElement("div",{"id":"divBeraterButtonsStatistic","class":"link beraterButtonIcon hoverBgGreen","mouseOverText":getText("stat_stats")},$("divBeraterButtons"));
@@ -9367,7 +9380,7 @@ try{
                 if (event.keyCode==13){
                     // showShopframePage("http://s"+SERVER+"."+GAMEPAGES[COUNTRY]+"/stadt/stats.php?search=1&searchterm="+this.value);
                 }
-            }catch(err){ GM_logError("listener searchPlayer.keyup\n"+err); }
+            }catch(err){ GM_logError("searchPlayer.keyup","","",err); }
         },false);
         // Farmpedia
         newinput=createElement("a",{"href":getText("farmpediaUrl"),"target":"_blank","style":"position:absolute;top:55px;left:100px;z-index:2;","class":"link"},newdiv);
@@ -9403,7 +9416,7 @@ try{
             unsafeOverwriteFunction("showPowerUps",function(){
                 try{
                     unsafeWindow._showPowerUps();
-                }catch(err){GM_logError("_showPowerUps\n"+err);}
+                }catch(err){GM_logError("_showPowerUps","","",err);}
                 try{
                     var cand=$("powerselectorcontent").getElementsByClassName("blackbox");
                     for(var v=0;v<cand.length;v++){
@@ -9412,7 +9425,7 @@ try{
                         }
                     }
                     cand=null;
-                }catch(err){GM_logError("showPowerUps\n"+err);}
+                }catch(err){GM_logError("showPowerUps","","",err);}
             });
             unsafeWindow.showPowerUps();
         }
@@ -9528,7 +9541,7 @@ try{
             // GM_log("questData["+quTyp+"]["+campaign+"]="+implode(questData[quTyp][campaign]));
             // GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
             // unsafeData.questData=questData.clone();
-        }catch(err){ GM_logError("calcQuestData ("+err_trace+")\n"+err); }
+        }catch(err){ GM_logError("calcQuestData","","err_trace="+err_trace,err); }
     }
     function handleQuestData(){
         // GM_log("setQuest newQuestNr="+newQuestNr);
@@ -9567,7 +9580,7 @@ try{
                     }
                 }
                 // GM_log("questdata:\n"+print_r(questData["main"],"",true,"\n"));
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"handleQuestData/questData"));
                 unsafeData.questData=questData.clone();
             }
             err_trace = "Calc highlightProducts"; 
@@ -9580,18 +9593,18 @@ try{
                         }
                     }               
                 }
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts",implode(highlightProducts));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts",implode(highlightProducts,"handleQuestData/highlightProducts"));
             }
             handleQuestLine();
-        }catch(err){ GM_logError("handleQuestData ("+err_trace+")\n"+err); }
+        }catch(err){ GM_logError("handleQuestData","","err_trace="+err_trace,err); }
     }
     unsafeOverwriteFunction("questInitGo",function(response,mode,b,h,l){
         try{
             unsafeWindow._questInitGo(response,mode,b,h,l);
-        }catch(err){GM_logError("_questInitGo\n"+err);}
+        }catch(err){GM_logError("_questInitGo","","",err);}
         try{
             handleQuestData();
-        }catch(err){GM_logError("questInitGo\n"+err);}
+        }catch(err){GM_logError("questInitGo","","",err);}
     });
     function handleQuestDataFoodworld(){
         // GM_log("setQuest newQuestNr="+newQuestNr);
@@ -9636,11 +9649,11 @@ try{
                     calcQuestData("foodworld",campaign);
                 // GM_log("questdata:\n"+print_r(questData["foodworld"],"",true,"\n"));
                 }
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"handleQuestData/questData"));
                 unsafeData.questData=questData.clone();
             }
             div=null;
-        }catch(err){ GM_logError("handleQuestData ("+err_trace+")\n"+err); }
+        }catch(err){ GM_logError("handleQuestData","","err_trace="+err_trace,err); }
     }
 
     // mouseover showing quest data
@@ -9764,7 +9777,7 @@ try{
             table=null;tr=null;td=null;
             return container.innerHTML;
         }catch(err){
-            GM_logError("questLineMouseOver\n"+err);
+            GM_logError("questLineMouseOver","","",err);
             try{
                 switch(questType){
                 case "main":{ return (getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("quest"+questType+campaign))); break;}
@@ -9778,7 +9791,7 @@ try{
     unsafeOverwriteFunction("showQuestBox",function(c){
         try{
             unsafeWindow._showQuestBox(c);
-        }catch(err){GM_logError("_showQuestBox\n"+err);}
+        }catch(err){GM_logError("_showQuestBox","","",err);}
         try{
             var cand=$("questboxobjects").getElementsByClassName("questboxbarout");
             for(var i=0;i<cand.length;i++){
@@ -9803,15 +9816,15 @@ try{
                 $("questboxobj"+questWare+"_current").innerHTML = numberFormat(menge[0]);
                 $("questboxobj"+questWare+"_need").innerHTML = numberFormat(menge[2]);
             }
-        }catch(err){ GM_logError("showQuestBox\n"+err); }       
+        }catch(err){ GM_logError("showQuestBox","","",err); }       
     });
     unsafeOverwriteFunction("questsHandler",function(status){
         try{
             unsafeWindow._questsHandler(status);
-        }catch(err){GM_logError("_questsHandler\n"+err);}
+        }catch(err){GM_logError("_questsHandler","","",err);}
         try{
             handleQuestLine();
-        }catch(err){GM_logError("questsHandler\n"+err);}
+        }catch(err){GM_logError("questsHandler","","",err);}
     });
 /* todo:
     raiseEvent("gameQuestSolvable");
@@ -9822,10 +9835,10 @@ try{
     unsafeOverwriteFunction("showQuestBoxLine",function(){
         try{
             unsafeWindow._showQuestBoxLine();
-        }catch(err){GM_logError("_showQuestBoxLine\n"+err);}
+        }catch(err){GM_logError("_showQuestBoxLine","","",err);}
         try{
             handleQuestLine();
-        }catch(err){GM_logError("showQuestBoxLine\n"+err);}
+        }catch(err){GM_logError("showQuestBoxLine","","",err);}
     });
     function updateQuestLineTimer(){
     try{
@@ -9844,7 +9857,7 @@ return false;
                 }
             }
         }
-    }catch(err){GM_logError("updateQuestLineTimer\ntype="+type+"\ncampaign="+campaign+"\n"+err);}
+    }catch(err){GM_logError("updateQuestLineTimer","","type="+type+" campaign="+campaign,err);}
     }
     handleQuestData(); // --> handleQuestLine
     
@@ -9923,11 +9936,11 @@ return false;
             tr=createElement("tr",{},table);
             createElement("td",{},tr,v);
             for(var w=1;w<unsafeWindow.buildinginfos[0][v].length;w++){
-                createElement("td",{},tr,implode(unsafeWindow.buildinginfos[0][v][w]));
+                createElement("td",{},tr,implode(unsafeWindow.buildinginfos[0][v][w],"showDataAllBuildings/buildinginfos"));
             }
-            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
-            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
-            createElement("td",{},tr,implode(totalZones[v]));
+            createElement("td",{},tr,implode(BUILDING_UPGRADES[v],"showDataAllBuildings/BUILDING_UPGRADES"));
+            createElement("td",{},tr,implode(BUILDINGTYPE[v],"showDataAllBuildings/BUILDINGTYPE"));
+            createElement("td",{},tr,implode(totalZones[v],"showDataAllBuildings/totalZones"));
         }
         for(var i=1;i<=4;i++){
             v="fw"+i;
@@ -9939,9 +9952,9 @@ return false;
                 case 10: td.innerHTML=getBuildingName(v); break;
                 }
             }
-            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
-            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
-            createElement("td",{},tr,implode(totalZones[v]));
+            createElement("td",{},tr,implode(BUILDING_UPGRADES[v],"showDataAllBuildings/BUILDING_UPGRADES"));
+            createElement("td",{},tr,implode(BUILDINGTYPE[v],"showDataAllBuildings/BUILDINGTYPE"));
+            createElement("td",{},tr,implode(totalZones[v],"showDataAllBuildings/totalZones"));
         }
         for(var i=1;i<=6;i++){
             v="fl"+i;
@@ -9953,13 +9966,13 @@ return false;
                 case 10: td.innerHTML=getBuildingName(v); break;
                 }
             }
-            createElement("td",{},tr,implode(BUILDING_UPGRADES[v]));
-            createElement("td",{},tr,implode(BUILDINGTYPE[v]));
-            createElement("td",{},tr,implode(totalZones[v]));
+            createElement("td",{},tr,implode(BUILDING_UPGRADES[v],"showDataAllBuildings/BUILDING_UPGRADES"));
+            createElement("td",{},tr,implode(BUILDINGTYPE[v],"showDataAllBuildings/BUILDINGTYPE"));
+            createElement("td",{},tr,implode(totalZones[v],"showDataAllBuildings/totalZones"));
         }
         container=null;div=null;
         table=null;tr=null;td=null;
-    }catch(err){ GM_logError("showDataAllBuildings\n"+err); }
+    }catch(err){ GM_logError("showDataAllBuildings","","",err); }
     };
     GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Buildings", showDataAllBuildings);
     
@@ -10043,13 +10056,13 @@ return false;
                 }
                 td=createElement("td",{},tr,(type>0)||(gut[v]==undefined)?"-":moneyFormat(gut[v]));
                 td=createElement("td",{},tr,PRODUCT2BUILDING[type][v]);
-            }catch(err){ GM_logError("showDataAllProducts type="+type+" v="+v+"\n"+err); }
+            }catch(err){ GM_logError("showDataAllProducts","","type="+type+" v="+v,"(loop) "+err); }
             }
-        }catch(err){ GM_logError("showDataAllProducts type="+type+"\n"+err); }
+        }catch(err){ GM_logError("showDataAllProducts","","type="+type,err); }
         }
         container=null;div=null;
         table=null;tr=null;td=null;newDiv1=null;
-    }catch(err){ GM_logError("showDataAllProducts\n"+err); }
+    }catch(err){ GM_logError("showDataAllProducts","","",err); }
     }
     GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Products", showDataAllProducts);
     
@@ -10156,11 +10169,11 @@ return false;
             if(help=zones.getProduction(zoneNrS)){
                 createElement("div",{"style":"white-space:nowrap;"},td,print_r(help));
             }
-        }catch(err){ GM_logError("showDataAllZones row zoneNrS="+zoneNrS+"\n"+err); }
+        }catch(err){ GM_logError("showDataAllZones","","zoneNrS="+zoneNrS,"(loop) "+err); }
         }
         container=null;div=null;
         table=null;tr=null;td=null;
-    }catch(err){ GM_logError("showDataAllZones\n"+err); }
+    }catch(err){ GM_logError("showDataAllZones","","",err); }
     }
     GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Zones", showDataAllZones);
 
@@ -10276,16 +10289,16 @@ return false;
     unsafeOverwriteFunction("shopDialog",function(e,d){
         try{
             unsafeWindow._shopDialog(e,d);
-        }catch(err){GM_logError("_shopDialog\n"+err);}
+        }catch(err){GM_logError("_shopDialog","","",err);}
         try{
             $("shopdialog_amount").addEventListener("keyup",function(event){
                 try{
                     if (event.keyCode==13){
                         click(this.nextElementSibling);
                     }
-                }catch(err){ GM_logError("listener searchPlayer.keyup\n"+err); }
+                }catch(err){ GM_logError("shopDialog.keyup","","",err); }
             },false);
-        }catch(err){GM_logError("shopDialog\n"+err);}
+        }catch(err){GM_logError("shopDialog","","",err);}
     });
     // Market
     err_trace="Market";
@@ -10504,7 +10517,7 @@ return false;
                         var thisNode=this;
                         var yesFkt = function(){
                             gut[currId]=preis;
-                            GM_setValueCache(COUNTRY+"_"+SERVER+"_gut",implode(gut));
+                            GM_setValueCache(COUNTRY+"_"+SERVER+"_gut",implode(gut,"marketButton_price/gut"));
                             raiseEventTop("gameChangedGut");
                             unsafeWindow.showOffers();
                             if(!unsafeWindow.market_timer['update']){ unsafeWindow.market_timer['update'] = unsafeWindow.setInterval("marketTimer()",1000); }
@@ -10720,22 +10733,22 @@ return false;
     
         market_beraterline=null;
         canda=null;candtable=null;candtr=null;candtd=null;canddiv=null;newa=null;newinput=null;newspan=null;newdiv=null;newdiv1=null;
-    }catch(err){ GM_logError("do_market ("+err_trace+")\n"+err); }
+    }catch(err){ GM_logError("do_market","","err_trace="+err_trace,err); }
     }
     unsafeOverwriteFunction("showOffers",function(page){
         try{
             unsafeWindow._showOffers(page);
-        }catch(err){GM_logError("_showOffers\n"+err);}
+        }catch(err){GM_logError("_showOffers","","",err);}
         try{
             do_market();
             // GM_log("unsafeWindow.market_offers:\n"+print_r(unsafeWindow.market_offers,"",true,"\n"));        
             raiseEvent("gameOpenMarket");
-        }catch(err){GM_logError("showOffers\n"+err);}
+        }catch(err){GM_logError("showOffers","","",err);}
     });
     unsafeOverwriteFunction("openMarketNewOffer",function(){
         try{
             unsafeWindow._openMarketNewOffer();
-        }catch(err){GM_logError("_openMarketNewOffer\n"+err);}
+        }catch(err){GM_logError("_openMarketNewOffer","","",err);}
         try{
             var err_trace="Init";
             var currId=unsafeWindow.market_filter_pid;
@@ -10796,8 +10809,8 @@ return false;
                         if(oldPricesInserted==0){ //old offer set
                             lastOffer[0]=[parseInt($("coinsanzahl").value,10),parseInt($("coinspreis").value,10),$("coinssollpreis").checked];
                             try{
-                                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lastOffer",implode(lastOffer));
-                            }catch(err){ GM_log("checkPreisCoins: 0 not saved!\n"+err); }
+                                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lastOffer",implode(lastOffer,"checkPreisCoins/lastOffer"));
+                            }catch(err){ GM_logError("checkPreisCoins","","",err); }
                         }else{
                             oldPricesInserted=0;
                             if(lastOffer[0]){
@@ -10892,12 +10905,12 @@ return false;
                 cand=null;candtable=null;
 */      
             }
-        }catch(err){ GM_logError("openMarketNewOffer ("+err_trace+")\n"+err); }
+        }catch(err){ GM_logError("openMarketNewOffer","","err_trace="+err_trace,err); }
     });
     unsafeOverwriteFunction("calcMarketFee",function(){
         try{
             unsafeWindow._calcMarketFee();
-        }catch(err){GM_logError("_calcMarketFee\n"+err);}
+        }catch(err){GM_logError("_calcMarketFee","","",err);}
         try{
             var err_trace="Init";
             var berater_box=$("marketnewoffer_berater");
@@ -11009,12 +11022,12 @@ return false;
             }
             currId=null;
         
-        }catch(err){ GM_logError("calcMarketFee\n"+err); }
+        }catch(err){ GM_logError("calcMarketFee","","",err); }
     });
     unsafeOverwriteFunction("buyMarketOffer",function(id){
         try{
             unsafeWindow._buyMarketOffer(id);
-        }catch(err){GM_logError("_buyMarketOffer\n"+err);}
+        }catch(err){GM_logError("_buyMarketOffer","","",err);}
         try{
             for(var i=0;i<unsafeWindow.market_offers.length;i++){
                 if(id==unsafeWindow.market_offers[i].id){
@@ -11028,12 +11041,12 @@ return false;
                     break;
                 }
             }   
-        }catch(err){ GM_logError("buyMarketOffer\n"+err); }
+        }catch(err){ GM_logError("buyMarketOffer","","",err); }
     });
     unsafeOverwriteFunction("marketAction",function(action,id,open){
         try{
             unsafeWindow._marketAction(action,id,open);
-        }catch(err){GM_logError("_marketAction\n"+err);}
+        }catch(err){GM_logError("_marketAction","","",err);}
         try{
             if(action=="marketcreateoffer"){
                 var currId=unsafeWindow.market_filter_pid;
@@ -11041,10 +11054,10 @@ return false;
                 var price1=parseInt($("marketnewoffer_price1").value,10);
                 var price2=parseInt($("marketnewoffer_price2").value,10);
                 lastOffer[currId]=[amount,price1,price2];
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lastOffer",implode(lastOffer));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lastOffer",implode(lastOffer,"marketAction/lastOffer"));
                 currId=null;amount=null;price1=null;price2=null;
             }
-        }catch(err){ GM_logError("marketAction\n"+err); }
+        }catch(err){ GM_logError("marketAction","","",err); }
     });
     unsafeOverwriteFunction("marketActionResponse",function(request,action,id,open){
         try{
@@ -11082,7 +11095,7 @@ return false;
                 });
                 ownMarketOffers=_ownMarketOffers;
 
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_ownMarketOffers",implode(ownMarketOffers));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_ownMarketOffers",implode(ownMarketOffers,"marketActionResponse/ownMarketOffers"));
                 doMarketoffersNotepad();
                 // calculate all observed prices
                 err_trace="Observing prices";
@@ -11128,17 +11141,17 @@ return false;
                 _ownMarketOffers=null;marketOffersArr=null;
                 row=null;prod=null;preis=null;menge=null;menge_sum=null;
                 if (valNimmBeob){
-                    GM_setValueCache(COUNTRY+"_"+SERVER+"_gut",implode(gut));
+                    GM_setValueCache(COUNTRY+"_"+SERVER+"_gut",implode(gut,"marketActionResponse/gut"));
                     raiseEventTop("gameChangedGut");
                 }
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_gutBeob",implode(gutBeob));
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_preisBeob",implode(preisBeob));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_gutBeob",implode(gutBeob,"marketActionResponse/gutBeob"));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_preisBeob",implode(preisBeob,"marketActionResponse/preisBeob"));
                 raiseEventTop("gameChangedBeobPrice");
             }
-        }catch(err){GM_logError("marketActionResponse ("+err_trace+")\nv="+v+"\n"+err);}
+        }catch(err){GM_logError("marketActionResponse","","err_trace="+err_trace+" v="+v,err);}
         try{
             unsafeWindow._marketActionResponse(request,action,id,open);
-        }catch(err){GM_logError("_marketActionResponse\n"+err);}
+        }catch(err){GM_logError("_marketActionResponse","","",err);}
     });
     quicklinks();
     // Buy offer by pressing Enter
@@ -11192,7 +11205,7 @@ return false;
     newdiv1=createElement("div",{"class":"opener link","style":"display:inline-block;vertical-align:top;background-position:0px "+(show["buyNotepad"]?-20:0)+"px;"},newdiv);
     newdiv1.addEventListener("click",function(){
         show["buyNotepad"]=!show["buyNotepad"];
-        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_show",implode(show));
+        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_show",implode(show,"buyNotepad/show"));
         if(show["buyNotepad"]){
             this.style.backgroundPosition="0px -20px";
             $("buyNotepad").style.display="inline-block";
@@ -11210,7 +11223,7 @@ return false;
     newdiv1=createElement("div",{"class":"opener link","style":"display:inline-block;vertical-align:top;background-position:0px "+(show["marketoffersNotepad"]?-20:0)+"px;"},newdiv);
     newdiv1.addEventListener("click",function(){
         show["marketoffersNotepad"]=!show["marketoffersNotepad"];
-        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_show",implode(show));
+        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_show",implode(show,"marketoffersNotepad/show"));
         if(show["marketoffersNotepad"]){
             this.style.backgroundPosition="0px -20px";
             $("marketoffersNotepad").style.display="inline-block";
@@ -11258,7 +11271,7 @@ return false;
                                 if(!result[1]["data"].hasOwnProperty(i)){ continue; }
                                 if(result[1]["data"][i]["own"]){
                                     levelLog[levelLogId][2]=((result[1].page-1)*result[1].max)+parseInt(i,10);
-                                    GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog),73);
+                                    GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog,"getDailyRanking/levelLog"),73);
                                     logBubble.add(getText("youAreOnRankX").replace(/%1%/,levelLog[levelLogId][2]));
                                     return;
                                 }
@@ -11267,17 +11280,17 @@ return false;
                         }else{
                             logBubble.add(getText("couldNotGetPlace")+" ("+response.responseText+")");
                         }
-                    }catch(err){ GM_logError("getDailyRanking.onload\n"+err); }
+                    }catch(err){ GM_logError("getDailyRanking.onload","","",err); }
                 },
                 onerror: function(response){
-                    GM_logError("getDailyRanking.onerror\n"+response.responseText);
+                    GM_logError("getDailyRanking.onerror","","",""+response.responseText);
                 },
                 timeout: function(response){
-                    GM_logError("getDailyRanking.timeout\n"+response.responseText);
+                    GM_logError("getDailyRanking.timeout","","",""+response.responseText);
                 }
             });
         }
-    }catch(err){ GM_logError("getDailyRanking\n"+err); }
+    }catch(err){ GM_logError("getDailyRanking","","",err); }
     }
     getDailyRanking();
     function plotLevelProgressBar(){
@@ -11324,7 +11337,7 @@ return false;
             }
         }
         setLevelLogId();
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog,"plotLevelProgressBar/levelLog"));
 
         // plotting level log bar
         if(USERLEVEL<LEVEL_POINTS.length){
@@ -11372,13 +11385,13 @@ return false;
             }
             newdiv1=null;newdiv=null;
         }
-    }catch(err){ GM_logError("plotLevelProgressBar\nlevelLog["+v+"]="+implode(levelLog[v])+"\n"+err); }
+    }catch(err){ GM_logError("plotLevelProgressBar","","levelLog["+v+"]="+implode(levelLog[v],"plotLevelProgressBar/levelLog"),err); }
     }
     plotLevelProgressBar();
     unsafeOverwriteFunction("updateMenuGo",function(){
         try{
             unsafeWindow._updateMenuGo();
-        }catch(err){GM_logError("_updateMenuGo\n"+err);}
+        }catch(err){GM_logError("_updateMenuGo","","",err);}
         window.setTimeout(function(){
         try{
             // calcTotalFarmis();
@@ -11391,7 +11404,7 @@ return false;
                 raiseEvent("gameUserlevelUp");
             }
             USERLEVEL=parseInt(unsafeWindow.currentuserlevel,10);
-        }catch(err){ GM_logError("updateMenuGo\n"+err); }
+        }catch(err){ GM_logError("updateMenuGo","","",err); }
         },0);
     });
     // Removing Advertising end on Advertising Abort
@@ -11400,10 +11413,10 @@ return false;
             var cell=$("alertAdvertEnd");
             if(cell){ removeElement(cell); }
             cell=null;
-        }catch(err){GM_logError("cancelAdResponse\n"+err);}
+        }catch(err){GM_logError("cancelAdResponse","","",err);}
         try{
             unsafeWindow._cancelAdResponse(response);
-        }catch(err){GM_logError("_cancelAdResponse\n"+err);}
+        }catch(err){GM_logError("_cancelAdResponse","","",err);}
     });
     // Sprechblase
     err_trace="Bubble";
@@ -11423,7 +11436,7 @@ return false;
             }else{
                 toolTip.show(event,"---");
             }
-        }catch(err){ GM_logError("listener sendStockingContract.mouseover\n"+err); }
+        }catch(err){ GM_logError("sendStockingContract.mouseover","","",err); }
     },false);
     newdiv.addEventListener("click",function(event){
         try{
@@ -11432,10 +11445,10 @@ return false;
                 thisdata["to"]=FARMNAME;
                 thisdata["fillContract"]=new Object();
                 thisdata["fillContract"][unsafeWindow.selected]=[prodStock[0][unsafeWindow.selected],1];
-                GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew",implode(thisdata));
+                GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew",implode(thisdata,"sendStockingContract.click/thisdata"));
                 showMultiframePage("vertraege/new.php");
             }
-        }catch(err){ GM_logError("listener sendStockingContract.click\n"+err); }
+        }catch(err){ GM_logError("sendStockingContract.click","","",err); }
     },false);
     function showLagerZeitZiel(zoneNrF){
     try{
@@ -11472,7 +11485,7 @@ return false;
             hideLagerZeitZiel();
         }
         divLagerZeitZiel=null;
-    }catch(err){ GM_logError("showLagerZeitZiel zoneNrF="+zoneNr+"\n"+err); }
+    }catch(err){ GM_logError("showLagerZeitZiel","zoneNrF="+zoneNr,"",err); }
     }
     function hideLagerZeitZiel(){
     try{
@@ -11481,12 +11494,12 @@ return false;
             divLagerZeitZiel.parentNode.style.display="none";
         }
         divLagerZeitZiel=null;
-    }catch(err){ GM_logError("hideLagerZeitZiel\n"+err); }
+    }catch(err){ GM_logError("hideLagerZeitZiel","","",err); }
     }
     unsafeOverwriteFunction("selectRackItem",function(id,b){
         try{
             unsafeWindow._selectRackItem(id,b);
-        }catch(err){GM_logError("selectRackItem id="+id+"\n"+err);}
+        }catch(err){GM_logError("_selectRackItem","id="+id,"",err);}
         try{
             if($("gardenmaincontainer").style.display=="block"){
                 var zoneNr=/parent.cache_me\((\d+?),120/.exec($("gardenarea").innerHTML);
@@ -11497,7 +11510,7 @@ return false;
             }else if($("farmersmarket_pos1_inner").style.display=="block"){
                 showLagerZeitZiel("farmersmarket-1");
             }
-        }catch(err){GM_logError("selectRackItem id="+id+"\n"+err);}
+        }catch(err){GM_logError("selectRackItem","id="+id,"",err);}
     });
 
     valMoveAnimals=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMoveAnimals","[]"),"do_main/valMoveAnimals",[]);
@@ -11529,7 +11542,7 @@ return false;
         else if (!unsafeWindow.rackElement[v].number){ prodStock[0][v]=0; } // no stock available
         else { prodStock[0][v]=parseInt(unsafeWindow.rackElement[v].number,10); }
     }
-    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
+    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"rack/prodStock"));
     unsafeWindow.updateRackBusy=false;
     unsafeOverwriteFunction("updateRack",function(rack,init){
         try{
@@ -11541,15 +11554,15 @@ return false;
             cell.style.display="block";
             cell=null;
             unsafeWindow.updateRackBusy=true;
-        }catch(err){GM_logError("updateRack\n"+err);}
+        }catch(err){GM_logError("updateRack","","",err);}
         try{
             unsafeWindow._updateRack(rack,init);
-        }catch(err){GM_logError("_updateRack\n"+err);}
+        }catch(err){GM_logError("_updateRack","","",err);}
     });
     unsafeOverwriteFunction("sortRackNew",function(type){
         try{
             unsafeWindow._sortRackNew(type);
-        }catch(err){GM_logError("_sortRackNew\n"+err);}
+        }catch(err){GM_logError("_sortRackNew","type="+type,"",err);}
         try{
             // save rack amounts
             for(var v in prodName[0]){
@@ -11561,7 +11574,7 @@ return false;
                 else if (!unsafeWindow.rackElement[v].number){ prodStock[0][v]=0; } // no stock available
                 else { prodStock[0][v]=parseInt(unsafeWindow.rackElement[v].number,10); }
             }       
-            GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
+            GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"sortRackNew/prodStock"));
             var cell=$("divUpdateRack");
             if(cell){ cell.style.display="none"; }
             cell=null;
@@ -11570,7 +11583,7 @@ return false;
                 unsafeWindow.updateRackBusy=false;
                 raiseEvent("gameUpdateRack");
             },0);
-        }catch(err){GM_logError("sortRackNew type="+type+"\n"+err);}
+        }catch(err){GM_logError("sortRackNew","type="+type,"",err);}
     });
     /*
     function doRackNavi(){
@@ -11598,7 +11611,7 @@ return false;
                 }
             }
         }
-    }catch(err){ GM_logError("doRackNavi\n"+err); }
+    }catch(err){ GM_logError("doRackNavi","","",err); }
     }
     doRackNavi();   
     unsafeOverwriteFunction("initRackNavi",function(){
@@ -11620,7 +11633,7 @@ return false;
                     }
                 }
                 if((currId!=null)&&(!prodBlock[0][currId].match(/t/))){ showMarket(currId); }
-            }catch(err){GM_logError("listener #rackItems.dblclick\n"+err);}
+            }catch(err){GM_logError("rackItems.dblclick","","",err);}
         },false);
     }
     /* TODO: function is not existing anymore
@@ -11649,18 +11662,18 @@ return false;
     unsafeOverwriteFunction("globalcommitbox",function(content,onclick,onclick2){
         try{
             unsafeWindow._globalcommitbox(content,onclick,onclick2);
-        }catch(err){GM_logError("_globalcommitbox\n"+err);}
+        }catch(err){GM_logError("_globalcommitbox","","",err);}
         try{
             raiseEvent("gameOpenGlobalCommitBox");
-        }catch(err){GM_logError("globalcommitbox\n"+err);}
+        }catch(err){GM_logError("globalcommitbox","","",err);}
     });
     unsafeOverwriteFunction("globalBox",function(f,a,e,c,b){
         try{
             unsafeWindow._globalBox(f,a,e,c,b);
-        }catch(err){GM_logError("_globalBox\n"+err);}
+        }catch(err){GM_logError("_globalBox","","",err);}
         try{
             raiseEvent("gameOpenGlobalBox");
-        }catch(err){GM_logError("globalBox\n"+err);}
+        }catch(err){GM_logError("globalBox","","",err);}
     });
 
     if(newdiv=$("coins")){
@@ -11678,7 +11691,7 @@ return false;
     unsafeOverwriteFunction("updatePlayerInfo",function(money,coins,points,level,deco){
         try{
             unsafeWindow._updatePlayerInfo(money,coins,points,level,deco);
-        }catch(err){GM_logError("_updatePlayerInfo\n"+err);}
+        }catch(err){GM_logError("_updatePlayerInfo","","",err);}
         try{
             // GM_log("updatePlayerInfo money="+money+" coins="+coins+" points="+points+" level="+level+" deco="+deco);
             if(money){
@@ -11695,10 +11708,10 @@ return false;
                 if(!isNaN(c)){
                     prodStock[0][0]=c;
                     $("coinsFormat").innerHTML=numberFormat(c);
-                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
+                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"updatePlayerInfo/prodStock"));
                 }
             }
-        }catch(err){GM_logError("updatePlayerInfo\n"+err);} 
+        }catch(err){GM_logError("updatePlayerInfo","","",err);} 
     });
     document.addEventListener("gameDoGetData",function(){
         window.setTimeout(loadProductData,0);
@@ -11733,14 +11746,14 @@ return false;
     unsafeOverwriteFunction("messagesActionResponse",function(request,mode,id){
         try{
             unsafeWindow._messagesActionResponse(request,mode,id);
-        }catch(err){GM_logError("_messagesActionResponse\n"+err);}
+        }catch(err){GM_logError("_messagesActionResponse","","",err);}
         try{
             if(checkRequest(request,mode)){
                 switch(mode){
                 case "system": window.setTimeout(messagesSystem,0); break;
                 }
             }
-        }catch(err){GM_logError("messagesActionResponse\n"+err);}
+        }catch(err){GM_logError("messagesActionResponse","","",err);}
     });
     // market: [id,time,name,[prod,amount],money]
     // contract: [id,time,name,[[prod,amount],...],money]
@@ -11883,7 +11896,7 @@ return false;
                     createElement("div",{"style":"display:inline-block;width:75px;margin-right:5px;text-align:right;"},div,moneyFormatInt(money));
                 }
             }else{
-                GM_log("messagesSystem: unknown message type\nmessages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"));
+                GM_logWarning("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Unknown message type");
             }
         }
         if(countRequest>0){
@@ -11897,11 +11910,11 @@ return false;
                 },500*(++countRequest));
             }
         }
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog));
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_ownMarketOffers",implode(ownMarketOffers));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog,"messagesSystem/levelLog"));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_ownMarketOffers",implode(ownMarketOffers,"messagesSystem/ownMarketOffers"));
         doMarketoffersNotepad();
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logSales",implode(logSales));
-        }catch(err){GM_logError("messagesSystem\n"+err);}
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logSales",implode(logSales,"messagesSystem/logSales"));
+    }catch(err){GM_logError("messagesSystem","","",err);}
     };
     if(newdiv=$("messages_list_check")){
         newdiv2=createElement("button",{"class":"link button_new","type":"button","style":"margin-right:5px;"},false,getText("salesLog"));
@@ -11913,7 +11926,7 @@ return false;
     unsafeOverwriteFunction("farmMove",function(b){
         try{
             unsafeWindow._farmMove(b);
-        }catch(err){GM_logError("_farmMove\n"+err);}
+        }catch(err){GM_logError("_farmMove","","",err);}
         try{
             if(b==99){
                 gameLocation.set("farmersmarket");
@@ -11922,7 +11935,7 @@ return false;
                 gameLocation.set("farm",unsafeWindow.farm-1);
                 raiseEvent("gameFarmOpened");
             }
-        }catch(err){GM_logError("farmMove\n"+err);}
+        }catch(err){GM_logError("farmMove","","",err);}
     });
     function doFarmZone(farmNR,zoneNr){
         try{    
@@ -12141,13 +12154,13 @@ return false;
                 }
                 divZone=null;divZoneInfo=null;div=null;
             }   
-        }catch(err){GM_logError("doFarmZone\nfarmNR="+farmNR+" zoneNr="+zoneNr+"\n"+err);}  
+        }catch(err){GM_logError("doFarmZone","farmNR="+farmNR+" zoneNr="+zoneNr,"",err);}  
     }
     unsafeData.carpentry_bonus=parseInt($("carpentry_icon_currentbonus").innerHTML,10);
     unsafeOverwriteFunction("farmBuildPositions",function(){
         try{
             unsafeWindow._farmBuildPositions();
-        }catch(err){GM_logError("_farmBuildPositions\n"+err);}
+        }catch(err){GM_logError("_farmBuildPositions","","",err);}
         try{
             var farmNr,zoneNr,zoneNrF,data,currZoneType,currBlock,currBonus,currBonusSpecial;
             totalAnimals=[];
@@ -12216,7 +12229,7 @@ return false;
             lastErnte=null;
             // Event
             raiseEvent("gameFarmLoaded");
-        }catch(err){GM_logError("farmBuildPositions\nzoneNrF="+zoneNrF+"\n"+err);}
+        }catch(err){GM_logError("farmBuildPositions","","zoneNrF="+zoneNrF,err);}
     });
     // Farm filling
     // initZones > getUserFarmInfos > userFarmInfosResponse > getTimeEvents >
@@ -12272,7 +12285,7 @@ return false;
             }
         }
         newdiv=null;newdiv1=null;
-    }catch(err){GM_logError("drawZoneNavi zoneNrF="+zoneNrF+"\n"+err);}
+    }catch(err){GM_logError("drawZoneNavi","","zoneNrF="+zoneNrF,err);}
     }
 
     // field
@@ -12426,13 +12439,13 @@ return false;
         }
         cell=null;newdiv=null;
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("checkFieldTimes\n"+err); }
+    }catch(err){ GM_logError("checkFieldTimes","","",err); }
     }
 
     unsafeOverwriteFunction("getGardenInfoResponse",function(request,zoneNr){
         try{
             unsafeWindow._getGardenInfoResponse(request,zoneNr);
-        }catch(err){GM_logError("_getGardenInfoResponse\n"+err);}
+        }catch(err){GM_logError("_getGardenInfoResponse","","",err);}
         try{
             // GM_log("getGardenInfoResponse zoneNr="+zoneNr+"\n"+print_r(eval('('+response+')'),"",true,"\n"));
             //waterlog GM_log("getGardenInfoResponse zoneNr="+zoneNr+"\nwater: "+print_r(eval('('+response+')')["water"],"",true,"\n"));
@@ -12454,7 +12467,7 @@ return false;
             newdiv=null;
             */
             checkFieldTimes();
-        }catch(err){GM_logError("getGardenInfoResponse\n"+err);}    
+        }catch(err){GM_logError("getGardenInfoResponse","","",err);}    
     });
     unsafeOverwriteFunction("farmAction",function(mode,farm,position,s,d,b,a){
         try{
@@ -12477,15 +12490,15 @@ return false;
                 }
             break;}
             }
-        }catch(err){GM_logError("farmAction (pre)\n"+err);}
+        }catch(err){GM_logError("farmAction","","","(pre) "+err);}
         try{
             unsafeWindow._farmAction(mode,farm,position,s,d,b,a);
-        }catch(err){GM_logError("_farmAction\n"+err);}
+        }catch(err){GM_logError("_farmAction","","",err);}
     });
     unsafeOverwriteFunction("farmActionResponse",function(request,mode,farmNR,zoneNr,z,d,b,a){
         try{
             unsafeWindow._farmActionResponse(request,mode,farmNR,zoneNr,z,d,b,a);
-        }catch(err){GM_logError("_farmActionResponse\n"+err);}
+        }catch(err){GM_logError("_farmActionResponse","","",err);}
         try{
             var r = checkRequest(request, mode);
             if((r!=0)&&(r[0]!=0)){
@@ -12528,74 +12541,74 @@ return false;
                             // Save dummy for today's donkey log
                             var newElem=[todayServerStr,0,[]];
                             logDonkey.push(newElem);
-                            GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey));
+                            GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey,"farmActionResponse/logDonkey"));
                             hideGoToDonkey();
                         }
                         break;
                 }
             }
-        }catch(err){GM_logError("farmActionResponse\n"+err);}
+        }catch(err){GM_logError("farmActionResponse","","",err);}
     });
     unsafeOverwriteFunction("PflanzResponse",function(request){
         try{
             unsafeWindow._PflanzResponse(request);
-        }catch(err){GM_logError("_PflanzResponse\n"+err);}
+        }catch(err){GM_logError("_PflanzResponse","","",err);}
         try{
             if((request.readyState==4)&&(request.status==200)){
                 checkFieldTimes();
                 raiseEvent("gameFieldPlanted");
             }
-        }catch(err){GM_logError("PflanzResponse\n"+err);}
+        }catch(err){GM_logError("PflanzResponse","","",err);}
     });
     unsafeOverwriteFunction("WasserResponse",function(request){
         try{
             unsafeWindow._WasserResponse(request);
-        }catch(err){GM_logError("_WasserResponse\n"+err);}
+        }catch(err){GM_logError("_WasserResponse","","",err);}
         try{
             if((request.readyState==4)&&(request.status==200)){
                 checkFieldTimes();
                 raiseEvent("gameFieldWatered");
             }
-        }catch(err){GM_logError("WasserResponse\n"+err);}
+        }catch(err){GM_logError("WasserResponse","","",err);}
     });
     unsafeOverwriteFunction("ErnteResponse",function(request){
         try{
             unsafeWindow._ErnteResponse(request);
-        }catch(err){GM_logError("_ErnteResponse\n"+err);}
+        }catch(err){GM_logError("_ErnteResponse","","",err);}
         try{
             if((request.readyState==4)&&(request.status==200)){
                 checkFieldTimes();
                 raiseEvent("gameFieldCropped");
             }
-        }catch(err){GM_logError("ErnteResponse\n"+err);}
+        }catch(err){GM_logError("ErnteResponse","","",err);}
     });
     unsafeOverwriteFunction("AbrissResponse",function(request){
         try{
             unsafeWindow._AbrissResponse(request);
-        }catch(err){GM_logError("_AbrissResponse\n"+err);}
+        }catch(err){GM_logError("_AbrissResponse","","",err);}
         try{
             if((request.readyState==4)&&(request.status==200)){
                 checkFieldTimes();
                 raiseEvent("gameFieldDemolished");
             }
-        }catch(err){GM_logError("AbrissResponse\n"+err);}
+        }catch(err){GM_logError("AbrissResponse","","",err);}
     });
     unsafeOverwriteFunction("killGardenTimeruns",function(){
         try{
             unsafeWindow._killGardenTimeruns();
-        }catch(err){GM_logError("_killGardenTimeruns\n"+err);}
+        }catch(err){GM_logError("_killGardenTimeruns","","",err);}
         try{        
             lastGiess=null;
             lastErnte=null;
             if ($("divErnteInfo")){ removeElement($("divErnteInfo")); }
             if ($("zoneNavi")){ removeElement($("zoneNavi")); }
             //if ($("lager_zeit_ziel").parentNode.style.display == "") $("lager_zeit_ziel").parentNode.style.display="none";
-        }catch(err){GM_logError("killGardenTimeruns\n"+err);}
+        }catch(err){GM_logError("killGardenTimeruns","","",err);}
     });
     unsafeOverwriteFunction("errorboxgarden",function(text,onclick){
         try{
             unsafeWindow._errorboxgarden(text,onclick);
-        }catch(err){GM_logError("_errorboxgarden\n"+err);}
+        }catch(err){GM_logError("_errorboxgarden","","",err);}
         try{
             // Fix(Seberoth)
             // $("divErnteInfo").innerHTML=$("errorboxcontentgarden").innerHTML;
@@ -12614,14 +12627,14 @@ return false;
                 zoneNr=zoneNr[1];
                 unsafeWindow.refreshGarden(zoneNr);
             }
-        }catch(err){GM_logError("errorboxgarden\n"+err);}
+        }catch(err){GM_logError("errorboxgarden","","",err);}
     });
 
     // Farmhouse
     unsafeOverwriteFunction("initFarmhouseResponse",function(response){
         try{
             unsafeWindow._initFarmhouseResponse(response);
-        }catch(err){GM_logError("_initFarmhouseResponse\n"+err);}
+        }catch(err){GM_logError("_initFarmhouseResponse","","",err);}
         try{
             if(unsafeWindow.reallocatebuildinghead&&!$("reallocatebuildingbutton")){
                 var newdiv=createElement("div",{"onclick":"initReallocateBuilding();showDiv('transp');","style":"position:absolute;top:70px;right:20px;","class":"link"},$("farmhousecontainer"));
@@ -12629,7 +12642,7 @@ return false;
                 createElement("div",{"id":"reallocatebuildinginfo","style":"display:none;position:absolute;top:70px;right:50px;","class":"blackbox"},$("farmhousecontainer"),unsafeWindow.reallocatebuildinghead);
                 newdiv=null;
             }
-        }catch(err){GM_logError("initFarmhouseResponse\n"+err);}
+        }catch(err){GM_logError("initFarmhouseResponse","","",err);}
     });
     // Dog Ben
     function doDogBen(){
@@ -12672,7 +12685,7 @@ return false;
                 }
                 zones.setProduction(zoneNrS,tempZoneProductionData.clone());
             }
-        }catch(err){GM_logError("doDogBen\n"+err);}
+        }catch(err){GM_logError("doDogBen","","",err);}
     }
 
     // Stable
@@ -12712,12 +12725,12 @@ return false;
         }
         zones.setProduction(zoneNrF,tempZoneProductionData.clone());
         tempZoneProductionData=null;
-    }catch(err){GM_logError("doStable\n"+err);}
+    }catch(err){GM_logError("doStable","","",err);}
     }
     unsafeOverwriteFunction("rewriteBuildingInnerFeed",function(e,a){
         try{
             unsafeWindow._rewriteBuildingInnerFeed(e,a);
-        }catch(err){GM_logError("_rewriteBuildingInnerFeed\n"+err);}
+        }catch(err){GM_logError("_rewriteBuildingInnerFeed","","",err);}
         try{
             var d = unsafeWindow.buildingdata[e][a];
             var div;
@@ -12729,12 +12742,12 @@ return false;
                     createElement("div",{"id":"feed_item"+b+"_rackamount","class":str,"style":"position:absolute;top:-25px;left:-2px;font-weight:bold;"},div,numberFormatPrefixed(prodStock[0][currProd]));
                 }
             }       
-        }catch(err){GM_logError("rewriteBuildingInnerFeed\n"+err);}
+        }catch(err){GM_logError("rewriteBuildingInnerFeed","","",err);}
     }); 
     unsafeOverwriteFunction("buildingInnerActionResponse",function(request,action,farm,position){
         try{
             unsafeWindow._buildingInnerActionResponse(request,action,farm,position);
-        }catch(err){GM_logError("_buildingInnerActionResponse\n"+err);}
+        }catch(err){GM_logError("_buildingInnerActionResponse","","",err);}
         try{
             if(checkRequest(request)){
                 // logBubble.add("buildingInnerActionResponse "+action+":"+farm+":"+position);
@@ -12743,15 +12756,15 @@ return false;
                 default:
                 }
             }
-        }catch(err){GM_logError("buildingInnerActionResponse\n"+err);}
+        }catch(err){GM_logError("buildingInnerActionResponse","","",err);}
     });
     unsafeOverwriteFunction("newBuildingInner",function(farm,position){
         try{
             unsafeWindow._newBuildingInner(farm,position);
-        }catch(err){GM_logError("_newBuildingInner\n"+err);}
+        }catch(err){GM_logError("_newBuildingInner","","",err);}
         try{
             doStable(farm,position);
-        }catch(err){GM_logError("newBuildingInner\n"+err);}
+        }catch(err){GM_logError("newBuildingInner","","",err);}
     }); 
     // Factory
     function doFactory(zoneNr){
@@ -12807,7 +12820,7 @@ return false;
         }
         cand=null;newdiv=null;
         raiseEvent("gameOpenFactory");
-        }catch(err){GM_logError("doFactory\n"+err);}    
+        }catch(err){GM_logError("doFactory","","",err);}    
     }
     // Oil factory, special oil factory
     function doFactoryOil(zoneNr){
@@ -12820,7 +12833,7 @@ return false;
     unsafeOverwriteFunction("buildOilpressInner",function(position,buildingid,info){
         try{
             unsafeWindow._buildOilpressInner(position,buildingid,info);
-        }catch(err){GM_logError("_buildOilpressInner\n"+err);}
+        }catch(err){GM_logError("_buildOilpressInner","","",err);}
         try{
             var zoneNr=position;
             var zoneNrF=zoneNr+6*gameLocation.get()[1];
@@ -12891,13 +12904,13 @@ return false;
             }
             zones.setProduction(zoneNrF,tempZoneProductionData.clone());
             var tempZoneProductionData=null;newDiv=null;newDiv1=null;
-        }catch(err){GM_logError("buildOilpressInner\n"+err);}
+        }catch(err){GM_logError("buildOilpressInner","","",err);}
     });
     // Knitting
     unsafeOverwriteFunction("strickereiAjaxActionResponse",function(request,pos,mode){
         try{
             unsafeWindow._strickereiAjaxActionResponse(request,pos,mode);
-        }catch(err){GM_logError("_strickereiAjaxActionResponse\n"+err);}
+        }catch(err){GM_logError("_strickereiAjaxActionResponse","","",err);}
         try{
             var result = checkRequest(request);
             if((result!=0)&&(result[0]!=0)){
@@ -12910,20 +12923,20 @@ return false;
                 default:
                 }
             }
-        }catch(err){GM_logError("strickereiAjaxActionResponse\n"+err);}
+        }catch(err){GM_logError("strickereiAjaxActionResponse","","",err);}
     });
     unsafeOverwriteFunction("strickereiSelection",function(a,c,slot){
         try{
             unsafeWindow._strickereiSelection(a,c,slot);
-        }catch(err){GM_logError("_strickereiSelection\n"+err);}
+        }catch(err){GM_logError("_strickereiSelection","","",err);}
         try{
             raiseEvent("gameFactoryKnittingDialogStart");
-        }catch(err){GM_logError("strickereiSelection\n"+err);}
+        }catch(err){GM_logError("strickereiSelection","","",err);}
     });
     unsafeOverwriteFunction("buildStrickereiInner",function(position,buildingid){
         try{
             unsafeWindow._buildStrickereiInner(position,buildingid);
-        }catch(err){GM_logError("_buildStrickereiInner\n"+err);}        
+        }catch(err){GM_logError("_buildStrickereiInner","","",err);}        
         try{
             var zoneNr=position;
             var zoneNrF=zoneNr+6*gameLocation.get()[1];
@@ -12981,13 +12994,13 @@ return false;
             zones.setProduction(zoneNrF,tempZoneProductionData.clone());
             var tempZoneProductionData=null;newDiv=null;newDiv1=null;
             raiseEvent("gameOpenFactoryKnitting");
-        }catch(err){GM_logError("buildStrickereiInner\n"+err);}
+        }catch(err){GM_logError("buildStrickereiInner","","",err);}
     });
     unsafeOverwriteFunction("innerInfosResponse",function(zoneNr){
     // oil, knitting, factory, pony
         try{
             unsafeWindow._innerInfosResponse(zoneNr);
-        }catch(err){GM_logError("_innerInfosResponse\n"+err);}
+        }catch(err){GM_logError("_innerInfosResponse","","",err);}
         try{
             $("innermaincontainer").setAttribute("zoneNr",zoneNr);
             if(unsafeWindow.locationinfo["buildingid"]){ 
@@ -13004,7 +13017,7 @@ return false;
             // }else if(unsafeWindow.locationinfo["in"]){ 
                 doFactory(zoneNr); 
             }
-        }catch(err){GM_logError("innerInfosResponse\n"+err);}
+        }catch(err){GM_logError("innerInfosResponse","","",err);}
     });
     // Megafield
     err_trace="Megafield";
@@ -13105,21 +13118,21 @@ return false;
                     zones.setProduction(zoneNrF,tempZoneProductionData.clone());
                 }
             }
-        }catch(err){GM_logError("_megafieldHandler\n"+err);}
+        }catch(err){GM_logError("_megafieldHandler","","",err);}
     }
     doMegafieldData();
     unsafeOverwriteFunction("megafieldHandler",function(a){
         try{
             unsafeWindow._megafieldHandler(a);
-        }catch(err){GM_logError("_megafieldHandler\n"+err);}
+        }catch(err){GM_logError("_megafieldHandler","","",err);}
         try{
             doMegafieldData();
-        }catch(err){GM_logError("megafieldHandler\n"+err);}
+        }catch(err){GM_logError("megafieldHandler","","",err);}
     });
     unsafeOverwriteFunction("buildMegafield",function(){
         try{
             unsafeWindow._buildMegafield();
-        }catch(err){GM_logError("_buildMegafield\n"+err);}
+        }catch(err){GM_logError("_buildMegafield","","",err);}
         try{
             if(megafieldVehicle[0]&&(!unsafeWindow.megafield_vehicle_id)){
                 unsafeWindow.megafield_move_position=2;
@@ -13127,37 +13140,37 @@ return false;
             }
             gameLocation.set("megafield");
             raiseEvent("gameOpenMegafield");
-        }catch(err){GM_logError("buildMegafield\n"+err);}
+        }catch(err){GM_logError("buildMegafield","","",err);}
     });
     unsafeOverwriteFunction("moveMegafield",function(a){
         try{
             unsafeWindow._moveMegafield(a);
-        }catch(err){GM_logError("_moveMegafield\n"+err);}
+        }catch(err){GM_logError("_moveMegafield","","",err);}
         try{
             gameLocation.set("megafield",unsafeWindow.megafield_move_position);
             raiseEvent("gameMegafieldMoved");
-        }catch(err){GM_logError("moveMegafield\n"+err);}
+        }catch(err){GM_logError("moveMegafield","","",err);}
     });
     unsafeOverwriteFunction("setTourVehicleMegafield",function(b){
         try{
             unsafeWindow._setTourVehicleMegafield(b);
-        }catch(err){GM_logError("_setTourVehicleMegafield\n"+err);}
+        }catch(err){GM_logError("_setTourVehicleMegafield","","",err);}
         try{
             var a;
             if(b&&(a=unsafeWindow.megafield_data.vehicle_slots[b])&&(!a.block)&&(!a.unlockable)){
                 megafieldVehicle[{"harvest":0,"fertilize":1}[a.type]]=b;
                 unsafeData.megafieldVehicle=megafieldVehicle.clone();                
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_megafieldVehicle",implode(megafieldVehicle,"setTourVehicleMegafield\megafieldVehicle"));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_megafieldVehicle",implode(megafieldVehicle,"setTourVehicleMegafield/megafieldVehicle"));
             }
-        }catch(err){GM_logError("setTourVehicleMegafield\n"+err);}
+        }catch(err){GM_logError("setTourVehicleMegafield","","",err);}
     });
     unsafeOverwriteFunction("dialogMegafield",function(mode, K, slot, B, pid){
         try{
             unsafeWindow._dialogMegafield(mode, K, slot, B, pid);
-        }catch(err){GM_logError("_dialogMegafield\n"+err);}
+        }catch(err){GM_logError("_dialogMegafield","","",err);}
         try{
             raiseEvent("gameMegafieldDialogStarted");
-        }catch(err){GM_logError("dialogMegafield\n"+err);}
+        }catch(err){GM_logError("dialogMegafield","","",err);}
     });
     
     // Club
@@ -13209,7 +13222,7 @@ return false;
             newspan.innerHTML="---";
         }
         container=null;newdiv=null;newspan=null;
-    }catch(err){GM_logError("clubQuestToolTip\ndata="+implode(data)+"\n"+err);}
+    }catch(err){GM_logError("clubQuestToolTip","data="+implode(data,"clubQuestToolTip/data"),"",err);}
     }
     if((newdiv=$("speedlink_guild"))&&(newdiv1=$("speedlink_guild_tt"))){
         var str=newdiv1.innerHTML;
@@ -13254,11 +13267,11 @@ return false;
     unsafeOverwriteFunction("initGuildResponse",function(response){
         try{
             unsafeWindow._initGuildResponse(response);
-        }catch(err){GM_logError("_initGuildResponse\n"+err);}
+        }catch(err){GM_logError("_initGuildResponse","","",err);}
         try{
             lastGuildQuestRequest=now;
             clubQuestToolTip(response[0][2]);
-        }catch(err){GM_logError("initGuildResponse\n"+err);}
+        }catch(err){GM_logError("initGuildResponse","","",err);}
     });
 
     // Memberlist
@@ -13279,16 +13292,16 @@ return false;
             }else{
                 try{
                     unsafeWindow._openMultiBox(id);
-                }catch(err){GM_logError("_openMultiBox\n"+err);}
+                }catch(err){GM_logError("_openMultiBox","","",err);}
             }
-        }catch(err){GM_logError("openMultiBox\n"+err);}
+        }catch(err){GM_logError("openMultiBox","","",err);}
     });
     $("guildmultiboxmenue4").setAttribute("onclick","openMultiBox(5)");
 
     unsafeOverwriteFunction("getGuildMembersResponse",function(request){
         try{
             unsafeWindow._getGuildMembersResponse(request);
-        }catch(err){GM_logError("_getGuildMembersResponse\n"+err);}
+        }catch(err){GM_logError("_getGuildMembersResponse","","",err);}
         try{
             if(request.readyState == 4 && request.status == 200){
                 var canddiv=Array.prototype.slice.call($("guildmultiboxcontent").getElementsByClassName("guildmemberlist_even")).concat(Array.prototype.slice.call($("guildmultiboxcontent").getElementsByClassName("guildmemberlist_uneven")));
@@ -13310,19 +13323,18 @@ return false;
                 }
                 newdiv=null;newspan=null;newa=null;canddiv=null;
             }
-        }catch(err){GM_logError("getGuildMembersResponse\n"+err);}
+        }catch(err){GM_logError("getGuildMembersResponse","","",err);}
     });
     // Questhistory
     unsafeOverwriteFunction("showGuildQuestStatsResponse",function(request,type,page,self){
         try{
             unsafeWindow._showGuildQuestStatsResponse(request,type,page,self);
-        }catch(err){GM_logError("_showGuildQuestStatsResponse\n"+err);}
+        }catch(err){GM_logError("_showGuildQuestStatsResponse","","",err);}
         try{
             var result=checkRequest(request);
             if(result&&result[0]!=0){
                 window.setTimeout(function(){
-                    if(DEVMODE){ GM_log("showGuildQuestStatsResponse "+request+":"+type+"("+typeof type+"):"+page+"("+typeof page+"):"+self+"("+typeof self+")"); };
-    
+                    if(DEVMODE){ GM_logInfo("showGuildQuestStatsResponse","request="+request+" type="+type+"("+typeof type+") page="+page+"("+typeof page+") self="+self+"("+typeof self+")","Begin"); };
                     var newdiv=$("chg_guildqueststats");
                     newdiv.setAttribute("onchange","");
                     newdiv.addEventListener("change",function(){
@@ -13548,11 +13560,11 @@ return false;
                         }
                     }
                     cell=null;newtable=null;newtable1=null;newtr=null;newtr1=null;newtd=null;newdiv1=null;
-                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog",implode(clubmemberLog));
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog",implode(clubmemberLog,"showGuildQuestStatsResponse/clubmemberLog"));
                     container=null;newdiv=null;
                 },0);
             }
-        }catch(err){GM_logError("showGuildQuestStatsResponse\n"+err);}
+        }catch(err){GM_logError("showGuildQuestStatsResponse","","",err);}
     });
     // New mode for questhistory
     function showGuildQuestStatsLastDays(days){
@@ -13599,7 +13611,7 @@ return false;
         var request=new Object();
         request.readyState=4;
         request.status=200;
-        request.responseText=implode(obj);
+        request.responseText=implode(obj,"showGuildQuestStatsLastDays/obj");
         //GM_log("responseText= "+implode(obj));
         unsafeWindow.showGuildQuestStatsResponse(request,4,1,0); //type,page,self
         /*
@@ -13615,7 +13627,7 @@ return false;
     unsafeOverwriteFunction("setGuildQuestRun",function(r){
         try{
             unsafeWindow._setGuildQuestRun(r);
-        }catch(err){GM_logError("_setGuildQuestRun\n"+err);}
+        }catch(err){GM_logError("_setGuildQuestRun","","",err);}
         try{
             if(!$("guildquestboxBerater")){
                 createElement("h1",{"id":"guildquestboxBerater","style":"display:none;"},$("guildquestboxcontent"));
@@ -13631,13 +13643,13 @@ return false;
                 }
                 cand=null;newdiv=null;
             }
-        }catch(err){GM_logError("setGuildQuestRun\n"+err);}
+        }catch(err){GM_logError("setGuildQuestRun","","",err);}
     });
     // Clubquest product submitting
     unsafeOverwriteFunction("commitboxguild",function(c,a,d,b,e){
         try{
             unsafeWindow._commitboxguild(c,a,d,b,e);
-        }catch(err){GM_logError("_commitboxguild\n"+err);}
+        }catch(err){GM_logError("_commitboxguild","","",err);}
         try{
             if(!$("commitboxguildBerater")){
                 createElement("h1",{"id":"commitboxguildBerater","style":"display:none;"},$("commitboxcontentguild"));
@@ -13659,7 +13671,7 @@ return false;
                     cand=null;
                 }
             }
-        }catch(err){GM_logError("commitboxguild\n"+err);}
+        }catch(err){GM_logError("commitboxguild","","",err);}
     });
 
     /*
@@ -13676,7 +13688,7 @@ return false;
     unsafeOverwriteFunction("showfriendslist",function(status){
         try{
             unsafeWindow._showfriendslist(status);
-        }catch(err){GM_logError("_showfriendslist\n"+err);}
+        }catch(err){GM_logError("_showfriendslist","","",err);}
         try{
             var cand=$("friendslistcon").getElementsByClassName("friendslinename");
             // for(var v=0;v<cand.length;v++){
@@ -13694,7 +13706,7 @@ return false;
                 }
             }
             cand=null;
-        }catch(err){GM_logError("showfriendslist\n"+err);}
+        }catch(err){GM_logError("showfriendslist","","",err);}
     });
 
     // Friendpage loaded
@@ -13702,7 +13714,7 @@ return false;
     unsafeOverwriteFunction("setFriendInfoContent",function(status,sel){
         try{
             unsafeWindow._setFriendInfoContent(status,sel);
-        }catch(err){GM_logError("_setFriendInfoContent\n"+err);}
+        }catch(err){GM_logError("_setFriendInfoContent","","",err);}
         try{
             if(status == 1){
                 var container=$("friendlistinfoblock");
@@ -13728,7 +13740,7 @@ return false;
                 }
                 cand=null;container=null;
             }
-        }catch(err){GM_logError("setFriendInfoContent\n"+err);}
+        }catch(err){GM_logError("setFriendInfoContent","","",err);}
     });
 
     // Farmis
@@ -13737,7 +13749,7 @@ return false;
     unsafeOverwriteFunction("showCart",function(farmi,type){
     try{
         unsafeWindow._showCart(farmi,type);
-    }catch(err){GM_logError("_showCart\n"+err);}
+    }catch(err){GM_logError("_showCart","","",err);}
     try{
         // get farmi data
         var prod,menge;
@@ -13918,21 +13930,21 @@ return false;
                 }
             }
             cartContent=null;newtable=null;newtr=null;newtd=null;span=null;
-        }catch(err){GM_logError("showCart.buildTable\n"+err);}  
+        }catch(err){GM_logError("showCart.buildTable","","",err);}  
         }
         buildTable();
-    }catch(err){GM_logError("showCart\n"+err);} 
+    }catch(err){GM_logError("showCart","","",err);} 
     });
     // Farmis displayed
     unsafeOverwriteFunction("setFarmis",function(){
         try{
             unsafeWindow._setFarmis();
-        }catch(err){GM_logError("_setFarmis\n"+err);}
+        }catch(err){GM_logError("_setFarmis","","",err);}
         try{
             calcFarmiCost();
             calcTotalFarmis();
             doFarmis();
-        }catch(err){GM_logError("setFarmis\n"+err);}    
+        }catch(err){GM_logError("setFarmis","","",err);}    
     });
 
     // Reallocate Buildings
@@ -13940,7 +13952,7 @@ return false;
     unsafeOverwriteFunction("reallocateBuilding",function(set){
         try{
             unsafeWindow._reallocateBuilding(set);
-        }catch(err){GM_logError("_reallocateBuilding\n"+err);}
+        }catch(err){GM_logError("_reallocateBuilding","","",err);}
         try{
             //reallocateBuilding('farm1,zone1,farm2,zone2');
             var building1=(6*set[0])+set[1];
@@ -13948,7 +13960,7 @@ return false;
             zones.swap(building1,building2);        
             unsafeData.reallocateBuildingSet=[building1,building2];
             raiseEvent("gameReallocateBuilding");
-        }catch(err){GM_logError("reallocateBuilding\n"+err);}
+        }catch(err){GM_logError("reallocateBuilding","","",err);}
     });
     
     // Farmersmarket
@@ -14109,16 +14121,16 @@ return false;
                 }
             }
             calcTotalZones();
-        }catch(err){GM_logError("doFarmersMarketData ("+err_trace+")\n"+err);}
+        }catch(err){GM_logError("doFarmersMarketData","","err_trace="+err_trace,err);}
     };
     if(unsafeWindow.farmersmarket_data){ doFarmersMarketData(); }
     unsafeOverwriteFunction("farmersMarketHandler",function(response){
         try{
             unsafeWindow._farmersMarketHandler(response);
-        }catch(err){GM_logError("_farmersMarketHandler\n"+err);}
+        }catch(err){GM_logError("_farmersMarketHandler","","",err);}
         try{
             doFarmersMarketData()
-        }catch(err){GM_logError("farmersMarketHandler\n"+err);}
+        }catch(err){GM_logError("farmersMarketHandler","","",err);}
     });
     function doFarmersMarket(){
         try{
@@ -14166,62 +14178,62 @@ return false;
                 }
             }
             div=null;
-        }catch(err){GM_logError("doFarmersMarket\n"+err);}
+        }catch(err){GM_logError("doFarmersMarket","","",err);}
     }
     if($("farmersmarket_pos1")){ doFarmersMarket(); }
     unsafeOverwriteFunction("setFarmersMarket",function(){
         try{
             unsafeWindow._setFarmersMarket();
-        }catch(err){GM_logError("_setFarmersMarket\n"+err);}
+        }catch(err){GM_logError("_setFarmersMarket","","",err);}
         try{
             doFarmersMarket();
-        }catch(err){GM_logError("setFarmersMarket\n"+err);}
+        }catch(err){GM_logError("setFarmersMarket","","",err);}
     });
     unsafeOverwriteFunction("initFlowerArea",function(){
         try{
             unsafeWindow._initFlowerArea();
-        }catch(err){GM_logError("_initFlowerArea\n"+err);}
+        }catch(err){GM_logError("_initFlowerArea","","",err);}
         try{
             showLagerZeitZiel("farmersmarket-1");
             raiseEvent("gameFarmersmarketOpened1");
-        }catch(err){GM_logError("initFlowerArea\n"+err);}
+        }catch(err){GM_logError("initFlowerArea","","",err);}
     });
     unsafeOverwriteFunction("closeFlowerArea",function(){
         try{
             unsafeWindow._closeFlowerArea();
-        }catch(err){GM_logError("_closeFlowerArea\n"+err);}
+        }catch(err){GM_logError("_closeFlowerArea","","",err);}
         try{
             hideLagerZeitZiel("farmersmarket-1");
-        }catch(err){GM_logError("closeFlowerArea\n"+err);}
+        }catch(err){GM_logError("closeFlowerArea","","",err);}
     });
     unsafeOverwriteFunction("initNursery",function(){
         try{
             unsafeWindow._initNursery();
-        }catch(err){GM_logError("_initNursery\n"+err);}
+        }catch(err){GM_logError("_initNursery","","",err);}
         try{
             raiseEvent("gameFarmersmarketOpened2");
-        }catch(err){GM_logError("initNursery\n"+err);}
+        }catch(err){GM_logError("initNursery","","",err);}
     });
     unsafeOverwriteFunction("dialogNursery",function(mode,c,t,h){
         try{
             unsafeWindow._dialogNursery(mode,c,t,h);
-        }catch(err){GM_logError("_dialogNursery\n"+err);}
+        }catch(err){GM_logError("_dialogNursery","","",err);}
         try{
             switch(mode){
             case "production": raiseEvent("gameFarmersmarketSlotOpened");
             case "production_commit": raiseEvent("gameFarmersmarketDialogCommit");
             }
-        }catch(err){GM_logError("dialogNursery\n"+err);}
+        }catch(err){GM_logError("dialogNursery","","",err);}
     });
     unsafeOverwriteFunction("dialogFlowerArea",function(mode,l){
         try{
             unsafeWindow._dialogFlowerArea(mode,l);
-        }catch(err){GM_logError("_dialogFlowerArea\n"+err);}
+        }catch(err){GM_logError("_dialogFlowerArea","","",err);}
         try{
             switch(mode){
             case "autoplant": raiseEvent("gameFarmersmarketDialogStart");
             }
-        }catch(err){GM_logError("dialogFlowerArea\n"+err);}
+        }catch(err){GM_logError("dialogFlowerArea","","",err);}
     });
     // events forestry ==============================================================================
     err_trace="events forestry";
@@ -14238,7 +14250,7 @@ return false;
                 keyup(help);
             }
         }
-    }catch(err){GM_logError("globalcommitbox \n"+err);}
+    }catch(err){GM_logError("globalcommitbox","","",err);}
     },false);
     
     Arrays:
@@ -14361,22 +14373,22 @@ return false;
                         stock=null;fId=null;help=null;
                         // prodPoints[1].sortObj();
                         // GM_log("initForestryResponse prodPoints:"+implode(prodPoints,"prodPoints"));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodPoints",implode(prodPoints,"initForestryResponse\prodPoints"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodPoints",implode(prodPoints,"initForestryResponse/prodPoints"));
                         // prodTyp[1].sortObj();
                         // GM_log("initForestryResponse prodTyp:"+implode(prodTyp,"prodTyp"));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodTyp",implode(prodTyp,"initForestryResponse\prodTyp"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodTyp",implode(prodTyp,"initForestryResponse/prodTyp"));
                         // prodYield[1].sortObj();
                         // GM_log("initForestryResponse prodYield:"+implode(prodYield,"prodYield"));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodYield",implode(prodYield,"initForestryResponse\prodYield"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodYield",implode(prodYield,"initForestryResponse/prodYield"));
                         // prodRequire[1].sortObj();
                         // GM_log("initForestryResponse prodRequire:"+implode(prodRequire,"prodRequire"));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodRequire",implode(prodRequire,"initForestryResponse\prodRequire"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodRequire",implode(prodRequire,"initForestryResponse/prodRequire"));
                         // prodGrowTime[1].sortObj();
                         // GM_log("initForestryResponse prodGrowTime:"+implode(prodGrowTime,"prodGrowTime"));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodGrowTime",implode(prodGrowTime,"initForestryResponse\prodGrowTime"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodGrowTime",implode(prodGrowTime,"initForestryResponse/prodGrowTime"));
                         // prodStockMax[1].sortObj();
                         // GM_log("initForestryResponse prodStockMax:"+implode(prodStockMax,"prodStockMax"));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStockMax",implode(prodStockMax,"initForestryResponse\prodStockMax"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStockMax",implode(prodStockMax,"initForestryResponse/prodStockMax"));
                         // make prodName[1] && forestry_stock
                         prodStock[1]=new Object();
                         for(store in result[3]){ //forestry_stock
@@ -14397,7 +14409,7 @@ return false;
                             if(!prodStock[1][fId]){ prodStock[1][fId]=0; }
                         }
                         //GM_log("initForestryResponse prodStock:"+implode(prodStock,"prodStock"));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initForestryResponse\prodStock"));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initForestryResponse/prodStock"));
     
                         for(fId in prodName[1]){
                             if(!prodName[1].hasOwnProperty(fId)){continue;}
@@ -14409,7 +14421,7 @@ return false;
                         }
                         store=null;fId=null;
                         // prodStock[1].sortObj();
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initForestryResponse/prodStock"));
     
                         //forestry_farmis
                         var farmi, i;
@@ -14430,14 +14442,14 @@ return false;
                         }
                         // totalFarmis[1].sortObj();
                         // GM_log("initForestryResponse totalFarmis:"+implode(totalFarmis));
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis",implode(totalFarmis));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis",implode(totalFarmis,"initForestryResponse/totalFarmis"));
     
                         if(bChanged){
                             // prodName[1].sortObj();
                             // GM_log("initForestryResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
-                            GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
+                            GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName,"initForestryResponse/prodName"));
                         }
-                    }catch(err){GM_logError("initForestryResponse \n"+err);}
+                    }catch(err){GM_logError("initForestryResponse","","",err);}
                     var zoneNrF;
                     switch(type){
                     case 1: zoneNrF="sawmill"; break;
@@ -14454,7 +14466,7 @@ return false;
                 calcProdMinRack();
             }
             if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-        }catch(err){GM_logError("initForestryResponse \n"+err);}
+        }catch(err){GM_logError("initForestryResponse","","",err);}
     });
 
     /*
@@ -14522,7 +14534,7 @@ return false;
                         newTd=createElement("td",{},newTr,numberFormat(prodStock[1][prod]));
                     }
                     toolTip.show(evt,container.innerHTML);
-                }catch(err){ GM_logError("listener carpentryItem.mouseover\nprod="+prod+"\n"+err); }
+                }catch(err){ GM_logError("carpentryItem.mouseover","","prod="+prod,err); }
             },false);
             // createElement("div",{"id":"forestry_productiondialog_content_item_rackamount"+i,"style":"position:absolute;top:25px;left:0px;"},container,"0");
             el1=insertAfter(createElement("div",{"class":"forestry_productiondialog_content_item_main_amount","style":"width:150px;"}),el1);
@@ -14559,9 +14571,9 @@ return false;
     unsafeOverwriteFunction("showForestryProductionBox",function(type){
         try{
             unsafeWindow._showForestryProductionBox(type);
-        }catch(err){GM_logError("_showForestryProductionBox\n"+err);}
+        }catch(err){GM_logError("_showForestryProductionBox","","",err);}
         try{
-            if(DEVMODE){ GM_log("showForestryProductionBox type="+type); }
+            if(DEVMODE){ GM_logInfo("showForestryProductionBox","type="+type,"","Begin"); }
 return; 
             switch(type){
             case 1:{// sawmill
@@ -14584,7 +14596,7 @@ return;
                             }
                         }
                         container.style.display = flagDisplay;
-                    }catch(err){ GM_logError("showForestryProductionBox sawmill\ntreeId="+treeId+"\n"+err); }
+                    }catch(err){ GM_logError("showForestryProductionBox","type="+type,"zoneNrF="+zoneNrF+" treeId="+treeId,err); }
                 }
                 //auto-cropping
                 for(var slot=1;slot<=3;slot++){
@@ -14601,7 +14613,7 @@ return;
                             window.setTimeout(function(div){ click(div); },500,div);
                         }
                         div=null;
-                    }catch(err){ GM_logError("showForestryProductionBox sawmill\nslot="+slot+"\n"+err); }
+                    }catch(err){ GM_logError("showForestryProductionBox","type="+type,"zoneNrF="+zoneNrF+" slot="+slot,err); }
                 }
                 container=null;prod=null;classStr=null;flagDisplay=null;
                 raiseEvent("gameSawmillOpened");
@@ -14638,7 +14650,7 @@ return;
                             icon.innerHTML = getDaytimeStr(now+help,true,true)+"&nbsp;"+getText("shortOClock");
                         }
                     }
-                    }catch(err){ GM_logError("showForestryProductionBox carpentry\ni="+i+"\n"+err); }
+                    }catch(err){ GM_logError("showForestryProductionBox","type="+type,"i="+i,err); }
                 }
                 //auto-cropping
                 for(var slot=1;slot<=3;slot++){
@@ -14655,18 +14667,18 @@ return;
                             window.setTimeout(function(div){ click(div); },500,div);
                         }
                         div=null;
-                    }catch(err){ GM_logError("showForestryProductionBox carpentry\nslot="+slot+"\n"+err); }
+                    }catch(err){ GM_logError("showForestryProductionBox","type="+type,"slot="+slot,err); }
                 }
                 container=null;icon=null;prod=null;help=null;
                 raiseEvent("gameCarpentryOpened");
             break;}
             }
-        }catch(err){GM_logError("showForestryProductionBox\n"+err);}
+        }catch(err){GM_logError("showForestryProductionBox","type="+type,"",err);}
     });
     unsafeOverwriteFunction("showForestrySelection",function(type,slot){
         try{
             unsafeWindow._showForestrySelection(type,slot);
-        }catch(err){GM_logError("_showForestrySelection\n"+err);}
+        }catch(err){GM_logError("_showForestrySelection","","",err);}
         try{
             if(!type){ type=1; }
             if(!slot){ slot=1; }
@@ -14697,12 +14709,12 @@ return;
                 clocks.add("forestrySelection_"+iProd,div2,iTime);
             }
             raiseEvent("game"+zoneNrF.capitalize()+"SlotOpened");
-        }catch(err){GM_logError("showForestrySelection\n"+err);}
+        }catch(err){GM_logError("showForestrySelection","","",err);}
     });
     unsafeOverwriteFunction("showForestryBuildingInner",function(type){
         try{
             unsafeWindow._showForestryBuildingInner(type);
-        }catch(err){GM_logError("_showForestryBuildingInner\n"+err);}
+        }catch(err){GM_logError("_showForestryBuildingInner","","",err);}
         try{
             switch(type){
             case 1:{// sawmill
@@ -14712,7 +14724,7 @@ return;
                 raiseEvent("gameCarpentryOpened");
             break;}
             }
-        }catch(err){GM_logError("showForestryBuildingInner\n"+err);}
+        }catch(err){GM_logError("showForestryBuildingInner","","",err);}
     });
     /*
     createElement("div",{"id":"analyzediv","style":"position: fixed; top: 0px; right: 0px; z-index: 995; display: block;","class":"blackbox"},ALL);
@@ -14776,7 +14788,7 @@ return;
                     
                     tempZoneProductionData=[[{},{}],0,0,true];
                     for(var slot=1;slot<=(iSlotCount==0?1:iSlotCount);slot++){
-                        if(DEVMODE){ GM_log("doForestry zoneNrF="+zoneNrF+" slot="+slot+" res["+slot+"]="+implode(res[slot],"res")); }
+                        if(DEVMODE){ GM_logInfo("doForestry","","zoneNrF="+zoneNrF+" slot="+slot+" res["+slot+"]="+implode(res[slot],"doForestry/res"),"Loop"); }
                         if(iSlotCount>0){
                             zoneNrS=zoneNrF+"."+slot;
                         }else{
@@ -15036,7 +15048,7 @@ return;
         calcTotalZones();
         err_trace="saving";
         publishProductData();
-    }catch(err){GM_logError("doForestry ("+err_trace+")\n"+err);}
+    }catch(err){GM_logError("doForestry","","err_trace="+err_trace,err);}
     }
     
     function forestryScrapTreeLog(step,treeId,amount){
@@ -15083,24 +15095,24 @@ return;
     unsafeOverwriteFunction("forestryBuySlotResponse",function(request,b){
         try{
             unsafeWindow._forestryBuySlotResponse(request,b);
-        }catch(err){GM_logError("_forestryBuySlotResponse\n"+err);}
+        }catch(err){GM_logError("_forestryBuySlotResponse","","",err);}
         try{
             var result = checkRequest(request);
             if(result){
-                if(DEVMODE){ GM_log("forestryBuySlotResponse result:"+implode(result)); }
+                if(DEVMODE){ GM_logInfo("forestryBuySlotResponse","","result="+implode(result,"forestryBuySlotResponse/result"),"Begin"); }
                 doForestry();
                 calcProdMinRack();
             }
-        }catch(err){GM_logError("forestryBuySlotResponse \n"+err);}
+        }catch(err){GM_logError("forestryBuySlotResponse","","",err);}
     });
     unsafeOverwriteFunction("initCampaignsResponse",function(request,update){
         try{
             unsafeWindow._initCampaignsResponse(request,update);
-        }catch(err){GM_logError("_initCampaignsResponse\n"+err);}
+        }catch(err){GM_logError("_initCampaignsResponse","","",err);}
         try{
             var result = checkRequest(request);
             if(result&&result[0]!=0){
-                if(DEVMODE){ GM_log("initCampaignsResponse"); }
+                if(DEVMODE){ GM_logInfo("initCampaignsResponse","","","Begin"); }
                 // GM_log("initCampaignsResponse result="+implode(result));
                 //if(DEVMODE){ GM_log("campaign: result:"+print_r(result)); }
                 for(campaign in QUESTS["forestry"]){
@@ -15181,7 +15193,7 @@ return;
                     }
                 }
                 handleQuestLine();
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"initCampaignsResponse/questData"));
                 unsafeData.questData=questData.clone();
                 //GM_log("onclick:"+$('forestry_quest_entry' + forestryCampaignNr + '_' + questData["forestry"][1]["nr"] + '_1_6').onclick);
     
@@ -15211,16 +15223,16 @@ return;
                     // GM_log("initCampaignsResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
                     if(bChanged){
                         // prodName[1].sortObj();
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName,"initCampaignsResponse/prodName"));
                     }
                     // prodStock[1].sortObj();
-                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock));
-                }catch(err){GM_logError("initCampaignsResponse \n"+err);}
+                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initCampaignsResponse/prodStock"));
+                }catch(err){GM_logError("initCampaignsResponse","","",err);}
                 updateProductDataForestry();
                 calcProdMinRack();
                 raiseEvent("gameOpenCampaign");
             }
-        }catch(err){GM_logError("initCampaignsResponse\n"+err);}
+        }catch(err){GM_logError("initCampaignsResponse","","",err);}
     });
 
     // events city 1 ==============================================================================
@@ -15228,7 +15240,7 @@ return;
     unsafeOverwriteFunction("cityActionResponse",function(request,mode,f,e,d,c){
         try{
             unsafeWindow._cityActionResponse(request,mode,f,e,d,c);
-        }catch(err){GM_logError("_cityActionResponse\nj="+mode+"\n"+err);}
+        }catch(err){GM_logError("_cityActionResponse","mode="+mode,"",err);}
         try{
             var result = checkRequest(request);
             if((result!=0)&&(result[0]!=0)){
@@ -15238,28 +15250,28 @@ return;
                 case "windmillstartproduction": raiseEvent("gameWindmillStarted"); break;
                 }
             }
-        }catch(err){GM_logError("cityActionResponse\nmode="+mode+"\n"+err);}
+        }catch(err){GM_logError("cityActionResponse","mode="+mode,"",err);}
     });
     unsafeOverwriteFunction("cityArrived",function(questbox){
         try{
             unsafeWindow._cityArrived(questbox);
-        }catch(err){GM_logError("_cityArrived\n"+err);}
+        }catch(err){GM_logError("_cityArrived","","",err);}
         try{
             gameLocation.set("city",unsafeWindow.city);
             raiseEvent("gameCity"+unsafeWindow.city);
-        }catch(err){GM_logError("cityArrived\n"+err);}
+        }catch(err){GM_logError("cityArrived","","",err);}
     });
-    // unsafeOverwriteFunction("initCity",function(e, c, d){
+    // unsafeOverwriteFunction("initCity",function(e,c,d){
     //  try{
-    //      unsafeWindow._initCity(e, c, d);
-    //  }catch(err){GM_logError("_initCity\ne="+e+"\nc="+c+"\nd="+d+"\n"+err);}
+    //      unsafeWindow._initCity(e,c,d);
+    //  }catch(err){GM_logError("_initCity","e="+e+" c="+c+" d="+d,"",err);}
     // });
 
     // Werbung
     unsafeOverwriteFunction("fillAdColumn",function(){
         try{
             unsafeWindow._fillAdColumn();
-        }catch(err){GM_logError("_fillAdColumn\n"+err);}
+        }catch(err){GM_logError("_fillAdColumn","","",err);}
         try{
             var images=$("adzonetooltip1").getElementsByTagName("img");
             if(COUNTRY=="SE"){
@@ -15276,14 +15288,14 @@ return;
             createElement("div",{},$("adzonetooltip3"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/24));
             $("adzonetooltip3").firstElementChild.innerHTML +="&nbsp;("+moneyFormatInt(preis)+")";
             images=null;
-        }catch(err){GM_logError("fillAdColumn\n"+err);}
+        }catch(err){GM_logError("fillAdColumn","","",err);}
     });
 
     // Marktschreier
     unsafeOverwriteFunction("openMarktschreiberResponse",function(response){
         try{
             unsafeWindow._openMarktschreiberResponse(response);
-        }catch(err){GM_logError("_openMarktschreiberResponse\n"+err);}
+        }catch(err){GM_logError("_openMarktschreiberResponse","","",err);}
         try{
             var div,container;
             container=$("marktschreierinnercontent");
@@ -15295,20 +15307,20 @@ return;
                 }
             }
             div=null;container=null;
-        }catch(err){GM_logError("openMarktschreiberResponse\n"+err);}
+        }catch(err){GM_logError("openMarktschreiberResponse","","",err);}
     });
     // Competition
     unsafeOverwriteFunction("setCityWBWContentResponse",function(request){
         try{
             unsafeWindow._setCityWBWContentResponse(request);
-        }catch(err){GM_logError("_setCityWBWContentResponse\n"+err);}
+        }catch(err){GM_logError("_setCityWBWContentResponse","","",err);}
         try{
             var result=checkRequest(request);
             if(result){
             window.setTimeout(function(result){
                 if(result[1]['open']==1){
                     var product=parseInt(result[1]['wettbewerb_produkt'],10);
-                    GM_setValue(COUNTRY+"_"+SERVER+"_competition",implode([product,result[1]['wettbewerb_ende']]));
+                    GM_setValue(COUNTRY+"_"+SERVER+"_competition",implode([product,result[1]['wettbewerb_ende']],"setCityWBWContentResponse/competition"));
                 }else{
                     var help=explode(GM_getValue(COUNTRY+"_"+SERVER+"_competition","[]"),"setCityWBWContentResponse/competition",[]);
                     if(help[1]==result[1]["wettbewerb_ende"]){
@@ -15345,7 +15357,7 @@ return;
                 }
             },0,result);
         }
-        }catch(err){GM_logError("setCityWBWContentResponse\n"+err);}
+        }catch(err){GM_logError("setCityWBWContentResponse","","",err);}
     });
 
     // events city 2 ==============================================================================
@@ -15454,14 +15466,14 @@ return;
                     GM_setValueCache(COUNTRY+"_"+SERVER+"_prodName",implode(prodName));
                 }
                 */
-            }catch(err){GM_logError("city2 \n"+err+"\n"+cand.innerHTML);}
+            }catch(err){GM_logError("gameCity2.listener","","",err);}
         },false);
         // windmill production
         err_trace="events city 2: windmillSlots";
         unsafeOverwriteFunction("windmillSlots",function(){
             try{
                 unsafeWindow._windmillSlots();  
-            }catch(err){ GM_logError("_windmillSlots\n"+err); }
+            }catch(err){ GM_logError("_windmillSlots","","",err); }
             try{
                 var zoneNrF="windmill";
                 var zoneNrS;
@@ -15505,14 +15517,14 @@ return;
                 zones.setProduction(zoneNrF,tempZoneProductionData.clone());
                 calcTotalZones();
                 publishProductData();
-            }catch(err){ GM_logError("windmillSlots\n"+err); }
+            }catch(err){ GM_logError("windmillSlots","","",err); }
         });
         // windmill stock
         err_trace="events city 2: windmillStock";
         unsafeOverwriteFunction("windmillStock",function(){
             try{
                 unsafeWindow._windmillStock();
-            }catch(err){GM_logError("_windmillStock\n"+err);}
+            }catch(err){GM_logError("_windmillStock","","",err);}
             try{
                 for(var i=0;i<prodStock[2].length;i++){
                     prodStock[2][i]=0;
@@ -15524,15 +15536,15 @@ return;
                 }
                 //updateProductDataWindmill();
                 unsafeData.prodStock = prodStock.clone();
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"windmillStock\prodStock"));
-            }catch(err){ GM_logError("windmillStock\n"+err); }
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"windmillStock/prodStock"));
+            }catch(err){ GM_logError("windmillStock","","",err); }
         });
         // windmill dialog
         err_trace="events city 2: windmillDialog";
         unsafeOverwriteFunction("windmillDialog",function(mode,q,a){
             try{
                 unsafeWindow._windmillDialog(mode,q,a) ;
-            }catch(err){ GM_logError("_windmillDialog\n"+err); }
+            }catch(err){ GM_logError("_windmillDialog","","",err); }
             try{
                 switch(mode){
                 case "windmillstartproduction": {
@@ -15554,7 +15566,7 @@ return;
                     raiseEvent("gameWindmillDialogCommit"); 
                 break; }
                 }
-            }catch(err){GM_logError("windmillDialog\n"+err);}
+            }catch(err){GM_logError("windmillDialog","","",err);}
         });
 
         // Clothing donation
@@ -15562,7 +15574,7 @@ return;
         unsafeOverwriteFunction("showClothingDonation",function(){
             try{
                 unsafeWindow._showClothingDonation() ;
-            }catch(err){GM_logError("_showClothingDonation\n"+err);}
+            }catch(err){GM_logError("_showClothingDonation","","",err);}
             try{
                 var data = unsafeWindow.clothingdonation_data.data.data;
                 var goodsValue = [0,0];
@@ -15611,7 +15623,7 @@ return;
                 }
                 div.innerHTML = numberFormat(unsafeWindow.clothingdonation_data.data.percent)+"%";
                 div=null; container=null;
-            }catch(err){ GM_logError("showClothingDonation\nprodId="+prodId+"\n"+err); }
+            }catch(err){ GM_logError("showClothingDonation","","prodId="+prodId,err); }
         });
         // Recipedealer
         err_trace="events city 2: Recipedealer";
@@ -15754,15 +15766,15 @@ return;
         unsafeOverwriteFunction("setFormulaDealerFormulas",function(){
             try{
                 unsafeWindow._setFormulaDealerFormulas();
-            }catch(err){GM_logError("_setFormulaDealerFormulas\n"+err);}
+            }catch(err){GM_logError("_setFormulaDealerFormulas","","",err);}
             try{
                 raiseEvent("gameUpdateFormuladealerOffers");
-            }catch(err){GM_logError("setFormulaDealerFormulas\n"+err);}
+            }catch(err){GM_logError("setFormulaDealerFormulas","","",err);}
         });
         unsafeOverwriteFunction("setFormulaDealerRack",function(rack){
             try{
                 unsafeWindow._setFormulaDealerRack(rack);
-            }catch(err){GM_logError("_setFormulaDealerRack\n"+err);}
+            }catch(err){GM_logError("_setFormulaDealerRack","","",err);}
             try{
                 for(var i=0;i<prodStock[2].length;i++){
                     prodStock[2][i]=0;
@@ -15771,9 +15783,9 @@ return;
                     prodStock[2][parseInt(rack[i]["fid"],10)]=parseInt(rack[i]["amount"],10);
                 }
                 unsafeData.prodStock = prodStock.clone();
-                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"setFormulaDealerRack\prodStock"));
+                GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"setFormulaDealerRack/prodStock"));
                 raiseEvent("gameUpdateFormuladealerRack");
-            }catch(err){GM_logError("setFormulaDealerRack\n"+err);}
+            }catch(err){GM_logError("setFormulaDealerRack","","",err);}
         });
 
         // Lottery
@@ -15811,7 +15823,7 @@ return;
             unsafeOverwriteFunction("updateLotRack",function(){
                 try{
                     unsafeWindow._updateLotRack();
-                }catch(err){GM_logError("_updateLotRack\n"+err);}
+                }catch(err){GM_logError("_updateLotRack","","",err);}
                 window.setTimeout(function(){
                 try{
                     if(unsafeData.lotteryCollectForPrize){
@@ -15839,13 +15851,13 @@ return;
                     lrack=null;
                     newdiv=null;
 
-                }catch(err){GM_log("updateLotRack error:"+err);}
+                }catch(err){GM_logError("updateLotRack","","",err);}
                 },0);
             });
             unsafeOverwriteFunction("updateLotteryPrizes",function(item){
                 try{
                     unsafeWindow._updateLotteryPrizes(item);
-                }catch(err){GM_logError("_updateLotteryPrizes\n"+err);}
+                }catch(err){GM_logError("_updateLotteryPrizes","","",err);}
                 window.setTimeout(function(){
                 try{
                     if(unsafeData.lotteryCollectForPrize){
@@ -15906,7 +15918,7 @@ return;
                             }
                             prizeId=null;
                             // lotteryCollectForPrize.sortObj();
-                            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize", implode(lotteryCollectForPrize));
+                            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize", implode(lotteryCollectForPrize,"updateLotteryPrizes/lotteryCollectForPrize"));
                             unsafeData.lotteryCollectForPrize=lotteryCollectForPrize.clone();
                             unsafeWindow.updateLotRack();
                         },false);
@@ -15924,13 +15936,13 @@ return;
                     divLotteryprizes=null;
                     cell=null;
                     unsafeData.lotteryCollectForPrize=lotteryCollectForPrize.clone();
-                }catch(err){GM_logError("updateLotteryPrizes\n"+err);}
+                }catch(err){GM_logError("updateLotteryPrizes","","",err);}
                 },0);
             });
             unsafeOverwriteFunction("initLotteryResponse",function(response){
                 try{
                     unsafeWindow._initLotteryResponse(response);
-                }catch(err){GM_logError("_initLotteryResponse\n"+err);}
+                }catch(err){GM_logError("_initLotteryResponse","","",err);}
                 window.setTimeout(function(response){
                     try{
                         // [1(isOk), [...](lotrack), 1(dailyLotTaken), 0(id), {...}(lotteryprizes), 0(won products)]
@@ -15943,26 +15955,26 @@ return;
                         button=null;
                         //unsafeWindow.updateLotRack();
                         raiseEvent("gameLotteryOpen");
-                    }catch(err){GM_log("initLotteryResponse error:"+err);}
+                    }catch(err){GM_logError("initLotteryResponse","","",err);}
                 },0,response);
             });
             unsafeOverwriteFunction("dailyLotResponse",function(response){
                 try{
                     unsafeWindow._dailyLotResponse(response);
-                }catch(err){GM_logError("_dailyLotResponse\n"+err);}
+                }catch(err){GM_logError("_dailyLotResponse","","",err);}
                 try{
                     hideGoToLottery();
                     if(response[3]){
                         lotteryLog[lotteryLogId][1]=response[3];
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog,"dailyLotResponse/lotteryLog"));
                         raiseEvent("gameLotteryGotDailyLot");
                     }
-                }catch(err){GM_logError("dailyLotResponse\n"+err);}
+                }catch(err){GM_logError("dailyLotResponse","","",err);}
             });
             unsafeOverwriteFunction("showLotDecision",function(lotid){
                 try{
                     unsafeWindow._showLotDecision(lotid);
-                }catch(err){GM_logError("_showLotDecision\n"+err);}
+                }catch(err){GM_logError("_showLotDecision","","",err);}
                 window.setTimeout(function(lotid){
                 try{
                     if(unsafeData.lotteryCollectForPrize){
@@ -15983,32 +15995,32 @@ return;
                     }
                     newdiv=null;
                     raiseEvent("gameLotteryGotLot");
-                }catch(err){GM_logError("showLotDecision\n"+err);}
+                }catch(err){GM_logError("showLotDecision","","",err);}
                 },0,lotid);
             });
             unsafeOverwriteFunction("lotGetPrizeResponse",function(response){
                 try{
                     unsafeWindow._lotGetPrizeResponse(response);
-                }catch(err){GM_logError("_lotGetPrizeResponse\n"+err);}
+                }catch(err){GM_logError("_lotGetPrizeResponse","","",err);}
                 try{
                     if(response[5]){
                         lotteryLog[lotteryLogId][2]=response[5];
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog,"lotGetPrizeResponse/lotteryLog"));
                         raiseEvent("gameLotteryGotPrize");
                     }
-                }catch(err){GM_logError("lotGetPrizeResponse\n"+err);}
+                }catch(err){GM_logError("lotGetPrizeResponse","","",err);}
             });
             unsafeOverwriteFunction("buyNewLotResponse",function(response){
                 try{
                     unsafeWindow._buyNewLotResponse(response);
-                }catch(err){GM_logError("_buyNewLotResponse\n"+err);}
+                }catch(err){GM_logError("_buyNewLotResponse","","",err);}
                 try{
                     if(response[5]&response[3]){
                         lotteryLog[lotteryLogId][3].push(response[3]);
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(lotteryLog,"buyNewLotResponse/lotteryLog"));
                         raiseEvent("gameLotteryGotPrize");
                     }
-                }catch(err){GM_logError("buyNewLotResponse\n"+err);}
+                }catch(err){GM_logError("buyNewLotResponse","","",err);}
             });
         }
         // Waltraud
@@ -16037,7 +16049,7 @@ return;
                 nodes["goToDonkey"]["node"].addEventListener("click",function(event){ goToDonkey(); },false);
                 raiseEvent("gameDonkeyAvailable");
             }
-        }catch(err){GM_logError("showGoToDonkey\n"+err);}
+        }catch(err){GM_logError("showGoToDonkey","","",err);}
         }
         function hideGoToDonkey(){
         try{
@@ -16045,14 +16057,14 @@ return;
                 if(nodes["goToDonkey"]["node"]){ removeElement(nodes["goToDonkey"]["node"]); }
                 delete nodes["goToDonkey"];
             }
-        }catch(err){GM_logError("hideGoToDonkey\n"+err);}
+        }catch(err){GM_logError("hideGoToDonkey","","",err);}
         }       
         showGoToDonkey();
         unsafeOverwriteFunction("dailyDonkeyResult",function(response){
             try{
                 unsafeWindow._dailyDonkeyResult(response);
                 raiseEvent("gameDonkeyResponse");
-            }catch(err){GM_logError("_dailyDonkeyResult\n"+err);}
+            }catch(err){GM_logError("_dailyDonkeyResult","","",err);}
             try{
                 if (response[0]!=2) {
                     hideGoToDonkey();
@@ -16075,9 +16087,9 @@ return;
                         }
                     }
                     logDonkey.push(newElem);
-                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey));
+                    GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey,"dailyDonkeyResult/logDonkey"));
                 }
-            }catch(err){GM_logError("dailyDonkeyResult\n"+err);}
+            }catch(err){GM_logError("dailyDonkeyResult","","",err);}
         });     
     }
 
@@ -16167,9 +16179,9 @@ return;
             }
         }
         if(readyZoneAdded>0){
+            if(DEVMODE){ GM_logInfo("loop1","","readyZone="+implode(unsafeData.readyZone,"loop1/readyZone"),"Zone ready"); }
             raiseEvent("gameZoneReady");
             // GM_log("unsafeData.readyZone:\n"+print_r(unsafeData.readyZone,"",true,"\n"));                    
-            if(DEVMODE){ GM_log("readyZone="+implode(unsafeData.readyZone)); }
         }
         if (totalEndtime==-1){
             help=getText("cropped").toUpperCase();
@@ -16195,7 +16207,7 @@ return;
             GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_raisedEvents","{}");
         }
         // timeMeasureStop("loop1"); // 4ms
-        }catch(err){ GM_logError("loop1\n"+err); }
+        }catch(err){ GM_logError("loop1","","",err); }
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
     }
 
@@ -16211,7 +16223,7 @@ return;
         click($("mainmenue5")); // Fix Seberoth
     }
     newinput=null;newdiv=null;newdiv1=null;newbutton=null;newimg=null;
-}catch(err){ GM_logError("do_main ("+err_trace+")\n"+err); }
+}catch(err){ GM_logError("do_main","","err_trace="+err_trace,err); }
 }
 
 //***********************************************************************************************************
@@ -16228,13 +16240,13 @@ try{
     var newa=createElement("a",{"style":"font-weight:bold;"},newtd,getText("oldOnes"));
     newa.addEventListener("click",function(){
         window.setTimeout(function(){
-            GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeOverview",implode({"contractview":"old"}));
+            GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeOverview",implode({"contractview":"old"},"do_vertraege_head/contractview"));
             if (PAGE=="vertraege/overview"){ do_vertraege_overview(); }
             else{ location.href="overview.php"; }
         },0);
     },false);
     candtr=null;newtd=null;newa=null;
-}catch(err){GM_logError("do_vertraege_head\n"+err);}
+}catch(err){GM_logError("do_vertraege_head","","",err);}
 }
 
 function do_vertraege_new(){
@@ -16280,12 +16292,12 @@ try{
             vertraegeOut.push(neuvertrag);
             vertraegeOut.sort(function(a,b){return (a[1]-b[1]);});
             vertraegeOut.splice(0,vertraegeOut.length-valContractLogAmount); // shrink on storage amount
-            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut",implode(vertraegeOut));
+            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut",implode(vertraegeOut,"do_vertraege_new/vertraegeOut"));
             var contractPrices=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise","[]"),"do_vertraege_new/vertraegePreise",[]);
             for(var v=0;v<neuvertrag[3].length;v++){
                 contractPrices[neuvertrag[3][v][0]]=neuvertrag[3][v][2];
             }
-            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise",implode(contractPrices));
+            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise",implode(contractPrices,"do_vertraege_new/contractPrices"));
         }
 
         // multi submit
@@ -16312,13 +16324,13 @@ try{
                     onload: function(response){
                         try{
                             logBubble.add(getText("sentContractNrX").replace(/%1%/,d));
-                        }catch(err){GM_logError("contractMultiSubmit.onload\n"+err);}           
+                        }catch(err){GM_logError("contractMultiSubmit.onload","","",err);}           
                     },
                     onerror: function(response){
-                        GM_logError("contractMultiSubmit.onerror\n"+response.responseText);
+                        GM_logError("contractMultiSubmit.onerror","","",""+response.responseText);
                     },
                     timeout: function(response){
-                        GM_logError("contractMultiSubmit.timeout\n"+response.responseText);
+                        GM_logError("contractMultiSubmit.timeout","","",""+response.responseText);
                     }                   
                     });
                 },d*100,d);
@@ -16329,7 +16341,7 @@ try{
                 logBubble.add(getText("sentContractNrX").replace(/%1%/,c));
                 submitButton=null;submitForm=null;
             },c*100,c);
-        }catch(err){GM_logError("#multiSubmit.click\n"+err);}       
+        }catch(err){GM_logError("#multiSubmit.click","","",err);}       
         },false);
         createElement("div",{},newdiv);
         newbutton=createElement("input",{"type":"button","class":"link msg_input","value":"-"},newdiv);
@@ -16428,7 +16440,7 @@ try{
         unsafeOverwriteFunction("buildCart",function(){
             // try{
             //  unsafeWindow._buildCart();
-            // }catch(err){ GM_logError("_buildCart\n"+err); }      
+            // }catch(err){ GM_logError("_buildCart","","",err); }      
             try{
                 var html = '';
                 var count = -1;
@@ -16470,7 +16482,7 @@ try{
                 
                 $("preis_total").innerHTML=getText("total")+":<br>"+moneyFormat(sum);
                 newdiv=null;newdiv1=null;newdiv2=null;
-            }catch(err){GM_logError("buildCart\n"+err);}
+            }catch(err){GM_logError("buildCart","","",err);}
         });
         unsafeWindow.buildCart();
         
@@ -16495,7 +16507,7 @@ try{
                 }
                 // call displaying
                 unsafeWindow.buildCart();
-            }catch(err){ GM_logError("fillContract\n"+err); }
+            }catch(err){ GM_logError("fillContract","","",err); }
         };
         newdiv=$("to_player");
         if (newdiv){
@@ -16520,7 +16532,7 @@ try{
         unsafeOverwriteFunction("addItem",function(pid){
             try{
                 unsafeWindow._addItem(pid);
-            }catch(err){ GM_logError("_addItem\npid="+pid+"\n"+err); }      
+            }catch(err){ GM_logError("_addItem","pid="+pid,"",err); }      
             try{
                 window.setTimeout(function(){
                     var contractPrices=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise","[]"),"do_vertraege_new/addproduct/vertraegePreise",[]);
@@ -16540,7 +16552,7 @@ try{
                     }
                     cell=null;
                 },0);
-            }catch(err){GM_logError("addItem\npid="+pid+"\n"+err);}
+            }catch(err){GM_logError("addItem","pid="+pid,"",err);}
         });
 
         // save contract, [target user,{"prod":[amount,price],...}]
@@ -16578,7 +16590,7 @@ try{
                     }
                     str += '</table>';
                     toolTip.show(event,str);
-                }catch(err){ GM_logError("contractSave.mouseover\n"+err); }
+                }catch(err){ GM_logError("contractSave.mouseover","","",err); }
             },false);
             newdiv.addEventListener("click",function(event){
                 try{
@@ -16593,7 +16605,7 @@ try{
                         }else{
                             this.style.backgroundColor="#bb7";
                         }
-                        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave",implode(contractSave));
+                        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave",implode(contractSave,"contractSave.click/contractSave"));
                         toolTip.adjust(this);
                     }else{
                         // load contract
@@ -16601,14 +16613,14 @@ try{
                             unsafeWindow.fillContract(contractSave[currNr][0]==""?null:contractSave[currNr][0],contractSave[currNr][1]);
                         }
                     }
-                }catch(err){ GM_logError("contractSave.click\n"+err); }
+                }catch(err){ GM_logError("contractSave.click","","",err); }
             },false);
         }
         newtr=null;newtd=null;candtr=null;candinput=null;
         raiseEventTop("gameWindowContractNew");
     }
     newdiv=null;
-}catch(err){ GM_logError("do_vertraege_new ("+err_trace+")\n"+err); }
+}catch(err){ GM_logError("do_vertraege_new","","err_trace="+err_trace,err); }
 }
 
 function buildAlteVertraege(mode){
@@ -16648,7 +16660,7 @@ try{
             for(var w=0;w<vertraege[v][3].length;w++){
                 help["fillContract"][vertraege[v][3][w][0]]=[vertraege[v][3][w][1],vertraege[v][3][w][2]];
             }
-            newtd.setAttribute("data",implode(help));
+            newtd.setAttribute("data",implode(help,"buildAlteVertraege/help"));
             newtd.addEventListener("mouseover",function(event){ toolTip.show(event,getText("sendContractAgain")); },false);
             newtd.addEventListener("click",function(){
                 GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew",this.getAttribute("data"));
@@ -16706,7 +16718,7 @@ try{
                     }
                     if(v>=0){
                         vertraegeIn.splice(v,1);
-                        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(vertraegeIn));
+                        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(vertraegeIn,"buildAlteVertraege/vertraegeIn"));
                     }
                 }else{
                     var vertraegeOut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut","[]"),"do_vertraege_overview/vertraegeOut",[]);
@@ -16715,7 +16727,7 @@ try{
                     }
                     if(v>=0){
                         vertraegeOut.splice(v,1);
-                        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut",implode(vertraegeOut));
+                        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut",implode(vertraegeOut,"buildAlteVertraege/vertraegeOut"));
                     }
                 }
                 buildAlteVertraege(mode);
@@ -16723,7 +16735,7 @@ try{
         },false);
     }
     container=null;newtable=null;newtablehead=null;newtablebody=null;newtr=null;newtd=null;newtd1=null;newtd2=null;newimg=null;newdiv=null;
-}catch(err){GM_logError("buildAlteVertraege\nv="+v+"\n"+err);}
+}catch(err){GM_logError("buildAlteVertraege","mode="+mode,"v="+v,err);}
 }
 
 function do_vertraege_overview(){
@@ -16799,12 +16811,12 @@ try{
         createElement("td",{"style":"border-top:1px solid black;text-align:right;"},candtable[1],moneyFormatInt(sumTotalOut));
         vertraegeIn.sort(function(a,b){return (a[1]-b[1]);});
         vertraegeIn.splice(0,vertraegeIn.length-valContractLogAmount); // shrink on storage amount
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(vertraegeIn));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(vertraegeIn,"do_vertraege_overview/vertraegeIn"));
 
         candtr=null;canda=null;
     }
     candtable=null;candtd=null;
-}catch(err){GM_logError("do_vertraege_overview\n"+err);}
+}catch(err){GM_logError("do_vertraege_overview","","",err);}
 }
 
 function do_vertraege_show(){
@@ -16882,10 +16894,10 @@ try{
 
     if(vertraegeIn){
         vertraegeIn.sort(function(a,b){return (a[1]-b[1]);});
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(vertraegeIn));
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(vertraegeIn,"do_vertraege_show/vertraegeIn"));
     }
     candtable=null;canddiv=null;candtr=null;candtd=null;
-}catch(err){GM_logError("do_vertraege_show\n"+err);}
+}catch(err){GM_logError("do_vertraege_show","","",err);}
 }
 
 //***********************************************************************************************************
@@ -16918,7 +16930,7 @@ function do_hilfe(){
                 if(help[1]){ createElement("p",{},div,help[1]); }
             }
             container=null;div=null;
-        }catch(err){GM_logError("help.click\n"+err);}   
+        }catch(err){GM_logError("help.click","","",err);}   
     },false);
     if (GM_getValue("tutorial",0)==0){
         click(newa);
@@ -16996,7 +17008,7 @@ function do_hilfe(){
                     }
                 }
                 if(normal_quest[qnr][3].length==0){ delete normal_quest[qnr][3];}
-            }catch(err){GM_logError("at quest nr:"+qnr+" k:"+k+"\n"+err+"\n"+cand.innerHTML);}
+            }catch(err){GM_logError("at","","qnr="+qnr+" k="+k+" cand.innerHTML="+cand.innerHTML,err);}
         }
         GM_log("Questlist: "+implode(normal_quest));
         */
@@ -17021,7 +17033,7 @@ function do_hilfe(){
                     line.addEventListener("click",function(){
                         var quCamp=this.parentNode.id.replace("questinfos_","");
                         top.unsafeData.questData["main"][quCamp]["nr"]=parseInt(this.children[0].innerHTML,10);
-                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(top.unsafeData.questData));
+                        GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(top.unsafeData.questData,"do_hilfe/questData"));
                         do_hilfe_questlist(quCamp);
                         if((0<top.unsafeData.questData["main"][quCamp]["calcTo"])&&(top.unsafeData.questData["main"][quCamp]["calcTo"]<top.unsafeData.questData["main"][quCamp]["nr"])){
                             setCalcToQuest("main",quCamp,top.unsafeData.questData["main"][quCamp]["nr"]);
@@ -17072,16 +17084,16 @@ function do_hilfe(){
                                 cell.children[1].style.textDecoration="line-through";
                                 cell.children[2].style.textDecoration="line-through";
                             }
-                            cell.setAttribute("value",implode(item));
+                            cell.setAttribute("value",implode(item,"do_hilfe/item"));
                             cell.addEventListener("mouseover",function(event){
                                 var help=explode(this.getAttribute("value"),"questlist/mouseover",[]);
                                 toolTip.show(event,numberFormat(help[2])+" "+prodName[help[0]][help[1]]+" ("+moneyFormatLimit(help[3]/help[2],100)+") = "+moneyFormatLimit(help[3],10000));
                             },false);
                             if(amount!=item[2]){
-                                GM_log("Questlist-Help: Quest main."+quCamp+"."+quNr+". Amount of product "+prodName[type][prod]+ " wrong! data="+numberFormat(item[2])+" read="+numberFormat(amount));
+                                GM_logWarning("do_hilfe","","quCamp="+quCamp+" quNr="+quNr+" product="+prodName[type][prod]+" data="+numberFormat(item[2])+" read="+numberFormat(amount),"Amount of product wrong!");
                             }
                         }else{
-                            GM_log("Questlist-Help: Quest main."+quCamp+"."+quNr+". Data of product "+prodName[type][prod]+ " unknown! [i="+i+", prod="+prod+"]"); 
+                            GM_logWarning("do_hilfe","","quCamp="+quCamp+" quNr="+quNr+" product="+prodName[type][prod]+" i="+i+" prod="+prod,"Data of product unknown!"); 
                         }
                         if(amount>=10000){ cell.children[1].innerHTML="&nbsp;"+numberFormat(amount/1000)+"k&nbsp;"; }
                         else { cell.children[1].innerHTML="&nbsp;"+numberFormat(amount)+"&nbsp;"; }
@@ -17089,7 +17101,7 @@ function do_hilfe(){
                         createElement("span",{"style":"color:red;"},cell.children[2]);
                     }
                 }else{
-                    GM_log("Questlist-Help: Quest main."+quCamp+"."+quNr+" unknown!");
+                    GM_logWarning("do_hilfe","","quCamp="+quCamp+" quNr="+quNr,"Quest unknown!");
                     //*task_new_quest*/ var GEN_QUESTS=[[],,0];
                     //*task_new_quest*/ for(var i=0;i<line.children[1].childElementCount;i++){
                     //*task_new_quest*/     cell = line.children[1].children[i];
@@ -17500,7 +17512,7 @@ function manageVariables(){
             }
         },false);
     
-        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Create storage string");
+        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Create storage string"); //TODO text
         newinput.addEventListener("click",function(){
             var container=$("divManageVariablesInner");
             var rows = container.children[1].getElementsByTagName("tr");
@@ -17514,7 +17526,7 @@ function manageVariables(){
                 }
             }
             if(variables.length>0){
-                prompt("Copy this string to a text-file", implode(variables));
+                prompt("Copy this string to a text-file", implode(variables,"manageVariables/variables"));
             } else {
                 alert("Nothing selected");
             }
@@ -17620,7 +17632,7 @@ function manageVariables(){
             
             }
             container=null;newtable=null;newtr=null;newtd=null;
-        }catch(err){ GM_logError("buildExportTable\n"+err); }
+        }catch(err){ GM_logError("buildExportTable","","",err); }
         }
         buildExportTable("GLOBAL");
 
@@ -17689,12 +17701,12 @@ function manageVariables(){
                 }
             }
             container=null;newtable=null;newtr=null;newtd=null;newinput=null;
-        }catch(err){ GM_logError("buildImportTable\n"+err); }
+        }catch(err){ GM_logError("buildImportTable","","",err); }
         }
 
         container=null;containerPart=null;newselect=null;
         newdiv=null;newinput=null;
-    }catch(err){ GM_logError("buildManageVariables\n"+err); } 
+    }catch(err){ GM_logError("buildManageVariables","","",err); } 
     }
 
     if($("divManageVariables")){ return false; }
@@ -17711,14 +17723,14 @@ function do_login(){
     try{
         if(top!=self){ return; }
         if((location.pathname.match(/^\/login\.php$/))&&(pageZusatz["logout"]=="1")){
-            GM_log("Logout-page found ("+location.href+").\nReturn to login-page.");
+            GM_logInfo("do_login","","location.href="+location.href,"Logout-page found. Return to login-page.");
             if(GAMEPAGES[COUNTRY]){
                 window.setTimeout(function(){ location.href="http://www."+GAMEPAGES[COUNTRY]+"/login.php?start=1"; },1000); // go to login-page after logout (old page)
             }
         }else if($("login_container")){
             do_login_old();
         }else if($("loginbar")){
-            GM_log("Login-page found ("+location.href+")\npagedata="+implode(pagedata));        
+            GM_logInfo("do_login","","location.href="+location.href+" pagedata="+implode(pagedata,"do_login/pagedata"),"Login-page found");
             // account data
             var logindata=explode(GM_getValue("logindata","[]"),"do_login/logindata",[]);
             var c=0;
@@ -17735,18 +17747,18 @@ function do_login(){
                 try{
                     var currServer=this.querySelector("#loginserver").value;
                     var currUser=this.querySelector("#loginusername").value.toLowerCase();
-                    GM_log("Login submitted. Server="+currServer+", user="+currUser);
+                    GM_logInfo("loginform.submit","","server="+currServer+" user="+currUser,"Login submitted.");
                     GM_setValueCache(COUNTRY+"_"+currServer+"_username",currUser.toLowerCase());
-                }catch(err){ GM_logError("loginform.submit\n"+err); }
+                }catch(err){ GM_logError("loginform.submit","","server="+currServer+" user="+currUser,err); }
             },false);
             // listener portal login-form to store username
             $("portal").querySelector("#portalmiddle").parentNode.addEventListener("submit",function(){
                 try{
                     var currServer=this.querySelector("#portalserver").value;
                     var currUser=this.querySelector("#portalusername").value.toLowerCase();
-                    GM_log("Portal login submitted. Server="+currServer+", user="+currUser);
+                    GM_logInfo("portalform.submit","","server="+currServer+" user="+currUser,"Portal login submitted.");
                     GM_setValueCache(COUNTRY+"_"+currServer+"_username",currUser.toLowerCase());
-                }catch(err){ GM_logError("portalform.submit\n"+err); }
+                }catch(err){ GM_logError("portalform.submit","","server="+currServer+" user="+currUser,err); }
             },false);
             // execute login
             function submit_login(accNr){
@@ -17778,10 +17790,10 @@ function do_login(){
                                 help["dologin"]=new Object();
                             }
                             help["dologin"][accNr]=true;
-                            GM_setValue(logindata[accNr][0]+"_pagedataLogin",implode(help));
+                            GM_setValue(logindata[accNr][0]+"_pagedataLogin",implode(help,"submit_login/help"));
                             location.href="http://www."+GAMEPAGES[logindata[accNr][0]]+"/login.php?start=1";
                         }
-                    }catch(err){ GM_logError("submit_login("+accNr+")\n"+err); }
+                    }catch(err){ GM_logError("submit_login","accNr="+accNr,"",err); }
                 },0);
             }
             var currDoLogin=null;
@@ -17812,7 +17824,7 @@ function do_login(){
                     delete pagedata["dologin"];
                 }
             }
-            GM_setValue(COUNTRY+"_pagedataLogin",implode(pagedata));
+            GM_setValue(COUNTRY+"_pagedataLogin",implode(pagedata,"do_login/pagedata"));
             if(currDoServer!=null){
                 var help=GM_getValue(COUNTRY+"_"+currDoServer+"_username","");
                 for(var v=0;v<logindata.length;v++){
@@ -17914,7 +17926,7 @@ function do_login(){
                                             help["dologin"]=new Object();
                                         }
                                         help["dologin"][servers[v][0]]=true;
-                                        GM_setValue(logindata[servers[v][0]][0]+"_pagedataLogin",implode(help));
+                                        GM_setValue(logindata[servers[v][0]][0]+"_pagedataLogin",implode(help,"do_login/help"));
                                         window.open("http://www."+GAMEPAGES[logindata[servers[v][0]][0]]+"/login.php?start=1");
                                     }
                                 }
@@ -17947,11 +17959,11 @@ function do_login(){
                 newdiv=null;newbutton=null;
             }
         }
-    }catch(err){ GM_logError("do_login\n"+err); }
+    }catch(err){ GM_logError("do_login","","",err); }
 }
 function do_login_old(){
     try{
-        GM_log("Old login-page found ("+location.href+")");
+        GM_logInfo("do_login_old","","location.href="+location.href,"Old login-page found");
         //paypal
         var newform=createElement("form",{"id":"paypalForm","action":"https://www.paypal.com/cgi-bin/webscr","method":"post","style":"position:absolute;top:30px;left:117px;"},ALL);
         createElement("input",{"type":"hidden","name":"cmd","value":"_donations"},newform);
@@ -17966,7 +17978,7 @@ function do_login_old(){
         newform=null;
         
         //login
-        var logindata=explode(GM_getValue("logindata","[]"),"do_login/logindata",[]);
+        var logindata=explode(GM_getValue("logindata","[]"),"do_login_old/logindata",[]);
         var c=0;
         var servers=new Object(); // servers["language_serverNr"]=[logindataNr,logindataNr,...]
         for(var v=0;v<logindata.length;v++){ 
@@ -17984,7 +17996,7 @@ function do_login_old(){
                 var currUser=login_container.querySelector("#loginusername").value.toLowerCase();
                 GM_setValueCache(COUNTRY+"_"+currServer+"_username",currUser.toLowerCase());
                 login_container=null;
-            }catch(err){ GM_logError("login_container listener\n"+err); }
+            }catch(err){ GM_logError("login_container.submitlogin.click","","",err); }
         },false);
         
         function submit_login(accNr){
@@ -18005,17 +18017,17 @@ function do_login_old(){
                             help["dologin"]=new Object();
                         }
                         help["dologin"][accNr]=true;
-                        GM_setValue(logindata[accNr][0]+"_pagedataLogin",implode(help));
+                        GM_setValue(logindata[accNr][0]+"_pagedataLogin",implode(help,"submit_login/help"));
                         location.href="http://www."+GAMEPAGES[logindata[accNr][0]]+"/login.php?start=1";
                     }
-                }catch(err){ GM_logError("submit_login("+accNr+")\n"+err); }
+                }catch(err){ GM_logError("submit_login","accNr="+accNr,"",err); }
             },0);
         }
             
         var currDoLogin=null;
         var currDoServer=null;
-        var pagedata=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"do_login/pagedataLogin",{});
-        GM_log("This is do_login_old@"+location.href+". pagedata:"+implode(pagedata));
+        var pagedata=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"do_login_old/pagedataLogin",{});
+        GM_logInfo("do_login_old","","location.href="+location.href+" pagedata="+implode(pagedata,"do_login_old/pagedata"),"");
         if(pagedata["doserver"]){
             if(typeof pagedata["doserver"]=="object"){
                 for(var v in pagedata["doserver"]){
@@ -18041,7 +18053,7 @@ function do_login_old(){
                 delete pagedata["dologin"];
             }
         }
-        GM_setValue(COUNTRY+"_pagedataLogin",implode(pagedata));
+        GM_setValue(COUNTRY+"_pagedataLogin",implode(pagedata,"do_login_old/pagedata"));
 
         if(currDoServer!=null){
             var help=GM_getValue(COUNTRY+"_"+currDoServer+"_username","");
@@ -18131,7 +18143,7 @@ function do_login_old(){
                                         help["dologin"]=new Object();
                                     }
                                     help["dologin"][servers[v][0]]=true;
-                                    GM_setValue(logindata[servers[v][0]][0]+"_pagedataLogin",implode(help));
+                                    GM_setValue(logindata[servers[v][0]][0]+"_pagedataLogin",implode(help,"do_login_old/help"));
                                     window.open("http://www."+GAMEPAGES[logindata[servers[v][0]][0]]+"/login.php?start=1");
                                 }
                             }
@@ -18163,7 +18175,7 @@ function do_login_old(){
             }
             newdiv=null;newbutton=null;
         }
-    }catch(err){ GM_logError("do_login\n"+err); }
+    }catch(err){ GM_logError("do_login_old","","",err); }
 }
 //***********************************************************************************************************
 
@@ -18235,7 +18247,7 @@ if(top.unsafeData.COUNTRY){
         delimDeci=".";
         regDelimDeci="\\.";
     }else{
-        GM_logWarning("Language pack is missing!");
+        GM_logWarning("startScript","","","Language pack is missing!");
     }
     top.unsafeData.COUNTRY=COUNTRY;
     top.unsafeData.LANGUAGE=LANGUAGE;
@@ -19352,7 +19364,7 @@ if(location.href==GM_Home){
             for(var v=0;v<logindata.length;v++){ 
                 logindata[v][3] = enc(old_enc(logindata[v][3]),4242);
             }
-            GM_setValue("logindata",implode(logindata));
+            GM_setValue("logindata",implode(logindata,"changedataGlobal/1/logindata"));
         }
         case 3:{
             var help=cloneInto(GM_listValues(), unsafeWindow);
@@ -19367,11 +19379,11 @@ if(location.href==GM_Home){
             for(var v=help.length-1;v>=0;v--){
                 help[v][0] = help[v][0].toUpperCase();
             }
-            GM_setValue("logindata",implode(help));     
+            GM_setValue("logindata",implode(help,"changedataGlobal/3/help"));     
         }
         }
         if(changedata<4){ GM_setValue("changedata",4); }
-    }catch(err){GM_logError("changedata global\n"+err);}
+    }catch(err){GM_logError("changedata global","","",err);}
     // **************************************************
     
     err_trace="Location exec";
@@ -19379,7 +19391,7 @@ if(location.href==GM_Home){
     if(loc){
         SERVER=loc[1];
         PAGE=location.pathname.replace(/^\//,"").replace(/\.php.*$/,"");
-        if(DEVMODE){ GM_log("PAGE:"+PAGE+" location.pathname:"+location.pathname); }
+        if(DEVMODE){ GM_logInfo("startScript","","PAGE="+PAGE+" location.pathname:"+location.pathname,""); }
 
         err_trace="User";
         USERNAME=GM_getValue(COUNTRY+"_"+SERVER+"_username","");
@@ -19388,7 +19400,7 @@ if(location.href==GM_Home){
         npcSaison=explode(GM_getValue(COUNTRY+"_"+SERVER+"_NpcSaison"),"npcSaison",null);
         if(npcSaison==null){
             npcSaison=INIT_NPC_SAISON.clone();
-            GM_setValue(COUNTRY+"_"+SERVER+"_NpcSaison",implode(npcSaison,"npcSaison"));
+            GM_setValue(COUNTRY+"_"+SERVER+"_NpcSaison",implode(npcSaison,"startScript/npcSaison"));
         }
         css_styles = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles","{}"),"css_styles",INIT_CSS_STYLES);
         //GM_log("css_styles length:"+css_styles.length()+" :"+implode(css_styles));
@@ -19400,7 +19412,7 @@ if(location.href==GM_Home){
                 css_styles[tag]=INIT_CSS_STYLES[tag];
             }
         }
-        if(changeFlag){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles)); }
+        if(changeFlag){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"startScript/css_styles")); }
         changeFlag=null;
         GM_addStyle(
             ".zoneTimer{z-index:3;position:absolute;padding:2px;margin:1px;"+css_styles["timer"][1]+"}\
@@ -19424,7 +19436,7 @@ if(location.href==GM_Home){
             // }
             // }
             if(changedata<7){ GM_setValue(COUNTRY+"_"+SERVER+"_changedata",7); }
-        }catch(err){GM_logError("changedata server\n"+err);}
+        }catch(err){GM_logError("changedata server","","",err);}
     
         // ChangeData account
         err_trace="ChangeData account";
@@ -19434,38 +19446,38 @@ if(location.href==GM_Home){
             case 1:case 2:case 3:case 4:case 5:case 6:case 7:case 8:case 9:case 10:
             case 11:case 12:case 13:case 14:{
                 css_styles = INIT_CSS_STYLES;
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"ChangeData/11/css_styles"));
             }
             case 15:case 16:case 17:{
                 css_styles["timeholder"] = INIT_CSS_STYLES["timeholder"];
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"ChangeData/15/css_styles"));
             }
             case 18:{
                 for(tag in css_styles){
                     if(!css_styles.hasOwnProperty(tag)){ continue; }
                     css_styles[tag][1]=css_styles[tag][1].replace(/-moz-border-radius/g,"border-radius");
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"ChangeData/18/css_styles"));
             }
             case 19:{
                 // Converting object "kauf" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_kauf","{}"),"ChangeData19/kauf",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_kauf","{}"),"ChangeData/19/kauf",{});
                 var new_arr = [];
                 for(var id in old_obj){
                     if(!old_obj.hasOwnProperty(id)){ continue; }
                     old_obj[id].splice(0,0,parseInt(id,10));
                     new_arr.push(old_obj[id]);
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_kauf",implode(new_arr));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_kauf",implode(new_arr,"ChangeData/19/kauf"));
                 // Converting object "farmiLog" to array
-                var old_obj=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog","[]"),"ChangeData19/farmiLog",[]);
+                var old_obj=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog","[]"),"ChangeData/19/farmiLog",[]);
                 var new_arr = [];
                 for(var id in old_obj){
                     if(!old_obj.hasOwnProperty(id)){ continue; }
                     old_obj[id].splice(0,0,parseInt(id,10));
                     new_arr.push(old_obj[id]);
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog",implode(new_arr));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog",implode(new_arr,"ChangeData/19/farmiLog"));
                 // Converting object "clubmemberLog" to array
                 var old_obj=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog","{}"),"ChangeData19/clubmemberLog",{});
                 var new_arr = [];
@@ -19483,7 +19495,7 @@ if(location.href==GM_Home){
                     }   
                     new_arr.push(new_arr_name);
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog",implode(new_arr));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog",implode(new_arr,"ChangeData/19/clubmemberLog"));
             }
             case 20:{
                 // Converting object "lotteryLog" to array
@@ -19507,9 +19519,9 @@ if(location.href==GM_Home){
                     old_obj[id].splice(0,0,day);
                     new_arr.push(old_obj[id]);
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(new_arr));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(new_arr,"ChangeData/20/lotteryLog"));
                 // Converting object "levelLog" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog","{}"),"ChangeData20/levelLog",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog","{}"),"ChangeData/20/levelLog",{});
                 var new_arr = [];
                 var day;
                 for(var id in old_obj){
@@ -19529,7 +19541,7 @@ if(location.href==GM_Home){
                     old_obj[id].splice(0,0,day);
                     new_arr.push(old_obj[id]);
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(new_arr));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(new_arr,"ChangeData/20/levelLog"));
             }
             case 21:{
                 // Converting object "vertraegeIn" to array
@@ -19540,24 +19552,24 @@ if(location.href==GM_Home){
                     old_obj[id].splice(0,0,parseInt(id,10));
                     new_arr.push(old_obj[id]);
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(new_arr));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(new_arr,"ChangeData/21/vertraegeIn"));
                 // Converting object "vertraegeOut" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut","{}"),"ChangeData21/vertraegeOut",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut","{}"),"ChangeData/21/vertraegeOut",{});
                 var new_arr = [];
                 for(var id in old_obj){
                     if(!old_obj.hasOwnProperty(id)){ continue; }
                     new_arr.push([,old_obj[id]]);
                 }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut",implode(new_arr));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut",implode(new_arr,"ChangeData/21/vertraegeOut"));
             }
             case 22:{
                 css_styles["timer_ready"] = INIT_CSS_STYLES["timer_ready"];
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles));
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"ChangeData/22/css_styles"));
             }
             }
             if(changedata<23){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_changedata",23); }
             changedata = null;
-        }catch(err){GM_logError("changedata account\n"+err);}
+        }catch(err){GM_logError("changedata account","","",err);}
         
         // **************************************************
     
@@ -19632,7 +19644,7 @@ if(location.href==GM_Home){
         }
     
         err_trace="Page switch";
-        if(DEVMODE){ GM_log("loading page:"+PAGE); }
+        if(DEVMODE){ GM_logInfo("startScript","","PAGE="+PAGE,"Loading page"); }
         switch (PAGE){
             case "stadt/shop":          do_shop();break;
             case "stadt/stats":         do_stats();break;
@@ -19654,7 +19666,7 @@ if(location.href==GM_Home){
         raiseEvent("beraterDone");
     },100);
 }
-}catch(err){ GM_logError("startScript ("+err_trace+")\npage="+location.href+"\n"+err); }
+}catch(err){ GM_logError("startScript","","err_trace="+err_trace+" location.href="+location.href,err); }
 }
 function initScript(time){
 try{
@@ -19678,6 +19690,6 @@ try{
             location.href=location.href;
         }
     }
-}catch(err){GM_logError("initScript\n"+err);}
+}catch(err){GM_logError("initScript","","",err);}
 }
 initScript(20);

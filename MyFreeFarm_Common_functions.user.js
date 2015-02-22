@@ -3,11 +3,11 @@
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           15.02.2014
-// @version        2.1.4
+// @date           22.02.2015
+// @version        2.1.5
 // ==/UserScript==
 
-const VERSIONfunctionFile = "2.1.4";
+const VERSIONfunctionFile = "2.1.5";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
@@ -16,15 +16,20 @@ var DEVMODE_LOG_ERROR=GM_getValue("devmode_log_error",false);
 
 // PROTOTYPES ************************************************************************************************************
 String.prototype.reverse = function(){
-    splitext = this.split("");
-    revertext = splitext.reverse();
-    reversed = revertext.join("");
+try{
+    var splitext = this.split("");
+    var revertext = splitext.reverse();
+    var reversed = revertext.join("");
     return reversed;
+}catch(err){ GM_logError("String.prototype.reverse","","",err); }    
 };
 String.prototype.capitalize = function() {
+try{
     return this.charAt(0).toUpperCase() + this.slice(1);
+}catch(err){ GM_logError("String.prototype.capitalize","","",err); }
 };
 Array.prototype.shuffle = function (){
+try{
     var i=this.length, j, temp;
     if (i==0) return;
     while (--i) {
@@ -34,14 +39,17 @@ Array.prototype.shuffle = function (){
         this[j] = temp;
     }
     temp=null;
+}catch(err){ GM_logError("Array.prototype.shuffle","","",err); }    
 };
 Array.prototype.swap = function (from, to){
+try{
     var temp;
     if (this.length==0) return;
     temp = this[from];
     this[from] = this[to];
     this[to] = temp;
     temp=null;
+}catch(err){ GM_logError("Array.prototype.swap","from, to","",err); }
 };
 Object.prototype.order = new Array();
 Object.prototype.sortObj = function(sortfkt,descending){
@@ -51,6 +59,7 @@ Object.prototype.sortObj = function(sortfkt,descending){
     // numbers : function(a,b){return (parseFloat(a[0],10)-parseFloat(b[0],10));}
     // dates - ascending sorting : function(a,b){return (getTime(a[0])-getTime(b[0]));}
     // descending: bool
+try{
     // Setup helping array
     var sorted = new Array();
     for (var i in this){
@@ -82,20 +91,25 @@ Object.prototype.sortObj = function(sortfkt,descending){
     }
     sorted=null;
     return this;
+}catch(err){ GM_logError("Object.prototype.sortObj","","",err); }
 };
 Object.prototype.isEmpty = function(){
+try{
     for(var i in this){
         if(this.hasOwnProperty(i)){ return false; }
     }
     return true;
+}catch(err){ GM_logError("Object.prototype.isEmpty","","",err); }
 };
 Object.prototype.length = function(){
+try{
     var len = 0;
     for (var i in this){
         if(!this.hasOwnProperty(i)){ continue; }
         len++;
     }
     return len;
+}catch(err){ GM_logError("Object.prototype.length","","",err); }
 };
 Object.prototype.clone = function () {
 try{
@@ -109,47 +123,81 @@ try{
         }
     }
     return o;
-}catch(err){ GM_logError("Object.prototype.clone property="+property+"\n"+err); }
+}catch(err){ GM_logError("Object.prototype.clone","","property="+property,err); }
 };
 
 // FUNCTIONS *************************************************************************************************************
 
-function GM_setValueCache(a,b){
+function GM_setValueCache(name,value,debugName){
+try{
     window.setTimeout(function(){
-        GM_setValue(a,b);
+        GM_setValue(name,value);
     },0);
+}catch(err){ GM_logError("GM_setValueCache","name="+name+" debugName="+debugName,"",err); }
 }
-function GM_setValue2(a,b,debug){
-    // for developing / finding security errors, use debug unique for optimal tracking
-    GM_setValue(a,b);
-    try{
-    if(GM_getValue(a)!=b){
-        GM_log("GM_setValue2 FAILED a="+a+" debug="+debug);
-        GM_setValueCache(a,b);
+function GM_setValue2(name,value,debugName){
+// for developing / finding security errors, use debugName unique for optimal tracking
+try{
+    GM_setValue(name,value);
+    if(GM_getValue(name)!=value){
+        GM_logInfo("GM_setValue2","name="+name+" debugName="+debugName,"","Saved value not equal to value");
+        GM_setValueCache(name,value);
     }
-    }catch(err){
-        GM_log("GM_setValue2 ERROR a="+a+" debug="+debug+" err="+err);
-        GM_setValueCache(a,b);
-    }
+}catch(err){
+    GM_logError("GM_setValue2","name="+name+" debugName="+debugName,"",err);
+    GM_setValueCache(name,value);
 }
-_GM_log=GM_log;
-GM_log=function(txt){
-    _GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+":\n"+txt);
+}
+function GM_logInfo(name,parameters,variables,text){
+try{
+    GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Information\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
+}catch(err){ GM_logError("GM_logInfo","name="+name+" parameters="+parameters+" variables="+variables+" text="+text,"",err); }
 };
-GM_logWarning=function(txt){
-    _GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Warning\n"+txt);
-    if(DEVMODE_LOG_WARNING){ logBubble.add(txt,10,"orange"); }
+function GM_logWarning(name,parameters,variables,text){
+try{
+    GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Warning\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
+    if(DEVMODE_LOG_WARNING){ logBubble.add(name+"\n"+text,10,"orange"); }
+}catch(err){ GM_logError("GM_logWarning","name="+name+" parameters="+parameters+" variables="+variables+" text="+text,"",err); }
 };
-GM_logError=function(txt){
-    _GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Error\n"+txt);
-    if(DEVMODE_LOG_ERROR){ logBubble.add(txt,10,"red"); }
+function GM_logError(name,parameters,variables,text){
+try{
+    GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Error\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
+    if(DEVMODE_LOG_ERROR){ logBubble.add(name+"\n"+text,10,"red"); }
+}catch(err){ GM_log("ERROR in 'GM_logError'\nname="+name+"\n"+err); }
 };
 
-function $(ID){return document.getElementById(ID);}
-//function $(ID){GM_log("ID:"+ID);return document.getElementById(ID);}
-function $top(ID) {return top.document.getElementById(ID);}
-function unsafe$(ID){return unsafeWindow.document.getElementById(ID);}
-function unsafe$top(ID) {return top.window.wrappedJSObject.document.getElementById(ID);}
+/*
+GM_logError\("","","","(.*)\\n"\+err\)
+GM_logError\("\1","","",err\)
+
+
+GM_logError\("","","","(.*?) (.*)\\n"\+err\)
+GM_logError\("\1","\2","",err\)
+
+_GM_logError\((.*?) (.*)\)
+GM_logError\("\1","","","\2"\)
+*/
+
+function $(ID){
+try{
+    return document.getElementById(ID);
+}catch(err){ GM_logError("$","ID="+ID,"",err); }
+}
+function $top(ID) {
+try{
+    return top.document.getElementById(ID);
+}catch(err){ GM_logError("$top","ID="+ID,"",err); }
+}
+function unsafe$(ID){
+try{
+    return unsafeWindow.document.getElementById(ID);
+}catch(err){ GM_logError("unsafe$","ID="+ID,"",err); }
+}
+function unsafe$top(ID) {
+try{
+    return top.window.wrappedJSObject.document.getElementById(ID);
+}catch(err){ GM_logError("unsafe$top","ID="+ID,"",err); }
+}
 function containerId(node) {
 try{
     node = node.parentNode;
@@ -157,19 +205,19 @@ try{
         if(node.parentNode){
             node = node.parentNode;
         } else {
-            GM_logError("containerId - No found");
+            throw("No parent node found.");
             break;
         }
     }
     return node.id;
-}catch(err){GM_logError("containerId\n"+err);}
+}catch(err){ GM_logError("containerId","node.id="+(node&&node.id?node.id:"?"),"",err); }
 }
 function removeElement(node){
 try{
     if(node&&node.parentNode){
         node.parentNode.removeChild(node);
     }
-}catch(err){GM_logError("removeElement\n"+err);}
+}catch(err){ GM_logError("removeElement","node.id="+(node&&node.id?node.id:"?"),"",err); }
 }
 function createElement(type, attributes, append, inner){
 try{
@@ -182,7 +230,7 @@ try{
     if (append) append.appendChild(node);
     if (inner) node.innerHTML = inner;
     return node;
-}catch(err){GM_logError("createElement\n"+err);}
+}catch(err){ GM_logError("createElement","type="+type+" attributes="+JSON.stringify(attributes)+" append="+append+" append.id="+(append&&append.id?append.id:"?"),"",err); }
 }
 function unsafeCloneObject(obj){
 try{
@@ -195,12 +243,12 @@ try{
     }else{
         return obj;
     }
-}catch(err){GM_logError("unsafeCloneObject\n"+err);}
+}catch(err){ GM_logError("unsafeCloneObject","","",err); }
 }
 function unsafeOverwriteFunction(fooName,newFoo) {
 try{
     if(!unsafeWindow[fooName]){
-        GM_logWarning("unsafeOverwriteFunction\nFunction "+fooName+" does not exist.");
+        GM_logWarning("unsafeOverwriteFunction","fooName="+fooName,"","Function does not exist.");
     }
     if(typeof exportFunction=="function"){
         exportFunction(newFoo,unsafeWindow,{"defineAs":"unsafe_"+fooName});
@@ -209,101 +257,101 @@ try{
     }
     unsafeWindow["_"+fooName]=unsafeWindow[fooName];
     unsafeWindow[fooName]=unsafeWindow["unsafe_"+fooName];
-}catch(err){GM_logError("unsafeOverwriteFunction "+fooName+"\n"+err);}
+}catch(err){ GM_logError("unsafeOverwriteFunction","fooName="+fooName,"",err); }
 };
 
-function raiseEvent(A){
+function raiseEvent(name){
 try{
-    var B = document.createEvent("Event");
-    B.initEvent(A, true, true);
-    document.dispatchEvent(B);
-}catch(err){GM_logError("raiseEvent "+A+"\n"+err);}
+    var event = document.createEvent("Event");
+    event.initEvent(name, true, true);
+    document.dispatchEvent(event);
+}catch(err){ GM_logError("raiseEvent","name="+name,"",err);}
 }
-function raiseEventTop(A){
+function raiseEventTop(name){
 try{
     // should be called from frame-documents to inform the top-document(main.php)
     // if frame is top itself (=multi-window gaming) it instead saves to variable and do_main will raise the event in the main-window
     if((PAGE!="main")&&(self==top)){
         window.setTimeout(function(){
-            if(DEVMODE_EVENTS){ logBubble.add("raiseEventTop set "+A); }
+            if(DEVMODE_EVENTS){ logBubble.add("raiseEventTop set "+name); }
             var raisedEvents = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_raisedEvents"),"raiseEventTop","{}");
-            raisedEvents[A] = PAGE;
+            raisedEvents[name] = PAGE;
             GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_raisedEvents",implode(raisedEvents));
         },0);
     } else {
-        if(DEVMODE_EVENTS){ logBubble.add("raiseEventTop "+A); }
-        var B = top.document.createEvent("Event");
-        B.initEvent(A, true, true);
-        top.document.dispatchEvent(B);
+        if(DEVMODE_EVENTS){ logBubble.add("raiseEventTop "+name); }
+        var event = top.document.createEvent("Event");
+        event.initEvent(name, true, true);
+        top.document.dispatchEvent(event);
     }
-}catch(err){GM_logError("raiseEventTop "+A+"\n"+err);}
+}catch(err){ GM_logError("raiseEventTop","name="+name,"",err);}
 }
 
-function click(A){
+function click(node){
 try{
-    var evt=new MouseEvent('click',{'view':window,'bubbles':true,'cancelable':true});
-    A.dispatchEvent(evt);
+    var event=new MouseEvent('click',{'view':window,'bubbles':true,'cancelable':true});
+    node.dispatchEvent(event);
     if(DEVMODE){
-        var T = A;
-        var str = "";
+        var T = node;
+        var str = T.id;
         while(!T.id){
             T = T.parentNode;
             str += ".child";
         }
-        GM_log("Click :"+T.id+str);
+        GM_logInfo("click","node.id="+(node&&node.id?node.id:"?"),"","Click on "+str);
     }
-    // if (A.href){ location.href = A.href; }
+    // if (node.href){ location.href = node.href; }
 }catch(err){
-    GM_logError("click: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-    throw ("ERROR click: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+    GM_logError("click","node.id="+(node&&node.id?node.id:"?"),"",err);
+    throw ("ERROR in function 'click'");
 }
 }
-function dblclick(A){
+function dblclick(node){
 try{
-    var B = document.createEvent("MouseEvents");
-    B.initEvent("dblclick", true, true);
-    A.dispatchEvent(B);
-    // if (A.href){ location.href = A.href; }
+    var event = document.createEvent("MouseEvents");
+    event.initEvent("dblclick", true, true);
+    node.dispatchEvent(event);
+    // if (node.href){ location.href = node.href; }
 }catch(err){
-    GM_logError("dblclick: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-    throw ("ERROR dblclick: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+    GM_logError("dblclick","node.id="+(node&&node.id?node.id:"?"),"",err);
+    throw ("ERROR in function 'dblclick'");
 }
 }
-function mouseover(A){
+function mouseover(node){
 try{
-    var B = document.createEvent("MouseEvents");
-    B.initEvent("mouseover", true, true);
-    A.dispatchEvent(B);
+    var event = document.createEvent("MouseEvents");
+    event.initEvent("mouseover", true, true);
+    node.dispatchEvent(event);
 }catch(err){
-    GM_logError("mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-    throw ("ERROR mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+    GM_logError("mouseover","node.id="+(node&&node.id?node.id:"?"),"",err);
+    throw ("ERROR in function 'mouseover'");
 }
 }
-function mouseout(A){
+function mouseout(node){
 try{
-    var B = document.createEvent("MouseEvents");
-    B.initEvent("mouseout", true, true);
-    A.dispatchEvent(B);
+    var event = document.createEvent("MouseEvents");
+    event.initEvent("mouseout", true, true);
+    node.dispatchEvent(event);
 }catch(err){
-    GM_logError("mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-    throw ("ERROR mouseover: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+    GM_logError("mouseout","node.id="+(node&&node.id?node.id:"?"),"",err);
+    throw ("ERROR in function 'mouseout'");
 }
 }
-function change(A){
+function change(node){
 try{
-    var B = document.createEvent("MouseEvents");
-    B.initEvent("change", true, true);
-    A.dispatchEvent(B);
+    var event = document.createEvent("MouseEvents");
+    event.initEvent("change", true, true);
+    node.dispatchEvent(event);
 }catch(err){
-    GM_logError("change: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-    throw ("ERROR change: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+    GM_logError("change","node.id="+(node&&node.id?node.id:"?"),"",err);
+    throw ("ERROR in function 'change'");
 }
 }
-function keyup(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg) {
+function keyup(node,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg) {
 try{
     if (!keycode) keycode=0;
-    var B = document.createEvent("KeyboardEvent");
-    B.initKeyEvent(
+    var event = document.createEvent("KeyboardEvent");
+    event.initKeyEvent(
         "keyup",                    //  in DOMString typeArg,
         true,                           //  in boolean canBubbleArg,
         true,                           //  in boolean cancelableArg,
@@ -314,17 +362,17 @@ try{
         false,                      //  in boolean metaKeyArg,
         keycode,                    //  in unsigned long keyCodeArg,
         0);
-    A.dispatchEvent(B);
+    node.dispatchEvent(event);
 }catch(err){
-    GM_logError("keyup: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-    throw ("ERROR keyup: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+    GM_logError("keyup","node.id="+(node&&node.id?node.id:"?")+" keycode="+keycode+" ctrlKeyArg="+ctrlKeyArg+" altKeyArg="+altKeyArg+" shiftKeyArg="+shiftKeyArg,"",err);
+    throw ("ERROR in function 'keyup'");
 }
 }
-function keydown(A,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg){
+function keydown(node,keycode,ctrlKeyArg,altKeyArg,shiftKeyArg){
 try{
     if (!keycode) keycode=0;
-    var B = document.createEvent("KeyboardEvent");
-    B.initKeyEvent(
+    var event = document.createEvent("KeyboardEvent");
+    event.initKeyEvent(
         "keydown",              //  in DOMString typeArg,
         true,                           //  in boolean canBubbleArg,
         true,                           //  in boolean cancelableArg,
@@ -335,47 +383,56 @@ try{
         false,                      //  in boolean metaKeyArg,
         keycode,                    //  in unsigned long keyCodeArg,
         0);
-    A.dispatchEvent(B);
+    node.dispatchEvent(event);
 }catch(err){
-    GM_logError("keydown: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
-    throw ("ERROR keydown: "+(A&&A.id?("id="+A.id):("id unknown"))+".\n" + err);
+    GM_logError("keydown","node.id="+(node&&node.id?node.id:"?")+" keycode="+keycode+" ctrlKeyArg="+ctrlKeyArg+" altKeyArg="+altKeyArg+" shiftKeyArg="+shiftKeyArg,"",err);
+    throw ("ERROR in function 'keydown'");
 }
 }
 
 var timeMeasure = new Object();
 function timeMeasureStart(str){
+try{
     timeMeasure[str] = (new Date()).getTime();
+}catch(err){ GM_logError("timeMeasureStart","str="+str,"",err); }
 }
 function timeMeasureStop(str){
+try{
     if(timeMeasure[str]){
-        GM_log("timeMeasure "+str+": "+((new Date()).getTime()-timeMeasure[str])+"ms");
+        GM_logInfo("timeMeasure","str="+str,"",((new Date()).getTime()-timeMeasure[str])+"ms");
         delete timeMeasure[str];
     }
+}catch(err){ GM_logError("timeMeasureStop","str="+str,"",err); }
 }
 
 //---------------------------------------------------------------------------------------------------------------------------
 
-function getElementLeft(Elem,toElem) {
-    var elem = document.getElementById(Elem);
-    xPos = elem.offsetLeft;
-    tempEl = elem.offsetParent;
+function getElementLeft(id,toElem) {
+try{
+    var element = document.getElementById(id);
+    xPos = element.offsetLeft;
+    tempEl = element.offsetParent;
         while (tempEl != toElem.parenNode) {
             xPos += tempEl.offsetLeft;
             tempEl = tempEl.offsetParent;
         }
     return parseInt(xPos,10);
+}catch(err){ GM_logError("getElementLeft","id="+id,"",err); }
 }
-function getElementTop(Elem,toElem) {
-    var elem = document.getElementById(Elem);
-    yPos = elem.offsetTop;
-    tempEl = elem.offsetParent;
+function getElementTop(id,toElem) {
+try{
+    var element = document.getElementById(id);
+    yPos = element.offsetTop;
+    tempEl = element.offsetParent;
     while (tempEl != toElem.parenNode) {
             yPos += tempEl.offsetTop;
             tempEl = tempEl.offsetParent;
         }
     return parseInt(yPos,10);
+}catch(err){ GM_logError("getElementTop","id="+id,"",err); }
 }
 function getOffset(el){
+try{
     var _x = 0;
     var _y = 0;
     while(el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop)){
@@ -386,13 +443,15 @@ function getOffset(el){
         el = el.offsetParent; //.parentNode
     }
     return { top: _y, left: _x };
+}catch(err){ GM_logError("getOffset","","",err); }
 }
 function insertAfter(newNode, refNode){
+try{
     return refNode.nextSibling ? refNode.parentNode.insertBefore(newNode, refNode.nextSibling) : refNode.parentNode.appendChild(newNode);
+}catch(err){ GM_logError("insertAfter","","",err); }
 }
 function removeAllCSS(reg){
 try{
-
     for (var i = document.styleSheets.length - 1; i >= 0; i--) {
         for (var j = document.styleSheets[i].cssRules.length - 1; j >= 0; j--) {
             if( document.styleSheets[i].cssRules[j].selectorText&&(document.styleSheets[i].cssRules[j].selectorText.match(reg))){
@@ -400,13 +459,14 @@ try{
             }
         }
     }
-}catch(err){GM_logError("removeAllCSS\ni="+i+" j="+j+"\n"+err);}
+}catch(err){ GM_logError("removeAllCSS","reg="+reg,"i="+i+" j="+j,err); }
 }
 
 //---------------------------------------------------------------------------------------------------------------------------
 // TODO name? timeStr, getTimeStr, time2timestr, time2str, 2->To ?
 function getTimeStr(time,hideSeconds){ // was int2timestr
-    // returns like "1d 12:30:42"
+// returns like "1d 12:30:42"
+try{
     var str,help;
     if(time<0){ time *= -1; }
     if (hideSeconds) {
@@ -425,11 +485,13 @@ function getTimeStr(time,hideSeconds){ // was int2timestr
     time=time/24;
     if (time>=1){ str=Math.floor(time)+"d&nbsp;"+str; }
     return str;
+}catch(err){ GM_logError("getTimeStr","time="+time+" hideSeconds="+hideSeconds,"",err); }
 }
 // TODO this includes the call of str2seconds(str)
 // TODO name? getTime, timestr2time, str2time, 2->To ?
 
 function getTime(str){ // was timestr2int
+try{
     var help1 = null;
     var help;
     if(help=(/(\d+):(\d+):(\d+)/.exec(str))){
@@ -464,6 +526,7 @@ function getTime(str){ // was timestr2int
     }else{
         return ((Date.UTC(1970,0,1,help1[0],help1[1],help1[2]))/1000);
     }
+}catch(err){ GM_logError("getTime","str="+str,"",err); }
 }
 /*
 function getTime(str){ // was timestr2int
@@ -534,11 +597,12 @@ function getTime(str){ // was timestr2int
             return ((Date.UTC(1970,0,1,help[0],help[1],help[2]))/1000);
         }
     }
-    GM_log("getTime failed at "+str);
+    GM_logInfo("getTime","str="+str,"","Failed");
     return 0;
 }
 */
 function getFormattedTime(str){
+try{
     var help = null;
     var regDate = dateFormatDMY.replace("day","\\d+").replace("month","\\d+").replace("year","\\d+").replace(/\./g,"\\.");
     var regTime = timeFormatHMS.replace("hour","\\d+").replace("min","\\d+").replace("sec","\\d+").replace(/\./g,"\\.");
@@ -608,12 +672,13 @@ function getFormattedTime(str){
             return ((Date.UTC(1970,0,1,help[0],help[1],help[2]))/1000);
         }
     }
-    GM_log("getFormattedTime failed at "+str);
+    GM_logWarning("getFormattedTime","str="+str,"","Format did not match. Function returns 0.");
     return 0;
+}catch(err){ GM_logError("getFormattedTime","str="+str,"",err); }
 }
 //TODO name? getDaytime, time2daytime
 function getDaytimeStr(time,hideSeconds,paddHours){ // was uhrzeit
-    //GM_log("getDaytimeStr: " + time);
+try{
     var time2 = new Date(time*1000);
     var str,help;
     if (hideSeconds) {
@@ -628,6 +693,7 @@ function getDaytimeStr(time,hideSeconds,paddHours){ // was uhrzeit
     help = time2.getHours();
     str = str.replace("hour",((!!paddHours && help<10)?"0":"")+Math.floor(help));
     return str;
+}catch(err){ GM_logError("getDaytimeStr","time="+time+" hideSeconds="+hideSeconds+" paddHours="+paddHours,"",err); }
 }
 /*
 function getDateStr(time,hideyear){ //TODO CHANGED THE ARGUMENTS
@@ -643,13 +709,14 @@ function getDateStr(time,hideyear){ //TODO CHANGED THE ARGUMENTS
 */
 //TODO name? getDate, time2date
 function getDateStr(time,yearformat,padd){ //in seconds //was datum
-    // yearformat:
-    // 0 -> 01.02.
-    // 1 -> 01.02.11
-    // 2 -> 01.02.2011 (default)
-    // padd:
-    // true -> 01.02.2011 (default)
-    // false -> 1.2.2011
+// yearformat:
+// 0 -> 01.02.
+// 1 -> 01.02.11
+// 2 -> 01.02.2011 (default)
+// padd:
+// true -> 01.02.2011 (default)
+// false -> 1.2.2011
+try{
     if(typeof yearformat!="number"){ yearformat = 2; }
     if(typeof padd!="boolean"){ padd = true; }
 
@@ -665,15 +732,17 @@ function getDateStr(time,yearformat,padd){ //in seconds //was datum
     help = 1+time2.getMonth();
     str = str.replace("month",((padd&&help<10)?"0":"")+help);
     return str;
+}catch(err){ GM_logError("getDateStr","time="+time+" yearformat="+yearformat+" padd="+padd,"",err); }
 }
 function getFormattedDateStr(time,yearformat,padd){
-    // yearformat:
-    // 0 -> 01.02.
-    // 1 -> 01.02.11
-    // 2 -> 01.02.2011 (default)
-    // padd:
-    // true -> 01.02.2011 (default)
-    // false -> 1.2.2011
+// yearformat:
+// 0 -> 01.02.
+// 1 -> 01.02.11
+// 2 -> 01.02.2011 (default)
+// padd:
+// true -> 01.02.2011 (default)
+// false -> 1.2.2011
+try{
     if(typeof yearformat!="number"){ yearformat = 2; }
     if(typeof padd!="boolean"){ padd = true; }
 
@@ -689,12 +758,13 @@ function getFormattedDateStr(time,yearformat,padd){
     help = 1+time2.getMonth();
     str = str.replace("month",((padd&&help<10)?"0":"")+help);
     return str;
+}catch(err){ GM_logError("getFormattedDateStr","time="+time+" yearformat="+yearformat+" padd="+padd,"",err); }
 }
 //TODO name? getDateText
 function getDateText(time,yearformat){ // was datumDay
+try{
     var time2 = Math.floor(time);
     var today = new Date(new Date().getFullYear(), new Date().getMonth(),new Date().getDate(),0,0,0)/1000; //begin of this day.
-    //GM_log ("timer :" + time2 + " : " + today);
     if (time2 < today){
         return getFormattedDateStr(time,yearformat);
     } else if (time2 < (today+(1*24*60*60))){
@@ -706,26 +776,28 @@ function getDateText(time,yearformat){ // was datumDay
     } else {
         return getFormattedDateStr(time,yearformat);
     }
+}catch(err){ GM_logError("getDateText","time="+time+" yearformat="+yearformat,"",err); }
 }
 function countDays(time1,time2){ //in seconds
-    // returns number of days from 1 to 2. for example 0 if both on one day.
-    // calculate times of midnight
+// returns number of days from 1 to 2. for example 0 if both on one day.
+// calculate times of midnight
+try{
     time1 = new Date(Math.round(time1*1000));
     time1 = ((new Date(time1.getFullYear(),time1.getMonth(),time1.getDate())).getTime())/1000;
     time2 = new Date(Math.round(time2*1000));
     time2 = ((new Date(time2.getFullYear(),time2.getMonth(),time2.getDate())).getTime())/1000;
     return Math.round((time2-time1)/86400);
+}catch(err){ GM_logError("countDays","time1="+time1+" time2="+time2,"",err); }
 }
 //---------------------------------------------------------------------------------------------------------------------------
 function explode(str,debugName,defaultReturn,depth){
-    //GM_log("Begin explode "+ str);
+try{
     if(debugName==undefined){
         debugName = "";
-        GM_logWarning("Explode. DebugName not set. Argument:" + str);
+        GM_logWarning("explode","debugName="+debugName,"","DebugName not set.");
     }else if(typeof defaultReturn==undefined){
-        GM_logWarning("Explode "+debugName+". defaultReturn not set.");
+        GM_logWarning("explode","debugName="+debugName,"","DefaultReturn not set.");
     }
-    try{
         if(str==undefined){
             throw ("Argument is undefined.");
         }
@@ -737,18 +809,15 @@ function explode(str,debugName,defaultReturn,depth){
         // if(defaultReturn==undefined){
             return help;
         // }
-    }catch(err){
-        if((typeof defaultReturn=="boolean")&&(!defaultReturn)){
-            GM_logError("explode "+debugName+". no defaultReturn.\n" + err);
-            throw ("Explode error "+debugName+". no defaultReturn.\n" + err);
-        }else if(typeof defaultReturn==undefined){
-            GM_logError("explode "+debugName+". defaultReturn=" + implode(defaultReturn)+" \n" + err);
-            throw ("Explode error "+debugName+". defaultReturn=" + implode(defaultReturn)+" \n" + err);
-        } else {
-            GM_logWarning("explode "+debugName+". returns given default. Argument=" + str+" \n" + err);
-            return defaultReturn;
-        }
+}catch(err){
+    if(typeof defaultReturn==undefined){
+        GM_logError("explode","debugName="+debugName+" defaultReturn=","",err);
+        throw ("ERROR in function 'explode'");
+    } else {
+        GM_logWarning("explode","debugName="+debugName+" defaultReturn="+JSON.stringify(defaultReturn),"","Function returns given default. "+err);
+        return defaultReturn;
     }
+}
     /*
     try{
         function recusiveCheck(h,d,lvl,dpth){
@@ -774,87 +843,87 @@ function explode(str,debugName,defaultReturn,depth){
         if(correct){
             return help;
         }else{
-            GM_logWarning("Explode "+debugName+". incorrect structure compairing. returns given default. Argument:" + str+" \n");
             return defaultReturn;
         }
     }catch(err){
-        GM_logWarning("Explode "+debugName+". error while compairing. \n" + err);
         return help;
     }
     */
 }
 function implode(arr,debugName){
-    try{
-        if(debugName==undefined){
-            debugName = "";
-            // GM_logWarning("implode. DebugName not set. Argument:" + arr);
-        }
-        var line = new String();
-        var InternalCounter = -1;
-        var NoKey = new Boolean(false);
-        if (arr == undefined){ return ""; }
-        if (typeof arr == "function"){ return "function"; }
-        if (typeof arr == "string"){ return arr; }
-        if (typeof arr == "boolean"){ return arr.toString(); }
-        if (typeof arr == "number"){ return arr.toString(); }
-        if (typeof arr != "object"){ throw("Argument is not an Object or Array. Type is " + typeof arr +".\n"); }
-        var type = (arr instanceof Array); //true->array | false->object
-
-        line = (type)?"[":"{";
-        for(var i in arr ){
-            try{
-                if(!arr.hasOwnProperty(i)){continue;}
-                InternalCounter++;
-                if (type){
-                    while (i>InternalCounter){
-                        line += ",";
-                        InternalCounter++;
-                    }
-                }else{
-                    line += "\"" + i + "\":";
-                }
-                if (typeof arr[i] == "number" || typeof arr[i] == "boolean"){
-                    line += arr[i];
-                } else if (typeof arr[i] == "string"){
-                    line += "\"" + arr[i].replace(/\\/g,"\\\\").replace(/\"/g,"\\\"") + "\"";
-                } else if(typeof arr[i] == "undefined"){
-                    line += 'undefined';
-                } else if(arr[i]==null){
-                    line += 'null';
-                } else {
-                    line += implode(arr[i],debugName);
-                }
-                line += ",";
-            }catch(err){
-                // GM_logError("implode "+debugName+" i="+i+"\n"+err);
-            }
-        }
-        var endChar = line.substring(line.length-1,line.length);
-        return line.substring(0,line.length-1) + (("{[".indexOf(endChar)!=-1)? endChar:"")+ ((type)?"]":"}");
-    } catch (err){
-        GM_logError("implode "+debugName+"\n" + err);
-        throw ("ERROR implode "+debugName+"\n" + err);
+try{
+    if(debugName==undefined){
+        GM_logWarning("implode","arr="+JSON.stringify(arr),"","DebugName not set.");
+        debugName = "";
     }
+    var line = new String();
+    var InternalCounter = -1;
+    var NoKey = new Boolean(false);
+    if (arr == undefined){ return ""; }
+    if (typeof arr == "function"){ return "function"; }
+    if (typeof arr == "string"){ return arr; }
+    if (typeof arr == "boolean"){ return arr.toString(); }
+    if (typeof arr == "number"){ return arr.toString(); }
+    if (typeof arr != "object"){ throw("Argument is not an Object or Array. Type is " + typeof arr +".\n"); }
+    var type = (arr instanceof Array); //true->array | false->object
+
+    line = (type)?"[":"{";
+    for(var i in arr ){
+        try{
+            if(!arr.hasOwnProperty(i)){continue;}
+            InternalCounter++;
+            if (type){
+                while (i>InternalCounter){
+                    line += ",";
+                    InternalCounter++;
+                }
+            }else{
+                line += "\"" + i + "\":";
+            }
+            if (typeof arr[i] == "number" || typeof arr[i] == "boolean"){
+                line += arr[i];
+            } else if (typeof arr[i] == "string"){
+                line += "\"" + arr[i].replace(/\\/g,"\\\\").replace(/\"/g,"\\\"") + "\"";
+            } else if(typeof arr[i] == "undefined"){
+                line += 'undefined';
+            } else if(arr[i]==null){
+                line += 'null';
+            } else {
+                line += implode(arr[i],debugName);
+            }
+            line += ",";
+        }catch(err){
+            // GM_logError("implode","debugName="+debugName,"i="+i,err);
+        }
+    }
+    var endChar = line.substring(line.length-1,line.length);
+    return line.substring(0,line.length-1) + (("{[".indexOf(endChar)!=-1)? endChar:"")+ ((type)?"]":"}");
+} catch (err){
+    GM_logError("implode","debugName="+debugName,"",err);
+    throw ("ERROR in function 'implode'");
+}
 }
 function enc(str,sh) {
+try{
     var encoded = "";
     for (i=0; i<str.length;i++) {
         encoded = encoded+String.fromCharCode(str.charCodeAt(i)+sh);
     }
     return encoded;
+}catch(err){ GM_logError("enc","str="+str+" sh="+sh,"",err); }
 }
 function print_r(arr,line,showType,linebreak){
+try{
     var str = new String();
     if (!line){ line=""; }
     if (!showType){ showType=false; }
     if (!linebreak){ linebreak="<br/>"; }
-    try{
     if(typeof arr == "object"){
         for (var i in arr ){
             try{
                 if(!arr.hasOwnProperty(i)){ continue; }
                 var type = (arr instanceof Array);
-                ////GM_log("i:" + i + " : " + typeof arr[i] + " | " + arr + "\n");
+                // GM_logInfo("print_r","","","i:" + i + " : " + typeof arr[i] + " | " + arr + "\n");
                 if (typeof arr[i] == "string" || typeof arr[i] == "number" || typeof arr[i] == "boolean") {
                     str += line + (type?"[":"{") + i + (type?"]":"}") + " = " + arr[i] + ((showType)?" ("+typeof(arr[i])+")":"") + linebreak;
                 } else if(typeof arr[i] == "undefined"){
@@ -863,7 +932,7 @@ function print_r(arr,line,showType,linebreak){
                     str += print_r(arr[i],line +(type?"[":"{") + i + (type?"]":"}"),showType,linebreak);
                 }
             }catch(err){
-                GM_logError("print_r i:"+i+"\n"+err);
+                GM_logError("print_r","","i="+i,err);
                 continue;
             }
         }
@@ -872,52 +941,52 @@ function print_r(arr,line,showType,linebreak){
         str += " = " + arr;
     }
     return str;
-    } catch (err){
-        GM_log("Print_r error : " + err);
-        throw ("Print_r error : " + err);
-    }
+} catch (err){
+    GM_logError("print_r","","",err);
+    throw ("ERROR in function 'print_r'");
+}
 }
 function print_r_time(arr,line){
+try{
     var str = new String();
 //      for (var i = 0; i < arr.length; i++){
-    try{
-        for (var i in arr){
-            try{
-                if(!arr.hasOwnProperty(i)){ continue; }
-                ////GM_log("i:" + i + " : " + typeof arr[i] + " | " + arr + "\n");
-                if (typeof arr[i] == "string" || typeof arr[i] == "number" || typeof arr[i] == "boolean") {
-                    str += line + "[" + i + "] = " + getDaytimeStr(arr[i]) + "<br/>";
-                } else if(typeof arr[i] == "undefined"){
-                    str += line + "[" + i + "] = " + "<br/>";
-                } else {
-                    str += print_r_time(arr[i],line +"[" + i + "]");
-                }
-            }catch(err){
-                GM_logError("print_r_time i:"+i+"\n"+err);
-                continue;
+    for (var i in arr){
+        try{
+            if(!arr.hasOwnProperty(i)){ continue; }
+            // GM_logInfo("print_r_time","","i="+i+" arr="+typeof arr[i]+"|"+arr,"");
+            if (typeof arr[i] == "string" || typeof arr[i] == "number" || typeof arr[i] == "boolean") {
+                str += line + "[" + i + "] = " + getDaytimeStr(arr[i]) + "<br/>";
+            } else if(typeof arr[i] == "undefined"){
+                str += line + "[" + i + "] = " + "<br/>";
+            } else {
+                str += print_r_time(arr[i],line +"[" + i + "]");
             }
+        }catch(err){
+            GM_logError("print_r_time","","i="+i,err);
+            continue;
         }
-        if(!i){str += line + " = " + "undefined" + "<br/>";}
-        return str;
-    } catch (err){
-        GM_log("Print_r_time error : " + err);
-        throw ("Print_r_time error : " + err);
     }
+    if(!i){str += line + " = " + "undefined" + "<br/>";}
+    return str;
+} catch (err){
+    GM_logError("print_r_time","","",err);
+    throw ("ERROR in function 'print_r_time'");
+}
 }
 function Log(obj,pre){
+try{
     if(true){
         if(pre==undefined){ pre=""; }
         if(typeof(obj)=="object"){
-            //GM_log("______________________________ object");
             for(var v in obj){
                 if(!obj.hasOwnProperty(v)){ continue; }
                 Log(obj[v],pre+v+" : ");
             }
-            //GM_log("______________________________ object end");
-        } else {
-            if(typeof(obj)!="function") GM_log(pre+obj);
+        } else if(typeof(obj)!="function"){
+            GM_logWarning("Log","obj="+obj+" pre="+pre,"","");
         }
     }
+}catch(err){ GM_logError("Log","obj="+obj+" pre="+pre,"",err); }
 }
 
 //---------------------------------------------------------------------------------------------------------------------------
@@ -942,92 +1011,118 @@ try{
     }
     if (append){ append.appendChild(newdiv); }
     return newdiv;
-} catch (err){ GM_logError("produktPic\ntype="+type+" product="+product+"\n"+err);return null; }
+} catch(err){ 
+    GM_logError("produktPic","type="+type+" product="+product,"",err);
+    return null; 
+}
 }
 function numberFormat(number,decimals,dec_point,thousands_sep){
-    // http://kevin.vanzonneveld.net
-    // +   original by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
-    // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
-    // +     bugfix by: Michael White (http://getsprink.com)
-    // +     bugfix by: Benjamin Lupton
-    // +     bugfix by: Allan Jensen (http://www.winternet.no)
-    // +    revised by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
-    // +     bugfix by: Howard Yeend
-    // +    revised by: Luke Smith (http://lucassmith.name)
-    // +     bugfix by: Diogo Resende
-    // +     bugfix by: Rival
-    // %        note 1: For 1000.55 result with precision 1 in FF/Opera is 1,000.5, but in IE is 1,000.6
-    // *     example 1: numberFormat(1234.56);
-    // *     returns 1: '1,235'
-    // *     example 2: numberFormat(1234.56, 2, ',', ' ');
-    // *     returns 2: '1 234,56'
-    // *     example 3: numberFormat(1234.5678, 2, '.', '');
-    // *     returns 3: '1234.57'
-    // *     example 4: numberFormat(67, 2, ',', '.');
-    // *     returns 4: '67,00'
-    // *     example 5: numberFormat(1000);
-    // *     returns 5: '1,000'
-    // *     example 6: numberFormat(67.311, 2);
-    // *     returns 6: '67.31'
-    try{
-        var n = number, prec = decimals;
-        n = !isFinite(+n) ? 0 : +n;
-        prec = !isFinite(+prec) ? 0 : Math.abs(prec);
-        var sep = (typeof thousands_sep == "undefined") ? delimThou : thousands_sep; // changed!
-        var dec = (typeof dec_point == "undefined") ? delimDeci : dec_point; // changed!
+// http://kevin.vanzonneveld.net
+// +   original by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
+// +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+// +     bugfix by: Michael White (http://getsprink.com)
+// +     bugfix by: Benjamin Lupton
+// +     bugfix by: Allan Jensen (http://www.winternet.no)
+// +    revised by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
+// +     bugfix by: Howard Yeend
+// +    revised by: Luke Smith (http://lucassmith.name)
+// +     bugfix by: Diogo Resende
+// +     bugfix by: Rival
+// %        note 1: For 1000.55 result with precision 1 in FF/Opera is 1,000.5, but in IE is 1,000.6
+// *     example 1: numberFormat(1234.56);
+// *     returns 1: '1,235'
+// *     example 2: numberFormat(1234.56, 2, ',', ' ');
+// *     returns 2: '1 234,56'
+// *     example 3: numberFormat(1234.5678, 2, '.', '');
+// *     returns 3: '1234.57'
+// *     example 4: numberFormat(67, 2, ',', '.');
+// *     returns 4: '67,00'
+// *     example 5: numberFormat(1000);
+// *     returns 5: '1,000'
+// *     example 6: numberFormat(67.311, 2);
+// *     returns 6: '67.31'
+try{
+    var n = number, prec = decimals;
+    n = !isFinite(+n) ? 0 : +n;
+    prec = !isFinite(+prec) ? 0 : Math.abs(prec);
+    var sep = (typeof thousands_sep == "undefined") ? delimThou : thousands_sep; // changed!
+    var dec = (typeof dec_point == "undefined") ? delimDeci : dec_point; // changed!
 
-        var s = (prec > 0) ? n.toFixed(prec) : Math.round(n).toFixed(prec); //fix for IE parseFloat(0.55).toFixed(0) = 0;
+    var s = (prec > 0) ? n.toFixed(prec) : Math.round(n).toFixed(prec); //fix for IE parseFloat(0.55).toFixed(0) = 0;
 
-        var abs = Math.abs(n).toFixed(prec);
-        var _, i;
+    var abs = Math.abs(n).toFixed(prec);
+    var _, i;
 
-        if (abs >= 1000) {
-            _ = abs.split(/\D/);
-            i = _[0].length % 3 || 3;
+    if (abs >= 1000) {
+        _ = abs.split(/\D/);
+        i = _[0].length % 3 || 3;
 
-            _[0] = s.slice(0,i + (n < 0)) +
-                _[0].slice(i).replace(/(\d{3})/g, sep+'$1');
+        _[0] = s.slice(0,i + (n < 0)) +
+            _[0].slice(i).replace(/(\d{3})/g, sep+'$1');
 
-            s = _.join(dec);
-        } else {
-            s = s.replace('.', dec);
-        }
-        return s;
-    }catch(err){GM_logError("numberFormat\n"+err);return "";}
+        s = _.join(dec);
+    } else {
+        s = s.replace('.', dec);
+    }
+    return s;
+}catch(err){ 
+    GM_logError("numberFormat","number="+number,"",err);
+    return ""; 
+}
 }
 function numberFormatPrefixed(number){
-    // results: 1; 21; 321; 4.321; 54k; 654k; 7.654k; 87M
-    try{
-        if(number>=10000000){
-            return numberFormat(Math.floor(number/1000000))+"M";
-        }else if(number>=10000){
-            return numberFormat(Math.floor(number/1000))+"k";
-        }else{
-            return numberFormat(number);
-        }
-    }catch(err){GM_logError("numberFormatPrefixed\n"+err);return "";}
+// results: 1; 21; 321; 4.321; 54k; 654k; 7.654k; 87M
+try{
+    if(number>=10000000){
+        return numberFormat(Math.floor(number/1000000))+"M";
+    }else if(number>=10000){
+        return numberFormat(Math.floor(number/1000))+"k";
+    }else{
+        return numberFormat(number);
+    }
+}catch(err){ 
+    GM_logError("numberFormatPrefixed","number="+number,"",err);
+    return ""; 
 }
-function moneyFormat(number){return numberFormat(number,2)+"&nbsp;"+getText("gamecurrency");}
-function moneyFormatInt(number){return numberFormat(number,0)+"&nbsp;"+getText("gamecurrency");}
-function moneyFormatLimit(number,limit){return (number>limit?moneyFormatInt(number):moneyFormat(number));}
+}
+function moneyFormat(number){
+try{
+    return numberFormat(number,2)+"&nbsp;"+getText("gamecurrency");
+}catch(err){ GM_logError("moneyFormat","number="+number,"",err); }
+}
+function moneyFormatInt(number){
+try{
+    return numberFormat(number,0)+"&nbsp;"+getText("gamecurrency");
+}catch(err){ GM_logError("moneyFormatInt","number="+number,"",err); }
+}
+function moneyFormatLimit(number,limit){
+try{
+    return (number>limit?moneyFormatInt(number):moneyFormat(number));
+}catch(err){ GM_logError("moneyFormatLimit","number="+number+" limit="+limit,"",err); }
+}
 
 function pointsFormat(number,containertype,append){
+try{
     var newspan = createElement(containertype,{"style":"white-space:nowrap;"},append?append:false);
     newspan.addEventListener("mouseover",function(event){ toolTip.show(event,getText("points")); },false);
 //  createElement("img",{"src":GFX+"points.gif","style":"border:0px;width:12px;height:12px;margin-right:2px;"},newspan);
     createElement("img",{"src":"data:image/gif;base64,R0lGODlhHgAeAMQfAP/ilv/Zdv/SWdikGv/VZkQ0CP/EJYhnEXdaDvO5HuqyHf/dgv/npf/MRLeLFpZyEsWWGP/FK//KO/7BH+KsHP/PT//gjqN8FP/HMayDFW1TDf/INWNLDH5gD6dmAAAAACH5BAEAAB8ALAAAAAAeAB4AAAX/4CeO5OgthFeubOtZaSu7b6rOuOgBljDdudluUVEAgyzPa9GgKJEui4VJcRyhJmlAUr1ilQCURAF5Yk2MMEGSoCS8JKV8rmRYAoLNZGKg+wkBCxYADIWGag0YBhESFYALC3gSEwoDHhINAo+DPCgVEhERGA0VAqYNEVUXD3MJE6OaBAQCnxEGixi5BmQPCBxyOh4OEAMJjA0SG7a3EwlkFx0F0mYmSg8ZEAp8tnuUAxkI0gXASR4XDgPazM0DDgfi1DQerswJzt/h5DkeohETFAMCQoA27gsyA1UyZHDg4MIBDXBoCBiToQOCDg8erOoQTwiBChMycBCnAeODAwciTq7wIAADBA3TPBQoiTJlECUNBkQbJ0cDzZQqTTRQ8CBmMJ8XbeKYd+FXvJ4aEAT9oAQCx4hKEEgN6mHAhY4llHRQ6qLMVKoeyJY7G+xKCAA7","style":"border:0px;width:12px;height:12px;margin-right:2px;"},newspan);
     createElement("span",{},newspan,numberFormat(number));
     return newspan;
+}catch(err){ GM_logError("pointsFormat","number="+number+" containertype="+containertype,"",err); }
 }
 function coinsFormat(number,append){
+try{
     var newdiv = createElement("div",{"style":"display:inline-block;height:16px;"});
     newdiv.addEventListener("mouseover",function(event){ toolTip.show(event,prodName[0]); },false);
     var newdiv1 = produktPic(0,0,newdiv);
     createElement("span",{},newdiv,numberFormat(number));
     if (append) append.appendChild(newdiv);
     return newdiv;
+}catch(err){ GM_logError("coinsFormat","number="+number,"",err); }
 }
 function getForestryUserBuilding(pos){
+try{
     if(unsafeWindow.forestry_user_buildings!=undefined&&pos!=undefined){
         for(var building in unsafeWindow.forestry_user_buildings){
             if(!unsafeWindow.forestry_user_buildings.hasOwnProperty(building)){continue;}
@@ -1037,23 +1132,27 @@ function getForestryUserBuilding(pos){
         }
     }
     return false;
+}catch(err){ GM_logError("coinsFormat","pos="+pos,"",err); }
 }
 //---------------------------------------------------------------------------------------------------------------------------
 
-function getRandom( min, max ){
+function getRandom(min,max){
+try{
     if ( min > max ){return( -1 );  }
     if ( min == max ){return( min );}
     return( min + parseInt( Math.random() * ( max-min+1 ),10 ) );
+}catch(err){ GM_logError("getRandom","min="+min+" max="+max,"",err); }
 }
-function compareVersions(ver1,ver2){
-    // returns -1 if ver1<ver2
-    // returns 0 if ver1=ver2
-    // returns +1 if ver1>ver2
-    if(ver1==ver2){
+function compareVersions(version1,version2){
+// returns -1 if ver1<ver2
+// returns 0 if ver1=ver2
+// returns +1 if ver1>ver2
+try{
+    if(version1==version2){
         return 0;
     } else {
-        ver1 = /(\d+)\.*(.*)/.exec(ver1);
-        ver2 = /(\d+)\.*(.*)/.exec(ver2);
+        var ver1 = /(\d+)\.*(.*)/.exec(version1);
+        var ver2 = /(\d+)\.*(.*)/.exec(version2);
         if(parseInt(ver1[1],10)<parseInt(ver2[1],10)){
             return -1;
         } else if(ver1[1]==ver2[1]){
@@ -1064,21 +1163,23 @@ function compareVersions(ver1,ver2){
             return 1;
         }
     }
+}catch(err){ GM_logError("compareVersions","version1="+version1+" version2="+version2,"",err); }
 }
 
-function alert2(text,yes,no,yesFkt,noFkt){
+function alert2(text,yesText,noText,yesFkt,noFkt){
+try{
     var newdiv = createElement("div",{"style":"display:block;z-index:9999;position:fixed;top:0px;left:0px;width:100%;height:100%;"},top.document.body);
     createElement("div",{"style":"display:block;position:fixed;top:0px;left:0px;width:100%;height:100%;background-color:black;opacity:0.7;"},newdiv);
     newdiv = createElement("div",{"style":"display:block;position:fixed;width:300px;top:50%;left:50%;margin-left:-180px;padding:30px;background-color:yellow;border:3px solid black;border-radius:10px;color:black;font-weight:bold;"},newdiv);
     createElement("div",{"style":"position:relative;color:black;font-weight:bold;"},newdiv,text);
     var newdiv1 = createElement("div",{"style":"position:relative;height:37px;witdh:100%;color:black;font-weight:bold;"},newdiv);
-    var newbutton = createElement("button",{"type":"button","class":"link","style":"position:absolute;top:20px;left:30px;width:100px;font-weight:bold;"},newdiv1,yes);
+    var newbutton = createElement("button",{"type":"button","class":"link","style":"position:absolute;top:20px;left:30px;width:100px;font-weight:bold;"},newdiv1,yesText);
     newbutton.addEventListener("click",function(){
         if(typeof yesFkt=="function"){ yesFkt(); }
         removeElement(this.parentNode.parentNode.parentNode);
     },false);
-    if(no){
-        newbutton = createElement("button",{"type":"button","class":"link","style":"position:absolute;top:20px;right:30px;width:100px;font-weight:bold;"},newdiv1,no);
+    if(noText){
+        newbutton = createElement("button",{"type":"button","class":"link","style":"position:absolute;top:20px;right:30px;width:100px;font-weight:bold;"},newdiv1,noText);
         newbutton.addEventListener("click",function(){
             if(typeof noFkt=="function"){ noFkt(); }
             removeElement(this.parentNode.parentNode.parentNode);
@@ -1086,8 +1187,8 @@ function alert2(text,yes,no,yesFkt,noFkt){
     }
     newdiv.style.marginTop = -(newdiv.offsetHeight/2)+"px";
     newdiv=null;newdiv1=null;newbutton=null;
+}catch(err){ GM_logError("alert2","text="+text+" yesText="+yesText+" noText="+noText,"",err); }
 }
-
 
 // CONSTANTS / GLOBALS ************************************************************************************************
 // DOM
@@ -1097,159 +1198,163 @@ var container = null;
 try{
     if(!unsafeWindow.greaseMonkeyData){ createObjectIn(unsafeWindow, {defineAs: "greaseMonkeyData"}); }
     var unsafeData = unsafeWindow.greaseMonkeyData;
-}catch(err){ GM_logError("unsafeData ("+location.href+")\n"+err); }
+}catch(err){ GM_logError("unsafeData","","location.href="+location.href,err); }
 try{
     if(!top.window.wrappedJSObject.greaseMonkeyData){ createObjectIn(top.window.wrappedJSObject, {defineAs: "greaseMonkeyData"}); }
     top.unsafeData = top.window.wrappedJSObject.greaseMonkeyData;
-}catch(err){ GM_logError("top.unsafeData ("+location.href+")\n"+err); }
+}catch(err){ GM_logError("top.unsafeData","","location.href="+location.href,err); }
 const STAT_SERVER = {"AE":"http://mff.metrax.eu","AU":"http://mff.metrax.eu","BG":"http://mff.metrax.eu","BR":"http://mff.metrax.eu","DE":"http://mff.metrax.eu","DK":"http://mff.metrax.eu","ES":"http://mff.metrax.eu","FR":"http://mff.metrax.eu","GR":"http://mff.metrax.eu","HR":"http://mff.metrax.eu","HU":"http://mff.metrax.eu","IR":"http://mff.metrax.eu","IT":"http://mff.metrax.eu","NL":"http://mff.metrax.eu","NO":"http://mff.metrax.eu","NZ":"http://mff.metrax.eu","PL":"http://mff.metrax.eu","PT":"http://mff.metrax.eu","RO":"http://mff.metrax.eu","RU":"http://mff.metrax.eu","SE":"http://mff.metrax.eu","TH":"http://mff.metrax.eu","TR":"http://mff.metrax.eu","UK":"http://mff.metrax.eu","US":"http://mff.metrax.eu","VN":"http://mff.metrax.eu"};
 // Helping Classes ****************************************************************************************************
 if(top.unsafeData.toolTip){
     var toolTip=top.unsafeData.toolTip;
 }else{
     var toolTip=new function(){
+    try{
         var container=null;
-        this.mousemove=function(evt){
-            try{
-                if(container.style.display!="none"){
-                    var help=getOffset(frameElement);
-                    var cleft=(evt.pageX+help.left-(container.offsetWidth/3));
-                    var mleft=Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
-                    container.style.left=Math.max(0,cleft + mleft) + "px";
-                    container.style.top=Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - container.offsetHeight)<0)?(evt.pageY+help.top-25-container.offsetHeight):(evt.pageY+help.top+25)) + "px";
-                }
-            }catch(err){GM_logError("toolTip.mousemove\n"+err);}
+        this.mousemove=function(event){
+        try{
+            if(container.style.display!="none"){
+                var help=getOffset(frameElement);
+                var cleft=(event.pageX+help.left-(container.offsetWidth/3));
+                var mleft=Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
+                container.style.left=Math.max(0,cleft + mleft) + "px";
+                container.style.top=Math.max(0,((top.document.body.clientHeight - event.pageY+help.top - 25 - container.offsetHeight)<0)?(event.pageY+help.top-25-container.offsetHeight):(event.pageY+help.top+25)) + "px";
+            }
+        }catch(err){ GM_logError("toolTip.mousemove","event="+event,"",err); }
         };
         this.init=function(){
-            try{
-                container=$top("divToolTip");
-                if((container==null)&&(self==top)){
-                    container=createElement("div",{"id":"divToolTip","style":"z-index:999;overflow:visible;max-width:1000px;display:none;position:absolute;padding:4px;background-color:#fff;color:#000;border:2px solid #885F49;border-radius:5px;font-size:11px;"},ALL); // ="class":"ttbox"
-                    window.addEventListener("mousemove",toolTip.mousemove,false);
-                }else{
-                    toolTip.hide(); // important when a frame loads while tooltip opened
-                }
-            }catch(err){GM_logError("toolTip.init\n"+err);}
+        try{
+            container=$top("divToolTip");
+            if((container==null)&&(self==top)){
+                container=createElement("div",{"id":"divToolTip","style":"z-index:999;overflow:visible;max-width:1000px;display:none;position:absolute;padding:4px;background-color:#fff;color:#000;border:2px solid #885F49;border-radius:5px;font-size:11px;"},ALL); // ="class":"ttbox"
+                window.addEventListener("mousemove",toolTip.mousemove,false);
+            }else{
+                toolTip.hide(); // important when a frame loads while tooltip opened
+            }
+        }catch(err){ GM_logError("toolTip.init","","",err); }
         };
-        this.show=function(evt,content){
-            try{
-                var help = getOffset(frameElement);
-                container.setAttribute("targetId",evt.target.id);
-                container.innerHTML = content;
-                container.style.display = "block";
-                window.addEventListener("mouseout",toolTip.hide,false);
-                var cleft = (evt.pageX+help.left-(container.offsetWidth/3));
-                var mleft = Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
-                container.style.left = Math.max(0,cleft + mleft) + "px";
-                container.style.top = Math.max(0,((top.document.body.clientHeight - evt.pageY+help.top - 25 - container.offsetHeight)<0)?(evt.pageY+help.top-25-container.offsetHeight):(evt.pageY+help.top+25)) + "px";
-            }catch(err){GM_logError("toolTip.show\n"+err);}
+        this.show=function(event,content){
+        try{
+            var help = getOffset(frameElement);
+            container.setAttribute("targetId",event.target.id);
+            container.innerHTML = content;
+            container.style.display = "block";
+            window.addEventListener("mouseout",toolTip.hide,false);
+            var cleft = (event.pageX+help.left-(container.offsetWidth/3));
+            var mleft = Math.min(0,(top.document.body.clientWidth - cleft - container.offsetWidth));
+            container.style.left = Math.max(0,cleft + mleft) + "px";
+            container.style.top = Math.max(0,((top.document.body.clientHeight - event.pageY+help.top - 25 - container.offsetHeight)<0)?(event.pageY+help.top-25-container.offsetHeight):(event.pageY+help.top+25)) + "px";
+        }catch(err){ GM_logError("toolTip.show","event="+event,"",err); }
         };
         this.adjust=function(targetElem){
-            try{
-                if (targetElem!=undefined && container.getAttribute("targetId")==targetElem.id){
-                    var xLeft = container.offsetLeft;
-                    var xTop = container.offsetTop;
-                    var B = document.createEvent("MouseEvents");
-                    B.initEvent("mouseout", true, true);
-                    targetElem.dispatchEvent(B);
-                    B.initEvent("mouseover", true, true);
-                    //B.initMouseEvent("mouseover", true, true, window,0, 0, 0, 0, 0, false, false, false, false, 0, null); //TODO set the correct coords
-                    targetElem.dispatchEvent(B);
-                    container.style.left = xLeft+"px";
-                    container.style.top = xTop+"px";
-                }
-            }catch(err){GM_logError("toolTip.adjust\n"+err);}
+        try{
+            if (targetElem!=undefined && container.getAttribute("targetId")==targetElem.id){
+                var xLeft = container.offsetLeft;
+                var xTop = container.offsetTop;
+                var B = document.createEvent("MouseEvents");
+                B.initEvent("mouseout", true, true);
+                targetElem.dispatchEvent(B);
+                B.initEvent("mouseover", true, true);
+                //B.initMouseEvent("mouseover", true, true, window,0, 0, 0, 0, 0, false, false, false, false, 0, null); //TODO set the correct coords
+                targetElem.dispatchEvent(B);
+                container.style.left = xLeft+"px";
+                container.style.top = xTop+"px";
+            }
+        }catch(err){ GM_logError("toolTip.adjust","","",err); }
         };
         this.hide=function(){
-            try{
-                window.removeEventListener("mouseout",toolTip.hide,false);
-                if(container){
-                    container.setAttribute("targetId","");
-                    container.style.display = "none";
-                    container.innerHTML = "";
-                }
-            }catch(err){GM_logError("toolTip.hide\n"+err);}
+        try{
+            window.removeEventListener("mouseout",toolTip.hide,false);
+            if(container){
+                container.setAttribute("targetId","");
+                container.style.display = "none";
+                container.innerHTML = "";
+            }
+        }catch(err){ GM_logError("toolTip.hide","","",err); }
         };
+    }catch(err){ GM_logError("toolTip","","",err); }
     }
     top.unsafeData.toolTip=toolTip;}
 if(top.unsafeData.logBubble){
     var logBubble=top.unsafeData.logBubble;
 }else{
     var logBubble=new function(){
+    try{
         var container=null;
         var elements=[];
         var clearActive=false;
         var isMouseOver=false;
         this.init=function(){
-            try{
-                if((!container)&&ALL){
-                    container=createElement("div",{"id":"_divLogBubbleBox","style":"position:fixed;right:0;bottom:0;z-index:999;","isMouseOver":"0"},ALL);
-                    container.addEventListener("mouseover",function(event){
-                        try{
-                            isMouseOver=true;
-                        }catch(err){GM_logError("logBubble.mouseOver\n"+err);}
-                    },false);
-                    container.addEventListener("mouseout",function(event){
-                        try{
-                            var nodeSource=event.target;
-                            if(nodeSource&&(nodeSource!=this)){
-                                while(nodeSource=nodeSource.parentNode){
-                                    if(this==nodeSource){ break; }
-                                }
-                            }
-                            var nodeTarget=event.relatedTarget;
-                            if(nodeTarget&&(nodeTarget!=this)){
-                                while(nodeTarget=nodeTarget.parentNode){
-                                    if(this==nodeTarget){ break; }
-                                }
-                            }
-                            if(nodeSource!=nodeTarget){
-                                isMouseOver=false;
-                                logBubble.clear();
-                            }
-                        }catch(err){GM_logError("logBubble.mouseOut\n"+err);}
-                    },false);
-                }
-            }catch(err){GM_logError("logBubble.init\n"+err);}
-        };
-        this.add=function(text,timer,color){
-            try{
-                if(!container){ logBubble.init(); }
-                if(container){
-                    if(timer==undefined){ timer=10; }
-                    if(color==undefined){ color="blue"; }
-                    now=Math.floor((new Date()).getTime()/1000);
-                    elements.push(now+timer);
-                    createElement("div",{"class":"blackbox","style":"color:white;background-color:"+color+";border:2px solid black;border-radius:10px;padding:5px;margin-top:5px;"},container,getDaytimeStr(now)+"&nbsp;"+text);
-                    window.setTimeout(logBubble.clear,1000*timer+1);
-                }
-            }catch(err){GM_logError("logBubble.add\n"+err);}
-        };
-        this.clear=function(){
-            try{
-                if(clearActive){
-                    window.setTimeout(logBubble.clear,200);
-                }else if(container){
-                    clearActive=true;
-                    now=Math.floor((new Date()).getTime()/1000);
-                    if(!isMouseOver){
-                        for (var i=elements.length-1;i>=0;i--){
-                            if (elements[i]<=now){
-                                removeElement(container.children[i]);
-                                elements.splice(i,1);
+        try{
+            if((!container)&&ALL){
+                container=createElement("div",{"id":"_divLogBubbleBox","style":"position:fixed;right:0;bottom:0;z-index:999;","isMouseOver":"0"},ALL);
+                container.addEventListener("mouseover",function(event){
+                    try{
+                        isMouseOver=true;
+                    }catch(err){ GM_logError("logBubble.mouseOver","event="+event,"",err); }
+                },false);
+                container.addEventListener("mouseout",function(event){
+                    try{
+                        var nodeSource=event.target;
+                        if(nodeSource&&(nodeSource!=this)){
+                            while(nodeSource=nodeSource.parentNode){
+                                if(this==nodeSource){ break; }
                             }
                         }
+                        var nodeTarget=event.relatedTarget;
+                        if(nodeTarget&&(nodeTarget!=this)){
+                            while(nodeTarget=nodeTarget.parentNode){
+                                if(this==nodeTarget){ break; }
+                            }
+                        }
+                        if(nodeSource!=nodeTarget){
+                            isMouseOver=false;
+                            logBubble.clear();
+                        }
+                    }catch(err){ GM_logError("logBubble.mouseOut","event="+event,"",err); }
+                },false);
+            }
+        }catch(err){ GM_logError("logBubble.init","","",err); }
+        };
+        this.add=function(text,timer,color){
+        try{
+            if(!container){ logBubble.init(); }
+            if(container){
+                if(timer==undefined){ timer=10; }
+                if(color==undefined){ color="blue"; }
+                now=Math.floor((new Date()).getTime()/1000);
+                elements.push(now+timer);
+                createElement("div",{"class":"blackbox","style":"color:white;background-color:"+color+";border:2px solid black;border-radius:10px;padding:5px;margin-top:5px;"},container,getDaytimeStr(now)+"&nbsp;"+text);
+                window.setTimeout(logBubble.clear,1000*timer+1);
+            }
+        }catch(err){ GM_logError("logBubble.add","text="+text,"",err); }
+        };
+        this.clear=function(){
+        try{
+            if(clearActive){
+                window.setTimeout(logBubble.clear,200);
+            }else if(container){
+                clearActive=true;
+                now=Math.floor((new Date()).getTime()/1000);
+                if(!isMouseOver){
+                    for (var i=elements.length-1;i>=0;i--){
+                        if (elements[i]<=now){
+                            removeElement(container.children[i]);
+                            elements.splice(i,1);
+                        }
                     }
-                    clearActive = false;
                 }
-            }catch(err){GM_logError("logBubble.clear\n"+err);}
+                clearActive = false;
+            }
+        }catch(err){ GM_logError("logBubble.clear","","",err); }
         };
         this.test=function(){
-            try{
-                GM_log("CALL logBubble.test");
-                logBubble.add("logBubble.test");
-            }catch(err){GM_logError("logBubble.test\n"+err);}
+        try{
+            GM_logInfo("logBubble.test","","","");
+            logBubble.add("logBubble.test");
+        }catch(err){ GM_logError("logBubble.test","","",err); }
         };
+    }catch(err){ GM_logError("logBubble","","",err); }
     }
     top.unsafeData.logBubble=logBubble;
 }
@@ -1257,31 +1362,33 @@ if(top.unsafeData.tracking){
     var tracking=top.unsafeData.tracking;
 }else{
     var tracking=new function(){
+    try{
         var data={};
         this.init=function(skriptName){
-            try{
-                if(!data[skriptName]){
-                    data[skriptName] = [];
-                    GM_registerMenuCommand("show tracking of "+skriptName, function(skriptName){
-                    return function(){
-                        tracking.plot(skriptName);
-                    }
-                    }(skriptName));
+        try{
+            if(!data[skriptName]){
+                data[skriptName] = [];
+                GM_registerMenuCommand("show tracking of "+skriptName, function(skriptName){
+                return function(){
+                    tracking.plot(skriptName);
                 }
-            }catch(err){GM_logError("tracking.init\n"+err);}
+                }(skriptName));
+            }
+        }catch(err){ GM_logError("tracking.init","skriptName="+skriptName,"",err); }
         };
         this.start=function(skriptName,functionName,parameterArray){
-            try{
-                return data[skriptName].push([functionName,(new Date()).getTime(),null,parameterArray]);
-            }catch(err){GM_logError("tracking.start\n"+err);}
+        try{
+            return data[skriptName].push([functionName,(new Date()).getTime(),null,parameterArray]);
+        }catch(err){ GM_logError("tracking.start","skriptName="+skriptName+" functionName="+functionName,"",err); }
         };
         this.end=function(skriptName,trackingHandle){
-            try{
-                data[skriptName][trackingHandle-1][2]=(new Date()).getTime();
-                // check for long durations?
-            }catch(err){GM_logError("tracking.end\n"+err);}
+        try{
+            data[skriptName][trackingHandle-1][2]=(new Date()).getTime();
+            // check for long durations?
+        }catch(err){ GM_logError("tracking.end","skriptName="+skriptName,"",err); }
         };
         this.plot=function(skriptName){
+        try{
             var container=createElement("div",{"style":"z-index:995;position:absolute;top:0;left:0;background-color:white;height:100%;"},ALL);
             var div=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:0;right:0;width:20px;height:20px;margin:5px;"},container);
             div.addEventListener("click",function(){ removeElement(this.parentNode); },false);
@@ -1302,7 +1409,9 @@ if(top.unsafeData.tracking){
                 }
                 createElement("td",{},table,data[skriptName][i][3]?implode(data[skriptName][i][3],"tracking.plot"):"");
             }
+        }catch(err){ GM_logError("tracking.plot","skriptName="+skriptName,"",err); }
         };
+    }catch(err){ GM_logError("tracking","","",err); }
     }
     top.unsafeData.tracking=tracking;
 }
@@ -1334,17 +1443,17 @@ const sortObjFunctions = {
 // Strings
 var LANGUAGE = null;
 var texte = new Object();
-function getText(id){
-    try{
-        if(texte[LANGUAGE]&&texte[LANGUAGE][id]){
-            return texte[LANGUAGE][id];
-        }else if(texte["en"]&&texte["en"][id]){
-            return texte["en"][id];
-        }else{
-            return "";
-            GM_logWarning("Text '"+id+"' not found!");
-        }
-    }catch(err){GM_logError("getText id="+id+"\n"+err);}
+function getText(id,noWarning){
+try{
+    if(texte[LANGUAGE]&&texte[LANGUAGE][id]){
+        return texte[LANGUAGE][id];
+    }else if(texte["en"]&&texte["en"][id]){
+        return texte["en"][id];
+    }else{
+        if(!noWarning){ GM_logWarning("getText","id="+id,"LANGUAGE="+LANGUAGE,"Text not found."); }
+        return "";
+    }
+}catch(err){ GM_logError("getText","id="+id+" noWarning="+noWarning,"",err); }
 }
 var delimThou = ".";
 var regDelimThou = "\\.";
@@ -1396,7 +1505,7 @@ try{
     ALL = document.getElementsByTagName("body")[0];
     GFX = top.window.wrappedJSObject._GFX?top.window.wrappedJSObject._GFX:"http://mff.wavecdn.de/mff/";
     toolTip.init();
-}catch(err){ GM_logError("startScript\npage="+location.href+"\n"+err); }
+}catch(err){ GM_logError("startScript","","location.href="+location.href,err); }
 }
 if((document.readyState=="complete")||(document.readyState=="loaded")){
     startScript();
