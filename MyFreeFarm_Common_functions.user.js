@@ -28,6 +28,37 @@ try{
     return this.charAt(0).toUpperCase() + this.slice(1);
 }catch(err){ GM_logError("String.prototype.capitalize","","",err); }
 };
+Array.prototype.equals = function(that){
+try{
+   // if the other array is a falsy value, return
+    if (!that)
+        return false;
+
+    // compare lengths - can save a lot of time 
+    if (this.length != that.length)
+        return false;
+
+    for (var i = 0, l=this.length; i < l; i++) {
+        // Check if we have nested arrays
+        if (this[i] instanceof Array && that[i] instanceof Array) {
+            // recurse into the nested arrays
+            if (!this[i].equals(that[i]))
+                return false;
+        }
+        /**REQUIRES OBJECT COMPARE**/
+        else if (this[i] instanceof Object && that[i] instanceof Object) {
+            // recurse into another objects
+            //console.log("Recursing to compare ", this[propName],"with",object2[propName], " both named \""+propName+"\"");
+            if (!this[i].equals(that[i]))
+                return false;
+            }
+        else if (this[i] != that[i]) {
+            return false;   
+        }           
+    }       
+    return true;
+}catch(err){ GM_logError("Array.prototype.equals","","",err); }
+}  
 Array.prototype.shuffle = function (){
 try{
     var i=this.length, j, temp;
@@ -51,6 +82,60 @@ try{
     temp=null;
 }catch(err){ GM_logError("Array.prototype.swap","from, to","",err); }
 };
+Object.prototype.equals = function(that) {
+try{    
+    //For the first loop, we only check for types
+    for (propName in this) {
+        //Check for inherited methods and properties - like .equals itself
+        //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+        //Return false if the return value is different
+        if (this.hasOwnProperty(propName) != that.hasOwnProperty(propName)) {
+            return false;
+        }
+        //Check instance type
+        else if (typeof this[propName] != typeof that[propName]) {
+            //Different types => not equal
+            return false;
+        }
+    }
+    //Now a deeper check using other objects property names
+    for(propName in that) {
+        //We must check instances anyway, there may be a property that only exists in object2
+            //I wonder, if remembering the checked values from the first loop would be faster or not 
+        if (this.hasOwnProperty(propName) != that.hasOwnProperty(propName)) {
+            return false;
+        }
+        else if (typeof this[propName] != typeof that[propName]) {
+            return false;
+        }
+        //If the property is inherited, do not check any more (it must be equa if both objects inherit it)
+        if(!this.hasOwnProperty(propName))
+          continue;
+
+        //Now the detail check and recursion
+
+        //This returns the script back to the array comparing
+        /**REQUIRES Array.equals**/
+        if (this[propName] instanceof Array && that[propName] instanceof Array) {
+                   // recurse into the nested arrays
+           if (!this[propName].equals(that[propName]))
+                        return false;
+        }
+        else if (this[propName] instanceof Object && that[propName] instanceof Object) {
+                   // recurse into another objects
+                   //console.log("Recursing to compare ", this[propName],"with",object2[propName], " both named \""+propName+"\"");
+           if (!this[propName].equals(that[propName]))
+                        return false;
+        }
+        //Normal value comparison for strings and numbers
+        else if(this[propName] != that[propName]) {
+           return false;
+        }
+    }
+    //If everything passed, let's say YES
+    return true;
+}catch(err){ GM_logError("Object.prototype.equals","","",err); }    
+}  
 Object.prototype.order = new Array();
 Object.prototype.sortObj = function(sortfkt,descending){
     // sortfkt:
@@ -452,9 +537,12 @@ try{
 }
 function removeAllCSS(reg){
 try{
+// The function seems to be not working. 
+// "SecurityError: The operation is insecure."
+return; 
     for (var i = document.styleSheets.length - 1; i >= 0; i--) {
         for (var j = document.styleSheets[i].cssRules.length - 1; j >= 0; j--) {
-            if( document.styleSheets[i].cssRules[j].selectorText&&(document.styleSheets[i].cssRules[j].selectorText.match(reg))){
+            if(document.styleSheets[i].cssRules[j].selectorText&&(document.styleSheets[i].cssRules[j].selectorText.match(reg))){
                 document.styleSheets[i].deleteRule(j);
             }
         }
