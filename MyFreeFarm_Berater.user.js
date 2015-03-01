@@ -4981,14 +4981,24 @@ function buildInfoPanelMegafield(){
         createElement("th",{"style":"white-space:nowrap;"},tr,"Difficulty"); //TODO texte
         createElement("th",{"style":"white-space:nowrap;"},tr,"Products"); //TODO texte
         createElement("th",{"style":"white-space:nowrap;"},tr,"Reward"); //TODO texte
+        createElement("th",{"style":"white-space:nowrap;"},tr,"Difficulty bonus"); //TODO texte
+        createElement("th",{"style":"white-space:nowrap;"},tr,"Time bonus"); //TODO texte
 
         for(var v=logMegafieldJob.length-1;v>=0;v--){
             tr=createElement("tr",{},table);
             createElement("td",{},tr,getFormattedDateStr(logMegafieldJob[v][0])+" "+getDaytimeStr(logMegafieldJob[v][0]));
             createElement("td",{},tr,logMegafieldJob[v][1]?getFormattedDateStr(logMegafieldJob[v][1])+" "+getDaytimeStr(logMegafieldJob[v][1]):"-");
             createElement("td",{},tr,logMegafieldJob[v][2]);
-            createElement("td",{},tr,implode(logMegafieldJob[v][3],"buildInfoPanelMegafield/logMegafieldJob"));
-            createElement("td",{},tr,implode(logMegafieldJob[v][4],"buildInfoPanelMegafield/logMegafieldJob"));
+            td=createElement("td",{},tr);
+            for(var i=0;i<logMegafieldJob[v][3].length;i++){
+                createElement("div",{},td,implode(logMegafieldJob[v][3][i],"buildInfoPanelMegafield/logMegafieldJob"));
+            }
+            for(var i=4;i<=6;i++){
+                td=createElement("td",{},tr);
+                createElement("div",{},td,numberFormat(logMegafieldJob[v][i][0])+"&nbsp;"+getText("points"));
+                createElement("div",{},td,moneyFormatInt(logMegafieldJob[v][i][1]));
+                createElement("div",{},td,numberFormat(logMegafieldJob[v][i][2])+"&nbsp;"+getText("megafieldCurrency"));
+            }
         }
         container=null;div=null;table=null;tr=null;td=null;
     }catch(err){GM_logError("buildInfoPanelMegafield","","",err);}
@@ -13176,7 +13186,7 @@ GM_registerMenuCommand("logMegafieldJob", function(){
                 }
                 // Store data of job and reward
                 var job_start=parseInt(unsafeWindow.megafield_data.job_start,0);
-                var products;
+                var products,reward;
                 for(var i=logMegafieldJob.length-1;i>=0;i--){
                     if(logMegafieldJob[i][0]==job_start){ 
                         break; 
@@ -13210,9 +13220,23 @@ GM_registerMenuCommand("logMegafieldJob", function(){
                     }
                 }
                 if(unsafeWindow.megafield_data.reward){
-                    logMegafieldJob[i][4]=unsafeWindow.megafield_data.reward;
+                    reward=unsafeWindow.megafield_data.reward;
                 }else if(unsafeWindow.megafield_data.reward_info){
-                    logMegafieldJob[i][4]=unsafeWindow.megafield_data.reward_info;
+                    reward=unsafeWindow.megafield_data.reward_info;
+                }
+                if(reward){
+                    logMegafieldJob[i][5]=[0,0,0];
+                    if(reward.difficultybonus_points ){ logMegafieldJob[i][5][0]=reward.difficultybonus_points; }
+                    if(reward.difficultybonus_money  ){ logMegafieldJob[i][5][1]=reward.difficultybonus_money; }
+                    if(reward.difficultybonus_license){ logMegafieldJob[i][5][2]=reward.difficultybonus_license; }
+                    logMegafieldJob[i][6]=[0,0,0];
+                    if(reward.timebonus_points ){ logMegafieldJob[i][6][0]=reward.timebonus_points; }
+                    if(reward.timebonus_money  ){ logMegafieldJob[i][6][1]=reward.timebonus_money; }
+                    if(reward.timebonus_license){ logMegafieldJob[i][6][2]=reward.timebonus_license; }
+                    logMegafieldJob[i][4]=[0,0,0];
+                    if(reward.points ){ logMegafieldJob[i][4][0]=reward.points -logMegafieldJob[i][5][0]-logMegafieldJob[i][6][0]; }
+                    if(reward.money  ){ logMegafieldJob[i][4][1]=reward.money  -logMegafieldJob[i][5][1]-logMegafieldJob[i][6][1]; }
+                    if(reward.license){ logMegafieldJob[i][4][2]=reward.license-logMegafieldJob[i][5][2]-logMegafieldJob[i][6][2]; }
                 }
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logMegafieldJob",implode(logMegafieldJob,"setTourVehicleMegafield/logMegafieldJob"));
             }
@@ -18502,6 +18526,7 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["marketplace"]="Marktplatz";
     texte["de"]["marketstall"]="Marktstand";
     texte["de"]["megafield"]="G"+u_dots+"terhof";
+    texte["de"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;
     texte["de"]["messages"]="Nachrichten";
     texte["de"]["minRack"]="Min&nbsp;Lager";
     texte["de"]["minRackamount"]="Minimaler Lagerbestand";
@@ -18846,6 +18871,7 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["marketplace"]="Market place";
     texte["en"]["marketstall"]="Market stall";
     texte["en"]["megafield"]="Megafield";
+    texte["en"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;    
     texte["en"]["messages"]="Messages";
     texte["en"]["minRack"]="Min&nbsp;rack";
     texte["en"]["minRackamount"]="Minimal rackamount";
