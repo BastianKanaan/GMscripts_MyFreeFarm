@@ -1361,7 +1361,7 @@ if(top.unsafeData.toolTip){
         }catch(err){ GM_logError("toolTip.hide","","",err); }
         };
     }catch(err){ GM_logError("toolTip","","",err); }
-    }
+    };
     top.unsafeData.toolTip=toolTip;}
 if(top.unsafeData.logBubble){
     var logBubble=top.unsafeData.logBubble;
@@ -1443,7 +1443,7 @@ if(top.unsafeData.logBubble){
         }catch(err){ GM_logError("logBubble.test","","",err); }
         };
     }catch(err){ GM_logError("logBubble","","",err); }
-    }
+    };
     top.unsafeData.logBubble=logBubble;
 }
 if(top.unsafeData.tracking){
@@ -1500,7 +1500,7 @@ if(top.unsafeData.tracking){
         }catch(err){ GM_logError("tracking.plot","skriptName="+skriptName,"",err); }
         };
     }catch(err){ GM_logError("tracking","","",err); }
-    }
+    };
     top.unsafeData.tracking=tracking;
 }
 // Constants **********************************************************************************************************

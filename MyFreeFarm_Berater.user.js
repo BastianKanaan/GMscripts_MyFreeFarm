@@ -139,8 +139,8 @@ const IMAGES={"leftarrow":"data:image/gif;base64,R0lGODlhIwAaAPcAAEQWBLyCVIROJKR
              ,"category_r1_active":"data:image/png;base64,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"
              ,"category_r2_active":"data:image/png;base64,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"
              ,"openBook":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABF1JREFUeNrMV01oHVUU%2Fu7MnXl%2F5uUleQkxocGfopiKlUpAumiXLly6cqNuBBeupCAKbgWhCoro0qIbRQy4KIhdWNNasCgSkya2aqxtYpO%2B%2FDXJ%2B5ufezxzZ15m0rymeTF9OHCYO3fmnu%2B73zn33DuCiPB%2FvezJc6PkLF6uXZse%2B%2B7it6de5D6jnQS6Js59RVSZJaovEbkbtDo%2FQz%2BfOfXlx%2B%2Bc6GwHgb7JgED5OpNYIPLKFF6K5qZ%2FoLOjH7y0H4rs7ECI8M55QkpxQ%2BnHgUeP4PDI8U%2FOfPHefw6LvBP0G6%2B9cnBrV5SsxCQ8D4X%2BAxh%2B4si7o599NFTsKbyetmVG8TfVmgPl%2BeOu6552fe88c19K2VI889zLF2MnCaDobk1%2F%2F%2FmcA6vX45lSNOO0beHxp0aCfARZWQgrxyLwe68CQQ7gVvHL%2Ba9R7MnDznRBZgpI5Qqo1gnr5SrKG%2BvwXTckTYF%2BClIQbKqUHjv2%2FCA7dgMF5CMnTp8tdqO3ePAwyHEZw9ODLk1M3Fm7YPlKC1mzCkV5%2BIogfJ%2FF8ZDv6kdxsAAhM4kBTESxCR%2BLUxd6A8wrJ589HhDICmkf9b0qO8yiVppm7JCELhGU0KkZj4hLzIvg1iucGZJVkRCmySGraSNVhch2QTFRYVpHA%2BwggVKbrpQftcTOqLu8KEFqkyiHUCnV%2BCRlNJCUjhNFT%2BLeLvAAKwIytsQU7SjLBErgGDEp7iS%2FDbOnhNLJItJ40Q4FqJkCevbqHoOLsKqSfzsBEbJqkwJopoDuVH57QqCahQC7qDr7mYTbFVDNQxDsiELsIzEuRAkcmSyhYYFIYjOowRyFyRUjqllC7EMOxMt9x0KUsoC%2FL0%2Fg5uwMPKceEUiQ2XMOblNAJApRXMfz91lw6mtYmlvA3MyvMO0sBh56Ej39Q%2BEmo%2FZSuKgJAYEwLkSb7oLHbMpmFQzkMhZ8z4HDKpT%2BuIDZKz%2Fi4UNPo6On2BK8jt5tSidCsL0Q0ZakFZA8646ciULawczkGDaWShwOU%2BdKw%2BIcETsooJocySJSQXyFElucGkZQwYzQmARTQSfVsDz%2FOwx%2BNrUZMKWEZDNNyf1GOI6%2F1jnTGC8ae4GICYQg3OBBtiXhCwXPICi%2BG3yvbFSwuLiMlZU11Gp1XTP4mIe%2BPn7Pqs38OYe6d439sDrdvSj0DWLggWFYme5wVmaaTe%2F5DOaxT2NTKE3A4Ker%2F6xi4uo38Cmu2yIKXKxGmmcTHrMcVnH9hj5OakW0QwaYL63hxsIKpsbHdWLHW28YHpNVydsB5lBMQPLsf7uVQl2Zdz0RiEZucGs4t6r7psqFYB1tvrvb%2BFTN15gxATjrb%2F3U3dHqkn5%2FZBnXnU6cHM%2B3XA4O3O%2BuNwgV2B4MfsVaWNTy0KufvnmzJo%2FpX6i0N3bpwxfe5qbXwnFxhe0voYMI5PThf%2FdXcJDtYWv8I95iW2Krt%2BCDfyxQ3mthD3I6G5%2BoNTCfxdHyfv6vAAMAY9sGXiBC2hIAAAAASUVORK5CYII%3D"
-             ,"openBookGold":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wMBDTgNsVZK%2BgAAA%2BNJREFUWMPNl89rXFUUxz%2Fnvl8zk0nND6w1RkWQihUsCCpUsEtBoSLqQgrqwoKCG6Ug9Q9wFV2IuBNFV1ItuMhGQUMRIVkIhdYWQUzFml9mkslkfr5373HxZjIzZhIzcUy9q%2Ffe5Z7vOd9zzveeJ6rK%2F3WFN2ZPa2P%2BjcZvVy9%2BN%2Ff1Jy8BZtAgssve6I3Z04WJyUkwEYhHpVLm2i%2FHvpj78fIrr701VRyEA7tFFGw9OQcCufwoDx3%2F47lTp55Zn7nw%2FsuDYMTsjR9FnQIOgImxbzn%2B8MmPv%2Fn8vX%2BdFn8n6HNvvnovlLbvqIKzjARfcuzBR9698NmHd913x%2BVzQ5n1SFHmC0%2FiEnspjuPp2Cbfq7Iahb488eyZOUB3ijFYnH2%2BkGiYd82uUFV8zzAxOQn4qAkQLwAFdQ0ECzbm9%2FmfyGUjvDCL8TN4UY4kURpxQqNWx1mbOg0oDoPiU9888uj5MSD2Af%2Fo2emZbO58%2FtD4bagF5xJAWVxY2pk7BYyHLwlKhHMpiOcsUXaY4UNZxAQdByyoBZSNlfn80bPTMz9PPXXSB3Lihyc0sWAiauUlVB04x34UQlWxSUxDPMLAICLgEnAW1ToS5FAL4gUngJwBoq2Q1O2xQ%2FfoTEfZaOtdFXVbOJFpIW0JohyAxKlrAYnpqu6bsEwXXWoPgIJmPqSXEB0IC4p2lHeHA66XTgz%2B6lG6cExr42ZdymZbbg4oCb0d6KyO%2Fwxdd2BAdZcilMHGrz0YSL%2B57bAiYAQxMjhH2kLErkLk%2BbC6vEhxvUCSNDVCmvo%2BCI1uzwPSTEE3A5nQYOMG1eImpcIC4gUMj08wnB9BxOyzbbtT7bfx0y4Q2q0aBh4uMATWoInF2oTKn9fZWLnO2JG7yWWH9jGAai8d2L7RlRlNjxuEMISsrxQW5qlUy6TZEESkXTP%2F2ISux0jWxBYxqRFRUEntGUAF1GCch3qWrCZUiyuIGARBPIMRgxgPEQ8jBkNauGKkKbSm4y6QtgMiLSAhNGDxSERx1mCcJY4d5UqVarWGTRIUxTNCfigdVNfWSiSuiIghk82SyY2QH7%2BVIMg2o%2FLBa%2FHt2ngtB4wIa6Uqi1eu4f6eBZE0QhFE%2FNQYYBVWN1MT0pGvUrnOxuYCS0sL4DpVTyDtaDJ%2BirnlgG9gpeYTq9dXUR0OawAsNzJ9nQsSi286GPBplJ7%2B6oXhfhvqo8d%2B4Orm%2FUxdGu27Ge%2B8PS61OmMEuAcY7UPq%2FAde%2F%2FTt5Zr%2FOMDhTHLxygcvvgMkfUjRGvCrNH%2FBhoCwjwAiYBy4pfleBFaBeh82GkB5v5rqAbn2RE0dqKTDf3%2FrL2bnnpIf%2B0G5AAAAAElFTkSuQmCC"
-             }
+             ,"openBookGold":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wMBEg8UUkCmQwAABBhJREFUWMPNlktoXFUYx3%2FfOffOI6mZyWMCJqRSiAXbYrVShCyqrlwIxaJSRbAuFBRcSaEouHUVBUXElYpiaUGzKdnowti6Sota2jS21T60MbZ5NTbpPO6953MxdzKTOHk1afDAZbhzz%2Fc4%2F%2B%2F%2F%2F84nqsr%2FdSXOnujT0vj5wh%2FDx78f%2FPbzA4BZ7yCyxLfmMye%2BmdzRfQzEB7HkC3mGLzzx9eBPZ195%2FVDv9HoksNSJfAHQ%2BAHS6SZ27Tz17N69%2B24O9H348nogsrQDiQFSpUyVciYdLV%2Fx0MOlz747%2Bv6ay%2BItFvqtN1%2Frnv%2BXVn%2FUkWk4z7YHX3yv78uPN7e1Zg%2BlEl7aoeQLJVwYnQ6CoD%2BIwh9VmUgmPHnymVcHq07%2BywF%2F%2BIcjIyX8XOgcqoo6Ryrhs6P7GOChxiLGBwXVEoKCC%2Fj59CO0tTaRSDfjpbMkG7Pki0ow28%2FEzG6iIAB1oOBweKIk9PbYA3te6AQCD%2FC2HuwfyLX8kmttu4g6cBqCwtClpxfHTgGxNNg8TptI208wLokU2sgkIvy2JB250RoDBxoByvjYvtzWg%2F0DF3qfeswDGsRL9IRhBoxPsTCJojjNspIWoWWK1LwniaJpEItvDSICGoKLUA0QL4WLIsT6PUCDAZKx7BdUKFizxCruVGvEpOCcq2xJmgoPnDZtXItTVwkrVQlpYqOiozVQm2pSGpNE7noCqM6FqUFA68n07iCg9RCIJXJ3l9TEmpeAlLPaqJu5HgJs4Fygrl4J2CAO6KIIuMVREFlXdbj6JNRyv54XV8rBpXozrw8KVbkvyYGkD1ev7%2BfGzHOELjYSQcSskYO6cB6QuBHN39iR%2FZQocoyOPM9I8VFsooEt951kUzqIEbmT0midBKRaF6m5NDzPYI2hK3cEUKIo4trl%2FRSd5f7ukzSmglWFFxbMePNLEC34MLOgMoIx0JE7TDZV4reLO5ktbEKMRUSQGA2huAIEXL0E5sLUpCsxByUmpcGIpSVzlEwqZGLqcYy1WGsRDMYTjMwiYhEBM2cX%2B6lwR3WO1V5lgzFlufkWTGSIxOH8NlzUAqUh8vkCxWKJMAoBuHptivZ2h8Fx6fcRimEPIpZsS45seyeducP4yVR8GBvXtmxrjJlTlQdgRLjy103OXNlFVAO5xD1ApCs%2BRfmpAHZrFMBH8MoOnfL32D%2BMXp%2FinNuOutqrt6wga4SmxDhGNlcT8Az8Op2k6OyyvVDmaCRsa7wJwLnZLIJWCbyMfbIQ4ZkaBDxKt9451XLPavX8we5J%2Fixl6D29%2Bmmq697gViWhLLAFaF6FqL3tb3zx9o2CtwegPRUeH%2FropXeBcBU3whRwWQAfaCxPpSteSaAVyMTv08AELKvB2lUCZu%2B0w1ugoTpRUwRuA9FqHf0LU1%2BvOy9Z4oQAAAAASUVORK5CYII%3D"
+             };
 // cases(%=number): %=money, "c%"=coins, "f%"=fictive money
 const NPC=[[,0.5,1.1,1.34,2.75,3.95,8.05,17.8,18.5,"f85","f110","f180","f280",,,,,0.16,0.52,1.02,1.44,1.96,2.28,3.8,3.69,"f340",4.38,"f510","f590",12.4,"f650",3.49,5.19,8.75,6,15.63,16.88,37.5,3.9,52.44,51.75,60.25,58.13,66.19,18.2,"c79",150,,1200,,1200,,,,,4500,,14400,1200,,"c125",,"c23",,4800,4200,,,,,,,,750,2100,"c25",,,,,,,10800,12000,,1500,3300,,,,,"f650","f1500","f1500",5000,12000,"c10",,"c20",,"c5","c5","c5","c5",,"c5",,,10.12,3.72,"f155.1","f545.7",37.42,23.32,7.44,82.36,"f106.8","f148.8","f69.6","f196.8","f278.4","f408","f240","f324","f250","f864",47.15,140.56,125.88,,"f12.8","f73.5","f127","f106","f53.05","f113.75","f44","f33.33","f71.3","f73.2","f181.2","f321","f316","f491","f350","f484.2","f906.5","f421.7","f473.5","f749.98","f237.1","f675","f975",12.25,37.5,"f1025","f1100","f810",,"f231","f6500","f58","f137.67","f197.67","f342.5","f830","f700.5","f1063.2","f704.42","f734","f339.53",3.1,3.15,3.27,7.3,4.9,5.92,6.61,6.1,7.3,5.6,5.2,3.6,10,8.1,23.5,7.8,8.2,,,,,,,,,,,,,"f410","f490","f503","f589","f469","f1312","f598","f533","f480","f420","f1620","f1030","f675","f950","f2350","f2400","f2450","f3550","f3600","f3650","f8000","f8000"],{},[],[]]; // task_new_plant task_new_product
     /*
@@ -466,7 +466,7 @@ var valMoveAnimals, valMinRackMan, valMinRack, valMinRackPlantsize, valMinRackFa
 var upjersAds, buyNotePadShowBlocked, show;
 var farmiLog, farmiDailyCount, levelLog, levelLogId, lotteryLog, lotteryLogId, logSales, logSalesId, logDonkey;
 var zoneAddToGlobalTime;
-var totalAnimals, totalErnte, totalFarmis, totalPowerups, totalQuest, totalRecursive, totalZones, totalEndtime;
+var totalAnimals, totalFarmis, totalPowerups, totalQuest, totalRecursive, totalZones, totalEndtime;
 var valKauflimit, valKauflimitNPC, highlightProducts, highlightUser, valNimmBeob, valVerkaufLimitDown, valVerkaufLimitUp, valJoinPreise, lastOffer, protectMinRack, ownMarketOffers;
 var valMessagesSystemMarkRead;
 var megafieldVehicle, megafieldJob, logMegafieldJob;
@@ -1046,7 +1046,7 @@ var gameLocation=new function(){
             return ((!main)||(main==data[0]))&&((!sub)||(sub==data[1]));
         }catch(err){GM_logError("gameLocation.check","main="+main+" sub="+sub,"",err);}
     }
-}
+};
 unsafeData.gameLocation=gameLocation;
 /* 
 function checkRequest(request){
@@ -1260,16 +1260,28 @@ function calcGrowTimes(growDurationInitial,period,bonus){
 
 // Zones
 var zones=new function(){
-    var data;
+    var data, totalCrop=null;
     const INIT_zoneItem={"animals":null,"block":"blpqs","bonus":0,"bonusSpecial":null,"building":null,"crop":[],"endproduct":null,"endtime":NEVER,"mainproduct":null,"production":[[{},{}],0,0,true],"slots":null,"watertime":NEVER};
     const INIT_zoneSlotItem={"block":"blpqs"};
     this.init=function(){
         try{
             data=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones","{}"),"zones.init/data",{});
-            for(var zoneNrF in data){
-                if(!data.hasOwnProperty(zoneNrF)){ continue; }
-                if((typeof data[zoneNrF]!="object")||(data[zoneNrF] instanceof Array)){
-                    zones.create(zoneNrF);
+            var zoneNrF, slot;
+            for(var zoneNr in data){
+                if(!data.hasOwnProperty(zoneNr)){ continue; }
+                // Wrong format
+                if((typeof data[zoneNr]!="object")||(data[zoneNr] instanceof Array)){
+                    delete data[zoneNr];
+                    continue;
+                }
+                if(zoneNr.match(/\.(\d+)$/)){
+                    slot=parseInt(/\.(\d+)$/.exec(zoneNr)[1],10);
+                    zoneNrF=zoneNr.replace(/\.\d+$/g,"");
+                    // Slot not defined in record of zone
+                    if((!data[zoneNrF])||(!data[zoneNrF]["slots"])||(!data[zoneNrF]["slots"][slot])){
+                        delete data[zoneNr];
+                        continue;
+                    }
                 }
             }
         }catch(err){GM_logError("zones.init","","",err);}
@@ -1309,6 +1321,7 @@ var zones=new function(){
         }catch(err){GM_logError("zones.create","","",err);}
     }
     this.swap=function(zoneNr1,zoneNr2){
+    // TODO: swap belonging slots
         try{
             if(data[zoneNr1]&&data[zoneNr1]){
                 var help=data[zoneNr1].clone();
@@ -1357,6 +1370,9 @@ var zones=new function(){
             if(slot){
                 if(data[zoneNrF]["slots"][slot]["block"]!=value){
                     data[zoneNrF]["slots"][slot]["block"]=value;
+                    if(data[zoneNr]){
+                        data[zoneNr]["block"]=value;
+                    }
                     zones.save();
                 }
             }else if(data[zoneNrF]["block"]!=value){
@@ -1530,8 +1546,11 @@ var zones=new function(){
             if(!data[zoneNrS]){
                 zones.create(zoneNrS);
             }
-            data[zoneNrS]["production"]=value;
-            zones.processProduction(zoneNrS);
+            if(!data[zoneNrS]["production"].equals(value)){
+                data[zoneNrS]["production"]=value;
+                totalCrop=null;
+                zones.processProduction(zoneNrS);
+            }
         }catch(err){GM_logError("zones.setProduction","zoneNrS="+zoneNrS+" value="+value,"",err);}
     }
     this.getProduction=function(zoneNrS){
@@ -1653,7 +1672,6 @@ var zones=new function(){
                 updateZoneTimer("globalZoneTimer_"+zoneNrS,zoneNrS,"zonetimer");
                 updateZoneTimer("globalZoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater");
                 calcTotalEndtime();
-                calcTotalErnte();
                 zones.save();
                 if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
             }catch(err){ GM_logError("zones.processProduction","zoneNrS="+zoneNrS,"err_trace="+err_trace+" iProdStr="+iProdStr,err); }
@@ -1694,7 +1712,7 @@ var zones=new function(){
         }catch(err){GM_logError("zones.getWatertime","","",err);}
     }
     this.getCrop=function(zoneNr){
-    // {"prodId1":[amount1,points1],"prodId2":[amount2,points2],...}
+    // return: [[prodType1,prodId1,amount1,points1],[prodType2,prodId2,amount2,points2],...]
         try{
             if(data[zoneNr]&&data[zoneNr]["crop"]){
                 return data[zoneNr]["crop"];
@@ -1772,6 +1790,44 @@ var zones=new function(){
             return readyZoneAdded;
         }catch(err){GM_logError("zones.checkReady","zoneNrS="+zoneNrS,"",err);}
     }
+    this.getTotalCrop=function(timeBegin,timeEnd){ 
+        try{
+            if((!timeBegin)&&(!timeEnd)&&totalCrop){
+                return totalCrop;
+            }else{
+                var t1=timeBegin?timeBegin:0;
+                var t2=timeEnd?timeEnd:NEVER;
+                var production={}, zoneErnteCurr;
+                for(var zoneNrS in data){
+                    if(!data.hasOwnProperty(zoneNrS)){ continue; }
+                    if((!data[zoneNrS]["slots"])&&zones.isProductional(zoneNrS)&&(!zones.getBlock(zoneNrS))){
+                        zoneErnteCurr=data[zoneNrS]["production"];
+                        if(zoneErnteCurr&&(zoneErnteCurr=zoneErnteCurr[0])){
+                            for(var iType=0;iType<zoneErnteCurr.length;iType++){
+                                for(var sProd in zoneErnteCurr[iType]){
+                                    if(!zoneErnteCurr[iType].hasOwnProperty(sProd)){ continue; }
+                                    for(var i=0;i<zoneErnteCurr[iType][sProd].length;i++){
+                                        if((t1<=zoneErnteCurr[iType][sProd][i][2])&&(zoneErnteCurr[iType][sProd][i][2]<=t2)){
+                                            if(!production[iType]){ production[iType]={}; }
+                                            if(!production[iType][sProd]){ production[iType][sProd]=0; }
+                                            production[iType][sProd]+=zoneErnteCurr[iType][sProd][i][0];
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                if((!timeBegin)&&(!timeEnd)){
+                    totalCrop=production;
+                }
+                return production;
+            }
+        }catch(err){ 
+            GM_logError("zones.getTotalCrop","timeBegin="+timeBegin+" timeEnd="+timeEnd,"zoneNrS="+zoneNrS+" iType="+iType+" sProd="+sProd,err);
+            return {}; 
+        }  
+    }  
     // Type
     this.isMultiSlot=function(zoneNrF){
     try{
@@ -1799,7 +1855,7 @@ var zones=new function(){
             return null; 
         }
     }
-}
+};
 unsafeData.zones=zones;
 function getBuildingName(building){
     try{
@@ -1867,28 +1923,6 @@ try{
     if(next){ calcTotalRecursive(++recursionCount,nextStack); }
  if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
 }catch(err){ GM_logError("calcTotalRecursive","","err_trace="+err_trace+" type="+type+" iProd="+iProd+" help="+implode(help,"calcTotalRecursive/help")+" i="+i,err); }
-}
-function calcTotalErnte(){
-    try{
-        var help;
-        totalErnte=new Array();
-        for(var i in ALL_ZONES){
-            if(!ALL_ZONES.hasOwnProperty(i)){ continue; }
-            for(var j=0;j<ALL_ZONES[i].length;j++){
-                try{
-                    var zoneNrF=ALL_ZONES[i][j];
-                    if(help=zones.getCrop(zoneNrF)){
-                        for(var k=0;k<help.length;k++){
-                            if(!totalErnte[help[k][0]]){ totalErnte[help[k][0]]={}; }
-                            if(!totalErnte[help[k][0]][help[k][1]]){ totalErnte[help[k][0]][help[k][1]]=0; }
-                            totalErnte[help[k][0]][help[k][1]] += help[k][2];
-                        }
-                    }
-                }catch(err){ GM_logError("calcTotalErnte","","i="+i+" j="+j+" zoneNrF="+zoneNrF+" help="+implode(help,"calcTotalErnte/help"),"(loop) "+err); }
-            }
-        }
-        // GM_log("calcTotalErnte totalErnte="+implode(totalErnte));
-    }catch(err){ GM_logError("calcTotalErnte","","zoneNrF="+zoneNrF,err); }
 }
 function calcTotalFarmis(){
     try{
@@ -2128,15 +2162,18 @@ try{
     }
     err_trace="megafield";
     if(!zones.getBlock("megafield")){
-        for(var prod in megafieldJob.products){
-            if(!megafieldJob.products.hasOwnProperty(prod)){ continue; }
-            if(!prodMinRack[0][prod]){ prodMinRack[0][prod]=0;}
-            prodMinRack[0][prod] += (megafieldJob.products[prod].need-megafieldJob.products[prod].have)*megafieldJob.products[prod].amount;
+        if(megafieldJob){
+            for(var prod in megafieldJob.products){
+                if(!megafieldJob.products.hasOwnProperty(prod)){ continue; }
+                if(!prodMinRack[0][prod]){ prodMinRack[0][prod]=0;}
+                prodMinRack[0][prod] += (megafieldJob.products[prod].need-megafieldJob.products[prod].have)*megafieldJob.products[prod].amount;
+            }
         }
     }
     // Growing products
     err_trace="growing";
     if(valMinRackGrowing){
+        var totalErnte=zones.getTotalCrop();
         for(var type in totalErnte){
             if (!totalErnte.hasOwnProperty(type)){ continue; }
             for(var prod in totalErnte[type]){
@@ -3880,6 +3917,7 @@ function buildInfoPanelZones(){
         newtd.addEventListener("click",showSGH,false);
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{},newtr);
+        var totalErnte=zones.getTotalCrop();
         for(var i in totalErnte){
             if(!totalErnte.hasOwnProperty(i)){ continue; }
             for(var k in totalErnte[i]){
@@ -4963,6 +5001,7 @@ function buildInfoPanelFormulas(mode){
 function buildInfoPanelMegafield(){
     try{
         var container,div,table,tr,td;
+        var help;
         container=$("infoPanelInner");
         container.innerHTML="";
         // Head
@@ -4973,27 +5012,113 @@ function buildInfoPanelMegafield(){
         td=createElement("td",{},tr);
         // Content
         div=createElement("div",{"style":"height:485px;overflow:auto;"},container);
-        table=createElement("table",{"style":"line-height:16px;width:100%","border":"1"},div);
+        table=createElement("table",{"style":"line-height:16px;width:100%","border":"1","class":"hoverRowBgCc9"},div);
         tr=createElement("tr",{},table);
 
-        createElement("th",{"style":"white-space:nowrap;"},tr,"Start"); //TODO texte
-        createElement("th",{"style":"white-space:nowrap;"},tr,"End"); //TODO texte
-        createElement("th",{"style":"white-space:nowrap;"},tr,"Difficulty"); //TODO texte
-        createElement("th",{"style":"white-space:nowrap;"},tr,"Products"); //TODO texte
-        createElement("th",{"style":"white-space:nowrap;"},tr,"Reward"); //TODO texte
-        createElement("th",{"style":"white-space:nowrap;"},tr,"Difficulty bonus"); //TODO texte
-        createElement("th",{"style":"white-space:nowrap;"},tr,"Time bonus"); //TODO texte
+        createElement("th",{},tr,getText("start"));
+        createElement("th",{},tr,getText("end"));
+        createElement("th",{},tr,getText("difficulty"));
+        createElement("th",{},tr,getText("products"));
+        createElement("th",{},tr,getText("reward"));
+        createElement("th",{},tr,getText("bonus")+" "+getText("difficulty"));
+        createElement("th",{},tr,getText("bonus")+" "+getText("time"));
 
         for(var v=logMegafieldJob.length-1;v>=0;v--){
-            tr=createElement("tr",{},table);
+            tr=createElement("tr",{"v":v},table);
             createElement("td",{},tr,getFormattedDateStr(logMegafieldJob[v][0])+" "+getDaytimeStr(logMegafieldJob[v][0]));
-            createElement("td",{},tr,logMegafieldJob[v][1]?getFormattedDateStr(logMegafieldJob[v][1])+" "+getDaytimeStr(logMegafieldJob[v][1]):"-");
-            createElement("td",{},tr,logMegafieldJob[v][2]);
+            help=(logMegafieldJob[v][1]?logMegafieldJob[v][1]:logMegafieldJob[v][0]+168*60*60);
+            td=createElement("td",{},tr,getFormattedDateStr(help)+" "+getDaytimeStr(help));
+            td.addEventListener("mouseover",function(event){
+            try{
+                var v=this.parentNode.getAttribute("v");
+                if(logMegafieldJob[v][1]){
+                    toolTip.show(event,getText("remaining")+": "+getTimeStr(logMegafieldJob[v][0]+168*60*60-logMegafieldJob[v][1]));
+                }else{
+                    toolTip.show(event,getText("remaining")+": "+getTimeStr(logMegafieldJob[v][0]+168*60*60-unsafeWindow.Zeit.Server));
+                }
+                container=null;div=null;table=null;tr=null;td=null;
+            }catch(err){GM_logError("buildInfoPanelMegafield.endtime.mouseover","","v="+v,err);}
+            },false);            
             td=createElement("td",{},tr);
-            for(var i=0;i<logMegafieldJob[v][3].length;i++){
-                createElement("div",{},td,implode(logMegafieldJob[v][3][i],"buildInfoPanelMegafield/logMegafieldJob"));
+            for(var i=3;1<=i;i--){ createElement("img",{"src":(logMegafieldJob[v][2]<=i)?GFX+"star.png":IMAGES["starGrey"]},td); }
+            td=createElement("td",{},tr);
+            td.addEventListener("mouseover",function(event){
+            try{
+                var v=this.parentNode.getAttribute("v");
+                var container,div,table,tr=[],td;
+                var amountEach,amount,price,help,sum=[0,0];
+                container=createElement("div");
+                table=createElement("table",{"border":"1"},container);
+                for(var i=0;i<6;i++){
+                    tr.push(createElement("tr",{},table));
+                }
+                createElement("th",{},tr[0]);
+                createElement("td",{},tr[1],getText("time"));
+                createElement("td",{},tr[2],getText("seedPerField"));
+                createElement("td",{},tr[3],getText("price"));
+                td=createElement("td",{},tr[4]);
+                createElement("div",{},td,getText("fields"));
+                createElement("div",{},td,getText("seed"));
+                createElement("div",{},td,getText("value"));
+                if(!logMegafieldJob[v][3]){
+                    td=createElement("td",{},tr[5]);
+                    createElement("div",{},td,getText("missing"));
+                    createElement("div",{},td,getText("fields"));
+                    createElement("div",{},td,getText("seed"));
+                    createElement("div",{},td,getText("value"));
+                }
+                for(var i=0;i<logMegafieldJob[v][4].length;i++){
+                    amountEach=(logMegafieldJob[v][4][i][3]?logMegafieldJob[v][4][i][3]:1);
+                    price=gut[logMegafieldJob[v][4][i][0]];
+                    createElement("th",{},tr[0],prodName[4][logMegafieldJob[v][4][i][0]]);
+                    createElement("td",{},tr[1],logMegafieldJob[v][4][i][5]?getTimeStr(logMegafieldJob[v][4][i][5],true):"-");
+                    createElement("td",{},tr[2],numberFormat(amountEach));
+                    createElement("td",{},tr[3],moneyFormat(price));
+                    td=createElement("td",{},tr[4]);
+                    createElement("div",{},td,numberFormat(logMegafieldJob[v][4][i][1]));
+                    createElement("div",{},td,numberFormat(logMegafieldJob[v][4][i][1]*amountEach));
+                    help=logMegafieldJob[v][4][i][1]*amountEach*price;
+                    createElement("div",{},td,moneyFormatInt(help));
+                    sum[0]+=help;
+                    if(!logMegafieldJob[v][3]){
+                        amount=logMegafieldJob[v][4][i][1]-logMegafieldJob[v][4][i][2];
+                        td=createElement("td",{},tr[5]);
+                        if(amount>0){
+                            createElement("div",{},td,"&nbsp;");
+                            createElement("div",{},td,numberFormat(amount));
+                            createElement("div",{},td,numberFormat(amount*amountEach));
+                            help=amount*amountEach*price;
+                            createElement("div",{},td,moneyFormatInt(help));
+                            sum[1]+=help;
+                        }
+                    }
+                }
+                createElement("th",{},tr[0],sign_sum);
+                td=createElement("td",{},tr[4]);
+                createElement("div",{},td,"&nbsp;");
+                createElement("div",{},td,"&nbsp;");
+                createElement("div",{},td,moneyFormatInt(sum[0]));
+                if(!logMegafieldJob[v][3]){
+                    td=createElement("td",{},tr[5]);
+                    createElement("div",{},td,"&nbsp;");
+                    createElement("div",{},td,"&nbsp;");
+                    createElement("div",{},td,"&nbsp;");
+                    createElement("div",{},td,moneyFormatInt(sum[1]));
+                }
+                toolTip.show(event,container.innerHTML); 
+                container=null;div=null;table=null;tr=null;td=null;
+            }catch(err){GM_logError("buildInfoPanelMegafield.products.mouseover","","v="+v+" i="+i,err);}
+            },false);
+            for(var i=0;i<logMegafieldJob[v][4].length;i++){
+                div=createElement("div",{"style":"white-space:nowrap;"},td);
+                produktPic(4,logMegafieldJob[v][4][i][0],div);
+                if(numberFormat(logMegafieldJob[v][4][i][2])==numberFormat(logMegafieldJob[v][4][i][1])){
+                    createElement("span",{},div,numberFormat(logMegafieldJob[v][4][i][1]));
+                }else{
+                    createElement("span",{},div,numberFormat(logMegafieldJob[v][4][i][2])+"/"+numberFormat(logMegafieldJob[v][4][i][1]));
+                }
             }
-            for(var i=4;i<=6;i++){
+            for(var i=5;i<=7;i++){
                 td=createElement("td",{},tr);
                 createElement("div",{},td,numberFormat(logMegafieldJob[v][i][0])+"&nbsp;"+getText("points"));
                 createElement("div",{},td,moneyFormatInt(logMegafieldJob[v][i][1]));
@@ -7012,7 +7137,7 @@ function toolTipZoneProduction(zoneNrS){
                 }               
             } else if ((endDay=countDays(now,time))==0){
                 createElement("td",{"colspan":2},tr,getText("readyAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
-            } else if (getText("readyAtX_day"+endDay)){
+            } else if (getText("readyAtX_day"+endDay,true)){
                 createElement("td",{"colspan":2},tr,getText("readyAtX_day"+endDay).replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
             } else{ 
                 createElement("td",{"colspan":2},tr,getText("readyAtX").replace(/%1%/,new Date(1000*time).toLocaleString())); 
@@ -7236,7 +7361,7 @@ var timer=new function(){
             }
         }catch(err){GM_logError("timer.run","","",err);}
     }
-}
+};
 var clocks=new function(){
     var running=[];
     this.add=function(name,node,time){
@@ -7266,7 +7391,7 @@ var clocks=new function(){
             }
         }catch(err){GM_logError("clocks.run","","",err);}
     }
-}
+};
 function createZoneTimer(name,zoneNrS,type,style,append){ // type="zonetimer" || "zonetimerWater"
     try{
         if(!$(name)){
@@ -7393,9 +7518,9 @@ function showBlase(zoneNrF){
                     var endDay=countDays(now,time);
                     if (endDay==0){
                         newfont.innerHTML=getText("readyAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
-                    }else if ((endDay==1)&&(getText("readyAtX_day1"))){
+                    }else if ((endDay==1)&&(getText("readyAtX_day1",true))){
                         newfont.innerHTML=getText("readyAtX_day1").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
-                    }else if ((endDay==2)&&(getText("readyAtX_day2"))){
+                    }else if ((endDay==2)&&(getText("readyAtX_day2",true))){
                         newfont.innerHTML=getText("readyAtX_day2").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock"));
                     }else{
                         newfont.innerHTML=new Date(1000*time).toLocaleString();
@@ -7425,6 +7550,9 @@ try{
         err_trace="type 0";
         var prodMissing=new Array();
         var drawProductLines=false;
+        if(valMinRackGrowing){
+            var totalErnte=zones.getTotalCrop()
+        }        
         // calculate missing products
         err_trace="type 0, missing products";
         for(var v=0;v<prodNameSort[0].length;v++){
@@ -7486,7 +7614,7 @@ try{
             var str='<table>';
             str += '<tr><th colspan="3" class="lightBg">'+getText("goToMarketOfX").replace(/%1%/,prodName[0][prod])+'</th></tr>';
             str += '<tr><td>'+getText("minRack")+'</td><td></td><td style="text-align:right;">'+numberFormat(prodMinRackInit[0][prod])+'</td></tr>';
-            if(megafieldJob.products[prod]&&(megafieldJob.products[prod].have<megafieldJob.products[prod].need)){ 
+            if(megafieldJob&&megafieldJob.products&&megafieldJob.products[prod]&&(megafieldJob.products[prod].have<megafieldJob.products[prod].need)){ 
                 str += '<tr><td>'+getText("megafield")+'</td><td>+</td><td style="text-align:right;">'+numberFormat((megafieldJob.products[prod].need-megafieldJob.products[prod].have)*megafieldJob.products[prod].amount)+'</td></tr>'; 
             }
             for(var k in totalQuest){
@@ -7679,7 +7807,7 @@ try{
         newtable=null;newtr=null;newtd=null;
     }
     newdiv=null;
-}catch(err){ GM_logError("doBuyNotepad","","err_trace="+err_trace+" prod="+prod,err); }       
+}catch(err){ GM_logError("doBuyNotepad","","err_trace='"+err_trace+"' prod="+prod,err); }       
 }
 function doMarketoffersNotepad(){
     try{
@@ -8589,8 +8717,8 @@ try{
                 switch(action){
                 case "crop": raiseEvent("gameFoodworldCropped"); break;
                 case "init": raiseEvent("gameFoodworldOpened"); break;
-                case "open": raiseEvent("gameFoodworldOpened" + id); break
-                case "production": raiseEvent("gameFoodworldStarted"); break
+                case "open": raiseEvent("gameFoodworldOpened" + id); break;
+                case "production": raiseEvent("gameFoodworldStarted"); break;
                 }           
             }
             result=null;
@@ -8719,7 +8847,6 @@ try{
 
     zoneAddToGlobalTime=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd","{}"),"do_main/zoneAddToGlobalTime",{}); //TODO name change
 
-    totalErnte=new Array(new Object(),new Object(),new Object()); // Value of products the farm currently produces
     totalFarmis=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis","[{},{}]"),"do_main/totalFarmis",[{},{}]); // Value of products the farmis want
     totalPowerups=new Object(); // Value of powerups creating products
     totalQuest=new Object(); // Value of products the quests need: totalQuest[questType][prodType][prodId]=amount
@@ -9389,7 +9516,7 @@ try{
                     onload: function(c){
                         return function(response){
                             try{
-                                logBubble.add(getText("sendingXObservedPricesToServer").replace(/%1%/,c)+" "+response.responseText)
+                                logBubble.add(getText("sendingXObservedPricesToServer").replace(/%1%/,c)+" "+response.responseText);
                             }catch(err){GM_logError("sendStatData.onload","","",err);}          
                         }
                     }(c),
@@ -11335,9 +11462,9 @@ return false;
                                     return;
                                 }
                             }
-                            logBubble.add(getText("couldNotGetPlace"));
+                            logBubble.add(getText("couldNotGetRank"));
                         }else{
-                            logBubble.add(getText("couldNotGetPlace")+" ("+response.responseText+")");
+                            logBubble.add(getText("couldNotGetRank")+" ("+response.responseText+")");
                         }
                     }catch(err){ GM_logError("getDailyRanking.onload","","",err); }
                 },
@@ -12926,9 +13053,9 @@ return false;
                             }               
                         } else if (endDay==0){
                             createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-                        } else if ((endDay==1)&&(getText("readyAtX_day1"))){
+                        } else if ((endDay==1)&&(getText("readyAtX_day1",true))){
                             createElement("div",{},newDiv,getText("readyAtX_day1").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-                        } else if ((endDay==2)&&(getText("readyAtX_day2"))){
+                        } else if ((endDay==2)&&(getText("readyAtX_day2",true))){
                             createElement("div",{},newDiv,getText("readyAtX_day2").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
                         } else{ 
                             createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,new Date(1000*iTime).toLocaleString())); 
@@ -13022,7 +13149,7 @@ return false;
                             var iAmount=data.slots[slot].amount;
                             var iPoints=iAmount*prodPoints[iPrTyp][iProd];
                             if(data.slots[slot].ready){
-                                var iTime=zones.getEndtime(zoneNrF);
+                                var iTime=Math.min(now-unsafeWindow.Zeit.Verschiebung,zones.getEndtime(zoneNrS));
                             } else{
                                 var iTime=now+data.slots[slot].remain-unsafeWindow.Zeit.Verschiebung;
                             }
@@ -13085,7 +13212,7 @@ GM_registerMenuCommand("megafield_data", function(){
 });
 GM_registerMenuCommand("logMegafieldJob", function(){ 
     alert(JSON.stringify(logMegafieldJob));
-});    
+});
     // Remembering of latest vehicle. ["harvest", "fertilize"]
     megafieldVehicle = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_megafieldVehicle"),"do_main/megafieldVehicle",[]);
     unsafeData.megafieldVehicle=megafieldVehicle.clone();
@@ -13185,60 +13312,64 @@ GM_registerMenuCommand("logMegafieldJob", function(){
                     zones.setProduction(zoneNrF,tempZoneProductionData.clone());
                 }
                 // Store data of job and reward
-                var job_start=parseInt(unsafeWindow.megafield_data.job_start,0);
-                var products,reward;
-                for(var i=logMegafieldJob.length-1;i>=0;i--){
-                    if(logMegafieldJob[i][0]==job_start){ 
-                        break; 
-                    }else if(!logMegafieldJob[i][0]){
-                        logMegafieldJob.splice(i,1); 
-                    }
-                }
-                if(!logMegafieldJob[i]){
-                    i=logMegafieldJob.length;
-                    logMegafieldJob[i]=[job_start];
-                }
-                if(unsafeWindow.megafield_data.job_endtime){
-                    logMegafieldJob[i][1]=parseInt(unsafeWindow.megafield_data.job_endtime,0);
-                }
-                if(unsafeWindow.megafield_data.job&&(products=unsafeWindow.megafield_data.job.products)){
-                    logMegafieldJob[i][3]=[];
-                    megafieldJob={};
-                    megafieldJob.products={};
-                    for(var j=0;j<products.length;j++){
-                        logMegafieldJob[i][3][j]=[];
-                        if(products[j].quality ){ logMegafieldJob[i][2]=products[j].quality;        }
-                        if(products[j].pid     ){ 
-                            logMegafieldJob[i][3][j][0]=products[j].pid;
-                            megafieldJob.products[products[j].pid]=products[j];
+                var job_start=parseInt(unsafeWindow.megafield_data.job_start,10);
+                var products,reward,success=1;
+                if(job_start>0){
+                    for(var i=logMegafieldJob.length-1;i>=0;i--){
+                        if(logMegafieldJob[i][0]==job_start){ 
+                            break; 
+                        }else if(!logMegafieldJob[i][0]){
+                            logMegafieldJob.splice(i,1); 
                         }
-                        if(products[j].need    ){ logMegafieldJob[i][3][j][1]=products[j].need;     }
-                        if(products[j].have    ){ logMegafieldJob[i][3][j][2]=products[j].have;     }
-                        if(products[j].amount  ){ logMegafieldJob[i][3][j][3]=products[j].amount;   }
-                        if(products[j].harvest ){ logMegafieldJob[i][3][j][4]=products[j].harvest;  }
-                        if(products[j].duration){ logMegafieldJob[i][3][j][5]=products[j].duration; }
                     }
+                    if(!logMegafieldJob[i]){
+                        i=logMegafieldJob.length;
+                        logMegafieldJob[i]=[job_start];
+                    }
+                    if("job_endtime" in unsafeWindow.megafield_data){
+                        logMegafieldJob[i][1]=parseInt(unsafeWindow.megafield_data.job_endtime,10);
+                    }
+                    if(unsafeWindow.megafield_data.job&&(products=unsafeWindow.megafield_data.job.products)){
+                        logMegafieldJob[i][4]=[];
+                        megafieldJob={};
+                        megafieldJob.products={};
+                        for(var j=0;j<products.length;j++){
+                            logMegafieldJob[i][4][j]=[];
+                            if("quality" in products[j]){ logMegafieldJob[i][2]=products[j].quality;        }
+                            if("pid"     in products[j]){ 
+                                logMegafieldJob[i][4][j][0]=products[j].pid;
+                                megafieldJob.products[products[j].pid]=products[j];
+                            }
+                            if("need"     in products[j]){ logMegafieldJob[i][4][j][1]=products[j].need;     }
+                            if("have"     in products[j]){ logMegafieldJob[i][4][j][2]=products[j].have;     }
+                            if("amount"   in products[j]){ logMegafieldJob[i][4][j][3]=products[j].amount;   }
+                            if("harvest"  in products[j]){ logMegafieldJob[i][4][j][4]=products[j].harvest;  }
+                            if("duration" in products[j]){ logMegafieldJob[i][4][j][5]=products[j].duration; }
+                            if(logMegafieldJob[i][4][j][1]!=logMegafieldJob[i][4][j][2]){ success=0; }
+                        }
+                        logMegafieldJob[i][3]=success;
+                    }
+                    if(unsafeWindow.megafield_data.reward){
+                        reward=unsafeWindow.megafield_data.reward;
+                    }else if(unsafeWindow.megafield_data.reward_info){
+                        reward=unsafeWindow.megafield_data.reward_info;
+                    }
+                    if(reward){
+                        logMegafieldJob[i][6]=[0,0,0];
+                        if("difficultybonus_points"  in reward){ logMegafieldJob[i][6][0]=reward.difficultybonus_points; }
+                        if("difficultybonus_money"   in reward){ logMegafieldJob[i][6][1]=reward.difficultybonus_money; }
+                        if("difficultybonus_license" in reward){ logMegafieldJob[i][6][2]=reward.difficultybonus_license; }
+                        logMegafieldJob[i][7]=[0,0,0];
+                        if("timebonus_points"  in reward){ logMegafieldJob[i][7][0]=reward.timebonus_points; }
+                        if("timebonus_money"   in reward){ logMegafieldJob[i][7][1]=reward.timebonus_money; }
+                        if("timebonus_license" in reward){ logMegafieldJob[i][7][2]=reward.timebonus_license; }
+                        logMegafieldJob[i][5]=[0,0,0];
+                        if("points"  in reward){ logMegafieldJob[i][5][0]=reward.points -logMegafieldJob[i][6][0]-logMegafieldJob[i][7][0]; }
+                        if("money"   in reward){ logMegafieldJob[i][5][1]=reward.money  -logMegafieldJob[i][6][1]-logMegafieldJob[i][7][1]; }
+                        if("license" in reward){ logMegafieldJob[i][5][2]=reward.license-logMegafieldJob[i][6][2]-logMegafieldJob[i][7][2]; }
+                    }
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logMegafieldJob",implode(logMegafieldJob,"setTourVehicleMegafield/logMegafieldJob"));
                 }
-                if(unsafeWindow.megafield_data.reward){
-                    reward=unsafeWindow.megafield_data.reward;
-                }else if(unsafeWindow.megafield_data.reward_info){
-                    reward=unsafeWindow.megafield_data.reward_info;
-                }
-                if(reward){
-                    logMegafieldJob[i][5]=[0,0,0];
-                    if(reward.difficultybonus_points ){ logMegafieldJob[i][5][0]=reward.difficultybonus_points; }
-                    if(reward.difficultybonus_money  ){ logMegafieldJob[i][5][1]=reward.difficultybonus_money; }
-                    if(reward.difficultybonus_license){ logMegafieldJob[i][5][2]=reward.difficultybonus_license; }
-                    logMegafieldJob[i][6]=[0,0,0];
-                    if(reward.timebonus_points ){ logMegafieldJob[i][6][0]=reward.timebonus_points; }
-                    if(reward.timebonus_money  ){ logMegafieldJob[i][6][1]=reward.timebonus_money; }
-                    if(reward.timebonus_license){ logMegafieldJob[i][6][2]=reward.timebonus_license; }
-                    logMegafieldJob[i][4]=[0,0,0];
-                    if(reward.points ){ logMegafieldJob[i][4][0]=reward.points -logMegafieldJob[i][5][0]-logMegafieldJob[i][6][0]; }
-                    if(reward.money  ){ logMegafieldJob[i][4][1]=reward.money  -logMegafieldJob[i][5][1]-logMegafieldJob[i][6][1]; }
-                    if(reward.license){ logMegafieldJob[i][4][2]=reward.license-logMegafieldJob[i][5][2]-logMegafieldJob[i][6][2]; }
-                }
-                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logMegafieldJob",implode(logMegafieldJob,"setTourVehicleMegafield/logMegafieldJob"));
             }
         }catch(err){GM_logError("_megafieldHandler","","",err);}
     }
@@ -17594,17 +17725,17 @@ function manageVariables(){
             }
         }
 
-        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Select all");
+        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Select all"); //TODO text
         newinput.addEventListener("click",function(){
             var container=$("divManageVariablesInner");
             var rows = container.children[1].getElementsByTagName("tr");
             var checkedNew;
-            if(this.innerHTML=="Select all"){
+            if(this.innerHTML=="Select all"){ //TODO text
                 checkedNew = true;
-                this.innerHTML="Unselect all";
+                this.innerHTML="Unselect all"; //TODO text
             } else {
                 checkedNew = false;
-                this.innerHTML="Select all";
+                this.innerHTML="Select all"; //TODO text
             }
             for (var v=0;v<rows.length;v++){
                 rows[v].children[0].children[0].checked = checkedNew;
@@ -17612,13 +17743,13 @@ function manageVariables(){
             
         },false);
 
-        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Delete");
+        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,getText("delete"));
         newinput.addEventListener("click",function(){
             var container=$("divManageVariablesInner");
             var rows = container.children[1].getElementsByTagName("tr");
             var variables = [];
             var acc, varname;
-            var str = "Delete following variables:";
+            var str = getText("deleteFollowingData")+": ";
             for (var v=0;v<rows.length;v++){
                 if(rows[v].children[0].children[0].checked){
                     acc = rows[v].children[1].innerHTML;
@@ -17636,11 +17767,11 @@ function manageVariables(){
                     buildManageVariables();
                 }
             } else {
-                alert("Nothing selected");
+                alert(getText("nothingSelected"));
             }
         },false);
     
-        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Create storage string"); //TODO text
+        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,getText("createStorageString"));
         newinput.addEventListener("click",function(){
             var container=$("divManageVariablesInner");
             var rows = container.children[1].getElementsByTagName("tr");
@@ -17654,40 +17785,20 @@ function manageVariables(){
                 }
             }
             if(variables.length>0){
-                prompt("Copy this string to a text-file", implode(variables,"manageVariables/variables"));
+                prompt(getText("copyToTextFile"), implode(variables,"manageVariables/variables"));
             } else {
-                alert("Nothing selected");
+                alert(getText("nothingSelected"));
             }
         },false);
 
-        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Import storage string");
+        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,getText("importStorageString"));
         newinput.addEventListener("click",function(){
-            var data = prompt("Enter storage string");
+            var data = prompt("Enter storage string"); //TODO text
             if(data){
                 try{
                     data = explode(data,"buildImportTable/storageString");
                     buildImportTable(data);
-                }catch(err){ alert("Sorry. Can't read the entered string.\n"+err); }
-            }
-        },false);
-        
-        newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,"Import OLD storage string");
-        newinput.addEventListener("click",function(){
-            var data = prompt("Enter storage string");
-            var user = prompt("Enter prefix like 'de_7_Johnny_' if needed");
-            if(data){
-                try{
-                    data=data.split("::");
-                    for(var v=0;v<data.length;v++){
-                        data[v] = [,data[v].split(":")];
-                        data[v][0] = user+data[v][1].splice(0,1)[0];
-                        var impType=data[v][1].splice(0,1)[0];
-                        data[v][1] = data[v][1].join(":");
-                        if(impType == "n"){ data[v][1] = parseFloat(data[v][1],10); }
-                        else if(impType == "b"){ data[v][1] = (data[v][1]=="true"); }
-                    }
-                    buildImportTable(data);
-                }catch(err){ alert("Sorry. Can't read the entered string.\n"+err); }
+                }catch(err){ alert(getText("importStorageStringError")+"\n"+err); }
             }
         },false);
         
@@ -18420,6 +18531,7 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["all"]="Alle";
     texte["de"]["autologinAllOk"]="Alle Accounts eingeloggt.";
     texte["de"]["autologinChecking"]="Ermittle aktive Sessions.<br>Bitte %1% Sekunden warten<br>...";
+    texte["de"]["bonus"]="Bonus";
     texte["de"]["boughtTickets"]="Gekaufte Tickets";
     texte["de"]["buy"]="Kauf";
     texte["de"]["buyers"]="K"+a_dots+"ufer";
@@ -18440,8 +18552,10 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["contract"]="Vertrag";
     texte["de"]["contractsReceived"]="Erhaltene Vertr"+a_dots+"ge";
     texte["de"]["contractsSent"]="Gesendete Vertr"+a_dots+"ge";
-    texte["de"]["couldNotGetPlace"]="Dein Platz konnte nicht bestimmt werden.";
+    texte["de"]["copyToTextFile"]="Kopiere diesen Satz in eine Text-Datei";
+    texte["de"]["couldNotGetRank"]="Dein Platz konnte nicht bestimmt werden.";
     texte["de"]["couldNotGetUpdateInfoOfX"]="Update-Informationen f"+u_dots+"r %1% konnten nicht bestimmt werden."
+    texte["de"]["createStorageString"]="Erstelle Speicher-Satz";
     texte["de"]["cropped"]="Geerntet";
     texte["de"]["currentOffers"]="Aktuelle Angebote";
     texte["de"]["dailyRuns"]="T"+a_dots+"gl L"+a_dots+"ufe";
@@ -18454,12 +18568,15 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["day2"]=U_dots+"bermorgen";
     texte["de"]["default"]="Default";
     texte["de"]["delete"]="L"+o_dots+"schen";
+    texte["de"]["deleteFollowingData"]="L"+o_dots+"schen folgende Daten";
     texte["de"]["demand"]="Forderung";
     texte["de"]["detail"]="Detail";
+    texte["de"]["difficulty"]="Schwierigkeit";
     texte["de"]["donkey"]="Waltraud";
     texte["de"]["duration"]="Dauer";
     texte["de"]["editPrice"]="Preis "+a_dots+"ndern";
     texte["de"]["emptyField"]="Feld leer!";
+    texte["de"]["end"]="Ende";
     texte["de"]["exchangedLots"]="Eingel"+o_dots+"ste Lose";
     texte["de"]["farm"]="Farm";
     texte["de"]["farmersmarket"]=unsafeWindow.t_farmers_market;
@@ -18470,6 +18587,7 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
     texte["de"]["farmzone"]="Bauplatz %1% der %2%. Farm";
     texte["de"]["feed"]="Futter";
+    texte["de"]["fields"]="Felder";
     texte["de"]["filter"]="Filter";
     texte["de"]["filterForX"]="Nach %1% filtern";
     texte["de"]["finished"]="Fertig";
@@ -18477,7 +18595,7 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["forest"]="Wald";
     texte["de"]["forestry"]="Baumerei";
     texte["de"]["formatNumbers"]="Formatiere Zahlen";
-    texte["de"]["formulaType"]=["Prod","+val","+pts"]; // TODO texte
+    texte["de"]["formulaType"]=["Prod","+val","+pts"];
     texte["de"]["fl1"]="Blumenwiese";
     texte["de"]["fl2"]="Blumenwerkstatt";
     texte["de"]["fl3"]="Monsterfruchtzucht";
@@ -18503,6 +18621,8 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["highlightUser"]="User am Markt markieren";
     texte["de"]["hotkeys"]="Hotkeys";
     texte["de"]["idle"]="unbesch"+a_dots+"ftigt !!";
+    texte["de"]["importStorageString"]="Importiere Speicher-Satz";
+    texte["de"]["importStorageStringError"]="Entschuldige. Der Speicher-Satz konnte nicht gelesen werden.";
     texte["de"]["inStock"]="im Lager";
     texte["de"]["informationIsMissing"]="Es fehlen Informationen."
     texte["de"]["ingredients"]="Zutaten";
@@ -18537,6 +18657,7 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["newLevelReached"]="Herzlichen Gl"+u_dots+"ckwunsch!<br>Du bist ein Level aufgestiegen!";
     texte["de"]["nextMessage"]="n"+a_dots+"chste Nachricht";
     texte["de"]["no"]="Nein";
+    texte["de"]["nothingSelected"]="Nichts ausgew"+a_dots+"hlt";
     texte["de"]["NPC"]="NPC";
     texte["de"]["NPCprice"]="NPC-Preis";
     texte["de"]["nr"]="Nr";
@@ -18584,6 +18705,7 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["recursive"]="Rekursiv ben"+o_dots+"tigt";
     texte["de"]["relative"]="relativ";
     texte["de"]["relogin"]="Session endet bald.<br>Neuer Login in %1%.";
+    texte["de"]["remaining"]="Verbleibend";
     texte["de"]["requestingUpdateInfoOfX"]="Fordere Update-Informationen f"+u_dots+"r %1% an ..."
     texte["de"]["requestingUserStatistic"]="Fordere Benutzer-Statistik an ...";
     texte["de"]["requirement"]="Bedarf";
@@ -18595,6 +18717,8 @@ if(top.unsafeData.texte["de"]==undefined){
     texte["de"]["sawmill"]="S"+a_dots+"gewerk";
     texte["de"]["scriptHomepage"]="Scripthomepage";
     texte["de"]["searchPlayer"]="Spieler suchen";
+    texte["de"]["seed"]="Saat";
+    texte["de"]["seedPerField"]="Saat pro Feld";
     texte["de"]["sendContract"]="Vertrag schicken";
     texte["de"]["sendContractAgain"]="Vertrag noch einmal schicken";
     texte["de"]["sentContractNrX"]="Vertrag Nr %1% gesendet."
@@ -18765,6 +18889,7 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["all"]="All";
     texte["en"]["autologinAllOk"]="All accounts logged in.";
     texte["en"]["autologinChecking"]="Checking active sessions.  Please wait %1% seconds<br>...";
+    texte["en"]["bonus"]="Bonus";
     texte["en"]["boughtTickets"]="Bought tickets";
     texte["en"]["buy"]="Buy";
     texte["en"]["buyers"]="Buyers";
@@ -18785,8 +18910,10 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["contract"]="Contract";
     texte["en"]["contractsReceived"]="Contracts received";
     texte["en"]["contractsSent"]="Contracts sent";
+    texte["en"]["copyToTextFile"]="Copy this string to a text-file";
     texte["en"]["couldNotGetRank"]="Your rank could not be determined.";
-    texte["en"]["couldNotGetUpdateInfoOfX"]="Update information for %1% could not be determined."
+    texte["en"]["couldNotGetUpdateInfoOfX"]="Update information for %1% could not be determined.";
+    texte["en"]["createStorageString"]="Create storage string";
     texte["en"]["cropped"]="Cropped";
     texte["en"]["currentOffers"]="Current offers";
     texte["en"]["dailyRuns"]="Daily runs";
@@ -18799,12 +18926,15 @@ if(top.unsafeData.texte["en"]==undefined){
     // texte["day2"]="Day after tomorrow"; // comment it if not used in the language
     texte["en"]["default"]="Default";
     texte["en"]["delete"]="Delete";
+    texte["en"]["deleteFollowingData"]="Delete following data";
     texte["en"]["demand"]="Demand";
     texte["en"]["detail"]="Detail";
+    texte["en"]["difficulty"]="Difficulty";
     texte["en"]["donkey"]="Donkey";
     texte["en"]["duration"]="duration";
     texte["en"]["editPrice"]="Edit price";
     texte["en"]["emptyField"]="Empty field!";
+    texte["en"]["end"]="End";
     texte["en"]["exchangedLots"]="Exchanged lots";
     texte["en"]["farm"]="Farm";
     texte["en"]["farmersmarket"]=unsafeWindow.t_farmers_market;
@@ -18815,6 +18945,7 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
     texte["en"]["farmzone"]="Building place %1% of %2%. farm";
     texte["en"]["feed"]="Feed";
+    texte["en"]["fields"]="Fields";
     texte["en"]["filter"]="Filter";
     texte["en"]["filterForX"]="Filter for %1%";
     texte["en"]["finished"]="Finished";
@@ -18848,6 +18979,8 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["highlightUser"]="Highlight user at market";
     texte["en"]["hotkeys"]="Hotkeys";
     texte["en"]["idle"]="idle !!";
+    texte["en"]["importStorageString"]="Import storage string";
+    texte["en"]["importStorageStringError"]="Sorry. Can't read the storage string.";
     texte["en"]["inStock"]="in stock";
     texte["en"]["informationIsMissing"]="Information is missing."
     texte["en"]["ingredients"]="Ingredients";
@@ -18883,6 +19016,7 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["newLevelReached"]="Congratulations!<br>You have reached the next level!";
     texte["en"]["nextMessage"]="next message";
     texte["en"]["no"]="No";
+    texte["en"]["nothingSelected"]="Nothing selected";
     texte["en"]["NPC"]="NPC";
     texte["en"]["NPCprice"]="NPC-Price";
     texte["en"]["nr"]="Nr";
@@ -18929,6 +19063,7 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["recursive"]="Recursive Needed";
     texte["en"]["relative"]="relative";
     texte["en"]["relogin"]="Session ends soon.<br>New login in %1%.";
+    texte["en"]["remaining"]="Remaining";
     texte["en"]["requestingUpdateInfoOfX"]="Requesting update information for %1% ..."
     texte["en"]["requestingUserStatistic"]="Requesting user statistic ...";
     texte["en"]["requirement"]="Need";
@@ -18940,6 +19075,8 @@ if(top.unsafeData.texte["en"]==undefined){
     texte["en"]["sawmill"]="Sawmill";
     texte["en"]["scriptHomepage"]="Script Homepage";
     texte["en"]["searchPlayer"]="Search player";
+    texte["en"]["seed"]="Seed";
+    texte["en"]["seedPerField"]="Seed per field";
     texte["en"]["sendContract"]="Send contract";
     texte["en"]["sendContractAgain"]="Send contract again";
     texte["en"]["sentContractNrX"]="Sent contract no %1%."

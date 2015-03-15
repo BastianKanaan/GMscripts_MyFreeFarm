@@ -140,7 +140,7 @@ const IMAGES={"repeat_off":'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAA
              ,"powerups":'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAAeCAMAAAB0fZJ0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAwBQTFRFT0Q16cuwdGQts4lwSzgszKubmicorKiw%2Fv78sDAxa0YQxaZRSTAO2cO3pYM557JxzctrzIyLt3dJk1Mo07ao%2Fs5m%2Ff2ujo1tkEQc%2BvM1UktH2MyF1MjNloU%2FmWQ3oVopiHpLpGU57bbDh1VWwH1JmmksaDIPtaxN%2F%2F%2BYr654qYZF5rGGmHhF9e3mmWhjp3k34dTE%2BOvZnYVJyINUq3FF%2FbFRzIJGiXY7uHM72phZdHN47%2BbjOi8nxXtyom5C9sdOp4pSl2Nex8NSeHJI9%2FLtr7CX49nVOCIbmns5%2F5WYpmhUrZdbtJGPsokasm46pGdpdGlFhHJQgWw5iW1mgFgXmFsy5%2BJJimQQelU1PAwH%2BvyJq3ZWqn16qWAuwItkt5JJ25to1JpJ%2F9brZVc5Y2RnZ2RIwaRmuIVb8amxl2hItpddeTIsTBcMmEskqUlAkV1llItV%2FOJzdUlJdWNbuXlW88ommZSXZlRI1K8mq54x5sSk%2F42DqpxJ8NvHTkMZo3RtiWVfZFQp%2BsmGj11Z%2BvrFiYBV%2BPTytIhCxlVI36dm5OBr5Z5Of108xK5w8fHvqW55wZ1I%2Ff7WmnEsh3Vte3uAyZJUnJRbwoGByJRqu3Z6m5aiYkYoenFspXsVmVtK0og8hoCG7J2nfVlU1qUejIWRlkQ7x7Rj%2BuhbwHc8fHlYZT8%2Fi2VB4JA%2F0o5c9fZz1c4mzolO6t%2FbcFkwdG1206F88ubEroBd7Otx%2BFFP6cKFa2xtkGEnmHJspVlx%2F%2F9pW042ekpUpnExdkcj%2FNKC49aKlY%2BdvG9awp2Fx5od%2FPr4r2c0mJY7bFpThnMqildF4uKJgnp4nmZzZ2JRnH51%2F%2BP4gjwTvb21oJx7pJyqXh4Hb15EIRoMf2tfr25sfYF0sGd32799Wjg4WltMWlleYV8nikEz3ZSi9%2Fv6sz046%2BXP%2BN2l%2F3x3wLqC47pz383Cnn5R%2F8HE%2BtDhhoY9b0w9pqJBnlMjz4dy7%2B%2BY7PCObkRN7ceV360fjpGQgFBSf19c%2F%2F%2F%2FFMHsBAAAAQB0Uk5T%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FAFP3ByUAAAjlSURBVHjabJYLVFLpFsePiCMaWqEV2cgjhdLwERL4QINwxItpipCaoU5k5oM09ebcJjEzLcuyzHymWZn5nPGVllQ%2BmqsD6txeVqhdQ63u7WbOWMxMNgzzHc2yuv%2B1DgvY6%2F87%2B%2Bzzrb03pH0v1H8v37x588C0jg1K%2B7lQ7snPQfTAtL1c%2B%2F%2FCNpfh8PNk9w%2F%2FQXNf5MkTp31EarVa5OPQnPwpHbV2OtNSgVer8QpMwV6bz8iXp087zprr9NZ%2BwkbpHMWTg4K4QDFKsokipOEj79qrlgPKmXBMjHJAhNH7OPe1mfPMEkWz%2B3x2xtVKZRDXbLtzbm5u2xgSPSByNJqX%2BmUnSUwQcqwNRJ23myGVEp%2BCeanLpx3fm5vGVOgBPOblB7ZLpjqGO5b74Kv7QF89KG%2BDyCY%2BPXNw1F46OQjZ9oc%2BHL2vvyd3DDmgoHnMod0XqpXc0X%2FvAeEXL6weLGszA2a9OXaGEzYIWWX1w%2BWDB0%2BeXPrbv1ZYLRuTCjF678w64JnG9txvOP4MhUI9O%2B5xf48z1EXDvHtweZgkiFllZX9ujbs7bF5kFTeKxGNMZ9moNZIgKG%2FF76uXrl69ZcvvS3870roo704xEWM%2FW0y6krt948pt9%2B5tW2m08pdt934x3XjKrCsxZLbm0%2BogKG7Rdwd%2F%2FvZ%2Ff5MD%2FxZgDi8mWnrMsHXoSmZ6xZEb3x1ZtGFD77L7Xz5YdWRR3GixZWIGnNdCbFDS3afndu58Wpi2wS978bmVP%2B%2FcmgDhEvXe3ZlJcVp3aem3V65ceX5p%2FZLdu5csmGwvxoBbQ1q5E5kbHrdqw4bXvb1TU1PjUG7RsHmFFwcKnKmKjk8M8s%2FswsWFt2PfGG7urY7Nzn96bvE1M4hGA1V5FjYQM3iodt363QcO%2F8fgcObZ2nVLlqyr95sxQ1odUBGC%2Bet9U4hxWFIm13nPHX4eQYzE4TK0ckvlUN%2F%2BTYAcq1EZXtoMdcTGbsrPTzmP7CL2aLXJJkEQw%2FFsbe1RBwPADu30qTx79Gi9mxgpdJNDqAIy15fBMGeM%2B4bfCR8NHzWDcsv%2FuINghCMD8UbaZHUM9KcGgDs63jADWm%2F0qzo6NOwR9nkzJBGH0jYDM4nkWKmwsyxI3HUsB08CdLojLguYPaBkSyWUzmBMIcKLior%2B%2BbCo6OHDorLy3PZGfnsxMVi7RhKTsF8TX62CVEzDkkurv0cjkSro1av4PmSNpEFeqVRR3DodHUsUnYdCdp3uNI6KiLDzIeFqgLkH2uujDCfw%2BXxEO8Qc4jJhbS9rQ6b6MsIhmpu8eQA5bFFtWHJh%2Bebv3769tHRL65HW1s3f9HechwJFL20UykGKUIgXCYXCzpBdIVEOhw9H0IhCIS4QogVDaxRkX5jNT5UOmZkxpdIhZlEukzmO4PtCGKFN2AC03yIeiRZ4L4d14yTqYOs3AWhV%2FHmzQIXpWhHZ141EIuXgSCS7iIsFBQYGBokUEk5G4kOOblAYkVxFgfNOlTrrt0Gp0lH9MiYzFYFAcNox2AangVf%2BaZp4Jpos8P470PL13gI0VxUfr0nKUvQki8h%2BbiBnEyBZyBPexS%2B%2B4E3K4F817RgTKEzRVUWlUBhZ0ib9MWZqo7jIGUbz%2BQyC2EHSUIdNusZms39CotGG3hfevr1QAtDVGo1mf19NJWB3ESbtKBQ3TwrL6xgvOvpiCytHJpP153iKLfGgJl3peZMUfvEZ%2Fe1DQ2g0kzs0JG3kg5OTLnbA2xRgk%2B6m2Nqy05BoUHQg7wBuvEVaWpptQmSlHmCnW7uRcDhZS%2Ffh7pZo3SgqTgjYQhJF7EAE77Kryos12XhLP7ep7datsltnnMvONPIpFGrcoGWpvNlEfDcFwG1VgF0SEOD9Y4lUAx6EnZJQIzKy8enisKyN7ew8Q3kGBk%2Bio4xzSP05QMbWYstIyB7TFc6i8sXlZaBFlueWl5eVlze1IxgManoWPVLbTCw%2BlcJmp2nQhgJDQ0Oy4McLApXGwoKd0kfDe7j7dA1a23WSSDISq%2BXik2gWSQCyloEXa55F50HyEKE4jspIhZrKzIbAIeTC57AY0e%2FJ4riJ9LT2iq6Ea%2Bw0i2o0IKOBBBdKkKAo7GuDdKwcFYJPpdrlwCWWeXpFqliyQBOBDEfqtPZ1U5hCWlPMK445AyFlNuUyh9BSWKmIfnNrUJIBF21GIi7JP9aigwnYaDBY4PNiGB%2B7KWU40sdWC8yBfOMSUkCAQCBgtPw0KQN559gZH7L2BWZIa4PBiePM%2B8elSOdySDo%2BjkD093sah54gUCrTQK%2FqsXyVcC1WA84JF139RsUFmRtaPCrcOkgfAG00A5gpdjme1lQqNYrH20FleXntqKjYQcBV2sI9ticxi5NHNQdlcW5LhcHmgLwgjuOEhRu4C4aWBCoeT1a9AWW20FSjycWP8vOHWfQ0eDDpYbJ890VFJCZ2B%2FOin%2FB4vO5uB9eQB35O2AaY7U6kiau89ll7Nra3I0DGAFxREcXZQdedaf56PjVJd7eCk7EJ6NGjR5vYhYsXn0rPlLjMTFoaLdBPtyWYxyudEa%2Fb9ddfdatmzPBMe0mkNVZ5LTgR6ml8KPQE0IIFeb5RdcLZwfIsAobn5%2Be7Frq6uhaCj%2Fx8f7%2BFatPZmeYBMks%2F9ngF0A%2FwBWRVFeVkIn83i41EtCzfvH2r%2FgHUC18czrF6ScbcHA%2Bm4fqGt%2BYXjoyMXL9%2BfSQ7tm9ZpnpummpfwmbW6a9ra2tBH6%2Btraf4vTPP7hCmirpgPmeq9zWs3ilO3lV69PH3S0IGzcEhsu9P%2F9vZI9nZ2bcTqo5dHdj4YYcwAuYaPjX0xNdAoRRgrp81z7JRpiaYupBJDodAIHDSrR5nikrn707uwfi6uhb%2F4WH%2FM8PDy15M1GP15q8%2B9kTY7OdHSScQZszBGR%2FtbC66%2BMq6sMyJxxOZTvXqJ58sTihToojulLlwYmJhppMjlvfx1qWV9xBhMwjD5lKjT%2FdBrYtpMFEowWJNSnW%2F%2FHydfPayhwdHJSZsPZfPV82Ml7rBRAlWUsrb6PF%2BIftLgAEAiLKf3pFD0foAAAAASUVORK5CYII%3D'
              ,"min-restore":'data:image/gif;base64,R0lGODlhKAAUAMQAAPYCA%2F3V1gdQBupTUP%2FExP2oqXGeYP67u%2F%2F%2F2Kw8JVqISP6zs9MUFOgGBskKCvmXlyFBE9MHB8sbEv%2FfvOM5OSQ%2FEP%2FkwMolHOQWFoy8gPf2xv%2Ffu8wXDL4SBhlEGf%2F52iH5BAAAAAAALAAAAAAoABQAAAX%2FoCB4UGWeqAl5okimcLW2BjLdW75N%2Bm1pClHtxuv1Jr%2BgB5HoOJ9QaALhWTajWOe0%2BuEAvuBwuGNZdcVoMNnsTYsbnQ073AA07vgIXO45u8UdExV9HAwOERGHDIsMEhcMEYGDfm9feABxbAMPBAcLCwUPDwUFnwNxk22WeKwRmBupm5%2BeB7WzC6ewhIaHvYyNkIFsFKOlxrYHBacTmg8HBAsHAQW11cvNpNnHydeEFAUEndLh4QEHFKiEm9qkn9G46V0YhvS8vw7xHOvZt9bxEnXoCNwziQGxUtGqVSOQK9UfQLq6fFNIrmJDQg%2FH8JHH6MIFCfUW4YsoIaOajQAtRKWps8fMBZNf1vR5CVMmggEfJXDYybOnhC1LcErQ2bPoTyoCMiBA8KGp06dNlxoQoZQp1KtSW1TZyrVrlRYjvIr9KiAEADs%3D'
              ,"floppyDisk":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEg0lEQVR4XqWVW2xUVRSGv7l12tIZytBSMRVjSIg2RhCEmJhA0MjtwagJPmDQ+NK0miZaiA+UCBgMCCUBYoU0qEgxKYlaRUVsFa1EUihMh4ItRTQSLO1M6fTCXM5t7+3JyeTEQBswfMnKydpn7fWv/Z+dHA/3jsAFH/cOs4HxXCwAtNYfjilAc3L3nVPnshpQdxs1NTWqtvZNJ1+xbKn65KMPnSegtm/booC+nIgnZxHqZG+K65kxzjY3sOH5pXh9PpSUyEwGO4FcPmvVi/x0opVkcpj44AA5GBsbJRjMt9eu03H6HMdbf04B01yBtp5Bui7+Sc93TWx+bAakR0GCZRgQLEBmsxgFU/j9Wj+vffoFDfv3ANDadoJgno9HKh4lmx4jY9ftqG8AWA6c9JNDKQ9SSPLtKQZTAp+ZB1KBJ4DHVKjAFBZt2oWzc9lSANrb20kkhujv76enp4/q6kqi0XPYdmGf4CCQ51p07MIA5y9d5kbHUerr65kIn8/Hjve3UVExx7HHnp6OjjPE4wnCU8N28yiN+3bTf30Q0zQ5eOjIsNfdDEhdcifqNr7D3j17AZg3by6lJRGKQkWsX7cOXdOc5teu9TvNAenHRaEUDl1dXSiluJXOzk56e3uprKykqrqKq3//xeYtm5j3+EJGksN8+00LALY9AK8Cv7gWfd89QGf0IldPNnPgwAEmIxwOc6T5EOlUilTqpiMCOB8XYGAwwVDiBrZIGihzLZKaRHglxcXF3Imt7+3ky5aveaNmvXMl7eZ0d/ew+4OPuTGcdE6QA9ci3QtSiskscmlqamLNmjXEYjEaGxupra3FME3OdMao3LCT/e++RY6VAK5FX53/hwuxbkZbP6P+8GHulrKyMqSUpNNpNuxrIfrj57Qcdix+EBh2T2AIhWZYBBcsoa6uDl3XuRXNUvgR+P3uNtauXUsmkyEvXIrP6yGe1gFut0iZCl0XhIrL8UZmUWQXW0IipHLs8vu85OkmocKga5/X68W0BDPz88jqplNj6dbEAl4TJJLkeMbZGDt+EA8+iqdFKC6ZgRDCDhMppB0WCoWp6cQ1gRwZYsnqKh6aOR2kMckJAiCFACXoaz/KSysXs2LVc44d+QWFAM7k6dRNRsdGMLQs3bEobZ2XSUfmcuVKH/PnViClObEAKCxhgZRkUimeeXa53TifzZs2MpSIA7Bt+y6SySH0bAbNjieefIrmY6cofKAM09Io8CuENomAVKAUBH0AOFMX2PFfUjfHMQ0DgMj0UkJFYbuuwL2KQS+34S5ZlkBKO0zhTCeFwDQtEvHBnP8Cw9Ac/6cUhSi7v5xQeCqWZYIynPV4VhH0TPINLvzWRoAAaUtiGjrZTMa5fsIS7q3RtSzTIiWUls10fi66rjlDGbpBQCqkHUqICQUWNWx9+8zTL7xMqDhC+ew5nDt7mvLycl6vrqJkxn0A9uRhQqGp+P0BRkeG+eNyH7qmUYQPYWgYXolyDUMBbuYHFgKnuAcenr+YS9FfAV4B2oAxRyAn5AMKcxFw1/8/CjCBNJD9F+Hva8TmTxPaAAAAAElFTkSuQmCC"
-             }
+             };
 const BUILDING2FEED=[,,[1,2],[3,4],[5,6],[7,8],,[9,21],[10,110],[11,151],[12],[92,93],[108,109],,,[153,154]]; // task_new_product
 const FEEDBONUSTIME={"1":600,"2":1200,"3":900,"4":1800,"5":2400,"6":4800,"7":4800,"8":9600,"92":14400,"93":28800,"108":3600,"109":1800,"153":1560,"154":3120};//in sek  // task_new_product
 const CROPCOST={"13":2.5,"14":180,"15":30,"16":500};
@@ -157,7 +157,7 @@ handled.set=function(zoneNrS){
         handled.zoneNrL=getZoneListId(handled.zoneNrF);
         handled.zoneBuildingTyp=getBuildingTyp(handled.zoneNrF);
     }catch(err){GM_logError("handled.set","zoneNrS="+zoneNrS,"",err);}
-}
+};
 const queueItemBoxWidth=58;
 const queueItemBoxTimeHeight=28;
 const STEPPINGRACK=100;
@@ -346,7 +346,7 @@ var botArbiter=new function(){
         if(LOGGING_ARBITER){GM_logInfo("botArbiter.check","","","End");}
     }catch(err){GM_logError("botArbiter.check","","",err);}
     }
-}
+};
 var bot=new function(){
 try{
     var action,active,busy,interval,durationRun,durationStep,runId=0,divInfo;
@@ -354,12 +354,12 @@ try{
     try{
         return !!active;
     }catch(err){GM_logError("bot.isActive","","",err);}
-    }
+    };
     this.isBusy=function(){
     try{
         return !!busy;
     }catch(err){GM_logError("bot.isBusy","","",err);}
-    }
+    };
     this.init=function(){
     try{
         divInfo=$("divBotInfo");
@@ -371,7 +371,7 @@ try{
             bot.deactivate();
         }
     }catch(err){GM_logError("bot.init","","",err);}
-    }
+    };
     this.activate=function(){
     try{
         active=true;
@@ -390,7 +390,7 @@ try{
         cell=null;
         botArbiter.check();
     }catch(err){GM_logError("bot.activate","","",err);}
-    }
+    };
     this.deactivate=function(){
     try{
         active=false;
@@ -409,7 +409,7 @@ try{
         botArbiter.stop();//TODO the bot is not deactivated until the timer is runS out .. after that the buttoN should change.. inbetween it should have a inbetween state.
         stopCloseWindowTimer();
     }catch(err){GM_logError("bot.deactivate","","",err);}
-    }
+    };
     this.start=function(){
     try{
         if(DEVMODE){ logBubble.add("bot.start"); }
@@ -421,7 +421,7 @@ try{
         runId++;
         return runId;
     }catch(err){GM_logError("bot.start","","",err);}
-    }
+    };
     this.end=function(){
     try{
         if(DEVMODE){ logBubble.add("bot.end"); }
@@ -429,7 +429,7 @@ try{
         runId++;
         busy=false;
     }catch(err){GM_logError("bot.end","","",err);}
-    }
+    };
     this.run=function(){
     try{
         if(DEVMODE){ logBubble.add("bot.run"); }
@@ -457,7 +457,7 @@ try{
             }
         }
     }catch(err){GM_logError("bot.run","","",err);}
-    }
+    };
     this.setAction=function(str,showInLogBubble){
     try{
         durationStep=settings.get("country","maxDurationBotStep");
@@ -467,7 +467,7 @@ try{
             logBubble.add(action);
         }
     }catch(err){GM_logError("bot.setAction","","",err);}
-    }
+    };
     this.checkRun=function(type,run,noBot){
     try{
         if((!noBot)&&(!active)){
@@ -483,9 +483,9 @@ try{
             return true;
         }
     }catch(err){GM_logError("bot.checkRun","type="+type,"",err);}
-    }
+    };
 }catch(err){GM_logError("bot","","",err);}
-}
+};
 var settings=new function(){
     var data={"global":{},"country":{},"server":{},"account":{}};
     var dataDefault={"global":{},
@@ -576,7 +576,7 @@ var settings=new function(){
         return getRandom(val[0],val[1]);
     }catch(err){GM_logError("settings.set","scope="+scope+" key="+key,"",err);}
     }
-}
+};
 var closeWindowTimer=null;
 var closeWindowTime=CLOSETIME;
 var openWindows=null;
@@ -860,7 +860,7 @@ function calcProductScore(product, zoneNrF, amount, endtime){
         if(amount==null || amount==undefined){ amount=1; }
         return unsafeData.prodPoints[0][product]*unsafeData.prodYield[0][product]*amount;
     break;
-    case 5:
+    case "megafield":
         return unsafeData.prodPoints[4][product];
     break;    
     default:
@@ -893,7 +893,7 @@ function calcProductAmount(product, zoneNrF, amount, endtime, minPlanted){
     case 2:
         return unsafeData.zones.getAnimals(zoneNrF) * unsafeData.prodYield[0][product];
     break;
-    case 3:case 5:
+    case 3:case "megafield":
         return unsafeData.prodYield[0][product];
     break;
     default: 
@@ -1003,6 +1003,34 @@ function calcInGameProductAmount(product,zoneNrF,endtime,includeThisField){
         return 0; 
     }
 }
+function getZoneProduction(zoneNrS,timeBegin,timeEnd){
+    // getTotalProduction
+    try{
+        var t1=timeBegin?timeBegin:0;
+        var t2=timeEnd?timeEnd:NEVER;
+        var production={};
+        var zoneErnteCurr=unsafeData.zones.getProduction(zoneNrS);
+        if(zoneErnteCurr){
+            for(var iTypeStr in zoneErnteCurr){
+                if(!zoneErnteCurr.hasOwnProperty(iTypeStr)){ continue; }
+                for(var iProdStr in zoneErnteCurr[iTypeStr]){
+                    if(!zoneErnteCurr[iTypeStr].hasOwnProperty(iProdStr)){ continue; }
+                    for(var i=0;i<=zoneErnteCurr[0][iTypeStr][iProdStr].length();i++){
+                        if((t1<=zoneErnteCurr[0][iTypeStr][iProdStr][i][2])&&(zoneErnteCurr[0][iTypeStr][iProdStr][i][2]<=t2)){
+                            if(!production[iTypeStr]){ production[iTypeStr]={}; }
+                            if(!production[iTypeStr][iProdStr]){ production[iTypeStr][iProdStr]=0; }
+                            production[iTypeStr][iProdStr]+=zoneErnteCurr[0][iTypeStr][iProdStr][i][0];
+                        }
+                    }
+                }
+            }
+        }
+        return production;
+    }catch(err){ 
+        GM_logError("getZoneProduction","zoneNrS="+zoneNrS+" timeBegin="+timeBegin+" timeEnd="+timeEnd,"",err);
+        return {}; 
+    }
+}
 function calcProductionTime(product, zoneNrF){
 try{
     var bonus=getFarmZoneBonus(zoneNrF, product);
@@ -1072,6 +1100,7 @@ function isVisibleZone(zoneNr){
     }
 }
 function getZoneTimes(zoneNrL){
+// return: {"sawmill.1":1426123455,"sawmill.2":1426123455}
     if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","Begin");}
     try{
         var help;
@@ -1100,7 +1129,7 @@ function getZoneTimes(zoneNrL){
             return returnn.clone();
         }
     }catch(err){
-        GM_logError("getZoneTimes","","",err);
+        GM_logError("getZoneTimes","zoneNrL="+zoneNrL,"",err);
         return new Object();
     }
 }
@@ -1244,12 +1273,20 @@ function getZoneStockType(zoneNrFL){//zoneNrFL=zoneNrF or zoneNrL
     var fzType=getBuildingTyp(zoneNrFL);
     if(extendedListReg.test(zoneNrFL)){//extended list is always a field of type 1
         return 0;
-    }else if(fzType=="windmill"){
-        return 3;
-    }else if (fzType=="sawmill"||fzType=="carpentry"||fzType=="forest"){
-        return 1;
     }else{
-        return 0;
+        switch(fzType){
+        case "megafield": 
+            return 4; 
+        break;
+        case "windmill":
+            return 3; 
+        break;
+        case "sawmill":case "carpentry":case "forest":
+            return 1;
+        break;
+        default:
+            return 0;
+        }
     }
 }
 function getZoneType(zoneNr){
@@ -2611,7 +2648,7 @@ try{
     var fzForestry=(fzType=="forest"||fzType=="sawmill"||fzType=="carpentry");
     var fzMegafield=(fzType=="megafield");
     var fzWindmill=(fzType=="windmill");
-    var iType=(fzWindmill?3:(fzForestry?1:0));
+    var iType=getZoneStockType(zoneNrS);
     var noTime=false;
     var level=parseInt($("levelnum").innerHTML,10);
     var zones=getZonesFromList(zoneNrL);
@@ -2668,8 +2705,10 @@ try{
         var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]==undefined)?false:zoneSettings[zoneNrL]["repeat"];
         var lShuffle=zoneSettings[zoneNrL]["shuffle"]==undefined?false:zoneSettings[zoneNrL]["shuffle"];
         var newRackAmount=new Array(); //array with all cultured products until that moment.
+        var newProdStock=unsafeData.prodStock.clone();
         var fRepeat=OPTION_LIST_REPEAT?lRepeat:false; //foundRepeat
-
+        var tBegin=0,tEnd=0,tBeginPrev;
+        var aProd={};
         for(queueNum=0;queueNum<zoneList[zoneNrL].length;queueNum++){
             // GM_log("updateQueueBox Box :" + zoneNrS + ":"+queueNum + " | " + zoneList[zoneNrL].length);
             var iRepeat=(OPTION_ITEM_REPEAT && !fzWindmill && !fzMegafield)?zoneList[zoneNrL][queueNum][4]:false;
@@ -2683,32 +2722,17 @@ try{
             var iTogo=iRackMode?0:(iLastInf?(11*(zones.length)):iTot-iDone);
             var iTogoAmount=0,iTogoScore=0;
             var iRequireMissing=false;
-            if(iStop){
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).style.backgroundColor=(foundStop?"red":"transparent");
-                foundStop=true;
-            }else{
-                for(var i in unsafeData.prodRequire[iType][iProd]){
-                    if(!unsafeData.prodRequire[iType][iProd].hasOwnProperty(i)){continue;}
-                    if(iRequireMissing){continue;}
-                    if(unsafeData.prodRequire[iType][iProd][i][0]>0){
-                        if(iTot*unsafeData.prodRequire[iType][iProd][i][2]-unsafeData.prodStock[unsafeData.prodRequire[iType][iProd][i][0]][unsafeData.prodRequire[iType][iProd][i][1]]>0){
-                            iRequireMissing=true;
-                        }
-                    }
-                }           
-                if(!newRackAmount[iProd] && !fzWindmill && !fzMegafield){ newRackAmount[iProd]=calcInGameProductAmount(iProd, zoneNrS, null, true); }
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).style.backgroundColor=(foundStop?"red":(iRequireMissing?"yellow":"transparent"));
-            }
 
             if(settings.get("account","showQueueTime")){
                 var beginTime=new Object();
                 var timeArray=new Object();
                 var timesArray=new Object();
                 var iTogoArray=new Object();
+                var aMissing=new Object();
                 var endTime=zoneTimes[getLowestTimeFarmZone(zoneTimes)];
                 var currFeldPositions=0;
 
-                if(fzWindmill||fzMegafield){
+                if(fzWindmill){ // fzMegafield
                     beginTime[zoneNrS]=zoneTimes[zoneNrS];
                     timeArray[zoneNrS]=calcProductionTime(iProd, zoneNrS);
                     if(!timesArray[zoneNrS]) timesArray[zoneNrS]=new Array();
@@ -2719,7 +2743,7 @@ try{
                         iTogoArray[zoneNrS]++;
                     }
                     endTime=zoneTimes[zoneNrS];
-                }else if(iTot<=0 || iStop){ //don't do any thing just give the begin info.
+                }else if((iTot<=0)||iStop){ //don't do any thing just give the begin info.
                     for(var fz in zoneTimes){
                         if(!zoneTimes.hasOwnProperty(fz)){ continue; }
                         if(isNaN(iTogoArray[fz])) iTogoArray[fz]=0;
@@ -2727,28 +2751,7 @@ try{
                         if(!beginTime[fz]) beginTime[fz]=zoneTimes[fz];
                         if(!timeArray[fz]) timeArray[fz]=calcProductionTime(iProd, getZoneNameCorrected(fz));
                     }
-                }else if(!iRackMode){
-                    for(var k=0;k<iTogo;k++){
-                        var fz=getLowestTimeFarmZone(zoneTimes);
-                        var bt=getBuildingTyp(fz);
-                        if(!beginTime[fz]) beginTime[fz]=zoneTimes[fz];
-                        if(!timeArray[fz]) timeArray[fz]=calcProductionTime(iProd, fz);
-                        if(isNaN(iTogoArray[fz])) iTogoArray[fz]=0;
-                        iTogoArray[fz]++;
-                        currFeldPositions=calcProductPositions(iProd, fz);
-                        zoneTimes[fz] +=timeArray[fz]+((unsafeWindow.premium==1)?0:(settings.get("country","pause")[0]/1000)*currFeldPositions);
-                        if(!timesArray[fz]){ //this is the amount that is planted on a field. that last field returns them.
-                            timesArray[fz]=new Array();
-                            if(!fzForestry){ //TODO should be done with the prodrequire == prodYield check..
-                                // iTogoAmount += currFeldPositions;
-                            }
-                        }
-                        if(timesArray[fz].length<=10) timesArray[fz][timesArray[fz].length]=zoneTimes[fz];
-                        iTogoAmount +=calcProductAmount(iProd, fz, currFeldPositions, zoneTimes[fz], false);
-                        iTogoScore +=calcProductScore(iProd, fz, currFeldPositions, zoneTimes[fz]);
-                        if(endTime < zoneTimes[fz]) endTime=zoneTimes[fz];
-                    }
-                }else{ // if(iRackMode){
+                }else if(iRackMode){
                     while((newRackAmount[iProd]+iTogoAmount) < iTot){
                         var fz=getLowestTimeFarmZone(zoneTimes);
                         var cfz=getZoneNameCorrected(fz);
@@ -2769,17 +2772,104 @@ try{
                         if(endTime < zoneTimes[fz]) endTime=zoneTimes[fz];
                     }
                     // GM_log("updateAMount:"+newRackAmount[iProd]);
+                }else{
+                    for(var k=0;k<iTogo;k++){
+                        var fz=getLowestTimeFarmZone(zoneTimes);
+                        var bt=getBuildingTyp(fz);
+                        if(!timeArray[fz]){ timeArray[fz]=calcProductionTime(iProd, fz); }
+                        if(isNaN(iTogoArray[fz])){ iTogoArray[fz]=0; }
+                        iTogoArray[fz]++;
+                        currFeldPositions=calcProductPositions(iProd,fz);
+                        tBeginPrev=tBegin;
+                        tBegin=zoneTimes[fz];
+                        tEnd=tBegin+timeArray[fz]+((unsafeWindow.premium==1)?0:(settings.get("country","pause")[0]/1000)*currFeldPositions);
+                        if(!beginTime[fz]){ beginTime[fz]=tBegin; }
+                        zoneTimes[fz]=tEnd;
+                        var totalCrop=unsafeData.zones.getTotalCrop(tBeginPrev+1,tBegin);
+                        for(var sType in totalCrop){
+                            if(!totalCrop.hasOwnProperty(sType)){ continue; }
+                            if(!newProdStock[sType]){ newProdStock[sType]={}; }
+                            for(var sProd in totalCrop[sType]){
+                                if(!totalCrop[sType].hasOwnProperty(sProd)){ continue; }
+                                if(!newProdStock[sType][sProd]){ newProdStock[sType][sProd]=0; }
+                                newProdStock[sType][sProd]+=totalCrop[sType][sProd];
+                            }
+                        }
+                        if(unsafeData.prodRequire[iType]&&unsafeData.prodRequire[iType][iProd]){
+                            for(var i in unsafeData.prodRequire[iType][iProd]){
+                                if(!unsafeData.prodRequire[iType][iProd].hasOwnProperty(i)){continue;}
+                                sType=unsafeData.prodRequire[iType][iProd][i][0];
+                                sProd=unsafeData.prodRequire[iType][iProd][i][1];
+                                if(!newProdStock[sType]){ newProdStock[sType]={}; }
+                                if(!newProdStock[sType][sProd]){ newProdStock[sType][sProd]=0; }
+                                newProdStock[sType][sProd]-=unsafeData.prodRequire[iType][iProd][i][2];
+                                if(newProdStock[sType][sProd]<0){
+                                    iRequireMissing=true;
+                                    if(!aMissing[sType]){ aMissing[sType]={}; }
+                                    aMissing[sType][sProd]=-newProdStock[sType][sProd];
+                                }
+                            }
+                        }
+                        if(aProd[fz]){
+                            if(!newProdStock[iType]){ newProdStock[iType]={}; }
+                            if(!newProdStock[iType][aProd[fz][0]]){ newProdStock[iType][aProd[fz][0]]=0; }
+                            newProdStock[iType][aProd[fz][0]]+=aProd[fz][1];
+                        }
+                        if(!timesArray[fz]){ //this is the amount that is planted on a field. that last field returns them.
+                            timesArray[fz]=new Array();
+                            if(!fzForestry){ //TODO should be done with the prodrequire == prodYield check..
+                                // iTogoAmount += currFeldPositions;
+                            }
+                        }
+                        if(timesArray[fz].length<=10) timesArray[fz][timesArray[fz].length]=zoneTimes[fz];
+                        var iAmount=calcProductAmount(iProd, fz, currFeldPositions, zoneTimes[fz], false);
+                        iTogoAmount +=iAmount;
+                        aProd[fz]=[iProd,iAmount];
+                        iTogoScore +=calcProductScore(iProd, fz, currFeldPositions, zoneTimes[fz]);
+                        if(endTime < zoneTimes[fz]) endTime=zoneTimes[fz];
+/*
+GM_log("updateQueueBox"
+        +", queueNum=" +JSON.stringify(queueNum)
+        +", k=" +JSON.stringify(k)
+        +", fz="+JSON.stringify(fz)
+        +", bt="+JSON.stringify(bt)
+        +", beginTime[fz]="+getDateStr(beginTime[fz])+" "+getDaytimeStr(beginTime[fz],false,true)
+        +", timeArray[fz]="+JSON.stringify(timeArray[fz])
+        +", iTogoArray[fz]="+JSON.stringify(iTogoArray[fz])
+        +", zoneTimes[fz]="+getDateStr(zoneTimes[fz])+" "+getDaytimeStr(zoneTimes[fz],false,true)
+        +", currFeldPositions="+JSON.stringify(currFeldPositions)
+        +", tBeginPrev="+getDateStr(tBeginPrev)+" "+getDaytimeStr(tBeginPrev,false,true)
+        +", tBegin="+getDateStr(tBegin)+" "+getDaytimeStr(tBegin,false,true)
+        +", tEnd="+getDateStr(tEnd)+" "+getDaytimeStr(tEnd,false,true)
+        +", totalCrop="+JSON.stringify(totalCrop)
+); 
+*/
+                    }
                 }
                 $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("timeArray",implode(timeArray,"updateQueueBox/timeArray"));
                 $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoArray",implode(iTogoArray.sortObj(),"updateQueueBox/iTogoArray"));
                 $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("timesArray",implode(timesArray.sortObj(),"updateQueueBox/timesArray"));
                 $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("zoneBeginTime",implode(beginTime.sortObj(),"updateQueueBox/beginTime"));
                 $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("zoneEndTime",implode(zoneTimes,"updateQueueBox/zoneTimes"));
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("aMissing",implode(aMissing,"updateQueueBox/aMissing"));
                 timeArray=null;beginTime=null;timesArray=null;iTogoArray=null;
             }else{
                 iTogoAmount=iTogo*calcProductAmount(iProd, zoneNrS);
                 iTogoScore=iTogo*calcProductScore(iProd, zoneNrS);
+                for(var i in unsafeData.prodRequire[iType][iProd]){
+                    if(!unsafeData.prodRequire[iType][iProd].hasOwnProperty(i)){continue;}
+                    sType=unsafeData.prodRequire[iType][iProd][i][0];
+                    sProd=unsafeData.prodRequire[iType][iProd][i][1];
+                    if(iTot*unsafeData.prodRequire[iType][iProd][i][2]>unsafeData.prodStock[sType][sProd]){
+                        iRequireMissing=true;
+                        break;
+                    }
+                }
+                if(!newRackAmount[iProd] && !fzWindmill && !fzMegafield){ newRackAmount[iProd]=calcInGameProductAmount(iProd,zoneNrS,null,true); }
             }
+            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).style.backgroundColor=(foundStop?"red":(iRequireMissing?"yellow":"transparent"));
+            if(iStop){ foundStop=true; }
+            
             if(!fzWindmill && !fzMegafield && !iStop){
                 newRackAmount[iProd] +=iTogoAmount;
                 $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogo",iTogo);
@@ -2822,7 +2912,15 @@ try{
             }
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"M").style.opacity=iTogo<=0? 0.4:1;
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"M").style.display=(iLastInf || iStop || iTot<=1) ?"none":"block";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display=(!iLastInf && !iStop && (!fzWindmill||(autoMillStorage[iProd][1]<autoMillStorage[iProd][0])) && (!fzMegafield||(true)))?"block":"none"; // TODO 2.4
+            if(iLastInf||iStop){
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display="none";
+            }else if(fzWindmill){
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display=(autoMillStorage[iProd][1]<autoMillStorage[iProd][0])?"block":"none"; // TODO 2.4
+            }else if(unsafeData.prodStockMax[iType]&&unsafeData.prodStockMax[iType][iProd]&&newProdStock[iType]&&newProdStock[iType][iProd]){
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display=(unsafeData.prodStockMax[iType][iProd]<=newProdStock[iType][iProd])?"block":"none";
+            }else{
+                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display="block";
+            }                
 
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"ET").innerHTML=(settings.get("account","showQueueTime") && lShowTime)?iLastInf?sign_inf:(getDateText(endTime,0) + "<br/>" + getDaytimeStr(endTime,true)):null;
             $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"ET").style.color=noTime? "#DD0000":"black";
@@ -3252,6 +3350,7 @@ try{
         var iTogoArray=explode(parent.getAttribute("iTogoArray"),"toolTipProduct/iTogoArray",{});
         var timeArray=explode(parent.getAttribute("timeArray"),"toolTipProduct/timeArray",{});
         var timesArray=explode(parent.getAttribute("timesArray"),"toolTipProduct/timesArray",{});
+        var aMissing=explode(parent.getAttribute("aMissing"),"toolTipProduct/aMissing",{});
         var zoneBeginTime=explode(parent.getAttribute("zoneBeginTime"),"toolTipProduct/zoneBeginTime",{});
         var zoneEndTime=explode(parent.getAttribute("zoneEndTime"),"toolTipProduct/zoneEndTime",{});
         var equalTimeArray=timeArray.allEqual();
@@ -3360,7 +3459,7 @@ try{
                         createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(help[2]));
                         help[2]*=iTot;
                         createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(help[2]));
-                        help[2]-=unsafeData.prodStock[help[0]][help[1]];
+                        help[2]=(aMissing[help[0]]?aMissing[help[0]][help[1]]:0);
                         createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, help[2]>0?numberFormat(help[2]):"");
                         createElement("div",{style:"display:table-cell;padding-left:8px;"},newspan,unsafeData.prodName[help[0]][help[1]]);
                     }
@@ -5177,7 +5276,7 @@ function autoMegafield(runId,step){
         case 1:{ // init
             var zoneNrF="megafield";
             handled.set(zoneNrF);
-            if((!zoneWaiting[handled.zoneNrL])&&(help=unsafeData.readyZone[handled.zoneNrL])&&help[2]&&((("r"==help[1])&&((PRODSTOP!=zoneList[handled.zoneNrL][0][0])||(!settings.get("account","disableCropFields"))))||(("e"==help[1])&&(PRODSTOP!=zoneList[handled.zoneNrL][0][0])))){
+            if((!zoneWaiting[handled.zoneNrL])&&(help=unsafeData.readyZone[handled.zoneNrL])&&help[2]&&((("r"==help[1]||"e"==help[1])&&((PRODSTOP!=zoneList[handled.zoneNrL][0][0])||(!settings.get("account","disableCropFields"))))||(("e"==help[1])&&(PRODSTOP!=zoneList[handled.zoneNrL][0][0])))){
                 autoMegafield(runId,step+1);
             }else{
                 autoMegafield(runId,9); // exit
@@ -5189,7 +5288,7 @@ function autoMegafield(runId,step){
                 step--;
                 listeningEvent="gameOpenMegafield";
                 action=function(){ click($("speedlink_megafield")); };
-            }else if((!unsafeWindow.megafield_data.tour)&&(help=unsafeData.readyZone[handled.zoneNrL])&&("r"==help[1])&&((PRODSTOP!=zoneList[handled.zoneNrL][0][0])||(!settings.get("account","disableCropFields")))){
+            }else if((!unsafeWindow.megafield_data.tour)&&(help=unsafeData.readyZone[handled.zoneNrL])&&("r"==help[1]||"e"==help[1])&&((PRODSTOP!=zoneList[handled.zoneNrL][0][0])||(!settings.get("account","disableCropFields")))){
                 // crop
                 autoMegafield(runId,step+1);
             }else if((help=unsafeData.readyZone[handled.zoneNrL])&&help[2]&&((("r"==help[1])&&((PRODSTOP!=zoneList[handled.zoneNrL][0][0])||(!settings.get("account","disableCropFields"))))||(("e"==help[1])&&(PRODSTOP!=zoneList[handled.zoneNrL][0][0])))){
@@ -7153,6 +7252,13 @@ function buildInfoPanelOverview(mode){
                 createElement("div",{"filter":"farmersmarket,","class":"link speedlink speedlink_farmersmarket","mouseOverText":getText("automat_title_on_farmersmarket")},newdiv1);
             }else{
                 createElement("div",{"filter":"farmersmarket,","class":"link speedlink speedlink_farmersmarket","mouseOverText":getText("automat_title_off_farmersmarket")},newdiv1);
+            }
+        }
+        if(!unsafeData.zones.getBlock(unsafeData.ALL_ZONES["megafield"][0])){
+            if(mode["filterZone"].search("megafield,")==-1){
+                createElement("div",{"filter":"megafield,","class":"link speedlink speedlink_megafield","mouseOverText":getText("automat_title_on_megafield")},newdiv1);
+            }else{
+                createElement("div",{"filter":"megafield,","class":"link speedlink speedlink_megafield","mouseOverText":getText("automat_title_off_megafield")},newdiv1);
             }
         }
         for(var j=0;j<unsafeData.ALL_ZONES["city"].length;j++){
@@ -9534,6 +9640,8 @@ try{
         texte["de"]["automat_title_off_farm4"] = "Zeige nur 4. Farm<br>+Strg: Verstecke 4. Farm";
         texte["de"]["automat_title_on_farmersmarket"] = "Zeige nur Bauernmarkt<br>+Strg: Zeige Bauernmarkt";
         texte["de"]["automat_title_off_farmersmarket"] = "Zeige nur Bauernmarkt<br>+Strg: Verstecke Bauernmarkt";
+        texte["de"]["automat_title_on_megafield"] = "Zeige nur G"+u_dots+"terhof<br>+Strg: Zeige G"+u_dots+"terhof";
+        texte["de"]["automat_title_off_megafield"] = "Zeige nur G"+u_dots+"terhof<br>+Strg: Verstecke G"+u_dots+"terhof";
         texte["de"]["automat_title_on_city"] = "Zeige nur Stadt<br>+Strg: Zeige Stadt";
         texte["de"]["automat_title_off_city"] = "Zeige nur Stadt<br>+Strg: Verstecke Stadt";
         texte["de"]["automat_title_on_forestry"] = "Zeige nur Baumerei<br>+Strg: Zeige Baumerei";
@@ -9715,6 +9823,8 @@ try{
         texte["en"]["automat_title_off_farm4"] = "Show fourth farm only<br>+Ctrl: Hide fourth farm";
         texte["en"]["automat_title_on_farmersmarket"] = "Show farmersmarket only<br>+Ctrl: Show farmersmarket";
         texte["en"]["automat_title_off_farmersmarket"] = "Show farmersmarket only<br>+Ctrl: Hide farmersmarket";
+        texte["en"]["automat_title_on_megafield"] = "Show megafield only<br>+Ctrl: Show megafield";
+        texte["en"]["automat_title_off_megafield"] = "Show megafield only<br>+Ctrl: Hide megafield";
         texte["en"]["automat_title_on_city"] = "Show city only<br>+Ctrl: Show city";
         texte["en"]["automat_title_off_city"] = "Show city only<br>+Ctrl: Hide city";
         texte["en"]["automat_title_on_forestry"] = "Show forestry only<br>+Ctrl: Show forestry";
@@ -9878,7 +9988,7 @@ try{
     GM_logInfo("start_script","","Page="+location.href,"Userscript \"MyFreeFarm Automat\" has started");
     unsafeData.automatStarted=automatStarted=true;
 }catch(err){GM_logError("start_script","","err_trace="+err_trace,err);}
-}
+};
 
 window.addEventListener("load",function(){
     if(self==top){ do_relogin(60); }
