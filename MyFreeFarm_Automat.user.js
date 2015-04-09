@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           22.02.2015
-// @version        2.4.2
+// @date           01.04.2015
+// @version        2.5
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -53,7 +53,7 @@
 // ==/UserScript==
 
 const VERSION=GM_info["script"]["version"];
-const neededVersionBerater="2.4.2";
+const neededVersionBerater="2.5";
 const neededVersionFunctionFile="2.1.5";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
@@ -69,7 +69,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.2.0","01.02.2015",[["Neu: Ernte-Bot f"+u_dots+"r G"+u_dots+"terhof","New: Cropping bot for megafield"]]]
                 ,["2.4.0","12.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"]]]
                 ,["2.4.1","13.02.2015",[["Bugfix: Optionen","Bugfix: Settings"]]]
-                ,["2.4.2","22.02.2015",[["Neu: Bot f"+u_dots+"r G"+u_dots+"terhof","New: Bot for megafield"],["Refaktorierung des Loggings","Refactoring of logging"]]]
+                ,["2.5","xx.xx.2015",[["Neu: Bot f"+u_dots+"r G"+u_dots+"terhof","New: Bot for megafield"],["Refaktorierung des Loggings","Refactoring of logging"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Automaton-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -78,10 +78,6 @@ if(!VERSIONfunctionFile){
     alert("Hi, I am the Automaton-Script.\nThe function-file is too old.\nPlease install me again.");
     location.href=GM_Source;
 }
-var DEVMODE=GM_getValue("devmode",false);
-var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
-var DEVMODE_LOG_WARNING=GM_getValue("devmode_log_warning",false);
-var DEVMODE_LOG_ERROR=GM_getValue("devmode_log_error",false);
 const LOGGING_ARBITER=false;
 const PRODSTOP=-1;
 const PRODSTOPold=66; // TODO remove
@@ -412,7 +408,7 @@ try{
     };
     this.start=function(){
     try{
-        if(DEVMODE){ logBubble.add("bot.start"); }
+        GM_logInfo("bot.start","","","",0);
         try {window.clearInterval(interval);} catch (err){}
         durationRun=settings.get("country","maxDurationBotRun");
         durationStep=settings.get("country","maxDurationBotStep");
@@ -424,7 +420,7 @@ try{
     };
     this.end=function(){
     try{
-        if(DEVMODE){ logBubble.add("bot.end"); }
+        GM_logInfo("bot.end","","","",0);
         top.unsafeData.autoAction=null;
         runId++;
         busy=false;
@@ -432,7 +428,7 @@ try{
     };
     this.run=function(){
     try{
-        if(DEVMODE){ logBubble.add("bot.run"); }
+        GM_logInfo("bot.run","","","",0);
         durationRun--;
         durationStep--;
         if(divInfo.style.display!="block"){ divInfo.style.display="block"; }
@@ -588,10 +584,9 @@ try{
     if(divCW.style.display!="block"){ divCW.style.display="block"; }
     var cell;
     if(!bot.isBusy()){
-        // GM_log("startCloseWindowTimer ");
         if(--closeWindowTime>0 && !checkOpenWindow(true)){
-            //-- GM_log("startCloseWindowTimer closeWindowTime:"+closeWindowTime);
-            divCW.innerHTML=getText("automat_CloseWindowTimer").replace("%1%", getTimeStr(closeWindowTime)) + "<br>" + getText("automat_CloseWindowTimerClick") + (DEVMODE?"<br>OpenWindows: "+openWindows:"");
+            GM_logInfo("startCloseWindowTimer","","closeWindowTime="+closeWindowTime+" openWindows="+implode(openWindows,"startCloseWindowTimer"),"",0);
+            divCW.innerHTML=getText("automat_CloseWindowTimer").replace("%1%", getTimeStr(closeWindowTime)) + "<br>" + getText("automat_CloseWindowTimerClick");
             if(!closeWindowTimer) closeWindowTimer=window.setInterval(startCloseWindowTimer,1000);
         }else{
             //-- GM_log("closingEventTimer closeWindowTime:"+closeWindowTime);
@@ -651,13 +646,13 @@ try{
 }
 function stopCloseWindowTimer(){
     try{
-        if(DEVMODE_FUNCTION){GM_logInfo("stopCloseWindowTimer","","closeWindowTimer="+closeWindowTimer,"Begin");}
+        GM_logInfo("stopCloseWindowTimer","","closeWindowTimer="+closeWindowTimer,"Begin",1);
         try{ window.clearInterval(closeWindowTimer); }catch(err){}
         closeWindowTimer=null;
         closeWindowTime=CLOSETIME;
         if($("divCloseWindowLayer")){ $("divCloseWindowLayer").style.display="none";}
         if($("divCloseWindow")){ $("divCloseWindow").style.display="none";}
-        if(DEVMODE_FUNCTION){GM_logInfo("stopCloseWindowTimer","","closeWindowTimer="+closeWindowTimer,"End");}
+        GM_logInfo("stopCloseWindowTimer","","closeWindowTimer="+closeWindowTimer,"End",1);
     }catch(err){GM_logError("stopCloseWindowTimer","","",err);}
 }
 function checkOpenWindow(justcheck){
@@ -665,7 +660,7 @@ try{
     var allWinClosed=true;
     var help;
     openWindows="";
-    if(DEVMODE_FUNCTION){ GM_logInfo("checkOpenWindow","justcheck="+justcheck,"automatStarted="+automatStarted+" busy="+bot.isBusy()+" closeWindowTimer="+closeWindowTimer,"Begin"); }
+    GM_logInfo("checkOpenWindow","justcheck="+justcheck,"automatStarted="+automatStarted+" busy="+bot.isBusy()+" closeWindowTimer="+closeWindowTimer,"Begin",1);
     if(automatStarted&&!bot.isBusy()){
         var currLocation=unsafeData.gameLocation.get();
         for(var ctn in OpenWindow){
@@ -701,7 +696,7 @@ try{
 }catch(err){GM_logError("checkOpenWindow","justcheck="+justcheck,"ctn="+ctn+" wn="+wn,err);}
 }
 function getFarmZoneBonus(zoneNr,product){
-    if(DEVMODE_FUNCTION){GM_logInfo("getFarmZoneBonus","zoneNr="+zoneNr+" product="+product,"","Begin");}
+    GM_logInfo("getFarmZoneBonus","zoneNr="+zoneNr+" product="+product,"","Begin",1);
     try{
         var bonus=1;
         var zoneNrF=zoneNr.toString().replace(/\.\d+$/,"");
@@ -725,11 +720,11 @@ function getFarmZoneBonus(zoneNr,product){
             }
         }
     }
-    if(DEVMODE_FUNCTION){GM_logInfo("getFarmZoneBonus","zoneNr="+zoneNr+" product="+product,"bonus="+bonus,"End");}
+    GM_logInfo("getFarmZoneBonus","zoneNr="+zoneNr+" product="+product,"bonus="+bonus,"End",1);
     return bonus;
 }
 function getLowestTimeFarmZone(timeTable){
-    if(DEVMODE_FUNCTION){GM_logInfo("getLowestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin");}
+    GM_logInfo("getLowestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin",1);
     for(var i in timeTable){
         if(!timeTable.hasOwnProperty(i)){ continue; }
         if(zoneNrF==undefined) var zoneNrF=i;
@@ -737,11 +732,11 @@ function getLowestTimeFarmZone(timeTable){
             zoneNrF=i;
         }
     }
-    if(DEVMODE_FUNCTION){GM_logInfo("getLowestTimeFarmZone","","zoneNrF="+zoneNrF,"End");}
+    GM_logInfo("getLowestTimeFarmZone","","zoneNrF="+zoneNrF,"End",1);
     return zoneNrF;
 }
 function getHighestTimeFarmZone(timeTable){
-    if(DEVMODE_FUNCTION){GM_logInfo("getHighestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin");}
+    GM_logInfo("getHighestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin",1);
     for(var i in timeTable){
         if(!timeTable.hasOwnProperty(i)){ continue; }
         if(zoneNrF==undefined) var zoneNrF=i;
@@ -749,7 +744,7 @@ function getHighestTimeFarmZone(timeTable){
             zoneNrF=i;
         }
     }
-    if(DEVMODE_FUNCTION){GM_logInfo("getHighestTimeFarmZone","","zoneNrF="+zoneNrF,"End");}
+    GM_logInfo("getHighestTimeFarmZone","","zoneNrF="+zoneNrF,"End",1);
     return zoneNrF;
 }
 
@@ -831,7 +826,7 @@ function calcDauer(dauer,bonus){ //dauer in sek, bonus zB 0.85
     return gesamtdauer;
 }
 function calcProductScore(product, zoneNrF, amount, endtime){
-    if(DEVMODE_FUNCTION){GM_logInfo("calcProductScore","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime,"","Begin");}
+    GM_logInfo("calcProductScore","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime,"","Begin",1);
     switch(getBuildingTyp(zoneNrF)){
     case "windmill":
         return unsafeData.prodPoints[3][product];
@@ -869,7 +864,7 @@ function calcProductScore(product, zoneNrF, amount, endtime){
     }
 }
 function calcProductAmount(product, zoneNrF, amount, endtime, minPlanted){
-    if(DEVMODE_FUNCTION){GM_logInfo("calcProductAmount","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime+" minPlanted="+minPlanted,"","Begin");}
+    GM_logInfo("calcProductAmount","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime+" minPlanted="+minPlanted,"","Begin",1);
     switch(getBuildingTyp(zoneNrF)){
     case "windmill":
         return 1;
@@ -893,8 +888,11 @@ function calcProductAmount(product, zoneNrF, amount, endtime, minPlanted){
     case 2:
         return unsafeData.zones.getAnimals(zoneNrF) * unsafeData.prodYield[0][product];
     break;
-    case 3:case "megafield":
+    case 3:
         return unsafeData.prodYield[0][product];
+    break;
+    case "megafield":
+        return unsafeData.prodYield[4][product];
     break;
     default: 
         GM_logWarning("calcProductAmount","product="+product+" zoneNrF="+zoneNrF+" amount="+amount+" endtime="+endtime,"getBuildingTyp="+getBuildingTyp(zoneNrF),"Function returns 0");
@@ -922,10 +920,10 @@ function calcEmptyProductPositions(product, zoneNrF){
             }
         }
     }
-    if(DEVMODE&&!tempZoneProductionData[3]){
-        GM_logInfo("calcEmptyProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"Returned data is flagged to be old." );
+    if(!tempZoneProductionData[3]){
+        GM_logInfo("calcEmptyProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"Returned data is flagged to be old.",0);
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("calcEmptyProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"End");}
+    GM_logInfo("calcEmptyProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"End",1);
     return returnn;
 }
 function calcProductPositions(product, zoneNrF){
@@ -951,8 +949,8 @@ function calcProductPositions(product, zoneNrF){
             }
         }
     }
-    if(DEVMODE&&!tempZoneProductionData[3]){
-        GM_logInfo("calcProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"Returned data is flagged to be old." );
+    if(!tempZoneProductionData[3]){
+        GM_logInfo("calcProductPositions","zoneNrF="+zoneNrF+" product="+product,"return="+returnn,"Returned data is flagged to be old.",0);
     }
     // GM_log("calcProductPositions: zoneNrF:"+zoneNrF+" product:"+product+" return:"+returnn);
     return returnn;
@@ -971,8 +969,8 @@ function calcInGameProductAmountOnField(product, zoneNrF, endtime){
                     }
                 }
             }
-            if(DEVMODE&&!tempZoneProductionData[3]){
-                GM_logWarning("calcInGameProductAmountOnField","zoneNrF="+zoneNrF+" product="+product+" endtime="+endtime,"return="+iBase,"Returned data is flagged to be old.");
+            if(!tempZoneProductionData[3]){
+                GM_logWarning("calcInGameProductAmountOnField","zoneNrF="+zoneNrF+" product="+product+" endtime="+endtime,"return="+iBase,"Returned data is flagged to be old.",0);
             }
         }
         return iBase;
@@ -983,7 +981,7 @@ function calcInGameProductAmountOnField(product, zoneNrF, endtime){
 }
 function calcInGameProductAmount(product,zoneNrF,endtime,includeThisField){
     try{
-        if(DEVMODE_FUNCTION){GM_logInfo("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"","Begin"); }
+        GM_logInfo("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"","Begin",1);
         var type=getZoneStockType(zoneNrF);
         var iBase=unsafeData.prodStock[type][product]?unsafeData.prodStock[type][product]:0;
         var fzType=getBuildingTyp(zoneNrF);
@@ -996,7 +994,7 @@ function calcInGameProductAmount(product,zoneNrF,endtime,includeThisField){
                 iBase +=calcInGameProductAmountOnField(product, fz, endtime);
             }
         }
-        if(DEVMODE_FUNCTION){GM_logInfo("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"return="+iBase,"End");}
+        GM_logInfo("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"return="+iBase,"End",1);
         return iBase;
     }catch(err){ 
         GM_logError("calcInGameProductAmount","product="+product+" zoneNrF="+zoneNrF+" endtime="+endtime+" includeThisField="+includeThisField,"",err);
@@ -1101,11 +1099,11 @@ function isVisibleZone(zoneNr){
 }
 function getZoneTimes(zoneNrL){
 // return: {"sawmill.1":1426123455,"sawmill.2":1426123455}
-    if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","Begin");}
+    GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","Begin",1);
     try{
         var help;
         if(!settings.get("account","showQueueTime")){
-            if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End: disabled");}
+            GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End: disabled",1);
             return new Object();
         }
         noTime=false;
@@ -1116,7 +1114,7 @@ function getZoneTimes(zoneNrL){
             zoneTimes[fz]=((help==NEVER)?now:help);
         }
         if(zoneNrL==undefined){
-            if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End");}
+            GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End",1);
             return zoneTimes.clone();
         }else{
             var returnn=new Object();
@@ -1125,7 +1123,7 @@ function getZoneTimes(zoneNrL){
                 returnn[zones[i]]=zoneTimes[zones[i]];
             }
             zoneTimes=null;
-            if(DEVMODE_FUNCTION){GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End");}
+            GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End",1);
             return returnn.clone();
         }
     }catch(err){
@@ -1143,7 +1141,7 @@ function getFarmZonesTyp(zType){
     return zoneT;
 }
 function getZoneActiveList(){
-    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneActiveList","","","Begin");}
+    GM_logInfo("getZoneActiveList","","","Begin",1);
     var zones=new Object();
     var returnn=new Array();
     for(var zoneNrF in zoneList){
@@ -1155,11 +1153,11 @@ function getZoneActiveList(){
         returnn.push(zoneNrL);
     }
     zones=null;
-    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneActiveList","","zoneNrL="+zoneNrL+" return="+implode(returnn,"getZoneActiveList/returnn"),"End");}
+    GM_logInfo("getZoneActiveList","","zoneNrL="+zoneNrL+" return="+implode(returnn,"getZoneActiveList/returnn"),"End",1);
     return returnn;
 }
 function getZonesFromList(zoneNrL){
-    if(DEVMODE_FUNCTION){ GM_logInfo("getZonesFromList","zoneNrL="+zoneNrL,"","Begin"); }
+    GM_logInfo("getZonesFromList","zoneNrL="+zoneNrL,"","Begin",1);
     var returnn=new Array(); // [[zoneNrF,slot],...]
     // if(isNaN(zoneNrL)){
     //  returnn.push(zoneNrL);
@@ -1172,7 +1170,7 @@ function getZonesFromList(zoneNrL){
                 returnn.push(i);
             }
         }
-    if(DEVMODE_FUNCTION){ GM_logInfo("getZonesFromList","zoneNrL="+zoneNrL,"return="+implode(returnn,"getZonesFromList/returnn"),"End");}
+    GM_logInfo("getZonesFromList","zoneNrL="+zoneNrL,"return="+implode(returnn,"getZonesFromList/returnn"),"End",1);
     return returnn;
 }
 function createZoneList(zoneNrS){
@@ -1329,7 +1327,7 @@ function getOpenZoneNrF(){
 function getZoneName(recursionCount,zoneNrS,zoneNrL,queueNum,showPaired,showLocation,showBonus,showName){
 try{
     if(recursionCount>100){throw("TOO MUCH RECURSION")}
-    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneName","recursionCount="+recursionCount+" zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin"); }
+    GM_logInfo("getZoneName","recursionCount="+recursionCount+" zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin",1);
     if(showName==undefined){ showName=true; }
     zoneNrS=zoneNrS.toString();
     var zoneNrF=zoneNrS.replace(/\.\d+$/,"");
@@ -1409,7 +1407,7 @@ try{
             txt=(isNaN(zoneNrF)?getText(getZoneType(zoneNrF)):unsafeWindow.buildinginfos[0][getZoneType(zoneNrF)][10].replace(" ","&nbsp;"))+"&nbsp;"+txt;
         }
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("getZoneName","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"zoneNrF="+zoneNrF,"End"); }
+    GM_logInfo("getZoneName","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"zoneNrF="+zoneNrF,"End",1);
     return txt;
 }catch(err){
     GM_logError("getZoneName","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"zoneNrF="+zoneNrF,err);
@@ -1419,7 +1417,7 @@ try{
 
 function drawAutomatIcon(name,zoneNrS,appendTo,style){
 try {
-    if(DEVMODE_FUNCTION){ GM_logInfo("drawAutomatIcon","name="+name,"","Begin");}
+    GM_logInfo("drawAutomatIcon","name="+name,"","Begin",1);
     // logBubble.add("drawAutomatIcon name="+name+" zoneNrS="+zoneNrS);
     if(!(automatIcons[name]&&automatIcons[name][1]&&automatIcons[name][1].parentNode)){
         automatIcons[name]=[zoneNrS];
@@ -1479,13 +1477,13 @@ try {
         },false);
         updateQueueBox(zoneNrS);
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("drawAutomatIcon","zoneNrS="+zoneNrS,"","End");}
+    GM_logInfo("drawAutomatIcon","zoneNrS="+zoneNrS,"","End",1);
 }catch(err){GM_logError("drawAutomatIcon","zoneNrS="+zoneNrS,"",err);}
 }
 
 function drawQueueBox(zoneNrS, zoneNrL, appendTo){
 try{
-    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"","Begin"); }
+    GM_logInfo("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"","Begin",1);
     if(zoneNrS==undefined){ return; }
     if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
@@ -1727,13 +1725,13 @@ try{
     $("divAutoMatScrollLeft"+zoneNrL).style.visibility=(scrlelm.scrollLeft>0?"visible":"hidden");
     $("divAutoMatScrollRight"+zoneNrL).style.visibility=((scrlelm.scrollLeft + scrlelm.clientWidth)<scrlelm.scrollWidth?"visible":"hidden");
 
-    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"","End"); }
+    GM_logInfo("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"","End",1);
     newlayer=null;newelm=null;newscrL=null;newscrR=null;scrlelm=null;appendTo=null;
 }catch(err){GM_logError("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"",err);}
 }
 function drawQueueItemBox(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
-    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"","Begin"); }
+    GM_logInfo("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"","Begin",1);
     if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
     // begin adding new box
@@ -2029,7 +2027,7 @@ try{
     // End Time
     createElement("div",{id:newlayerId+"ET","class":"queueItemTime",style:"height:"+queueItemBoxTimeHeight+"px;"},newlayer);
     newlayer=null;newelm=null;
-    if(DEVMODE_FUNCTION){ GM_logInfo("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"","End"); }
+    GM_logInfo("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"","End",1);
 }catch(err){GM_logError("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"",err);}
 }
 function drawQueueListSmall(zoneNrF, zoneNrL, appendTo){
@@ -2639,7 +2637,7 @@ try{
 
 function updateQueueBox(zoneNrS,zoneNrL){
 try{
-    if(DEVMODE_FUNCTION){ GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin"); }
+    GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin",1);
     if(zoneNrS==undefined){ return; }
     var err_trace="init";
     if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
@@ -2700,16 +2698,18 @@ try{
     err_trace="queue list";
     if($("divAutoMatQueueBox"+zoneNrL)){
         // GM_log("updateQueueBox Box :" + zoneNrL);
+        var divAutoMatQueueItemBox, divAutoMatQueueItemBoxId;
         var totalInQue=0;
         var foundStop=false;
         var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]==undefined)?false:zoneSettings[zoneNrL]["repeat"];
         var lShuffle=zoneSettings[zoneNrL]["shuffle"]==undefined?false:zoneSettings[zoneNrL]["shuffle"];
         var newRackAmount=new Array(); //array with all cultured products until that moment.
         var newProdStock=unsafeData.prodStock.clone();
+        if(!newProdStock[iType]){ newProdStock[iType]={}; }
         var fRepeat=OPTION_LIST_REPEAT?lRepeat:false; //foundRepeat
         var tBegin=0,tEnd=0,tBeginPrev;
         var aProd={};
-        for(queueNum=0;queueNum<zoneList[zoneNrL].length;queueNum++){
+        loop:for(queueNum=0;queueNum<zoneList[zoneNrL].length;queueNum++){
             // GM_log("updateQueueBox Box :" + zoneNrS + ":"+queueNum + " | " + zoneList[zoneNrL].length);
             var iRepeat=(OPTION_ITEM_REPEAT && !fzWindmill && !fzMegafield)?zoneList[zoneNrL][queueNum][4]:false;
             fRepeat=fRepeat||(OPTION_ITEM_REPEAT?iRepeat:false);
@@ -2722,6 +2722,10 @@ try{
             var iTogo=iRackMode?0:(iLastInf?(11*(zones.length)):iTot-iDone);
             var iTogoAmount=0,iTogoScore=0;
             var iRequireMissing=false;
+            var fz;
+            if(!newProdStock[iType][iProd]){ newProdStock[iType][iProd]=0; }
+            divAutoMatQueueItemBoxId="divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum;
+            divAutoMatQueueItemBox=$(divAutoMatQueueItemBoxId);
 
             if(settings.get("account","showQueueTime")){
                 var beginTime=new Object();
@@ -2732,7 +2736,7 @@ try{
                 var endTime=zoneTimes[getLowestTimeFarmZone(zoneTimes)];
                 var currFeldPositions=0;
 
-                if(fzWindmill){ // fzMegafield
+                if(fzWindmill){
                     beginTime[zoneNrS]=zoneTimes[zoneNrS];
                     timeArray[zoneNrS]=calcProductionTime(iProd, zoneNrS);
                     if(!timesArray[zoneNrS]) timesArray[zoneNrS]=new Array();
@@ -2744,7 +2748,7 @@ try{
                     }
                     endTime=zoneTimes[zoneNrS];
                 }else if((iTot<=0)||iStop){ //don't do any thing just give the begin info.
-                    for(var fz in zoneTimes){
+                    for(fz in zoneTimes){
                         if(!zoneTimes.hasOwnProperty(fz)){ continue; }
                         if(isNaN(iTogoArray[fz])) iTogoArray[fz]=0;
                         iTogoArray[fz]++;
@@ -2774,17 +2778,10 @@ try{
                     // GM_log("updateAMount:"+newRackAmount[iProd]);
                 }else{
                     for(var k=0;k<iTogo;k++){
-                        var fz=getLowestTimeFarmZone(zoneTimes);
+                        fz=getLowestTimeFarmZone(zoneTimes);
                         var bt=getBuildingTyp(fz);
-                        if(!timeArray[fz]){ timeArray[fz]=calcProductionTime(iProd, fz); }
-                        if(isNaN(iTogoArray[fz])){ iTogoArray[fz]=0; }
-                        iTogoArray[fz]++;
-                        currFeldPositions=calcProductPositions(iProd,fz);
                         tBeginPrev=tBegin;
                         tBegin=zoneTimes[fz];
-                        tEnd=tBegin+timeArray[fz]+((unsafeWindow.premium==1)?0:(settings.get("country","pause")[0]/1000)*currFeldPositions);
-                        if(!beginTime[fz]){ beginTime[fz]=tBegin; }
-                        zoneTimes[fz]=tEnd;
                         var totalCrop=unsafeData.zones.getTotalCrop(tBeginPrev+1,tBegin);
                         for(var sType in totalCrop){
                             if(!totalCrop.hasOwnProperty(sType)){ continue; }
@@ -2795,6 +2792,7 @@ try{
                                 newProdStock[sType][sProd]+=totalCrop[sType][sProd];
                             }
                         }
+                        // Needed resources for production
                         if(unsafeData.prodRequire[iType]&&unsafeData.prodRequire[iType][iProd]){
                             for(var i in unsafeData.prodRequire[iType][iProd]){
                                 if(!unsafeData.prodRequire[iType][iProd].hasOwnProperty(i)){continue;}
@@ -2810,23 +2808,55 @@ try{
                                 }
                             }
                         }
-                        if(aProd[fz]){
+                        // Production at zone of previous queue item 
+                        if(aProd[fz]){ 
                             if(!newProdStock[iType]){ newProdStock[iType]={}; }
                             if(!newProdStock[iType][aProd[fz][0]]){ newProdStock[iType][aProd[fz][0]]=0; }
                             newProdStock[iType][aProd[fz][0]]+=aProd[fz][1];
                         }
-                        if(!timesArray[fz]){ //this is the amount that is planted on a field. that last field returns them.
+                        // Delete queue item if maximum stock capacity is reached
+                        if((!iLastInf)&&unsafeData.prodStockMax[iType]&&unsafeData.prodStockMax[iType][iProd]){
+                            if((0==k)&&(unsafeData.prodStockMax[iType][iProd]<=newProdStock[iType][iProd])){
+                                GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"queueNum="+queueNum,"Maximum stock capacity will be reached. Queue item deleted."); // TODO text
+                                zoneList[zoneNrL].splice(queueNum,1);
+                                queueNum--;
+                                var div=$("divAutoMatQueueItemBox"+zoneNrL+"Q"+zoneList[zoneNrL].length);
+                                if(div){
+                                    removeElement(div);
+                                    div=null;
+                                }
+                                continue loop;
+                            }
+                        }
+                        //this is the amount that is planted on a field. that last field returns them.
+                        if(!timesArray[fz]){ 
                             timesArray[fz]=new Array();
                             if(!fzForestry){ //TODO should be done with the prodrequire == prodYield check..
                                 // iTogoAmount += currFeldPositions;
                             }
-                        }
+                        }                        
                         if(timesArray[fz].length<=10) timesArray[fz][timesArray[fz].length]=zoneTimes[fz];
+                        if(!beginTime[fz]){ beginTime[fz]=tBegin; }
+                        currFeldPositions=calcProductPositions(iProd,fz);
+                        if(!timeArray[fz]){ timeArray[fz]=calcProductionTime(iProd, fz); }
+                        tEnd=tBegin+timeArray[fz]+((unsafeWindow.premium==1)?0:(settings.get("country","pause")[0]/1000)*currFeldPositions);
+                        zoneTimes[fz]=tEnd;
                         var iAmount=calcProductAmount(iProd, fz, currFeldPositions, zoneTimes[fz], false);
                         iTogoAmount +=iAmount;
                         aProd[fz]=[iProd,iAmount];
                         iTogoScore +=calcProductScore(iProd, fz, currFeldPositions, zoneTimes[fz]);
                         if(endTime < zoneTimes[fz]) endTime=zoneTimes[fz];
+                        if(isNaN(iTogoArray[fz])){ iTogoArray[fz]=0; }
+                        iTogoArray[fz]++;
+                        // Abort queue if maximum stock capacity is reached
+                        if((!iLastInf)&&unsafeData.prodStockMax[iType]&&unsafeData.prodStockMax[iType][iProd]){
+                            if((k+1<iTogo)&&(unsafeData.prodStockMax[iType][iProd]<=iAmount+newProdStock[iType][iProd])){
+                                GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"queueNum="+queueNum,"Maximum stock capacity will be reached. Queue item amount decreased."); // TODO text
+                                iTogo=k+1;
+                                iTot=iTogo+iDone;
+                                zoneList[zoneNrL][queueNum][1]=iTot;
+                            }
+                        }
 /*
 GM_log("updateQueueBox"
         +", queueNum=" +JSON.stringify(queueNum)
@@ -2845,13 +2875,14 @@ GM_log("updateQueueBox"
 ); 
 */
                     }
+                    fz=getLowestTimeFarmZone(zoneTimes);
                 }
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("timeArray",implode(timeArray,"updateQueueBox/timeArray"));
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoArray",implode(iTogoArray.sortObj(),"updateQueueBox/iTogoArray"));
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("timesArray",implode(timesArray.sortObj(),"updateQueueBox/timesArray"));
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("zoneBeginTime",implode(beginTime.sortObj(),"updateQueueBox/beginTime"));
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("zoneEndTime",implode(zoneTimes,"updateQueueBox/zoneTimes"));
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("aMissing",implode(aMissing,"updateQueueBox/aMissing"));
+                divAutoMatQueueItemBox.setAttribute("timeArray",implode(timeArray,"updateQueueBox/timeArray"));
+                divAutoMatQueueItemBox.setAttribute("iTogoArray",implode(iTogoArray.sortObj(),"updateQueueBox/iTogoArray"));
+                divAutoMatQueueItemBox.setAttribute("timesArray",implode(timesArray.sortObj(),"updateQueueBox/timesArray"));
+                divAutoMatQueueItemBox.setAttribute("zoneBeginTime",implode(beginTime.sortObj(),"updateQueueBox/beginTime"));
+                divAutoMatQueueItemBox.setAttribute("zoneEndTime",implode(zoneTimes,"updateQueueBox/zoneTimes"));
+                divAutoMatQueueItemBox.setAttribute("aMissing",implode(aMissing,"updateQueueBox/aMissing"));
                 timeArray=null;beginTime=null;timesArray=null;iTogoArray=null;
             }else{
                 iTogoAmount=iTogo*calcProductAmount(iProd, zoneNrS);
@@ -2867,77 +2898,77 @@ GM_log("updateQueueBox"
                 }
                 if(!newRackAmount[iProd] && !fzWindmill && !fzMegafield){ newRackAmount[iProd]=calcInGameProductAmount(iProd,zoneNrS,null,true); }
             }
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).style.backgroundColor=(foundStop?"red":(iRequireMissing?"yellow":"transparent"));
+            divAutoMatQueueItemBox.style.backgroundColor=(foundStop?"red":(iRequireMissing?"yellow":"transparent"));
             if(iStop){ foundStop=true; }
             
             if(!fzWindmill && !fzMegafield && !iStop){
                 newRackAmount[iProd] +=iTogoAmount;
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogo",iTogo);
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoAmount",iTogoAmount);
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("iTogoScore",iTogoScore);
+                divAutoMatQueueItemBox.setAttribute("iTogo",iTogo);
+                divAutoMatQueueItemBox.setAttribute("iTogoAmount",iTogoAmount);
+                divAutoMatQueueItemBox.setAttribute("iTogoScore",iTogoScore);
             }
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("totalInQue",totalInQue);
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum).setAttribute("foundStop",foundStop);
+            divAutoMatQueueItemBox.setAttribute("totalInQue",totalInQue);
+            divAutoMatQueueItemBox.setAttribute("foundStop",foundStop);
             totalInQue +=iTogo;
 
             // GM_log("updateQueueBox Box :" + zoneNrL + ":"+queueNum + " | 4");
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Item").style.opacity=(iTogo<=0 && !iStop)? 0.4:1;
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Item").setAttribute("product",iProd);
+            $(divAutoMatQueueItemBoxId+"Item").style.opacity=(iTogo<=0 && !iStop)? 0.4:1;
+            $(divAutoMatQueueItemBoxId+"Item").setAttribute("product",iProd);
             if(fzWindmill){
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Item").childNodes[0].className="fmm"+iProd;
+                $(divAutoMatQueueItemBoxId+"Item").childNodes[0].className="fmm"+iProd;
             }else if(fzForestry){
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Item").childNodes[0].className="f_symbol"+iProd;
+                $(divAutoMatQueueItemBoxId+"Item").childNodes[0].className="f_symbol"+iProd;
             }else{
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Item").className="link queueItemProduct v"+iProd;
+                $(divAutoMatQueueItemBoxId+"Item").className="link queueItemProduct v"+iProd;
             }
             // GM_log("updateQueueBox Box :" + zoneNrL + ":"+queueNum + " | 5");
             $("divAutoMatQueueBox"+zoneNrL).style.width=($("divAutoMatQueueBox"+zoneNrL).parentNode==$("divQueueBoxInner"))?"348px":"530px";
             $("divAutoMatQueueBox"+zoneNrL).style.height=row7+2+((settings.get("account","showQueueTime") && lShowTime)?queueItemBoxTimeHeight:0)+"px";
             $("divAutoMatButton"+zoneNrL).style.height=row7+2+((settings.get("account","showQueueTime") && lShowTime)?queueItemBoxTimeHeight:0)+"px";
 
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"I1").className=(iRackMode)?"queueItemInput1 queueItemInputWidth1":"queueItemInput1 queueItemInputWidth2";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"I1").value=(iTot==undefined)?1:iTot; //TODO remove setting val here
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"I1").style.display=(iLastInf || iStop)?"none":"block";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"I1").maxLength=(iRackMode)?"6":"4";
+            $(divAutoMatQueueItemBoxId+"I1").className=(iRackMode)?"queueItemInput1 queueItemInputWidth1":"queueItemInput1 queueItemInputWidth2";
+            $(divAutoMatQueueItemBoxId+"I1").value=(iTot==undefined)?1:iTot; //TODO remove setting val here
+            $(divAutoMatQueueItemBoxId+"I1").style.display=(iLastInf || iStop)?"none":"block";
+            $(divAutoMatQueueItemBoxId+"I1").maxLength=(iRackMode)?"6":"4";
 
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"I2").value=(iDone==undefined)?0:iDone; //TODO remove setting val here
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"I2").style.opacity=(iTogo<=0)? 0.4:1;
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"I2").style.display=(!iRackMode && (iRepeat || lRepeat) && !iStop)?"block":"none";
+            $(divAutoMatQueueItemBoxId+"I2").value=(iDone==undefined)?0:iDone; //TODO remove setting val here
+            $(divAutoMatQueueItemBoxId+"I2").style.opacity=(iTogo<=0)?0.4:1;
+            $(divAutoMatQueueItemBoxId+"I2").style.display=(!iRackMode && (iRepeat || lRepeat) && !iStop)?"block":"none";
             if(OPTION_ITEM_REPEAT){
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Mode").style.display=(!iRackMode && !iStop)?"block":"none";
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Mode").style.backgroundImage="url("+(zoneList[zoneNrL][queueNum][4]?IMAGES["mode_repeat"]:IMAGES["mode_1time"])+")";
+                $(divAutoMatQueueItemBoxId+"Mode").style.display=(!iRackMode && !iStop)?"block":"none";
+                $(divAutoMatQueueItemBoxId+"Mode").style.backgroundImage="url("+(zoneList[zoneNrL][queueNum][4]?IMAGES["mode_repeat"]:IMAGES["mode_1time"])+")";
 
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"IListRepeat").style.display=(!iRackMode && (iRepeat || lRepeat) && !iStop)?"block":"none";
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"IListRepeat").value=(zoneList[zoneNrL][queueNum][5]==undefined)?REPEAT_NO_LIMIT:zoneList[zoneNrL][queueNum][5];
+                $(divAutoMatQueueItemBoxId+"IListRepeat").style.display=(!iRackMode && (iRepeat || lRepeat) && !iStop)?"block":"none";
+                $(divAutoMatQueueItemBoxId+"IListRepeat").value=(zoneList[zoneNrL][queueNum][5]==undefined)?REPEAT_NO_LIMIT:zoneList[zoneNrL][queueNum][5];
             }
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"M").style.opacity=iTogo<=0? 0.4:1;
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"M").style.display=(iLastInf || iStop || iTot<=1) ?"none":"block";
+            $(divAutoMatQueueItemBoxId+"M").style.opacity=iTogo<=0?0.4:1;
+            $(divAutoMatQueueItemBoxId+"M").style.display=(iLastInf || iStop || iTot<=1) ?"none":"block";
             if(iLastInf||iStop){
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display="none";
+                $(divAutoMatQueueItemBoxId+"P").style.display="none";
             }else if(fzWindmill){
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display=(autoMillStorage[iProd][1]<autoMillStorage[iProd][0])?"block":"none"; // TODO 2.4
-            }else if(unsafeData.prodStockMax[iType]&&unsafeData.prodStockMax[iType][iProd]&&newProdStock[iType]&&newProdStock[iType][iProd]){
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display=(unsafeData.prodStockMax[iType][iProd]<=newProdStock[iType][iProd])?"block":"none";
+                $(divAutoMatQueueItemBoxId+"P").style.display=(autoMillStorage[iProd][1]<autoMillStorage[iProd][0])?"block":"none";
+            }else if(unsafeData.prodStockMax[iType]&&unsafeData.prodStockMax[iType][iProd]){
+                $(divAutoMatQueueItemBoxId+"P").style.display=(newProdStock[iType][iProd]+(fz&&aProd[fz]&&aProd[fz][0]==iProd?aProd[fz][1]:0)<unsafeData.prodStockMax[iType][iProd])?"block":"none";
             }else{
-                $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"P").style.display="block";
+                $(divAutoMatQueueItemBoxId+"P").style.display="block";
             }                
 
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"ET").innerHTML=(settings.get("account","showQueueTime") && lShowTime)?iLastInf?sign_inf:(getDateText(endTime,0) + "<br/>" + getDaytimeStr(endTime,true)):null;
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"ET").style.color=noTime? "#DD0000":"black";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"ET").style.display=(iTogo<=0 || foundStop || !settings.get("account","showQueueTime") || !lShowTime)?"none":"block";
+            $(divAutoMatQueueItemBoxId+"ET").innerHTML=(settings.get("account","showQueueTime") && lShowTime)?iLastInf?sign_inf:(getDateText(endTime,0) + "<br/>" + getDaytimeStr(endTime,true)):null;
+            $(divAutoMatQueueItemBoxId+"ET").style.color=noTime? "#DD0000":"black";
+            $(divAutoMatQueueItemBoxId+"ET").style.display=(iTogo<=0 || foundStop || !settings.get("account","showQueueTime") || !lShowTime)?"none":"block";
 
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"T").innerHTML=(iStop)?_TEXTE_STOP:sign_inf;
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"T").setAttribute("class",(iStop?"queueItemText queueItemTextStop":"queueItemText queueItemTextInf"));
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"T").style.display=(iLastInf || iStop)?"block":"none";
+            $(divAutoMatQueueItemBoxId+"T").innerHTML=(iStop)?_TEXTE_STOP:sign_inf;
+            $(divAutoMatQueueItemBoxId+"T").setAttribute("class",(iStop?"queueItemText queueItemTextStop":"queueItemText queueItemTextInf"));
+            $(divAutoMatQueueItemBoxId+"T").style.display=(iLastInf || iStop)?"block":"none";
 
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Up").style.display=(queueNum==0) ?"none":"block";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"Down").style.display=((zoneList[zoneNrL].length-1)==queueNum) ?"none":"block";
+            $(divAutoMatQueueItemBoxId+"Up").style.display=(queueNum==0) ?"none":"block";
+            $(divAutoMatQueueItemBoxId+"Down").style.display=((zoneList[zoneNrL].length-1)==queueNum) ?"none":"block";
 
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"A").style.top=((iRackMode))?row4+"px":"";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"D").style.left=(iRackMode)?col3+"px":"";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"D").style.display=(zoneList[zoneNrL].length > 1) ?"block":"none";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"B").style.display=(!fzWindmill && !fzMegafield && !iLastInf && !iStop)?"block":"none";
-            $("divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum+"B").style.backgroundImage="url("+(iRackMode?IMAGES["functionR"]:IMAGES["functionF"])+")";
+            $(divAutoMatQueueItemBoxId+"A").style.top=((iRackMode))?row4+"px":"";
+            $(divAutoMatQueueItemBoxId+"D").style.left=(iRackMode)?col3+"px":"";
+            $(divAutoMatQueueItemBoxId+"D").style.display=(zoneList[zoneNrL].length > 1) ?"block":"none";
+            $(divAutoMatQueueItemBoxId+"B").style.display=(!fzWindmill && !fzMegafield && !iLastInf && !iStop)?"block":"none";
+            $(divAutoMatQueueItemBoxId+"B").style.backgroundImage="url("+(iRackMode?IMAGES["functionR"]:IMAGES["functionF"])+")";
             // GM_log("updateQueueBox Box :" + zoneNrL + ":"+queueNum + " END");
         }
         // GM_log("updateQueueBox Box :" + zoneNrL + ":"+queueNum + " AFTER");
@@ -2947,6 +2978,7 @@ GM_log("updateQueueBox"
             $("divAutoMatEndTime"+zoneNrL).innerHTML=(!fzWindmill && !fzMegafield && !fRepeat && !lShuffle && !foundStop)? getText("automat_inftext"):(getText("automat_QueTimeReady") + (lShowTime?(((!foundStop && (lRepeat || iRepeat || noTime))?" ~ ":" ") + getDateText(endTime,0) + "&nbsp;"+ getDaytimeStr(endTime,true)):" ~ ")); // why +- (\u00B1)?
             $("divAutoMatEndTime"+zoneNrL).style.color=(noTime?"#DD0000":((foundStop || fRepeat)?"#0000DD":"#000000"));
         }
+        divAutoMatQueueItemBox=null;
     }
     zoneTimes=null;
     //ChooseBox part
@@ -3085,22 +3117,22 @@ GM_log("updateQueueBox"
         queueNum=null;zoneTimes=null;
     }
     divChooseEndTimeCurr=null;
-    if(DEVMODE_FUNCTION){ GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","End");}
+    GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","End",1);
     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneSettings",implode(zoneSettings,"updateQueueBox/zoneSettings"));
     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zoneList", implode(zoneList,"updateQueueBox/zoneList"));
     checkReadyZone();
 }catch(err){GM_logError("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"err_trace="+err_trace,err);}
 }
 function redrawQueueBox(zoneNrS, zoneNrL, appendTo){
-    if(DEVMODE_FUNCTION){  GM_logInfo("redrawQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id,"","Begin");}
+    GM_logInfo("redrawQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id,"","Begin",1);
     if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrS);
     if($("divChooseBox").style.display=="block") click($("divChooseBoxClose"));
     if($("divQueueBox").style.display=="block") click($("divQueueBoxClose"));
     drawQueueBox(zoneNrS, zoneNrL, appendTo);
-    if(DEVMODE_FUNCTION){ GM_logInfo("redrawQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id,"","End");}
+    GM_logInfo("redrawQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id,"","End",1);
 }
 function reFillQueueBox(zoneNrF, zoneNrL, scrollToQueue){
-    if(DEVMODE_FUNCTION){ GM_logInfo("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","Begin");}
+    GM_logInfo("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","Begin",1);
     if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
     // GM_log("Begin2 reFillQueueBox zoneNrF:"+ zoneNrF+" zoneNrL:"+ zoneNrL+" scrollToQueue:" + scrollToQueue);
     if($("divAutoMatQueueBox"+zoneNrL)){
@@ -3128,7 +3160,7 @@ function reFillQueueBox(zoneNrF, zoneNrL, scrollToQueue){
     }else{
         GM_logWarning("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","QueueBox not found");
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","End");}
+    GM_logInfo("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","End",1);
 }
 
 function toolTipProductSmall(zoneNrS, zoneNrL, queueNum, parent){
@@ -3679,10 +3711,7 @@ try{
 
 function setNextQueueItem(zoneNrS){
 try{
-    if(DEVMODE){
-        GM_logInfo("setNextQueueItem","zoneNrS="+zoneNrS,"","Begin");
-        logBubble.add("Setting next queue item ("+zoneNrS+")");
-    }
+    GM_logInfo("setNextQueueItem","zoneNrS="+zoneNrS,"","Setting next queue item");
     var zoneNrL=getZoneListId(zoneNrS);
     if(isNaN(zoneList[zoneNrL][0][1])){ zoneList[zoneNrL][0]=DEFAULT_ZONELIST_ITEM.clone(); }
     if(isNaN(zoneList[zoneNrL][0][2])){ zoneList[zoneNrL][0][2]=0; }
@@ -3694,7 +3723,7 @@ try{
         }
     }
     reSortQueue(zoneNrS, true); //->reFillQueueBox
-    if(DEVMODE){ GM_logInfo("setNextQueueItem","zoneNrS="+zoneNrS,"","End"); }
+    GM_logInfo("setNextQueueItem","zoneNrS="+zoneNrS,"","End",1);
     return zoneList[zoneNrL][0];
 }catch(err){ 
     GM_logError("setNextQueueItem","zoneNrS="+zoneNrS,"",err);
@@ -3704,10 +3733,7 @@ try{
 
 function reSortQueue(zoneNrF, nextItemMode){
 try{
-    if(DEVMODE){
-        GM_logInfo("reSortQueue","zoneNrF="+zoneNrF,"","Begin");
-        logBubble.add("reSort queue items ("+zoneNrF+")");
-    }
+    GM_logInfo("reSortQueue","zoneNrF="+zoneNrF,"","Resort queue items");
     var itemsRackDone=0,itemsRepeatDone=0,itemsStopsFound=0,iDoRack=false;
     var zoneNrL=getZoneListId(zoneNrF);
     if((settings.get("account","useQueueList")||isNaN(zoneNrF)) && (zoneList[zoneNrL][0][0]!=PRODSTOP) && (nextItemMode || (((zoneList[zoneNrL][0][3] && calcInGameProductAmount(zoneList[zoneNrL][0][0],zoneNrF,null,true) < zoneList[zoneNrL][0][1]) || (!zoneList[zoneNrL][0][3] && zoneList[zoneNrL][0][1]<=((OPTION_ITEM_REPEAT && zoneList[zoneNrL][0][4])||(OPTION_LIST_REPEAT&&zoneSettings[zoneNrL]["repeat"])?zoneList[zoneNrL][0][2]:0))) ))){
@@ -3726,10 +3752,10 @@ try{
                 itemsRepeatDone++;
             }
         }
-        //if(DEVMODE) GM_log("reSortQueue itemsRackDone:"+itemsRackDone+" itemsRepeatDone:"+itemsRepeatDone+" itemsStopsFound:"+itemsStopsFound+" length:"+zoneList[zoneNrL].length);
+        // GM_log("reSortQueue itemsRackDone:"+itemsRackDone+" itemsRepeatDone:"+itemsRepeatDone+" itemsStopsFound:"+itemsStopsFound+" length:"+zoneList[zoneNrL].length);
         if(zoneList[zoneNrL].length==itemsRackDone){
-            //if(DEVMODE){GM_log("reSortQueue "+zoneNrF+":4");}
-            //if(DEVMODE) GM_log("Added PRODSTOP zoneNrL:"+zoneNrL + " itemsRackDone:"+itemsRackDone+" : "+ typeof itemsRackDone);
+            // GM_log("reSortQueue "+zoneNrF+":4");
+            // GM_log("Added PRODSTOP zoneNrL:"+zoneNrL + " itemsRackDone:"+itemsRackDone+" : "+ typeof itemsRackDone);
             zoneList[zoneNrL].unshift(DEFAULT_ZONELIST_ITEM.clone());
         }else if(zoneList[zoneNrL].length==1 && 1==itemsRepeatDone && zoneList[zoneNrL][0][5]<=REPEAT_RESTART && zoneList[zoneNrL][0][5]!=REPEAT_NO_LIMIT){
             zoneList[zoneNrL][0]=DEFAULT_ZONELIST_ITEM.clone();
@@ -3754,7 +3780,7 @@ try{
                 }else if(zoneList[zoneNrL][0][1]<=zoneList[zoneNrL][0][2]){
                     if(!zoneSettings[zoneNrL]["shuffle"]){
                         zoneList[zoneNrL][0][2]=0; //in a loop without shuffel there is no end of a list
-                        //if(DEVMODE){GM_log("reSortQueue "+zoneNrF + " queue:"+print_r(zoneList[zoneNrL][0],"",true));}
+                        // GM_log("reSortQueue "+zoneNrF + " queue:"+print_r(zoneList[zoneNrL][0],"",true));
                         if(zoneList[zoneNrL][0][5]!=REPEAT_NO_LIMIT && OPTION_ITEM_REPEAT && zoneList[zoneNrL][0][4]){//extra check should not be needed but incase i forgot a state.
                             zoneList[zoneNrL][0][5]--;
                         }
@@ -3811,8 +3837,7 @@ try{
 
 function reSortWindmill(shuffle){
 try{
-    if(DEVMODE){GM_logInfo("reSortWindmill","shuffle="+shuffle,"","Begin");}
-    if(DEVMODE){logBubble.add("reSortWindmill items");}
+    GM_logInfo("reSortWindmill","shuffle="+shuffle,"","Begin",1);
     var zoneNrF="windmill";
     var zoneNrS="windmill.1";
     var zoneNrL=getZoneListId(zoneNrS);
@@ -3846,8 +3871,7 @@ try{
 //autoMillStorage: {[rId][0]=number bought, [1]=total number in zoneList[getZoneListId("windmill")], [2]=max number of recipes on products global Math.min([3][pId]), [3][pId]=max number of recipes for this products per products
 function reCalculateWindmill(){
 try{
-    if(DEVMODE){GM_logInfo("reCalculateWindmill","","","Begin");}
-    if(DEVMODE){logBubble.add("reCalculateWindmill");}
+    GM_logInfo("reCalculateWindmill","","","Begin",1);
     var err_trace = "init";
     var zoneNrF="windmill";
     var zoneNrS="windmill.1"; // TODO: For all slots 
@@ -3920,7 +3944,7 @@ try{
 }
 function checkReadyZone(zoneNr){
 try{
-    if(DEVMODE_FUNCTION){GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"readyZone="+implode(unsafeData.readyZone,"checkReadyZone/readyZone"),"Begin");}
+    GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"readyZone="+implode(unsafeData.readyZone,"checkReadyZone/readyZone"),"Begin",1);
     var help,lz;
     if(!bot.isActive()){
         return false;
@@ -3958,12 +3982,12 @@ try{
             }
         }
     }
-    if(DEVMODE_FUNCTION){GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"return="+false,"End");}
+    GM_logInfo("checkReadyZone","zoneNr="+zoneNr,"return="+false,"End",1);
     return false;
 }catch(err){ GM_logError("checkReadyZone","zoneNr="+zoneNr,"readyZone="+implode(unsafeData.readyZone,"checkReadyZone/readyZone"),err);}
 }
 function getReadyZone(location){
-    if(DEVMODE_FUNCTION){GM_logInfo("getReadyZone","location="+location,"readyZone="+implode(unsafeData.readyZone,"getReadyZone/readyZone"),"Begin");}
+    GM_logInfo("getReadyZone","location="+location,"readyZone="+implode(unsafeData.readyZone,"getReadyZone/readyZone"),"Begin",1);
     var help,zoneNrS,zoneNrL;
     if(!bot.isActive()){
         return null;
@@ -3982,7 +4006,7 @@ function getReadyZone(location){
             }
         }
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("getReadyZone","location="+location,"return="+null,"End"); }
+    GM_logInfo("getReadyZone","location="+location,"return="+null,"End",1);
     return null;
 }
 // Bot-functions handling fields,stables and factories
@@ -4119,7 +4143,7 @@ DE-1: ERROR autoZoneHandle case 2* handled.zoneNrF=14
 readyZone:{"15":{"0":2,"1":"r","2":true},"18":{"0":2,"1":"r","2":true}} 
 TypeError: can't convert undefined to object
 */
-    if(DEVMODE_FUNCTION){GM_logInfo("autoZoneHandle","runId="+runId,"","Begin"); }
+    GM_logInfo("autoZoneHandle","runId="+runId,"","Begin",1);
     bot.setAction("autoZoneHandle");
     window.setTimeout(function(){
         switch(handled.zoneBuildingTyp){
@@ -4127,7 +4151,7 @@ TypeError: can't convert undefined to object
                 //-- GM_log("autoZoneHandle run nextFkt case:1");
                 try{
                     if(!unsafeData.zones.getProduction(handled.zoneNrF)[3]){
-                        if(DEVMODE){ logBubble.add("Field-Data not ready"); }
+                        GM_logInfo("autoZoneHandle","runId="+runId,"handled="+implode(handled,"autoZoneHandle/handled"),"Field-Data not ready",0);
                         logBubble.add("Field-Data not ready");
                         window.setTimeout(autoZoneHandle,settings.getPause());
                     }else{
@@ -4234,7 +4258,7 @@ try{
     break;
     }
 
-    if(DEVMODE){GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp,"Begin");}
+    GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp,"Begin",1);
     switch (zoneTyp){
         case 1:
             var cropable=false;
@@ -4247,7 +4271,7 @@ try{
                     break;
                 }
             }
-            if(DEVMODE){GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp+" cropable="+cropable,"Cropping");}
+            GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp+" cropable="+cropable,"Cropping",0);
             if(cropable){
                 logBubble.add("Cropping");
                 unsafeData.zones.getProduction(handled.zoneNrF)[3]=false;
@@ -4290,7 +4314,7 @@ try{
                 v=null;
             }catch(err){GM_logError("autoZoneCrop (forest cropping)","","i="+i+" v="+v,err);}
 
-            if(DEVMODE){GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp+" cropable="+cropable,"Cropping");}
+            GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp+" cropable="+cropable,"Cropping",0);
             if(cropable){
                 logBubble.add("Cropping");
                 unsafeData.zones.getProduction("forest")[3]=false;
@@ -4308,7 +4332,7 @@ try{
 }
 function autoZoneFinish(runId,closeButton){
     // closeButton is optional, a click is fired on it
-    if(DEVMODE){GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"handled.zoneNrF="+handled.zoneNrF+" readyZone="+implode(unsafeData.readyZone,"autoZoneFinish/readyZone"),"Begin");}
+    GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"handled.zoneNrF="+handled.zoneNrF+" readyZone="+implode(unsafeData.readyZone,"autoZoneFinish/readyZone"),"Begin",1);
     //if(DEVMODE){GM_log("autoZoneFinish arg caller:"+autoZoneFinish.caller.toString());}
     bot.setAction("autoZoneFinish: init");
     var help;
@@ -4326,7 +4350,7 @@ function autoZoneFinish(runId,closeButton){
                     autoZoneFinish(runId);
                 }
             }else if(closeButton!=undefined){
-                if(DEVMODE){GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"","Closebutton not found");}
+                GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"","Closebutton not found",0);
             }
             bot.setAction("autoZoneFinish: reFillQueueBox");
             if(handled.zoneNrL){
@@ -4341,26 +4365,25 @@ function autoZoneFinish(runId,closeButton){
             bot.deactivate();
         }
     }
-    if(DEVMODE){GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"","End");}
+    GM_logInfo("autoZoneFinish","runId="+runId+" closeButton="+closeButton+" closeButton.id="+(closeButton?closeButton.id:""),"","End",1);
 }
 
 function autoFarm(runId){
     try{
-        if(DEVMODE_FUNCTION){GM_logInfo("autoFarm","runId="+runId,"readyZone="+implode(unsafeData.readyZone,"autoFarm/readyZone"),"Begin");}
+        GM_logInfo("autoFarm","runId="+runId,"readyZone="+implode(unsafeData.readyZone,"autoFarm/readyZone"),"Begin",1);
         if(bot.checkRun("autoFarm",runId)){
-            if(DEVMODE){ logBubble.add("autoFarm"); }
             bot.setAction("autoFarm");
             var farmNr=(parseInt(unsafeWindow.farm,10)-1);
             var zoneNrS=getReadyZone(farmNr);
-            if(DEVMODE){ GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,""); }
+            GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,"",0);
             if(zoneNrS==null){
                 bot.setAction("autoFarm: wrong farm");
                 for(var i=0;i<parseInt(unsafeWindow.farmamount,10);i++){
                     if((zoneNrS==null)&&(i!=farmNr)){ zoneNrS=getReadyZone(i); }
                 }
-                if(DEVMODE){GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,""); }
+                GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,"",0);
                 if(zoneNrS==null){ // nothing to work (all fields waiting !?)
-                    if(DEVMODE){GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,"Nothing to work"); }
+                    GM_logInfo("autoFarm","runId="+runId,"farmNr="+farmNr+" zoneNrS="+zoneNrS,"Nothing to work",0);
                     autoZoneFinish(runId);
                 }else{
                     document.addEventListener("gameFarmOpened",function(runId){
@@ -4401,7 +4424,7 @@ function autoFarm(runId){
                             window.setTimeout(autoFarm,settings.getPause(),runId);
                         }else{
                         // open zone
-                            if(DEVMODE){ GM_logInfo("autoFarm","runId="+runId,"handled="+implode(handled,"autoFarm/handled")+" readyZone="+implode(unsafeData.readyZone,"autoFarm/readyZone"),"Click zone "+handled.farmNr+"-"+handled.zoneNr); }
+                            GM_logInfo("autoFarm","runId="+runId,"handled="+implode(handled,"autoFarm/handled")+" readyZone="+implode(unsafeData.readyZone,"autoFarm/readyZone"),"Click zone "+handled.farmNr+"-"+handled.zoneNr,0);
                             logBubble.add("Opening zone "+handled.farmNr+"-"+handled.zoneNr);
                             switch(handled.zoneBuildingTyp){
                                 case 1:
@@ -4459,7 +4482,7 @@ function autoFarm(runId){
                     }
                 }
             }
-            if(DEVMODE_FUNCTION){ GM_logInfo("autoFarm","","handled.zoneNr:"+handled.zoneNr,"End");}
+            GM_logInfo("autoFarm","","handled.zoneNr:"+handled.zoneNr,"End",1);
         }
     }catch(err){
         GM_logError("autoFarm","","",err);
@@ -4469,7 +4492,7 @@ function autoFarm(runId){
 function autoFarmCrop(runId,v){
 try{
     if(bot.checkRun("autoFarm",runId,true)){
-        if(DEVMODE){ GM_logInfo("autoFarmCrop","runId="+runId+" v="+v,"","Begin"); }
+        GM_logInfo("autoFarmCrop","runId="+runId+" v="+v,"","Begin",1);
         bot.setAction("autoFarmCrop "+v);
         var wait=false;
         if(unsafeWindow.mode!="1"){ 
@@ -4498,7 +4521,7 @@ try{
 }
 function autoFarmPlantInit(runId,rackitemNr){
 try{
-    if(DEVMODE) GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"Begin");
+    GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"Begin",1);
     if(bot.checkRun("autoFarmPlantInit",runId)){
         bot.setAction("autoFarmPlantInit");
         logBubble.add("Initializing planting ("+rackitemNr+")");
@@ -4541,7 +4564,7 @@ try{
                     checkReadyZone();
                 },(1000*time)+settings.getPause());
                 logBubble.add("Waiting for crop in "+getTimeStr(time));
-                if(DEVMODE){GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"","Waiting for crop in "+getTimeStr(time));}
+                GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"","Waiting for crop in "+getTimeStr(time),0);
                 autoZoneFinish(runId);
                 return false;
             }
@@ -4616,7 +4639,7 @@ try{
 }
 function autoFarmPlantDefault(runId){
 try{
-    if(DEVMODE){ GM_logInfo("autoFarmPlantDefault","runId="+runId,"","Begin"); }
+    GM_logInfo("autoFarmPlantDefault","runId="+runId,"","Begin",1);
     if(bot.checkRun("autoFarmPlantDefault",runId)){
         bot.setAction("autoFarmPlantDefault");
         logBubble.add("Searching other plant");
@@ -4689,7 +4712,7 @@ try{
 }
 function autoFarmPlant(runId,v,didPlant,isBot){
 try{
-    if(DEVMODE_FUNCTION){ GM_logInfo("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","Begin"); }
+    GM_logInfo("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","Begin",1);
     if(bot.checkRun("autoFarmPlant",runId,!isBot)){
         bot.setAction("autoFarmPlant");
         if(v==1){ logBubble.add(getText("automat_planting")); }
@@ -4747,7 +4770,7 @@ try{
                     window.setTimeout(autoFarmWater,settings.getPause(),runId,1,didPlant,isBot);
                 }
             }
-        if(DEVMODE_FUNCTION){GM_logInfo("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","End");}
+        GM_logInfo("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","End",1);
     }
 }catch(err){GM_logError("autoFarmPlant","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"",err);}    
 }
@@ -4803,7 +4826,7 @@ try{
         if(isBot&&!settings.get("account","autoWater")){ // bot shall not water (option)
             autoZoneFinish(runId,$("gardencancel"));
         }else{
-            if(DEVMODE_FUNCTION){GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","Begin");}
+            GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","Begin",1);
             bot.setAction("autoFarmWater "+v+": init");
             if(v==1){ logBubble.add(getText("automat_watering")); }
             if($("tooltipwaterall")){
@@ -4844,7 +4867,7 @@ try{
                     }
                 }
             }
-            if(DEVMODE_FUNCTION){GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","End");}
+            GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","End",1);
         }
     }
 }catch(err){GM_logError("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"",err);}
@@ -5699,7 +5722,7 @@ try{
             }
         }
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("autoForestry","runId="+runId,"handled.zoneNr="+handled.zoneNr,"End");}
+    GM_logInfo("autoForestry","runId="+runId,"handled.zoneNr="+handled.zoneNr,"End",1);
 }catch(err){
     GM_logError("autoForestry","runId="+runId,"",err);
     autoZoneFinish(runId);
@@ -6356,7 +6379,7 @@ try{
             // }
         }
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("autoFarmersmarket","runId="+runId,"handled.zoneNrF="+handled.zoneNrF,"End"); }
+    GM_logInfo("autoFarmersmarket","runId="+runId,"handled.zoneNrF="+handled.zoneNrF,"End",1);
 }catch(err){
     GM_logError("autoFarmersmarket","runId="+runId,"",err);
     autoZoneFinish(runId);
@@ -6732,7 +6755,7 @@ try{
             }
         }
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("autoFoodworld","runId="+runId,"handled.zoneNrF="+handled.zoneNrF,"End"); }
+    GM_logInfo("autoFoodworld","runId="+runId,"handled.zoneNrF="+handled.zoneNrF,"End",1);
 }catch(err){ 
     GM_logError("autoFoodworld","runId="+runId,"",err);
     autoZoneFinish(runId);
@@ -6875,7 +6898,7 @@ try{
 }
 function checkFarmi(mode){
 try{
-    if(DEVMODE_FUNCTION){GM_logInfo("checkFarmi","mode="+mode,"","Begin");}
+    GM_logInfo("checkFarmi","mode="+mode,"","Begin",1);
     var farmiNr=null;
     var farmiAmount=0;
     var farmiAcceptRemove=new Array();
@@ -6884,13 +6907,13 @@ try{
         if(settings.get("account","farmiReject") && !unsafeWindow.farmisinfo[0][i]["sold"] && unsafeWindow.farmisinfo[0][i]["costQuotient"] < settings.get("account","farmiRejectUntilNr")){
             if(farmiNr==null){ 
                 farmiNr=i; 
-                if(DEVMODE){GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr,"farmiReject");}
+                GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr,"farmiReject",0);
             }
             farmiAmount++;
         }else if(settings.get("account","farmiAccept") && !unsafeWindow.farmisinfo[0][i]["sold"] && unsafeWindow.farmisinfo[0][i]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && !unsafeWindow.farmisinfo[0][i]["missing"] && ((settings.get("account","farmiAcceptBelowMinValue")&&!unsafeWindow.farmisinfo[0][i]["belowMinRackInit"]) || !unsafeWindow.farmisinfo[0][i]["belowMinRack"])){
             if(farmiNr==null){
                 farmiNr=i; 
-                if(DEVMODE){GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr,"farmiAccept");}
+                GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr,"farmiAccept",0);
             }
             farmiAmount++;
         }else if(settings.get("account","farmiAccept") && settings.get("account","farmiRemoveMissing") && !unsafeWindow.farmisinfo[0][i]["sold"] && unsafeWindow.farmisinfo[0][i]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && unsafeWindow.farmisinfo[0][i]["missing"]){
@@ -6902,10 +6925,10 @@ try{
         farmiAcceptRemove.sort(function(a,b){return (parseInt(b[1],10)-parseInt(a[1],10));});
         farmiAcceptRemove.splice(0,settings.get("account","farmiRemoveMissingAboveNr"));
         farmiAcceptRemove.reverse();
-        if(DEVMODE){GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr+" farmiAcceptRemove="+implode(farmiAcceptRemove,"checkFarmi/farmiAcceptRemove"),"farmiAcceptedRemove");}
+        GM_logInfo("checkFarmi","mode="+mode,"farmiNr="+farmiNr+" farmiAcceptRemove="+implode(farmiAcceptRemove,"checkFarmi/farmiAcceptRemove"),"farmiAcceptedRemove",0);
         if(farmiNr==null){farmiNr = farmiAcceptRemove[0][0];}
     }
-    if(DEVMODE_FUNCTION){ GM_logInfo("checkFarmi","mode="+mode,"","End");}
+    GM_logInfo("checkFarmi","mode="+mode,"","End",1);
     switch (mode){
     case 2:
         return [farmiAmount,farmiNr,farmiAcceptRemove];
@@ -6924,7 +6947,7 @@ try{
 }
 function autoFarmi(){
 try{
-    if(DEVMODE_FUNCTION){ GM_logInfo("autoFarmi","","","Begin"); }
+    GM_logInfo("autoFarmi","","","Begin",1);
     if(!bot.isBusy()){
         GM_logInfo("autoFarmi","","","BUSY NOT SET"); 
         return false;
@@ -6941,10 +6964,10 @@ try{
             document.addEventListener("gameFarmOpened",function(){
                 document.removeEventListener("gameFarmOpened",arguments.callee,false);
                 logBubble.add("Arrived in farm"); //TODO text
-                if(DEVMODE){GM_logInfo("autoFarmi","","","Arrived in farm");}
+                GM_logInfo("autoFarmi","","","Arrived in farm",1);
                 autoFarmi();
             },false);
-            if(DEVMODE){GM_logInfo("autoFarmi","","","Change farm to 1");}
+            GM_logInfo("autoFarmi","","","Change farm to 1",0);
             logBubble.add("Change farm to 1");
             click($("speedlink_farm1"));
             // click($("farmlinks").getElementsByClassName("link")[0]);
@@ -6965,15 +6988,15 @@ try{
                                 },3000);
                             },false);
                             if(settings.get("account","farmiReject") && !unsafeWindow.farmisinfo[0][farmiNr]["sold"] && unsafeWindow.farmisinfo[0][farmiNr]["costQuotient"] < settings.get("account","farmiRejectUntilNr")){
-                                if(DEVMODE){GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiReject");}
+                                GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiReject",0);
                                 unsafeWindow.handleFarmi(farmiNr,2);
                                 unsafeWindow.farmisinfo[0][farmiNr]["sold"]=1;
                             }else if(settings.get("account","farmiAccept") && !unsafeWindow.farmisinfo[0][farmiNr]["sold"] && unsafeWindow.farmisinfo[0][farmiNr]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && !unsafeWindow.farmisinfo[0][farmiNr]["missing"] && ((settings.get("account","farmiAcceptBelowMinValue")&&!unsafeWindow.farmisinfo[0][farmiNr]["belowMinRackInit"]) || !unsafeWindow.farmisinfo[0][farmiNr]["belowMinRack"])){
-                                if(DEVMODE){GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiAccept");}
+                                GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiAccept",0);
                                 unsafeWindow.handleFarmi(farmiNr,1);
                                 unsafeWindow.farmisinfo[0][farmiNr]["sold"]=1;
                             }else if(settings.get("account","farmiAccept") && settings.get("account","farmiRemoveMissing") && !unsafeWindow.farmisinfo[0][farmiNr]["sold"] && unsafeWindow.farmisinfo[0][farmiNr]["costQuotient"]>=settings.get("account","farmiAcceptAboveNr") && unsafeWindow.farmisinfo[0][farmiNr]["missing"]){
-                                if(DEVMODE){GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiAcceptedRemove");}
+                                GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"farmiAcceptedRemove",0);
                                 unsafeWindow.handleFarmi(farmiNr,2);
                                 unsafeWindow.farmisinfo[0][farmiNr]["sold"]=1;
                             }else{
@@ -6981,29 +7004,27 @@ try{
                             }
                         }
                     }
-                    if(DEVMODE){ GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Click Farmi"); }
+                    GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Click Farmi",0);
                     logBubble.add("Click  Farmi:"+farmiNr,5,"green");
                     click($("kunde_"+farmiNr));
                 }catch(err){ GM_logError("autoFarmi","","farmiNr="+farmiNr+" farmiAmount="+farmiAmount,"",err);}
             },settings.getPause(true),farmiNr,farmiAmount);
         }else{
             logBubble.add("Exiting farmi unknown combination",10,"red");
-            if(DEVMODE){ GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Exiting. unknown combination"); }
+            GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Exiting. unknown combination",0);
             bot.end();
         }
     }else{
         logBubble.add("Exiting no farmi");
-        if(DEVMODE){ GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Exiting. no farmi"); }
+        GM_logInfo("autoFarmi","","farmiNr="+farmiNr,"Exiting. no farmi",0);
         bot.end();
     }
 }catch(err){ GM_logError("autoFarmi","","farmiNr="+farmiNr+" farmiAmount="+farmiAmount,err); }
 }
 function doGameSessionEnds(){  //NOTICE: Use only in combination with botArbiter.add("sessionEnds");
-    // if(DEVMODE){ logBubble.add("doGameSessionEnds"); }
     click($("divSessionEnd"));
 }
 function doGameOtherAccReady(){  //NOTICE: Use only in combination with botArbiter.add("otherAccReady");
-    // if(DEVMODE){ logBubble.add("doGameOtherAccReady"); }
     click($("linkOtherAccReady"));
 }
 function drawButtons(){
@@ -8142,8 +8163,7 @@ function buildInfoPanelDebugInfo(){
 
 function do_main(){
 try{
-    // GM_log("AUTOMAT START");
-    if(DEVMODE){ logBubble.add("Automat-Script started"); }
+    GM_logInfo("do_main","","","Automat started",1);
     // **************************************************
     // Changes:
     // ....
@@ -8171,13 +8191,13 @@ try{
     }
 
     document.addEventListener("gameZoneReady",function(){
-        if(DEVMODE){ logBubble.add("event found:gameZoneReady: "+bot.isActive()); }
+        GM_logInfo("gameZoneReady.listener","","bot.isActive()="+bot.isActive(),"event found",0);
         checkReadyZone();
     },false);
 
     /* quest-bot needs review
     document.addEventListener("gameQuestNewAvailable",function(){
-        if(DEVMODE){ logBubble.add("event found:gameQuestNewAvailable: "+valQuestActivate); }
+        GM_logInfo("gameQuestNewAvailable.listener","","valQuestActivate="+valQuestActivate,"event found",0);
         if(unsafeData.questData["farm"]["1"]["state"]==1 && valQuestActivate && valQuestActivateUntilNr>=unsafeData.questData["farm"]["1"]["nr"]){
             botArbiter.add("quest");
         }
@@ -8473,7 +8493,11 @@ try{
                     newdiv=null;
                 }
             }
-            if(DEVMODE){ for(var v=1;v<=unsafeData.BUILDING_SIZE["1"];v++){ $("f"+v).setAttribute("title",v+"|kat"+unsafeWindow.garten_kategorie[v]+"|zt"+unsafeWindow.garten_zeit[v]+"|wa"+unsafeWindow.garten_wasser[v]+"|pr"+unsafeWindow.garten_prod[v]);}} //only for viewing
+            if(DEVMODE){  //only for viewing
+                for(var v=1;v<=unsafeData.BUILDING_SIZE["1"];v++){ 
+                    $("f"+v).setAttribute("title",v+"|kat"+unsafeWindow.garten_kategorie[v]+"|zt"+unsafeWindow.garten_zeit[v]+"|wa"+unsafeWindow.garten_wasser[v]+"|pr"+unsafeWindow.garten_prod[v]);
+                }
+            }
             cand=$("cropall").getElementsByTagName("img")[0];
             if(!cand.getAttribute("onclick")){
                 cand.setAttribute("src",GFX+"leer.gif");
@@ -8616,7 +8640,7 @@ try{
         }
         function showCropWeed(){
         try{
-            if(DEVMODE) logBubble.add("showCropWeed",5,"#880808");
+            GM_logInfo("showCropWeed","","","Begin",1);
             var velds=new Array();
             var newspan=null;
             for(var v=1;v<=120;v++){
@@ -8666,7 +8690,7 @@ try{
         }
 
         function autoCropUndefined(felds,product){
-            if(DEVMODE_FUNCTION){GM_logInfo("autoCropUndefined","felds="+implode(felds,"autoCropUndefined/felds")+" product="+product,"handled.zoneNr="+handled.zoneNr,"Begin");}
+            GM_logInfo("autoCropUndefined","felds="+implode(felds,"autoCropUndefined/felds")+" product="+product,"handled.zoneNr="+handled.zoneNr,"Begin",1);
             if(unsafeData.money < CROPCOST[product]){
                 logBubble.add("Exiting Autoclear: not enough money",5,"#880808");
                 showCropWeed();
@@ -8866,13 +8890,13 @@ try{
         }
 
         document.addEventListener("gameReallocateBuilding",function(){
-            if(DEVMODE_FUNCTION){GM_logInfo("gameReallocateBuilding","","","Begin");}
+            GM_logInfo("gameReallocateBuilding","","","Begin",1);
             try{
                 var building1=unsafeData.reallocateBuildingSet[0];
                 var building2=unsafeData.reallocateBuildingSet[1];
                 var zoneL1 = getZoneListId(building1);
                 var zoneL2 = getZoneListId(building2);
-                if(DEVMODE){GM_logInfo("gameReallocateBuilding","","building1="+building1+" building2="+building2,"");}
+                GM_logInfo("gameReallocateBuilding","","building1="+building1+" building2="+building2,"",0);
                 var help;
 
                 help=zoneList[zoneL1].clone();
@@ -8892,7 +8916,7 @@ try{
 
                 // GM_log("End Automat gameReallocateBuilding: " + building1 + " : " + building2);
             }catch(err){GM_logError("gameReallocateBuilding ","","",err);}
-            if(DEVMODE_FUNCTION){GM_logInfo("gameReallocateBuilding","","","End");}
+            GM_logInfo("gameReallocateBuilding","","","End",1);
         },false);
 
         document.addEventListener("gameUpdateRack",function(){

@@ -11,8 +11,10 @@ const VERSIONfunctionFile = "2.1.5";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
-var DEVMODE_LOG_WARNING=GM_getValue("devmode_log_warning",false);
-var DEVMODE_LOG_ERROR=GM_getValue("devmode_log_error",false);
+var DEVMODE_LOG_INFO=GM_getValue("devmode_log_info",true);
+var DEVMODE_LOG_WARNING=GM_getValue("devmode_log_warning",true);
+var DEVMODE_LOG_ERROR=GM_getValue("devmode_log_error",true);
+var OPTION_LOGGING=GM_getValue("logging",[false,false]); // [developer, function call]
 
 // PROTOTYPES ************************************************************************************************************
 String.prototype.reverse = function(){
@@ -233,9 +235,12 @@ try{
     GM_setValueCache(name,value);
 }
 }
-function GM_logInfo(name,parameters,variables,text){
+function GM_logInfo(name,parameters,variables,text,type){
 try{
-    GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Information\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
+    if((undefined===type)||OPTION_LOGGING[type]){
+        GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Information\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
+        if(DEVMODE_LOG_INFO){ logBubble.add(name+"\n"+text,10); }
+    }
 }catch(err){ GM_logError("GM_logInfo","name="+name+" parameters="+parameters+" variables="+variables+" text="+text,"",err); }
 };
 function GM_logWarning(name,parameters,variables,text){
