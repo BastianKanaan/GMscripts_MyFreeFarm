@@ -4,7 +4,7 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94BGgo6NO+u5q4AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAS0ElEQVRo3t2aeYxl11ngf+fub3+172t3V1cv7sVuJ3bs7jh2QtoMDoHEwRlCbMJEATRiSaKBQTNBCKGwBwSDNAyTQVGCYJIMEINjxrFix3E73mO7TW/V1VXVtS+v6i13v+ee+aNvQSXDaCTS7W7nSE/v3veuzrm/8y3nO9934Dq08cE+APv9E/1//tDN+16/9+hNJ/l+bXv3jAHw4zf1P/sLdx5TRqXyc++fHPvsGzW+/kbC5vMOyyvrfOSDJz99eM/gj+09fkK9Na/fW8sVzr86NfOl7ydgB+iK46TnVz75wJNtHZX3rcuUI8dvFS9cnuHQ7YcOWprTfvb8pUe/H4BzwH7g0H/59INfq3Z09++ZHBPHbn8LpVKF3WNdWPlOdeIdd962MDf/8vSl+XPX8mW0awxrAiPAgd/4xXf+wdaG74yP7BL9w/vp7x2h1WrRM3SYwf5+8cLz31Yf/w8f/fK1nn3tGkt2D3AE6J7o6xoc7Cjyq//pt3ntm88wMzvDhfMX+dmP/AJJnDKxe0j09HQZDzzwns+9GVW6CBwGjgIdhbz91vfdffjg6soWrhcwf+p5Cu7L3DwhWTkdYvVWCeOEQsFm//5dY1/4wld+880kYQeYBG4CqoD23uMTk0mcQJTQF9R4/48PM3mwDU2HDz5Y5dk/+VPc5YuErZpKooZ9LSVsXOX+BNAB7AUK2X1yx97C7oXpNQb7Nrn5pw5hOA6FthLFYh4hdD7+B8NceHGKi2eqYmTfmAGwb3I3Z85O3fAS1oHubckC6IZ9uGCWCruHN6lWHNIwQRc6BjqkGpqCNEkZPTTG0aFZtuqBPjQ08NPXAvZaAJtA2w7NUQ+9c/Lt5XQOWh5hrY5yfbQoRAYBKvRJ4xgZxcReQD5vMaK9yu9+5j//iWEY4s2g0nYGvO0MxX9/9PTnT1R6P1UqCVJDR/kJdiIQrsIqRghT4KEIpCSNJAuLa3zm7179qJaibnRgDejJgP9JOp3thZueOJvygwdTND0lcFuEWhEtdTALvTTXlmikCV4ScHFhixefXEHSuStKkxveadnAQOas/qm1vHhlq5Uwta6rsUosiCWuVsfJF2itzNMKY+a36sxsNXnhYkI5LLBSWz71ZvDSCkiz739eoyyjMI81VV7Vd6skYLSasrK4gWnnWKt7PL+4wbwbcv6yRKsrZDHXSGqbr74ZAg8t89D9O/stWNbuTS+8+Mzs2hfqstBNnPYOdRpcXNjg4VeXeOqSz/RcghuIb6zr5m+2omQ1NZ2/q7da4c7O+3u6abruDQWsA0PfDTzSVji26QZWJOWFxbr73OTuwcPfeL1ezhcNljydlmdDW+XJ8zPzd/lRsr6vo/xbtkjW26qVwzKJb7INo6OtWl1fWl2LbkQvnQJxJm0NEKZh6yptpNvx9fmt5MXjk72DD798meFyldHDY6xeuMi79nYpJWXqJJH2ajOaqW3UHtvudMsLGOjtYWF55YZahwUggRngEuAC6txa7XHNMF/Z9txRLJNATxnuG2Civ5ORgS56nPTtaPrpr03V9DDwGztht9vVgL0WwBpwGXgKeAVwoyiqNf1gbXtC2goWInLYZUG1UqH25JP4iTr32JnlQ4D92OJm5f83UG93xw2h0gKwsusGcDZbl8eziVADXe33juXlD0QrDRWWcqK2sIDSneSx80sngX6E8IZ7OvvCIPx5Kwnu6eru7J1fWPLLPQMvrtc2v+XknadMzXhdIlr79k2kZ86cv67AaQbqZtd+di8Bdctw9ZerVb3njjvGeOyvT4tG1zD27GX8vqH/wfmlxf6eronRnJqKIt/RCqCcrjNzm+7Nq6GaX52bzxb1K166v7e7HIeRByTXEzgCpjKnlX5HgG3ak+++d39PwcirNAzEsZN38sg/rvPAJ3+WwTb7o3rs3xPWVsYKhQKRq3GmqR2bvrjwIkBfZztL67XvGGhxebVxoyQAomzWLaAL2AVU/u29t9y/d3Skc31pXcTSQG6sENpF3nLLfkwh1ckfua991/4J8fpzL4jXaukTtWbTLBdL7e3t1bzQ9Uaj2Ypv1M3Ddoi5F9iH0Mf/6Jfu/3hff2/n8uqaGpk8KjQErcYmt/YNUe7sxVCJiBPFI5//K0bGB5UoNnNffGL5z8BNLNNMhRDb/uGqbCautoS1LPh4i2ZYRz54fOxT02cv5A/ceozugWFh6RrDh46RMxX9g33IyOeRv36EXYfeQhi02FhaIG9pg1uxuVDbrD8p0zSQUsrvNpEbCTiXpXZGH7xj6NerxTIqidk9Ocljjz6Bcuv09HfxyFe+Stxy6R4a5IlHHuXlp75O4jbxo0jEErW3r3Ty3LL/a2EYXFXYqwksssTdGLC3krf3j7XlbtPRcEyTrz/9Eh0lm5X1TVIl2FxZZGpmjqVLM7SVHSqlAghFEkuWN13hWCb5fOH3Li2sRlwDFbwasJ3AMeCtQLtjm/vcZsDK0ipx4DMx2EGpYGPmHGYvnKVUKVCpFMmZkKQphbxFqlL8WHLq9ByXV+tYmnr4Rk3xlLKU7AGgAmiDbcXROI7xIonne4g0xrYMOtqKKB0sXWekr51c3sa2DNAExZyDbgiUUrx8YYGiKd9+cM/I0I0GrGe7o7EsPQsIYywXTUgF9Uhi6ALimJxlolKJY1uEcYRKFbahUcw5yCQlUQpN03jv8UnZ3T/6e4+/PM14d+F1gIN7x24YYCMLH/PbP1QKdpvrxtQiVHfBVK6fgoypbTZJZYqUkqYb0Gq51BsegecjU4Vp6FimSVuloPte0xsYHHnu+bNzxfvu2P/S6XOXtR86cdMNAWzuyD8DcGig7cFFTzLl6YslS6AZEEcRtVod3wuo111818P3ApIgIooTfM9ndnkLw9AJooR7Dvf/yumZpeMyFY3ZxfUj9905ceGpqcR49+0Hrjuwk9mwBqj+jvKEX6/1zSVO0JeT3cLURck2SJXACTxi10PFCaam02h4+J5HqxnQagUIDUzLIJKSYs7S9/ZXz69uNqtz6631raY7/s4J89w/PPM6B/eOXzdgLfPO5Svxslm9Y9D52DyVxDKNhW4rNUxDo5wzKBo6XqpI/AAZxsRxQj5no3QTJRSWbdBRLWFbFn2dbSgUd9/UN9zd1XVpq+l1P/Pa5ZnaVn38/e84/Nrpc9OMDQ1cF2Anc1gOkPzAwYFfPr0hieL46YG86u0pWMLUBW4sidDo6KzS0dlGV3cbpUKOaql4ZWnK5wmimDSVOI6FF0TIVKGhiYqVjpRLxc/t37/vyEtT66cCzzv4Y3cfefzS5QV2jY2+oYHHdv7qIKAf29VzX1vJmVgMrItFgkP1ZsserFg4to6tGygFVr5AgiBVYDsWmiEIY4lMU8rlIqZloJRASYmuCYIwYrS3Kp77x7nDfhAuOI716GpLqo5c+p5Dk2NDT7905itvFPB2wewo0FMpFQffc3Tgoadn/MgPAtMKG/nx9jwVxyDvGPihBNNB6Dq6YWCaJkLXcf0QhcJ2TDTdQEMgUZiGRhgmxHFCznHQdNT5uZUfHBgc/JlarXYp1osHunPpe7p7B+szC8vfeiNUusCVIwx9QO1Hjw3/4jcvNVLXD6OBkjDiVKiSdaXbpp+gmRapEDTDmI2WS8P1EAIKeQfbsdhqeDRaTYI4wnV9kFBrtIhlSsv1OTTeJ0p5G5toutFonlrf2Lzv23PuZncu/AzkR/fsGrumwGYWZIwD0Vv39LxrvRU4F5fr2sbm5meDVqs43u4IKSFNFZoSRGGEIaCQc+hpr2KYOkopQGEaBuVino5yBamg1fLZaLYo5hyUglimmJbJiSPjTM0utR05eji/Xqutu2H03hdeX/jGB06MPn3h4qVrBiyyRPu+LNAwBkvmQ6emNnyU+l89He0fyosUSxOkKiWIU/woIQgTGq0Av9EijWMsXYNUIVNoNT1sU6fp+bgND5mmyFjh+REKsC2Tjc06HaUcmoCVxaUBgHIhf07Y+enZ5fp/vf/43qeulQ0XM7sdAtI793R96HI9Km648fkkkSqvJUuDRXO8aOvkTAOlFJoQCAFJClbOQaBQQoMkxTINdEPH9ULCMMaxbaRUpGlKkqRX4FVKGEs620rUtpq4CV9yXW/2ns0t99spX0U3/02QiNroYF+nqZuvbDVbV03COjDMlRM5EjTVXS3fvpFYsZTyrKZp+ZxObzVvYusGhi4wdZ04VSRSIYDID2h5Ic2mT8sLCMOYzS2XVKZoCKIoQUMjjCVC10gVFPN5ysU8XpCwf9cAtdpGEeB/AqWCE11aWP7EesM/ZSfNP7+0EHbs3TV+1YArwO4MfOnEnvaPnpqubTbr9dO6pr3X8/2/7ygX26p5k0SlCK5ItmKbWLqGKQSJTFFSoWRK04+4vLKB6wW03ABTNwjDmCCKiRKJkXltL4yRSiA0TSGgo1rdzn2ztLoOwOziyudn17x77z7onD13cfqqAJvAKFeOMWzkC6UeX5jdbpRsaZro8Tz/V1WaunHghVGicEyNSKboQqMZJRhCQ8oEmUjcIKTpBshEUrBtio6NLgQtPyBOJE3PRyaStVodqRQqVTRavmr4sTB041LLC+0slP3OF9T1+a3Zxc7b9u/5yPcKLID2TJ0DYPX43p6fu7AWrIF6rOV6f6ZQAhCJZtYNTRBn2z5Ng7a8RStO0DVBkkiUlGi6Rhgl+F5IFMbouo7rRfhhTN62UUJQLhexLRs3DIklIkpk0PCT11zPS7JMaG7nS55fXDu9VR34xNTy+tr3Cmxly1AB8Hs622/ZjNJ+HYoykT+j69r2wMKP5GyqaypOwLEM5SWSVigpWgZ+IgmTBJRCi2NKtoFhGtRaHp4fYZk6OcfCDyLiRBJEEW4Y4waKWKGaftR0/fCroF7Jgp7hnQ53fGyE6csLv79e23z4e/HSItvrTmSJtODmfYMfO3NhfmKr5eaKxcIXPM9f2t4a6kKj3TZuacmUMFGiu+SIWCriVF7J7pk6ptAIAZWCbuhoAhQCzdBBaTiOQy6XI4xT5YYRKCXcIDntOPYDj3/r9N9mWtYF9ALrWXWDza36VVmW8lw5OlgE6sBpLySuNVo/Cnw7CAK5Q0NEmKZJTpMHLMtWUYq26SW6VGAYembTOoapkyqNOE2xHQelG0gEXpiAptEKY7XphuFGoyXbndic7BPKFP7//vIT5/44G0ftSDq4wObViqVFthPalu4isOD5/rcy9R7LbHv7WdJUxUut+JRlaL2aprXphrB9qVQrlFiGLrw4JVUQK5AIEqHjBpFKFEITBoFENfx4c2WjuXDrUNJ727jBSIcSBwaMwx1tldwLF7a+lgG7mQC2MolflUjLzuykLftUdjwbA142+P91liqX16MH7yqWBroMqmUDLyFtxiKN0NKtKEn9SKogTNRGvaWabkCqNLXa9NKl9a2VMzOrXx+vhGNv321zebaBYRpcXvTV0b74lz58ct/bdpRzljLoq1ZqcTKYy0AtK3L72X9JVhVMMg1RgJbP5wuHxjoO//xxcef0vMvJm6ts+Zp4/KWafmbRXdts+m5k5J93DJkbK5vHUxkJITQ1t7gcN1Nz5vLa5peUgnfd1/e+szMe3zzbYs9EiaWkcvTcc3NfvevW4tc+98+5s3912eX/BexnBe04m1G5YxC5Q52sTPLDcRTd8sl71Nv+8kXdPTMTBz/dGXacXTPCMNbCT93f1fWhP579Q2j6dWClxhPZZBmZr6gCb2svO3t6qpZ6/Fm/dWoxfPIDLflDDz8z99vnloK/3dW38e/+4/tGf/fTX5755LVI8YSZymzXYHfOqMqkvpVd54CxA4P5vlAvqi89PfP3F5brS3aq+Jvn1pcfPb124fSFRnrylp77d5RNkmwyrcwploD8B2/r3qOEEb+0Lv8QWEsTpW6f7MkpmWivzYfrR4btT0B+ZHJ88A1P8TSA2UzKGmD+8B5zNPRD0dtWHsrplE3L5qETvWVQ0aKr+x97R+Ew6IVsIs8BLwELmafdyplGZbIUGlEYGWut8NfzjjNpxam4a1QdB9Z1jbwfSH7nJ4f+/dnp+TccOM7sei3TgvLMuplsLgUEUsnJ7lLBqwUM5pI2YLrDTpwwEtxztKcGPAGcAp4HngXmgKYhlIg2EzYWWkRReELCVlKLWF2MASzdE4G35qnVmfrw9aoP17OKfwGQX359/excq1TYajSfnUqdNNoKT/zDlHgYaOnNRHlrLqbSXgGmd5jI+Uyte5qRrD06Q9Nqb/sw1NbCIFj64gWTFaUfA37kken6oyA/HHUMfwqWuV6tANwJ/BrwF9le+W7gs6OVwnYq4k9vGuy8cP/+8jPQb/4L6/0w8BPAFxHi+I7//puZyx/YMc5f2MXKEa5z07Ii2k8AN2c7KwG8e8czd+Rs+wN2tTM33Nv9L/XRA9wP3PVdGpf7rue6rsYL/x8HbwtumjbAVwAAAABJRU5ErkJggg==
-// @date           01.04.2015
+// @date           27.06.2015
 // @version        2.5
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
@@ -72,7 +72,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.4.0","01.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"],["Neu: G"+u_dots+"terhof","New: Megafield"]]]
                 ,["2.4.1","12.02.2015",[["Bugfix: Logging Waltraud","Bugfix: Logging Waltraud"]]]
                 ,["2.4.2","01.04.2015",[["Aktualisierung der Daten","Update of data"]]]
-                ,["2.5","xx.xx.2015",[["Neu: G"+u_dots+"terhof","New: Megafield"]],["Refaktorierung des Loggings","Refactoring of logging"]]
+                ,["2.5","27.06.2015",[["Neu: G"+u_dots+"terhof","New: Megafield"],["Neu: Neues Laden der Seite, wenn Login oder Start des Skripts ausbleibt","New: Reload of page if login oder start of script misses"],["Refaktorierung des Loggings","Refactoring of logging"],["Bugfix: Endzeiten-Fehler bei St"+a_dots+"llen und Fabriken","Bugfix: Endtime error at stables and factories"]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -185,8 +185,10 @@ unsafeData.BUILDING2PRODUCT=BUILDING2PRODUCT.clone();
 // building -> -, field, stable, factory, foodworld
 const BUILDINGTYPE={"0":0,"1":1,"2":2,"3":2,"4":2,"5":2,"6":0,"7":3,"8":3,"9":3,"10":3,"11":2,"12":2,"13":3,"14":3,"15":2,"16":3,"17":0,"18":0,"19":0,"fl1":1,"fl2":4,"fw1":4,"fw2":4,"fw3":4} // task_new_building
 unsafeData.BUILDINGTYPE=BUILDINGTYPE.clone();
-const BUILDING_SIZE={"1":120,"forest":25,"fl0":17,"fl1":36,"megafield":[11,9]};
+const BUILDING_SIZE={"1":120,"forest":25,"fl1":36,"megafield":[11,9]}; // task_new_building
 unsafeData.BUILDING_SIZE=BUILDING_SIZE.clone();
+const BUILDING_SLOTS={"13":3,"14":3,"16":3,"windmill":2,"sawmill":3,"carpentry":3,"fw1":3,"fw2":3,"fw3":3,"fl0":17,"fl2":3,"megafield":99}; // task_new_building
+unsafeData.BUILDING_SLOTS=BUILDING_SLOTS.clone();
 // Needed input of a zone
 // BUILDING_INPUT[buildTyp]{output}[alternatives]=[[prod1,amount1||reducing time1],...]
 const BUILDING_INPUT=[,,{"9":[[[1,600]],[[2,1200]]]},{"10":[[[3,900]],[[4,1800]]]},{"11":[[[5,2400]],[[6,4800]]]},{"12":[[[7,4800]],[[8,9600]]]},,{"25":[[[9,30]]],"144":[[[21,450]]]},{"27":[[[10,12]]],"111":[[[110,5]]]},{"28":[[[11,8]]],"152":[[[151,5]]]},{"30":[[[12,5]]]},{"91":[[[92,14400]],[[93,28800]]]},{"110":[[[108,3600]],[[109,1800]]]},{"116":[[[2,1980]]],"117":[[[7,550]]],"118":[[[4,1020]]],"119":[[[38,650]]],"120":[[[42,110]]],"121":[[[43,100]]]},{"122":[[[112,130],[116,35]]],"123":[[[113,220],[117,35]]],"124":[[[114,345],[118,35]]],"125":[[[115,80],[119,35]]]},{"151":[[[153,1560]],[[154,3120]]]},{"155":[[[152,5],[28,6]]],"156":[[[152,8],[28,5]]],"157":[[[152,2],[28,9]]]}]; // task_new_product
@@ -484,6 +486,70 @@ if(DEVMODE_FUNCTION){ tracking.init("berater"); }
 
 //***********************************************************************************************************
 //*********************** FUNCTIONS *************************************************************************
+var reloader=new function(){
+    var counters={};
+    var runInterval=null;
+    var bubble=null;
+/*
+        if(time>0){
+            if(self==top){
+                div=$("bubbleBeraterNotLoaded");
+                if(!div){
+                    div=createElement("div",{"id":"bubbleBeraterNotLoaded","style":"position:absolute;top:0;left:0;width:340px;padding:30px;background-color:yellow;border:3px solid black;border-radius:10px;z-index:1000;font-family:Verdana,sans-serif;color:#000000;font-size:12pt;font-weight:bold;"},document.getElementsByTagName("body")[0]);
+                }
+                div.innerHTML = getText("pageXNotLoaded").replace(/%1%/,location.href)
+                              + "<br><br>"
+                              + getText("reloadInXSec").replace(/%1%/,time);
+            }
+            window.setTimeout(function(){ scriptWait(--time); },1000);
+        }else{
+            location.href=location.href;
+        }
+*/
+    this.start=function(name,time,text){
+        try{
+            counters[name]=[time,text];
+            runInterval=window.setInterval(reloader.run,1000);
+        }catch(err){ GM_logError("reloader.start","name="+name+" time="+time,"",err); }
+    }
+    this.stop=function(name){
+        try{
+            delete counters[name];
+            if(counters.isEmpty()){
+                if(runInterval){
+                    window.clearInterval(runInterval);
+                    runInterval=null;
+                }
+                if(bubble){
+                    removeElement(bubble);
+                    bubble=null;
+                }
+            }
+        }catch(err){ GM_logError("reloader.stop","name="+name,"",err); }
+    }
+    this.run=function(){
+        try{
+            var a=0,time;
+            for(var name in counters){
+                if(!counters.hasOwnProperty(name)){ continue; }
+                time=(--counters[name][0]);
+                if(time>0){
+                    if((++a==1)&&(self==top)){
+                        if(!bubble){
+                            bubble=createElement("div",{"style":"position:absolute;top:0;left:0;width:340px;padding:30px;background-color:yellow;border:3px solid black;border-radius:10px;z-index:1000;font-family:Verdana,sans-serif;color:#000000;font-size:12pt;font-weight:bold;"},document.getElementsByTagName("body")[0]);
+                        }
+                        bubble.innerHTML = counters[name][1]
+                                      + "<br><br>"
+                                      + getText("reloadInXSec").replace(/%1%/,time);
+                    }
+                }else{
+                    location.href=location.href;
+                    break;
+                }
+            }
+        }catch(err){ GM_logError("reloader.run","","",err); }
+    }
+}
 // DOM
 function SortableTable (sortRow){
     // Sortable HTML table inspired by http://www.webtoolkit.info/
@@ -1272,7 +1338,7 @@ var zones=new function(){
     this.init=function(){
         try{
             data=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones","{}"),"zones.init/data",{});
-            var zoneNrF, slot;
+            var zoneNrF, slot, building;
             for(var zoneNr in data){
                 if(!data.hasOwnProperty(zoneNr)){ continue; }
                 // Wrong format
@@ -1281,12 +1347,32 @@ var zones=new function(){
                     continue;
                 }
                 if(zoneNr.match(/\.(\d+)$/)){
+                    // Slot
                     slot=parseInt(/\.(\d+)$/.exec(zoneNr)[1],10);
                     zoneNrF=zoneNr.replace(/\.\d+$/g,"");
                     // Slot not defined in record of zone
                     if((!data[zoneNrF])||(!data[zoneNrF]["slots"])||(!data[zoneNrF]["slots"][slot])){
                         delete data[zoneNr];
                         continue;
+                    }
+                }else{
+                    // Zone
+                    zoneNrF=zoneNr;
+                    building=data[zoneNrF]["building"];
+                    if(BUILDING_SLOTS[building]){
+                        for(var i=BUILDING_SLOTS[building];i>=1;i--){
+                            if(undefined==data[zoneNrF]["slots"][i]){
+                                // Slot not defined in record of zone
+                                data[zoneNrF]["slots"][i]=INIT_zoneSlotItem.clone();
+                            }
+                        }
+                        if(data[zoneNrF]["slots"].length>1+BUILDING_SLOTS[building]){
+                            // Too many slots defined in record of zone
+                            data[zoneNrF]["slots"].splice(1+BUILDING_SLOTS[building],data[zoneNrF]["slots"].length-BUILDING_SLOTS[building]-1);
+                        }
+                    }else if(null!=data[zoneNrF]["slots"]){
+                        // Slots defined in record of zone without slots
+                        data[zoneNrF]["slots"]=null;
                     }
                 }
             }
@@ -1374,6 +1460,9 @@ var zones=new function(){
                 zones.create(zoneNrF);
             }
             if(slot){
+                if(undefined==data[zoneNrF]["slots"][slot]){
+                    data[zoneNrF]["slots"][slot]=INIT_zoneSlotItem.clone();
+                }
                 if(data[zoneNrF]["slots"][slot]["block"]!=value){
                     data[zoneNrF]["slots"][slot]["block"]=value;
                     if(data[zoneNr]){
@@ -1385,7 +1474,7 @@ var zones=new function(){
                 data[zoneNrF]["block"]=value;
                 zones.save();
             }
-        }catch(err){GM_logError("zones.setBlock","zoneNr="+zoneNr,implode(data[zoneNrF],"zones.setBlock/data"),err);}
+        }catch(err){GM_logError("zones.setBlock","zoneNr="+zoneNr+" value="+value,"data['"+zoneNrF+"']="+implode(data[zoneNrF],"zones.setBlock/data"),err);}
     }
     this.getBlock=function(zoneNr){
         try{
@@ -1485,25 +1574,17 @@ var zones=new function(){
             }
             if(data[zoneNrF]["building"]!=value){
                 data[zoneNrF]["building"]=value;
-                switch(value){
-                case 13: // Oil
-                case 14: // Special oil
-                case 16: // Knitting
-                case "windmill":
-                case "sawmill": case "carpentry":
-                case "fw1": case "fw2": case "fw3": // Foodworld
-                case "fl2": // Flowers
+                if(BUILDING_SLOTS[value]){
                     data[zoneNrF]["slots"]=[];
-                    for(var i=1;i<=3;i++){
+                    for(var i=BUILDING_SLOTS[value];i>=1;i--){
                         data[zoneNrF]["slots"][i]=INIT_zoneSlotItem.clone();
                     }
-                break;
-                default:
+                }else{
                     data[zoneNrF]["slots"]=null;
                 }               
                 zones.save();
             }
-        }catch(err){GM_logError("zones.setBuilding","","",err);}
+        }catch(err){GM_logError("zones.setBuilding","zoneNrF="+zoneNrF+" value="+value,"",err);}
     }
     this.getBuilding=function(zoneNr){
         try{
@@ -1535,7 +1616,7 @@ var zones=new function(){
         }
     }   
     // Production
-    this.setProduction=function(zoneNrS,value){
+    this.setProduction=function(zoneNrS,value,noFollowing){
         // production[0][i]={"id":item,...}
         // i = product-type
         // case production : item=[[amount,points,endtime,nextwatertime],...]
@@ -1556,7 +1637,7 @@ var zones=new function(){
                 data[zoneNrS]["production"]=value;
                 totalCrop=null;
                 cropByTime=null;
-                zones.processProduction(zoneNrS);
+                zones.processProduction(zoneNrS,noFollowing);
             }
         }catch(err){GM_logError("zones.setProduction","zoneNrS="+zoneNrS+" value="+value,"",err);}
     }
@@ -1569,7 +1650,7 @@ var zones=new function(){
             }
         }catch(err){GM_logError("zones.getProduction","zoneNrS="+zoneNrS,"",err);}
     }
-    this.processProduction=function(zoneNrS){
+    this.processProduction=function(zoneNrS,noFollowing){
         try{
             if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","zones.processProduction",[zoneNrS]); }
                 var err_trace="begin";
@@ -1652,9 +1733,16 @@ var zones=new function(){
                             }
                         }else if(iZoneTyp=="megafield"){
                             help=(typeof data[zoneNrS]["production"][1]=="object"?data[zoneNrS]["production"][1][1]:data[zoneNrS]["production"][1]);
-                            if(help>0){ // TODO 2.4 compare with job
-                                data[zoneNrS]["endtime"]=NEVER;
-                                data[zoneNrS]["endproduct"]=null;
+                            if(help>0){
+                                if(megafieldJob){
+                                    for(var prod in megafieldJob.products){
+                                        if(!megafieldJob.products.hasOwnProperty(prod)){ continue; }
+                                        if(megafieldJob.products[prod].have+megafieldJob.products[prod].growing<megafieldJob.products[prod].need){
+                                            data[zoneNrS]["endtime"]=NEVER;
+                                            data[zoneNrS]["endproduct"]=null;
+                                        }
+                                    }
+                                }
                             }
                         }else if(valGlobaltimeShowCroppedZone[currLocation]){
                             help=(typeof data[zoneNrS]["production"][1]=="object"?data[zoneNrS]["production"][1][1]:data[zoneNrS]["production"][1]);
@@ -1671,15 +1759,17 @@ var zones=new function(){
                         createZoneTimer("zoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater","top:20px;left:5px;",$("farm"+farmNR+"_pos"+zoneNr));
                     }
                 }
-                err_trace="readyZone";
-                zones.checkReady(zoneNrS);
                 err_trace="timer";
                 updateZoneTimer("zoneTimer_"+zoneNrS,zoneNrS,"zonetimer");
                 updateZoneTimer("zoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater");
                 updateZoneTimer("globalZoneTimer_"+zoneNrS,zoneNrS,"zonetimer");
                 updateZoneTimer("globalZoneTimerWater_"+zoneNrS,zoneNrS,"zoneTimerWater");
-                calcTotalEndtime();
-                zones.save();
+                if(!noFollowing){
+                    err_trace="readyZone";
+                    zones.checkReady(zoneNrS);
+                    calcTotalEndtime();
+                    zones.save();
+                }
                 if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
             }catch(err){ GM_logError("zones.processProduction","zoneNrS="+zoneNrS,"err_trace="+err_trace+" iProdStr="+iProdStr,err); }
     }
@@ -1740,7 +1830,7 @@ var zones=new function(){
     this.checkReady=function(zoneNrS){
         try{
             var readyZoneAdded=0;
-            if((!zones.getBlock(zoneNrS))&&(zones.isProductional(zoneNrS))){
+            if((!zoneNrS.toString().match("megafield\.\d+"))&&(!zones.getBlock(zoneNrS))&&(zones.isProductional(zoneNrS))){
                 var zoneNrF=zoneNrS.toString().replace(/\.\d+$/g,"");
                 var farmNR=Math.floor((zoneNrF-1)/6)+1;
                 var zoneNr=zoneNrF-6*(farmNR-1);
@@ -1800,7 +1890,7 @@ var zones=new function(){
     this.getTotalCrop=function(timeBegin,timeEnd){ 
         try{
             if((!timeBegin)&&(!timeEnd)&&totalCrop){
-                return totalCrop;
+                return totalCrop.clone();
             }else if(cropByTime){
                 var t1=timeBegin?timeBegin:0;
                 var t2=timeEnd?timeEnd:NEVER;
@@ -1820,7 +1910,7 @@ var zones=new function(){
                         totalCrop=production;
                     }
                 }
-                return production;
+                return production.clone();
             }else{
                 var t1=timeBegin?timeBegin:0;
                 var t2=timeEnd?timeEnd:NEVER;
@@ -1851,7 +1941,7 @@ var zones=new function(){
                 if((!timeBegin)&&(!timeEnd)){
                     totalCrop=production;
                 }
-                return production;
+                return production.clone();
             }
         }catch(err){ 
             GM_logError("zones.getTotalCrop","timeBegin="+timeBegin+" timeEnd="+timeEnd,"zoneNrS="+zoneNrS+" iType="+iType+" sProd="+sProd,err);
@@ -1867,7 +1957,7 @@ var zones=new function(){
         if(data[zoneNrF]["slots"]==null){
             return false;
         }else{
-            return true;
+            return data[zoneNrF]["slots"].length-1;
         }
     }catch(err){GM_logError("isMultiSlot","","",err);}
     }
@@ -2307,13 +2397,12 @@ try{
 unsafeData.setCalcToQuest=setCalcToQuest;
 function handleQuestLine(){
 try{
-    // GM_log("unsafeWindow.quests_status:\n"+print_r(unsafeWindow.quests_status,"",true,"\n"));        
     var div,help;
     for(var type in questData){
         if (!questData.hasOwnProperty(type)){ continue; }
         for(var campaign in questData[type]){
             if(!questData[type].hasOwnProperty(campaign)){continue;}
-            // GM_log("questData["+type+"]["+campaign+"]:\n"+print_r(questData[type][campaign],"",true,"\n"));
+            // GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,"quests_status[type][campaign]:\n"+print_r(unsafeWindow.quests_status[type][campaign],"",true,"\n"));
             if((type=="foodworld")&&unsafeWindow.quests_status&&unsafeWindow.quests_status[type]&&unsafeWindow.quests_status[type][campaign]&&unsafeWindow.quests_status[type][campaign]["data"]){
                 unsafeWindow.quests_status[type][campaign]["questid"]=unsafeWindow.quests_status[type][campaign]["data"]["questid"]; //Bugfix
             }
@@ -2337,9 +2426,9 @@ try{
                 // if((type=="forestry")&&(campaign=="2")){ help++; } // Bugfix
                 if(questData[type][campaign]["nr"]!=help){
                     switch(type){
-                    case "main":{ logBubble.add(getText("pleaseOpenX").replace(/%1%/,getText("quest"+type+campaign))+" ("+questData[type][campaign]["nr"]+"&ne;"+help+")"); break;}
-                    case "forestry":{ logBubble.add(getText("pleaseOpenX").replace(/%1%/,getText("lodge"))+" ("+questData[type][campaign]["nr"]+"&ne;"+help+")"); break;}
-                    case "foodworld":{ logBubble.add(getText("pleaseOpenX").replace(/%1%/,getText("foodworld"))+" ("+questData[type][campaign]["nr"]+"&ne;"+help+")"); break;}
+                    case "main":{      GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("pleaseOpenX").replace(/%1%/,getText("quest"+type+campaign))+" ("+questData[type][campaign]["nr"]+"&ne;"+help+")"); break;}
+                    case "forestry":{  GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("pleaseOpenX").replace(/%1%/,getText("lodge"))+" ("+questData[type][campaign]["nr"]+"&ne;"+help+")"); break;}
+                    case "foodworld":{ GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("pleaseOpenX").replace(/%1%/,getText("foodworld"))+" ("+questData[type][campaign]["nr"]+"&ne;"+help+")"); break;}
                     }
                     if(!QUESTS[type][campaign][questData[type][campaign]["nr"]]){
                         questData[type][campaign]["nr"]=help;
@@ -2377,9 +2466,9 @@ try{
                 if(questData[type][campaign]["nr"]==0){
                     div.style.display="block"; // quest number unknown
                     switch(type){
-                    case "main":{ logBubble.add(getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("quest"+type+campaign))); break;}
-                    case "forestry":{ logBubble.add(getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("lodge"))); break;}
-                    case "foodworld":{ logBubble.add(getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("foodworld"))); break;}
+                    case "main":{      GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("quest"+type+campaign))); break;}
+                    case "forestry":{  GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("lodge"))); break;}
+                    case "foodworld":{ GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("foodworld"))); break;}
                     }                       
                 }else if((questData[type][campaign]["nr"]==-1)||(questData[type][campaign]["calcTo"]==-1)){
                     div.style.display="none"; // do not show quest
@@ -2713,7 +2802,7 @@ try{
     case 0:{
         createElement("div",{"class":"link rackcat1v"+(mode["filterCategory"]["v"]?"_active":""),"filter":'["v"]',"mouseOverText":getText("category_v"),"style":"float:left;"},newdiv);
         createElement("div",{"class":"link rackcat1e"+(mode["filterCategory"]["e"]?"_active":""),"filter":'["e"]',"mouseOverText":getText("category_e"),"style":"float:left;"},newdiv);
-        createElement("div",{"class":"link rackcat5"+(mode["filterCategory"]["o"]?"_active":""),"filter":'["o"]',"mouseOverText":getText("category_o"),"style":"float:left;"},newdiv);
+        createElement("div",{"class":"link rackcat6"+(mode["filterCategory"]["o"]?"_active":""),"filter":'["o"]',"mouseOverText":getText("category_o"),"style":"float:left;"},newdiv);
         createElement("div",{"class":"link rackcat10"+(mode["filterCategory"]["c"]||mode["filterCategory"]["z"]?"_active":""),"filter":'["c","z"]',"mouseOverText":getText("category_c")+"<br>"+getText("category_z"),"style":"float:left;"},newdiv);
         newdiv1=createElement("div",{"style":"float:left;width:53px;"},newdiv);
         for(var i=1;i<=4;i=i+2){
@@ -3193,7 +3282,7 @@ try{
     }}(mode["filterCategory"]),false);
     createElement("div",{"class":"link rackcat1v"+(mode["filterCategory"]["v"]?"_active":""),"filter":'["v"]',"mouseOverText":getText("category_v"),"style":"float:left;"},newdiv);
     createElement("div",{"class":"link rackcat1e"+(mode["filterCategory"]["e"]?"_active":""),"filter":'["e"]',"mouseOverText":getText("category_e"),"style":"float:left;"},newdiv);
-    createElement("div",{"class":"link rackcat5"+(mode["filterCategory"]["o"]?"_active":""),"filter":'["o"]',"mouseOverText":getText("category_o"),"style":"float:left;"},newdiv);
+    createElement("div",{"class":"link rackcat6"+(mode["filterCategory"]["o"]?"_active":""),"filter":'["o"]',"mouseOverText":getText("category_o"),"style":"float:left;"},newdiv);
     newdiv1=createElement("div",{"style":"float:left;width:53px;"},newdiv);
     for(var i=1;i<=4;i=i+2){
         createElement("div",{"class":"link rackcat2"+i+(mode["filterCategory"]["fw"+i]?"_active":""),"filter":'["fw'+i+'"]',"mouseOverText":getText("category_fw"+i),"style":"float:left;"},newdiv1);
@@ -5443,12 +5532,13 @@ function buildInfoPanelOptions(){
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
         
         // ***********************************************************************
+
         newtr=createElement("tr",{},newtable);
-        newtd=createElement("th",{"colspan":"3"},newtr,getText("windmill"));
+        newtd=createElement("th",{"colspan":"3"},newtr,getText("megafield"));
 
         newtd1=null;
-        for(var j=0;j<ALL_ZONES["city"].length;j++){
-            zoneNrF=ALL_ZONES["city"][j];
+        for(var j=0;j<ALL_ZONES["megafield"].length;j++){
+            zoneNrF=ALL_ZONES["megafield"][j];
             if(zones.isProductional(zoneNrF)){
                 newtr=createElement("tr",{},newtable);
                 newtd=createElement("td",{"align":"center"},newtr);
@@ -5471,18 +5561,9 @@ function buildInfoPanelOptions(){
                 }
             }
         }
-
-        newtr=createElement("tr",{},newtable);
-        newtd=createElement("td",{"align":"center"},newtr);
-        newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["windmill"]},newtd);
-        newinput.addEventListener("click",function(){
-            valGlobaltimeShowCroppedZone["windmill"]=this.checked;
-            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"buildInfoPanelOptions/valGlobaltimeShowCroppedZone"),16);
-        },false);
-        createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
-        createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
         
         // ***********************************************************************
+        
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("forestry"));
         
@@ -5583,7 +5664,49 @@ function buildInfoPanelOptions(){
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
         
+        // ***********************************************************************
+
+        newtr=createElement("tr",{},newtable);
+        newtd=createElement("th",{"colspan":"3"},newtr,getText("windmill"));
+
+        newtd1=null;
+        for(var j=0;j<ALL_ZONES["city"].length;j++){
+            zoneNrF=ALL_ZONES["city"][j];
+            if(zones.isProductional(zoneNrF)){
+                newtr=createElement("tr",{},newtable);
+                newtd=createElement("td",{"align":"center"},newtr);
+                newinput=createElement("input",{"zoneNrF":zoneNrF,"type":"checkbox","class":"link","checked":zoneAddToGlobalTime[zoneNrF]},newtd);
+                if(zones.getBlock(zoneNrF)){ newinput.disabled=true; }
+                newinput.addEventListener("click",function(){
+                    var zoneNrF=this.getAttribute("zoneNrF");
+                    zoneAddToGlobalTime[zoneNrF]=this.checked;
+                    unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime[zoneNrF];
+                    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd", implode(zoneAddToGlobalTime,"buildInfoPanelOptions/zoneAddToGlobalTime"));
+                    zones.processProduction(zoneNrF);
+                },false);
+                newtd=createElement("td",{},newtr);
+                if(zones.getBlock(zoneNrF)){ newtd.style.opacity="0.6"; }
+                createElement("span",{},newtd,zones.getBuildingName(zoneNrF));
+                if(newtd1==null){
+                    newtd1=createElement("td",{"rowspan":1},newtr,getText("settings_valzoneAddToGlobalTime")[1]);
+                }else{
+                    newtd1.rowSpan++;
+                }
+            }
+        }
+
+        newtr=createElement("tr",{},newtable);
+        newtd=createElement("td",{"align":"center"},newtr);
+        newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["windmill"]},newtd);
+        newinput.addEventListener("click",function(){
+            valGlobaltimeShowCroppedZone["windmill"]=this.checked;
+            GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"buildInfoPanelOptions/valGlobaltimeShowCroppedZone"),16);
+        },false);
+        createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
+        createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
+
         // **********************************************************************
+        
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,unsafeWindow.foodworld_title);
         
@@ -7121,12 +7244,13 @@ function goToZone(zoneNrF){
 }
 function calcAllSlots(){
 try{
+    var help;
     ALL_SLOTS={};
     for(var i in ALL_ZONES){
         if(!ALL_ZONES.hasOwnProperty(i)){ continue; }
         for(var j=0;j<ALL_ZONES[i].length;j++){
-            if(zones.isMultiSlot(ALL_ZONES[i][j])){
-                for(var slot=1;slot<=3;slot++){
+            if(("megafield"!=ALL_ZONES[i][j])&&(help=zones.isMultiSlot(ALL_ZONES[i][j]))){
+                for(var slot=1;slot<=help;slot++){
                     ALL_SLOTS[ALL_ZONES[i][j]+"."+slot]=i;
                 }
             }else{
@@ -8205,11 +8329,6 @@ try{
     }else{
         GM_logWarning("do_main","","","#errorboxgarden not found",0);
     }
-    if(newdiv=$("popup_garden")){
-        newdiv.style.top="";
-    }else{
-        GM_logWarning("do_main","","","#popup_garden not found",0);
-    }
 
     err_trace="Container - divRightBorder - divMiddleBorder";
     newdiv1=$("questbarcontrol").parentNode;
@@ -8645,8 +8764,7 @@ try{
                 currBlock=(unsafeWindow.foodworldbuildings[building]["cost"]?"b":""); // foodworld building locked due to missing payment
                 currBlock+=(unsafeWindow.foodworldbuildings[building]["block"]?"l":""); // foodworld building locked due to level requirement               
                 zones.setBlock(zoneNrF,currBlock);
-                if(zones.isMultiSlot(zoneNrF)){
-                    iSlotCount=3;
+                if(iSlotCount=zones.isMultiSlot(zoneNrF)){
                     if(!currBlock){
                         for(var slot=1;slot<=iSlotCount;slot++){
                             zoneNrS=zoneNrF+"."+slot;
@@ -9534,7 +9652,7 @@ try{
                 }
     
                 if (c>0){
-                    logBubble.add(getText("sendingXObservedPricesToServer").replace(/%1%/,c));
+                    GM_logInfo("sendStatData","","",getText("sendingXObservedPricesToServer").replace(/%1%/,c));
                     // GM_log("sendStatData sending:\n" + STAT_SERVER[COUNTRY]+'/add.php?json={\"server\":'+SERVER+',\"COUNTRY\":'+COUNTRY+',\"productcount\":'+c+prodStr+'}')
                     GM_xmlhttpRequest({
                     method: "POST",
@@ -9546,7 +9664,7 @@ try{
                     onload: function(c){
                         return function(response){
                             try{
-                                logBubble.add(getText("sendingXObservedPricesToServer").replace(/%1%/,c)+" "+response.responseText);
+                                GM_logInfo("sendStatData","","",getText("sendingXObservedPricesToServer").replace(/%1%/,c)+" "+response.responseText);
                             }catch(err){GM_logError("sendStatData.onload","","",err);}          
                         }
                     }(c),
@@ -10227,6 +10345,7 @@ return false;
             for(var v in prodName[type]){
             try{
                 if(!prodName[type].hasOwnProperty(v)){continue;}
+                if(!prodName[type][v]){continue;}
                 tr=createElement("tr",{},table);
                 createElement("td",{},tr,v);
                 td=createElement("td",{"style":"white-space:nowrap;"},tr);
@@ -10292,8 +10411,8 @@ return false;
             if(!ALL_ZONES.hasOwnProperty(i)){ continue; }
             for(var j=0;j<ALL_ZONES[i].length;j++){
                 allZones.push(ALL_ZONES[i][j].toString());
-                if(zones.isMultiSlot(ALL_ZONES[i][j])){
-                    for(var slot=1;slot<=3;slot++){
+                if(help=zones.isMultiSlot(ALL_ZONES[i][j])){
+                    for(var slot=1;slot<=help;slot++){
                         allZones.push(ALL_ZONES[i][j]+"."+slot);
                     }
                 }
@@ -11474,7 +11593,7 @@ return false;
     function getDailyRanking(){
     try{
         if(!levelLog[levelLogId][2]){
-            logBubble.add(getText("requestingUserStatistic"));
+            GM_logInfo("getDailyRanking","","",getText("requestingUserStatistic"));
             GM_xmlhttpRequest({
                 method: "GET",
                 url: "http://s"+SERVER+"."+GAMEPAGES[COUNTRY]+"/city/ajax.php?mode=stats&type=pkt&page=1&findme=1&rid="+unsafeWindow.rid,
@@ -11488,21 +11607,21 @@ return false;
                                 if(result[1]["data"][i]["own"]){
                                     levelLog[levelLogId][2]=((result[1].page-1)*result[1].max)+parseInt(i,10);
                                     GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog",implode(levelLog,"getDailyRanking/levelLog"),73);
-                                    logBubble.add(getText("youAreOnRankX").replace(/%1%/,levelLog[levelLogId][2]));
+                                    GM_logInfo("getDailyRanking","","",getText("youAreOnRankX").replace(/%1%/,levelLog[levelLogId][2]));
                                     return;
                                 }
                             }
-                            logBubble.add(getText("couldNotGetRank"));
+                            GM_logInfo("getDailyRanking","","",getText("couldNotGetRank"));
                         }else{
-                            logBubble.add(getText("couldNotGetRank")+" ("+response.responseText+")");
+                            GM_logInfo("getDailyRanking","","",getText("couldNotGetRank")+" ("+response.responseText+")");
                         }
-                    }catch(err){ GM_logError("getDailyRanking.onload","","",err); }
+                    }catch(err){ GM_logError("getDailyRanking.onload","","responseText="+response.responseText,err); }
                 },
                 onerror: function(response){
-                    GM_logError("getDailyRanking.onerror","","",""+response.responseText);
+                    GM_logError("getDailyRanking.onerror","","",response.responseText);
                 },
                 timeout: function(response){
-                    GM_logError("getDailyRanking.timeout","","",""+response.responseText);
+                    GM_logError("getDailyRanking.timeout","","",response.responseText);
                 }
             });
         }
@@ -11989,12 +12108,19 @@ return false;
         for(var i=unsafeWindow.messages_data.length-1;i>=0;i--){
             currMsg=unsafeWindow.messages_data[i];
             help=currMsg.body.replace(/\s+/g," ");
-            if(help2=regMsgFriend.exec(currMsg.subject)){
-                //Friendship message
-                // GM_log("messagesSystem: friendship message\nmessages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"));
+            if (getText("msgSubjectWeed")==currMsg.subject){ 
+                // New weed
+                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Weed message");
+            }else if (getText("msgSubjectGift")==currMsg.subject){ 
+                // New gift
+                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Gift message");
+            }else if(help2=regMsgFriend.exec(currMsg.subject)){
+                // New friendship
+                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Friendship message");
                 sender=help[1];
-            }else if (help2=regMsgMarketsaleContent.exec(help)){ // Market sale
-                // GM_log("messages_data["+i+"] MARKET:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"));
+            }else if (help2=regMsgMarketsaleContent.exec(help)){ 
+                // Market sale
+                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Market sale");
                 switch(COUNTRY){
                 case "TR":{
                     help2.push(help2.splice(2,1).toString());
@@ -12056,7 +12182,8 @@ return false;
                     produktPic(0,prod,span);
                     createElement("div",{"style":"display:inline-block;width:75px;margin-right:5px;text-align:right;"},div,moneyFormatInt(money));
                 }
-            }else if (help2=regMsgContractsaleContent.exec(help)){// Contract sale
+            }else if (help2=regMsgContractsaleContent.exec(help)){ // Contract sale
+                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Contract sale");
                 if(COUNTRY=="SE"){
                     help2[3]=help2[3].replace(/\.(\d\d) /,",$1 ");
                     help2[3]=help2[3].replace(/\.(\d\d)$/,",$1");
@@ -12378,7 +12505,7 @@ return false;
             unsafeWindow._farmBuildPositions();
         }catch(err){GM_logError("_farmBuildPositions","","",err);}
         try{
-            var farmNr,zoneNr,zoneNrF,data,currZoneType,currBlock,currBonus,currBonusSpecial;
+            var farmNr,zoneNr,zoneNrF,data,currZoneType,currBlock,currBonus,currBonusSpecial,help;
             totalAnimals=[];
             if(!unsafeData.carpentry_bonus){ unsafeData.carpentry_bonus=0; }
             for (var d in unsafeWindow.farms_data.farms) {
@@ -12421,8 +12548,8 @@ return false;
                     zones.setBonusSpecial(zoneNrF,currBonusSpecial);
                     if(currBlock){
                         zones.setProduction(zoneNrF,[[],0,0,true]);
-                        if(zones.isMultiSlot(zoneNrF)){
-                            for(var slot=1;slot<=3;slot++){ // TODO dynamic slot-amount
+                        if(help=zones.isMultiSlot(zoneNrF)){
+                            for(var slot=1;slot<=help;slot++){
                                 zones.setProduction(zoneNrF+"."+slot,[[],0,0,true]);
                             }
                         }
@@ -12455,7 +12582,6 @@ return false;
 
     function drawZoneNavi(zoneNrF,container){
     try{
-        // logBubble.add("drawZoneNavi zoneNrF="+zoneNrF);
         var newdiv=$("zoneNavi");
         if(newdiv){ removeElement(newdiv); }
         newdiv=createElement("div",{"id":"zoneNavi"},container);
@@ -12864,15 +12990,15 @@ return false;
     function doDogBen(){
         try{
             unsafeWindow.farmdog_harvest=1;
-            var zoneNrF,zoneNrS,iProd,item,tempZoneProductionData;
+            var zoneNrF,zoneNrS,iProd,item,tempZoneProductionData,help;
             var allZones=[];
             var nowServer=unsafeWindow.Zeit.Server;
             for(var i=ALL_ZONES["farm"].length-1;i>=0;i--){
                 zoneNrF=ALL_ZONES["farm"][i];
                 if(!zones.getBlock(zoneNrF)){
                     allZones.push(zoneNrF);
-                    if(zones.isMultiSlot(zoneNrF)){
-                        for(var j=1;j<3;j++){
+                    if(help=zones.isMultiSlot(zoneNrF)){
+                        for(var j=1;j<=help;j++){
                             zoneNrS=zoneNrF+"."+j;
                             if(!zones.getBlock(zoneNrS)){
                                 allZones.push(zoneNrS);
@@ -12920,7 +13046,7 @@ return false;
         var data=unsafeWindow.buildingdata[farmNr][zoneNr];
         var tempZoneProductionData=[[{}],0,0,true];
         tempZoneProductionData[2]=1;
-        if(data.remain==undefined){ // empty
+        if(undefined===data.remain){ // empty
             tempZoneProductionData[1]=1;
         }else if(data.remain>0){ // running 
                 var iPrTyp=0;
@@ -12933,7 +13059,7 @@ return false;
         }else{ // done
                 var iPrTyp=0;
                 var iProd=data.pid;
-                var iTime=zones.getEndtime(zoneNrF);
+                var iTime=Math.min(now-unsafeWindow.Zeit.Verschiebung,zones.getEndtime(zoneNrF));
                 var iAmount=data.crop;
                 var iPoints=data.crop*prodPoints[iPrTyp][iProd];
                 if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
@@ -12941,7 +13067,7 @@ return false;
         }
         zones.setProduction(zoneNrF,tempZoneProductionData.clone());
         tempZoneProductionData=null;
-    }catch(err){GM_logError("doStable","","",err);}
+    }catch(err){GM_logError("doStable","farmNr="+farmNr+" zoneNr="+zoneNr,"zoneNrF="+zoneNrF,err);}
     }
     unsafeOverwriteFunction("rewriteBuildingInnerFeed",function(e,a){
         try{
@@ -12966,7 +13092,6 @@ return false;
         }catch(err){GM_logError("_buildingInnerActionResponse","","",err);}
         try{
             if(checkRequest(request)){
-                // logBubble.add("buildingInnerActionResponse "+action+":"+farm+":"+position);
                 switch(action){
                 case "init": raiseEvent("gameOpenStable"); break;
                 default:
@@ -12999,7 +13124,7 @@ return false;
             if(data.production["0"].remain>0){ // running
                 var iTime=data.production["0"].remain+now-unsafeWindow.Zeit.Verschiebung;
             }else{ // done
-                var iTime=zones.getEndtime(zoneNrF);
+                var iTime=Math.min(now-unsafeWindow.Zeit.Verschiebung,zones.getEndtime(zoneNrF));
             }
             if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
             tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
@@ -13237,12 +13362,6 @@ return false;
     });
     // Megafield
     err_trace="Megafield";
-GM_registerMenuCommand("megafield_data", function(){ 
-    alert(JSON.stringify(unsafeWindow.megafield_data));
-});
-GM_registerMenuCommand("logMegafieldJob", function(){ 
-    alert(JSON.stringify(logMegafieldJob));
-});
     // Remembering of latest vehicle. ["harvest", "fertilize"]
     megafieldVehicle = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_megafieldVehicle"),"do_main/megafieldVehicle",[]);
     unsafeData.megafieldVehicle=megafieldVehicle.clone();
@@ -13317,36 +13436,12 @@ GM_registerMenuCommand("logMegafieldJob", function(){
         try{
             if(unsafeWindow.megafield_data){
                 updateProductDataMegafield();
-                // Update data of production
-                if(unsafeWindow.megafield_data.area_free){
-                    var zoneNrF="megafield";
-                    zones.setBlock(zoneNrF,"");
-                    zones.setBonus(zoneNrF,0);                    
-                    var tempZoneProductionData=[[],0,0,true];
-                    var iPrTyp=4,iProd,iTime;
-                    tempZoneProductionData[0][iPrTyp]={};
-                    for(var i=BUILDING_SIZE["megafield"][0]*BUILDING_SIZE["megafield"][1];i>=1;i--){
-                        if(unsafeWindow.megafield_data.area_free[i]){
-                            tempZoneProductionData[1]++;
-                            tempZoneProductionData[2]++;
-                            if(unsafeWindow.megafield_data.area[i]){
-                                iProd=unsafeWindow.megafield_data.area[i].pid;
-                                iTime=unsafeWindow.megafield_data.area[i].time+unsafeWindow.megafield_data.area[i].duration;
-                                iTime-=unsafeWindow.Zeit.Verschiebung;
-                                tempZoneProductionData[1]--;
-                                if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
-                                tempZoneProductionData[0][iPrTyp][iProd].push([1,0,iTime,NEVER]);
-                            }
-                        }
-                    }
-                    zones.setProduction(zoneNrF,tempZoneProductionData.clone());
-                }
                 // Store data of job and reward
-                var job_start=parseInt(unsafeWindow.megafield_data.job_start,10);
+                var jobStart=parseInt(unsafeWindow.megafield_data.job_start,10);
                 var products,reward,success=1;
-                if(job_start>0){
+                if(jobStart>0){
                     for(var i=logMegafieldJob.length-1;i>=0;i--){
-                        if(logMegafieldJob[i][0]==job_start){ 
+                        if(logMegafieldJob[i][0]==jobStart){ 
                             break; 
                         }else if(!logMegafieldJob[i][0]){
                             logMegafieldJob.splice(i,1); 
@@ -13354,7 +13449,7 @@ GM_registerMenuCommand("logMegafieldJob", function(){
                     }
                     if(!logMegafieldJob[i]){
                         i=logMegafieldJob.length;
-                        logMegafieldJob[i]=[job_start];
+                        logMegafieldJob[i]=[jobStart];
                     }
                     if("job_endtime" in unsafeWindow.megafield_data){
                         logMegafieldJob[i][1]=parseInt(unsafeWindow.megafield_data.job_endtime,10);
@@ -13369,6 +13464,7 @@ GM_registerMenuCommand("logMegafieldJob", function(){
                             if("pid"     in products[j]){ 
                                 logMegafieldJob[i][4][j][0]=products[j].pid;
                                 megafieldJob.products[products[j].pid]=products[j];
+                                megafieldJob.products[products[j].pid].growing=0;
                             }
                             if("need"     in products[j]){ logMegafieldJob[i][4][j][1]=products[j].need;     }
                             if("have"     in products[j]){ logMegafieldJob[i][4][j][2]=products[j].have;     }
@@ -13399,6 +13495,44 @@ GM_registerMenuCommand("logMegafieldJob", function(){
                         if("license" in reward){ logMegafieldJob[i][5][2]=reward.license-logMegafieldJob[i][6][2]-logMegafieldJob[i][7][2]; }
                     }
                     GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logMegafieldJob",implode(logMegafieldJob,"setTourVehicleMegafield/logMegafieldJob"));
+                }
+                // Update data of production
+                if(unsafeWindow.megafield_data.area_free){
+                    var zoneNrF="megafield", zoneNrS;
+                    zones.setBlock(zoneNrF,"");
+                    zones.setBonus(zoneNrF,0);                    
+                    var iPrTyp=4,iProd,iTime;
+                    var tempZoneProductionData=[[],0,0,true], tempZoneProductionDataSlot;
+                    tempZoneProductionData[0][iPrTyp]={};
+                    for(var slot=BUILDING_SLOTS["megafield"];slot>=1;slot--){
+                        zoneNrS=zoneNrF+"."+slot;
+                        tempZoneProductionDataSlot=[[],0,0,true];
+                        tempZoneProductionDataSlot[0][iPrTyp]={};
+                        if(unsafeWindow.megafield_data.area_free[slot]){
+                            zones.setBlock(zoneNrS,"");
+                            if(unsafeWindow.megafield_data.area[slot]){
+                                iProd=unsafeWindow.megafield_data.area[slot].pid;
+                                iTime=unsafeWindow.megafield_data.area[slot].time+unsafeWindow.megafield_data.area[slot].duration;
+                                iTime-=unsafeWindow.Zeit.Verschiebung;
+                                if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
+                                tempZoneProductionData[0][iPrTyp][iProd].push([1,0,iTime,NEVER]);
+                                if(!tempZoneProductionDataSlot[0][iPrTyp][iProd]){ tempZoneProductionDataSlot[0][iPrTyp][iProd]=[]; }
+                                tempZoneProductionDataSlot[0][iPrTyp][iProd].push([1,0,iTime,NEVER]);
+                                if(megafieldJob.products[iProd]&&(undefined!=megafieldJob.products[iProd].growing)){
+                                    megafieldJob.products[iProd].growing++;
+                                }
+                            }else{
+                                tempZoneProductionData[1]++;
+                                tempZoneProductionDataSlot[1]++;
+                            }
+                            tempZoneProductionData[2]++;
+                            tempZoneProductionDataSlot[2]++;
+                        }else{
+                            zones.setBlock(zoneNrS,"b");
+                        }
+                        zones.setProduction(zoneNrS,tempZoneProductionDataSlot.clone(),true);
+                    }
+                    zones.setProduction(zoneNrF,tempZoneProductionData.clone());
                 }
             }
         }catch(err){GM_logError("_megafieldHandler","","",err);}
@@ -15059,10 +15193,9 @@ return;
                 //building=getForestryUserBuilding(i);
                 currBlock=(unsafeWindow.forestry_user_buildings[building]["locked"]?"q":"");
                 zones.setBlock(zoneNrF,currBlock);
-                if(zones.isMultiSlot(zoneNrF)){
-                    iSlotCount=3;
+                if(iSlotCount=zones.isMultiSlot(zoneNrF)){
                     if(!currBlock){
-                        for(var slot=1;slot<=3;slot++){
+                        for(var slot=1;slot<=iSlotCount;slot++){
                             zoneNrS=zoneNrF+"."+slot;
                             zones.setBlock(zoneNrS,((slot==1)||(unsafeWindow.forestry_slots[building]&&unsafeWindow.forestry_slots[building][slot]))?"":"b");
                         }
@@ -15088,11 +15221,6 @@ return;
                             if(res[slot]){
                                 iProd=(res[slot]["productid"]?parseInt(res[slot]["productid"],10):null);
                                 if(isNaN(iProd)){ iProd=null; }
-                                    // &&maxCapacity<(prodStock[1][iProd]+((iStock+1)*prodYield[1][iProd]))){
-                                    // tempZoneProductionData["block"][slot]=true;
-                                    // if(tempZoneProductionData["block"].length()==1){
-                                    //  logBubble.add("Max stock capacity reached for<br>"+prodName[1][iProd],10,"red");
-                                    // }
                                 if((iProd!=null)&&(res[slot]["ready"]==2)){ // production busy
                                     iTime=nowServer+res[slot]["remain"]; 
                                 }else if((iProd!=null)&&(res[slot]["ready"]==1)){ // production ready
@@ -15168,13 +15296,6 @@ return;
                     tempZoneProductionData[1]--;
                     tempZoneProductionData[2]--;
                 }else{
-                    // if(maxCapacity<(prodStock[1][iProd2]+((iStock+1)*prodYield[1][iProd2]))){
-                    //  //TODO maybe maxCapacity needed for wood-cuttings
-                    //  iTime=NEVER;
-                    //  iWaterTime=NEVER;
-                    //  if(tempZoneProductionData["block"].length()==1){
-                    //      logBubble.add("Max stock capacity reached for<br>"+prodName[1][iProd2],10,"red");
-                    //  }
                     if(res["block"]>0){ //production has animal on it
                         tempZoneProductionData[1]--;
                         iTime=NEVER;
@@ -15341,12 +15462,13 @@ return;
     }
     
     function forestryScrapTreeLog(step,treeId,amount){
+    try{
         // GM_log("forestryScrapTreeLog BEGIN step="+step+" treeId="+treeId);
         var action=null,listeningEvent=null;
         switch(step){
         case 1: // click the production icon
             if(amount>0){
-                logBubble.add("Scrapping Tree Log: tree "+treeId+", left "+amount);
+                GM_logInfo("forestryScrapTreeLog","step="+step+" treeId="+treeId+" amount="+amount,"","Scrapping Tree Log: tree "+treeId+", left "+amount); // TODO text
                 listeningEvent="gameOpenGlobalCommitBox";
                 action=function(){ click($("forestry_slot_products"+(3*treeId-2))); };
             }
@@ -15379,6 +15501,7 @@ return;
         }
         if(action){ action(); }
         listeningEvent=null;action=null;
+    }catch(err){GM_logError("forestryScrapTreeLog","step="+step+" treeId="+treeId+" amount="+amount,"",err);}
     }
     
     unsafeOverwriteFunction("forestryBuySlotResponse",function(request,b){
@@ -16612,7 +16735,7 @@ try{
                     data: str,
                     onload: function(response){
                         try{
-                            logBubble.add(getText("sentContractNrX").replace(/%1%/,d));
+                            GM_logInfo("contractMultiSubmit.onload","","",getText("sentContractNrX").replace(/%1%/,d));
                         }catch(err){GM_logError("contractMultiSubmit.onload","","",err);}           
                     },
                     onerror: function(response){
@@ -16627,7 +16750,7 @@ try{
             window.setTimeout(function(c){
                 var submitButton=document.getElementsByName("confirm_contract")[0];
                 click(submitButton);
-                logBubble.add(getText("sentContractNrX").replace(/%1%/,c));
+                GM_logInfo("#multiSubmit.click","","",getText("sentContractNrX").replace(/%1%/,c));
                 submitButton=null;submitForm=null;
             },c*100,c);
         }catch(err){GM_logError("#multiSubmit.click","","",err);}       
@@ -17992,14 +18115,14 @@ function do_login(){
     try{
         if(top!=self){ return; }
         if((location.pathname.match(/^\/login\.php$/))&&(pageZusatz["logout"]=="1")){
-            GM_logInfo("do_login","","location.href="+location.href,"Logout-page found. Return to login-page.");
+            GM_logInfo("do_login","","location.href="+location.href,"Logout-page found. Return to login-page."); // TODO text
             if(GAMEPAGES[COUNTRY]){
                 window.setTimeout(function(){ location.href="http://www."+GAMEPAGES[COUNTRY]+"/login.php?start=1"; },1000); // go to login-page after logout (old page)
             }
         }else if($("login_container")){
             do_login_old();
         }else if($("loginbar")){
-            GM_logInfo("do_login","","location.href="+location.href+" pagedata="+implode(pagedata,"do_login/pagedata"),"Login-page found");
+            GM_logInfo("do_login","","location.href="+location.href+" pagedata="+implode(pagedata,"do_login/pagedata"),getText("loginPageFound"));
             // account data
             var logindata=explode(GM_getValue("logindata","[]"),"do_login/logindata",[]);
             var c=0;
@@ -18016,7 +18139,7 @@ function do_login(){
                 try{
                     var currServer=this.querySelector("#loginserver").value;
                     var currUser=this.querySelector("#loginusername").value.toLowerCase();
-                    GM_logInfo("loginform.submit","","server="+currServer+" user="+currUser,"Login submitted.");
+                    GM_logInfo("loginform.submit","","server="+currServer+" user="+currUser,getText("loginSubmitted"));
                     GM_setValueCache(COUNTRY+"_"+currServer+"_username",currUser.toLowerCase());
                 }catch(err){ GM_logError("loginform.submit","","server="+currServer+" user="+currUser,err); }
             },false);
@@ -18025,7 +18148,7 @@ function do_login(){
                 try{
                     var currServer=this.querySelector("#portalserver").value;
                     var currUser=this.querySelector("#portalusername").value.toLowerCase();
-                    GM_logInfo("portalform.submit","","server="+currServer+" user="+currUser,"Portal login submitted.");
+                    GM_logInfo("portalform.submit","","server="+currServer+" user="+currUser,getText("loginPortalSubmitted"));
                     GM_setValueCache(COUNTRY+"_"+currServer+"_username",currUser.toLowerCase());
                 }catch(err){ GM_logError("portalform.submit","","server="+currServer+" user="+currUser,err); }
             },false);
@@ -18033,6 +18156,7 @@ function do_login(){
             function submit_login(accNr){
                 window.setTimeout(function(){
                     try{
+                        reloader.start("submitLogin",20,getText("loginSubmitted")); // no reloader.stop because new page has to load
                         var logindata=explode(GM_getValue("logindata"),"submit_login/logindata",[]);
                         if(logindata[accNr][0]==COUNTRY){
                             if(logindata[accNr][5]){
@@ -18448,945 +18572,15 @@ function do_login_old(){
 }
 //***********************************************************************************************************
 
-// DOMContentLoaded
+// Starting the script
 
-function startScript(){
+function scriptStart(){
 try{
-var err_trace="init";
-unsafeData.beraterVersion=VERSION;
-err_trace="Localization";
-if(top.unsafeData.COUNTRY){
-    COUNTRY=top.unsafeData.COUNTRY;
-    LANGUAGE=top.unsafeData.LANGUAGE;
-    delimThou=top.unsafeData.delimThou;
-    regDelimThou=top.unsafeData.regDelimThou;
-    regDelimThouShift=top.unsafeData.regDelimThouShift;
-    regDelimThouDelete=top.unsafeData.regDelimThouDelete;
-    delimDeci=top.unsafeData.delimDeci;
-    regDelimDeci=top.unsafeData.regDelimDeci;
-    dateFormatDM=top.unsafeData.dateFormatDM;
-    dateFormatDMY=top.unsafeData.dateFormatDMY;
-}else{
-    if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.de$/)){
-        COUNTRY="DE";
-        LANGUAGE="de";
-    }else if(location.hostname.match(/^(|www\.|s\d+\.)au\.myfreefarm.com$/)){
-        COUNTRY="AU";
-        LANGUAGE="en";
-        delimThou=",";
-        regDelimThou=",";
-        regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
-        regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
-        delimDeci=".";
-        regDelimDeci="\\.";
-    }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.ir$/)){
-        COUNTRY="IR";
-        LANGUAGE="en";
-        delimThou=",";
-        regDelimThou=",";
-        regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
-        regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
-        delimDeci=".";
-        regDelimDeci="\\.";
-    }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.co.nz$/)){
-        COUNTRY="NZ";
-        LANGUAGE="en";
-        delimThou=",";
-        regDelimThou=",";
-        regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
-        regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
-        delimDeci=".";
-        regDelimDeci="\\.";
-    }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.co.uk$/)){
-        COUNTRY="UK";
-        LANGUAGE="en";
-        delimThou=",";
-        regDelimThou=",";
-        regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
-        regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
-        delimDeci=".";
-        regDelimDeci="\\.";
-    }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.com$/)){
-        COUNTRY="US";
-        LANGUAGE="en";
-        delimThou=",";
-        regDelimThou=",";
-        regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
-        regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
-        delimDeci=".";
-        regDelimDeci="\\.";
-    }else{
-        GM_logWarning("startScript","","","Language pack is missing!");
-    }
-    top.unsafeData.COUNTRY=COUNTRY;
-    top.unsafeData.LANGUAGE=LANGUAGE;
-    top.unsafeData.delimThou=delimThou;
-    top.unsafeData.regDelimThou=regDelimThou;
-    top.unsafeData.regDelimThouShift=regDelimThouShift;
-    top.unsafeData.regDelimThouDelete=regDelimThouDelete;
-    top.unsafeData.delimDeci=delimDeci;
-    top.unsafeData.regDelimDeci=regDelimDeci;
-    top.unsafeData.dateFormatDM=dateFormatDM;
-    top.unsafeData.dateFormatDMY=dateFormatDMY;
-}
-err_trace="Texts";
-if(top.unsafeData.texte==undefined){
-    top.unsafeData.texte=texte;
-}else{
-    texte=top.unsafeData.texte;
-}
-if(top.unsafeData.texte["de"]==undefined){
-    texte["de"]=new Object();
-    texte["de"]["msgMarketsaleContent"]="(.*) hat am Marktplatz (\\d+)x (.*?) von dir<br> f&uuml;r (.*?) kT gekauft\\.";
-    texte["de"]["msgContractsaleContent"]="(.*) hat einen Vertrag von dir unterzeichnet!<br><br> Folgende Produkte wurden verkauft:<br>(.*?)<br> Die Vertragssumme von (.*?) kT wurde deinem Konto gutgeschrieben\\.";
-    texte["de"]["msgContractsaleList"]="(\\d+)x (.+?)<br>";
-    texte["de"]["msgFriend"]="(.+) m"+o_dots+"chte dich als Freund hinzuf"+u_dots+"gen";
-
-    texte["de"]["above"]="davor";
-    texte["de"]["absolute"]="absolut";
-    texte["de"]["accountActive"]="Account aktiv";
-    texte["de"]["accounts"]="Accounts";
-    texte["de"]["activation"]="Freischaltung";
-    texte["de"]["additionalFarmi"]="%1% Zusatzfarmi t"+a_dots+"glich";
-    texte["de"]["additionalForestFarmiSlot"]="%1% Zusatzplatz in der Waldfarmi-Warteschlange";
-    texte["de"]["additionalLogCapacity"]="Erh"+o_dots+"hung der Lagerkapazit"+a_dots+"t St"+a_dots+"mme um %1%";
-    texte["de"]["advertisingEnds"]="Werbung endet heute";
-    texte["de"]["adviser"]="Berater";
-    texte["de"]["afterFee"]="abzgl Geb"+u_dots+"hr";
-    texte["de"]["alertSetPriceNone"]="M"+o_dots+"chtest du wirklich keinen Preis f"+u_dots+"r %PRODUCT% setzen?";
-    texte["de"]["alertSetPriceOverNPC"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist h"+o_dots+"her als der NPC-Preis %NPC%.";
-    texte["de"]["alertSetPriceOverObs"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist viel h"+o_dots+"her als der beobachtete Preis %OBS%.";
-    texte["de"]["alertSetPriceUnderObs"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist viel niedriger als der beobachtete Preis %OBS%.";
-    texte["de"]["alertWillLowRack"]="Achtung! Dies wird deinen Lagerbestand unter den Minimalwert bringen!";
-    texte["de"]["all"]="Alle";
-    texte["de"]["autologinAllOk"]="Alle Accounts eingeloggt.";
-    texte["de"]["autologinChecking"]="Ermittle aktive Sessions.<br>Bitte %1% Sekunden warten<br>...";
-    texte["de"]["bonus"]="Bonus";
-    texte["de"]["boughtTickets"]="Gekaufte Tickets";
-    texte["de"]["buy"]="Kauf";
-    texte["de"]["buyers"]="K"+a_dots+"ufer";
-    texte["de"]["calcTo"]="Berechne bis";
-    texte["de"]["carpentry"]="Schreinerei";
-    texte["de"]["city"]="Stadt";
-    texte["de"]["change"]=A_dots+"nderung";
-    texte["de"]["clearFilter"]="Filter entfernen";
-    texte["de"]["click"]="Klick";
-    texte["de"]["clickAlt"]="Alt+Klick";
-    texte["de"]["clickCtrl"]="Strg+Klick";
-    texte["de"]["clickDouble"]="Doppel-Klick";
-    texte["de"]["clickToChange"]="Klick um zu "+a_dots+"ndern";
-    texte["de"]["commission"]   = "Geb"+u_dots+"hr";
-    texte["de"]["coins"]=unsafeWindow.t_coins;
-    texte["de"]["confirmUseObservedPrices"]="Es werden die beobachteten Preise eingetragen. Die eigenen gehen dabei verloren ...";
-    texte["de"]["confirmChangelogVersion"]="Du hast eine neue Version des Berater-Scriptes installiert.<br>Die Version %1% beinhaltet folgende "+A_dots+"nderungen:";
-    texte["de"]["contract"]="Vertrag";
-    texte["de"]["contractsReceived"]="Erhaltene Vertr"+a_dots+"ge";
-    texte["de"]["contractsSent"]="Gesendete Vertr"+a_dots+"ge";
-    texte["de"]["copyToTextFile"]="Kopiere diesen Satz in eine Text-Datei";
-    texte["de"]["couldNotGetRank"]="Dein Platz konnte nicht bestimmt werden.";
-    texte["de"]["couldNotGetUpdateInfoOfX"]="Update-Informationen f"+u_dots+"r %1% konnten nicht bestimmt werden."
-    texte["de"]["createStorageString"]="Erstelle Speicher-Satz";
-    texte["de"]["cropped"]="Geerntet";
-    texte["de"]["currentOffers"]="Aktuelle Angebote";
-    texte["de"]["dailyRuns"]="T"+a_dots+"gl L"+a_dots+"ufe";
-    texte["de"]["dailyTicket"]="T"+a_dots+"gliches Ticket";
-    texte["de"]["dailyYield"]="T"+a_dots+"gl Ertrag";
-    texte["de"]["date"]="Datum";
-    texte["de"]["day"]="Tag";
-    texte["de"]["day0"]="Heute";
-    texte["de"]["day1"]="Morgen";
-    texte["de"]["day2"]=U_dots+"bermorgen";
-    texte["de"]["default"]="Default";
-    texte["de"]["delete"]="L"+o_dots+"schen";
-    texte["de"]["deleteFollowingData"]="L"+o_dots+"schen folgende Daten";
-    texte["de"]["demand"]="Forderung";
-    texte["de"]["detail"]="Detail";
-    texte["de"]["difficulty"]="Schwierigkeit";
-    texte["de"]["donkey"]="Waltraud";
-    texte["de"]["duration"]="Dauer";
-    texte["de"]["editPrice"]="Preis "+a_dots+"ndern";
-    texte["de"]["emptyField"]="Feld leer!";
-    texte["de"]["end"]="Ende";
-    texte["de"]["exchangedLots"]="Eingel"+o_dots+"ste Lose";
-    texte["de"]["farm"]="Farm";
-    texte["de"]["farmersmarket"]=unsafeWindow.t_farmers_market;
-    texte["de"]["farmX"]="%1%. Farm";
-    texte["de"]["farmi"]="Farmi";
-    texte["de"]["farmis"]="Farmis";
-    texte["de"]["farmpedia"]="FarmPedia";
-    texte["de"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
-    texte["de"]["farmzone"]="Bauplatz %1% der %2%. Farm";
-    texte["de"]["feed"]="Futter";
-    texte["de"]["fields"]="Felder";
-    texte["de"]["filter"]="Filter";
-    texte["de"]["filterForX"]="Nach %1% filtern";
-    texte["de"]["finished"]="Fertig";
-    texte["de"]["foodworld"]=unsafeWindow.foodworld_title;
-    texte["de"]["forest"]="Wald";
-    texte["de"]["forestry"]="Baumerei";
-    texte["de"]["formatNumbers"]="Formatiere Zahlen";
-    texte["de"]["formulaType"]=["Prod","+val","+pts"];
-    texte["de"]["fl1"]="Blumenwiese";
-    texte["de"]["fl2"]="Blumenwerkstatt";
-    texte["de"]["fl3"]="Monsterfruchtzucht";
-    texte["de"]["fl6"]="Wettmampfen";
-    texte["de"]["fw1"]="Getr"+a_dots+"nkebude";
-    texte["de"]["fw2"]="Imbissbude";
-    texte["de"]["fw3"]="Konditorei";
-    texte["de"]["gamecurrency"]=unsafeWindow.gamecurrency;
-    texte["de"]["gain"]="Erzeugnis";
-    texte["de"]["general"]="Allgemein";
-    texte["de"]["given"]="Gegeben";
-    texte["de"]["goToDonkey"]="Zum Goldesel Waltraud";
-    texte["de"]["goToLottery"]="Zur Lotterie";
-    texte["de"]["goToMarket"]="Zum Markt";
-    texte["de"]["goToMarketOfX"]="Zum %1%-Markt";
-    texte["de"]["goToMarketstall"]="Zum Marktstand";
-    texte["de"]["goToPage"]="gehe zu Seite";
-    texte["de"]["goToRank"]="Gehe zu Platz";
-    texte["de"]["goToZoneX"]="Gehe zur Zone %1%";
-    texte["de"]["goods"]="Waren";
-    texte["de"]["hide"]="ausblenden";
-    texte["de"]["highlightProducts"]="Produkte am Markt markieren";
-    texte["de"]["highlightUser"]="User am Markt markieren";
-    texte["de"]["hotkeys"]="Hotkeys";
-    texte["de"]["idle"]="unbesch"+a_dots+"ftigt !!";
-    texte["de"]["importStorageString"]="Importiere Speicher-Satz";
-    texte["de"]["importStorageStringError"]="Entschuldige. Der Speicher-Satz konnte nicht gelesen werden.";
-    texte["de"]["inStock"]="im Lager";
-    texte["de"]["informationIsMissing"]="Es fehlen Informationen."
-    texte["de"]["ingredients"]="Zutaten";
-    texte["de"]["invalidServer"]="Ung"+u_dots+"ltiger Server";
-    texte["de"]["inventory"]="Bestand";
-    texte["de"]["keptLots"]="Behaltene Lose";
-    texte["de"]["level"]="Level";
-    texte["de"]["levelTooLow"]="Dein Level ist zu niedrig";
-    texte["de"]["levelXneeded"]="Level&nbsp;%1%&nbsp;ben"+o_dots+"tigt";
-    texte["de"]["load"]="Laden";
-    texte["de"]["loading"]="Lade";
-    texte["de"]["localTime"]="Lokale Zeit";
-    texte["de"]["lodge"]="Forsth"+u_dots+"tte";
-    texte["de"]["login"]="Umloggen";
-    texte["de"]["logDonkey"]="Goldesel Waltraud Log";
-    texte["de"]["lotteryLog"]="Lotterie Log";
-    texte["de"]["lvl"]="Lvl";
-    texte["de"]["manageVariables"]="Variablen verwalten";
-    texte["de"]["market"]="Markt";
-    texte["de"]["marketPrice"]="Marktpreis";
-    texte["de"]["marketplace"]="Marktplatz";
-    texte["de"]["marketstall"]="Marktstand";
-    texte["de"]["megafield"]="G"+u_dots+"terhof";
-    texte["de"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;
-    texte["de"]["messages"]="Nachrichten";
-    texte["de"]["minRack"]="Min&nbsp;Lager";
-    texte["de"]["minRackamount"]="Minimaler Lagerbestand";
-    texte["de"]["missing"]="Fehlt";
-    texte["de"]["money"]="Geld";
-    texte["de"]["msgUpdateX"]="Es ist eine neue Version von %1% verf"+u_dots+"gbar. M"+o_dots+"chtest du diese installieren?";
-    texte["de"]["name"]="Name";
-    texte["de"]["newLevelReached"]="Herzlichen Gl"+u_dots+"ckwunsch!<br>Du bist ein Level aufgestiegen!";
-    texte["de"]["nextMessage"]="n"+a_dots+"chste Nachricht";
-    texte["de"]["no"]="Nein";
-    texte["de"]["nothingSelected"]="Nichts ausgew"+a_dots+"hlt";
-    texte["de"]["NPC"]="NPC";
-    texte["de"]["NPCprice"]="NPC-Preis";
-    texte["de"]["nr"]="Nr";
-    texte["de"]["observed"]="beobachtet";
-    texte["de"]["ok"]="OK";
-    texte["de"]["oldOnes"]="Alte";
-    texte["de"]["options"]="Optionen";
-    texte["de"]["overNPCprice"]=u_dots+"ber NPC-Preis";
-    texte["de"]["overX"]=u_dots+"ber %1%";
-    texte["de"]["overview"]=U_dots+"bersicht";
-    texte["de"]["password"]="Passwort";
-    texte["de"]["pleaseOpenX"]="Bitte %1% "+o_dots+"ffnen.";
-    texte["de"]["pleaseWait"]="Bitte warten.";
-    texte["de"]["portalLogin"]="Portal-Login";
-    texte["de"]["points"]="Punkte";
-    texte["de"]["powerups"]="Power-Ups";
-    texte["de"]["previousMessage"]="vorige Nachricht";
-    texte["de"]["price"]="Preis";
-    texte["de"]["prices"]="Preise";
-    texte["de"]["product"]="Produkt";
-    texte["de"]["productOverview"]="Produkt "+U_dots+"bersicht";
-    texte["de"]["productTimeSaving"]="%1% Minuten Zeitersparnis auf %2%";
-    texte["de"]["production"]="Produktion";
-    texte["de"]["products"]="Produkte";
-    texte["de"]["profit"]="Gewinn";
-    texte["de"]["profitTable"]="Profit pro Zone pro Tag";
-    texte["de"]["quantity"]="Menge";
-    texte["de"]["quest_foodworld"]="Picknickarea-Questreihe";
-    texte["de"]["quest_forestry"]="Baumerei-Questreihe";
-    texte["de"]["quest_main"]="Farm-Questreihe";
-    texte["de"]["questfoodworld1"]="Picknickarea-Questreihe";
-    texte["de"]["questforestry1"]="1. Baumerei-Questreihe";
-    texte["de"]["questforestry2"]="2. Baumerei-Questreihe";
-    texte["de"]["questmain1"]="1. Farm-Questreihe";
-    texte["de"]["questmain2"]="2. Farm-Questreihe";
-    texte["de"]["quests"]="Quests";
-    texte["de"]["rackX"]="%1%. Regal";
-    texte["de"]["rank"]="Platz";
-    texte["de"]["readAll"]="Alle lesen";
-    texte["de"]["readyAtX"]="Fertig um %1%";
-    texte["de"]["readyAtX_day1"]="Morgen fertig um %1%";
-    texte["de"]["readyAtX_day2"]=U_dots+"bermorgen fertig um %1%";
-    texte["de"]["readySinceX"]="Fertig seit %1%";
-    texte["de"]["recipes"]="Rezepte";
-    texte["de"]["recursive"]="Rekursiv ben"+o_dots+"tigt";
-    texte["de"]["relative"]="relativ";
-    texte["de"]["relogin"]="Session endet bald.<br>Neuer Login in %1%.";
-    texte["de"]["remaining"]="Verbleibend";
-    texte["de"]["requestingUpdateInfoOfX"]="Fordere Update-Informationen f"+u_dots+"r %1% an ..."
-    texte["de"]["requestingUserStatistic"]="Fordere Benutzer-Statistik an ...";
-    texte["de"]["requirement"]="Bedarf";
-    texte["de"]["requirementPerProduction"]="Bedarf pro Produktion";
-    texte["de"]["reward"]="Belohnung";
-    texte["de"]["salesLog"]="Verk"+a_dots+"ufe Log";
-    texte["de"]["save"]="Speichern";
-    texte["de"]["saveAsTemplate"]="als Vorlage speichern";
-    texte["de"]["sawmill"]="S"+a_dots+"gewerk";
-    texte["de"]["scriptHomepage"]="Scripthomepage";
-    texte["de"]["searchPlayer"]="Spieler suchen";
-    texte["de"]["seed"]="Saat";
-    texte["de"]["seedPerField"]="Saat pro Feld";
-    texte["de"]["sendContract"]="Vertrag schicken";
-    texte["de"]["sendContractAgain"]="Vertrag noch einmal schicken";
-    texte["de"]["sentContractNrX"]="Vertrag Nr %1% gesendet."
-    texte["de"]["sendingXObservedPricesToServer"]="Sende %1% beobachtete Preise an Server ...";
-    texte["de"]["server"]="Server";
-    texte["de"]["serverTime"]="Zeit des Servers";
-    texte["de"]["sessionEnd"]="Ende der Session um %1%<br>Klick f"+u_dots+"r neuen Login";  
-    texte["de"]["SGH"]="SGH"; // Short for the seller of plants
-    texte["de"]["shadowboxitem"]="Setzkastenitem";
-    texte["de"]["shortHours"]="h";
-    texte["de"]["shortOClock"]="Uhr";
-    texte["de"]["shouldReload"]="Du solltest die Seite neu laden.";
-    texte["de"]["showAll"]="Alle zeigen";
-    texte["de"]["showChangelog"]="Zeige ChangeLog";
-    texte["de"]["showLog"]="Zeige Log";
-    texte["de"]["showMissingProducts"]="Zeige fehlende Produkte";
-    texte["de"]["showPasswords"]="zeige Passw"+o_dots+"rter";
-    texte["de"]["sinceX"]="seit %1%";
-    texte["de"]["single"]="Einzel";
-    texte["de"]["start"]="Start";
-    texte["de"]["stat_days1"]="1 Tag";
-    texte["de"]["stat_days3"]="3 Tage";
-    texte["de"]["stat_days5"]="5 Tage";
-    texte["de"]["stat_days7"]="7 Tage";
-    texte["de"]["stat_gamefield"]="Spielfeld zeigen";
-    texte["de"]["stat_stats"]="Statistik zeigen";
-    texte["de"]["statistics"]="Statistik";
-    texte["de"]["stock"]="Lager";
-    texte["de"]["stockValue"]="Lagerwert";
-    texte["de"]["stockXlow"]="Lagerbestand %1% niedrig";
-    texte["de"]["stockXmissing"]="Lagerbestand %1% fehlt!!!";
-    texte["de"]["storeXinContract"]="%1% im Vertrag auslagern";
-    texte["de"]["summarize"]="Summiere";
-    texte["de"]["takeObservedPrices"]="Nimm beobachtete Preise";
-    texte["de"]["time"]="Zeit";
-    texte["de"]["title"]="Titel";
-    texte["de"]["toMessage"]="zur Nachricht";
-    texte["de"]["toSGH"]="Zum Saatguth"+a_dots+"ndler";
-    texte["de"]["total"]="Total";
-    texte["de"]["turnover"]="Umsatz";
-    texte["de"]["unitPrice"]="St"+u_dots+"ckpreis";
-    texte["de"]["updateOfXAvailable"]="Es ist eine neue Version von %1% verf"+u_dots+"gbar. Die Installation hast du abgelehnt."
-    texte["de"]["upgradeForX"]="ausbauen&nbsp;f"+u_dots+"r&nbsp;%1%";
-    texte["de"]["upgradeLevel"]="Ausbaustufe";
-    texte["de"]["upjersAdvertising"]="Upjers-Werbung";
-    texte["de"]["useQuestProducts"]= "Nimm aktuelle Quest-Waren";
-    texte["de"]["useWildcard"]= "Verwende * um einen oder mehrere Buchstaben zu entsprechen.";
-    texte["de"]["value"]="Wert";
-    texte["de"]["version"]="Version";
-    texte["de"]["waterBonus"]="%1%% Gie"+sz+"bonus";
-    texte["de"]["waterNeeded"]="Wasser ben"+o_dots+"tigt";
-    texte["de"]["waterNeededAtX"]="Wasser ben"+o_dots+"tigt um %1%"; 
-    texte["de"]["waterNeededAtX_day1"]="Morgen Wasser ben"+o_dots+"tigt um %1%";
-    texte["de"]["wateringFeature"]="Gie"+sz+"funktion";
-    texte["de"]["windmill"]="M"+u_dots+"hle";
-    texte["de"]["writeMessage"]="Nachricht schreiben";
-    texte["de"]["XIsUpToDate"]="%1% ist up-to-date."    
-    texte["de"]["yes"]="Ja";
-    texte["de"]["yield"]="Ertrag";
-    texte["de"]["yieldPerProduction"]="Ertrag pro Produktion";
-    texte["de"]["youAreOnRankX"]="Du bist auf Platz %1%.";
-    // category
-    texte["de"]["category_c"]=texte["de"]["coins"];
-    texte["de"]["category_v"]="Pflanzen";
-    texte["de"]["category_e"]="Fortgeschrittene Produkte";
-    texte["de"]["category_z"]=unsafeWindow.rack_deco;
-    texte["de"]["category_o"]=unsafeWindow.rack_oil;
-    texte["de"]["category_fw"]=unsafeWindow.rack_foodworld;
-    texte["de"]["category_fw1"]="Getr"+a_dots+"nke";
-    texte["de"]["category_fw2"]="Speisen";
-    texte["de"]["category_fw3"]="Torten und Kuchen";
-    texte["de"]["category_fw4"]="noch nicht verf"+u_dots+"gbar";
-    texte["de"]["category_fl"]="Blumen";
-    texte["de"]["category_fla"]="Gestecke";
-    texte["de"]["category_f1"]="Setzlinge";
-    texte["de"]["category_f2"]="St"+a_dots+"mme";
-    texte["de"]["category_f3"]="S"+a_dots+"gewerk Produkte";
-    texte["de"]["category_f4"]="Schreinerei Produkte";
-    texte["de"]["category_f5"]="Bauernhaus Holzprodukte";
-    texte["de"]["category_r0"]="Rezepte Produkt";
-    texte["de"]["category_r1"]="Rezepte Erh"+o_dots+"hung Ertrag";
-    texte["de"]["category_r2"]="Rezepte Erh"+o_dots+"hung Punkte";
-    texte["de"]["category_p0"]="Power-Ups Produkt";
-    texte["de"]["category_p1"]="Power-Ups Erh"+o_dots+"hung Ertrag";
-    texte["de"]["category_p2"]="Power-Ups Erh"+o_dots+"hung Punkte";
-    // settings
-    texte["de"]["settings_valAutoWater"]=["Automatisch gie"+sz+"en","Sagt ja der Name schon: Nach dem Pflanzen wird automatisch gegossen, wenn du den 'Alles gie"+sz+"en' besitzt (Premium)."];
-    texte["de"]["settings_valAssumeWater"]=["Gie"+sz+"en annehmen","Dies ist wichtig f"+u_dots+"r Pflanzen, die l"+a_dots+"nger als 24h wachsen. Die Berechnung der Ernte-Zeit nimmt an, dass stets gegossen wird."];
-    texte["de"]["settings_valAutoCrop"]=["Automatisch ernten","Wie zuvor auch: Es wird beim "+O_dots+"ffnen der Ackers geerntet, falls n"+o_dots+"tig."];
-    texte["de"]["settings_valWaterNeeded"]=["Gie"+sz+"en n"+o_dots+"tig","Soll angezeigt werden, dass dein Acker nicht gegossen ist?"];
-    texte["de"]["settings_valCropMsg"]=["Erntemeldung klicken","Du magst die l"+a_dots+"stige Erntemeldung mit dem Schwein nicht? Hier wirst du sie los."];
-    texte["de"]["settings_valLimitEmptyFields"]=["Leere Felder","Es werden unbepflanzte Felder auf deinem Acker erkannt. Sind dies mehr als hier angegeben, wird der Acker als unbenutzt gemeldet."];
-    texte["de"]["settings_valLimitEmptyFields_forest"]=["Leere Felder Wald","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
-    texte["de"]["settings_valMoveAnimals"]=["Bewege Tiere",""];
-    texte["de"]["settings_valContractLogAmount"]=["Anzahl gemerkte Vertr"+a_dots+"ge","Deine letzten erhaltenen und gesendeten Vertr"+a_dots+"ge werden gespeichert und somit kann ein Verlauf angezeigt werden."];
-    texte["de"]["settings_valFarmiLimits"]=["Farmi Grenzen","Die Farmis sind in 3 F"+a_dots+"lle markiert, je nachdem wie gut ihre Bezahl-Rate ist."];
-    texte["de"]["settings_valFarmiMiniInfo"]=["Farmi Mini Info","Zeigt einen kleinen Kreis unter jedem Farmi mit der jeweiligen Klasse der Bezahl-Rate."];
-    texte["de"]["settings_valMinRackMan"]=["Detail Konfiguration","Du editierst die Anzahl selbst *hier*"];
-    texte["de"]["settings_valMinRack"]=[,"Ein Produkt wird markiert, falls der Lagerbestand unter diese Grenze f"+a_dots+"llt. Du kannst verschiedene Werte abh"+a_dots+"ngig von der Kategorie einstellen."];
-    texte["de"]["settings_valMinRackPlantsize"]=["Pflanzengr"+o_dots+sz+"e einrechnen","Zum Beispiel braucht Getreide nur den halben Bestand."];
-    texte["de"]["settings_valMinRackGrowing"]=["Ernteprodukte","Beachtet zus"+a_dots+"tzlich die Produkte in Produktion und in den fertigen Powerups."];
-    texte["de"]["settings_valMinRackQuest"]=["Quest-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Questprodukte."];
-    texte["de"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
-    texte["de"]["settings_valMinRackFarmis"]=["Farmi-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Produkte, die deine Farmis verlangen. Dabei gelten nur diejenigen, die besser als die untere Grenze bezahlen."];
-    texte["de"]["settings_valMinRackForestryFarmis"]=["Forestry farmie products","Adds the amount of the products wanted by the forestry farmies."];
-    texte["de"]["settings_protectMinRack"]=["Marktschutz","Verhindert, dass die Warenmenge beim Marktverkauf den minimalen Lagerbestand unterschreitet."];
-    texte["de"]["settings_valBuyingLimitDown"]=["Untere Kaufmarkierung",""];
-    texte["de"]["settings_valBuyingLimit"]=["Obere Kaufgrenze","Du kannst am Markt nur Produkte kaufen die maximal der Prozentgrenze entsprechen. Dies sch"+u_dots+"tzt dich vor dem versehentlichen Kauf "+u_dots+"bertrieben teurer Waren."];
-    texte["de"]["settings_valBuyingLimitNPC"]=["Nur billiger als NPC kaufen",""];
-    texte["de"]["settings_valSellingLimit"]=["Verkaufgrenzen","Auch dein Verkauf wird gesch"+u_dots+"tzt, so dass du weder zu billig noch zu teuer verkaufst."];
-    texte["de"]["settings_valJoinPrices"]=["Ein Preisfeld","Verbindet die Preis-Eingabefelder beim Marktstand"];
-    texte["de"]["settings_valQuicklinks"]=["Quicklinks am Markt anzeigen","Quicklinks am Markt anzeigen"];
-    texte["de"]["settings_valUseObservedPrices"]=["Benutze beobachtete Preise","Wenn du dich durch den Markt klickst, werden die Preise beobachtet. Ein berechneter Preis ist in der Preisliste zu sehen. Soll dieser automatisch "+u_dots+"bernommen werden?"];
-    texte["de"]["settings_valSendStatistics"]=["Sende Statistiken","Unterst"+u_dots+"tze den <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>. Es werden keine privaten Daten gesendet!"];
-    texte["de"]["settings_valPrivateMessages"]=["Anzahl gemerkte Privatnachrichten","Deine letzten privaten Nachrichten werden gespeichert und somit kann ein Nachrichten-Verlauf mit einem Kontakt angezeigt werden."];
-    texte["de"]["settings_valMarketMessages"]=["Anzahl gemerkte Marktnachrichten","Es bleiben auch alte System-Nachrichten in diesem Speicher, selbst wenn sie "+a_dots+"lter als die maximalen 7&nbsp;Tage sind."];
-    texte["de"]["settings_valMessageRe"]=["Betreff k"+u_dots+"rzen","Ersetzt im Betreff \"Re:Re:\" durch \"Re:\", wenn du eine Antwort schreibst."];
-    texte["de"]["settings_valMessagesSystemMarkRead"]=["Systemnachrichten lesen","Systemnachrichten werden automatisch als gelesen markiert."];
-    texte["de"]["settings_valFoodworldFarmiPlacing"]=["Picknickarea Farmis platzieren","Angenommene Picknickarea Farmis werden automatisch auf einen freien Sitzplatz gewiesen."];
-    texte["de"]["settings_valAutoLogin"]=["Automatisch einloggen","Sobald Nutzerdaten und Passwort eingegeben sind, werden die Accounts wieder eingeloggt. Somit kann wieder gef"+u_dots+"ttert, geerntet, gegossen und gepflanzt werden. Es m"+u_dots+"ssen Popups erlaubt werden bei mehreren Accounts."];
-    texte["de"]["settings_valUpdate"]=["Update","Es wird gepr"+u_dots+"ft, ob eine neuere Version dieses Scriptes verf"+u_dots+"gbar ist."];
-    texte["de"]["settings_valServerTimeOffset"]=["Zeit des Servers",""];
-    texte["de"]["settings_valGamecursor"]=["Spiel-Cursor","Benutze die spieleigenen Cursor an Stelle deiner System-Cursor."];
-    texte["de"]["settings_valDrag"]=["Verschieben","Erlaube das Bewegen der Fenster (obere linke Ecke)."];
-    texte["de"]["settings_valClickErrorbox"]=["Verstecke Fehlerbox","Einige Spieler haben Probleme mit der Fehlerbox. Beachte, dass diese Meldung normalerweise sinnvoll ist!"];
-    texte["de"]["settings_valHotkeys"]=["Hotkeys","Benutze Hotkeys um schnell durch das Spiel zu navigieren. Schau in die Hilfe."];
-    texte["de"]["settings_hotkeymap"]={"prevPage":"vorige Nachricht, Zone, ...","nextPage":"n"+a_dots+"chste Nachricht, Zone, ...","farm1":"1. Farm","farm2":"2. Farm","farm3":"3. Farm","guild":"Club","city1":"Klein Muhstein","city2":"Teichlingen","farmilog":"Farmi-Log","help":"Hilfe","market":"Marktplatz","marketstand":"Marktstand","messages":"Nachrichten","options":"Optionen","profit":"Profit Kalkulation","sgh":"Saatguth"+a_dots+"ndler","overview":U_dots+"bersicht","contract":"Vertr"+a_dots+"ge","systemmessage":"(n"+a_dots+"chste ungelesene) Systemnachricht"};
-    texte["de"]["settings_valzoneAddToGlobalTime"]=["Integration","Soll die Zeit in die Global-Zeit einbezogen werden?"];
-    texte["de"]["settings_valGlobaltimeShowCroppedZone"]=["Beachte geerntete Zonen","Sollen geerntete Zonen in die globale Zeit einbezogen werden?"];
-    texte["de"]["settings_cacheReset"]=["Cache reset","Alle Informationen "+u_dots+"ber deine Zonen werden gel"+o_dots+"scht ..."];
-    // help
-    texte["de"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\""+GM_Home+"\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
-    texte["de"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
-    texte["de"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
-    texte["de"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
-    texte["de"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
-    texte["de"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
-    texte["de"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
-    texte["de"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
-    texte["de"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
-    texte["de"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
-    texte["de"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
-    texte["de"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
-}
-if(top.unsafeData.texte["en"]==undefined){
-    texte["en"]=new Object();
-    texte["en"]["msgMarketsaleContent"]="(.*) bought (\\d+)x (.*?) for<br> (.*?) pD from you\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
-    texte["en"]["msgContractsaleContent"]="(.*) has signed a contract of yours!<br><br> The following products have been sold:<br>(.*?)<br> The amount of (.*?) pD has been credited to your account\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
-    texte["en"]["msgContractsaleList"]="(\\d+)x (.*?)<br>"; // The line-pattern for the detailed selling list
-    texte["en"]["msgFriend"]="(.+) would like to add you as a friend"; // The subject. The person has to be replaced by "(.+)"
-    
-    texte["en"]["above"]="above";
-    texte["en"]["absolute"]="absolute";
-    texte["en"]["accountActive"]="Account active";
-    texte["en"]["accounts"]="Accounts";
-    texte["en"]["activation"]="Activation";
-    texte["en"]["additionalFarmi"]="%1% additional farmie daily";
-    texte["en"]["additionalForestFarmiSlot"]="%1% additional place in the forest farmi waiting queue";
-    texte["en"]["additionalLogCapacity"]="Rack capacity for logs increases of %1%";
-    texte["en"]["advertisingEnds"]="Advertising ends today";
-    texte["en"]["adviser"]="Adviser";
-    texte["en"]["afterFee"]="After Fee";
-    texte["en"]["alertSetPriceNone"]="Do you really want to set no price for %PRODUCT%?";
-    texte["en"]["alertSetPriceOverNPC"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is higher than the NPC-value of %NPC%.";
-    texte["en"]["alertSetPriceOverObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much higher than the observed value of %OBS%.";
-    texte["en"]["alertSetPriceUnderObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much lower than the observed value of %OBS%.";
-    texte["en"]["alertWillLowRack"]="Attention! This will drop your stock below the minimal value!";
-    texte["en"]["all"]="All";
-    texte["en"]["autologinAllOk"]="All accounts logged in.";
-    texte["en"]["autologinChecking"]="Checking active sessions.  Please wait %1% seconds<br>...";
-    texte["en"]["bonus"]="Bonus";
-    texte["en"]["boughtTickets"]="Bought tickets";
-    texte["en"]["buy"]="Buy";
-    texte["en"]["buyers"]="Buyers";
-    texte["en"]["calcTo"]="Calculate to";
-    texte["en"]["carpentry"]="Carpentry";
-    texte["en"]["city"]="City";
-    texte["en"]["change"]="Change";
-    texte["en"]["clearFilter"]="Clear filter";
-    texte["en"]["click"]="Click";
-    texte["en"]["clickAlt"]="Alt+Click";
-    texte["en"]["clickCtrl"]="Ctrl+Click";
-    texte["en"]["clickDouble"]="Double-Click";
-    texte["en"]["clickToChange"]="Click to change";
-    texte["en"]["coins"]=unsafeWindow.t_coins;
-    texte["en"]["commission"]   = "Commission";
-    texte["en"]["confirmUseObservedPrices"]="The observed prices will overwrite previously saved market prices ...";
-    texte["en"]["confirmChangelogVersion"]="You have installed a new version of the Adviser script.<br>The version %1% contains the following changes:";
-    texte["en"]["contract"]="Contract";
-    texte["en"]["contractsReceived"]="Contracts received";
-    texte["en"]["contractsSent"]="Contracts sent";
-    texte["en"]["copyToTextFile"]="Copy this string to a text-file";
-    texte["en"]["couldNotGetRank"]="Your rank could not be determined.";
-    texte["en"]["couldNotGetUpdateInfoOfX"]="Update information for %1% could not be determined.";
-    texte["en"]["createStorageString"]="Create storage string";
-    texte["en"]["cropped"]="Cropped";
-    texte["en"]["currentOffers"]="Current offers";
-    texte["en"]["dailyRuns"]="Daily runs";
-    texte["en"]["dailyTicket"]="Daily ticket";
-    texte["en"]["dailyYield"]="Daily yield";
-    texte["en"]["date"]="Date";
-    texte["en"]["day"]="Day";
-    texte["en"]["day0"]="Today";
-    texte["en"]["day1"]="Tomorrow";
-    // texte["day2"]="Day after tomorrow"; // comment it if not used in the language
-    texte["en"]["default"]="Default";
-    texte["en"]["delete"]="Delete";
-    texte["en"]["deleteFollowingData"]="Delete following data";
-    texte["en"]["demand"]="Demand";
-    texte["en"]["detail"]="Detail";
-    texte["en"]["difficulty"]="Difficulty";
-    texte["en"]["donkey"]="Donkey";
-    texte["en"]["duration"]="duration";
-    texte["en"]["editPrice"]="Edit price";
-    texte["en"]["emptyField"]="Empty field!";
-    texte["en"]["end"]="End";
-    texte["en"]["exchangedLots"]="Exchanged lots";
-    texte["en"]["farm"]="Farm";
-    texte["en"]["farmersmarket"]=unsafeWindow.t_farmers_market;
-    texte["en"]["farmX"]="%1%. farm";
-    texte["en"]["farmi"]="Farmie";
-    texte["en"]["farmis"]="Farmies";    
-    texte["en"]["farmpedia"]="FarmPedia";
-    texte["en"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
-    texte["en"]["farmzone"]="Building place %1% of %2%. farm";
-    texte["en"]["feed"]="Feed";
-    texte["en"]["fields"]="Fields";
-    texte["en"]["filter"]="Filter";
-    texte["en"]["filterForX"]="Filter for %1%";
-    texte["en"]["finished"]="Finished";
-    texte["en"]["foodworld"]=unsafeWindow.foodworld_title;
-    texte["en"]["forest"]="Forest";
-    texte["en"]["forestry"]="Forestry";
-    texte["en"]["formatNumbers"]="Format numbers";
-    texte["en"]["formulaType"]=["Prod","+val","+pts"];
-    texte["en"]["fl1"]="Flower meadow";
-    texte["en"]["fl2"]="Flower workshop";
-    texte["en"]["fl3"]="Monster fruit culture";
-    texte["en"]["fl6"]="Speed eating";
-    texte["en"]["fw1"]="Soda stall";
-    texte["en"]["fw2"]="Snack booth";
-    texte["en"]["fw3"]="Pastry shop";
-    texte["en"]["gain"]="Gain";
-    texte["en"]["gamecurrency"]=unsafeWindow.gamecurrency;
-    texte["en"]["general"]="General";
-    texte["en"]["given"]="Given";
-    texte["en"]["goToDonkey"]="Go to donkey Luke";
-    texte["en"]["goToLottery"]="Go to lottery";
-    texte["en"]["goToMarket"]="Go to market";
-    texte["en"]["goToMarketOfX"]="Go to market of %1%";
-    texte["en"]["goToMarketstall"]="Go to market stall";
-    texte["en"]["goToPage"]="Go to page";
-    texte["en"]["goToRank"]="Go to rank";
-    texte["en"]["goToZoneX"]="Go to zone %1%";
-    texte["en"]["goods"]="Goods";
-    texte["en"]["hide"]="hide";
-    texte["en"]["highlightProducts"]="Highlight products at market";
-    texte["en"]["highlightUser"]="Highlight user at market";
-    texte["en"]["hotkeys"]="Hotkeys";
-    texte["en"]["idle"]="idle !!";
-    texte["en"]["importStorageString"]="Import storage string";
-    texte["en"]["importStorageStringError"]="Sorry. Can't read the storage string.";
-    texte["en"]["inStock"]="in stock";
-    texte["en"]["informationIsMissing"]="Information is missing."
-    texte["en"]["ingredients"]="Ingredients";
-    texte["en"]["invalidServer"]="Invalid Server";
-    texte["en"]["inventory"]="Inventory";
-    texte["en"]["keptLots"]="Kept lots";
-    texte["en"]["level"]="Level";
-    texte["en"]["levelTooLow"]="Your level is too low";
-    texte["en"]["levelXneeded"]="Level&nbsp;%1%&nbsp;needed";
-    texte["en"]["load"]="Load";
-    texte["en"]["loading"]="Loading";
-    texte["en"]["localTime"]="Local time";
-    texte["en"]["lodge"]="Log cabin";   
-    texte["en"]["login"]="Login";
-    texte["en"]["logDonkey"]="Donkey Luke Log";
-    texte["en"]["lotteryLog"]="Lottery Log";
-    texte["en"]["lvl"]="Lvl";
-    texte["en"]["manageVariables"]="Manage variables";  
-    texte["en"]["market"]="Market";
-    texte["en"]["marketPrice"]="Market&nbsp;Price";
-    texte["en"]["marketplace"]="Market place";
-    texte["en"]["marketstall"]="Market stall";
-    texte["en"]["megafield"]="Megafield";
-    texte["en"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;    
-    texte["en"]["messages"]="Messages";
-    texte["en"]["minRack"]="Min&nbsp;rack";
-    texte["en"]["minRackamount"]="Minimal rackamount";
-    texte["en"]["missing"]="Need";
-    texte["en"]["money"]="Offered";
-    texte["en"]["msgUpdate"]="There is a new script version of the Adviser. Install?";
-    texte["en"]["msgUpdateX"]="A new script version of %1% is available. Do you want to install it?";
-    texte["en"]["name"]="Name";
-    texte["en"]["newLevelReached"]="Congratulations!<br>You have reached the next level!";
-    texte["en"]["nextMessage"]="next message";
-    texte["en"]["no"]="No";
-    texte["en"]["nothingSelected"]="Nothing selected";
-    texte["en"]["NPC"]="NPC";
-    texte["en"]["NPCprice"]="NPC-Price";
-    texte["en"]["nr"]="Nr";
-    texte["en"]["observed"]="Observed";
-    texte["en"]["ok"]="OK";
-    texte["en"]["oldOnes"]="Old";
-    texte["en"]["options"]="Options";
-    texte["en"]["overNPCprice"]="over NPC-price";
-    texte["en"]["overX"]="over %1%";
-    texte["en"]["overview"]="overview";
-    texte["en"]["password"]="Password";
-    texte["en"]["pleaseOpenX"]="Please open %1%.";
-    texte["en"]["points"]="Points";
-    texte["en"]["portalLogin"]="Portal-Login";
-    texte["en"]["powerups"]="Power-Ups";
-    texte["en"]["previousMessage"]="previous message";
-    texte["en"]["price"]="Price";
-    texte["en"]["prices"]="Prices";
-    texte["en"]["product"]="Product";
-    texte["en"]["productOverview"]="Product overview";
-    texte["en"]["productTimeSaving"]="%1% minutes saving for %2%";
-    texte["en"]["production"]="Production";
-    texte["en"]["products"]="Products";
-    texte["en"]["profit"]="Profit";
-    texte["en"]["profitTable"]="Profit per Zone per Day";
-    texte["en"]["quantity"]="Quantity";
-    texte["en"]["quest_foodworld"]="Picnic area quest series";
-    texte["en"]["quest_forestry"]="Series of quests (forestry)";
-    texte["en"]["quest_main"]="Series of quests (farm)";
-    texte["en"]["questfoodworld1"]="Picnic area quest series";
-    texte["en"]["questforestry1"]="1st series of quests (forestry)";
-    texte["en"]["questforestry2"]="2nd series of quests (forestry)";
-    texte["en"]["questmain1"]="1st series of quests (farm)";
-    texte["en"]["questmain2"]="2nd series of quests (farm)";
-    texte["en"]["quests"]="Quests";
-    texte["en"]["rackX"]="%1%. rack";
-    texte["en"]["rank"]="Rank";
-    texte["en"]["readAll"]="Read all";
-    texte["en"]["readyAtX"]="Ready at %1%"; // %1%=2:15+texte["shortOClock"]
-    texte["en"]["readyAtX_day1"]="Tomorrow ready at %1%"; 
-    // texte["en"]["readyAtX_day2"]="Ready in 2days at %1%"; // comment it if not used in the language
-    texte["en"]["readySinceX"]="Ready since %1%"; 
-    texte["en"]["recipes"]="Recipes";
-    texte["en"]["recursive"]="Recursive Needed";
-    texte["en"]["relative"]="relative";
-    texte["en"]["relogin"]="Session ends soon.<br>New login in %1%.";
-    texte["en"]["remaining"]="Remaining";
-    texte["en"]["requestingUpdateInfoOfX"]="Requesting update information for %1% ..."
-    texte["en"]["requestingUserStatistic"]="Requesting user statistic ...";
-    texte["en"]["requirement"]="Need";
-    texte["en"]["requirementPerProduction"]="Requirement per production";   
-    texte["en"]["reward"]="Reward";
-    texte["en"]["salesLog"]="Sales log";
-    texte["en"]["save"]="Save";
-    texte["en"]["saveAsTemplate"]="Save as template";
-    texte["en"]["sawmill"]="Sawmill";
-    texte["en"]["scriptHomepage"]="Script Homepage";
-    texte["en"]["searchPlayer"]="Search player";
-    texte["en"]["seed"]="Seed";
-    texte["en"]["seedPerField"]="Seed per field";
-    texte["en"]["sendContract"]="Send contract";
-    texte["en"]["sendContractAgain"]="Send contract again";
-    texte["en"]["sentContractNrX"]="Sent contract no %1%."
-    texte["en"]["sendingXObservedPricesToServer"]="Sending %1% observed prices to server ...";
-    texte["en"]["server"]="Server";
-    texte["en"]["serverTime"]="Time of server";
-    texte["en"]["sessionEnd"]="End of Session at %1%<br>Click for new login";   
-    texte["en"]["SGH"]="SGH"; // Short for the seller of plants
-    texte["en"]["shadowboxitem"]="Shadowbox item";  
-    texte["en"]["shortHours"]="h";
-    texte["en"]["shortOClock"]="h";
-    texte["en"]["shouldReload"]="You should reload the page.";
-    texte["en"]["showAll"]="Show all";
-    texte["en"]["showChangelog"]="Show changelog";
-    texte["en"]["showLog"]="Show log";
-    texte["en"]["showMissingProducts"]="Show product shortage";
-    texte["en"]["showPasswords"]="show passwords";
-    texte["en"]["sinceX"]="since %1%";
-    texte["en"]["single"]="Single";
-    texte["en"]["start"]="Start";
-    texte["en"]["stat_days1"]="1 day";
-    texte["en"]["stat_days3"]="3 days";
-    texte["en"]["stat_days5"]="5 days";
-    texte["en"]["stat_days7"]="7 days";
-    texte["en"]["stat_gamefield"]="Show game";
-    texte["en"]["stat_stats"]="Show statistics";
-    texte["en"]["statistics"]="Statistics";
-    texte["en"]["stock"]="Stock";
-    texte["en"]["stockValue"]="Stock value";
-    texte["en"]["stockXlow"]="Stock %1% low";
-    texte["en"]["stockXmissing"]="Stock %1% missing!!!";
-    texte["en"]["storeXinContract"]="Store %1% in contract";
-    texte["en"]["summarize"]="Summarize";
-    texte["en"]["takeObservedPrices"]="Take observed prices";
-    texte["en"]["time"]="Time";
-    texte["en"]["title"]="Title";
-    texte["en"]["toMessage"]="to message";
-    texte["en"]["toSGH"]="Go to shop";
-    texte["en"]["total"]="Total";
-    texte["en"]["turnover"]="Turnover";
-    texte["en"]["unitPrice"]="Unit price";
-    texte["en"]["updateOfXAvailable"]="A new script version of %1% is available. You refused to install it."
-    texte["en"]["upgradeForX"]="upgrade&nbsp;for&nbsp;%1%";
-    texte["en"]["upgradeLevel"]="Upgrade level";
-    texte["en"]["upjersAdvertising"]="Upjers-Advertising";
-    texte["en"]["useQuestProducts"]= "Use current quest products";
-    texte["en"]["useWildcard"]= "Use * to match one or more letters.";
-    texte["en"]["value"]="Value";
-    texte["en"]["version"]="Version";
-    texte["en"]["waterBonus"]="%1%% water bonus";
-    texte["en"]["waterNeeded"]="Water needed";
-    texte["en"]["waterNeededAtX"]="Water needed at %1%"; 
-    texte["en"]["waterNeededAtX_day1"]="Tomorrow water needed at %1%";
-    texte["en"]["wateringFeature"]="Watering feature";
-    texte["en"]["windmill"]="Windmill";
-    texte["en"]["writeMessage"]="write message";
-    texte["en"]["XIsUpToDate"]="%1% is up-to-date."
-    texte["en"]["yes"]="Yes";
-    texte["en"]["yield"]="Yield";
-    texte["en"]["yieldPerProduction"]="Yield per production";
-    texte["en"]["youAreOnRankX"]="You are on rank %1%.";
-    // category
-    texte["en"]["category_c"]=texte["en"]["coins"];
-    texte["en"]["category_v"]="Plants";
-    texte["en"]["category_e"]="Advanced products";
-    texte["en"]["category_z"]=unsafeWindow.rack_deco;
-    texte["en"]["category_o"]=unsafeWindow.rack_oil;
-    texte["en"]["category_fw"]=unsafeWindow.rack_foodworld;
-    texte["en"]["category_fw1"]="Drinks";
-    texte["en"]["category_fw2"]="Food";
-    texte["en"]["category_fw3"]="Cakes";
-    texte["en"]["category_fw4"]="not yet available";
-    texte["en"]["category_fl"]="Flowers";
-    texte["en"]["category_fla"]="Arrangements";
-    texte["en"]["category_f1"]="Saplings";
-    texte["en"]["category_f2"]="Logs";
-    texte["en"]["category_f3"]="Sawmill products";
-    texte["en"]["category_f4"]="Carpentry products";
-    texte["en"]["category_f5"]="Wooden farmhouse items";
-    texte["en"]["category_r0"]="Recipes product";
-    texte["en"]["category_r1"]="Recipes increade yield";
-    texte["en"]["category_r2"]="Recipes increade points";
-    texte["en"]["category_p0"]="Power-Ups Produkt";
-    texte["en"]["category_p1"]="Power-Ups increade yield";
-    texte["en"]["category_p2"]="Power-Ups increade points";
-    // settings
-    texte["en"]["settings_valAutoWater"]=["Automatic watering","Plants will be watered after planting, if you have 'Water everything' (Premium)."];
-    texte["en"]["settings_valAssumeWater"]=["Assume watering","This is important for plants growing more than 24h. The calculation of the cropping time assumes watering when needed."];
-    texte["en"]["settings_valAutoCrop"]=["Automatic harvesting","After opening your field, crops will be harvested if necessary."];
-    texte["en"]["settings_valWaterNeeded"]=["Watering needed","Shall the necessity of watering be displayed?"];
-    texte["en"]["settings_valCropMsg"]=["Close harvest dialog","Don't like the annoying harvest notification with the pig?  Get rid of it here."];
-    texte["en"]["settings_valLimitEmptyFields"]=["Empty areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
-    texte["en"]["settings_valLimitEmptyFields_forest"]=["Empty forest areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
-    texte["en"]["settings_valMoveAnimals"]=["Move animals",""];
-    texte["en"]["settings_valContractLogAmount"]=["Number contracts kept","Your last sent and received contracts are kept so that a history of them can be shown."];
-    texte["en"]["settings_valFarmiLimits"]=["Farmie Limits","The farmies are marked in 3 cases depending on their payment-rate."];
-    texte["en"]["settings_valFarmiMiniInfo"]=["Farmie Mini Info","Displays a small circle below each farmie showing its case of payment-rate."];
-    texte["en"]["settings_valMinRackMan"]=["Detail configuration","You edit the amount on your own *here*"];
-    texte["en"]["settings_valMinRack"]=[,"A product is marked if its amount in your rack is falling below this value. You can enter different values depending on the category."];
-    texte["en"]["settings_valMinRackPlantsize"]=["Aspect size of plant","For example grain needs only half of the value above."];
-    texte["en"]["settings_valMinRackGrowing"]=["Growing products","Adds the amount of products that are in production and ready by powerup."];
-    texte["en"]["settings_valMinRackQuest"]=["Quest products","Adds the amount of the quest products"];
-    texte["en"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
-    texte["en"]["settings_valMinRackFarmis"]=["Farmie products","Adds the amount of the products wanted by the farmies which pay more than the lower limit."];
-    texte["en"]["settings_valMinRackForestryFarmis"]=["Lodge farmie products","Adds the amount of the products wanted by the lodge farmies."];
-    texte["en"]["settings_protectMinRack"]=["Selling protection","Prohibits to sell products at market below the minimal rackamount"];
-    texte["en"]["settings_valBuyingLimitDown"]=["Bottom buy highlight",""];
-    texte["en"]["settings_valBuyingLimit"]=["Top buy limit","You can only buy products at the Market up to the limit given.  This protects you from accidentally purchasing very over-priced goods."];
-    texte["en"]["settings_valBuyingLimitNPC"]=["Only allow buy less than price of NPC",""];
-    texte["en"]["settings_valSellingLimit"]=["Sell limits","Your sales are also protected, so that you don't price your own goods too cheaply or too highly."];
-    texte["en"]["settings_valJoinPrices"]=["One input","Joins the price input fields at the market stand."];
-    texte["en"]["settings_valQuicklinks"]=["Show market quicklinks","Show Quicklinks at Market place"];
-    texte["en"]["settings_valUseObservedPrices"]=["Use observed prices","Prices are observed while clicking through the market place. A calculated price can be seen in the price list. Shall this automatically override your settings?"];
-    texte["en"]["settings_valSendStatistics"]=["Send statistics","Support the <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>.  No private data is sent!"];
-    texte["en"]["settings_valPrivateMessages"]=["Number private messages kept","Your last private messages are kept so that a message history of one contact can be shown."];
-    texte["en"]["settings_valMarketMessages"]=["Number market messages kept","Old messages remain in this archive, even if they are older than the maximum 7 days."];
-    texte["en"]["settings_valMessageRe"]=["Short subject","Replaces \"Re:Re:\" to \"Re:\" in the subject when you reply to a message."];
-    texte["en"]["settings_valMessagesSystemMarkRead"]=["Read system messages","System messages are marked read automatically."];
-    texte["en"]["settings_valFoodworldFarmiPlacing"]=["Locate picnic area farmis","Accepted picnic area farmis are located automatically to a vacant seat."];
-    texte["en"]["settings_valAutoLogin"]=["Automatic login","Once username and password information is given, all accounts will be logged in, so that they can be fed, harvested, watered, and planted. Popups must be allowed with multiple accounts."];
-    texte["en"]["settings_valUpdate"]=["Update","Checks whether an updated version of this Advisor script is available."];
-    texte["en"]["settings_valServerTimeOffset"]=["Time of server",""];
-    texte["en"]["settings_valGamecursor"]=["Game cursor","Use the game cursors instead of your system cursors."];
-    texte["en"]["settings_valDrag"]=["Dragging","Allow moving windows by clicking the upper left corner."];
-    texte["en"]["settings_valClickErrorbox"]=["Hide errorbox","Some users have problems with the error box. Keep in mind that this alert is normally useful!"];
-    texte["en"]["settings_valHotkeys"]=["Hotkeys","Use hotkeys to quicker navigate the game. See the help."];
-    texte["en"]["settings_hotkeymap"]={"prevPage":"previous Message, Zone, ...","nextPage":"next Message, Zone, ...","farm1":"1st farm","farm2":"2nd farm","farm3":"3rd farm","guild":"Club","city1":"First Village","city2":"Second Village","farmilog":"Farmi-Log","help":"Help","market":"Market place","marketstand":"Market stand","messages":"Messages","options":"Options","profit":"Profit Calculation","sgh":"Seed retailer","overview":"Overview","contract":"Contracts","systemmessage":"(next unread) system message"};
-    texte["en"]["settings_valzoneAddToGlobalTime"]=["Integrate","Shall the time be included to the global time?"];
-    texte["en"]["settings_valGlobaltimeShowCroppedZone"]=["Integrate cropped zone","Shall the ready-state of the cropped zones be included in the global time?"];
-    texte["en"]["settings_cacheReset"]=["Cache reset","All information about your farms will be deleted ..."];
-    //help
-    texte["en"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\"http://userscripts.org:8080/scripts/show/66964\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
-    texte["en"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
-    texte["en"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
-    texte["en"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
-    texte["en"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
-    texte["en"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
-    texte["en"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
-    texte["en"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
-    texte["en"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
-    texte["en"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
-    texte["en"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
-    texte["en"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
-}
-err_trace="MenuCommand";
-GM_registerMenuCommand(getText("adviser")+" "+"Update", function(){
-    location.href=GM_Source;
-});
-GM_registerMenuCommand(getText("adviser")+" "+getText("scriptHomepage"), function(){
-    window.open(GM_Home);
-});
-if(location.href==GM_Home){
-    err_trace="Userscripts.org";
-    if($("content")&&$("install_script")){
-        var uso_version=/<p><b>Version:<\/b>(\d+\.\d+\.\d+)<\/p>/gi.exec($("content").innerHTML.replace(/\s/gi,""))[1];
-        if(compareVersions(uso_version,VERSION)<1){
-            $("install_script").firstElementChild.innerHTML="Already installed";
-        }else{
-            $("install_script").firstElementChild.innerHTML="Update ("+VERSION+"&nbsp;&rarr;&nbsp;"+uso_version+")";
-        }
-    }
-    return false;
-}else if(!COUNTRY||!GAMEPAGES[COUNTRY]||!location.hostname.match(GAMEPAGES[COUNTRY])){
-    err_trace="COUNTRY error";
-    createElement("div",{"style":"position:absolute;top:0;left:0;width:340px;padding:30px;background-color:yellow;border:3px solid black;border-radius:10px;z-index:1000;font-family:Verdana,sans-serif;color:#000000;font-size:12pt;font-weight:bold;"},document.getElementsByTagName("body")[0],"You have to install a language pack. Download one at <a href='http://userscripts.org:8080'>userscripts.org</a>.")
-}else{
-    err_trace="regular expressions";
-    regDelimThou=new RegExp(regDelimThou,"g");
-    regDelimThouShift=new RegExp(regDelimThouShift,"g");
-    regDelimThouDelete=new RegExp(regDelimThouDelete,"g");
-    regDelimDeci=new RegExp(regDelimDeci);
-    regMsgMarketsaleContent=new RegExp(getText("msgMarketsaleContent"));
-    regMsgContractsaleContent=new RegExp(getText("msgContractsaleContent"));
-    regMsgContractsaleList=new RegExp(getText("msgContractsaleList"));
-    regMsgFriend=new RegExp(getText("msgFriend"));
-    err_trace="Events";
-    if(DEVMODE_EVENTS&&(self==top)){
-        var allEvents=new Array();
-        // list of events:
-        allEvents.push("gameWindowContractNew");            // "create new contract"-frame is loaded
-        allEvents.push("gameChangedProdMinRackInit");       // prodMinRackInit  is saved (rack amount detail configuration, market-frame)
-        allEvents.push("gameChangedProdMinRackAddon");      // prodMinRackAddon is saved
-        allEvents.push("gameChangedGut");                   // gut is saved (market-frame)
-        allEvents.push("gameChangedBeobPrice");             // beobPrice is saved (market-frame)
-        allEvents.push("gameChangedOwnMarketOffers");       // ownMarketOffers is saved
-        allEvents.push("gameChangedLevelLog");              // levelLog is saved (message-frame)
-        allEvents.push("gameOtherAccReady");                // another account needs to be worked
-        allEvents.push("gameSessionEnds");                  // the session ends soon (max 120s)
-        allEvents.push("gameInfoPanelOpen");                // the infoPanel is opened and filled
-        allEvents.push("gameInfoPanelOptions");             // the infoPanel has the option-tab loaded
-        allEvents.push("gameUpdateRack");                   // the rack has loaded
-        allEvents.push("gameFieldModified");                // the plants on the opened field are loaded
-        allEvents.push("gameFieldOpened");                  // a field is opened
-        allEvents.push("gameFieldPlanted");                 // a field has been planted
-        allEvents.push("gameFieldWatered");                 // a field has been watered
-        allEvents.push("gameFieldCropped");                 // a field has been cropped
-        allEvents.push("gameFieldDemolished");              // 
-        allEvents.push("gameFactoryKnittingStarted");       // a knitting factory has been started
-        allEvents.push("gameFactoryKnittingCropped");       // a knitting factory has been cropped
-        allEvents.push("gameFactoryKnittingDialogStart");   // a knitting factory has opened a production dialogue
-        allEvents.push("gameFarmLoaded");                   // the farm is loaded
-        allEvents.push("gameFarmOpened");                   // the farm is opened
-        allEvents.push("gameFarmersmarketCropped");         // the farmersmarket is cropped
-        allEvents.push("gameFarmersmarketStarted");         // the farmersmarket has been started
-        allEvents.push("gameFarmersmarketWatered");         // the farmersmarket has been watered
-        allEvents.push("gameFarmersmarketOpened");          // the farmersmarket is opened
-        allEvents.push("gameFarmersmarketOpened1");         // the farmersmarket building 1 is opened
-        allEvents.push("gameFarmersmarketOpened2");         // the farmersmarket building 2 is opened
-        allEvents.push("gameFarmersmarketSlotOpened");      // the farmersmarket building slot has been opened
-        allEvents.push("gameFarmersmarketDialogStart");     // the farmersmarket building has opened a dialogue
-        allEvents.push("gameFarmersmarketDialogCommit");    // the farmersmarket building has requested for commit of a dialogue
-        allEvents.push("gameFarmiNew");                     // a new farmi is appeared
-        allEvents.push("gameFarmiResponse");                // a farmi is been rejected or accepted.
-        allEvents.push("gameMegafieldDialogStarted");       // the megafield view has been moved
-        allEvents.push("gameMegafieldMoved");               // a megafield vehicle has been bought
-        allEvents.push("gameMegafieldTourStarted");         // a megafield tour has been started
-        allEvents.push("gameMegafieldPlanted");             // a field has been planted on the megafield
-        allEvents.push("gameMegafieldVehicleBought");       // a megafield vehicle has been bought
-        allEvents.push("gameOpenCampaign");                 // Forestry Quest is opened
-        allEvents.push("gameOpenStable");                   // a stable is opened
-        allEvents.push("gameOpenFactory");                  // a factory is opened
-        allEvents.push("gameOpenFactoryOil");               // an oil factory is opened
-        allEvents.push("gameOpenFactoryKnitting");          // an knitting factory is opened
-        allEvents.push("gameOpenMarket");                   // the market is opened
-        allEvents.push("gameOpenMegafield");                // the megafield is opened
-        allEvents.push("gameOpenWindmill");                 // the windmill is opened
-        allEvents.push("gameOpenGlobalCommitBox");          // GlobalCommitBox is opened
-        allEvents.push("gameOpenGlobalBox");                // GlobalBox is opened
-        allEvents.push("gameOpenForestry");                 // Forestry is opened
-        allEvents.push("gameFoodworldCropped");             // Foodworld building has been cropped
-        allEvents.push("gameFoodworldOpened");              // Foodworld is opened
-        allEvents.push("gameFoodworldOpened1");             // Foodworld building 1 is opened
-        allEvents.push("gameFoodworldOpened2");             // Foodworld building 2 is opened
-        allEvents.push("gameFoodworldOpened3");             // Foodworld building 3 is opened
-        allEvents.push("gameFoodworldOpened4");             // Foodworld building 4 is opened
-        allEvents.push("gameFoodworldSlotOpened");          // Foodworld slot has been opened
-        allEvents.push("gameFoodworldStarted");             // Foodworld building has been started
-        allEvents.push("gameSawmillCropped");               // Sawmill has been cropped
-        allEvents.push("gameSawmillOpened");                // Sawmill is opened
-        allEvents.push("gameSawmillStarted");               // Sawmill has been started
-        allEvents.push("gameSawmillSlotOpened");            // Sawmill-Slot is opened
-        allEvents.push("gameCarpentryCropped");             // Carpentry has been cropped
-        allEvents.push("gameCarpentryOpened");              // Carpentry is opened
-        allEvents.push("gameCarpentryStarted");             // Carpentry has been started
-        allEvents.push("gameCarpentrySlotOpened");          // Carpentry-Slot is opened
-        allEvents.push("gameCity1");                        // city 1 is opened
-        allEvents.push("gameCity2");                        // city 2 is opened
-        allEvents.push("gameLotteryOpen");                  // lottery frame is opened
-        allEvents.push("gameLotteryGotDailyLot");           // daily lot is taken
-        allEvents.push("gameLotteryGotLot");                // lot decision question is shown
-        allEvents.push("gameLotteryGotPrize");              // got price
-        allEvents.push("gameLotteryDailyLotAvailable");     //
-        allEvents.push("gamePoweruprackUpdated");           // Power-up data updated
-        allEvents.push("gameQuestNewAvailable");            // There is a new quest that can be played
-        allEvents.push("gameQuestAccepted");                // Quest is accepted
-        //allEvents.push("gameQuestActive");                    // There is an activated quest
-        allEvents.push("gameQuestFinished");                // Quest is finished
-        allEvents.push("gameQuestSolvable");
-        allEvents.push("gameNewDay");                       // a new day started
-        allEvents.push("gameWindmillStarted");              // the windmill has been started
-        allEvents.push("gameWindmillCropped");              // the windmill has been cropped
-        allEvents.push("gameWindmillDialogStart");          // the windmill has opened a recipe dialogue
-        allEvents.push("gameWindmillDialogCommit");         // the windmill has requested for commit of a recipe dialogue
-        allEvents.push("gameZoneReady");                    // a zone is ready. unsafeData.readyZone is set
-        allEvents.push("gameUpdateFormuladealerOffers");    // the formula-dealer has filled the offers
-        allEvents.push("gameUpdateFormuladealerRack");      // the formula-dealer has filled the recipes rack
-        allEvents.push("gamePowerupActivated");             // a power-up has been executed
-        allEvents.push("gameReallocateBuilding");           // 2 buildings are swapped. unsafeData.reallocateBuildingSet is set [1..18,1..18]
-        allEvents.push("gameUserlevelUp");                  // a new level is reached
-        allEvents.push("beraterDone");                      // script successfully executed
-    
-        for(var v=0;v<allEvents.length;v++){
-            document.addEventListener(allEvents[v],function(event){
-                logBubble.add("Event:&nbsp;"+event.type,10,"#099");
-                //GM_log("Event:&nbsp;"+event.type);
-            },false);
-        }
-        allEvents=null;
-    }
+    var err_trace="Init";
+    reloader.stop("pageLoad");
+    reloader.start("scriptLoad",10,getText("userscriptNotStarted"));
     err_trace="CSS";
+    {
     GM_addStyle(
         "input:hover{background-color:#cc9!important;}\
         input:focus{background-color:lightblue!important;}\
@@ -19642,7 +18836,7 @@ if(location.href==GM_Home){
             TEXTAREA,.text,.text2{cursor:text!important;}"
         );
     }
-    
+    }
     // **************************************************
     // ChangeData Global 
     // -->> add var to delete also to resetVariables
@@ -19689,7 +18883,7 @@ if(location.href==GM_Home){
     if(loc){
         SERVER=loc[1];
         PAGE=location.pathname.replace(/^\//,"").replace(/\.php.*$/,"");
-        GM_logInfo("startScript","","PAGE="+PAGE+" location.pathname:"+location.pathname,"",0);
+        GM_logInfo("scriptStart","","PAGE="+PAGE+" location.pathname:"+location.pathname,"",0);
 
         err_trace="User";
         USERNAME=GM_getValue(COUNTRY+"_"+SERVER+"_username","");
@@ -19698,7 +18892,7 @@ if(location.href==GM_Home){
         npcSaison=explode(GM_getValue(COUNTRY+"_"+SERVER+"_NpcSaison"),"npcSaison",null);
         if(npcSaison==null){
             npcSaison=INIT_NPC_SAISON.clone();
-            GM_setValue(COUNTRY+"_"+SERVER+"_NpcSaison",implode(npcSaison,"startScript/npcSaison"));
+            GM_setValue(COUNTRY+"_"+SERVER+"_NpcSaison",implode(npcSaison,"scriptStart/npcSaison"));
         }
         css_styles = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles","{}"),"css_styles",INIT_CSS_STYLES);
         //GM_log("css_styles length:"+css_styles.length()+" :"+implode(css_styles));
@@ -19710,7 +18904,7 @@ if(location.href==GM_Home){
                 css_styles[tag]=INIT_CSS_STYLES[tag];
             }
         }
-        if(changeFlag){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"startScript/css_styles")); }
+        if(changeFlag){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"scriptStart/css_styles")); }
         changeFlag=null;
         GM_addStyle(
             ".zoneTimer{z-index:3;position:absolute;padding:2px;margin:1px;"+css_styles["timer"][1]+"}\
@@ -19864,8 +19058,18 @@ if(location.href==GM_Home){
                 css_styles["timer_ready"] = INIT_CSS_STYLES["timer_ready"];
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"ChangeData/22/css_styles"));
             }
+            case 23:{
+                var data=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones","{}"),"zones.init/data",{});
+                if(data["megafield"]){ 
+                    delete data["megafield"];
+                }
+                if(data["windmill"]){ 
+                    delete data["windmill"];
+                }
+                GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones",implode(data,"zones.save/data"));
             }
-            if(changedata<23){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_changedata",23); }
+            }
+            if(changedata<24){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_changedata",24); }
             changedata = null;
         }catch(err){GM_logError("changedata account","","",err);}
         
@@ -19942,7 +19146,7 @@ if(location.href==GM_Home){
         }
     
         err_trace="Page switch";
-        GM_logInfo("startScript","","PAGE="+PAGE,"Loading page",0);
+        GM_logInfo("scriptStart","","PAGE="+PAGE,"Loading page",0);
         switch (PAGE){
             case "stadt/shop":          do_shop();break;
             case "stadt/stats":         do_stats();break;
@@ -19963,31 +19167,954 @@ if(location.href==GM_Home){
         unsafeData.beraterDone=true;
         raiseEvent("beraterDone");
     },100);
+    reloader.stop("scriptLoad");
+}catch(err){ GM_logError("scriptStart","","err_trace="+err_trace+" location.href="+location.href,err); }
 }
-}catch(err){ GM_logError("startScript","","err_trace="+err_trace+" location.href="+location.href,err); }
-}
-function initScript(time){
+function scriptInit(){
+// This function is executed on start of the script. This can be before the document is loaded completely.
 try{
-    var div;
-    if((document.readyState=="complete")||(document.readyState=="loaded")){
-        if((self==top)&&(div=$("bubbleBeraterNotLoaded"))){
-            removeElement(div);
-        }
-        startScript();
+    var err_trace="Init";
+    unsafeData.beraterVersion=VERSION;
+    err_trace="Localization";
+    if(top.unsafeData.COUNTRY){
+        COUNTRY=top.unsafeData.COUNTRY;
+        LANGUAGE=top.unsafeData.LANGUAGE;
+        delimThou=top.unsafeData.delimThou;
+        regDelimThou=top.unsafeData.regDelimThou;
+        regDelimThouShift=top.unsafeData.regDelimThouShift;
+        regDelimThouDelete=top.unsafeData.regDelimThouDelete;
+        delimDeci=top.unsafeData.delimDeci;
+        regDelimDeci=top.unsafeData.regDelimDeci;
+        dateFormatDM=top.unsafeData.dateFormatDM;
+        dateFormatDMY=top.unsafeData.dateFormatDMY;
     }else{
-        if(time>0){
-            if(self==top){
-                div=$("bubbleBeraterNotLoaded");
-                if(!div){
-                    div=createElement("div",{"id":"bubbleBeraterNotLoaded","style":"position:absolute;top:0;left:0;width:340px;padding:30px;background-color:yellow;border:3px solid black;border-radius:10px;z-index:1000;font-family:Verdana,sans-serif;color:#000000;font-size:12pt;font-weight:bold;"},document.getElementsByTagName("body")[0]);
-                }
-                div.innerHTML = "Page '"+location.href+"' is not completely loaded.<br><br>Reload in "+time+"sec.";
-            }
-            window.setTimeout(function(){ initScript(--time); },1000);
+        if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.de$/)){
+            COUNTRY="DE";
+            LANGUAGE="de";
+        }else if(location.hostname.match(/^(|www\.|s\d+\.)au\.myfreefarm.com$/)){
+            COUNTRY="AU";
+            LANGUAGE="en";
+            delimThou=",";
+            regDelimThou=",";
+            regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
+            regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
+            delimDeci=".";
+            regDelimDeci="\\.";
+        }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.ir$/)){
+            COUNTRY="IR";
+            LANGUAGE="en";
+            delimThou=",";
+            regDelimThou=",";
+            regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
+            regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
+            delimDeci=".";
+            regDelimDeci="\\.";
+        }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.co.nz$/)){
+            COUNTRY="NZ";
+            LANGUAGE="en";
+            delimThou=",";
+            regDelimThou=",";
+            regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
+            regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
+            delimDeci=".";
+            regDelimDeci="\\.";
+        }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.co.uk$/)){
+            COUNTRY="UK";
+            LANGUAGE="en";
+            delimThou=",";
+            regDelimThou=",";
+            regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
+            regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
+            delimDeci=".";
+            regDelimDeci="\\.";
+        }else if(location.hostname.match(/^(|www\.|s\d+\.)myfreefarm.com$/)){
+            COUNTRY="US";
+            LANGUAGE="en";
+            delimThou=",";
+            regDelimThou=",";
+            regDelimThouShift="([\\d,])(\\d),(\\d{1,2}\\D)";
+            regDelimThouDelete="(\\d),(,*)(\\d{1,2}\\D)";
+            delimDeci=".";
+            regDelimDeci="\\.";
         }else{
-            location.href=location.href;
+            GM_logWarning("scriptStart","","","!");
         }
+        top.unsafeData.COUNTRY=COUNTRY;
+        top.unsafeData.LANGUAGE=LANGUAGE;
+        top.unsafeData.delimThou=delimThou;
+        top.unsafeData.regDelimThou=regDelimThou;
+        top.unsafeData.regDelimThouShift=regDelimThouShift;
+        top.unsafeData.regDelimThouDelete=regDelimThouDelete;
+        top.unsafeData.delimDeci=delimDeci;
+        top.unsafeData.regDelimDeci=regDelimDeci;
+        top.unsafeData.dateFormatDM=dateFormatDM;
+        top.unsafeData.dateFormatDMY=dateFormatDMY;
     }
-}catch(err){GM_logError("initScript","","",err);}
+    err_trace="COUNTRY error";
+    if(!COUNTRY||!GAMEPAGES[COUNTRY]||!location.hostname.match(GAMEPAGES[COUNTRY])){
+        createElement("div",{"style":"position:absolute;top:0;left:0;width:340px;padding:30px;background-color:yellow;border:3px solid black;border-radius:10px;z-index:1000;font-family:Verdana,sans-serif;color:#000000;font-size:12pt;font-weight:bold;"},document.getElementsByTagName("body")[0],"You have to install a language pack. Download one at <a href='https://openuserjs.org/group/MyFreeFarm'>openuserjs.org</a>.")
+        throw("Language pack is missing");
+    }
+    err_trace="Texts";
+    if(top.unsafeData.texte==undefined){
+        top.unsafeData.texte=texte;
+    }else{
+        texte=top.unsafeData.texte;
+    }
+    if(top.unsafeData.texte["de"]==undefined){
+        texte["de"]=new Object();
+        texte["de"]["msgMarketsaleContent"]="(.*) hat am Marktplatz (\\d+)x (.*?) von dir<br> f&uuml;r (.*?) kT gekauft\\.";
+        texte["de"]["msgContractsaleContent"]="(.*) hat einen Vertrag von dir unterzeichnet!<br><br> Folgende Produkte wurden verkauft:<br>(.*?)<br> Die Vertragssumme von (.*?) kT wurde deinem Konto gutgeschrieben\\.";
+        texte["de"]["msgSubjectWeed"]="Oh nein!";
+        texte["de"]["msgSubjectGift"]="Geschenk für Dich";
+        texte["de"]["msgContractsaleList"]="(\\d+)x (.+?)<br>";
+        texte["de"]["msgFriend"]="(.+) m"+o_dots+"chte dich als Freund hinzuf"+u_dots+"gen";
+
+        texte["de"]["above"]="davor";
+        texte["de"]["absolute"]="absolut";
+        texte["de"]["accountActive"]="Account aktiv";
+        texte["de"]["accounts"]="Accounts";
+        texte["de"]["activation"]="Freischaltung";
+        texte["de"]["additionalFarmi"]="%1% Zusatzfarmi t"+a_dots+"glich";
+        texte["de"]["additionalForestFarmiSlot"]="%1% Zusatzplatz in der Waldfarmi-Warteschlange";
+        texte["de"]["additionalLogCapacity"]="Erh"+o_dots+"hung der Lagerkapazit"+a_dots+"t St"+a_dots+"mme um %1%";
+        texte["de"]["advertisingEnds"]="Werbung endet heute";
+        texte["de"]["adviser"]="Berater";
+        texte["de"]["afterFee"]="abzgl Geb"+u_dots+"hr";
+        texte["de"]["alertSetPriceNone"]="M"+o_dots+"chtest du wirklich keinen Preis f"+u_dots+"r %PRODUCT% setzen?";
+        texte["de"]["alertSetPriceOverNPC"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist h"+o_dots+"her als der NPC-Preis %NPC%.";
+        texte["de"]["alertSetPriceOverObs"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist viel h"+o_dots+"her als der beobachtete Preis %OBS%.";
+        texte["de"]["alertSetPriceUnderObs"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist viel niedriger als der beobachtete Preis %OBS%.";
+        texte["de"]["alertWillLowRack"]="Achtung! Dies wird deinen Lagerbestand unter den Minimalwert bringen!";
+        texte["de"]["all"]="Alle";
+        texte["de"]["autologinAllOk"]="Alle Accounts eingeloggt.";
+        texte["de"]["autologinChecking"]="Ermittle aktive Sessions.<br>Bitte %1% Sekunden warten<br>...";
+        texte["de"]["bonus"]="Bonus";
+        texte["de"]["boughtTickets"]="Gekaufte Tickets";
+        texte["de"]["buy"]="Kauf";
+        texte["de"]["buyers"]="K"+a_dots+"ufer";
+        texte["de"]["calcTo"]="Berechne bis";
+        texte["de"]["carpentry"]="Schreinerei";
+        texte["de"]["city"]="Stadt";
+        texte["de"]["change"]=A_dots+"nderung";
+        texte["de"]["clearFilter"]="Filter entfernen";
+        texte["de"]["click"]="Klick";
+        texte["de"]["clickAlt"]="Alt+Klick";
+        texte["de"]["clickCtrl"]="Strg+Klick";
+        texte["de"]["clickDouble"]="Doppel-Klick";
+        texte["de"]["clickToChange"]="Klick um zu "+a_dots+"ndern";
+        texte["de"]["commission"]   = "Geb"+u_dots+"hr";
+        texte["de"]["coins"]=unsafeWindow.t_coins;
+        texte["de"]["confirmUseObservedPrices"]="Es werden die beobachteten Preise eingetragen. Die eigenen gehen dabei verloren ...";
+        texte["de"]["confirmChangelogVersion"]="Du hast eine neue Version des Berater-Scriptes installiert.<br>Die Version %1% beinhaltet folgende "+A_dots+"nderungen:";
+        texte["de"]["contract"]="Vertrag";
+        texte["de"]["contractsReceived"]="Erhaltene Vertr"+a_dots+"ge";
+        texte["de"]["contractsSent"]="Gesendete Vertr"+a_dots+"ge";
+        texte["de"]["copyToTextFile"]="Kopiere diesen Satz in eine Text-Datei";
+        texte["de"]["couldNotGetRank"]="Dein Platz konnte nicht bestimmt werden.";
+        texte["de"]["couldNotGetUpdateInfoOfX"]="Update-Informationen f"+u_dots+"r %1% konnten nicht bestimmt werden."
+        texte["de"]["createStorageString"]="Erstelle Speicher-Satz";
+        texte["de"]["cropped"]="Geerntet";
+        texte["de"]["currentOffers"]="Aktuelle Angebote";
+        texte["de"]["dailyRuns"]="T"+a_dots+"gl L"+a_dots+"ufe";
+        texte["de"]["dailyTicket"]="T"+a_dots+"gliches Ticket";
+        texte["de"]["dailyYield"]="T"+a_dots+"gl Ertrag";
+        texte["de"]["date"]="Datum";
+        texte["de"]["day"]="Tag";
+        texte["de"]["day0"]="Heute";
+        texte["de"]["day1"]="Morgen";
+        texte["de"]["day2"]=U_dots+"bermorgen";
+        texte["de"]["default"]="Default";
+        texte["de"]["delete"]="L"+o_dots+"schen";
+        texte["de"]["deleteFollowingData"]="L"+o_dots+"schen folgende Daten";
+        texte["de"]["demand"]="Forderung";
+        texte["de"]["detail"]="Detail";
+        texte["de"]["difficulty"]="Schwierigkeit";
+        texte["de"]["donkey"]="Waltraud";
+        texte["de"]["duration"]="Dauer";
+        texte["de"]["editPrice"]="Preis "+a_dots+"ndern";
+        texte["de"]["emptyField"]="Feld leer!";
+        texte["de"]["end"]="Ende";
+        texte["de"]["exchangedLots"]="Eingel"+o_dots+"ste Lose";
+        texte["de"]["farm"]="Farm";
+        texte["de"]["farmersmarket"]=unsafeWindow.t_farmers_market;
+        texte["de"]["farmX"]="%1%. Farm";
+        texte["de"]["farmi"]="Farmi";
+        texte["de"]["farmis"]="Farmis";
+        texte["de"]["farmpedia"]="FarmPedia";
+        texte["de"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
+        texte["de"]["farmzone"]="Bauplatz %1% der %2%. Farm";
+        texte["de"]["feed"]="Futter";
+        texte["de"]["fields"]="Felder";
+        texte["de"]["filter"]="Filter";
+        texte["de"]["filterForX"]="Nach %1% filtern";
+        texte["de"]["finished"]="Fertig";
+        texte["de"]["foodworld"]=unsafeWindow.foodworld_title;
+        texte["de"]["forest"]="Wald";
+        texte["de"]["forestry"]="Baumerei";
+        texte["de"]["formatNumbers"]="Formatiere Zahlen";
+        texte["de"]["formulaType"]=["Prod","+val","+pts"];
+        texte["de"]["fl1"]="Blumenwiese";
+        texte["de"]["fl2"]="Blumenwerkstatt";
+        texte["de"]["fl3"]="Monsterfruchtzucht";
+        texte["de"]["fl6"]="Wettmampfen";
+        texte["de"]["fw1"]="Getr"+a_dots+"nkebude";
+        texte["de"]["fw2"]="Imbissbude";
+        texte["de"]["fw3"]="Konditorei";
+        texte["de"]["gamecurrency"]=unsafeWindow.gamecurrency;
+        texte["de"]["gain"]="Erzeugnis";
+        texte["de"]["general"]="Allgemein";
+        texte["de"]["given"]="Gegeben";
+        texte["de"]["goToDonkey"]="Zum Goldesel Waltraud";
+        texte["de"]["goToLottery"]="Zur Lotterie";
+        texte["de"]["goToMarket"]="Zum Markt";
+        texte["de"]["goToMarketOfX"]="Zum %1%-Markt";
+        texte["de"]["goToMarketstall"]="Zum Marktstand";
+        texte["de"]["goToPage"]="gehe zu Seite";
+        texte["de"]["goToRank"]="Gehe zu Platz";
+        texte["de"]["goToZoneX"]="Gehe zur Zone %1%";
+        texte["de"]["goods"]="Waren";
+        texte["de"]["hide"]="ausblenden";
+        texte["de"]["highlightProducts"]="Produkte am Markt markieren";
+        texte["de"]["highlightUser"]="User am Markt markieren";
+        texte["de"]["hotkeys"]="Hotkeys";
+        texte["de"]["idle"]="unbesch"+a_dots+"ftigt !!";
+        texte["de"]["importStorageString"]="Importiere Speicher-Satz";
+        texte["de"]["importStorageStringError"]="Entschuldige. Der Speicher-Satz konnte nicht gelesen werden.";
+        texte["de"]["inStock"]="im Lager";
+        texte["de"]["informationIsMissing"]="Es fehlen Informationen."
+        texte["de"]["ingredients"]="Zutaten";
+        texte["de"]["invalidServer"]="Ung"+u_dots+"ltiger Server";
+        texte["de"]["inventory"]="Bestand";
+        texte["de"]["keptLots"]="Behaltene Lose";
+        texte["de"]["level"]="Level";
+        texte["de"]["levelTooLow"]="Dein Level ist zu niedrig";
+        texte["de"]["levelXneeded"]="Level&nbsp;%1%&nbsp;ben"+o_dots+"tigt";
+        texte["de"]["load"]="Laden";
+        texte["de"]["loading"]="Lade";
+        texte["de"]["localTime"]="Lokale Zeit";
+        texte["de"]["lodge"]="Forsth"+u_dots+"tte";
+        texte["de"]["login"]="Umloggen";
+        texte["de"]["loginPageFound"]="Login-Seite gefunden";
+        texte["de"]["loginPortalSubmitted"]="Portal-Login ausgeführt";
+        texte["de"]["loginSubmitted"]="Login ausgeführt";
+        texte["de"]["logDonkey"]="Goldesel Waltraud Log";
+        texte["de"]["lotteryLog"]="Lotterie Log";
+        texte["de"]["lvl"]="Lvl";
+        texte["de"]["manageVariables"]="Variablen verwalten";
+        texte["de"]["market"]="Markt";
+        texte["de"]["marketPrice"]="Marktpreis";
+        texte["de"]["marketplace"]="Marktplatz";
+        texte["de"]["marketstall"]="Marktstand";
+        texte["de"]["megafield"]="G"+u_dots+"terhof";
+        texte["de"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;
+        texte["de"]["messages"]="Nachrichten";
+        texte["de"]["minRack"]="Min&nbsp;Lager";
+        texte["de"]["minRackamount"]="Minimaler Lagerbestand";
+        texte["de"]["missing"]="Fehlt";
+        texte["de"]["money"]="Geld";
+        texte["de"]["name"]="Name";
+        texte["de"]["newLevelReached"]="Herzlichen Gl"+u_dots+"ckwunsch!<br>Du bist ein Level aufgestiegen!";
+        texte["de"]["nextMessage"]="n"+a_dots+"chste Nachricht";
+        texte["de"]["no"]="Nein";
+        texte["de"]["nothingSelected"]="Nichts ausgew"+a_dots+"hlt";
+        texte["de"]["NPC"]="NPC";
+        texte["de"]["NPCprice"]="NPC-Preis";
+        texte["de"]["nr"]="Nr";
+        texte["de"]["observed"]="beobachtet";
+        texte["de"]["ok"]="OK";
+        texte["de"]["oldOnes"]="Alte";
+        texte["de"]["options"]="Optionen";
+        texte["de"]["overNPCprice"]=u_dots+"ber NPC-Preis";
+        texte["de"]["overX"]=u_dots+"ber %1%";
+        texte["de"]["overview"]=U_dots+"bersicht";
+        texte["de"]["pageXNotLoaded"]="Die Seite '%1%' ist nicht vollst"+a_dots+"ndig geladen.";
+        texte["de"]["password"]="Passwort";
+        texte["de"]["pleaseOpenX"]="Bitte %1% "+o_dots+"ffnen.";
+        texte["de"]["pleaseWait"]="Bitte warten.";
+        texte["de"]["portalLogin"]="Portal-Login";
+        texte["de"]["points"]="Punkte";
+        texte["de"]["powerups"]="Power-Ups";
+        texte["de"]["previousMessage"]="vorige Nachricht";
+        texte["de"]["price"]="Preis";
+        texte["de"]["prices"]="Preise";
+        texte["de"]["product"]="Produkt";
+        texte["de"]["productOverview"]="Produkt "+U_dots+"bersicht";
+        texte["de"]["productTimeSaving"]="%1% Minuten Zeitersparnis auf %2%";
+        texte["de"]["production"]="Produktion";
+        texte["de"]["products"]="Produkte";
+        texte["de"]["profit"]="Gewinn";
+        texte["de"]["profitTable"]="Profit pro Zone pro Tag";
+        texte["de"]["quantity"]="Menge";
+        texte["de"]["quest_foodworld"]="Picknickarea-Questreihe";
+        texte["de"]["quest_forestry"]="Baumerei-Questreihe";
+        texte["de"]["quest_main"]="Farm-Questreihe";
+        texte["de"]["questfoodworld1"]="Picknickarea-Questreihe";
+        texte["de"]["questforestry1"]="1. Baumerei-Questreihe";
+        texte["de"]["questforestry2"]="2. Baumerei-Questreihe";
+        texte["de"]["questmain1"]="1. Farm-Questreihe";
+        texte["de"]["questmain2"]="2. Farm-Questreihe";
+        texte["de"]["quests"]="Quests";
+        texte["de"]["rackX"]="%1%. Regal";
+        texte["de"]["rank"]="Platz";
+        texte["de"]["readAll"]="Alle lesen";
+        texte["de"]["readyAtX"]="Fertig um %1%";
+        texte["de"]["readyAtX_day1"]="Morgen fertig um %1%";
+        texte["de"]["readyAtX_day2"]=U_dots+"bermorgen fertig um %1%";
+        texte["de"]["readySinceX"]="Fertig seit %1%";
+        texte["de"]["recipes"]="Rezepte";
+        texte["de"]["recursive"]="Rekursiv ben"+o_dots+"tigt";
+        texte["de"]["relative"]="relativ";
+        texte["de"]["reloadInXSec"]="Neu laden in %1%s.";
+        texte["de"]["relogin"]="Session endet bald.<br>Neuer Login in %1%.";
+        texte["de"]["remaining"]="Verbleibend";
+        texte["de"]["requestingUpdateInfoOfX"]="Fordere Update-Informationen f"+u_dots+"r %1% an ..."
+        texte["de"]["requestingUserStatistic"]="Fordere Benutzer-Statistik an ...";
+        texte["de"]["requirement"]="Bedarf";
+        texte["de"]["requirementPerProduction"]="Bedarf pro Produktion";
+        texte["de"]["reward"]="Belohnung";
+        texte["de"]["salesLog"]="Verk"+a_dots+"ufe Log";
+        texte["de"]["save"]="Speichern";
+        texte["de"]["saveAsTemplate"]="als Vorlage speichern";
+        texte["de"]["sawmill"]="S"+a_dots+"gewerk";
+        texte["de"]["scriptHomepage"]="Scripthomepage";
+        texte["de"]["searchPlayer"]="Spieler suchen";
+        texte["de"]["seed"]="Saat";
+        texte["de"]["seedPerField"]="Saat pro Feld";
+        texte["de"]["sendContract"]="Vertrag schicken";
+        texte["de"]["sendContractAgain"]="Vertrag noch einmal schicken";
+        texte["de"]["sentContractNrX"]="Vertrag Nr %1% gesendet."
+        texte["de"]["sendingXObservedPricesToServer"]="Sende %1% beobachtete Preise an Server ...";
+        texte["de"]["server"]="Server";
+        texte["de"]["serverTime"]="Zeit des Servers";
+        texte["de"]["sessionEnd"]="Ende der Session um %1%<br>Klick f"+u_dots+"r neuen Login";  
+        texte["de"]["SGH"]="SGH"; // Short for the seller of plants
+        texte["de"]["shadowboxitem"]="Setzkastenitem";
+        texte["de"]["shortHours"]="h";
+        texte["de"]["shortOClock"]="Uhr";
+        texte["de"]["shouldReload"]="Du solltest die Seite neu laden.";
+        texte["de"]["showAll"]="Alle zeigen";
+        texte["de"]["showChangelog"]="Zeige ChangeLog";
+        texte["de"]["showLog"]="Zeige Log";
+        texte["de"]["showMissingProducts"]="Zeige fehlende Produkte";
+        texte["de"]["showPasswords"]="zeige Passw"+o_dots+"rter";
+        texte["de"]["sinceX"]="seit %1%";
+        texte["de"]["single"]="Einzel";
+        texte["de"]["start"]="Start";
+        texte["de"]["stat_days1"]="1 Tag";
+        texte["de"]["stat_days3"]="3 Tage";
+        texte["de"]["stat_days5"]="5 Tage";
+        texte["de"]["stat_days7"]="7 Tage";
+        texte["de"]["stat_gamefield"]="Spielfeld zeigen";
+        texte["de"]["stat_stats"]="Statistik zeigen";
+        texte["de"]["statistics"]="Statistik";
+        texte["de"]["stock"]="Lager";
+        texte["de"]["stockValue"]="Lagerwert";
+        texte["de"]["stockXlow"]="Lagerbestand %1% niedrig";
+        texte["de"]["stockXmissing"]="Lagerbestand %1% fehlt!!!";
+        texte["de"]["storeXinContract"]="%1% im Vertrag auslagern";
+        texte["de"]["summarize"]="Summiere";
+        texte["de"]["takeObservedPrices"]="Nimm beobachtete Preise";
+        texte["de"]["time"]="Zeit";
+        texte["de"]["title"]="Titel";
+        texte["de"]["toMessage"]="zur Nachricht";
+        texte["de"]["toSGH"]="Zum Saatguth"+a_dots+"ndler";
+        texte["de"]["total"]="Total";
+        texte["de"]["turnover"]="Umsatz";
+        texte["de"]["unitPrice"]="St"+u_dots+"ckpreis";
+        texte["de"]["upgradeForX"]="ausbauen&nbsp;f"+u_dots+"r&nbsp;%1%";
+        texte["de"]["upgradeLevel"]="Ausbaustufe";
+        texte["de"]["upjersAdvertising"]="Upjers-Werbung";
+        texte["de"]["useQuestProducts"]= "Nimm aktuelle Quest-Waren";
+        texte["de"]["userscriptNotStarted"]="Das Benutzerskript ist nicht vollst"+a_dots+"ndig gestartet.";;
+        texte["de"]["useWildcard"]= "Verwende * um einen oder mehrere Buchstaben zu entsprechen.";
+        texte["de"]["value"]="Wert";
+        texte["de"]["version"]="Version";
+        texte["de"]["waterBonus"]="%1%% Gie"+sz+"bonus";
+        texte["de"]["waterNeeded"]="Wasser ben"+o_dots+"tigt";
+        texte["de"]["waterNeededAtX"]="Wasser ben"+o_dots+"tigt um %1%"; 
+        texte["de"]["waterNeededAtX_day1"]="Morgen Wasser ben"+o_dots+"tigt um %1%";
+        texte["de"]["wateringFeature"]="Gie"+sz+"funktion";
+        texte["de"]["windmill"]="M"+u_dots+"hle";
+        texte["de"]["writeMessage"]="Nachricht schreiben";
+        texte["de"]["XIsUpToDate"]="%1% ist up-to-date."    
+        texte["de"]["yes"]="Ja";
+        texte["de"]["yield"]="Ertrag";
+        texte["de"]["yieldPerProduction"]="Ertrag pro Produktion";
+        texte["de"]["youAreOnRankX"]="Du bist auf Platz %1%.";
+        // category
+        texte["de"]["category_c"]=texte["de"]["coins"];
+        texte["de"]["category_v"]="Pflanzen";
+        texte["de"]["category_e"]="Fortgeschrittene Produkte";
+        texte["de"]["category_z"]=unsafeWindow.rack_deco;
+        texte["de"]["category_o"]=unsafeWindow.rack_oil;
+        texte["de"]["category_fw"]=unsafeWindow.rack_foodworld;
+        texte["de"]["category_fw1"]="Getr"+a_dots+"nke";
+        texte["de"]["category_fw2"]="Speisen";
+        texte["de"]["category_fw3"]="Torten und Kuchen";
+        texte["de"]["category_fw4"]="noch nicht verf"+u_dots+"gbar";
+        texte["de"]["category_fl"]="Blumen";
+        texte["de"]["category_fla"]="Gestecke";
+        texte["de"]["category_f1"]="Setzlinge";
+        texte["de"]["category_f2"]="St"+a_dots+"mme";
+        texte["de"]["category_f3"]="S"+a_dots+"gewerk Produkte";
+        texte["de"]["category_f4"]="Schreinerei Produkte";
+        texte["de"]["category_f5"]="Bauernhaus Holzprodukte";
+        texte["de"]["category_r0"]="Rezepte Produkt";
+        texte["de"]["category_r1"]="Rezepte Erh"+o_dots+"hung Ertrag";
+        texte["de"]["category_r2"]="Rezepte Erh"+o_dots+"hung Punkte";
+        texte["de"]["category_p0"]="Power-Ups Produkt";
+        texte["de"]["category_p1"]="Power-Ups Erh"+o_dots+"hung Ertrag";
+        texte["de"]["category_p2"]="Power-Ups Erh"+o_dots+"hung Punkte";
+        // settings
+        texte["de"]["settings_valAutoWater"]=["Automatisch gie"+sz+"en","Sagt ja der Name schon: Nach dem Pflanzen wird automatisch gegossen, wenn du den 'Alles gie"+sz+"en' besitzt (Premium)."];
+        texte["de"]["settings_valAssumeWater"]=["Gie"+sz+"en annehmen","Dies ist wichtig f"+u_dots+"r Pflanzen, die l"+a_dots+"nger als 24h wachsen. Die Berechnung der Ernte-Zeit nimmt an, dass stets gegossen wird."];
+        texte["de"]["settings_valAutoCrop"]=["Automatisch ernten","Wie zuvor auch: Es wird beim "+O_dots+"ffnen der Ackers geerntet, falls n"+o_dots+"tig."];
+        texte["de"]["settings_valWaterNeeded"]=["Gie"+sz+"en n"+o_dots+"tig","Soll angezeigt werden, dass dein Acker nicht gegossen ist?"];
+        texte["de"]["settings_valCropMsg"]=["Erntemeldung klicken","Du magst die l"+a_dots+"stige Erntemeldung mit dem Schwein nicht? Hier wirst du sie los."];
+        texte["de"]["settings_valLimitEmptyFields"]=["Leere Felder","Es werden unbepflanzte Felder auf deinem Acker erkannt. Sind dies mehr als hier angegeben, wird der Acker als unbenutzt gemeldet."];
+        texte["de"]["settings_valLimitEmptyFields_forest"]=["Leere Felder Wald","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
+        texte["de"]["settings_valMoveAnimals"]=["Bewege Tiere",""];
+        texte["de"]["settings_valContractLogAmount"]=["Anzahl gemerkte Vertr"+a_dots+"ge","Deine letzten erhaltenen und gesendeten Vertr"+a_dots+"ge werden gespeichert und somit kann ein Verlauf angezeigt werden."];
+        texte["de"]["settings_valFarmiLimits"]=["Farmi Grenzen","Die Farmis sind in 3 F"+a_dots+"lle markiert, je nachdem wie gut ihre Bezahl-Rate ist."];
+        texte["de"]["settings_valFarmiMiniInfo"]=["Farmi Mini Info","Zeigt einen kleinen Kreis unter jedem Farmi mit der jeweiligen Klasse der Bezahl-Rate."];
+        texte["de"]["settings_valMinRackMan"]=["Detail Konfiguration","Du editierst die Anzahl selbst *hier*"];
+        texte["de"]["settings_valMinRack"]=[,"Ein Produkt wird markiert, falls der Lagerbestand unter diese Grenze f"+a_dots+"llt. Du kannst verschiedene Werte abh"+a_dots+"ngig von der Kategorie einstellen."];
+        texte["de"]["settings_valMinRackPlantsize"]=["Pflanzengr"+o_dots+sz+"e einrechnen","Zum Beispiel braucht Getreide nur den halben Bestand."];
+        texte["de"]["settings_valMinRackGrowing"]=["Ernteprodukte","Beachtet zus"+a_dots+"tzlich die Produkte in Produktion und in den fertigen Powerups."];
+        texte["de"]["settings_valMinRackQuest"]=["Quest-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Questprodukte."];
+        texte["de"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
+        texte["de"]["settings_valMinRackFarmis"]=["Farmi-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Produkte, die deine Farmis verlangen. Dabei gelten nur diejenigen, die besser als die untere Grenze bezahlen."];
+        texte["de"]["settings_valMinRackForestryFarmis"]=["Forestry farmie products","Adds the amount of the products wanted by the forestry farmies."];
+        texte["de"]["settings_protectMinRack"]=["Marktschutz","Verhindert, dass die Warenmenge beim Marktverkauf den minimalen Lagerbestand unterschreitet."];
+        texte["de"]["settings_valBuyingLimitDown"]=["Untere Kaufmarkierung",""];
+        texte["de"]["settings_valBuyingLimit"]=["Obere Kaufgrenze","Du kannst am Markt nur Produkte kaufen die maximal der Prozentgrenze entsprechen. Dies sch"+u_dots+"tzt dich vor dem versehentlichen Kauf "+u_dots+"bertrieben teurer Waren."];
+        texte["de"]["settings_valBuyingLimitNPC"]=["Nur billiger als NPC kaufen",""];
+        texte["de"]["settings_valSellingLimit"]=["Verkaufgrenzen","Auch dein Verkauf wird gesch"+u_dots+"tzt, so dass du weder zu billig noch zu teuer verkaufst."];
+        texte["de"]["settings_valJoinPrices"]=["Ein Preisfeld","Verbindet die Preis-Eingabefelder beim Marktstand"];
+        texte["de"]["settings_valQuicklinks"]=["Quicklinks am Markt anzeigen","Quicklinks am Markt anzeigen"];
+        texte["de"]["settings_valUseObservedPrices"]=["Benutze beobachtete Preise","Wenn du dich durch den Markt klickst, werden die Preise beobachtet. Ein berechneter Preis ist in der Preisliste zu sehen. Soll dieser automatisch "+u_dots+"bernommen werden?"];
+        texte["de"]["settings_valSendStatistics"]=["Sende Statistiken","Unterst"+u_dots+"tze den <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>. Es werden keine privaten Daten gesendet!"];
+        texte["de"]["settings_valPrivateMessages"]=["Anzahl gemerkte Privatnachrichten","Deine letzten privaten Nachrichten werden gespeichert und somit kann ein Nachrichten-Verlauf mit einem Kontakt angezeigt werden."];
+        texte["de"]["settings_valMarketMessages"]=["Anzahl gemerkte Marktnachrichten","Es bleiben auch alte System-Nachrichten in diesem Speicher, selbst wenn sie "+a_dots+"lter als die maximalen 7&nbsp;Tage sind."];
+        texte["de"]["settings_valMessageRe"]=["Betreff k"+u_dots+"rzen","Ersetzt im Betreff \"Re:Re:\" durch \"Re:\", wenn du eine Antwort schreibst."];
+        texte["de"]["settings_valMessagesSystemMarkRead"]=["Systemnachrichten lesen","Systemnachrichten werden automatisch als gelesen markiert."];
+        texte["de"]["settings_valFoodworldFarmiPlacing"]=["Picknickarea Farmis platzieren","Angenommene Picknickarea Farmis werden automatisch auf einen freien Sitzplatz gewiesen."];
+        texte["de"]["settings_valAutoLogin"]=["Automatisch einloggen","Sobald Nutzerdaten und Passwort eingegeben sind, werden die Accounts wieder eingeloggt. Somit kann wieder gef"+u_dots+"ttert, geerntet, gegossen und gepflanzt werden. Es m"+u_dots+"ssen Popups erlaubt werden bei mehreren Accounts."];
+        texte["de"]["settings_valUpdate"]=["Update","Es wird gepr"+u_dots+"ft, ob eine neuere Version dieses Scriptes verf"+u_dots+"gbar ist."];
+        texte["de"]["settings_valServerTimeOffset"]=["Zeit des Servers",""];
+        texte["de"]["settings_valGamecursor"]=["Spiel-Cursor","Benutze die spieleigenen Cursor an Stelle deiner System-Cursor."];
+        texte["de"]["settings_valDrag"]=["Verschieben","Erlaube das Bewegen der Fenster (obere linke Ecke)."];
+        texte["de"]["settings_valClickErrorbox"]=["Verstecke Fehlerbox","Einige Spieler haben Probleme mit der Fehlerbox. Beachte, dass diese Meldung normalerweise sinnvoll ist!"];
+        texte["de"]["settings_valHotkeys"]=["Hotkeys","Benutze Hotkeys um schnell durch das Spiel zu navigieren. Schau in die Hilfe."];
+        texte["de"]["settings_hotkeymap"]={"prevPage":"vorige Nachricht, Zone, ...","nextPage":"n"+a_dots+"chste Nachricht, Zone, ...","farm1":"1. Farm","farm2":"2. Farm","farm3":"3. Farm","guild":"Club","city1":"Klein Muhstein","city2":"Teichlingen","farmilog":"Farmi-Log","help":"Hilfe","market":"Marktplatz","marketstand":"Marktstand","messages":"Nachrichten","options":"Optionen","profit":"Profit Kalkulation","sgh":"Saatguth"+a_dots+"ndler","overview":U_dots+"bersicht","contract":"Vertr"+a_dots+"ge","systemmessage":"(n"+a_dots+"chste ungelesene) Systemnachricht"};
+        texte["de"]["settings_valzoneAddToGlobalTime"]=["Integration","Soll die Zeit in die Global-Zeit einbezogen werden?"];
+        texte["de"]["settings_valGlobaltimeShowCroppedZone"]=["Beachte geerntete Zonen","Sollen geerntete Zonen in die globale Zeit einbezogen werden?"];
+        texte["de"]["settings_cacheReset"]=["Cache reset","Alle Informationen "+u_dots+"ber deine Zonen werden gel"+o_dots+"scht ..."];
+        // help
+        texte["de"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\""+GM_Home+"\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
+        texte["de"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
+        texte["de"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
+        texte["de"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
+        texte["de"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
+        texte["de"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
+        texte["de"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
+        texte["de"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
+        texte["de"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
+        texte["de"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
+        texte["de"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
+        texte["de"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
+    }
+    if(top.unsafeData.texte["en"]==undefined){
+        texte["en"]=new Object();
+        texte["en"]["msgMarketsaleContent"]="(.*) bought (\\d+)x (.*?) for<br> (.*?) pD from you\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
+        texte["en"]["msgContractsaleContent"]="(.*) has signed a contract of yours!<br><br> The following products have been sold:<br>(.*?)<br> The amount of (.*?) pD has been credited to your account\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
+        texte["en"]["msgContractsaleList"]="(\\d+)x (.*?)<br>"; // The line-pattern for the detailed selling list
+        texte["en"]["msgFriend"]="(.+) would like to add you as a friend"; // The subject. The person has to be replaced by "(.+)"
+        
+        texte["en"]["above"]="above";
+        texte["en"]["absolute"]="absolute";
+        texte["en"]["accountActive"]="Account active";
+        texte["en"]["accounts"]="Accounts";
+        texte["en"]["activation"]="Activation";
+        texte["en"]["additionalFarmi"]="%1% additional farmie daily";
+        texte["en"]["additionalForestFarmiSlot"]="%1% additional place in the forest farmi waiting queue";
+        texte["en"]["additionalLogCapacity"]="Rack capacity for logs increases of %1%";
+        texte["en"]["advertisingEnds"]="Advertising ends today";
+        texte["en"]["adviser"]="Adviser";
+        texte["en"]["afterFee"]="After Fee";
+        texte["en"]["alertSetPriceNone"]="Do you really want to set no price for %PRODUCT%?";
+        texte["en"]["alertSetPriceOverNPC"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is higher than the NPC-value of %NPC%.";
+        texte["en"]["alertSetPriceOverObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much higher than the observed value of %OBS%.";
+        texte["en"]["alertSetPriceUnderObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much lower than the observed value of %OBS%.";
+        texte["en"]["alertWillLowRack"]="Attention! This will drop your stock below the minimal value!";
+        texte["en"]["all"]="All";
+        texte["en"]["autologinAllOk"]="All accounts logged in.";
+        texte["en"]["autologinChecking"]="Checking active sessions.  Please wait %1% seconds<br>...";
+        texte["en"]["bonus"]="Bonus";
+        texte["en"]["boughtTickets"]="Bought tickets";
+        texte["en"]["buy"]="Buy";
+        texte["en"]["buyers"]="Buyers";
+        texte["en"]["calcTo"]="Calculate to";
+        texte["en"]["carpentry"]="Carpentry";
+        texte["en"]["city"]="City";
+        texte["en"]["change"]="Change";
+        texte["en"]["clearFilter"]="Clear filter";
+        texte["en"]["click"]="Click";
+        texte["en"]["clickAlt"]="Alt+Click";
+        texte["en"]["clickCtrl"]="Ctrl+Click";
+        texte["en"]["clickDouble"]="Double-Click";
+        texte["en"]["clickToChange"]="Click to change";
+        texte["en"]["coins"]=unsafeWindow.t_coins;
+        texte["en"]["commission"]="Commission";
+        texte["en"]["confirmUseObservedPrices"]="The observed prices will overwrite previously saved market prices ...";
+        texte["en"]["confirmChangelogVersion"]="You have installed a new version of the Adviser script.<br>The version %1% contains the following changes:";
+        texte["en"]["contract"]="Contract";
+        texte["en"]["contractsReceived"]="Contracts received";
+        texte["en"]["contractsSent"]="Contracts sent";
+        texte["en"]["copyToTextFile"]="Copy this string to a text-file";
+        texte["en"]["couldNotGetRank"]="Your rank could not be determined.";
+        texte["en"]["couldNotGetUpdateInfoOfX"]="Update information for %1% could not be determined.";
+        texte["en"]["createStorageString"]="Create storage string";
+        texte["en"]["cropped"]="Cropped";
+        texte["en"]["currentOffers"]="Current offers";
+        texte["en"]["dailyRuns"]="Daily runs";
+        texte["en"]["dailyTicket"]="Daily ticket";
+        texte["en"]["dailyYield"]="Daily yield";
+        texte["en"]["date"]="Date";
+        texte["en"]["day"]="Day";
+        texte["en"]["day0"]="Today";
+        texte["en"]["day1"]="Tomorrow";
+        // texte["day2"]="Day after tomorrow"; // comment it if not used in the language
+        texte["en"]["default"]="Default";
+        texte["en"]["delete"]="Delete";
+        texte["en"]["deleteFollowingData"]="Delete following data";
+        texte["en"]["demand"]="Demand";
+        texte["en"]["detail"]="Detail";
+        texte["en"]["difficulty"]="Difficulty";
+        texte["en"]["donkey"]="Donkey";
+        texte["en"]["duration"]="duration";
+        texte["en"]["editPrice"]="Edit price";
+        texte["en"]["emptyField"]="Empty field!";
+        texte["en"]["end"]="End";
+        texte["en"]["exchangedLots"]="Exchanged lots";
+        texte["en"]["farm"]="Farm";
+        texte["en"]["farmersmarket"]=unsafeWindow.t_farmers_market;
+        texte["en"]["farmX"]="%1%. farm";
+        texte["en"]["farmi"]="Farmie";
+        texte["en"]["farmis"]="Farmies";    
+        texte["en"]["farmpedia"]="FarmPedia";
+        texte["en"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
+        texte["en"]["farmzone"]="Building place %1% of %2%. farm";
+        texte["en"]["feed"]="Feed";
+        texte["en"]["fields"]="Fields";
+        texte["en"]["filter"]="Filter";
+        texte["en"]["filterForX"]="Filter for %1%";
+        texte["en"]["finished"]="Finished";
+        texte["en"]["foodworld"]=unsafeWindow.foodworld_title;
+        texte["en"]["forest"]="Forest";
+        texte["en"]["forestry"]="Forestry";
+        texte["en"]["formatNumbers"]="Format numbers";
+        texte["en"]["formulaType"]=["Prod","+val","+pts"];
+        texte["en"]["fl1"]="Flower meadow";
+        texte["en"]["fl2"]="Flower workshop";
+        texte["en"]["fl3"]="Monster fruit culture";
+        texte["en"]["fl6"]="Speed eating";
+        texte["en"]["fw1"]="Soda stall";
+        texte["en"]["fw2"]="Snack booth";
+        texte["en"]["fw3"]="Pastry shop";
+        texte["en"]["gain"]="Gain";
+        texte["en"]["gamecurrency"]=unsafeWindow.gamecurrency;
+        texte["en"]["general"]="General";
+        texte["en"]["given"]="Given";
+        texte["en"]["goToDonkey"]="Go to donkey Luke";
+        texte["en"]["goToLottery"]="Go to lottery";
+        texte["en"]["goToMarket"]="Go to market";
+        texte["en"]["goToMarketOfX"]="Go to market of %1%";
+        texte["en"]["goToMarketstall"]="Go to market stall";
+        texte["en"]["goToPage"]="Go to page";
+        texte["en"]["goToRank"]="Go to rank";
+        texte["en"]["goToZoneX"]="Go to zone %1%";
+        texte["en"]["goods"]="Goods";
+        texte["en"]["hide"]="hide";
+        texte["en"]["highlightProducts"]="Highlight products at market";
+        texte["en"]["highlightUser"]="Highlight user at market";
+        texte["en"]["hotkeys"]="Hotkeys";
+        texte["en"]["idle"]="idle !!";
+        texte["en"]["importStorageString"]="Import storage string";
+        texte["en"]["importStorageStringError"]="Sorry. Can't read the storage string.";
+        texte["en"]["inStock"]="in stock";
+        texte["en"]["informationIsMissing"]="Information is missing."
+        texte["en"]["ingredients"]="Ingredients";
+        texte["en"]["invalidServer"]="Invalid Server";
+        texte["en"]["inventory"]="Inventory";
+        texte["en"]["keptLots"]="Kept lots";
+        texte["en"]["level"]="Level";
+        texte["en"]["levelTooLow"]="Your level is too low";
+        texte["en"]["levelXneeded"]="Level&nbsp;%1%&nbsp;needed";
+        texte["en"]["load"]="Load";
+        texte["en"]["loading"]="Loading";
+        texte["en"]["localTime"]="Local time";
+        texte["en"]["lodge"]="Log cabin";   
+        texte["en"]["login"]="Login";
+        texte["en"]["loginPageFound"]="Found login page";
+        texte["en"]["loginPortalSubmitted"]="Submitted portal login";
+        texte["en"]["loginSubmitted"]="Submitted login";
+        texte["en"]["logDonkey"]="Donkey Luke Log";
+        texte["en"]["lotteryLog"]="Lottery Log";
+        texte["en"]["lvl"]="Lvl";
+        texte["en"]["manageVariables"]="Manage variables";  
+        texte["en"]["market"]="Market";
+        texte["en"]["marketPrice"]="Market&nbsp;Price";
+        texte["en"]["marketplace"]="Market place";
+        texte["en"]["marketstall"]="Market stall";
+        texte["en"]["megafield"]="Megafield";
+        texte["en"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;    
+        texte["en"]["messages"]="Messages";
+        texte["en"]["minRack"]="Min&nbsp;rack";
+        texte["en"]["minRackamount"]="Minimal rackamount";
+        texte["en"]["missing"]="Need";
+        texte["en"]["money"]="Offered";
+        texte["en"]["name"]="Name";
+        texte["en"]["newLevelReached"]="Congratulations!<br>You have reached the next level!";
+        texte["en"]["nextMessage"]="next message";
+        texte["en"]["no"]="No";
+        texte["en"]["nothingSelected"]="Nothing selected";
+        texte["en"]["NPC"]="NPC";
+        texte["en"]["NPCprice"]="NPC-Price";
+        texte["en"]["nr"]="Nr";
+        texte["en"]["observed"]="Observed";
+        texte["en"]["ok"]="OK";
+        texte["en"]["oldOnes"]="Old";
+        texte["en"]["options"]="Options";
+        texte["en"]["overNPCprice"]="over NPC-price";
+        texte["en"]["overX"]="over %1%";
+        texte["en"]["overview"]="overview";
+        texte["en"]["pageXNotLoaded"]="Page '%1%' is not loaded completely.";
+        texte["en"]["password"]="Password";
+        texte["en"]["pleaseOpenX"]="Please open %1%.";
+        texte["en"]["points"]="Points";
+        texte["en"]["portalLogin"]="Portal-Login";
+        texte["en"]["powerups"]="Power-Ups";
+        texte["en"]["previousMessage"]="previous message";
+        texte["en"]["price"]="Price";
+        texte["en"]["prices"]="Prices";
+        texte["en"]["product"]="Product";
+        texte["en"]["productOverview"]="Product overview";
+        texte["en"]["productTimeSaving"]="%1% minutes saving for %2%";
+        texte["en"]["production"]="Production";
+        texte["en"]["products"]="Products";
+        texte["en"]["profit"]="Profit";
+        texte["en"]["profitTable"]="Profit per Zone per Day";
+        texte["en"]["quantity"]="Quantity";
+        texte["en"]["quest_foodworld"]="Picnic area quest series";
+        texte["en"]["quest_forestry"]="Series of quests (forestry)";
+        texte["en"]["quest_main"]="Series of quests (farm)";
+        texte["en"]["questfoodworld1"]="Picnic area quest series";
+        texte["en"]["questforestry1"]="1st series of quests (forestry)";
+        texte["en"]["questforestry2"]="2nd series of quests (forestry)";
+        texte["en"]["questmain1"]="1st series of quests (farm)";
+        texte["en"]["questmain2"]="2nd series of quests (farm)";
+        texte["en"]["quests"]="Quests";
+        texte["en"]["rackX"]="%1%. rack";
+        texte["en"]["rank"]="Rank";
+        texte["en"]["readAll"]="Read all";
+        texte["en"]["readyAtX"]="Ready at %1%"; // %1%=2:15+texte["shortOClock"]
+        texte["en"]["readyAtX_day1"]="Tomorrow ready at %1%"; 
+        // texte["en"]["readyAtX_day2"]="Ready in 2days at %1%"; // comment it if not used in the language
+        texte["en"]["readySinceX"]="Ready since %1%"; 
+        texte["en"]["recipes"]="Recipes";
+        texte["en"]["recursive"]="Recursive Needed";
+        texte["en"]["relative"]="relative";
+        texte["en"]["reloadInXSec"]="Reload in %1%s.";
+        texte["en"]["relogin"]="Session ends soon.<br>New login in %1%.";
+        texte["en"]["remaining"]="Remaining";
+        texte["en"]["requestingUpdateInfoOfX"]="Requesting update information for %1% ..."
+        texte["en"]["requestingUserStatistic"]="Requesting user statistic ...";
+        texte["en"]["requirement"]="Need";
+        texte["en"]["requirementPerProduction"]="Requirement per production";   
+        texte["en"]["reward"]="Reward";
+        texte["en"]["salesLog"]="Sales log";
+        texte["en"]["save"]="Save";
+        texte["en"]["saveAsTemplate"]="Save as template";
+        texte["en"]["sawmill"]="Sawmill";
+        texte["en"]["scriptHomepage"]="Script Homepage";
+        texte["en"]["searchPlayer"]="Search player";
+        texte["en"]["seed"]="Seed";
+        texte["en"]["seedPerField"]="Seed per field";
+        texte["en"]["sendContract"]="Send contract";
+        texte["en"]["sendContractAgain"]="Send contract again";
+        texte["en"]["sentContractNrX"]="Sent contract no %1%."
+        texte["en"]["sendingXObservedPricesToServer"]="Sending %1% observed prices to server ...";
+        texte["en"]["server"]="Server";
+        texte["en"]["serverTime"]="Time of server";
+        texte["en"]["sessionEnd"]="End of Session at %1%<br>Click for new login";   
+        texte["en"]["SGH"]="SGH"; // Short for the seller of plants
+        texte["en"]["shadowboxitem"]="Shadowbox item";  
+        texte["en"]["shortHours"]="h";
+        texte["en"]["shortOClock"]="h";
+        texte["en"]["shouldReload"]="You should reload the page.";
+        texte["en"]["showAll"]="Show all";
+        texte["en"]["showChangelog"]="Show changelog";
+        texte["en"]["showLog"]="Show log";
+        texte["en"]["showMissingProducts"]="Show product shortage";
+        texte["en"]["showPasswords"]="show passwords";
+        texte["en"]["sinceX"]="since %1%";
+        texte["en"]["single"]="Single";
+        texte["en"]["start"]="Start";
+        texte["en"]["stat_days1"]="1 day";
+        texte["en"]["stat_days3"]="3 days";
+        texte["en"]["stat_days5"]="5 days";
+        texte["en"]["stat_days7"]="7 days";
+        texte["en"]["stat_gamefield"]="Show game";
+        texte["en"]["stat_stats"]="Show statistics";
+        texte["en"]["statistics"]="Statistics";
+        texte["en"]["stock"]="Stock";
+        texte["en"]["stockValue"]="Stock value";
+        texte["en"]["stockXlow"]="Stock %1% low";
+        texte["en"]["stockXmissing"]="Stock %1% missing!!!";
+        texte["en"]["storeXinContract"]="Store %1% in contract";
+        texte["en"]["summarize"]="Summarize";
+        texte["en"]["takeObservedPrices"]="Take observed prices";
+        texte["en"]["time"]="Time";
+        texte["en"]["title"]="Title";
+        texte["en"]["toMessage"]="to message";
+        texte["en"]["toSGH"]="Go to shop";
+        texte["en"]["total"]="Total";
+        texte["en"]["turnover"]="Turnover";
+        texte["en"]["unitPrice"]="Unit price";
+        texte["en"]["upgradeForX"]="upgrade&nbsp;for&nbsp;%1%";
+        texte["en"]["upgradeLevel"]="Upgrade level";
+        texte["en"]["upjersAdvertising"]="Upjers-Advertising";
+        texte["en"]["useQuestProducts"]= "Use current quest products";
+        texte["en"]["userscriptNotStarted"]= "The userscript is not started completely.";
+        texte["en"]["useWildcard"]= "Use * to match one or more letters.";
+        texte["en"]["value"]="Value";
+        texte["en"]["version"]="Version";
+        texte["en"]["waterBonus"]="%1%% water bonus";
+        texte["en"]["waterNeeded"]="Water needed";
+        texte["en"]["waterNeededAtX"]="Water needed at %1%"; 
+        texte["en"]["waterNeededAtX_day1"]="Tomorrow water needed at %1%";
+        texte["en"]["wateringFeature"]="Watering feature";
+        texte["en"]["windmill"]="Windmill";
+        texte["en"]["writeMessage"]="write message";
+        texte["en"]["XIsUpToDate"]="%1% is up-to-date."
+        texte["en"]["yes"]="Yes";
+        texte["en"]["yield"]="Yield";
+        texte["en"]["yieldPerProduction"]="Yield per production";
+        texte["en"]["youAreOnRankX"]="You are on rank %1%.";
+        // category
+        texte["en"]["category_c"]=texte["en"]["coins"];
+        texte["en"]["category_v"]="Plants";
+        texte["en"]["category_e"]="Advanced products";
+        texte["en"]["category_z"]=unsafeWindow.rack_deco;
+        texte["en"]["category_o"]=unsafeWindow.rack_oil;
+        texte["en"]["category_fw"]=unsafeWindow.rack_foodworld;
+        texte["en"]["category_fw1"]="Drinks";
+        texte["en"]["category_fw2"]="Food";
+        texte["en"]["category_fw3"]="Cakes";
+        texte["en"]["category_fw4"]="not yet available";
+        texte["en"]["category_fl"]="Flowers";
+        texte["en"]["category_fla"]="Arrangements";
+        texte["en"]["category_f1"]="Saplings";
+        texte["en"]["category_f2"]="Logs";
+        texte["en"]["category_f3"]="Sawmill products";
+        texte["en"]["category_f4"]="Carpentry products";
+        texte["en"]["category_f5"]="Wooden farmhouse items";
+        texte["en"]["category_r0"]="Recipes product";
+        texte["en"]["category_r1"]="Recipes increade yield";
+        texte["en"]["category_r2"]="Recipes increade points";
+        texte["en"]["category_p0"]="Power-Ups Produkt";
+        texte["en"]["category_p1"]="Power-Ups increade yield";
+        texte["en"]["category_p2"]="Power-Ups increade points";
+        // settings
+        texte["en"]["settings_valAutoWater"]=["Automatic watering","Plants will be watered after planting, if you have 'Water everything' (Premium)."];
+        texte["en"]["settings_valAssumeWater"]=["Assume watering","This is important for plants growing more than 24h. The calculation of the cropping time assumes watering when needed."];
+        texte["en"]["settings_valAutoCrop"]=["Automatic harvesting","After opening your field, crops will be harvested if necessary."];
+        texte["en"]["settings_valWaterNeeded"]=["Watering needed","Shall the necessity of watering be displayed?"];
+        texte["en"]["settings_valCropMsg"]=["Close harvest dialog","Don't like the annoying harvest notification with the pig?  Get rid of it here."];
+        texte["en"]["settings_valLimitEmptyFields"]=["Empty areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
+        texte["en"]["settings_valLimitEmptyFields_forest"]=["Empty forest areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
+        texte["en"]["settings_valMoveAnimals"]=["Move animals",""];
+        texte["en"]["settings_valContractLogAmount"]=["Number contracts kept","Your last sent and received contracts are kept so that a history of them can be shown."];
+        texte["en"]["settings_valFarmiLimits"]=["Farmie Limits","The farmies are marked in 3 cases depending on their payment-rate."];
+        texte["en"]["settings_valFarmiMiniInfo"]=["Farmie Mini Info","Displays a small circle below each farmie showing its case of payment-rate."];
+        texte["en"]["settings_valMinRackMan"]=["Detail configuration","You edit the amount on your own *here*"];
+        texte["en"]["settings_valMinRack"]=[,"A product is marked if its amount in your rack is falling below this value. You can enter different values depending on the category."];
+        texte["en"]["settings_valMinRackPlantsize"]=["Aspect size of plant","For example grain needs only half of the value above."];
+        texte["en"]["settings_valMinRackGrowing"]=["Growing products","Adds the amount of products that are in production and ready by powerup."];
+        texte["en"]["settings_valMinRackQuest"]=["Quest products","Adds the amount of the quest products"];
+        texte["en"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
+        texte["en"]["settings_valMinRackFarmis"]=["Farmie products","Adds the amount of the products wanted by the farmies which pay more than the lower limit."];
+        texte["en"]["settings_valMinRackForestryFarmis"]=["Lodge farmie products","Adds the amount of the products wanted by the lodge farmies."];
+        texte["en"]["settings_protectMinRack"]=["Selling protection","Prohibits to sell products at market below the minimal rackamount"];
+        texte["en"]["settings_valBuyingLimitDown"]=["Bottom buy highlight",""];
+        texte["en"]["settings_valBuyingLimit"]=["Top buy limit","You can only buy products at the Market up to the limit given.  This protects you from accidentally purchasing very over-priced goods."];
+        texte["en"]["settings_valBuyingLimitNPC"]=["Only allow buy less than price of NPC",""];
+        texte["en"]["settings_valSellingLimit"]=["Sell limits","Your sales are also protected, so that you don't price your own goods too cheaply or too highly."];
+        texte["en"]["settings_valJoinPrices"]=["One input","Joins the price input fields at the market stand."];
+        texte["en"]["settings_valQuicklinks"]=["Show market quicklinks","Show Quicklinks at Market place"];
+        texte["en"]["settings_valUseObservedPrices"]=["Use observed prices","Prices are observed while clicking through the market place. A calculated price can be seen in the price list. Shall this automatically override your settings?"];
+        texte["en"]["settings_valSendStatistics"]=["Send statistics","Support the <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>.  No private data is sent!"];
+        texte["en"]["settings_valPrivateMessages"]=["Number private messages kept","Your last private messages are kept so that a message history of one contact can be shown."];
+        texte["en"]["settings_valMarketMessages"]=["Number market messages kept","Old messages remain in this archive, even if they are older than the maximum 7 days."];
+        texte["en"]["settings_valMessageRe"]=["Short subject","Replaces \"Re:Re:\" to \"Re:\" in the subject when you reply to a message."];
+        texte["en"]["settings_valMessagesSystemMarkRead"]=["Read system messages","System messages are marked read automatically."];
+        texte["en"]["settings_valFoodworldFarmiPlacing"]=["Locate picnic area farmis","Accepted picnic area farmis are located automatically to a vacant seat."];
+        texte["en"]["settings_valAutoLogin"]=["Automatic login","Once username and password information is given, all accounts will be logged in, so that they can be fed, harvested, watered, and planted. Popups must be allowed with multiple accounts."];
+        texte["en"]["settings_valUpdate"]=["Update","Checks whether an updated version of this Advisor script is available."];
+        texte["en"]["settings_valServerTimeOffset"]=["Time of server",""];
+        texte["en"]["settings_valGamecursor"]=["Game cursor","Use the game cursors instead of your system cursors."];
+        texte["en"]["settings_valDrag"]=["Dragging","Allow moving windows by clicking the upper left corner."];
+        texte["en"]["settings_valClickErrorbox"]=["Hide errorbox","Some users have problems with the error box. Keep in mind that this alert is normally useful!"];
+        texte["en"]["settings_valHotkeys"]=["Hotkeys","Use hotkeys to quicker navigate the game. See the help."];
+        texte["en"]["settings_hotkeymap"]={"prevPage":"previous Message, Zone, ...","nextPage":"next Message, Zone, ...","farm1":"1st farm","farm2":"2nd farm","farm3":"3rd farm","guild":"Club","city1":"First Village","city2":"Second Village","farmilog":"Farmi-Log","help":"Help","market":"Market place","marketstand":"Market stand","messages":"Messages","options":"Options","profit":"Profit Calculation","sgh":"Seed retailer","overview":"Overview","contract":"Contracts","systemmessage":"(next unread) system message"};
+        texte["en"]["settings_valzoneAddToGlobalTime"]=["Integrate","Shall the time be included to the global time?"];
+        texte["en"]["settings_valGlobaltimeShowCroppedZone"]=["Integrate cropped zone","Shall the ready-state of the cropped zones be included in the global time?"];
+        texte["en"]["settings_cacheReset"]=["Cache reset","All information about your farms will be deleted ..."];
+        //help
+        texte["en"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\""+GM_Home+"\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
+        texte["en"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
+        texte["en"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
+        texte["en"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
+        texte["en"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
+        texte["en"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
+        texte["en"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
+        texte["en"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
+        texte["en"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
+        texte["en"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
+        texte["en"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
+        texte["en"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
+    }
+    err_trace="Regular expressions";
+    regDelimThou=new RegExp(regDelimThou,"g");
+    regDelimThouShift=new RegExp(regDelimThouShift,"g");
+    regDelimThouDelete=new RegExp(regDelimThouDelete,"g");
+    regDelimDeci=new RegExp(regDelimDeci);
+    regMsgMarketsaleContent=new RegExp(getText("msgMarketsaleContent"));
+    regMsgContractsaleContent=new RegExp(getText("msgContractsaleContent"));
+    regMsgContractsaleList=new RegExp(getText("msgContractsaleList"));
+    regMsgFriend=new RegExp(getText("msgFriend"));
+    err_trace="Events";
+    if(DEVMODE_EVENTS&&(self==top)){
+        var allEvents=new Array();
+        // list of events:
+        allEvents.push("gameWindowContractNew");            // "create new contract"-frame is loaded
+        allEvents.push("gameChangedProdMinRackInit");       // prodMinRackInit  is saved (rack amount detail configuration, market-frame)
+        allEvents.push("gameChangedProdMinRackAddon");      // prodMinRackAddon is saved
+        allEvents.push("gameChangedGut");                   // gut is saved (market-frame)
+        allEvents.push("gameChangedBeobPrice");             // beobPrice is saved (market-frame)
+        allEvents.push("gameChangedOwnMarketOffers");       // ownMarketOffers is saved
+        allEvents.push("gameChangedLevelLog");              // levelLog is saved (message-frame)
+        allEvents.push("gameOtherAccReady");                // another account needs to be worked
+        allEvents.push("gameSessionEnds");                  // the session ends soon (max 120s)
+        allEvents.push("gameInfoPanelOpen");                // the infoPanel is opened and filled
+        allEvents.push("gameInfoPanelOptions");             // the infoPanel has the option-tab loaded
+        allEvents.push("gameUpdateRack");                   // the rack has loaded
+        allEvents.push("gameFieldModified");                // the plants on the opened field are loaded
+        allEvents.push("gameFieldOpened");                  // a field is opened
+        allEvents.push("gameFieldPlanted");                 // a field has been planted
+        allEvents.push("gameFieldWatered");                 // a field has been watered
+        allEvents.push("gameFieldCropped");                 // a field has been cropped
+        allEvents.push("gameFieldDemolished");              // 
+        allEvents.push("gameFactoryKnittingStarted");       // a knitting factory has been started
+        allEvents.push("gameFactoryKnittingCropped");       // a knitting factory has been cropped
+        allEvents.push("gameFactoryKnittingDialogStart");   // a knitting factory has opened a production dialogue
+        allEvents.push("gameFarmLoaded");                   // the farm is loaded
+        allEvents.push("gameFarmOpened");                   // the farm is opened
+        allEvents.push("gameFarmersmarketCropped");         // the farmersmarket is cropped
+        allEvents.push("gameFarmersmarketStarted");         // the farmersmarket has been started
+        allEvents.push("gameFarmersmarketWatered");         // the farmersmarket has been watered
+        allEvents.push("gameFarmersmarketOpened");          // the farmersmarket is opened
+        allEvents.push("gameFarmersmarketOpened1");         // the farmersmarket building 1 is opened
+        allEvents.push("gameFarmersmarketOpened2");         // the farmersmarket building 2 is opened
+        allEvents.push("gameFarmersmarketSlotOpened");      // the farmersmarket building slot has been opened
+        allEvents.push("gameFarmersmarketDialogStart");     // the farmersmarket building has opened a dialogue
+        allEvents.push("gameFarmersmarketDialogCommit");    // the farmersmarket building has requested for commit of a dialogue
+        allEvents.push("gameFarmiNew");                     // a new farmi is appeared
+        allEvents.push("gameFarmiResponse");                // a farmi is been rejected or accepted.
+        allEvents.push("gameMegafieldDialogStarted");       // the megafield view has been moved
+        allEvents.push("gameMegafieldMoved");               // a megafield vehicle has been bought
+        allEvents.push("gameMegafieldTourStarted");         // a megafield tour has been started
+        allEvents.push("gameMegafieldPlanted");             // a field has been planted on the megafield
+        allEvents.push("gameMegafieldVehicleBought");       // a megafield vehicle has been bought
+        allEvents.push("gameOpenCampaign");                 // Forestry Quest is opened
+        allEvents.push("gameOpenStable");                   // a stable is opened
+        allEvents.push("gameOpenFactory");                  // a factory is opened
+        allEvents.push("gameOpenFactoryOil");               // an oil factory is opened
+        allEvents.push("gameOpenFactoryKnitting");          // an knitting factory is opened
+        allEvents.push("gameOpenMarket");                   // the market is opened
+        allEvents.push("gameOpenMegafield");                // the megafield is opened
+        allEvents.push("gameOpenWindmill");                 // the windmill is opened
+        allEvents.push("gameOpenGlobalCommitBox");          // GlobalCommitBox is opened
+        allEvents.push("gameOpenGlobalBox");                // GlobalBox is opened
+        allEvents.push("gameOpenForestry");                 // Forestry is opened
+        allEvents.push("gameFoodworldCropped");             // Foodworld building has been cropped
+        allEvents.push("gameFoodworldOpened");              // Foodworld is opened
+        allEvents.push("gameFoodworldOpened1");             // Foodworld building 1 is opened
+        allEvents.push("gameFoodworldOpened2");             // Foodworld building 2 is opened
+        allEvents.push("gameFoodworldOpened3");             // Foodworld building 3 is opened
+        allEvents.push("gameFoodworldOpened4");             // Foodworld building 4 is opened
+        allEvents.push("gameFoodworldSlotOpened");          // Foodworld slot has been opened
+        allEvents.push("gameFoodworldStarted");             // Foodworld building has been started
+        allEvents.push("gameSawmillCropped");               // Sawmill has been cropped
+        allEvents.push("gameSawmillOpened");                // Sawmill is opened
+        allEvents.push("gameSawmillStarted");               // Sawmill has been started
+        allEvents.push("gameSawmillSlotOpened");            // Sawmill-Slot is opened
+        allEvents.push("gameCarpentryCropped");             // Carpentry has been cropped
+        allEvents.push("gameCarpentryOpened");              // Carpentry is opened
+        allEvents.push("gameCarpentryStarted");             // Carpentry has been started
+        allEvents.push("gameCarpentrySlotOpened");          // Carpentry-Slot is opened
+        allEvents.push("gameCity1");                        // city 1 is opened
+        allEvents.push("gameCity2");                        // city 2 is opened
+        allEvents.push("gameLotteryOpen");                  // lottery frame is opened
+        allEvents.push("gameLotteryGotDailyLot");           // daily lot is taken
+        allEvents.push("gameLotteryGotLot");                // lot decision question is shown
+        allEvents.push("gameLotteryGotPrize");              // got price
+        allEvents.push("gameLotteryDailyLotAvailable");     //
+        allEvents.push("gamePoweruprackUpdated");           // Power-up data updated
+        allEvents.push("gameQuestNewAvailable");            // There is a new quest that can be played
+        allEvents.push("gameQuestAccepted");                // Quest is accepted
+        //allEvents.push("gameQuestActive");                    // There is an activated quest
+        allEvents.push("gameQuestFinished");                // Quest is finished
+        allEvents.push("gameQuestSolvable");
+        allEvents.push("gameNewDay");                       // a new day started
+        allEvents.push("gameWindmillStarted");              // the windmill has been started
+        allEvents.push("gameWindmillCropped");              // the windmill has been cropped
+        allEvents.push("gameWindmillDialogStart");          // the windmill has opened a recipe dialogue
+        allEvents.push("gameWindmillDialogCommit");         // the windmill has requested for commit of a recipe dialogue
+        allEvents.push("gameZoneReady");                    // a zone is ready. unsafeData.readyZone is set
+        allEvents.push("gameUpdateFormuladealerOffers");    // the formula-dealer has filled the offers
+        allEvents.push("gameUpdateFormuladealerRack");      // the formula-dealer has filled the recipes rack
+        allEvents.push("gamePowerupActivated");             // a power-up has been executed
+        allEvents.push("gameReallocateBuilding");           // 2 buildings are swapped. unsafeData.reallocateBuildingSet is set [1..18,1..18]
+        allEvents.push("gameUserlevelUp");                  // a new level is reached
+        allEvents.push("beraterDone");                      // script successfully executed
+    
+        for(var v=0;v<allEvents.length;v++){
+            document.addEventListener(allEvents[v],function(event){
+                GM_logInfo("EventListener","","","Event "+event.type,2);
+            },false);
+        }
+        allEvents=null;
+    }
+    err_trace="MenuCommand";
+    GM_registerMenuCommand(getText("adviser")+" "+"Update", function(){
+        location.href=GM_Source;
+    });
+    GM_registerMenuCommand(getText("adviser")+" "+getText("scriptHomepage"), function(){
+        window.open(GM_Home);
+    });
+    err_trace="scriptStart";
+    if((document.readyState=="complete")||(document.readyState=="loaded")){
+        scriptStart();
+    }else{
+        reloader.start("pageLoad",20,getText("pageXNotLoaded").replace(/%1%/,location.href));
+        window.addEventListener("load", function load(event){
+            window.removeEventListener("load", load, false);
+            scriptStart();
+        },false);        
+    }    
+}catch(err){GM_logError("scriptWait","","err_trace="+err_trace+" location.href="+location.href,err);}
 }
-initScript(20);
+scriptInit();

@@ -3,7 +3,7 @@
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           22.02.2015
+// @date           27.06.2015
 // @version        2.1.5
 // ==/UserScript==
 
@@ -14,7 +14,7 @@ var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
 var DEVMODE_LOG_INFO=GM_getValue("devmode_log_info",true);
 var DEVMODE_LOG_WARNING=GM_getValue("devmode_log_warning",true);
 var DEVMODE_LOG_ERROR=GM_getValue("devmode_log_error",true);
-var OPTION_LOGGING=GM_getValue("logging",[false,false]); // [developer, function call]
+var OPTION_LOGGING=GM_getValue("logging",[false,false,true]); // [developer, function call, events]
 
 // PROTOTYPES ************************************************************************************************************
 String.prototype.reverse = function(){
@@ -239,20 +239,20 @@ function GM_logInfo(name,parameters,variables,text,type){
 try{
     if((undefined===type)||OPTION_LOGGING[type]){
         GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Information\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
-        if(DEVMODE_LOG_INFO){ logBubble.add(name+"\n"+text,10); }
+        if(DEVMODE_LOG_INFO){ logBubble.add(text,10); }
     }
 }catch(err){ GM_logError("GM_logInfo","name="+name+" parameters="+parameters+" variables="+variables+" text="+text,"",err); }
 };
 function GM_logWarning(name,parameters,variables,text){
 try{
     GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Warning\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
-    if(DEVMODE_LOG_WARNING){ logBubble.add(name+"\n"+text,10,"orange"); }
+    if(DEVMODE_LOG_WARNING){ logBubble.add(text,10,"orange"); }
 }catch(err){ GM_logError("GM_logWarning","name="+name+" parameters="+parameters+" variables="+variables+" text="+text,"",err); }
 };
 function GM_logError(name,parameters,variables,text){
 try{
     GM_log((COUNTRY?COUNTRY.toUpperCase():"")+"-"+(SERVER?SERVER:"")+": Error\n"+name+"\n"+parameters+"\n"+variables+"\n"+text);
-    if(DEVMODE_LOG_ERROR){ logBubble.add(name+"\n"+text,10,"red"); }
+    if(DEVMODE_LOG_ERROR){ logBubble.add(text,10,"red"); }
 }catch(err){ GM_log("ERROR in 'GM_logError'\nname="+name+"\n"+err); }
 };
 
@@ -883,114 +883,42 @@ try{
 }catch(err){ GM_logError("countDays","time1="+time1+" time2="+time2,"",err); }
 }
 //---------------------------------------------------------------------------------------------------------------------------
-function explode(str,debugName,defaultReturn,depth){
+function explode(str,debugName,defaultReturn){
 try{
+    /*
     if(debugName==undefined){
         debugName = "";
         GM_logWarning("explode","debugName="+debugName,"","DebugName not set.");
     }else if(typeof defaultReturn==undefined){
         GM_logWarning("explode","debugName="+debugName,"","DefaultReturn not set.");
     }
-        if(str==undefined){
-            throw ("Argument is undefined.");
-        }
-        if(typeof str != "number" && typeof str != "string"){
-            throw ("Argument is not a string nor a number.");
-        }
-//  if(str==""){ return undefined; }
-        var help = eval('(' + str + ')');
-        // if(defaultReturn==undefined){
-            return help;
-        // }
+    */
+    if(str==undefined){
+        throw ("Argument is undefined.");
+    }
+    if(typeof str != "number" && typeof str != "string"){
+        throw ("Argument is not a string nor a number.");
+    }
+    return JSON.parse(str);
 }catch(err){
     if(typeof defaultReturn==undefined){
         GM_logError("explode","debugName="+debugName+" defaultReturn=","",err);
         throw ("ERROR in function 'explode'");
     } else {
-        GM_logWarning("explode","debugName="+debugName+" defaultReturn="+JSON.stringify(defaultReturn),"","Function returns given default. "+err);
+        GM_logWarning("explode","debugName="+debugName+" defaultReturn="+implode(defaultReturn,"explode\error"),"","Function returns given default. "+err);
         return defaultReturn;
     }
 }
-    /*
-    try{
-        function recusiveCheck(h,d,lvl,dpth){
-            var i, correct=true;
-            for(var i in d){
-                if(!d.hasOwnProperty(i)){continue;}
-                if(!((typeof h[i])==(typeof d[i]))||!((h[i] instanceof Array)==(d[i] instanceof Array))){
-                    return false;
-                }
-                if(typeof d[i]=="object" && lvl<dpth && !recusiveControl(h[i],d[i],lvl+1,dpth)){
-                    return false;
-                }
-            }
-            return correct;
-        }
-        var correct=false;
-        if(((typeof help)==(typeof defaultReturn))&&((help instanceof Array)==(defaultReturn instanceof Array))){
-            correct=true;
-            if(!isNaN(depth)&&depth>1&&!recusiveCheck(help,defaultReturn,0,depth)){
-                correct=false;
-            }
-        }
-        if(correct){
-            return help;
-        }else{
-            return defaultReturn;
-        }
-    }catch(err){
-        return help;
-    }
-    */
 }
 function implode(arr,debugName){
 try{
+    /*
     if(debugName==undefined){
         GM_logWarning("implode","arr="+JSON.stringify(arr),"","DebugName not set.");
         debugName = "";
     }
-    var line = new String();
-    var InternalCounter = -1;
-    var NoKey = new Boolean(false);
-    if (arr == undefined){ return ""; }
-    if (typeof arr == "function"){ return "function"; }
-    if (typeof arr == "string"){ return arr; }
-    if (typeof arr == "boolean"){ return arr.toString(); }
-    if (typeof arr == "number"){ return arr.toString(); }
-    if (typeof arr != "object"){ throw("Argument is not an Object or Array. Type is " + typeof arr +".\n"); }
-    var type = (arr instanceof Array); //true->array | false->object
-
-    line = (type)?"[":"{";
-    for(var i in arr ){
-        try{
-            if(!arr.hasOwnProperty(i)){continue;}
-            InternalCounter++;
-            if (type){
-                while (i>InternalCounter){
-                    line += ",";
-                    InternalCounter++;
-                }
-            }else{
-                line += "\"" + i + "\":";
-            }
-            if (typeof arr[i] == "number" || typeof arr[i] == "boolean"){
-                line += arr[i];
-            } else if (typeof arr[i] == "string"){
-                line += "\"" + arr[i].replace(/\\/g,"\\\\").replace(/\"/g,"\\\"") + "\"";
-            } else if(typeof arr[i] == "undefined"){
-                line += 'undefined';
-            } else if(arr[i]==null){
-                line += 'null';
-            } else {
-                line += implode(arr[i],debugName);
-            }
-            line += ",";
-        }catch(err){
-            // GM_logError("implode","debugName="+debugName,"i="+i,err);
-        }
-    }
-    var endChar = line.substring(line.length-1,line.length);
-    return line.substring(0,line.length-1) + (("{[".indexOf(endChar)!=-1)? endChar:"")+ ((type)?"]":"}");
+    */
+    return JSON.stringify(arr);
 } catch (err){
     GM_logError("implode","debugName="+debugName,"",err);
     throw ("ERROR in function 'implode'");
