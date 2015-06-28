@@ -5,6 +5,7 @@
 // @description    Common functions for MyFreeFarm-Scripts
 // @date           27.06.2015
 // @version        2.1.5
+// @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // ==/UserScript==
 
 const VERSIONfunctionFile = "2.1.5";
