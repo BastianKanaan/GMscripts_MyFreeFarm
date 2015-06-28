@@ -10131,7 +10131,7 @@ try{
     unsafeData.automatStarted=automatStarted=true;
 }catch(err){GM_logError("start_script","","err_trace="+err_trace,err);}
 };
-
+// ÄäÖöÜüß
 window.addEventListener("load",function(){
     if(self==top){ do_relogin(60); }
     if(unsafeData.beraterDone){
