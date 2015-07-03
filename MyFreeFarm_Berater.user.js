@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           27.06.2015
-// @version        2.5
+// @date           03.07.2015
+// @version        2.5.1
 // @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
@@ -74,6 +74,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.4.1","12.02.2015",[["Bugfix: Logging Waltraud","Bugfix: Logging Waltraud"]]]
                 ,["2.4.2","01.04.2015",[["Aktualisierung der Daten","Update of data"]]]
                 ,["2.5","27.06.2015",[["Neu: G"+u_dots+"terhof","New: Megafield"],["Neu: Neues Laden der Seite, wenn Login oder Start des Skripts ausbleibt","New: Reload of page if login oder start of script misses"],["Umstellung der Speicher-Art auf JSON","Change of storing to JSON"],["Refaktorierung des Loggings","Refactoring of logging"],["Bugfix: Endzeiten-Fehler bei St"+a_dots+"llen und Fabriken","Bugfix: Endtime error at stables and factories"]]]
+                ,["2.5.1","03.07.2015",[["Aktualisierung der Daten","Update of data"],["Bugfix: Verlust der Quest Daten","Bugfix: Loss of quest data"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -139,7 +140,7 @@ const IMAGES={"leftarrow":"data:image/gif;base64,R0lGODlhIwAaAPcAAEQWBLyCVIROJKR
              ,"openBookGold":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wMBEg8UUkCmQwAABBhJREFUWMPNlktoXFUYx3%2FfOffOI6mZyWMCJqRSiAXbYrVShCyqrlwIxaJSRbAuFBRcSaEouHUVBUXElYpiaUGzKdnowti6Sota2jS21T60MbZ5NTbpPO6953MxdzKTOHk1afDAZbhzz%2Fc4%2F%2B%2F%2F%2F84nqsr%2FdSXOnujT0vj5wh%2FDx78f%2FPbzA4BZ7yCyxLfmMye%2BmdzRfQzEB7HkC3mGLzzx9eBPZ195%2FVDv9HoksNSJfAHQ%2BAHS6SZ27Tz17N69%2B24O9H348nogsrQDiQFSpUyVciYdLV%2Fx0MOlz747%2Bv6ay%2BItFvqtN1%2Frnv%2BXVn%2FUkWk4z7YHX3yv78uPN7e1Zg%2BlEl7aoeQLJVwYnQ6CoD%2BIwh9VmUgmPHnymVcHq07%2BywF%2F%2BIcjIyX8XOgcqoo6Ryrhs6P7GOChxiLGBwXVEoKCC%2Fj59CO0tTaRSDfjpbMkG7Pki0ow28%2FEzG6iIAB1oOBweKIk9PbYA3te6AQCD%2FC2HuwfyLX8kmttu4g6cBqCwtClpxfHTgGxNNg8TptI208wLokU2sgkIvy2JB250RoDBxoByvjYvtzWg%2F0DF3qfeswDGsRL9IRhBoxPsTCJojjNspIWoWWK1LwniaJpEItvDSICGoKLUA0QL4WLIsT6PUCDAZKx7BdUKFizxCruVGvEpOCcq2xJmgoPnDZtXItTVwkrVQlpYqOiozVQm2pSGpNE7noCqM6FqUFA68n07iCg9RCIJXJ3l9TEmpeAlLPaqJu5HgJs4Fygrl4J2CAO6KIIuMVREFlXdbj6JNRyv54XV8rBpXozrw8KVbkvyYGkD1ev7%2BfGzHOELjYSQcSskYO6cB6QuBHN39iR%2FZQocoyOPM9I8VFsooEt951kUzqIEbmT0midBKRaF6m5NDzPYI2hK3cEUKIo4trl%2FRSd5f7ukzSmglWFFxbMePNLEC34MLOgMoIx0JE7TDZV4reLO5ktbEKMRUSQGA2huAIEXL0E5sLUpCsxByUmpcGIpSVzlEwqZGLqcYy1WGsRDMYTjMwiYhEBM2cX%2B6lwR3WO1V5lgzFlufkWTGSIxOH8NlzUAqUh8vkCxWKJMAoBuHptivZ2h8Fx6fcRimEPIpZsS45seyeducP4yVR8GBvXtmxrjJlTlQdgRLjy103OXNlFVAO5xD1ApCs%2BRfmpAHZrFMBH8MoOnfL32D%2BMXp%2FinNuOutqrt6wga4SmxDhGNlcT8Az8Op2k6OyyvVDmaCRsa7wJwLnZLIJWCbyMfbIQ4ZkaBDxKt9451XLPavX8we5J%2Fixl6D29%2Bmmq697gViWhLLAFaF6FqL3tb3zx9o2CtwegPRUeH%2FropXeBcBU3whRwWQAfaCxPpSteSaAVyMTv08AELKvB2lUCZu%2B0w1ugoTpRUwRuA9FqHf0LU1%2BvOy9Z4oQAAAAASUVORK5CYII%3D"
              };
 // cases(%=number): %=money, "c%"=coins, "f%"=fictive money
-const NPC=[[,0.5,1.1,1.34,2.75,3.95,8.05,17.8,18.5,"f85","f110","f180","f280",,,,,0.16,0.52,1.02,1.44,1.96,2.28,3.8,3.69,"f340",4.38,"f510","f590",12.4,"f650",3.49,5.19,8.75,6,15.63,16.88,37.5,3.9,52.44,51.75,60.25,58.13,66.19,18.2,"c79",150,,1200,,1200,,,,,4500,,14400,1200,,"c125",,"c23",,4800,4200,,,,,,,,750,2100,"c25",,,,,,,10800,12000,,1500,3300,,,,,"f650","f1500","f1500",5000,12000,"c10",,"c20",,"c5","c5","c5","c5",,"c5",,,10.12,3.72,"f155.1","f545.7",37.42,23.32,7.44,82.36,"f106.8","f148.8","f69.6","f196.8","f278.4","f408","f240","f324","f250","f864",47.15,140.56,125.88,,"f12.8","f73.5","f127","f106","f53.05","f113.75","f44","f33.33","f71.3","f73.2","f181.2","f321","f316","f491","f350","f484.2","f906.5","f421.7","f473.5","f749.98","f237.1","f675","f975",12.25,37.5,"f1025","f1100","f810",,"f231","f6500","f58","f137.67","f197.67","f342.5","f830","f700.5","f1063.2","f704.42","f734","f339.53",3.1,3.15,3.27,7.3,4.9,5.92,6.61,6.1,7.3,5.6,5.2,3.6,10,8.1,23.5,7.8,8.2,,,,,,,,,,,,,"f410","f490","f503","f589","f469","f1312","f598","f533","f480","f420","f1620","f1030","f675","f950","f2350","f2400","f2450","f3550","f3600","f3650","f8000","f8000"],{},[],[]]; // task_new_plant task_new_product
+const NPC=[[,0.5,1.1,1.34,2.75,3.95,8.05,17.8,18.5,"f85","f110","f180","f280",,,,,0.16,0.52,1.02,1.44,1.96,2.28,3.8,3.69,"f340",4.38,"f510","f590",12.4,"f650",3.49,5.19,8.75,6,15.63,16.88,37.5,3.9,52.44,51.75,60.25,58.13,66.19,18.2,"c79",150,,1200,,1200,,,,,4500,,14400,1200,,"c125",,"c23",,4800,4200,,,,,,,,750,2100,"c25",,,,,,,10800,12000,,1500,3300,,,,,"f650","f1500","f1500",5000,12000,"c10",,"c20",,"c5","c5","c5","c5",,"c5",,,10.12,3.72,"f155.1","f545.7",37.42,23.32,7.44,82.36,"f106.8","f148.8","f69.6","f196.8","f278.4","f408","f240","f324","f250","f864",47.15,140.56,125.88,,"f12.8","f73.5","f127","f106","f53.05","f113.75","f44","f33.33","f71.3","f73.2","f181.2","f321","f316","f491","f350","f484.2","f906.5","f421.7","f473.5","f749.98","f237.1","f675","f975",12.25,37.5,"f1025","f1100","f810",,"f231","f6500","f58","f137.67","f197.67","f342.5","f830","f700.5","f1063.2","f704.42","f734","f339.53",3.1,3.15,3.27,7.3,4.9,5.92,6.61,6.1,7.3,5.6,5.2,3.6,10,8.1,23.5,7.8,8.2,,,,,,,,,,,,,"f410","f490","f503","f589","f469","f1312","f598","f533","f480","f420","f1620","f1030","f675","f950","f2350","f2400","f2450","f3550","f3600","f3650","f8000","f8000",,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.7,3,3.3,3.45,5.1,8.20,2.1,4.3,1.95,8.85,1.4,2.1,4.8,4.85,7.4,5,5.1,2.3,3.95,10.6,11,3.5,2.9,3.6,,,,,,,,,,,,,,,,,,,,,,,,,,,1618,1340,1836,1654,1579,"c1","c1",1839,"c1",2655,"c2",2165,"c2",2877,"c2",2462,"c3",3093,"c3",3289,3138,"c3",3622,"c4"],{},[],[]]; // task_new_plant task_new_product
     /*
     var new_NPC=NPC.clone();
     new_NPC[0][221]='f8000';
@@ -153,16 +154,15 @@ const DATA_zones = {"1":{"location":"farm","farmNr":0,"zoneNr":1,"productional":
 var ALL_SLOTS={};
 // [farm, forestry, recipes, powerups]
 // Growing duration in min
-const PRODUCT_GROWTIME=[[,20,45,45,90,120,240,480,960,240,720,1440,2880,,,,,15,90,240,480,600,500,800,720,1000,780,2000,3000,950,4000,1000,720,1200,800,2000,880,3000,960,4000,4800,5500,6200,6800,7200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2880,,,,,,720,,,,,,,740,,,700,360,135,2160,1000,1440,1680,540,5100,840,1080,480,1320,1800,2520,1260,1620,720,3780,6400,7400,7800,640,180,180,90,90,200,200,100,130,150,80,80,120,120,120,375,300,240,300,480,220,360,3120,3240,1440,1920,1440,2520,840,600,,,210,130,260,190,160,195,250,90,150,300,420,270,540,220,180,315,390,250,230,345,600,245,880,360,510,440,240,,,,,,,,,,,,,240,240,180,210,350,60,180,250,290,380,180,325,120,210,480,480,480,480,480,480,1440,1440],{"1":600,"2":960,"3":2160,"4":480,"5":2750,"6":490,"7":1200,"8":2520,"41":300,"42":345,"43":360,"44":270,"45":300,"46":330,"47":420,"48":480,"49":510,"50":180,"51":210,"52":240,"53":480,"54":510,"55":540,"56":300,"57":375,"58":470,"59":360,"60":450,"61":420,"101":240,"102":700,"103":640,"104":360,"105":960,"106":90,"107":120,"108":1320,"109":570,"110":330,"111":160,"112":935,"113":120,"114":300,"115":180,"116":1040,"117":1920,"118":300,"119":1440,"120":2010,"121":480,"122":300,"123":840,"124":690,"125":480,"126":240,"127":255,"128":525,"129":375,"130":410,"131":480,"132":225,"133":120,"500":0,"501":0,"502":0,"511":0,"512":0}]; // task_new_plant task_new_product
+const PRODUCT_GROWTIME=[[,20,45,45,90,120,240,480,960,240,720,1440,2880,,,,,15,90,240,480,600,500,800,720,1000,780,2000,3000,950,4000,1000,720,1200,800,2000,880,3000,960,4000,4800,5500,6200,6800,7200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2880,,,,,,720,,,,,,,740,,,700,360,135,2160,1000,1440,1680,540,5100,840,1080,480,1320,1800,2520,1260,1620,720,3780,6400,7400,7800,640,180,180,90,90,200,200,100,130,150,80,80,120,120,120,375,300,240,300,480,220,360,3120,3240,1440,1920,1440,2520,840,600,,,210,130,260,190,160,195,250,90,150,300,420,270,540,220,180,315,390,250,230,345,600,245,880,360,510,440,240,,,,,,,,,,,,,240,240,180,210,350,60,180,250,290,380,180,325,120,210,480,480,480,480,480,480,1440,1440,,,,,,,,,,,,,,,,,,,,,,,,,,,,,360,480,600,720,600,480,360,600,480,720,360,480,720,600,360,480,600,480,360,720,720,600,480,360],{"1":600,"2":960,"3":2160,"4":480,"5":2750,"6":490,"7":1200,"8":2520,"41":300,"42":345,"43":360,"44":270,"45":300,"46":330,"47":420,"48":480,"49":510,"50":180,"51":210,"52":240,"53":480,"54":510,"55":540,"56":300,"57":375,"58":470,"59":360,"60":450,"61":420,"101":240,"102":700,"103":640,"104":360,"105":960,"106":90,"107":120,"108":1320,"109":570,"110":330,"111":160,"112":935,"113":120,"114":300,"115":180,"116":1040,"117":1920,"118":300,"119":1440,"120":2010,"121":480,"122":300,"123":840,"124":690,"125":480,"126":240,"127":255,"128":525,"129":375,"130":410,"131":480,"132":225,"133":120,"500":0,"501":0,"502":0,"511":0,"512":0}]; // task_new_plant task_new_product
 // Points earned at cropping
-const PRODUCT_POINTS=[[,3,17,10,44,64,128,267,600,750,950,1540,2350,,,,,1,7,24,42,63,52,88,92,3100,108,4500,5000,319,5400,179,133,229,157,405,733,2569,211,3611,4444,5220,6028,6769,1833,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2500,,,,,,0,,,,,,,0,,0,0,179,31,2300,4900,490,340,240,1174,890,1240,580,1640,2320,3400,2000,2700,1250,7200,1475,6540,7955,0,36,36,18,18,40,36,20,26,30,16,16,24,24,24,3600,60,48,60,69,44,72,5400,7750,450,2600,8250,9725,6250,0,,,41,30,45,36,27,54,36,23,17,23,252,165,310,137,114,207,258,173,161,257,420,192,701,290,425,380,220,,,,,,,,,,,,,520,625,460,650,810,394,515,634,660,762,1343,1500,361,852,1245,1255,1275,1312,1362,1425,45000,45000],{"1":30,"2":48,"3":108,"4":24,"5":138,"6":0,"7":60,"8":126,"21":0,"22":0,"23":0,"24":0,"25":0,"41":150,"42":105,"43":108,"44":108,"45":60,"46":66,"47":294,"48":144,"49":153,"50":54,"51":42,"52":48,"53":48,"54":51,"55":54,"56":33,"57":38,"58":47,"59":39,"60":45,"61":42,"101":48,"102":140,"103":128,"104":74,"105":0,"106":18,"107":66,"108":0,"109":114,"110":70,"111":32,"112":187,"113":24,"114":60,"115":36,"116":208,"117":384,"118":660,"119":0,"120":0,"121":96,"122":60,"123":168,"124":138,"125":24,"126":48,"127":51,"128":105,"129":75,"130":82,"131":96,"132":45,"133":24,"500":0,"501":0,"502":0,"511":0,"512":0}]; // task_new_plant task_new_product
-
+const PRODUCT_POINTS=[[,3,17,10,44,64,128,267,600,750,950,1540,2350,,,,,1,7,24,42,63,52,88,92,3100,108,4500,5000,319,5400,179,133,229,157,405,733,2569,211,3611,4444,5220,6028,6769,1833,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2500,,,,,,0,,,,,,,0,,0,0,179,31,2300,4900,490,340,240,1174,890,1240,580,1640,2320,3400,2000,2700,1250,7200,1475,6540,7955,0,36,36,18,18,40,36,20,26,30,16,16,24,24,24,3600,60,48,60,69,44,72,5400,7750,450,2600,8250,9725,6250,0,,,41,30,45,36,27,54,36,23,17,23,252,165,310,137,114,207,258,173,161,257,420,192,701,290,425,380,220,,,,,,,,,,,,,520,625,460,650,810,394,515,634,660,762,1343,1500,361,852,1245,1255,1275,1312,1362,1425,45000,45000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,92,125,157,189,158,127,96,162,130,196,99,133,200,168,102,137,172,138,104,210,220,185,150,115],{"1":30,"2":48,"3":108,"4":24,"5":138,"6":0,"7":60,"8":126,"21":0,"22":0,"23":0,"24":0,"25":0,"41":150,"42":105,"43":108,"44":108,"45":60,"46":66,"47":294,"48":144,"49":153,"50":54,"51":42,"52":48,"53":48,"54":51,"55":54,"56":33,"57":38,"58":47,"59":39,"60":45,"61":42,"101":48,"102":140,"103":128,"104":74,"105":0,"106":18,"107":66,"108":0,"109":114,"110":70,"111":32,"112":187,"113":24,"114":60,"115":36,"116":208,"117":384,"118":660,"119":0,"120":0,"121":96,"122":60,"123":168,"124":138,"125":24,"126":48,"127":51,"128":105,"129":75,"130":82,"131":96,"132":45,"133":24,"500":0,"501":0,"502":0,"511":0,"512":0}]; // task_new_plant task_new_product
 // Required quest to unlock product
 const PRODUCT_QUEST=[{"117":["main",2,15],"118":["main",2,25],"119":["main",2,35],"120":["main",2,45],"121":["main",2,50],"123":["main",2,15],"124":["main",2,25],"125":["main",2,35]},{"1":["forestry",1,3],"2":["forestry",1,9],"3":["forestry",1,24],"4":["forestry",1,47],"5":["forestry",1,63],"7":["forestry",2,35],"8":["forestry",2,45],"21":["forestry",1,3],"22":["forestry",1,9],"23":["forestry",1,24],"24":["forestry",1,47],"25":["forestry",1,63],"26":["forestry",2,35],"27":["forestry",2,45],"41":["forestry",1,6],"42":["forestry",1,6],"43":["forestry",1,6],"44":["forestry",1,9],"45":["forestry",1,9],"46":["forestry",1,9],"47":["forestry",1,24],"48":["forestry",1,24],"49":["forestry",1,24],"50":["forestry",1,47],"51":["forestry",1,47],"52":["forestry",1,47],"53":["forestry",1,63],"54":["forestry",1,63],"55":["forestry",1,63],"56":["forestry",2,35],"57":["forestry",2,35],"58":["forestry",2,35],"59":["forestry",2,45],"60":["forestry",2,45],"61":["forestry",2,45],"101":["forestry",1,12],"102":["forestry",1,18],"103":["forestry",1,21],"104":["forestry",1,27],"105":["forestry",1,30],"106":["forestry",1,33],"107":["forestry",1,36],"108":["forestry",1,39],"109":["forestry",1,42],"110":["forestry",1,60],"111":["forestry",1,50],"112":["forestry",1,53],"115":["forestry",1,66],"116":["forestry",1,69],"117":["forestry",1,75],"118":["forestry",1,72],"119":["forestry",2,16],"120":["forestry",2,24],"121":["forestry",2,35],"122":["forestry",2,35],"123":["forestry",2,36],"124":["forestry",2,42],"125":["forestry",2,43],"126":["forestry",2,46],"127":["forestry",2,46],"128":["forestry",2,47],"129":["forestry",2,47],"130":["forestry",2,48],"131":["forestry",2,48],"132":["forestry",2,49]}];
 // Required products to produce
 const PRODUCT_REQUIRE=[{"25":[[0,9,30]],"27":[[0,10,12]],"28":[[0,11,8]],"30":[[0,12,5]],"111":[[0,110,5]],"116":[[0,2,1980]],"117":[[0,7,550]],"118":[[0,4,1020]],"119":[[0,38,650]],"120":[[0,42,110]],"121":[[0,43,100]],"122":[[0,112,130],[0,116,35]],"123":[[0,113,220],[0,117,35]],"124":[[0,114,345],[0,118,35]],"125":[[0,115,80],[0,119,35]],"130":[[0,17,400]],"131":[[0,21,150]],"132":[[0,20,100],[0,10,2]],"133":[[0,19,100],[0,10,2]],"134":[[0,17,400],[0,6,25]],"135":[[0,21,150],[0,6,25]],"136":[[0,2,120]],"137":[[0,1,200]],"138":[[0,1,200],[0,23,30]],"139":[[0,18,150],[0,22,30]],"140":[[0,21,150],[0,22,30]],"141":[[0,26,100],[0,144,3]],"142":[[0,26,100],[0,25,3]],"143":[[0,26,100],[0,25,3],[0,144,3]],"144":[[0,21,450]],"145":[[0,33,300],[0,12,2]],"146":[[0,35,200],[0,10,4],[0,12,2]],"147":[[0,37,60],[0,12,2]],"148":[[0,31,250],[0,26,150],[0,27,7]],"149":[[0,21,300],[0,43,10],[0,22,50],[0,121,4]],"150":[[0,38,60],[0,119,6],[0,17,50]],"152":[[0,151,5]],"155":[[0,152,5],[0,28,6]],"156":[[0,152,8],[0,28,5]],"157":[[0,152,2],[0,28,9]],"161":[[0,1,300],[0,17,150]],"162":[[0,1,250],[0,20,200]],"163":[[0,22,190],[0,26,120]],"164":[[0,1,150],[0,10,30]],"165":[[0,10,10],[0,12,5]],"166":[[0,10,10],[0,27,7]],"167":[[0,40,60],[0,111,10]],"168":[[0,10,10],[0,42,25]],"169":[[0,6,300],[0,9,15],[0,121,3]],"170":[[0,1,200],[0,43,20],[0,121,4]],"200":[[-1,1200],[0,171,24],[0,172,20],[0,173,12]],"201":[[-1,1400],[0,171,25],[0,172,18],[0,174,15]],"202":[[-1,1500],[0,172,22],[0,173,19],[0,174,16]],"203":[[-1,1460],[0,172,19],[0,173,16],[0,175,29]],"204":[[-1,1510],[0,171,7],[0,173,18],[0,174,8],[0,176,21]],"205":[[-1,1622],[0,171,14],[0,173,22],[0,176,10],[0,177,12]],"206":[[-1,1787],[0,174,16],[0,176,9],[0,177,10],[0,178,9]],"207":[[-1,1894],[0,173,15],[0,175,10],[0,177,11],[0,179,8]],"208":[[-1,1950],[0,173,12],[0,175,13],[0,178,15],[0,180,18]],"209":[[-1,2110],[0,171,12],[0,176,21],[0,179,7],[0,181,9]],"210":[[-1,2250],[0,171,12],[0,175,5],[0,179,34],[0,182,11]],"211":[[-1,2357],[0,172,9],[0,176,12],[0,181,22],[0,183,18]],"212":[[-1,2488],[0,171,13],[0,182,13],[0,183,16],[0,184,6]],"213":[[-1,2595],[0,171,3],[0,179,8],[0,185,7],[0,186,9],[0,187,7]],"214":[[0,0,2],[0,171,10],[0,172,14],[0,173,13],[0,174,18]],"215":[[0,0,2],[0,171,12],[0,172,22],[0,174,10],[0,175,19]],"216":[[0,0,2],[0,173,14],[0,175,8],[0,177,19],[0,178,16]],"217":[[0,0,3],[0,171,19],[0,177,5],[0,178,17],[0,180,13]],"218":[[0,0,3],[0,180,9],[0,181,8],[0,182,9],[0,183,9]],"219":[[0,0,3],[0,179,4],[0,182,1],[0,185,6],[0,186,15],[0,187,7]],"220":[[-1,1500],[0,171,70],[0,172,180],[0,173,80],[0,174,80],[0,188,1]],"221":[[-1,1500],[0,171,80],[0,172,50],[0,173,65],[0,174,140],[0,189,1]]},{"41":[[1,21,1]],"42":[[1,21,1]],"43":[[1,21,1]],"44":[[1,22,1]],"45":[[1,22,1]],"46":[[1,22,1]],"47":[[1,23,1]],"48":[[1,23,1]],"49":[[1,23,1]],"50":[[1,24,1]],"51":[[1,24,1]],"52":[[1,24,1]],"53":[[1,25,1]],"54":[[1,25,1]],"55":[[1,25,1]],"56":[[1,26,1]],"57":[[1,26,1]],"58":[[1,26,1]],"59":[[1,27,1]],"60":[[1,27,1]],"61":[[1,27,1]],"101":[[1,41,4]],"102":[[1,41,18],[1,42,2]],"103":[[1,44,11]],"104":[[1,42,1],[1,43,5]],"105":[[1,44,20],[1,45,50],[1,46,70]],"106":[[1,49,1]],"107":[[1,46,1]],"108":[[1,47,125],[1,48,65],[1,49,32]],"109":[[1,47,5]],"110":[[1,50,9],[1,51,4]],"111":[[1,52,4]],"112":[[1,50,12],[1,51,7],[1,52,6]],"113":[[1,42,1]],"114":[[1,41,1],[1,43,1]],"115":[[1,53,8],[1,55,2]],"116":[[1,53,120],[1,54,40],[1,55,40]],"117":[[1,53,80],[1,54,65],[1,55,125]],"118":[[1,53,6],[1,54,8]],"119":[[1,54,20],[1,55,25]],"120":[[1,54,35],[1,55,40]],"121":[[1,56,7],[1,57,4]],"122":[[1,58,9]],"123":[[1,57,4],[1,58,5]],"124":[[1,56,9],[1,57,4]],"125":[[1,58,3]],"126":[[1,61,5]],"127":[[1,60,3]],"128":[[1,60,6],[1,61,5]],"129":[[1,59,10],[1,60,8],[1,61,5]],"130":[[1,60,9],[1,61,8]],"131":[[1,59,6],[1,61,12]],"132":[[1,59,10],[1,60,8],[1,61,5]],"133":[[1,42,1]]}]; // task_new_product task_new_picnic_product
 // Yielded amount of production
-const PRODUCT_YIELD=[,{"1":1,"2":1,"3":1,"4":1,"5":1,"7":1,"8":1,"21":1,"22":1,"23":1,"24":1,"25":1,"26":1,"27":1,"41":5,"42":3,"43":3,"44":4,"45":2,"46":2,"47":7,"48":3,"49":3,"50":3,"51":2,"52":2,"53":8,"54":4,"55":4,"56":5,"57":3,"58":5,"59":6,"60":4,"61":3,"101":1,"102":1,"103":1,"104":1,"105":1,"106":1,"107":1,"108":1,"109":1,"110":1,"111":1,"112":1,"113":1,"114":1,"115":1,"116":1,"117":1,"118":1,"119":1,"120":1,"121":1,"122":1,"123":1,"124":1,"125":1,"126":1,"127":1,"128":1,"129":1,"130":1,"131":1,"132":1,"133":1}]; // task_new_product
+const PRODUCT_YIELD=[,{"1":1,"2":1,"3":1,"4":1,"5":1,"7":1,"8":1,"21":1,"22":1,"23":1,"24":1,"25":1,"26":1,"27":1,"41":5,"42":3,"43":3,"44":4,"45":2,"46":2,"47":7,"48":3,"49":3,"50":3,"51":2,"52":2,"53":8,"54":4,"55":4,"56":5,"57":3,"58":5,"59":6,"60":4,"61":3,"101":1,"102":1,"103":1,"104":1,"105":1,"106":1,"107":1,"108":1,"109":1,"110":1,"111":1,"112":1,"113":1,"114":1,"115":1,"116":1,"117":1,"118":1,"119":1,"120":1,"121":1,"122":1,"123":1,"124":1,"125":1,"126":1,"127":1,"128":1,"129":1,"130":1,"131":1,"132":1,"133":1,"250":1,"251":1,"252":1,"253":1,"254":1,"255":1,"256":1,"257":1,"258":1,"259":1,"260":1,"261":1,"262":1,"263":1,"264":1,"265":1,"266":1,"267":1,"268":1,"269":1,"270":1,"271":1,"272":1,"273":1}]; // task_new_product
     /*
     var new_data=PRODUCT_YIELD.clone();
     new_data[1][7]=;
@@ -173,7 +173,7 @@ const ANIMAL_MOVE=[,,[false,0,0,255,10,10,505],[false,0,0,280,1,0,525],[false,0,
 // BUILDING_UPGRADES[zoneType][levelNr-1][needed level,buildcost,bonus,animalamount]
 const BUILDING_UPGRADES={"1":[[1,2000,0.95,0],[15,21500,0.9,0],[21,76000,0.85,0],[27,192300,0.8,0],[33,"c20",0.8,0]],"2":[[2,2500,1,5],[7,15200,1,10],[12,32500,1,15],[23,134500,0.9,20],[29,350800,0.8,20]],"3":[[11,3400,1,2],[13,16300,1,3],[17,50200,1,4],[25,159600,0.9,5],[32,441000,0.8,6]],"4":[[14,6200,1,2],[18,33500,1,3],[20,76000,1,4],[28,210500,0.9,5],[34,482000,0.8,6]],"5":[[19,6800,1,1],[22,44800,1,2],[26,128200,1,3],[31,230600,0.9,4],[35,482000,0.8,4]],"7":[[16,5200,1,1],[19,33500,0.95,1],[25,106400,0.9,1],[30,230600,0.85,1],[33,441000,0.8,1]],"8":[[18,6800,1,1],[21,38000,0.95,1],[27,128200,0.9,1],[31,230600,0.85,1],[35,482000,0.8,1]],"9":[[27,8100,1,1],[30,53200,0.95,1],[33,140300,0.9,1],[36,264600,0.85,1],[38,597200,0.8,1]],"10":[[30,9700,1,1],[33,70200,0.95,1],[34,153700,0.9,1],[37,289200,0.85,1],[39,626300,0.8,1]],"11":[[16,10000,1,1],[20,85000,1,3],[24,200000,1,5],[28,"c22",0.9,6],[32,"c38",0.8,6]],"12":[[15,38000,1,2],[17,17200,1,3],[23,54600,1,4],[29,168800,0.9,5],[38,472400,0.8,6]],"13":[[31,16800,1,1],[32,86400,0.95,1],[34,174200,0.9,1],[36,362800,0.85,1],[38,796300,0.8,1]],"14":[[35,19400,1,1],[37,97100,0.95,1],[39,218400,0.9,1],[40,509800,0.85,1],[41,1388600,0.8,1]],"15":[[37,23000,1,1],[37,95300,1,2],[38,198500,1,3],[38,391700,0.9,4],[39,842200,0.8,5]],"16":[[38,97100,1,1],[39,209736,0.95,1],[40,467711,0.9,1],[41,1080413,0.85,1],[42,2538970,0.8,1]],"17":[[10,1000,1,1]],"18":[[10,5000,1,1]],"19":[[28,250000,1,1]],"fw1":[[11,7000,1,1],[11,24600,0.95,1],[11,64200,0.9,1],[11,114400,0.85,1],[11,186300,0.8,1]],"fw2":[[12,8400,1,1],[12,32500,0.95,1],[12,68900,0.9,1],[12,122400,0.85,1],[12,178600,0.8,1]],"fw3":[[12,11200,1,1],[12,43300,0.95,1],[12,91900,0.9,1],[12,163200,0.85,1],[12,238100,0.8,1]],"fl1":[[23,85000,0.95,36]],"fl2":[[23,75000,1,1]],"fl3":[[31,900000,1,1]],"fl6":[[31,900000,1,1]]};  // task_new_building
 // produced thing -> production area
-const PRODUCT2BUILDING=[[,1,1,1,1,1,1,1,1,2,3,4,5,,,,,1,1,1,1,1,1,1,1,7,1,8,9,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,1,,,,,,,1,,,1,1,1,12,8,1,1,1,1,13,13,13,13,13,13,14,14,14,14,1,1,1,1,"fw1","fw1","fw1","fw1","fw1","fw1","fw2","fw2","fw2","fw2","fw2","fw2","fw2","fw2",7,"fw1","fw1","fw1","fw2","fw2","fw2",15,9,1,1,16,16,16,1,,,"fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1",,,,,,,,,,,"fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2",,]
+const PRODUCT2BUILDING=[[,1,1,1,1,1,1,1,1,2,3,4,5,,,,,1,1,1,1,1,1,1,1,7,1,8,9,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,1,,,,,,,1,,,1,1,1,12,8,1,1,1,1,13,13,13,13,13,13,14,14,14,14,1,1,1,1,"fw1","fw1","fw1","fw1","fw1","fw1","fw2","fw2","fw2","fw2","fw2","fw2","fw2","fw2",7,"fw1","fw1","fw1","fw2","fw2","fw2",15,9,1,1,16,16,16,1,,,"fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fw3","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1","fl1",,,,,,,,,,,"fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2","fl2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,"fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5","fl5"]
                        ,{"1":"forest","2":"forest","3":"forest","4":"forest","5":"forest","7":"forest","8":"forest","21":"forest","22":"forest","23":"forest","24":"forest","25":"forest","26":"forest","27":"forest","41":"sawmill","42":"sawmill","43":"sawmill","44":"sawmill","45":"sawmill","46":"sawmill","47":"sawmill","48":"sawmill","49":"sawmill","50":"sawmill","51":"sawmill","52":"sawmill","53":"sawmill","54":"sawmill","55":"sawmill","56":"sawmill","57":"sawmill","58":"sawmill","59":"sawmill","60":"sawmill","61":"sawmill","101":"carpentry","102":"carpentry","103":"carpentry","104":"carpentry","105":"carpentry","106":"carpentry","107":"carpentry","108":"carpentry","109":"carpentry","110":"carpentry","111":"carpentry","112":"carpentry","113":"carpentry","114":"carpentry","115":"carpentry","116":"carpentry","117":"carpentry","118":"carpentry","119":"carpentry","120":"carpentry","121":"carpentry","122":"carpentry","123":"carpentry","124":"carpentry","125":"carpentry","126":"carpentry","127":"carpentry","128":"carpentry","129":"carpentry","130":"carpentry","131":"carpentry","132":"carpentry","133":"carpentry","300":"forest"}
                        ,[]
                        ,[,"windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill","windmill"]
@@ -259,6 +259,11 @@ for(type=0;type<new_PRODUCT_QUEST.length;type++){
 }
 GM_log("new_PRODUCT_QUEST:\n"+implode(new_PRODUCT_QUEST));
 */
+const KRAEUTER_VETERINAER_LEVEL=[{"250":1,"251":1,"252":1,"253":2,"254":3,"255":4,"256":5,"257":6,"258":7,"259":8,"260":9,"261":10,"262":11,"263":12,"264":13,"265":14,"266":16,"267":18,"268":20,"269":22,"270":24,"271":26,"272":28,"273":30}];
+const TINKTUR_VETERINAER_LEVEL=[{"300":1,"301":1,"302":1,"303":2,"304":3,"305":4,"306":5,"307":6,"308":7,"309":8,"310":9,"311":10,"312":11,"313":12,"314":13,"315":14,"316":16,"317":18,"318":20,"319":22,"320":24,"321":26,"322":28,"323":30}];
+// \"300\",\"ArnikaZauber Tinktur\":\"301\",\"ZauberVera Tinktur\":\"302\",\"Baerennuss Tinktur\":\"303\",\"BallonBaeren Tinktur\":\"304\",\"Nachtpflanzen Tinktur\":\"305\",\"Schafschatten Tinktur\":\"306\",\"EngelSchaf Tinktur\":\"307\",\"PestEngel Tinktur\":\"308\",\"Pfefferwurz Tinktur\":\"309\",\"Sonnenminzen Tinktur\":\"310\",\"Johannistau Tinktur\":\"311\",\"Klettenkraut Tinktur\":\"312\",\"Herzkletten Tinktur\":\"313\",\"Ringelgespann Tinktur\":\"314\",\"Ritterblumen Tinktur\":\"315\",\"RitterEfeu Tinktur\":\"316\",\"BruchEfeu Tinktur\":\"317\",\"MutterBruch Tinktur\":\"318\",\"EisenMutter Tinktur\":\"319\",\"Hagekraut Tinktur\":\"320\",\"HoHa Tinktur\":\"321\",\"Holunderpfötchen Tinktur\":\"322\",\"Pfingstpfötchen Tinktur\":\"323\"}
+//Nummer, Krankheitslevel, Tinktur1, Zeit in Minuten, Tinktur2, Zeit in Minuten
+const KRANKHEITEN_TINKTUR_ZEIT= [{"1":[[1,300,135],[1,301,195]],"2":[[1,301,240],[1,302,270]],"3":[[1,300,195],[1,302,225]],"4":[[2,303,150],[2,305,75]],"5":[[2,303,165],[2,306,82.5]],"6":[[3,305,180],[3,304,210]],"7":[[3,304,225],[3,306,112.5]],"8":[[6,307,285],[6,308,142.5]],"9":[[6,307,180],[6,310,90]],"10":[[8,309,165],[8,308,82.5]],"11":[[8,309,170],[8,312,85]],"12":[[10,311,135],[10,310,67.5]],"13":[[10,311,225],[10,312,112.5]],"14":[[10,311,285],[10,314,142.5]],"15":[[12,313,150],[12,314,75]],"16":[[12,313,255],[12,321,127.5]],"17":[[14,315,275],[14,316,137]],"18":[[14,315,270],[14,318,135]],"19":[[18,317,135],[18,318,67.5]],"20":[[18,317,150],[18,318,75]],"21":[[22,319,135],[22,321,67.5]],"22":[[24,320,285],[24,323,142.5]],"23":[[28,322,255],[28,321,127.5]],"24":[[28,322,210],[28,323,105]]}];
 const INIT_valMinRack={"v":200,"e":50,"o":10,"z":0,"f1":25,"f2":10,"f3":10,"f4":0,"fw1":10,"fw2":10,"fw3":10};
 const LEVEL_POINTS=[0,0,58,2420,6620,15620,27900,58700,101700,163100,211900
                    ,276900,359000,467000,730000,1190000,1750000,2680000,3900000,5660000,7850000
@@ -767,14 +772,23 @@ function updateProductDataFarm(){
         if(!prodPoints[0]||!(prodPoints[0] instanceof Array)){ prodPoints[0]=[]; } 
         // if(!prodBlock[0]||!(prodBlock[0] instanceof Array)){ prodBlock[0]=[]; } 
         
-        //c:only by club, u:garbage, l:level too low, t:not tradable, f:forestry, q:forestry quest too low, r:recipe, p:powerup, b:block recipe/powerup
-        prodBlock[0]=["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","ct","","ct","","ct","ct","","ct","","","","","","","","","","ct","ct","ct","ct","ct","ct","ct","","","","","","","ct","","ct","","","ct","","","ct","ct","ct","","","","","","","","t","","","","","","","t","","t","t","","","","","","","","","","","","","","","","","","","","","","t","","","","","","","","","","","","","","","","","","","","","","","","","","","","","t","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","ut","ut",,,,,,,,,,,"","","","","","","","","","","","","","","t","t","t","t","t","t","t","t"]; // task_new_plant task_new_product
+        // b:block recipe/powerup
+        // c:only by club
+        // f:forestry
+        // p:powerup
+        // q:forestry quest too low
+        // r:recipe
+        // l:level too low
+        // t:not tradable
+        // v:veterinary too low
+        // u:garbage
+        prodBlock[0]=["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","ct","","ct","","ct","ct","","ct","","","","","","","","","","ct","ct","ct","ct","ct","ct","ct","","","","","","","ct","","ct","","","ct","","","ct","ct","ct","","","","","","","","t","","","","","","","t","","t","t","","","","","","","","","","","","","","","","","","","","","","t","","","","","","","","","","","","","","","","","","","","","","","","","","","","","t","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","ut","ut",,,,,,,,,,,"","","","","","","","","","","","","","","t","t","t","t","t","t","t","t",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"","","","","","","","","","","","","","","","","","","","","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,"","","","","","ct","ct","","ct","","ct","","ct","","ct","","ct","","ct","","","ct","","ct"]; // task_new_plant task_new_product
          /*
         var new_prodBlock=prodBlock[0].clone();
         new_prodBlock[221]="";
         GM_log(implode(new_prodBlock));
         */
-        var help={"v":[],"e":[],"o":[],"fw1":[],"fw2":[],"fw3":[],"fw4":[],"z":[],"fl":[],"fla":[]};
+        var help={"v":[],"e":[],"o":[],"fw1":[],"fw2":[],"fw3":[],"fw4":[],"z":[],"fl":[],"fla":[],"hr":[],"md":[]};
         // for(var v=1;v<unsafeWindow.produkt_name.length;v++){
         for(var v in unsafeWindow.produkt_name){
             if(!unsafeWindow.produkt_name.hasOwnProperty(v)){continue;}
@@ -810,8 +824,25 @@ function updateProductDataFarm(){
                 if(help[prodTyp[0][v]]){
                     help[prodTyp[0][v]].push(v);
                 }
-                if(USERLEVEL<unsafeWindow.produkt_level[v]){
-                    prodBlock[0][v]+="l"+unsafeWindow.produkt_level[v];
+                switch(prodTyp[0][v]){
+                case "hr":
+                    if(unsafeWindow.vet_data&&unsafeWindow.vet_data.info){
+                        if(KRAEUTER_VETERINAER_LEVEL[0][v] > unsafeWindow.vet_data.info.level || unsafeWindow.vet_data.info.points==0){
+                            prodBlock[0][v]+="v"+KRAEUTER_VETERINAER_LEVEL[0][v];
+                        }
+                    }
+                break;
+                case "md":
+                    if(unsafeWindow.vet_data&&unsafeWindow.vet_data.info){
+                        if(TINKTUR_VETERINAER_LEVEL[0][v] > unsafeWindow.vet_data.info.level || unsafeWindow.vet_data.info.points==0){
+                            prodBlock[0][v]+="v"+TINKTUR_VETERINAER_LEVEL[0][v];
+                        }
+                    }
+                break;
+                default:
+                    if(USERLEVEL<unsafeWindow.produkt_level[v]){
+                        prodBlock[0][v]+="l"+unsafeWindow.produkt_level[v];
+                    }
                 }
                 if(PRODUCT_QUEST[0][v]&&(questData[PRODUCT_QUEST[0][v][0]][PRODUCT_QUEST[0][v][1]]["nr"]<=PRODUCT_QUEST[0][v][2])){
                     prodBlock[0][v]+="q";
@@ -820,7 +851,7 @@ function updateProductDataFarm(){
         }
         prodTyp[0][0]="c";
         try{ prodStock[0][0]=parseInt($("coins").innerHTML,10); }catch(err){}
-        prodNameSort[0]=[0].concat(help["v"],help["e"],help["o"],help["fw1"],help["fw2"],help["fw3"],help["fw4"],help["fl"],help["fla"],help["z"]);
+        prodNameSort[0]=[0].concat(help["v"],help["e"],help["o"],help["fw1"],help["fw2"],help["fw3"],help["fw4"],help["fl"],help["fla"],help["hr"],help["md"],help["z"]);
         // quest boni
         for(var v=1;v<questData["main"]["1"]["nr"];v++){
             if(QUESTS["main"]["1"][v]&&QUESTS["main"]["1"][v][3]){
@@ -2432,6 +2463,7 @@ try{
                     case "foodworld":{ GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("pleaseOpenX").replace(/%1%/,getText("foodworld"))+" ("+questData[type][campaign]["nr"]+"&ne;"+help+")"); break;}
                     }
                     if(!QUESTS[type][campaign][questData[type][campaign]["nr"]]){
+                        GM_logWarning("handleQuestLine","","type="+type+" campaign="+campaign+" quests_status="+implode(unsafeWindow.quests_status,1),"Setting quest data to nr "+help+"."); // TODO Text
                         questData[type][campaign]["nr"]=help;
                         questData[type][campaign]["given"] = new Object();
                         questData[type][campaign]["time"] = 0;
@@ -2440,7 +2472,7 @@ try{
                     }
                 }
             }else{
-                help=QUESTS[type][campaign].length;
+                help=questData[type][campaign]["nr"];
                 switch(implode([type,campaign],"handleQuestLine/typeCampaign")){
                 case implode(["main","2"],"handleQuestLine/main2"):{
                     if(USERLEVEL<31){ help=-1; }
@@ -2456,6 +2488,7 @@ try{
                 break;}
                 }
                 if(questData[type][campaign]["nr"]!=help){
+                    GM_logWarning("handleQuestLine","","type="+type+" campaign="+campaign+" quests_status="+implode(unsafeWindow.quests_status,1),"Resetting quest data.");
                     questData[type][campaign]["nr"]=help;
                     questData[type][campaign]["given"] = new Object();
                     questData[type][campaign]["time"] = 0;
@@ -2812,6 +2845,8 @@ try{
         }
         createElement("div",{"class":"link rackcat30fl"+(mode["filterCategory"]["fl"]?"_active":""),"filter":'["fl"]',"mouseOverText":getText("category_fl"),"style":"float:left;"},newdiv);
         createElement("div",{"class":"link rackcat30fla"+(mode["filterCategory"]["fla"]?"_active":""),"filter":'["fla"]',"mouseOverText":getText("category_fla"),"style":"float:left;"},newdiv);
+        createElement("div",{"class":"link rackcat60hr"+(mode["filterCategory"]["hr"]?"_active":""),"filter":'["hr"]',"mouseOverText":getText("category_hr"),"style":"float:left;"},newdiv);
+        createElement("div",{"class":"link rackcat70md"+(mode["filterCategory"]["md"]?"_active":""),"filter":'["md"]',"mouseOverText":getText("category_md"),"style":"float:left;"},newdiv);
     } break;
     case 1:{
         for(var i=1;i<=5;i++){
@@ -3252,7 +3287,7 @@ try{
     createElement("td",{"class":"tnormal","style":"color:black;font-weight:bold;text-align:center;"},newtr,getText("profitTable"));
     // switch bar to filter category
     newtd=createElement("td",{"align":"right"},newtr);
-    newdiv=createElement("div",{"style":"-moz-user-select:none;width:212px;"},newtd);
+    newdiv=createElement("div",{"style":"-moz-user-select:none;width:275px;"},newtd);
     newdiv.addEventListener("mouseover",function(event){
         var mouseOverText=event.target.getAttribute("mouseOverText");
         if(mouseOverText){
@@ -3291,6 +3326,8 @@ try{
     }
     createElement("div",{"class":"link rackcat30fl"+(mode["filterCategory"]["fl"]?"_active":""),"filter":'["fl"]',"mouseOverText":getText("category_fl"),"style":"float:left;"},newdiv);
     createElement("div",{"class":"link rackcat30fla"+(mode["filterCategory"]["fla"]?"_active":""),"filter":'["fla"]',"mouseOverText":getText("category_fla"),"style":"float:left;"},newdiv);
+	createElement("div",{"class":"link rackcat60hr"+(mode["filterCategory"]["hr"]?"_active":""),"filter":'["hr"]',"mouseOverText":getText("category_hr"),"style":"float:left;"},newdiv);
+	createElement("div",{"class":"link rackcat70md"+(mode["filterCategory"]["md"]?"_active":""),"filter":'["md"]',"mouseOverText":getText("category_md"),"style":"float:left;"},newdiv);
 
     // the table
         err_trace="table";
@@ -5151,10 +5188,12 @@ function buildInfoPanelMegafield(){
             td.addEventListener("mouseover",function(event){
             try{
                 var v=this.parentNode.getAttribute("v");
-                if(logMegafieldJob[v][1]){
-                    toolTip.show(event,getText("remaining")+": "+getTimeStr(logMegafieldJob[v][0]+168*60*60-logMegafieldJob[v][1]));
+                if(!logMegafieldJob[v][1]){
+                    toolTip.show(event,getText("jobCurrent")+"<br>"+getText("remaining")+": "+getTimeStr(logMegafieldJob[v][0]+168*60*60-unsafeWindow.Zeit.Server));
+                }else if(logMegafieldJob[v][3]){
+                    toolTip.show(event,getText("jobComplete")+"<br>"+getText("remaining")+": "+getTimeStr(logMegafieldJob[v][0]+168*60*60-logMegafieldJob[v][1]));
                 }else{
-                    toolTip.show(event,getText("remaining")+": "+getTimeStr(logMegafieldJob[v][0]+168*60*60-unsafeWindow.Zeit.Server));
+                    toolTip.show(event,getText("jobIncomplete"));
                 }
                 container=null;div=null;table=null;tr=null;td=null;
             }catch(err){GM_logError("buildInfoPanelMegafield.endtime.mouseover","","v="+v,err);}
@@ -7441,7 +7480,7 @@ function quicklinks(){
                 },false);
         
                 var highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts","[false,{}]"),"quicklinks/highlightProducts",[false,{}]);
-                var divquick=createElement("div",{"id":"quicklinks","style":"display:none;position:absolute;right:-75px;top:67px;width:600px;background-color:white;z-index:10;"},newdiv);
+                var divquick=createElement("div",{"id":"quicklinks","style":"display:none;position:absolute;right:-160px;top:60px;width:750px;background-color:white;z-index:10;"},newdiv);
                 // if(self!=top){
                 //  divquick.addEventListener("mouseover",function(){this.style.left="290px";},false);
                 //  divquick.addEventListener("mouseout",function(){this.style.left="620px";},false);
@@ -12647,7 +12686,8 @@ return false;
             z=parseInt(unsafeWindow.garten_zeit[v],10);
             p=unsafeWindow.garten_prod[v];
             switch(unsafeWindow.garten_kategorie[v]){
-            case "v":{ // plants
+			case "v":
+			case "hr": { // plants
                 helpArray[v]=true;
                 helpArray2[v]=false;
                 if (z>0){
@@ -13367,6 +13407,17 @@ return false;
     megafieldVehicle = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_megafieldVehicle"),"do_main/megafieldVehicle",[]);
     unsafeData.megafieldVehicle=megafieldVehicle.clone();
     logMegafieldJob = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logMegafieldJob"),"do_main/logMegafieldJob",[]);
+    for(var i=logMegafieldJob.length-1;i>=0;i--){
+        if(!logMegafieldJob[i][0]){ // no start time of the job
+            logMegafieldJob.splice(i,1); 
+            continue;
+        }
+        if(!logMegafieldJob[i][1]){ // no end time of the job
+            if(logMegafieldJob[i][0]+7*24*60*60<unsafeWindow.Zeit.Server){ // job started more than 7 days ago
+                logMegafieldJob[i][1]=logMegafieldJob[i][0]+7*24*60*60;
+            }
+        }
+    }
     function doMegafieldData(){
 /*  megafield:
     "points": STRING(INTEGER), 
@@ -13444,8 +13495,6 @@ return false;
                     for(var i=logMegafieldJob.length-1;i>=0;i--){
                         if(logMegafieldJob[i][0]==jobStart){ 
                             break; 
-                        }else if(!logMegafieldJob[i][0]){
-                            logMegafieldJob.splice(i,1); 
                         }
                     }
                     if(!logMegafieldJob[i]){
@@ -18679,7 +18728,15 @@ try{
         .rackcat30fla,.rackcat30fla_active{background:url("+GFX+"rack_sort_top.png);width:26px;height:39px;}\
         .rackcat30fla{background-position:-239px 0px;}\
         .rackcat30fla:hover{background-position:-239px -39px;}\
-        .rackcat30fla_active{background-position:-239px -78px;};"
+        .rackcat30fla_active{background-position:-239px -78px;}\
+		.rackcat60hr,.rackcat60hr_active{background:url("+GFX+"rack_sort_left2.png);width:26px;height:39px;}\
+        .rackcat60hr{background-position:0px -235px;}\
+        .rackcat60hr:hover{background-position:-36px -235px;}\
+        .rackcat60hr_active{background-position:-72px -235px;}\
+		.rackcat70md,.rackcat70md_active{background:url("+GFX+"rack_sort_left2.png);width:26px;height:39px;}\
+        .rackcat70md{background-position:0px -282px;}\
+        .rackcat70md:hover{background-position:-36px -282px;}\
+        .rackcat70md_active{background-position:-72px -282px;};"
     );
     // Script elements
     GM_addStyle(
@@ -19358,6 +19415,7 @@ try{
         texte["de"]["fl1"]="Blumenwiese";
         texte["de"]["fl2"]="Blumenwerkstatt";
         texte["de"]["fl3"]="Monsterfruchtzucht";
+        texte["de"]["fl5"]="Tierarzt";
         texte["de"]["fl6"]="Wettmampfen";
         texte["de"]["fw1"]="Getr"+a_dots+"nkebude";
         texte["de"]["fw2"]="Imbissbude";
@@ -19387,6 +19445,9 @@ try{
         texte["de"]["ingredients"]="Zutaten";
         texte["de"]["invalidServer"]="Ung"+u_dots+"ltiger Server";
         texte["de"]["inventory"]="Bestand";
+        texte["de"]["jobIncomplete"]="Auftrag nicht erfolgreich beendet";
+        texte["de"]["jobComplete"]="Auftrag erfolgreich beendet";
+        texte["de"]["jobCurrent"]="Aktueller Auftrag";
         texte["de"]["keptLots"]="Behaltene Lose";
         texte["de"]["level"]="Level";
         texte["de"]["levelTooLow"]="Dein Level ist zu niedrig";
@@ -19561,6 +19622,8 @@ try{
         texte["de"]["category_f3"]="S"+a_dots+"gewerk Produkte";
         texte["de"]["category_f4"]="Schreinerei Produkte";
         texte["de"]["category_f5"]="Bauernhaus Holzprodukte";
+        texte["de"]["category_hr"]="Heilkr"+a_dots+"uter";
+	    texte["de"]["category_md"]="Tinktur";
         texte["de"]["category_r0"]="Rezepte Produkt";
         texte["de"]["category_r1"]="Rezepte Erh"+o_dots+"hung Ertrag";
         texte["de"]["category_r2"]="Rezepte Erh"+o_dots+"hung Punkte";
@@ -19720,6 +19783,7 @@ try{
         texte["en"]["fl1"]="Flower meadow";
         texte["en"]["fl2"]="Flower workshop";
         texte["en"]["fl3"]="Monster fruit culture";
+        texte["en"]["fl5"]="Animal doctor";
         texte["en"]["fl6"]="Speed eating";
         texte["en"]["fw1"]="Soda stall";
         texte["en"]["fw2"]="Snack booth";
@@ -19749,6 +19813,9 @@ try{
         texte["en"]["ingredients"]="Ingredients";
         texte["en"]["invalidServer"]="Invalid Server";
         texte["en"]["inventory"]="Inventory";
+        texte["en"]["jobIncomplete"]="Job not finished successfully";
+        texte["en"]["jobComplete"]="Job finished successfully";
+        texte["en"]["jobCurrent"]="Current job";
         texte["en"]["keptLots"]="Kept lots";
         texte["en"]["level"]="Level";
         texte["en"]["levelTooLow"]="Your level is too low";
@@ -19922,6 +19989,8 @@ try{
         texte["en"]["category_f3"]="Sawmill products";
         texte["en"]["category_f4"]="Carpentry products";
         texte["en"]["category_f5"]="Wooden farmhouse items";
+        texte["en"]["category_hr"]="Medicinal herb";
+        texte["en"]["category_md"]="Healing tincture";
         texte["en"]["category_r0"]="Recipes product";
         texte["en"]["category_r1"]="Recipes increade yield";
         texte["en"]["category_r2"]="Recipes increade points";
