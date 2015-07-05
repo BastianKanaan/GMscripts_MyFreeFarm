@@ -3,12 +3,12 @@
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           27.06.2015
-// @version        2.1.5
+// @date           05.07.2015
+// @version        2.1.6
 // @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // ==/UserScript==
 
-const VERSIONfunctionFile = "2.1.5";
+const VERSIONfunctionFile = "2.1.6";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
@@ -31,6 +31,11 @@ try{
     return this.charAt(0).toUpperCase() + this.slice(1);
 }catch(err){ GM_logError("String.prototype.capitalize","","",err); }
 };
+Array.prototype.contains = function(searchElement){
+try{
+    return (this.indexOf(searchElement)!=-1);
+}catch(err){ GM_logError("Array.prototype.contains","","",err); }
+}  
 Array.prototype.equals = function(that){
 try{
    // if the other array is a falsy value, return
