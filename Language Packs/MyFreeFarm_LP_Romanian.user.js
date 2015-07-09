@@ -1,4 +1,4 @@
-// ==UserScript==
+Ôªø// ==UserScript==
 // @name        MyFreeFarm LP Romanian
 // @namespace   https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author      BastianKanaan
@@ -32,9 +32,9 @@ try{
     const timeFormatHMS = "hour:min:sec"; // The style a precise time is displayed. You can use the tags "hour", "min" and "sec".
     // Take the following from the game
     // For the following you have to take a message sent if you sell something on the market place
-    texte["msgMarketsaleContent"]="(.*) cump„r„ \\s*(\\d+)x (.*?) pentru\\s*<br>\\s*(.*?) pD de la tine\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
+    texte["msgMarketsaleContent"]="(.*) cump√£r√£ \\s*(\\d+)x (.*?) pentru\\s*<br>\\s*(.*?) pD de la tine\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
     // For the following you have to take a message sent if you sell something via contract
-    texte["msgContractsaleContent"]="(.*) a semnat unul dintre contractele tale!<br><br>\\s*Urm„toarele produse au fost v‚ndute:<br>([\\S\\s]*)\\s*<br>\\s*Cantitatea de (.*?) pD a fost ad„ugat„ Ón contul t„u\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
+    texte["msgContractsaleContent"]="(.*) a semnat unul dintre contractele tale!<br><br>\\s*Urm√£toarele produse au fost v√¢ndute:<br>([\\S\\s]*)\\s*<br>\\s*Cantitatea de (.*?) pD a fost ad√£ugat√£ √Æn contul t√£u\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
     texte["msgContractsaleList"]="\\s*(\\d+)x (.*?)<br>"; // The line-pattern for the detailed selling list
     // For the following you have to take a message sent if somebody wants to add you as friend
     texte["msgFriend"]="(.+) would like to add you as a friend"; // The subject. The person has to be replaced by "(.+)"
