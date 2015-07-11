@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           05.07.2015
-// @version        2.5.2
+// @date           11.07.2015
+// @version        2.5.3
 // @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
@@ -54,25 +54,26 @@
 // ==/UserScript==
 
 const VERSION=GM_info["script"]["version"];
-const neededVersionBerater="2.5.2";
-const neededVersionFunctionFile="2.1.6";
+const neededVersionBerater="2.5.3";
+const neededVersionFunctionFile="2.1.7";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
 const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migration to openuserjs.org"],["Script wird jetzt auf GitHub entwickelt","Script now developed on GitHub"]]]
                 ,["2.1","11.07.2014",[["Neu: Changelog","New: Changelog"],["Refaktorierung der Zonen-Daten","Refactoring of zones data"]]]
                 ,["2.1.1","12.07.2014",[["Bugfix","Bugfix"]]]
-                ,["2.1.2","22.08.2014",[["Bugfix: S"+a_dots+"gewerk und Schreinerei durch Patch 18.08.2014","Bugfix: Sawmill and carpentry by patch 18.08.2014"]]]
-                ,["2.1.3","02.09.2014",[["Neu: Doppelte Sicherung des Bots gegen Ausf"+a_dots+"lle. Entsprechende Optionen.","New: Double protection against failing of the bot. Corresponding options."],["Refaktorierung der Optionen","Refactoring of settings"]]]
+                ,["2.1.2","22.08.2014",[["Bugfix: Sägewerk und Schreinerei durch Patch 18.08.2014","Bugfix: Sawmill and carpentry by patch 18.08.2014"]]]
+                ,["2.1.3","02.09.2014",[["Neu: Doppelte Sicherung des Bots gegen Ausfälle. Entsprechende Optionen.","New: Double protection against failing of the bot. Corresponding options."],["Refaktorierung der Optionen","Refactoring of settings"]]]
                 ,["2.1.4","09.09.2014",[["Bugfix","Bugfix"]]]
                 ,["2.1.5","09.12.2014",[["Bugfix","Bugfix"]]]
-                ,["2.1.6","18.12.2014",[["Neu: Bot f"+u_dots+"r Waltraud kann jetzt in den Optionen aktiviert werden","New: Bot for donkey can be activated in options"]]]
-                ,["2.2.0","01.02.2015",[["Neu: Ernte-Bot f"+u_dots+"r G"+u_dots+"terhof","New: Cropping bot for megafield"]]]
+                ,["2.1.6","18.12.2014",[["Neu: Bot für Waltraud kann jetzt in den Optionen aktiviert werden","New: Bot for donkey can be activated in options"]]]
+                ,["2.2.0","01.02.2015",[["Neu: Ernte-Bot für Güterhof","New: Cropping bot for megafield"]]]
                 ,["2.4.0","12.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"]]]
                 ,["2.4.1","13.02.2015",[["Bugfix: Optionen","Bugfix: Settings"]]]
-                ,["2.5","27.06.2015",[["Neu: Bot f"+u_dots+"r G"+u_dots+"terhof","New: Bot for megafield"],["Korrektur der Queue-Berechnung","Correction of queue calculation"],["Refaktorierung des Loggings","Refactoring of logging"]]]
+                ,["2.5","27.06.2015",[["Neu: Bot für Güterhof","New: Bot for megafield"],["Korrektur der Queue-Berechnung","Correction of queue calculation"],["Refaktorierung des Loggings","Refactoring of logging"]]]
                 ,["2.5.1","03.07.2015",[["Neu: Anpassung für Pflanzen der Kräuter","New: Fix for planting herbs"]]]
                 ,["2.5.2","05.07.2015",[["Text-Korrekturen","Text fixes"]]]
+                ,["2.5.3","11.07.2015",[["Kleinere technische Korrekturen","Smaller technical fixes"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Automaton-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -362,7 +363,7 @@ try{
     try{
         divInfo=$("divBotInfo");
         active=settings.get("server","botActive");;
-        if(active==undefined){active=false;}
+        if(active===undefined){active=false;}
         if(active){
             bot.activate();
         }else{
@@ -726,7 +727,7 @@ function getLowestTimeFarmZone(timeTable){
     GM_logInfo("getLowestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin",1);
     for(var i in timeTable){
         if(!timeTable.hasOwnProperty(i)){ continue; }
-        if(zoneNrF==undefined) var zoneNrF=i;
+        if(zoneNrF===undefined) var zoneNrF=i;
         if(timeTable[i] < timeTable[zoneNrF]){
             zoneNrF=i;
         }
@@ -738,7 +739,7 @@ function getHighestTimeFarmZone(timeTable){
     GM_logInfo("getHighestTimeFarmZone","timeTable="+implode(timeTable,"getLowestTimeFarmZone/timeTable"),"","Begin",1);
     for(var i in timeTable){
         if(!timeTable.hasOwnProperty(i)){ continue; }
-        if(zoneNrF==undefined) var zoneNrF=i;
+        if(zoneNrF===undefined) var zoneNrF=i;
         if(timeTable[i] > timeTable[zoneNrF]){
             zoneNrF=i;
         }
@@ -831,15 +832,15 @@ function calcProductScore(product, zoneNrF, amount, endtime){
         return unsafeData.prodPoints[3][product];
     break;
     case "sawmill":case "carpentry":
-        if(amount==null || amount==undefined){ amount=1; }
+        if(amount==null || amount===undefined){ amount=1; }
         return unsafeData.prodPoints[1][product]*amount;
     break;
     case "forest":
-        if(amount==null || amount==undefined){ amount=calcProductPositions(product, zoneNrF); }
+        if(amount==null || amount===undefined){ amount=calcProductPositions(product, zoneNrF); }
         return unsafeData.prodPoints[1][product]*amount;
     break;
     case 1:
-        if(amount==null || amount==undefined) amount=calcProductPositions(product, zoneNrF);
+        if(amount==null || amount===undefined) amount=calcProductPositions(product, zoneNrF);
         if(unsafeData.currentPowerup && unsafeData.currentPowerup[product] && unsafeData.currentPowerup[product][0] > (endtime==null?now:endtime)){
             return (unsafeData.prodPoints[0][product]+unsafeData.currentPowerup[product][2])*amount;
         }else{
@@ -847,11 +848,11 @@ function calcProductScore(product, zoneNrF, amount, endtime){
         }
     break;
     case 2:
-        if(amount==null || amount==undefined){ amount=unsafeData.zones.getAnimals(zoneNrF); }
+        if(amount==null || amount===undefined){ amount=unsafeData.zones.getAnimals(zoneNrF); }
         return unsafeData.prodPoints[0][product]*unsafeData.prodYield[0][product]*amount;
     break;
     case 3:case 4:
-        if(amount==null || amount==undefined){ amount=1; }
+        if(amount==null || amount===undefined){ amount=1; }
         return unsafeData.prodPoints[0][product]*unsafeData.prodYield[0][product]*amount;
     break;
     case "megafield":
@@ -869,16 +870,16 @@ function calcProductAmount(product, zoneNrF, amount, endtime, minPlanted){
         return 1;
     break;
     case "sawmill":case "carpentry":
-        if(amount==null || amount==undefined){ amount=1; }
+        if(amount==null || amount===undefined){ amount=1; }
         return unsafeData.prodYield[1][product]*amount;
     break;
     case "forest":
-        if(amount==null || amount==undefined){ amount=calcProductPositions(product, zoneNrF); }
+        if(amount==null || amount===undefined){ amount=calcProductPositions(product, zoneNrF); }
         return unsafeData.prodYield[1][product]*amount; //no minPlanted because planted is other product.
     break;
     case 1:case 4:
-        if(amount==null || amount==undefined){ amount=calcProductPositions(product, zoneNrF); }
-        if(unsafeData.currentPowerup && unsafeData.currentPowerup[product] && unsafeData.currentPowerup[product][0] > ((endtime==null||endtime==undefined)?now:endtime)){
+        if(amount==null || amount===undefined){ amount=calcProductPositions(product, zoneNrF); }
+        if(unsafeData.currentPowerup && unsafeData.currentPowerup[product] && unsafeData.currentPowerup[product][0] > ((endtime==null||endtime===undefined)?now:endtime)){
             return (unsafeData.prodYield[0][product]-(minPlanted?1:0)+unsafeData.currentPowerup[product][1])*amount;
         }else{
             return (unsafeData.prodYield[0][product]-(minPlanted?1:0))*amount;
@@ -963,7 +964,7 @@ function calcInGameProductAmountOnField(product, zoneNrF, endtime){
             if(tempZoneProductionData[0][0][product]){
                 for(var i in tempZoneProductionData[0][0][product]){
                     if(!tempZoneProductionData[0][0][product].hasOwnProperty(i)){ continue; }
-                    if(endtime==undefined || endtime==null || tempZoneProductionData[0][0][product][i][1]<=endtime){
+                    if(endtime===undefined || endtime==null || tempZoneProductionData[0][0][product][i][1]<=endtime){
                         iBase +=calcProductAmount(product,zoneNrF,tempZoneProductionData[0][0][product][i][0],tempZoneProductionData[0][0][product][i][1],false);
                     }
                 }
@@ -1125,7 +1126,7 @@ function getZoneTimes(zoneNrL){
                 zoneTimes[fz]=((help==NEVER)?now:help);
             }
         }
-        if(zoneNrL==undefined){
+        if(zoneNrL===undefined){
             GM_logInfo("getZoneTimes","zoneNrL="+zoneNrL,"","End",1);
             return zoneTimes.clone();
         }else{
@@ -1146,7 +1147,7 @@ function getZoneTimes(zoneNrL){
 function getFarmZonesTyp(zType){
     var zoneT=new Array();
     for(var fz=1;fz<=6*parseInt(unsafeWindow.farmamount,10);fz++){
-        if(getBuildingTyp(fz)==zType || zType==undefined){
+        if(getBuildingTyp(fz)==zType || zType===undefined){
             zoneT.push(fz);
         }
     }
@@ -1269,7 +1270,7 @@ try{
 }catch(err){GM_logError("addZoneToList","","",err);}
 }
 function getFarmZone(gardenNr, farm){
-    if(farm==null || farm==undefined){ farm=unsafeWindow.farm; }
+    if(farm==null || farm===undefined){ farm=unsafeWindow.farm; }
     if(isNaN(gardenNr)){ return gardenNr; }
     else { return parseInt(gardenNr,10) + 6*(parseInt(farm,10)-1); }
 }
@@ -1332,7 +1333,7 @@ function getZoneType(zoneNr){
 function getBuildingTyp(zoneNr){
     try{
     var zoneType=getZoneType(zoneNr);
-    if(unsafeData.BUILDINGTYPE[zoneType]==undefined){
+    if(unsafeData.BUILDINGTYPE[zoneType]===undefined){
         return zoneType;
     }else{
         return unsafeData.BUILDINGTYPE[zoneType];
@@ -1362,7 +1363,7 @@ try{
     // showPaired: Amount of digits for displaying
     if(recursionCount>10){throw("TOO MUCH RECURSION")}
     GM_logInfo("getZoneName","recursionCount="+recursionCount+" zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin",1);
-    if(showName==undefined){ showName=true; }
+    if(showName===undefined){ showName=true; }
     zoneNrS=zoneNrS.toString();
     var zoneNrF=zoneNrS.replace(/\.\d+$/,"");
     var zones=getZonesFromList(zoneNrL);
@@ -1530,8 +1531,8 @@ try {
 function drawQueueBox(zoneNrS, zoneNrL, appendTo){
 try{
     GM_logInfo("drawQueueBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" appendTo.id="+appendTo.id,"","Begin",1);
-    if(zoneNrS==undefined){ return; }
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(zoneNrS===undefined){ return; }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
     appendTo.innerHTML="";
     appendTo.style.display="none";
@@ -1592,8 +1593,8 @@ try{
     newelm.addEventListener("click",function(){
         var zoneNrS=this.parentNode.parentNode.getAttribute("zoneNrS");
         var zoneNrL=this.parentNode.parentNode.getAttribute("zoneNrL");
-        var lRepeat=(!OPTION_LIST_REPEAT || zoneNrS=="windmill")?false:!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["repeat"]==undefined?false:zoneSettings[zoneNrL]["repeat"];
-        var lShuffle=!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["shuffle"]==undefined?false:zoneSettings[zoneNrL]["shuffle"];
+        var lRepeat=(!OPTION_LIST_REPEAT || zoneNrS=="windmill")?false:!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["repeat"]===undefined?false:zoneSettings[zoneNrL]["repeat"];
+        var lShuffle=!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["shuffle"]===undefined?false:zoneSettings[zoneNrL]["shuffle"];
         var product=(zoneNrS=="windmill"?(lShuffle?zoneList[zoneNrL][zoneList[zoneNrL].length-1][0]:PRODSTOP):(lRepeat||lShuffle?zoneList[zoneNrL][zoneList[zoneNrL].length-1][0]:PRODSTOP));
         var queueNum=zoneList[zoneNrL].push(DEFAULT_ZONELIST_ITEM.clone())-1;
         zoneList[zoneNrL][queueNum][0]=product;
@@ -1778,7 +1779,7 @@ try{
 function drawQueueItemBox(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
     GM_logInfo("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"","Begin",1);
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
     // begin adding new box
     var newlayerId="divAutoMatQueueItemBox"+zoneNrL+"Q"+queueNum;
@@ -1961,7 +1962,7 @@ try{
             toolTip.adjust(this);
             updateQueueBox(zoneNrS, zoneNrL);
         },false);
-        newelm=createElement("input",{id:newlayerId+"IListRepeat",value:((zoneList[zoneNrL][queueNum][5]==undefined)?REPEAT_NO_LIMIT:zoneList[zoneNrL][queueNum][5]),maxlength:"4",size:"3","class":"queueItemInput3 queueItemInputWidth2"},newlayer);
+        newelm=createElement("input",{id:newlayerId+"IListRepeat",value:((zoneList[zoneNrL][queueNum][5]===undefined)?REPEAT_NO_LIMIT:zoneList[zoneNrL][queueNum][5]),maxlength:"4",size:"3","class":"queueItemInput3 queueItemInputWidth2"},newlayer);
         newelm.addEventListener("change", function(){
         try{
             // GM_log("Input field change :" + this.value);
@@ -1979,9 +1980,9 @@ try{
         },false);
     }
     // Input Field
-    newelm=createElement("input",{id:newlayerId+"I2",disabled:true,value:((zoneList[zoneNrL][queueNum][2]==undefined)?0:zoneList[zoneNrL][queueNum][2]),maxlength:"4",size:"3","class":"queueItemInput2 queueItemInputWidth2"},newlayer);
+    newelm=createElement("input",{id:newlayerId+"I2",disabled:true,value:((zoneList[zoneNrL][queueNum][2]===undefined)?0:zoneList[zoneNrL][queueNum][2]),maxlength:"4",size:"3","class":"queueItemInput2 queueItemInputWidth2"},newlayer);
     newelm=createElement("input",{id:newlayerId+"I1",value:0,maxlength:(zoneNrS!="windmill"&&zoneList[zoneNrL][queueNum][3]?"6":"4"),size:"3","class":"queueItemInput1 queueItemInputWidth2"},newlayer);
-    newelm.value=(zoneList[zoneNrL][queueNum][1]==undefined)?1:zoneList[zoneNrL][queueNum][1];
+    newelm.value=(zoneList[zoneNrL][queueNum][1]===undefined)?1:zoneList[zoneNrL][queueNum][1];
     newelm.addEventListener("change", function(){
     try{
         // GM_log("Input field change :" + this.value);
@@ -2077,13 +2078,13 @@ try{
 }catch(err){GM_logError("drawQueueItemBox","zoneNrS="+zoneNrS +" zoneNrL="+zoneNrL +" queueNum="+queueNum+" appendTo.id="+appendTo.id,"",err);}
 }
 function drawQueueListSmall(zoneNrF, zoneNrL, appendTo){
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
     appendTo.style.display="none";
     appendTo.innerHTML="";
     appendTo.setAttribute("zoneNrF",zoneNrF);
     appendTo.setAttribute("zoneNrL",zoneNrL);
-    var lRepeat=(!OPTION_LIST_REPEAT || zoneNrF=="windmill")?false:!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["repeat"]==undefined?false:zoneSettings[zoneNrL]["repeat"];
-    var lShuffle=!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["shuffle"]==undefined?false:zoneSettings[zoneNrL]["shuffle"];
+    var lRepeat=(!OPTION_LIST_REPEAT || zoneNrF=="windmill")?false:!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["repeat"]===undefined?false:zoneSettings[zoneNrL]["repeat"];
+    var lShuffle=!settings.get("account","useQueueList")?false:zoneSettings[zoneNrL]["shuffle"]===undefined?false:zoneSettings[zoneNrL]["shuffle"];
     var fzType=getBuildingTyp(zoneNrF);
 
     createElement("div",{id:"divQueueItemListTitle"+zoneNrL,"class":"divQueueItemListTitle"},appendTo, getZoneName(0,zoneNrF,zoneNrL, null, false, true, true));
@@ -2110,7 +2111,7 @@ function drawQueueListSmall(zoneNrF, zoneNrL, appendTo){
             if(fzType!=3 && zoneList[zoneNrL][queueNum][0]!=PRODSTOP){
                 var iLastInf=((zoneList[zoneNrL].length-1)==queueNum) && !lRepeat && !lShuffle;
                 var amount=""+Math.max(0,zoneList[zoneNrL][queueNum][1] - zoneList[zoneNrL][queueNum][2]);
-                createElement("div",{"class":"divQueueItemListNumber"},newdiv,((!settings.get("account","useQueueList") && fzType==1)||lRepeat&&iLastInf)?sign_inf:amount);
+                createElement("div",{"class":"divQueueItemListNumber"},newdiv,((!settings.get("account","useQueueList") && fzType==1)||lRepeat&&iLastInf)?"∞":amount);
             }
         }
     }
@@ -2120,8 +2121,8 @@ function drawQueueListSmall(zoneNrF, zoneNrL, appendTo){
 function drawQueueChooseItemBox(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
     // GM_log("Begin drawQueueChooseItemBox zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" queueNum="+queueNum+" appendTo.id="+appendTo.id);
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
-    if(queueNum==undefined){ queueNum=0; }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(queueNum===undefined){ queueNum=0; }
     appendTo.innerHTML="";
     appendTo.setAttribute("zoneNrS",zoneNrS);
     appendTo.setAttribute("zoneNrL",zoneNrL);
@@ -2210,7 +2211,7 @@ function drawFactoryChooseItemBox(zoneNrS, zoneNrL, appendTo){
 try{
     // GM_log("Begin drawFactoryChooseItemBox :" + zoneNrS+":"+zoneNrL);
     var zoneNrF=zoneNrS.toString().replace(/\.\d+$/,"");
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     appendTo.innerHTML="";
     appendTo.setAttribute("zoneNrF",zoneNrF);
     appendTo.setAttribute("zoneNrS",zoneNrS);
@@ -2265,7 +2266,7 @@ try{
 function drawStableChooseFeedBox(zoneNrF, zoneNrL, appendTo){
 try{
     // GM_log("Begin drawStableChooseFeedBox zoneNrF:" + zoneNrF + " zoneNrL:"+zoneNrL);
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
     var level=parseInt($("levelnum").innerHTML,10);
 
     // catch bad data
@@ -2403,8 +2404,8 @@ try{
 function drawMillChooseItemBox(zoneNrF, zoneNrL, queueNum, appendTo){
 try {
     // GM_log("Begin drawMillChooseItemBox :" + queueNum);
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
-    if(queueNum==undefined) queueNum=0;
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
+    if(queueNum===undefined) queueNum=0;
     appendTo.innerHTML="";
     appendTo.setAttribute("zoneNrF",zoneNrF);
     appendTo.setAttribute("zoneNrL",zoneNrL);
@@ -2428,7 +2429,7 @@ try {
     newdiv.addEventListener("mouseover", function(event){ toolTip.show(event, getText("automat_QueDontWork"));},false);
     newdiv.style.backgroundColor=(zoneList[zoneNrL][0][0]==PRODSTOP)? "black":"";
     createElement("div",{"class":"fm"+PRODSTOP,style:"position:relative;"},newdiv);
-    createElement("div",{"class":"divMillChooseItemNumber"},newdiv,sign_inf);
+    createElement("div",{"class":"divMillChooseItemNumber"},newdiv,"∞");
 
     for(var iProd in autoMillStorage){
         if(!autoMillStorage.hasOwnProperty(iProd)){continue;}
@@ -2468,8 +2469,8 @@ try{
     var fzType=getBuildingTyp(zoneNrF);
     var zoneStockTyp = (fzType=="forest"?"f1":(fzType=="sawmill"?"f3":(fzType=="carpentry"?"f4":null)));
     // GM_log("drawForestryChooseItemBox zoneStockTyp:"+zoneStockTyp);
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
-    if(queueNum==undefined) queueNum=0;
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
+    if(queueNum===undefined) queueNum=0;
     var level=parseInt($("levelnum").innerHTML,10);
     appendTo.innerHTML="";
     appendTo.setAttribute("zoneNrF",zoneNrF);
@@ -2546,8 +2547,8 @@ try{
 function drawFoodworldChooseItemBox(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
 //  GM_log("Begin drawFoodworldChooseItemBox zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" queueNum="+queueNum+" appendTo.id="+appendTo.id);
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
-    if(queueNum==undefined){ queueNum=0; }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(queueNum===undefined){ queueNum=0; }
     appendTo.innerHTML="";
     appendTo.setAttribute("zoneNrS",zoneNrS);
     appendTo.setAttribute("zoneNrL",zoneNrL);
@@ -2615,8 +2616,8 @@ try{
 function drawChooseItemBoxMegafield(zoneNrS, zoneNrL, queueNum, appendTo){
 try{
     // GM_log("Begin drawChooseItemBoxMegafield zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" queueNum="+queueNum+" appendTo.id="+appendTo.id);
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
-    if(queueNum==undefined){ queueNum=0; }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(queueNum===undefined){ queueNum=0; }
     appendTo.innerHTML="";
     appendTo.setAttribute("zoneNrS",zoneNrS);
     appendTo.setAttribute("zoneNrL",zoneNrL);
@@ -2684,9 +2685,9 @@ try{
 function updateQueueBox(zoneNrS,zoneNrL){
 try{
     GM_logInfo("updateQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL,"","Begin",1);
-    if(zoneNrS==undefined){ return; }
+    if(zoneNrS===undefined){ return; }
     var err_trace="init";
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrS);
     var fzZoneType=getZoneType(zoneNrS);
     var fzForestry=(fzType=="forest"||fzType=="sawmill"||fzType=="carpentry");
@@ -2748,8 +2749,8 @@ try{
         var divAutoMatQueueItemBox, divAutoMatQueueItemBoxId;
         var totalInQue=0;
         var foundStop=false;
-        var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]==undefined)?false:zoneSettings[zoneNrL]["repeat"];
-        var lShuffle=zoneSettings[zoneNrL]["shuffle"]==undefined?false:zoneSettings[zoneNrL]["shuffle"];
+        var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]===undefined)?false:zoneSettings[zoneNrL]["repeat"];
+        var lShuffle=zoneSettings[zoneNrL]["shuffle"]===undefined?false:zoneSettings[zoneNrL]["shuffle"];
         var newRackAmount=new Array(); //array with all cultured products until that moment.
         var newProdStock=unsafeData.prodStock.clone();
         if(!newProdStock[iType]){ newProdStock[iType]={}; }
@@ -2981,11 +2982,11 @@ try{
             $("divAutoMatButton"+zoneNrL).style.height=row7+2+((settings.get("account","showQueueTime") && lShowTime)?queueItemBoxTimeHeight:0)+"px";
 
             $(divAutoMatQueueItemBoxId+"I1").className=(iRackMode)?"queueItemInput1 queueItemInputWidth1":"queueItemInput1 queueItemInputWidth2";
-            $(divAutoMatQueueItemBoxId+"I1").value=(iTot==undefined)?1:iTot; //TODO remove setting val here
+            $(divAutoMatQueueItemBoxId+"I1").value=(iTot===undefined)?1:iTot; //TODO remove setting val here
             $(divAutoMatQueueItemBoxId+"I1").style.display=(iLastInf || iStop)?"none":"block";
             $(divAutoMatQueueItemBoxId+"I1").maxLength=(iRackMode)?"6":"4";
 
-            $(divAutoMatQueueItemBoxId+"I2").value=(iDone==undefined)?0:iDone; //TODO remove setting val here
+            $(divAutoMatQueueItemBoxId+"I2").value=(iDone===undefined)?0:iDone; //TODO remove setting val here
             $(divAutoMatQueueItemBoxId+"I2").style.opacity=(iTogo<=0)?0.4:1;
             $(divAutoMatQueueItemBoxId+"I2").style.display=(!iRackMode && (iRepeat || lRepeat) && !iStop)?"block":"none";
             if(OPTION_ITEM_REPEAT){
@@ -2993,7 +2994,7 @@ try{
                 $(divAutoMatQueueItemBoxId+"Mode").style.backgroundImage="url("+(zoneList[zoneNrL][queueNum][4]?IMAGES["mode_repeat"]:IMAGES["mode_1time"])+")";
 
                 $(divAutoMatQueueItemBoxId+"IListRepeat").style.display=(!iRackMode && (iRepeat || lRepeat) && !iStop)?"block":"none";
-                $(divAutoMatQueueItemBoxId+"IListRepeat").value=(zoneList[zoneNrL][queueNum][5]==undefined)?REPEAT_NO_LIMIT:zoneList[zoneNrL][queueNum][5];
+                $(divAutoMatQueueItemBoxId+"IListRepeat").value=(zoneList[zoneNrL][queueNum][5]===undefined)?REPEAT_NO_LIMIT:zoneList[zoneNrL][queueNum][5];
             }
             $(divAutoMatQueueItemBoxId+"M").style.opacity=iTogo<=0?0.4:1;
             $(divAutoMatQueueItemBoxId+"M").style.display=(iLastInf || iStop || iTot<=1) ?"none":"block";
@@ -3007,11 +3008,11 @@ try{
                 $(divAutoMatQueueItemBoxId+"P").style.display="block";
             }                
 
-            $(divAutoMatQueueItemBoxId+"ET").innerHTML=(settings.get("account","showQueueTime") && lShowTime)?iLastInf?sign_inf:(getDateText(endTime,0) + "<br/>" + getDaytimeStr(endTime,true)):null;
+            $(divAutoMatQueueItemBoxId+"ET").innerHTML=(settings.get("account","showQueueTime") && lShowTime)?iLastInf?"∞":(getDateText(endTime,0) + "<br/>" + getDaytimeStr(endTime,true)):null;
             $(divAutoMatQueueItemBoxId+"ET").style.color=noTime? "#DD0000":"black";
             $(divAutoMatQueueItemBoxId+"ET").style.display=(iTogo<=0 || foundStop || !settings.get("account","showQueueTime") || !lShowTime)?"none":"block";
 
-            $(divAutoMatQueueItemBoxId+"T").innerHTML=(iStop)?_TEXTE_STOP:sign_inf;
+            $(divAutoMatQueueItemBoxId+"T").innerHTML=(iStop)?_TEXTE_STOP:"∞";
             $(divAutoMatQueueItemBoxId+"T").setAttribute("class",(iStop?"queueItemText queueItemTextStop":"queueItemText queueItemTextInf"));
             $(divAutoMatQueueItemBoxId+"T").style.display=(iLastInf || iStop)?"block":"none";
 
@@ -3181,7 +3182,7 @@ try{
 }
 function redrawQueueBox(zoneNrS, zoneNrL, appendTo){
     GM_logInfo("redrawQueueBox","zoneNrS="+zoneNrS+" zoneNrL="+zoneNrL+" appendTo.id=" + appendTo.id,"","Begin",1);
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrS);
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrS);
     if($("divChooseBox").style.display=="block") click($("divChooseBoxClose"));
     if($("divQueueBox").style.display=="block") click($("divQueueBoxClose"));
     drawQueueBox(zoneNrS, zoneNrL, appendTo);
@@ -3189,7 +3190,7 @@ function redrawQueueBox(zoneNrS, zoneNrL, appendTo){
 }
 function reFillQueueBox(zoneNrF, zoneNrL, scrollToQueue){
     GM_logInfo("reFillQueueBox","zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" scrollToQueue="+scrollToQueue,"","Begin",1);
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
     // GM_log("Begin2 reFillQueueBox zoneNrF:"+ zoneNrF+" zoneNrL:"+ zoneNrL+" scrollToQueue:" + scrollToQueue);
     if($("divAutoMatQueueBox"+zoneNrL)){
         $("divAutoMatQueueBox"+zoneNrL).innerHTML="";
@@ -3201,7 +3202,7 @@ function reFillQueueBox(zoneNrF, zoneNrL, scrollToQueue){
         $("divAutoMatQueueBox"+zoneNrL).style.visibility="visible";
 
         var scrlelm=$("divAutoMatQueueBox"+zoneNrL);
-        if(scrollToQueue==undefined || scrollToQueue==null){
+        if(scrollToQueue===undefined || scrollToQueue==null){
             scrlelm.scrollLeft=0;
         }else{
             scrlelm.scrollLeft=Math.max(0,Math.min(scrlelm.scrollWidth,((scrollToQueue+2)*queueItemBoxWidth)) - scrlelm.clientWidth);
@@ -3222,7 +3223,7 @@ function reFillQueueBox(zoneNrF, zoneNrL, scrollToQueue){
 function toolTipProductSmall(zoneNrS, zoneNrL, queueNum, parent){
 try{
     var zoneNrF=zoneNrS.toString().replace(/\.\d+$/,"");
-    if(zoneNrL==undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
+    if(zoneNrL===undefined || zoneNrL==null){ zoneNrL=getZoneListId(zoneNrS); }
     var fzType=getBuildingTyp(zoneNrF);
     var isIcon=(parent.id.search("divAutomatIcon_")!=-1);
     var isTimeLine=(parent.parentNode.id.indexOf("lineZone")==0);
@@ -3284,7 +3285,7 @@ try{
     var content=createElement("div");
     var newrow,newdiv,newspan;
     // GM_log("toolTipProductSmall fz:"+fz);
-    //TODO texte "Recipe"
+    //TODO text "Recipe"
     createElement("div",{"class":"queueTitle"},content, fzPowerUp?"Recipe":getZoneName(0,zoneNrS,zoneNrL,(fzType!=1||isIcon)?null:queueNum,20,true,!isIcon||lZonesAmount==1,true));
     // createElement("div",{style:"font-weight:bold;"},content,iStop?getText("automat_stop").toTitleCase():(fzWindmill?unsafeWindow.formulas[0][iProd][2]:(fzPowerUp?unsafeWindow.poweruprack[iProd][2]:unsafeData.prodName[iType][iProd])));
     createElement("div",{style:"margin:2px 0px 2px 0px;width:100%;height:0px;border-bottom:1px solid black;"},content);
@@ -3416,12 +3417,12 @@ function toolTipMain(zoneNrF, zoneNrL, queueNum, parent){
 }
 function toolTipProduct(zoneNrF, zoneNrL, queueNum, parent){
 try{
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
     // GM_log("Begin toolTipProduct zoneNrF="+zoneNrF+" zoneNrL="+zoneNrL+" queueNum="+queueNum+" parent.id="+parent.id);
     var totalInQue=parseInt(parent.getAttribute("totalInQue"),10);
     var foundStop=parent.getAttribute("foundStop")=="true";
-    var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]==undefined)?false:zoneSettings[zoneNrL]["repeat"];
-    var lShuffle=zoneSettings[zoneNrL]["shuffle"]==undefined?false:zoneSettings[zoneNrL]["shuffle"];
+    var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]===undefined)?false:zoneSettings[zoneNrL]["repeat"];
+    var lShuffle=zoneSettings[zoneNrL]["shuffle"]===undefined?false:zoneSettings[zoneNrL]["shuffle"];
     var iRepeat=(!OPTION_ITEM_REPEAT)?false:zoneList[zoneNrL][queueNum][4];
     var iLastInf=((zoneList[zoneNrL].length-1)==queueNum) && !(lRepeat || iRepeat) && !lShuffle;
     var iRackMode=zoneNrL!="windmill" && zoneList[zoneNrL][queueNum][3];
@@ -3467,20 +3468,20 @@ try{
             createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan);
             createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan,getText("yield"));
             createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan,getText("points"));
-            createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan,getText("automat_fields")); //TODO texte -> "fields" much be "zone" for isNaN(zoneNrF)
+            createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan,getText("automat_fields")); //TODO text -> "fields" much be "zone" for isNaN(zoneNrF)
 
             if(!extendedListReg.test(zoneNrL)){
                 if(!iRackMode){ //TOTAL
                     var newspan=createElement("div",{style:"display:table-row;"},content);
                     createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan,(lRepeat || iRepeat || lShuffle ?getText("automat_QueRoundMake"):getText("automat_QueFieldMake")));
-                    createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (equalTimeArray?"":" ~ ") + (iLastInf?sign_inf:numberFormat(iTogoAmount+iDoneAmount)+sign_mult));
-                    createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (equalTimeArray?"":" ~ ") + (iLastInf?sign_inf:numberFormat(iTogoScore+iDoneScore)));
-                    createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (iLastInf?sign_inf:numberFormat(iTot)));
+                    createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (equalTimeArray?"":" ~ ") + (iLastInf?"∞":numberFormat(iTogoAmount+iDoneAmount)+"×"));
+                    createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (equalTimeArray?"":" ~ ") + (iLastInf?"∞":numberFormat(iTogoScore+iDoneScore)));
+                    createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (iLastInf?"∞":numberFormat(iTot)));
 
                     if((lRepeat || iRepeat || lShuffle) && iDone>0){ //DONE
                         var newspan=createElement("div",{style:"display:table-row;"},content);
                         createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan,getText("automat_QueRoundMade"));
-                        createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (equalTimeArray?"":" ~ ") + numberFormat(iDoneAmount)+sign_mult);
+                        createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (equalTimeArray?"":" ~ ") + numberFormat(iDoneAmount)+"×");
                         createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (equalTimeArray?"":" ~ ") + numberFormat(iDoneScore));
                         createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, iDone);
                     }
@@ -3489,9 +3490,9 @@ try{
             if(iTogo>0){//TOGO
                 var newspan=createElement("div",{style:"display:table-row;"},content);
                 createElement("div",{style:"display:table-cell;padding-right:10px;"},newspan, (lRepeat || iRepeat || lShuffle ?getText("automat_QueRoundToGo"):getText("automat_QueFieldToGo")));
-                createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (settings.get("account","showQueueTime")?"":" ~ ") + (iLastInf?sign_inf:numberFormat(iTogoAmount)+sign_mult));
-                createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (settings.get("account","showQueueTime")?"":" ~ ") + (iLastInf?sign_inf:numberFormat(iTogoScore)));
-                createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (iLastInf?sign_inf:numberFormat(iTogo)));
+                createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (settings.get("account","showQueueTime")?"":" ~ ") + (iLastInf?"∞":numberFormat(iTogoAmount)+"×"));
+                createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (settings.get("account","showQueueTime")?"":" ~ ") + (iLastInf?"∞":numberFormat(iTogoScore)));
+                createElement("div",{style:"display:table-cell;padding-right:10px;text-align:right;"},newspan, (iLastInf?"∞":numberFormat(iTogo)));
             }
         }
         createElement("div",{style:"margin:4px 0px 4px 0px;width:100%;height:0px;border-bottom:1px solid black;"},content);
@@ -3573,7 +3574,7 @@ try{
                         createElement("div",{style:"display:table-cell;"},newspan, getZoneName(0,fz,fz,null,false,true,true,false)); //Math.ceil(fz/6) + "." + getGarden(fz));
                         createElement("div",{style:"display:table-cell;padding:0px 2px;"},newspan, "->");
                         createElement("div",{style:"display:table-cell;text-align:right;"},newspan, iTogoArray[fz]);
-                        createElement("div",{style:"display:table-cell;text-align:right;padding:0px 3px;"},newspan, sign_mult);
+                        createElement("div",{style:"display:table-cell;text-align:right;padding:0px 3px;"},newspan, "×");
                         createElement("div",{style:"display:table-cell;padding:0px 2px;"},newspan,getTimeStr(timeArray[fz],true) + "&nbsp;" + getText("shortHours"));
                         createElement("div",{style:"display:table-cell;padding:0px 2px;"},newspan, "->");
                     }
@@ -3584,7 +3585,7 @@ try{
                     if(!iLastInf){
                         createElement("div",{style:"display:table-cell;padding:0px 3px;"},newspan, "<b>"+getDateText(zoneEndTime[fz],0) + "</b>&nbsp;" + getDaytimeStr(zoneEndTime[fz],true));
                     }else{
-                        createElement("div",{style:"display:table-cell;padding:0px 3px;"},newspan, sign_inf);
+                        createElement("div",{style:"display:table-cell;padding:0px 3px;"},newspan, "∞");
                     }
                 }
                 timesArray=null;fz=null;k=null;
@@ -3598,7 +3599,7 @@ try{
     //%PRODNAME%=product name, %FLDFROM%=field nr from, %FLDTO%=field nr until,
     thisTitle=thisTitle.replace(/%PRODNAME%/gi, unsafeData.prodName[iType][iProd]);
     thisTitle=thisTitle.replace(/%FLDFROM%/gi, totalInQue + (iProd==PRODSTOP?0:1));
-    thisTitle=thisTitle.replace(/%FLDTO%/gi, iLastInf?sign_inf:(totalInQue+iTot));
+    thisTitle=thisTitle.replace(/%FLDTO%/gi, iLastInf?"∞":(totalInQue+iTot));
 
     // GM_log("End toolTipProduct :" + zoneNrF + " : " + queueNum);
     return thisTitle;
@@ -3610,11 +3611,11 @@ try{
 function toolTipRecipe(zoneNrF, zoneNrL, queueNum, parent){
 try{
     // GM_log("Begin toolTipRecipe :" + zoneNrF + " : " + queueNum);
-    if(zoneNrL==undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
+    if(zoneNrL===undefined || zoneNrL==null) zoneNrL=getZoneListId(zoneNrF);
     var totalInQue=parseInt(parent.getAttribute("totalInQue"),10);
     var foundStop=parent.getAttribute("foundStop")=="true";
-    var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]==undefined)?false:zoneSettings[zoneNrL]["repeat"];
-    var lShuffle=zoneSettings[zoneNrL]["shuffle"]==undefined?false:zoneSettings[zoneNrL]["shuffle"];
+    var lRepeat=(!OPTION_LIST_REPEAT || zoneSettings[zoneNrL]["repeat"]===undefined)?false:zoneSettings[zoneNrL]["repeat"];
+    var lShuffle=zoneSettings[zoneNrL]["shuffle"]===undefined?false:zoneSettings[zoneNrL]["shuffle"];
     var iProd=parseInt(zoneList[zoneNrL][queueNum][0],10);
     var iTot=parseInt(zoneList[zoneNrL][queueNum][1],10);
     var iDone=parseInt(zoneList[zoneNrL][queueNum][2],10);
@@ -3696,13 +3697,13 @@ try{
                     //image
                     createElement("div",{"class":"kp"+info[3][j][0], style:"float:left;"},newspan);
                     //reciep product number
-                    createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(info[3][j][1]) + sign_mult);
+                    createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(info[3][j][1]) + "×");
                     //reciep product number total autolist
-                    createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(iTot * info[3][j][1]) + sign_mult);
+                    createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(iTot * info[3][j][1]) + "×");
                     //reciep product number missing total autolist
                     if(zoneList[zoneNrL][queueNum][4][j]<0){
-                        //createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(iTot * info[3][j][1]) + sign_mult);
-                        createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(Math.abs(zoneList[zoneNrL][queueNum][4][j])) + sign_mult);
+                        //createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(iTot * info[3][j][1]) + "×");
+                        createElement("div",{style:"display:table-cell;padding-left:8px;text-align:right;"},newspan, numberFormat(Math.abs(zoneList[zoneNrL][queueNum][4][j])) + "×");
                     }else if(zoneList[zoneNrL][queueNum][3]<0){ //somewhere else there is a shortage: show empty td
                         //createElement("div",{style:"display:table-cell;padding-left:8px;"},newspan);
                         createElement("div",{style:"display:table-cell;padding-left:8px;"},newspan);
@@ -4053,7 +4054,7 @@ function getReadyZone(location){
     }else{
         for(var zoneNrS in unsafeData.readyZone){
             if(!unsafeData.readyZone.hasOwnProperty(zoneNrS)){ continue; }
-            if((help=unsafeData.readyZone[zoneNrS])&&help[2]&&((location==undefined)||(location==help[0]))){
+            if((help=unsafeData.readyZone[zoneNrS])&&help[2]&&((location===undefined)||(location==help[0]))){
                 zoneNrL = getZoneListId(zoneNrS);
                 if((help[1]=="w")||(help[1]=="r" && (zoneList[zoneNrL][0][0]!=PRODSTOP||!settings.get("account","disableCropFields")))||(help[1]=="e" && zoneList[zoneNrL][0][0]!=PRODSTOP)){
                     if(zoneWaiting[zoneNrS]){
@@ -5841,7 +5842,7 @@ try{
         break;}
         case 3:{ // cropping
             if((!isBot)||(zoneList[handled.zoneNrL][0][0]!=PRODSTOP)||(!settings.get("account","disableCropFields"))){
-                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>Cropping"); //TODO texte
+                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>Cropping"); //TODO text
                 if(!unsafeData.zones.getProduction(handled.zoneNrS)[3]){
                     // data not ready
                     window.setTimeout(autoForestryForest,settings.getPause(),runId,step,field,didPlant,isBot);
@@ -5886,12 +5887,12 @@ try{
             if(zoneList[handled.zoneNrL][0][0]==PRODSTOP){
                 autoForestryForest(runId,8,1,didPlant,isBot); // -> water
             }else if((unsafeWindow.premium!=1)&&(zoneList[handled.zoneNrL][0][0]!=unsafeWindow.forestry_plant)){
-                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>Select tree"); //TODO texte
+                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>Select tree"); //TODO text
                 if(help=$("f_stock_item"+zoneList[handled.zoneNrL][0][0])){
                     click(help);
                     window.setTimeout(autoForestryForest,settings.getPause(true),runId,step,field,didPlant,isBot);
                 }else{ // tree not available
-                    GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Tree not available"); //TODO texte
+                    GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Tree not available"); //TODO text
                     zoneList[handled.zoneNrL].unshift(DEFAULT_ZONELIST_ITEM.clone()); //add PRODSTOP to begin of list
                     updateQueueBox(handled.zoneNrS);
                     autoForestryForest(runId,8,1,didPlant,isBot); // -> water
@@ -5903,7 +5904,7 @@ try{
         break;}
         case 5:{ // planting
             if(field==1){
-                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>"+getText("automat_planting")); //TODO texte
+                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>"+getText("automat_planting")); //TODO text
             }
             help=false;
             for(var i in unsafeWindow.forestry_area){ //if not in forestry_area the field is empty
@@ -5922,7 +5923,7 @@ try{
                 window.setTimeout(autoForestryForest,settings.getPause(true),runId,step+1,field,didPlant,isBot);
             }else{
                 unsafeData.zones.flagProduction(handled.zoneNrS);
-                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","click field:"+field); //TODO texte
+                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","click field:"+field); //TODO text
                 click($("forestry_pos"+field));
                 window.setTimeout(autoForestryForest,settings.getPause(true),runId,step,field+1,true,isBot);
             }
@@ -5949,7 +5950,7 @@ try{
         break;}
         case 8:{ // watering
             if(unsafeData.zones.getBonus(handled.zoneNrF)>0){
-                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>"+getText("automat_watering")); //TODO texte
+                GM_logInfo("autoForestryForest","runId="+runId+" step="+step+" field="+field+" didPlant="+didPlant+" isBot="+isBot,"","Forest automat<br>"+getText("automat_watering")); //TODO text
                 if(!unsafeData.zones.getProduction(handled.zoneNrS)[3]){
                     window.setTimeout(autoForestryForest,settings.getPause(),runId,step,field,didPlant,isBot);
                 }else if(unsafeData.zones.getWatertime(handled.zoneNrS)<unsafeWindow.Zeit.Server){
@@ -6023,7 +6024,7 @@ try{
                 if((help=$("forestry_building_inner"))&&(help.style.display=="block")&&(help.className==(handled.zoneNrF=="sawmill"?"forestry_building_inner_back1":"forestry_building_inner_back2"))){
                     autoForestryBuilding(runId,step+1);
                 }else{
-                    GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening"); //TODO texte
+                    GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening"); //TODO text
                     action=function(){ click($("forestry_building_click"+(handled.zoneNrF=="sawmill"?"1":"2"))); };
                     listeningEvent="game"+handled.zoneNrF.capitalize()+"Opened";
                 }
@@ -6033,7 +6034,7 @@ try{
         break;}
         case 3:{ // cropping
             if((help=unsafeData.readyZone[handled.zoneNrS])&&help[2]&&(help[1]=="r")&&(zoneList[handled.zoneNrL][0][0]!=PRODSTOP||!settings.get("account","disableCropFields"))){
-                GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Cropping"); //TODO texte
+                GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Cropping"); //TODO text
                 if(help=$("forestry_building_inner_slot_info"+handled.slot)){
                     action=function(){ click(help); };
                     listeningEvent="game"+handled.zoneNrF.capitalize()+"Cropped";
@@ -6049,7 +6050,7 @@ try{
         break;}
         case 5:{ // open slot
             if(zoneList[handled.zoneNrL][0][0]!=PRODSTOP){
-                GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening slot"); //TODO texte
+                GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening slot"); //TODO text
                 action=function(){ click($("forestry_building_inner_slot_info"+handled.slot)); };
                 listeningEvent="game"+handled.zoneNrF.capitalize()+"SlotOpened";
             }else{
@@ -6058,7 +6059,7 @@ try{
         break;}
         case 6:{ // start production
             if((help=$("forestry_selectproduction_scrollcontent"))&&(help=help.querySelector(".f_symbol"+zoneList[handled.zoneNrL][0][0]))&&(help=help.parentNode.parentNode)&&(help.getAttribute("onclick")!="")){
-                GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Start production"); //TODO texte
+                GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Start production"); //TODO text
                 action=function(){ click(help); };
                 listeningEvent="gameOpenGlobalBox";
             }else{
@@ -6068,7 +6069,7 @@ try{
             }
         break;}
         case 7:{ // confirm
-            GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Confirm start production"); //TODO texte
+            GM_logInfo("autoForestryBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Confirm start production"); //TODO text
             action=function(){
                 click($("globalbox_button1"));
                 setNextQueueItem(handled.zoneNrS);
@@ -6363,7 +6364,7 @@ function checkLodgeQuest(){
 function autoActivateLodgeQuest(didGive){
     if(DEVMODE_FUNCTION){GM_log("Begin autoActivateLodgeQuest");}
     //if(!busy){ GM_log("BUSY NOT SET: autoActivateQuest"); return false;}
-    if(didGive==undefined){didGive=false;}
+    if(didGive===undefined){didGive=false;}
 
     var campaignNr="1";
     var lquestNr=unsafeData.questData["lodge"][campaignNr]["nr"];
@@ -6497,7 +6498,7 @@ try{
         break;}
         case 3:{ // open farmersmarket building
             if((help=unsafeData.readyZone[handled.zoneNrS])&&help[2]&&(((help[1]=="r")&&((zoneList[handled.zoneNrL][0][0]!=PRODSTOP)||(!settings.get("account","disableCropFields"))))||((help[1]=="e")&&(zoneList[handled.zoneNrL][0][0]!=PRODSTOP)))){
-                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening"); //TODO texte 
+                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening"); //TODO text 
                 help=/-(\d)$/.exec(handled.zoneNrF)[1]; // determine which building to work on
                 if($("farmersmarket_pos"+help+"_inner").style.display != "block"){
                     action=function(){ click($("farmersmarket_pos"+help+"_click")); };
@@ -6515,7 +6516,7 @@ try{
         case 4:{ // harvest
             help=unsafeData.readyZone[handled.zoneNrS];
             if((unsafeData.readyZone[handled.zoneNrS][1]=="r")&&((zoneList[handled.zoneNrL][0][0]!=PRODSTOP)||(!settings.get("account","disableCropFields")))){
-                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Cropping"); //TODO texte
+                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Cropping"); //TODO text
                 switch(handled.zoneBuildingTyp){
                 case 1:{
 // TODO manual crop                  
@@ -6542,7 +6543,7 @@ try{
         case 5:{ // init production
             help=unsafeData.readyZone[handled.zoneNrS];
             if(zoneList[handled.zoneNrL][0][0]==PRODSTOP){
-                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","No production selected."); //TODO texte
+                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","No production selected."); //TODO text
                 autoFarmersmarketBuilding(runId,9); // -> exit
             }else if(help[1]=="e"){
                 switch(handled.zoneBuildingTyp){
@@ -6554,17 +6555,17 @@ try{
                         }
                     }
                     // select flower
-                    GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Initializing planting ("+zoneList[handled.zoneNrL][0][0]+")"); //TODO texte
+                    GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Initializing planting ("+zoneList[handled.zoneNrL][0][0]+")"); //TODO text
                     if(unsafeWindow.racksort&&(unsafeWindow.racksort!=30)&&(unsafeWindow.racksort!=31)&&(unsafeWindow.racksort!=32)&&(unsafeWindow.racksort!=33)){
                         // non-flower-rack opened
-                        GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Switching rack"); //TODO texte
+                        GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Switching rack"); //TODO text
                         step--;
                         action=function(){ click($("rackcat30")); };
                         listeningEvent="gameUpdateRack";
                     }else if(!(unsafeData.prodStock[0][zoneList[handled.zoneNrL][0][0]]&&unsafeData.prodStock[0][zoneList[handled.zoneNrL][0][0]]>0)){
                         // product is missing
                         // this is correct set, even if rack is updating
-                        GM_logWarning("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Flower is not in rack"); //TODO texte
+                        GM_logWarning("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Flower is not in rack"); //TODO text
                         zoneList[handled.zoneNrL].unshift(DEFAULT_ZONELIST_ITEM.clone());
                         updateQueueBox(handled.zoneNrS);
                         autoFarmersmarketBuilding(runId,9); // -> exit
@@ -6655,7 +6656,7 @@ try{
                     }                       
                 break;}
                 case 4:{ // open slot
-                    GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening slot"); //TODO texte
+                    GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening slot"); //TODO text
                     if(help=$("nursery_slot_item" + handled.slot)){
                         action=function(){ click(help); };
                         listeningEvent="gameFarmersmarketSlotOpened";
@@ -6665,7 +6666,7 @@ try{
                 break;}
                 }
             }else{
-                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Zone not empty."); //TODO texte
+                GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"","Zone not empty."); //TODO text
                 autoFarmersmarketBuilding(runId,9); // -> exit              
             }
         break;}
@@ -6718,7 +6719,7 @@ try{
         case 7:{ // commit
             if((help=$("globalbox")) && (help.style.display == "block")){
                 if(help=$("globalbox_button1")){
-                    GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Start production"); //TODO texte
+                    GM_logInfo("autoFarmersmarketBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Start production"); //TODO text
                     action=function(){ click(help); };
                     listeningEvent="gameFarmersmarketStarted";
                     setNextQueueItem(handled.zoneNrS);
@@ -6866,7 +6867,7 @@ try{
         break;}
         case 3:{ // open foodworld building
             if((help=unsafeData.readyZone[handled.zoneNrS])&&help[2]&&(((help[1]=="r")&&((zoneList[handled.zoneNrL][0][0]!=PRODSTOP)||(!settings.get("account","disableCropFields"))))||((help[1]=="e")&&(zoneList[handled.zoneNrL][0][0]!=PRODSTOP)))){
-                GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening"); //TODO texte 
+                GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening"); //TODO text 
                 help=/-(\d)$/.exec(handled.zoneNrF)[1]; // determine which building to work on
                 if($("food_buildinginner").style.display != "block"){
                     action=function(){ click($("food_pos"+help)); };
@@ -6884,7 +6885,7 @@ try{
         case 4:{ // harvest
             help=unsafeData.readyZone[handled.zoneNrS];
             if((unsafeData.readyZone[handled.zoneNrS][1]=="r")&&((zoneList[handled.zoneNrL][0][0]!=PRODSTOP)||(!settings.get("account","disableCropFields")))){
-                GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Cropping"); //TODO texte
+                GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Cropping"); //TODO text
                 if((help=$("food_slot" + handled.slot + "_ready")) && (help.style.display=="block")){
                     action=function(){ click(help); };
                     listeningEvent="gameFoodworldCropped";
@@ -6898,7 +6899,7 @@ try{
         case 5:{ // open slot
             help=unsafeData.readyZone[handled.zoneNrS];
             if((zoneList[handled.zoneNrL][0][0]!=PRODSTOP)&&(help[1]=="e")){
-                GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening slot"); //TODO texte
+                GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Opening slot"); //TODO text
                 if((help=$("food_slot" + handled.slot + "_ready")) && (help.style.display=="none")){
                     action=function(){ click($("food_slot" + handled.slot)); };
                     listeningEvent="gameFoodworldSlotOpened";
@@ -6914,7 +6915,7 @@ try{
             if((help=$("food_buildinginner_select")) && (help.style.display == "block")){
                 if((help=$("foodworld_bld_select_prod" + zoneList[handled.zoneNrL][0][0])) && (help.className == "link")){
                     // link is visible, can be clicked on
-                    GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Start production"); //TODO texte
+                    GM_logInfo("autoFoodworldBuilding","runId="+runId+" step="+step,"",handled.zoneNrF.capitalize()+" automat<br>Start production"); //TODO text
                     action=function(){ click(help); };
                     listeningEvent="gameFoodworldStarted";
                     setNextQueueItem(handled.zoneNrS);
@@ -7141,7 +7142,7 @@ try{
     }
     // build table
     var newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
-    var newtd=createElement("td",{"style":"text-align:right;border-bottom:none;"},newtr,"Zone"); // TODO texte
+    var newtd=createElement("td",{"style":"text-align:right;border-bottom:none;"},newtr,"Zone"); // TODO text
     for(var i=0;i<zones.length;i++){
         newtd=createElement("td",{"align":"center","style":"width:10px;","rowspan":2},newtr,getZoneName(0,zones[i],zones[i],null,false,true,false,false)+"<br>"+getZoneName(0,zones[i],zones[i],null,false,false,true,false).replace(/,/g,"<br>"));
     }
@@ -7301,7 +7302,7 @@ function buildInfoPanelOverview(mode){
         if(typeof mode!="object"){ mode=modeOld; }
         for(var v in modeDefault){
             if(!modeDefault.hasOwnProperty(v)){ continue; }
-            if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+            if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
         }
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeOverViewFarms",implode(mode,"buildInfoPanelOverview/mode"));
         newdiv=$("infoPanelInner");
@@ -7689,7 +7690,7 @@ function buildInfoPanelOptions(){
         // *********** FARMIE *************************************
 
         newtr=createElement("tr",{"style":"background-color:#b69162;"},newtable);
-        newtd=createElement("th",{colspan:"3"},newtr,"Farmis"); // TODO texte
+        newtd=createElement("th",{colspan:"3"},newtr,"Farmis"); // TODO text
         newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
         newtd=createElement("td",{"colspan":"3","align":"center"},newtr,"This bot needs a review ... :(");
 
@@ -7807,7 +7808,7 @@ function buildInfoPanelOptions(){
 
         // *********** LOTTERY ************************************
         newtr=createElement("tr",{"style":"background-color:#b69162;"},newtable);
-        newtd=createElement("th",{colspan:"3"},newtr,"Lottery"); // TODO texte
+        newtd=createElement("th",{colspan:"3"},newtr,"Lottery"); // TODO text
 
         newtr=createElement("tr",{"style":"line-height:18px;"},newtable);
         newtd=createElement("td",{"align":"center","width":"40"},newtr);
@@ -8359,7 +8360,7 @@ try{
         //autoMillStorage: {[rId][0]=number bought, [1]=total number in zoneList[getZoneListId("windmill")], [2]=max number of recipes on products global Math.min([3][pId]), [3][pId]=max number of recipes for this products per products
         autoMillStorage=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_autoMillStorage","[]"),"settings/autoMillStorage",[]);
         modeOverViewFarms=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeOverViewFarms"),"settings/modeOverViewFarms",null);
-        if(modeOverViewFarms==null){
+        if(null==modeOverViewFarms){
             modeOverViewFarms=[,true,true,true];
             GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeOverViewFarms",implode(modeOverViewFarms,"settings/modeOverViewFarms"));
         }
@@ -8619,7 +8620,7 @@ try{
             var el1=createElement("img",{"id":"autoFarmForest","class":"link","style":"position:absolute;top:-25px;left:0;width:25px;height:25px;","src":GFX+"autoplant_off.png"},$("forestry_forest_buttons"));
             el1.addEventListener("mouseover",function(event){
                 this.src=GFX+"autoplant_on.png";
-                toolTip.show(event,"Automatic planting"); // TODO texte
+                toolTip.show(event,"Automatic planting"); // TODO text
             },false);
             el1.addEventListener("mouseout",function(){this.src=GFX+"autoplant_off.png";},false);
             el1.addEventListener("click",function(){
@@ -8818,7 +8819,7 @@ try{
                             var newimg=createElement("img",{"id":"autoFarmStable"+v+"t"+BUILDING2FEED[v][w],"class":"link","style":"position:absolute;top:50px;width: 25px; height: 25px;z-index:11;","src":GFX+"autoplant_off.png"},$("feed_item"+BUILDING2FEED[v][w]));
                             newimg.addEventListener("mouseover",function(event){
                                 this.src=GFX+"autoplant_on.png";
-                                toolTip.show(event,"Automatic feeding"); // TODO texte
+                                toolTip.show(event,"Automatic feeding"); // TODO text
                             },false);
                             newimg.addEventListener("mouseout",function(){this.src=GFX+"autoplant_off.png";},false);
                             newimg.addEventListener("click",function(){
@@ -9581,422 +9582,423 @@ try{
     // **************************************************
     
     // Multilingual
-    texte=top.unsafeData.texte;
-    if(texte["de"]["automat"]==undefined){ 
-        texte["de"]["automat"] = "Automat";
-        texte["de"]["automat_planting"] = "Pflanze...";
-        texte["de"]["automat_waiting"] = "Warte...";
-        texte["de"]["automat_watering"] = "Gie"+sz+"e...";
-        texte["de"]["automat_feeding"] = "F"+u_dots+"ttere...";
-        texte["de"]["automat_automatPlanting"] = "Pflanz-Automat";
-        texte["de"]["automat_automatFeeding"] = "Futter-Automat";
-        texte["de"]["automat_automatFactory"] = "Fabrik-Automat";
-        texte["de"]["automat_automatMegafield"]="G"+u_dots+"terhof-Automat";
-        texte["de"]["automat_automatWindmill"] = "M"+u_dots+"hlen-Automat";
-        texte["de"]["automat_botStart"] = "Automat-Bot starten";
-        texte["de"]["automat_botStop"] = "Automat-Bot stoppen";
-        texte["de"]["automat_settings_botErrorBehaviour"] = "Verhalten des Automaten im Fall eines Fehlers";
-        texte["de"]["automat_settings_pageReload"] = "Neu Laden der Seite";
-        texte["de"]["automat_settings_botRestart"] = "Neu Starten des Bots";
-        texte["de"]["automat_zonePairing"] = "Zone pairing";
-        texte["de"]["automat_debugInfo"] = "Debug Info";
-        texte["de"]["automat_windmill"] = "windmill";
-        texte["de"]["automat_timing"] = "Timing";
-        texte["de"]["automat_general"] = "General";
-        texte["de"]["automat_development"] = "Development";
-        texte["de"]["automat_arrivedInFarm"] = "Farm erreicht";
-        texte["de"]["automat_changeToFarmX"] = "Gehe nach Farm %1%";
-        texte["de"]["automat_changingToX"] = "Gehe nach %1%";
-        texte["de"]["automat_closingFieldContainer"] = "Schlie"+sz+"e Acker";
-        texte["de"]["automat_closingFactoryContainer"] = "Schlie"+sz+"e Fabrik";
-        texte["de"]["automat_closingStableContainer"] = "Schlie"+sz+"e Stall";
-        texte["de"]["automat_openingZoneX"] = O_dots+"ffne Zone %1%";
-        texte["de"]["automat_zoneXIsOpened"] = "Zone %1% ist ge"+o_dots+"ffnet";
-        texte["de"]["automat_confirmChangelogVersion"]="Du hast eine neue Version des Automat-Scriptes installiert.<br>Die Version %1% beinhaltet folgende "+A_dots+"nderungen:";
-        texte["de"]["automat_maximumStockCapacityReached"]="Maximale Lagerkapazit"+a_dots+"t wird erreicht werden.";
-        texte["de"]["automat_nothingToCrop"]="Nichts zum Ernten.";
-        texte["de"]["automat_cropWaitingInX"]="Warte auf Ernten in %1%.";
-        texte["de"]["automat_plantingAtX"]="Pflanze auf %1%.";
-        texte["de"]["automat_plantingNoFreeField"]="Kein freies Feld zum Pflanzen.";
-        texte["de"]["automat_plantingSetX"]="W"+a_dots+"hle Pflanze \"%1%\".";
-        texte["de"]["automat_queueItemAmountDecreased"]="Queue-Eintrag Anzahl verringert.";
-        texte["de"]["automat_queueItemDeleted"]="Queue-Eintrag gel"+o_dots+"scht.";
-        texte["de"]["automat_responseWaiting"]="Warte auf Antwort.";
-        texte["de"]["automat_stopAdding"]="F"+u_dots+"ge \"Stop\" in Queue ein.";
-        texte["de"]["automat_tourStarting"]="Starte Tour.";
-        texte["de"]["automat_vehicleNotKnown"]="Kein Fahrzeug bekannt.";
-        texte["de"]["automat_vehicleXNotAvailable"]="Fahrzeug \"%1%\" nicht verf"+u_dots+"gbar.";
-        texte["de"]["automat_vehicleXBuying"]="Kaufe Fahrzeug \"%1%\".";
-        texte["de"]["automat_vehicleXSelected"]="Fahrzeug  ist ausgew"+a_dots+"hlt.";
-        texte["de"]["automat_shouldUpdateAdviser"] = "Du solltest das Berater-Script aktualisieren!<br>Der Automat wird nicht ordnungsgem"+a_dots+sz+" arbeiten.";
-        texte["de"]["automat_settings_autoPlant"] = "Soll der Pflanz-Automat angezeigt werden?";
-        texte["de"]["automat_settings_autoWater"] = "Sollen die "+A_dots+"cker gegossen werden?";
-        texte["de"]["automat_settings_autoFeed"] = "Soll der Futter-Automat angezeigt werden?";
-        texte["de"]["automat_settings_botUse"] = "Verwende Bot";
-        texte["de"]["automat_settings_disableCropFields"]="Block the cropping of sleeping fields.";
-        texte["de"]["automat_settings_pauseShortMin"] = "Minimale Klickzeit der Automaten";
-        texte["de"]["automat_settings_pauseShortMax"] = "Maximale Klickzeit der Automaten";
-        texte["de"]["automat_settings_pauseMin"] = "Minimale Wartezeiten der Automaten";
-        texte["de"]["automat_settings_pauseMax"] = "Maximale Wartezeiten der Automaten";
-        texte["de"]["automat_settings_maxDurationBotRun"] = "Maximale Laufzeit des Automaten";
-        texte["de"]["automat_settings_maxDurationBotStep"] = "Maximale Laufzeit eines Schrittes des Automaten";
-        texte["de"]["automat_setToDefault"] = "Standard setzen";
-        texte["de"]["automat_settings_seedWaitForCrop"] = "Das Pflanzen wartet, falls innerhalb dieser Zeit geerntet werden kann.";
-        texte["de"]["automat_emergencyPlants"] = "Notfall-Pflanzen. Diese werden zuerst genommen, falls die ben"+o_dots+"tigte Pflanze nicht verf"+u_dots+"gbar oder passend ist.";
-        texte["de"]["automat_settings_useQueueList"] = "Benutze Queue-Listen f"+u_dots+"r die "+A_dots+"cker";
-        texte["de"]["automat_set12a"] = "L"+o_dots+"sche \n alle zone Queue\n Daten";
-        texte["de"]["automat_set12b"] = "Gel"+o_dots+"scht.";
-        texte["de"]["automat_settings_showQueueTime"] = "Zeige berechnete Zeiten in der Queue-Liste.";
-        texte["de"]["automat_set18a"] = "L"+o_dots+"sche alle Daten der M"+u_dots+"hlen-Queue";
-        texte["de"]["automat_set18b"] = "L"+o_dots+"schen erfolgreich";
-        texte["de"]["automat_settings_powerUpActivate"] = "Aktiviere Produkt-Powerups";
-        texte["de"]["automat_settings_lotteryActivate"] = "Aktiviere das t"+a_dots+"gliche Lotterie-Los";
-        texte["de"]["automat_settings_lotteryDailyLot"] = "Behalte das t"+a_dots+"gliche Lotterie-Los";
-        texte["de"]["automat_settings_questActivate"] = "Aktiviere den Quest to quest:";
-        texte["de"]["automat_settings_questSolving"] = "Erf"+u_dots+"lle den Quest to quest:";
-        texte["de"]["automat_settings_farmiReject"] = "Auto-Ablehnung Farmi unter";
-        texte["de"]["automat_settings_farmiAccept"] = "Auto-Annahme Farmi "+u_dots+"ber";
-        texte["de"]["automat_settings_farmiAcceptBelowMinValue"] = "Nimm Farmi an, der ein Produkt verlangt unter minimalem Lagerbestand";
-        texte["de"]["automat_settings_farmiRemoveMissing"] = "Entferne Farmi mit fehlenden Produkten und wenigstem Gewinn. Schwelle:";
-        texte["de"]["automat_fields"] = A_dots+"cker";
-        texte["de"]["automat_titleGeneral"] = "Allgemein-Queue";
-        texte["de"]["automat_titleQueue"] = "Queue";
-        texte["de"]["automat_QueCopyTextHeader"] = "Kopiere Queue";
-        texte["de"]["automat_QueCopyTextHeaderFrom"] = "Kopiere von:";
-        texte["de"]["automat_QueCopyTextHeaderTo"] = "Kopiere nach:";
-        texte["de"]["automat_QueAddText"] = "Eine weitere Pflanze an die Liste anh"+a_dots+"ngen"; //Add product
-        texte["de"]["automat_QueAddAboveText"] = "Eine weitere Pflanze in die Liste schieben";
-        texte["de"]["automat_QueDeleteText"] = "Diese Pflanze l"+o_dots+"schen";
-        texte["de"]["automat_QueClose"] = "Men"+u_dots+" schlie"+sz+"en";
-        texte["de"]["automat_QueCloseAll"] = "Alle ge"+o_dots+"ffneten Queue-Fenster schlie"+sz+"en";
-        texte["de"]["automat_QueMin"] = "Weniger";
-        texte["de"]["automat_QuePlus"] = "Mehr";
-        texte["de"]["automat_QueBehaviourF"] = "Klick um in den Lager-Modus zu schalten";
-        texte["de"]["automat_QueBehaviourR"] = "Klick um in den Felder-Modus zu schalten";
-        texte["de"]["automat_QueUpButton"] = "Fr"+u_dots+"her";
-        texte["de"]["automat_QueDownButton"] = "Sp"+a_dots+"ter";
-        texte["de"]["automat_buttonTimeLine"] = "Zeige Felder-Zeitverlauf";
-        texte["de"]["automat_buttonOverview"] = "Zeige Automaten-"+U_dots+"bersicht";
-        texte["de"]["automat_repeat_on"] = "Wiederholung AN";
-        texte["de"]["automat_repeat_off"] = "Wiederholung AUS";
-        texte["de"]["automat_shuffle_on"] = "Zufall AN";
-        texte["de"]["automat_shuffle_off"] = "Zufall AUS";
-        texte["de"]["automat_rotate"] = "Rotieren";
-        texte["de"]["automat_stop"] = "STOPP";
-        texte["de"]["automat_week"] = "Wochen";
-        texte["de"]["automat_inftext"] = "L"+a_dots+"uft ohne Ende";
-        texte["de"]["automat_removeAllWeed"] = "Entferne alle %AMOUNT% %PROD%<br>St"+u_dots+"ck = %COST%<br>Total = %TCOST%";
-        texte["de"]["automat_usedFarmFieldsReadyAt"] = "Benutzte Felder sind fertig um:";
-        texte["de"]["automat_CloseWindowTimer"] = "Schlie"+sz+"e Fenster in %1%";
-        texte["de"]["automat_CloseWindowTimerClick"] = "Klick um Timer zur"+u_dots+"ckzusetzen";
+    err_trace="text";
+    text=top.unsafeData.text;
+    if(undefined===text["de"]["automat"]){ 
+        text["de"]["automat"] = "Automat";
+        text["de"]["automat_planting"] = "Pflanze...";
+        text["de"]["automat_waiting"] = "Warte...";
+        text["de"]["automat_watering"] = "Gieße...";
+        text["de"]["automat_feeding"] = "Füttere...";
+        text["de"]["automat_automatPlanting"] = "Pflanz-Automat";
+        text["de"]["automat_automatFeeding"] = "Futter-Automat";
+        text["de"]["automat_automatFactory"] = "Fabrik-Automat";
+        text["de"]["automat_automatMegafield"]="Güterhof-Automat";
+        text["de"]["automat_automatWindmill"] = "Mühlen-Automat";
+        text["de"]["automat_botStart"] = "Automat-Bot starten";
+        text["de"]["automat_botStop"] = "Automat-Bot stoppen";
+        text["de"]["automat_settings_botErrorBehaviour"] = "Verhalten des Automaten im Fall eines Fehlers";
+        text["de"]["automat_settings_pageReload"] = "Neu Laden der Seite";
+        text["de"]["automat_settings_botRestart"] = "Neu Starten des Bots";
+        text["de"]["automat_zonePairing"] = "Zone pairing";
+        text["de"]["automat_debugInfo"] = "Debug Info";
+        text["de"]["automat_windmill"] = "windmill";
+        text["de"]["automat_timing"] = "Timing";
+        text["de"]["automat_general"] = "General";
+        text["de"]["automat_development"] = "Development";
+        text["de"]["automat_arrivedInFarm"] = "Farm erreicht";
+        text["de"]["automat_changeToFarmX"] = "Gehe nach Farm %1%";
+        text["de"]["automat_changingToX"] = "Gehe nach %1%";
+        text["de"]["automat_closingFieldContainer"] = "Schließe Acker";
+        text["de"]["automat_closingFactoryContainer"] = "Schließe Fabrik";
+        text["de"]["automat_closingStableContainer"] = "Schließe Stall";
+        text["de"]["automat_openingZoneX"] = "Öffne Zone %1%";
+        text["de"]["automat_zoneXIsOpened"] = "Zone %1% ist geöffnet";
+        text["de"]["automat_confirmChangelogVersion"]="Du hast eine neue Version des Automat-Scriptes installiert.<br>Die Version %1% beinhaltet folgende Änderungen:";
+        text["de"]["automat_maximumStockCapacityReached"]="Maximale Lagerkapazität wird erreicht werden.";
+        text["de"]["automat_nothingToCrop"]="Nichts zum Ernten.";
+        text["de"]["automat_cropWaitingInX"]="Warte auf Ernten in %1%.";
+        text["de"]["automat_plantingAtX"]="Pflanze auf %1%.";
+        text["de"]["automat_plantingNoFreeField"]="Kein freies Feld zum Pflanzen.";
+        text["de"]["automat_plantingSetX"]="Wähle Pflanze \"%1%\".";
+        text["de"]["automat_queueItemAmountDecreased"]="Queue-Eintrag Anzahl verringert.";
+        text["de"]["automat_queueItemDeleted"]="Queue-Eintrag gelöscht.";
+        text["de"]["automat_responseWaiting"]="Warte auf Antwort.";
+        text["de"]["automat_stopAdding"]="Füge \"Stop\" in Queue ein.";
+        text["de"]["automat_tourStarting"]="Starte Tour.";
+        text["de"]["automat_vehicleNotKnown"]="Kein Fahrzeug bekannt.";
+        text["de"]["automat_vehicleXNotAvailable"]="Fahrzeug \"%1%\" nicht verfügbar.";
+        text["de"]["automat_vehicleXBuying"]="Kaufe Fahrzeug \"%1%\".";
+        text["de"]["automat_vehicleXSelected"]="Fahrzeug  ist ausgewählt.";
+        text["de"]["automat_shouldUpdateAdviser"] = "Du solltest das Berater-Script aktualisieren!<br>Der Automat wird nicht ordnungsgemäß arbeiten.";
+        text["de"]["automat_settings_autoPlant"] = "Soll der Pflanz-Automat angezeigt werden?";
+        text["de"]["automat_settings_autoWater"] = "Sollen die Äcker gegossen werden?";
+        text["de"]["automat_settings_autoFeed"] = "Soll der Futter-Automat angezeigt werden?";
+        text["de"]["automat_settings_botUse"] = "Verwende Bot";
+        text["de"]["automat_settings_disableCropFields"]="Block the cropping of sleeping fields.";
+        text["de"]["automat_settings_pauseShortMin"] = "Minimale Klickzeit der Automaten";
+        text["de"]["automat_settings_pauseShortMax"] = "Maximale Klickzeit der Automaten";
+        text["de"]["automat_settings_pauseMin"] = "Minimale Wartezeiten der Automaten";
+        text["de"]["automat_settings_pauseMax"] = "Maximale Wartezeiten der Automaten";
+        text["de"]["automat_settings_maxDurationBotRun"] = "Maximale Laufzeit des Automaten";
+        text["de"]["automat_settings_maxDurationBotStep"] = "Maximale Laufzeit eines Schrittes des Automaten";
+        text["de"]["automat_setToDefault"] = "Standard setzen";
+        text["de"]["automat_settings_seedWaitForCrop"] = "Das Pflanzen wartet, falls innerhalb dieser Zeit geerntet werden kann.";
+        text["de"]["automat_emergencyPlants"] = "Notfall-Pflanzen. Diese werden zuerst genommen, falls die benötigte Pflanze nicht verfügbar oder passend ist.";
+        text["de"]["automat_settings_useQueueList"] = "Benutze Queue-Listen für die Äcker";
+        text["de"]["automat_set12a"] = "Lösche \n alle zone Queue\n Daten";
+        text["de"]["automat_set12b"] = "Gelöscht.";
+        text["de"]["automat_settings_showQueueTime"] = "Zeige berechnete Zeiten in der Queue-Liste.";
+        text["de"]["automat_set18a"] = "Lösche alle Daten der Mühlen-Queue";
+        text["de"]["automat_set18b"] = "Löschen erfolgreich";
+        text["de"]["automat_settings_powerUpActivate"] = "Aktiviere Produkt-Powerups";
+        text["de"]["automat_settings_lotteryActivate"] = "Aktiviere das tägliche Lotterie-Los";
+        text["de"]["automat_settings_lotteryDailyLot"] = "Behalte das tägliche Lotterie-Los";
+        text["de"]["automat_settings_questActivate"] = "Aktiviere den Quest to quest:";
+        text["de"]["automat_settings_questSolving"] = "Erfülle den Quest to quest:";
+        text["de"]["automat_settings_farmiReject"] = "Auto-Ablehnung Farmi unter";
+        text["de"]["automat_settings_farmiAccept"] = "Auto-Annahme Farmi über";
+        text["de"]["automat_settings_farmiAcceptBelowMinValue"] = "Nimm Farmi an, der ein Produkt verlangt unter minimalem Lagerbestand";
+        text["de"]["automat_settings_farmiRemoveMissing"] = "Entferne Farmi mit fehlenden Produkten und wenigstem Gewinn. Schwelle:";
+        text["de"]["automat_fields"] = "Äcker";
+        text["de"]["automat_titleGeneral"] = "Allgemein-Queue";
+        text["de"]["automat_titleQueue"] = "Queue";
+        text["de"]["automat_QueCopyTextHeader"] = "Kopiere Queue";
+        text["de"]["automat_QueCopyTextHeaderFrom"] = "Kopiere von:";
+        text["de"]["automat_QueCopyTextHeaderTo"] = "Kopiere nach:";
+        text["de"]["automat_QueAddText"] = "Eine weitere Pflanze an die Liste anhängen"; //Add product
+        text["de"]["automat_QueAddAboveText"] = "Eine weitere Pflanze in die Liste schieben";
+        text["de"]["automat_QueDeleteText"] = "Diese Pflanze löschen";
+        text["de"]["automat_QueClose"] = "Menü schließen";
+        text["de"]["automat_QueCloseAll"] = "Alle geöffneten Queue-Fenster schließen";
+        text["de"]["automat_QueMin"] = "Weniger";
+        text["de"]["automat_QuePlus"] = "Mehr";
+        text["de"]["automat_QueBehaviourF"] = "Klick um in den Lager-Modus zu schalten";
+        text["de"]["automat_QueBehaviourR"] = "Klick um in den Felder-Modus zu schalten";
+        text["de"]["automat_QueUpButton"] = "Früher";
+        text["de"]["automat_QueDownButton"] = "Später";
+        text["de"]["automat_buttonTimeLine"] = "Zeige Felder-Zeitverlauf";
+        text["de"]["automat_buttonOverview"] = "Zeige Automaten-Übersicht";
+        text["de"]["automat_repeat_on"] = "Wiederholung AN";
+        text["de"]["automat_repeat_off"] = "Wiederholung AUS";
+        text["de"]["automat_shuffle_on"] = "Zufall AN";
+        text["de"]["automat_shuffle_off"] = "Zufall AUS";
+        text["de"]["automat_rotate"] = "Rotieren";
+        text["de"]["automat_stop"] = "STOPP";
+        text["de"]["automat_week"] = "Wochen";
+        text["de"]["automat_inftext"] = "Läuft ohne Ende";
+        text["de"]["automat_removeAllWeed"] = "Entferne alle %AMOUNT% %PROD%<br>Stück = %COST%<br>Total = %TCOST%";
+        text["de"]["automat_usedFarmFieldsReadyAt"] = "Benutzte Felder sind fertig um:";
+        text["de"]["automat_CloseWindowTimer"] = "Schließe Fenster in %1%";
+        text["de"]["automat_CloseWindowTimerClick"] = "Klick um Timer zurückzusetzen";
         //%PRODNAME% = product name, %FLDFROM% = field nr from, %FLDTO% = field nr until,
-        texte["de"]["automat_QueDoWork"] = "Zone wird vom Bot bearbeitet";
-        texte["de"]["automat_QueDontWork"] = "Zone wird vom Bot ignoriert";
-        texte["de"]["automat_QueueStoped"] = "Diese %PRODNAME% werden nicht gepflanzt, da vorher gestoppt wird.";
-        texte["de"]["automat_QueStop0"] = "Das automatische Pflanzen wird gestoppt.";
-        texte["de"]["automat_QueStop1"] = "Nach Pflanzen von %FLDFROM% Feld wird gestoppt.";
-        texte["de"]["automat_QueStopX"] = "Nach Pflanzen von %FLDFROM% Feldern wird gestoppt.";
-        texte["de"]["automat_QueRepeat"] = "(Wiederholung)";
-        texte["de"]["automat_QueShuffle"] = "(Zufall)";
-        texte["de"]["automat_QueRepeatShuffle"] = "(Zufallswiederholung)";
-        texte["de"]["automat_QueFieldInRow1"] = "(Nr. %FLDFROM%)";
-        texte["de"]["automat_QueFieldInRowX"] = "(Nr. %FLDFROM% bis %FLDTO%)";
-        texte["de"]["automat_QueRoundDoneR"] = "These fields %PRODNAME% are already cultured and will be skiped";
-        texte["de"]["automat_QueRoundDone1"] = "%PRODNAME% ist diese Runde bereits gepflanzt <br/>und wird erneut geplanzt.";
-        texte["de"]["automat_QueRoundDoneX"] = "%PRODNAME% sind diese Runde bereits gepflanzt <br/>und werden erneut geplanzt.";
-        texte["de"]["automat_QueFieldMake"] = "Total:";
-        texte["de"]["automat_QueFieldToGo"] = "Noch:";
-        texte["de"]["automat_QueRoundMake"] = "Jede Runde:";
-        texte["de"]["automat_QueRoundMade"] = "Erledigt:";
-        texte["de"]["automat_QueRoundToGo"] = "Noch:";
-        texte["de"]["automat_QueUses"] = "Benutzt:";
-        texte["de"]["automat_QueGives"] = "Ertrag:";
-        texte["de"]["automat_QueFutter"] = "Zeitersparnis:";
-        texte["de"]["automat_QueTimeThis"] = "Wachstumszeit:";
-        texte["de"]["automat_QueTimeToGo"] = "Verbleibende Wachstumszeit:";
-        texte["de"]["automat_QueTimeReady"] = "Fertig um:";
-        texte["de"]["automat_QueTimeFirstReady"] = "Erstes fertig:";
-        texte["de"]["automat_QueTimeNextReady"] = "N"+a_dots+"chstes fertig:";
-        texte["de"]["automat_QueTimeRound"] = "Durchschnitt jede Runde:";
-        texte["de"]["automat_QueRackMode"]="(Regal Modus)";
-        texte["de"]["automat_queueshow"]="Klick zum "+A_dots+"ndern der Queue";
-        texte["de"]["automat_zoneXWaiting"]="Zone \"%1%\" wartet";
+        text["de"]["automat_QueDoWork"] = "Zone wird vom Bot bearbeitet";
+        text["de"]["automat_QueDontWork"] = "Zone wird vom Bot ignoriert";
+        text["de"]["automat_QueueStoped"] = "Diese %PRODNAME% werden nicht gepflanzt, da vorher gestoppt wird.";
+        text["de"]["automat_QueStop0"] = "Das automatische Pflanzen wird gestoppt.";
+        text["de"]["automat_QueStop1"] = "Nach Pflanzen von %FLDFROM% Feld wird gestoppt.";
+        text["de"]["automat_QueStopX"] = "Nach Pflanzen von %FLDFROM% Feldern wird gestoppt.";
+        text["de"]["automat_QueRepeat"] = "(Wiederholung)";
+        text["de"]["automat_QueShuffle"] = "(Zufall)";
+        text["de"]["automat_QueRepeatShuffle"] = "(Zufallswiederholung)";
+        text["de"]["automat_QueFieldInRow1"] = "(Nr. %FLDFROM%)";
+        text["de"]["automat_QueFieldInRowX"] = "(Nr. %FLDFROM% bis %FLDTO%)";
+        text["de"]["automat_QueRoundDoneR"] = "These fields %PRODNAME% are already cultured and will be skiped";
+        text["de"]["automat_QueRoundDone1"] = "%PRODNAME% ist diese Runde bereits gepflanzt <br/>und wird erneut geplanzt.";
+        text["de"]["automat_QueRoundDoneX"] = "%PRODNAME% sind diese Runde bereits gepflanzt <br/>und werden erneut geplanzt.";
+        text["de"]["automat_QueFieldMake"] = "Total:";
+        text["de"]["automat_QueFieldToGo"] = "Noch:";
+        text["de"]["automat_QueRoundMake"] = "Jede Runde:";
+        text["de"]["automat_QueRoundMade"] = "Erledigt:";
+        text["de"]["automat_QueRoundToGo"] = "Noch:";
+        text["de"]["automat_QueUses"] = "Benutzt:";
+        text["de"]["automat_QueGives"] = "Ertrag:";
+        text["de"]["automat_QueFutter"] = "Zeitersparnis:";
+        text["de"]["automat_QueTimeThis"] = "Wachstumszeit:";
+        text["de"]["automat_QueTimeToGo"] = "Verbleibende Wachstumszeit:";
+        text["de"]["automat_QueTimeReady"] = "Fertig um:";
+        text["de"]["automat_QueTimeFirstReady"] = "Erstes fertig:";
+        text["de"]["automat_QueTimeNextReady"] = "Nächstes fertig:";
+        text["de"]["automat_QueTimeRound"] = "Durchschnitt jede Runde:";
+        text["de"]["automat_QueRackMode"]="(Regal Modus)";
+        text["de"]["automat_queueshow"]="Klick zum Ändern der Queue";
+        text["de"]["automat_zoneXWaiting"]="Zone \"%1%\" wartet";
         //For the Mill
         //%PRODNAME% = product name, %FLDFROM% = field nr from, %FLDTO% = field nr until,
-        texte["de"]["automat_MillQueue"] = "M"+u_dots+"hlen-Queue";
-        texte["de"]["automat_MillDoWork"] = "Windm"+u_dots+"hle wird automatisch bearbeitet.";
-        texte["de"]["automat_MillDontWork"] = "Windm"+u_dots+"hle wird ignoriert. Manuelle Bedienung.";
-        texte["de"]["automat_MillClearAddAll"] = "L"+o_dots+"sche Windm"+u_dots+"hlen-Queue und nehme dann alle Rezepte auf";
-        texte["de"]["automat_MillShuffle"] = "(Zufallsmodus)";
-        texte["de"]["automat_MillInRow1"] = "(Nr. %FLDFROM%)";
-        texte["de"]["automat_MillInRowX"] = "(Nr. %FLDFROM% bis %FLDTO%)";
-        texte["de"]["automat_MillTimeTotal"] = "Total Backzeit:";
-        texte["de"]["automat_MillTimeReady"] = "Fertig:";
-        texte["de"]["automat_MillStoped"] = "Es ist ein Stopp in der Liste. %PRODNAME% wird nicht gebacken.";
-        texte["de"]["automat_MillStop0"] = "Der automatische Prozess wird gestoppt.";
-        texte["de"]["automat_MillStop1"] = "Nach %FLDFROM% Rezept wird der automatische Prozess gestoppt.";
-        texte["de"]["automat_MillStopX"] = "Nach %FLDFROM% Rezepten wird der automatische Prozess gestoppt.";
+        text["de"]["automat_MillQueue"] = "Mühlen-Queue";
+        text["de"]["automat_MillDoWork"] = "Windmühle wird automatisch bearbeitet.";
+        text["de"]["automat_MillDontWork"] = "Windmühle wird ignoriert. Manuelle Bedienung.";
+        text["de"]["automat_MillClearAddAll"] = "Lösche Windmühlen-Queue und nehme dann alle Rezepte auf";
+        text["de"]["automat_MillShuffle"] = "(Zufallsmodus)";
+        text["de"]["automat_MillInRow1"] = "(Nr. %FLDFROM%)";
+        text["de"]["automat_MillInRowX"] = "(Nr. %FLDFROM% bis %FLDTO%)";
+        text["de"]["automat_MillTimeTotal"] = "Total Backzeit:";
+        text["de"]["automat_MillTimeReady"] = "Fertig:";
+        text["de"]["automat_MillStoped"] = "Es ist ein Stopp in der Liste. %PRODNAME% wird nicht gebacken.";
+        text["de"]["automat_MillStop0"] = "Der automatische Prozess wird gestoppt.";
+        text["de"]["automat_MillStop1"] = "Nach %FLDFROM% Rezept wird der automatische Prozess gestoppt.";
+        text["de"]["automat_MillStopX"] = "Nach %FLDFROM% Rezepten wird der automatische Prozess gestoppt.";
         try{
-        texte["de"]["automat_MillTimeThis"] = top.window.wrappedJSObject.windmill_bakeingtime;
-        texte["de"]["automat_MillPowerUpText_0"] = top.window.wrappedJSObject.powerup_bonustext1;
-        texte["de"]["automat_MillPowerUpText_1"] = top.window.wrappedJSObject.powerup_bonustext2;
-        texte["de"]["automat_MillPowerUpText_2"] = top.window.wrappedJSObject.powerup_bonustext3;
-        texte["de"]["automat_MillIngredients"] = top.window.wrappedJSObject.windmill_zutaten;
-        }catch(err){GM_logError("texte mill","","",err);}
-        texte["de"]["automat_number"] = "Anzahl";
-        texte["de"]["automat_lack"] = "Fehlend";
-        texte["de"]["automat_MillRecipesBought"] = "Total gekaufte Rezepte: ";
-        texte["de"]["automat_MillRecipesUsed"] = "Total benutzte Rezepte: ";
-        texte["de"]["automat_MillRecipesBake"] = "Max zu backende Rezepte: ";
+        text["de"]["automat_MillTimeThis"] = top.window.wrappedJSObject.windmill_bakeingtime;
+        text["de"]["automat_MillPowerUpText_0"] = top.window.wrappedJSObject.powerup_bonustext1;
+        text["de"]["automat_MillPowerUpText_1"] = top.window.wrappedJSObject.powerup_bonustext2;
+        text["de"]["automat_MillPowerUpText_2"] = top.window.wrappedJSObject.powerup_bonustext3;
+        text["de"]["automat_MillIngredients"] = top.window.wrappedJSObject.windmill_zutaten;
+        }catch(err){GM_logError("text mill","","",err);}
+        text["de"]["automat_number"] = "Anzahl";
+        text["de"]["automat_lack"] = "Fehlend";
+        text["de"]["automat_MillRecipesBought"] = "Total gekaufte Rezepte: ";
+        text["de"]["automat_MillRecipesUsed"] = "Total benutzte Rezepte: ";
+        text["de"]["automat_MillRecipesBake"] = "Max zu backende Rezepte: ";
         //title
-        texte["de"]["automat_title_on_general"] = "Zeige nur Allgemein-Queue<br>+Strg: Zeige Allgemein-Queue";
-        texte["de"]["automat_title_off_general"] = "Zeige nur Allgemein-Queue<br>+Strg: Verstecke Allgemein-Queue";
-        texte["de"]["automat_title_on_farm1"] = "Zeige nur 1. Farm<br>+Strg: Zeige 1. Farm";
-        texte["de"]["automat_title_off_farm1"] = "Zeige nur 1. Farm<br>+Strg: Verstecke 1. Farm";
-        texte["de"]["automat_title_on_farm2"] = "Zeige nur 2. Farm<br>+Strg: Zeige 2. Farm";
-        texte["de"]["automat_title_off_farm2"] = "Zeige nur 2. Farm<br>+Strg: Verstecke 2. Farm";
-        texte["de"]["automat_title_on_farm3"] = "Zeige nur 3. Farm<br>+Strg: Zeige 3. Farm";
-        texte["de"]["automat_title_off_farm3"] = "Zeige nur 3. Farm<br>+Strg: Verstecke 3. Farm";
-        texte["de"]["automat_title_on_farm4"] = "Zeige nur 4. Farm<br>+Strg: Zeige 4. Farm";
-        texte["de"]["automat_title_off_farm4"] = "Zeige nur 4. Farm<br>+Strg: Verstecke 4. Farm";
-        texte["de"]["automat_title_on_farmersmarket"] = "Zeige nur Bauernmarkt<br>+Strg: Zeige Bauernmarkt";
-        texte["de"]["automat_title_off_farmersmarket"] = "Zeige nur Bauernmarkt<br>+Strg: Verstecke Bauernmarkt";
-        texte["de"]["automat_title_on_megafield"] = "Zeige nur G"+u_dots+"terhof<br>+Strg: Zeige G"+u_dots+"terhof";
-        texte["de"]["automat_title_off_megafield"] = "Zeige nur G"+u_dots+"terhof<br>+Strg: Verstecke G"+u_dots+"terhof";
-        texte["de"]["automat_title_on_city"] = "Zeige nur Stadt<br>+Strg: Zeige Stadt";
-        texte["de"]["automat_title_off_city"] = "Zeige nur Stadt<br>+Strg: Verstecke Stadt";
-        texte["de"]["automat_title_on_forestry"] = "Zeige nur Baumerei<br>+Strg: Zeige Baumerei";
-        texte["de"]["automat_title_off_forestry"] = "Zeige nur Baumerei<br>+Strg: Verstecke Baumerei";
-        texte["de"]["automat_title_on_foodworld"] = "Zeige nur Picknickarea<br>+Strg: Zeige Picknickarea";
-        texte["de"]["automat_title_off_foodworld"] = "Zeige nur Picknickarea<br>+Strg: Verstecke Picknickarea";
-        texte["de"]["automat_title_on_type1"] = "Zeige nur "+A_dots+"cker<br>+Strg: Zeige "+A_dots+"cker";
-        texte["de"]["automat_title_off_type1"] = "Zeige nur "+A_dots+"cker<br>+Strg: Verstecke "+A_dots+"cker";
-        texte["de"]["automat_title_on_type2"] = "Zeige nur St"+a_dots+"lle<br>+Strg: Zeige St"+a_dots+"lle";
-        texte["de"]["automat_title_off_type2"] = "Zeige nur St"+a_dots+"lle<br>+Strg: Verstecke St"+a_dots+"lle";
-        texte["de"]["automat_title_on_type3"] = "Zeige nur Fabriken<br>+Strg: Zeige Fabriken";
-        texte["de"]["automat_title_off_type3"] = "Zeige nur Fabriken<br>+Strg: Verstecke Fabriken";
-        texte["de"]["automat_title_on_all"] = "Show all farm queues";
-        texte["de"]["automat_title_off_all"] = "Hide all farm queues";
+        text["de"]["automat_title_on_general"] = "Zeige nur Allgemein-Queue<br>+Strg: Zeige Allgemein-Queue";
+        text["de"]["automat_title_off_general"] = "Zeige nur Allgemein-Queue<br>+Strg: Verstecke Allgemein-Queue";
+        text["de"]["automat_title_on_farm1"] = "Zeige nur 1. Farm<br>+Strg: Zeige 1. Farm";
+        text["de"]["automat_title_off_farm1"] = "Zeige nur 1. Farm<br>+Strg: Verstecke 1. Farm";
+        text["de"]["automat_title_on_farm2"] = "Zeige nur 2. Farm<br>+Strg: Zeige 2. Farm";
+        text["de"]["automat_title_off_farm2"] = "Zeige nur 2. Farm<br>+Strg: Verstecke 2. Farm";
+        text["de"]["automat_title_on_farm3"] = "Zeige nur 3. Farm<br>+Strg: Zeige 3. Farm";
+        text["de"]["automat_title_off_farm3"] = "Zeige nur 3. Farm<br>+Strg: Verstecke 3. Farm";
+        text["de"]["automat_title_on_farm4"] = "Zeige nur 4. Farm<br>+Strg: Zeige 4. Farm";
+        text["de"]["automat_title_off_farm4"] = "Zeige nur 4. Farm<br>+Strg: Verstecke 4. Farm";
+        text["de"]["automat_title_on_farmersmarket"] = "Zeige nur Bauernmarkt<br>+Strg: Zeige Bauernmarkt";
+        text["de"]["automat_title_off_farmersmarket"] = "Zeige nur Bauernmarkt<br>+Strg: Verstecke Bauernmarkt";
+        text["de"]["automat_title_on_megafield"] = "Zeige nur Güterhof<br>+Strg: Zeige Güterhof";
+        text["de"]["automat_title_off_megafield"] = "Zeige nur Güterhof<br>+Strg: Verstecke Güterhof";
+        text["de"]["automat_title_on_city"] = "Zeige nur Stadt<br>+Strg: Zeige Stadt";
+        text["de"]["automat_title_off_city"] = "Zeige nur Stadt<br>+Strg: Verstecke Stadt";
+        text["de"]["automat_title_on_forestry"] = "Zeige nur Baumerei<br>+Strg: Zeige Baumerei";
+        text["de"]["automat_title_off_forestry"] = "Zeige nur Baumerei<br>+Strg: Verstecke Baumerei";
+        text["de"]["automat_title_on_foodworld"] = "Zeige nur Picknickarea<br>+Strg: Zeige Picknickarea";
+        text["de"]["automat_title_off_foodworld"] = "Zeige nur Picknickarea<br>+Strg: Verstecke Picknickarea";
+        text["de"]["automat_title_on_type1"] = "Zeige nur Äcker<br>+Strg: Zeige Äcker";
+        text["de"]["automat_title_off_type1"] = "Zeige nur Äcker<br>+Strg: Verstecke Äcker";
+        text["de"]["automat_title_on_type2"] = "Zeige nur Ställe<br>+Strg: Zeige Ställe";
+        text["de"]["automat_title_off_type2"] = "Zeige nur Ställe<br>+Strg: Verstecke Ställe";
+        text["de"]["automat_title_on_type3"] = "Zeige nur Fabriken<br>+Strg: Zeige Fabriken";
+        text["de"]["automat_title_off_type3"] = "Zeige nur Fabriken<br>+Strg: Verstecke Fabriken";
+        text["de"]["automat_title_on_all"] = "Show all farm queues";
+        text["de"]["automat_title_off_all"] = "Hide all farm queues";
         //help
-        texte["de"]["automat_help_0"] = [,"This script can be used to add automation to the cultivation process."];
-        texte["de"]["automat_help_1"] = ["How it works","If you click the \""+texte["de"]["automat_botStart"]+"\" button at the bottom of the page the automation process will be started.<br>You even can continue gaming as long as nothing is ready. Then the bot begins to simulate the clicks a user does. During that period you shouldn't interact."];
-        texte["de"]["automat_help_2"] = ["Field","At the bottom of every zone an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. There will not be any culturing for this garden until you select an other product. When a product icon is displayed this product is cultured next at the field."];
-        texte["de"]["automat_help_3"] = ["Queue","If in the option menu of the Automat the queue checkbox is checked, clicking the product culturing icon of a zone will display a queue where multiple products can be queued. If the background of a queue item is red this item will not be cultered because a production stop item is added somewhere before in the list."];
-        texte["de"]["automat_help_4"] = ["Repeat","Enabling the \"Repeat\" check box will enable the \"loop\" feature of the queue."];
-        texte["de"]["automat_help_5"] = ["Shuffle","Enabling the \"Shuffle\" check box will randomly culture a product from the list."];
-        texte["de"]["automat_help_6"] = ["Stables","At the bottom of every zone with a stable an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this product will be used to feed the stable. Click this icon to choose the feed amount through the slider or change the feed product by selecting the product."];
-        texte["de"]["automat_help_7"] = ["Factories","At the bottom of every zone with a factory an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this will be the produced product of this factory."];
-        texte["de"]["automat_help_8"] = [texte["de"]["automat_zonePairing"],"In the \""+texte["de"]["automat_zonePairing"]+"\" menu of the Automat the radio-buttons controle the pairing of the zones. Also the general queue is extended to allow multiple general queues."];
-        texte["de"]["automat_help_9"] = ["Windmill","The windmill queue works the same as the zone queue but instead of products recipes are baked.<br>As extra the mill queue has a <div class = \"queueButtonAddAll\">&nbsp;</div> button which can be used to clear and refill the queue with all available recipes that were bought and where there are enough ingredients in the rack to bake them.<br>If the background of a queue item is yellow then there are not enough products to bake all these recipes.<br><br><b>Note: </b>For first time user that have already bought recipes. Go to the miller or the trading lady screen so the bought recipes can be stored into the system."];
+        text["de"]["automat_help_0"] = [,"This script can be used to add automation to the cultivation process."];
+        text["de"]["automat_help_1"] = ["How it works","If you click the \""+text["de"]["automat_botStart"]+"\" button at the bottom of the page the automation process will be started.<br>You even can continue gaming as long as nothing is ready. Then the bot begins to simulate the clicks a user does. During that period you shouldn't interact."];
+        text["de"]["automat_help_2"] = ["Field","At the bottom of every zone an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. There will not be any culturing for this garden until you select an other product. When a product icon is displayed this product is cultured next at the field."];
+        text["de"]["automat_help_3"] = ["Queue","If in the option menu of the Automat the queue checkbox is checked, clicking the product culturing icon of a zone will display a queue where multiple products can be queued. If the background of a queue item is red this item will not be cultered because a production stop item is added somewhere before in the list."];
+        text["de"]["automat_help_4"] = ["Repeat","Enabling the \"Repeat\" check box will enable the \"loop\" feature of the queue."];
+        text["de"]["automat_help_5"] = ["Shuffle","Enabling the \"Shuffle\" check box will randomly culture a product from the list."];
+        text["de"]["automat_help_6"] = ["Stables","At the bottom of every zone with a stable an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this product will be used to feed the stable. Click this icon to choose the feed amount through the slider or change the feed product by selecting the product."];
+        text["de"]["automat_help_7"] = ["Factories","At the bottom of every zone with a factory an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this will be the produced product of this factory."];
+        text["de"]["automat_help_8"] = [text["de"]["automat_zonePairing"],"In the \""+text["de"]["automat_zonePairing"]+"\" menu of the Automat the radio-buttons controle the pairing of the zones. Also the general queue is extended to allow multiple general queues."];
+        text["de"]["automat_help_9"] = ["Windmill","The windmill queue works the same as the zone queue but instead of products recipes are baked.<br>As extra the mill queue has a <div class = \"queueButtonAddAll\">&nbsp;</div> button which can be used to clear and refill the queue with all available recipes that were bought and where there are enough ingredients in the rack to bake them.<br>If the background of a queue item is yellow then there are not enough products to bake all these recipes.<br><br><b>Note: </b>For first time user that have already bought recipes. Go to the miller or the trading lady screen so the bought recipes can be stored into the system."];
     }
-    if(texte["en"]["automat"]==undefined){
-        texte["en"]["automat"] = "Automaton";
-        texte["en"]["automat_planting"] = "Planting...";
-        texte["en"]["automat_waiting"] = "Waiting...";
-        texte["en"]["automat_watering"] = "Watering...";
-        texte["en"]["automat_feeding"] = "Feeding...";
-        texte["en"]["automat_automatPlanting"] = "Seeding machine";
-        texte["en"]["automat_automatFeeding"] = "Feeding machine";
-        texte["en"]["automat_automatFactory"] = "Factory machine";
-        texte["en"]["automat_automatMegafield"] = "Megafield machine";
-        texte["en"]["automat_automatWindmill"] = "Mill machine";
-        texte["en"]["automat_botStart"] = "Start Automaton-Bot";
-        texte["en"]["automat_botStop"] = "Stop Automaton-Bot";
-        texte["en"]["automat_settings_botErrorBehaviour"] = "Behaviour of Automaton in case of errors";
-        texte["en"]["automat_settings_pageReload"] = "Reload of page";
-        texte["en"]["automat_settings_botRestart"] = "Restart bot";
-        texte["en"]["automat_zonePairing"] = "Zone pairing";
-        texte["en"]["automat_debugInfo"] = "Debug Info";
-        texte["en"]["automat_windmill"] = "windmill";
-        texte["en"]["automat_timing"] = "Timing";
-        texte["en"]["automat_general"] = "General";
-        texte["en"]["automat_development"] = "Development";
-        texte["en"]["automat_arrivedInFarm"] = "Arrived in farm";
-        texte["en"]["automat_changeToFarmX"] = "Going to farm %1%";
-        texte["en"]["automat_changingToX"] = "Going to %1%";
-        texte["en"]["automat_closingFieldContainer"] = "Closing field";
-        texte["en"]["automat_closingFactoryContainer"] = "Closing factory";
-        texte["en"]["automat_closingStableContainer"] = "Closing stable";
-        texte["en"]["automat_openingZoneX"] = "Opening zone %1%";
-        texte["en"]["automat_zoneXIsOpened"] = "Zone %1% is opened";
-        texte["en"]["automat_confirmChangelogVersion"]="You have installed a new version of the Automaton script.<br>The version %1% contains the following changes:";
-        texte["en"]["automat_maximumStockCapacityReached"]="Maximum stock capacity will be reached.";
-        texte["en"]["automat_nothingToCrop"]="Nothing to crop.";
-        texte["en"]["automat_cropWaitingInX"]="Waiting for crop in %1%.";
-        texte["en"]["automat_plantingAtX"]="Planting at %1%.";
-        texte["en"]["automat_plantingNoFreeField"]="No free field to plant.";
-        texte["en"]["automat_plantingSetX"]="Setting plant \"%1%\".";
-        texte["en"]["automat_queueItemAmountDecreased"]="Queue item amount decreased..";
-        texte["en"]["automat_queueItemDeleted"]="Queue item deleted.";
-        texte["en"]["automat_responseWaiting"]="Waiting for response.";
-        texte["en"]["automat_stopAdding"]="Adding stop to queue.";
-        texte["en"]["automat_tourStarting"]="Starting tour.";
-        texte["en"]["automat_vehicleNotKnown"]="No vehicle known.";
-        texte["en"]["automat_vehicleXNotAvailable"]="Vehicle \"%1%\" not available.";
-        texte["en"]["automat_vehicleXBuying"]="Buying vehicle \"%1%\".";
-        texte["en"]["automat_vehicleXSelected"]="Vehicle \"%1%\" is selected.";
-        texte["en"]["automat_msgUpdate"] = "There is a new script version of the automaton. Install?";
-        texte["en"]["automat_shouldUpdateAdviser"] = "You should update the script of the Adviser!<br>The Automaton will not run properly.";
-        texte["en"]["automat_settings_autoPlant"] = "Shall the planting machine be displayed?";
-        texte["en"]["automat_settings_autoWater"] = "Shall the fields be watered?";
-        texte["en"]["automat_settings_autoFeed"] = "Shall the feeding machine be displayed?";
-        texte["en"]["automat_settings_botUse"] = "Use bot";
-        texte["en"]["automat_settings_disableCropFields"]="Block the cropping of sleeping fields.";
-        texte["en"]["automat_settings_pauseShortMin"] = "Minimal clicking delay of the automaton";
-        texte["en"]["automat_settings_pauseShortMax"] = "Maximal clicking delay of the automaton";
-        texte["en"]["automat_settings_pauseMin"] = "Minimal waiting delay of the automaton";
-        texte["en"]["automat_settings_pauseMax"] = "Maximal waiting delay of the automaton";
-        texte["en"]["automat_settings_maxDurationBotRun"] = "Maximal running time of the automaton";
-        texte["en"]["automat_settings_maxDurationBotStep"] = "Maximal running time for a step of the automaton";
-        texte["en"]["automat_setToDefault"] = "Set to default";
-        texte["en"]["automat_settings_seedWaitForCrop"] = "Wait planting if next cropping time is less than";
-        texte["en"]["automat_emergencyPlants"] = "Emergency Plants. They are taken first if the needed plant is not available or fitting.";
-        texte["en"]["automat_settings_useQueueList"] = "Use queue for the fields.";
-        texte["en"]["automat_set12a"] = "Delete \n all zone queue\n data";
-        texte["en"]["automat_set12b"] = "Delete Completed.";
-        texte["en"]["automat_settings_showQueueTime"] = "Show calculated product ready time in the queue.";
-        texte["en"]["automat_set18a"] = "Delete all mill queue data";
-        texte["en"]["automat_set18b"] = "Delete Completed";
-        texte["en"]["automat_settings_powerUpActivate"] = "Activate powerups for products";
-        texte["en"]["automat_settings_lotteryActivate"] = "Activate the daily lottery automatically";
-        texte["en"]["automat_settings_lotteryDailyLot"] = "Choose to keep the daily lot";
-        texte["en"]["automat_settings_questActivate"] = "Activate the Quest automatically to quest:";
-        texte["en"]["automat_settings_questSolving"] = "Solve the Quest automatically to quest:";
-        texte["en"]["automat_settings_farmiReject"] = "Auto reject farmi below:";
-        texte["en"]["automat_settings_farmiAccept"] = "Auto accept farmi above:";
-        texte["en"]["automat_settings_farmiAcceptBelowMinValue"] = "Accept a farmi with an product item that is below the minimal product amount in the rack.";
-        texte["en"]["automat_settings_farmiRemoveMissing"] = "Remove a farmi with missing products and the lowest yield. Threshold:";
-        texte["en"]["automat_fields"] = "Fields";
-        texte["en"]["automat_titleGeneral"] = "General queue";
-        texte["en"]["automat_titleQueue"] = "Queue";
-        texte["en"]["automat_QueCopyTextHeader"] = "Copy queue";
-        texte["en"]["automat_QueCopyTextHeaderFrom"] = "Copy from:";
-        texte["en"]["automat_QueCopyTextHeaderTo"] = "Copy to:";
-        texte["en"]["automat_QueAddText"] = "Click to add a product to the list."; //Add product
-        texte["en"]["automat_QueAddAboveText"] = "Click to add a product to the list before this product";
-        texte["en"]["automat_QueDeleteText"] = "Delete this product from the list.";
-        texte["en"]["automat_QueClose"] = "Close this menu";
-        texte["en"]["automat_QueCloseAll"] = "Close all open Queue windows.";
-        texte["en"]["automat_QueMin"] = "Lower value";
-        texte["en"]["automat_QuePlus"] = "Increase value";
-        texte["en"]["automat_QueBehaviourF"] = "Click to switch to rack-mode";
-        texte["en"]["automat_QueBehaviourR"] = "Click to switch to field-mode";
-        texte["en"]["automat_QueUpButton"] = "Move Up";
-        texte["en"]["automat_QueDownButton"] = "Move Down";
-        texte["en"]["automat_buttonTimeLine"] = "Show field timelines";
-        texte["en"]["automat_buttonOverview"] = "Show overview of automatons";
-        texte["en"]["automat_repeat_on"] = "Repeat list is ON, press to turn off repeat.";
-        texte["en"]["automat_repeat_off"] = "Repeat list is OFF, press to turn on repeat.";
-        texte["en"]["automat_shuffle_on"] = "Shuffle list is ON, press to turn off shuffle.";
-        texte["en"]["automat_shuffle_off"] = "Shuffle list is OFF, press to turn on shuffle.";
-        texte["en"]["automat_rotate"] = "Rotate: place first entry after the last entry";
-        texte["en"]["automat_stop"] = "STOP";
-        texte["en"]["automat_week"] = "week";
-        texte["en"]["automat_inftext"] = "Runs indefinitely";
-        texte["en"]["automat_removeAllWeed"] = "Remove all %AMOUNT% %PROD%<br>a piece = %COST%<br>total = %TCOST%";
-        texte["en"]["automat_usedFarmFieldsReadyAt"] = "Used farm fields are ready at:";
-        texte["en"]["automat_CloseWindowTimer"] = "Closing screen in %1%";
-        texte["en"]["automat_CloseWindowTimerClick"] = "Click to reset timer";
+    if(undefined===text["en"]["automat"]){
+        text["en"]["automat"] = "Automaton";
+        text["en"]["automat_planting"] = "Planting...";
+        text["en"]["automat_waiting"] = "Waiting...";
+        text["en"]["automat_watering"] = "Watering...";
+        text["en"]["automat_feeding"] = "Feeding...";
+        text["en"]["automat_automatPlanting"] = "Seeding machine";
+        text["en"]["automat_automatFeeding"] = "Feeding machine";
+        text["en"]["automat_automatFactory"] = "Factory machine";
+        text["en"]["automat_automatMegafield"] = "Megafield machine";
+        text["en"]["automat_automatWindmill"] = "Mill machine";
+        text["en"]["automat_botStart"] = "Start Automaton-Bot";
+        text["en"]["automat_botStop"] = "Stop Automaton-Bot";
+        text["en"]["automat_settings_botErrorBehaviour"] = "Behaviour of Automaton in case of errors";
+        text["en"]["automat_settings_pageReload"] = "Reload of page";
+        text["en"]["automat_settings_botRestart"] = "Restart bot";
+        text["en"]["automat_zonePairing"] = "Zone pairing";
+        text["en"]["automat_debugInfo"] = "Debug Info";
+        text["en"]["automat_windmill"] = "windmill";
+        text["en"]["automat_timing"] = "Timing";
+        text["en"]["automat_general"] = "General";
+        text["en"]["automat_development"] = "Development";
+        text["en"]["automat_arrivedInFarm"] = "Arrived in farm";
+        text["en"]["automat_changeToFarmX"] = "Going to farm %1%";
+        text["en"]["automat_changingToX"] = "Going to %1%";
+        text["en"]["automat_closingFieldContainer"] = "Closing field";
+        text["en"]["automat_closingFactoryContainer"] = "Closing factory";
+        text["en"]["automat_closingStableContainer"] = "Closing stable";
+        text["en"]["automat_openingZoneX"] = "Opening zone %1%";
+        text["en"]["automat_zoneXIsOpened"] = "Zone %1% is opened";
+        text["en"]["automat_confirmChangelogVersion"]="You have installed a new version of the Automaton script.<br>The version %1% contains the following changes:";
+        text["en"]["automat_maximumStockCapacityReached"]="Maximum stock capacity will be reached.";
+        text["en"]["automat_nothingToCrop"]="Nothing to crop.";
+        text["en"]["automat_cropWaitingInX"]="Waiting for crop in %1%.";
+        text["en"]["automat_plantingAtX"]="Planting at %1%.";
+        text["en"]["automat_plantingNoFreeField"]="No free field to plant.";
+        text["en"]["automat_plantingSetX"]="Setting plant \"%1%\".";
+        text["en"]["automat_queueItemAmountDecreased"]="Queue item amount decreased..";
+        text["en"]["automat_queueItemDeleted"]="Queue item deleted.";
+        text["en"]["automat_responseWaiting"]="Waiting for response.";
+        text["en"]["automat_stopAdding"]="Adding stop to queue.";
+        text["en"]["automat_tourStarting"]="Starting tour.";
+        text["en"]["automat_vehicleNotKnown"]="No vehicle known.";
+        text["en"]["automat_vehicleXNotAvailable"]="Vehicle \"%1%\" not available.";
+        text["en"]["automat_vehicleXBuying"]="Buying vehicle \"%1%\".";
+        text["en"]["automat_vehicleXSelected"]="Vehicle \"%1%\" is selected.";
+        text["en"]["automat_msgUpdate"] = "There is a new script version of the automaton. Install?";
+        text["en"]["automat_shouldUpdateAdviser"] = "You should update the script of the Adviser!<br>The Automaton will not run properly.";
+        text["en"]["automat_settings_autoPlant"] = "Shall the planting machine be displayed?";
+        text["en"]["automat_settings_autoWater"] = "Shall the fields be watered?";
+        text["en"]["automat_settings_autoFeed"] = "Shall the feeding machine be displayed?";
+        text["en"]["automat_settings_botUse"] = "Use bot";
+        text["en"]["automat_settings_disableCropFields"]="Block the cropping of sleeping fields.";
+        text["en"]["automat_settings_pauseShortMin"] = "Minimal clicking delay of the automaton";
+        text["en"]["automat_settings_pauseShortMax"] = "Maximal clicking delay of the automaton";
+        text["en"]["automat_settings_pauseMin"] = "Minimal waiting delay of the automaton";
+        text["en"]["automat_settings_pauseMax"] = "Maximal waiting delay of the automaton";
+        text["en"]["automat_settings_maxDurationBotRun"] = "Maximal running time of the automaton";
+        text["en"]["automat_settings_maxDurationBotStep"] = "Maximal running time for a step of the automaton";
+        text["en"]["automat_setToDefault"] = "Set to default";
+        text["en"]["automat_settings_seedWaitForCrop"] = "Wait planting if next cropping time is less than";
+        text["en"]["automat_emergencyPlants"] = "Emergency Plants. They are taken first if the needed plant is not available or fitting.";
+        text["en"]["automat_settings_useQueueList"] = "Use queue for the fields.";
+        text["en"]["automat_set12a"] = "Delete \n all zone queue\n data";
+        text["en"]["automat_set12b"] = "Delete Completed.";
+        text["en"]["automat_settings_showQueueTime"] = "Show calculated product ready time in the queue.";
+        text["en"]["automat_set18a"] = "Delete all mill queue data";
+        text["en"]["automat_set18b"] = "Delete Completed";
+        text["en"]["automat_settings_powerUpActivate"] = "Activate powerups for products";
+        text["en"]["automat_settings_lotteryActivate"] = "Activate the daily lottery automatically";
+        text["en"]["automat_settings_lotteryDailyLot"] = "Choose to keep the daily lot";
+        text["en"]["automat_settings_questActivate"] = "Activate the Quest automatically to quest:";
+        text["en"]["automat_settings_questSolving"] = "Solve the Quest automatically to quest:";
+        text["en"]["automat_settings_farmiReject"] = "Auto reject farmi below:";
+        text["en"]["automat_settings_farmiAccept"] = "Auto accept farmi above:";
+        text["en"]["automat_settings_farmiAcceptBelowMinValue"] = "Accept a farmi with an product item that is below the minimal product amount in the rack.";
+        text["en"]["automat_settings_farmiRemoveMissing"] = "Remove a farmi with missing products and the lowest yield. Threshold:";
+        text["en"]["automat_fields"] = "Fields";
+        text["en"]["automat_titleGeneral"] = "General queue";
+        text["en"]["automat_titleQueue"] = "Queue";
+        text["en"]["automat_QueCopyTextHeader"] = "Copy queue";
+        text["en"]["automat_QueCopyTextHeaderFrom"] = "Copy from:";
+        text["en"]["automat_QueCopyTextHeaderTo"] = "Copy to:";
+        text["en"]["automat_QueAddText"] = "Click to add a product to the list."; //Add product
+        text["en"]["automat_QueAddAboveText"] = "Click to add a product to the list before this product";
+        text["en"]["automat_QueDeleteText"] = "Delete this product from the list.";
+        text["en"]["automat_QueClose"] = "Close this menu";
+        text["en"]["automat_QueCloseAll"] = "Close all open Queue windows.";
+        text["en"]["automat_QueMin"] = "Lower value";
+        text["en"]["automat_QuePlus"] = "Increase value";
+        text["en"]["automat_QueBehaviourF"] = "Click to switch to rack-mode";
+        text["en"]["automat_QueBehaviourR"] = "Click to switch to field-mode";
+        text["en"]["automat_QueUpButton"] = "Move Up";
+        text["en"]["automat_QueDownButton"] = "Move Down";
+        text["en"]["automat_buttonTimeLine"] = "Show field timelines";
+        text["en"]["automat_buttonOverview"] = "Show overview of automatons";
+        text["en"]["automat_repeat_on"] = "Repeat list is ON, press to turn off repeat.";
+        text["en"]["automat_repeat_off"] = "Repeat list is OFF, press to turn on repeat.";
+        text["en"]["automat_shuffle_on"] = "Shuffle list is ON, press to turn off shuffle.";
+        text["en"]["automat_shuffle_off"] = "Shuffle list is OFF, press to turn on shuffle.";
+        text["en"]["automat_rotate"] = "Rotate: place first entry after the last entry";
+        text["en"]["automat_stop"] = "STOP";
+        text["en"]["automat_week"] = "week";
+        text["en"]["automat_inftext"] = "Runs indefinitely";
+        text["en"]["automat_removeAllWeed"] = "Remove all %AMOUNT% %PROD%<br>a piece = %COST%<br>total = %TCOST%";
+        text["en"]["automat_usedFarmFieldsReadyAt"] = "Used farm fields are ready at:";
+        text["en"]["automat_CloseWindowTimer"] = "Closing screen in %1%";
+        text["en"]["automat_CloseWindowTimerClick"] = "Click to reset timer";
         //%PRODNAME% = product name, %FLDFROM% = field nr from, %FLDTO% = field nr until,
-        texte["en"]["automat_QueDoWork"] = "Zone is done by bot";
-        texte["en"]["automat_QueDontWork"] = "Zone is ignored by bot";
-        texte["en"]["automat_QueueStoped"] = "A culture stop is detected these %PRODNAME% will not be cultured.";
-        texte["en"]["automat_QueStop0"] = "The automatic culturing process will be stopped";
-        texte["en"]["automat_QueStop1"] = "After culturing %FLDFROM% field the automatic process will be stopped.";
-        texte["en"]["automat_QueStopX"] = "After culturing %FLDFROM% fields the automatic process will be stopped.";
-        texte["en"]["automat_QueRepeat"] = "(Repeat mode)";
-        texte["en"]["automat_QueShuffle"] = "(Shuffle mode)";
-        texte["en"]["automat_QueRepeatShuffle"] = "(Shuffle repeat mode)";
-        texte["en"]["automat_QueFieldInRow1"] = "(Nr. %FLDFROM%)";
-        texte["en"]["automat_QueFieldInRowX"] = "(Nr. %FLDFROM% to %FLDTO%)";
-        texte["en"]["automat_QueRoundDoneR"] = "These fields %PRODNAME% are already cultured and will be skipped";
-        texte["en"]["automat_QueRoundDone1"] = "This field %PRODNAME% s already cultured in this turn, <br/>next turn it will be cultured again.";
-        texte["en"]["automat_QueRoundDoneX"] = "These fields %PRODNAME% are already cultured in this turn, <br/>next turn they will be cultured again.";
-        texte["en"]["automat_QueFieldMake"] = "Total:";
-        texte["en"]["automat_QueFieldToGo"] = "To go:";
-        texte["en"]["automat_QueRoundMake"] = "Each turn: ";
-        texte["en"]["automat_QueRoundMade"] = "Made:";
-        texte["en"]["automat_QueRoundToGo"] = "To do:";
-        texte["en"]["automat_QueUses"] = "Uses:";
-        texte["en"]["automat_QueGives"] = "Yield:";
-        texte["en"]["automat_QueFutter"] = "Time discount:";
-        texte["en"]["automat_QueTimeThis"] = "Production time:";
-        texte["en"]["automat_QueTimeToGo"] = "Culture time to go:";
-        texte["en"]["automat_QueTimeReady"] = "Ready at:";
-        texte["en"]["automat_QueTimeFirstReady"] = "First is ready at:";
-        texte["en"]["automat_QueTimeNextReady"] = "Next is ready at:";
-        texte["en"]["automat_QueTimeRound"] = "Average each turn:";
-        texte["en"]["automat_QueRackMode"]="(Rack mode)";
-        texte["en"]["automat_queueshow"]="Click to edit the queue"; 
-        texte["en"]["automat_zoneXWaiting"]="Zone \"%1%\" is waiting"; 
+        text["en"]["automat_QueDoWork"] = "Zone is done by bot";
+        text["en"]["automat_QueDontWork"] = "Zone is ignored by bot";
+        text["en"]["automat_QueueStoped"] = "A culture stop is detected these %PRODNAME% will not be cultured.";
+        text["en"]["automat_QueStop0"] = "The automatic culturing process will be stopped";
+        text["en"]["automat_QueStop1"] = "After culturing %FLDFROM% field the automatic process will be stopped.";
+        text["en"]["automat_QueStopX"] = "After culturing %FLDFROM% fields the automatic process will be stopped.";
+        text["en"]["automat_QueRepeat"] = "(Repeat mode)";
+        text["en"]["automat_QueShuffle"] = "(Shuffle mode)";
+        text["en"]["automat_QueRepeatShuffle"] = "(Shuffle repeat mode)";
+        text["en"]["automat_QueFieldInRow1"] = "(Nr. %FLDFROM%)";
+        text["en"]["automat_QueFieldInRowX"] = "(Nr. %FLDFROM% to %FLDTO%)";
+        text["en"]["automat_QueRoundDoneR"] = "These fields %PRODNAME% are already cultured and will be skipped";
+        text["en"]["automat_QueRoundDone1"] = "This field %PRODNAME% s already cultured in this turn, <br/>next turn it will be cultured again.";
+        text["en"]["automat_QueRoundDoneX"] = "These fields %PRODNAME% are already cultured in this turn, <br/>next turn they will be cultured again.";
+        text["en"]["automat_QueFieldMake"] = "Total:";
+        text["en"]["automat_QueFieldToGo"] = "To go:";
+        text["en"]["automat_QueRoundMake"] = "Each turn: ";
+        text["en"]["automat_QueRoundMade"] = "Made:";
+        text["en"]["automat_QueRoundToGo"] = "To do:";
+        text["en"]["automat_QueUses"] = "Uses:";
+        text["en"]["automat_QueGives"] = "Yield:";
+        text["en"]["automat_QueFutter"] = "Time discount:";
+        text["en"]["automat_QueTimeThis"] = "Production time:";
+        text["en"]["automat_QueTimeToGo"] = "Culture time to go:";
+        text["en"]["automat_QueTimeReady"] = "Ready at:";
+        text["en"]["automat_QueTimeFirstReady"] = "First is ready at:";
+        text["en"]["automat_QueTimeNextReady"] = "Next is ready at:";
+        text["en"]["automat_QueTimeRound"] = "Average each turn:";
+        text["en"]["automat_QueRackMode"]="(Rack mode)";
+        text["en"]["automat_queueshow"]="Click to edit the queue"; 
+        text["en"]["automat_zoneXWaiting"]="Zone \"%1%\" is waiting"; 
         //For the Mill
         //%PRODNAME% = product name, %FLDFROM% = field nr from, %FLDTO% = field nr until,
-        texte["en"]["automat_MillQueue"] = "Mill Queue";
-        texte["en"]["automat_MillDoWork"] = "The windmill is automatically maintained.";
-        texte["en"]["automat_MillDontWork"] = "The windmill is ignored. Manual maintenance is required.";
-        texte["en"]["automat_MillClearAddAll"] = "Clear mill list then add all recipes";
-        texte["en"]["automat_MillShuffle"] = "(Shuffle mode)";
-        texte["en"]["automat_MillInRow1"] = "(Nr. %FLDFROM%)";
-        texte["en"]["automat_MillInRowX"] = "(Nr. %FLDFROM% to %FLDTO%)";
-        texte["en"]["automat_MillTimeTotal"] = "Total baking time:";
-        texte["en"]["automat_MillTimeReady"] = "Ready:";
-        texte["en"]["automat_MillStoped"] = "There is a stop added to the queue this %PRODNAME% will not be baked";
-        texte["en"]["automat_MillStop0"] = "The automatic baking process will be stopped";
-        texte["en"]["automat_MillStop1"] = "After %FLDFROM% recipe the automatic baking process will be stopped.";
-        texte["en"]["automat_MillStopX"] = "After %FLDFROM% recipes the automatic baking process will be stopped.";
+        text["en"]["automat_MillQueue"] = "Mill Queue";
+        text["en"]["automat_MillDoWork"] = "The windmill is automatically maintained.";
+        text["en"]["automat_MillDontWork"] = "The windmill is ignored. Manual maintenance is required.";
+        text["en"]["automat_MillClearAddAll"] = "Clear mill list then add all recipes";
+        text["en"]["automat_MillShuffle"] = "(Shuffle mode)";
+        text["en"]["automat_MillInRow1"] = "(Nr. %FLDFROM%)";
+        text["en"]["automat_MillInRowX"] = "(Nr. %FLDFROM% to %FLDTO%)";
+        text["en"]["automat_MillTimeTotal"] = "Total baking time:";
+        text["en"]["automat_MillTimeReady"] = "Ready:";
+        text["en"]["automat_MillStoped"] = "There is a stop added to the queue this %PRODNAME% will not be baked";
+        text["en"]["automat_MillStop0"] = "The automatic baking process will be stopped";
+        text["en"]["automat_MillStop1"] = "After %FLDFROM% recipe the automatic baking process will be stopped.";
+        text["en"]["automat_MillStopX"] = "After %FLDFROM% recipes the automatic baking process will be stopped.";
         try{
-        texte["en"]["automat_MillTimeThis"] = top.window.wrappedJSObject.windmill_bakeingtime;
-        texte["en"]["automat_MillPowerUpText_0"] = top.window.wrappedJSObject.powerup_bonustext1;
-        texte["en"]["automat_MillPowerUpText_1"] = top.window.wrappedJSObject.powerup_bonustext2;
-        texte["en"]["automat_MillPowerUpText_2"] = top.window.wrappedJSObject.powerup_bonustext3;
-        texte["en"]["automat_MillIngredients"] = top.window.wrappedJSObject.windmill_zutaten;
-        }catch(err){GM_logError("texte mill","","",err);}
-        texte["en"]["automat_number"] = "Number";
-        texte["en"]["automat_lack"] = "Lack";
-        texte["en"]["automat_MillRecipesBought"] = "Total recipes bought: ";
-        texte["en"]["automat_MillRecipesUsed"] = "Total recipes used: ";
-        texte["en"]["automat_MillRecipesBake"] = "Max recipes to bake: ";
+        text["en"]["automat_MillTimeThis"] = top.window.wrappedJSObject.windmill_bakeingtime;
+        text["en"]["automat_MillPowerUpText_0"] = top.window.wrappedJSObject.powerup_bonustext1;
+        text["en"]["automat_MillPowerUpText_1"] = top.window.wrappedJSObject.powerup_bonustext2;
+        text["en"]["automat_MillPowerUpText_2"] = top.window.wrappedJSObject.powerup_bonustext3;
+        text["en"]["automat_MillIngredients"] = top.window.wrappedJSObject.windmill_zutaten;
+        }catch(err){GM_logError("text mill","","",err);}
+        text["en"]["automat_number"] = "Number";
+        text["en"]["automat_lack"] = "Lack";
+        text["en"]["automat_MillRecipesBought"] = "Total recipes bought: ";
+        text["en"]["automat_MillRecipesUsed"] = "Total recipes used: ";
+        text["en"]["automat_MillRecipesBake"] = "Max recipes to bake: ";
         //title
-        texte["en"]["automat_title_on_general"] = "Show general queue only<br>+Ctrl: Show general queue";
-        texte["en"]["automat_title_off_general"] = "Show general queue only<br>+Ctrl: Hide general queue";
-        texte["en"]["automat_title_on_farm1"] = "Show first farm only<br>+Ctrl: Show first farm";
-        texte["en"]["automat_title_off_farm1"] = "Show first farm only<br>+Ctrl: Hide first farm";
-        texte["en"]["automat_title_on_farm2"] = "Show second farm only<br>+Ctrl: Show second farm";
-        texte["en"]["automat_title_off_farm2"] = "Show second farm only<br>+Ctrl: Hide second farm";
-        texte["en"]["automat_title_on_farm3"] = "Show third farm only<br>+Ctrl: Show third farm";
-        texte["en"]["automat_title_off_farm3"] = "Show third farm only<br>+Ctrl: Hide third farm";
-        texte["en"]["automat_title_on_farm4"] = "Show fourth farm only<br>+Ctrl: Show fourth farm";
-        texte["en"]["automat_title_off_farm4"] = "Show fourth farm only<br>+Ctrl: Hide fourth farm";
-        texte["en"]["automat_title_on_farmersmarket"] = "Show farmersmarket only<br>+Ctrl: Show farmersmarket";
-        texte["en"]["automat_title_off_farmersmarket"] = "Show farmersmarket only<br>+Ctrl: Hide farmersmarket";
-        texte["en"]["automat_title_on_megafield"] = "Show megafield only<br>+Ctrl: Show megafield";
-        texte["en"]["automat_title_off_megafield"] = "Show megafield only<br>+Ctrl: Hide megafield";
-        texte["en"]["automat_title_on_city"] = "Show city only<br>+Ctrl: Show city";
-        texte["en"]["automat_title_off_city"] = "Show city only<br>+Ctrl: Hide city";
-        texte["en"]["automat_title_on_forestry"] = "Show forestry only<br>+Ctrl: Show forestry";
-        texte["en"]["automat_title_off_forestry"] = "Show forestry only<br>+Ctrl: Hide forestry";
-        texte["en"]["automat_title_on_foodworld"] = "Show picnic area only<br>+Ctrl: Show picnic area";
-        texte["en"]["automat_title_off_foodworld"] = "Show picnic area only<br>+Ctrl: Hide picnic area";
-        texte["en"]["automat_title_on_type1"] = "Show fields only<br>+Ctrl: Show fields";
-        texte["en"]["automat_title_off_type1"] = "Show fields only<br>+Ctrl: Hide fields";
-        texte["en"]["automat_title_on_type2"] = "Show stables only<br>+Ctrl: Show stables";
-        texte["en"]["automat_title_off_type2"] = "Show stables only<br>+Ctrl: Hide stables";
-        texte["en"]["automat_title_on_type3"] = "Show factories only<br>+Ctrl: Show factories";
-        texte["en"]["automat_title_off_type3"] = "Show factories only<br>+Ctrl: Hide factories";
-        texte["en"]["automat_title_on_all"] = "Show all farm queues";
-        texte["en"]["automat_title_off_all"] = "Hide all farm queues";
+        text["en"]["automat_title_on_general"] = "Show general queue only<br>+Ctrl: Show general queue";
+        text["en"]["automat_title_off_general"] = "Show general queue only<br>+Ctrl: Hide general queue";
+        text["en"]["automat_title_on_farm1"] = "Show first farm only<br>+Ctrl: Show first farm";
+        text["en"]["automat_title_off_farm1"] = "Show first farm only<br>+Ctrl: Hide first farm";
+        text["en"]["automat_title_on_farm2"] = "Show second farm only<br>+Ctrl: Show second farm";
+        text["en"]["automat_title_off_farm2"] = "Show second farm only<br>+Ctrl: Hide second farm";
+        text["en"]["automat_title_on_farm3"] = "Show third farm only<br>+Ctrl: Show third farm";
+        text["en"]["automat_title_off_farm3"] = "Show third farm only<br>+Ctrl: Hide third farm";
+        text["en"]["automat_title_on_farm4"] = "Show fourth farm only<br>+Ctrl: Show fourth farm";
+        text["en"]["automat_title_off_farm4"] = "Show fourth farm only<br>+Ctrl: Hide fourth farm";
+        text["en"]["automat_title_on_farmersmarket"] = "Show farmersmarket only<br>+Ctrl: Show farmersmarket";
+        text["en"]["automat_title_off_farmersmarket"] = "Show farmersmarket only<br>+Ctrl: Hide farmersmarket";
+        text["en"]["automat_title_on_megafield"] = "Show megafield only<br>+Ctrl: Show megafield";
+        text["en"]["automat_title_off_megafield"] = "Show megafield only<br>+Ctrl: Hide megafield";
+        text["en"]["automat_title_on_city"] = "Show city only<br>+Ctrl: Show city";
+        text["en"]["automat_title_off_city"] = "Show city only<br>+Ctrl: Hide city";
+        text["en"]["automat_title_on_forestry"] = "Show forestry only<br>+Ctrl: Show forestry";
+        text["en"]["automat_title_off_forestry"] = "Show forestry only<br>+Ctrl: Hide forestry";
+        text["en"]["automat_title_on_foodworld"] = "Show picnic area only<br>+Ctrl: Show picnic area";
+        text["en"]["automat_title_off_foodworld"] = "Show picnic area only<br>+Ctrl: Hide picnic area";
+        text["en"]["automat_title_on_type1"] = "Show fields only<br>+Ctrl: Show fields";
+        text["en"]["automat_title_off_type1"] = "Show fields only<br>+Ctrl: Hide fields";
+        text["en"]["automat_title_on_type2"] = "Show stables only<br>+Ctrl: Show stables";
+        text["en"]["automat_title_off_type2"] = "Show stables only<br>+Ctrl: Hide stables";
+        text["en"]["automat_title_on_type3"] = "Show factories only<br>+Ctrl: Show factories";
+        text["en"]["automat_title_off_type3"] = "Show factories only<br>+Ctrl: Hide factories";
+        text["en"]["automat_title_on_all"] = "Show all farm queues";
+        text["en"]["automat_title_off_all"] = "Hide all farm queues";
     
         //help
-        texte["en"]["automat_help_0"] = [,"This script can be used to add automation to the cultivation process."];
-        texte["en"]["automat_help_1"] = ["How it works","If you click the \""+texte["en"]["automat_botStart"]+"\" button at the bottom of the page the automation process will be started.<br>You even can continue gaming as long as nothing is ready. Then the bot begins to simulate the clicks a user does. During that period you shouldn't interact."];
-        texte["en"]["automat_help_2"] = ["Field","At the bottom of every zone an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. There will not be any culturing for this garden until you select an other product. When a product icon is displayed this product is cultured next at the field."];
-        texte["en"]["automat_help_3"] = ["Queue","If in the option menu of the Automat the queue checkbox is checked, clicking the product culturing icon of a zone will display a queue where multiple products can be queued. If the background of a queue item is red this item will not be cultered because a production stop item is added somewhere before in the list."];
-        texte["en"]["automat_help_4"] = ["Repeat","Enabling the \"Repeat\" check box will enable the \"loop\" feature of the queue."];
-        texte["en"]["automat_help_5"] = ["Shuffle","Enabling the \"Shuffle\" check box will randomly culture a product from the list."];
-        texte["en"]["automat_help_6"] = ["Stables","At the bottom of every zone with a stable an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this product will be used to feed the stable. Click this icon to choose the feed amount through the slider or change the feed product by selecting the product."];
-        texte["en"]["automat_help_7"] = ["Factories","At the bottom of every zone with a factory an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this will be the produced product of this factory."];
-        texte["en"]["automat_help_8"] = [texte["en"]["automat_zonePairing"],"In the \""+texte["en"]["automat_zonePairing"]+"\" menu of the Automat the radio-buttons controle the pairing of the zones. Also the general queue is extended to allow multiple general queues."];
-        texte["en"]["automat_help_9"] = ["Windmill","The windmill queue works the same as the zone queue but instead of products recipes are baked.<br>As extra the mill queue has a <div class = \"queueButtonAddAll\">&nbsp;</div> button which can be used to clear and refill the queue with all available recipes that were bought and where there are enough ingredients in the rack to bake them.<br>If the background of a queue item is yellow then there are not enough products to bake all these recipes.<br><br><b>Note: </b>For first time user that have already bought recipes. Go to the miller or the trading lady screen so the bought recipes can be stored into the system."];
+        text["en"]["automat_help_0"] = [,"This script can be used to add automation to the cultivation process."];
+        text["en"]["automat_help_1"] = ["How it works","If you click the \""+text["en"]["automat_botStart"]+"\" button at the bottom of the page the automation process will be started.<br>You even can continue gaming as long as nothing is ready. Then the bot begins to simulate the clicks a user does. During that period you shouldn't interact."];
+        text["en"]["automat_help_2"] = ["Field","At the bottom of every zone an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. There will not be any culturing for this garden until you select an other product. When a product icon is displayed this product is cultured next at the field."];
+        text["en"]["automat_help_3"] = ["Queue","If in the option menu of the Automat the queue checkbox is checked, clicking the product culturing icon of a zone will display a queue where multiple products can be queued. If the background of a queue item is red this item will not be cultered because a production stop item is added somewhere before in the list."];
+        text["en"]["automat_help_4"] = ["Repeat","Enabling the \"Repeat\" check box will enable the \"loop\" feature of the queue."];
+        text["en"]["automat_help_5"] = ["Shuffle","Enabling the \"Shuffle\" check box will randomly culture a product from the list."];
+        text["en"]["automat_help_6"] = ["Stables","At the bottom of every zone with a stable an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this product will be used to feed the stable. Click this icon to choose the feed amount through the slider or change the feed product by selecting the product."];
+        text["en"]["automat_help_7"] = ["Factories","At the bottom of every zone with a factory an icon is displayed. If the icon shows <div class = \"kp"+PRODSTOP+"\" style = \"display:inline-block;\">&nbsp;</div> the automation process is stopped or will be stopped at the next culture moment. When a product is displayed this will be the produced product of this factory."];
+        text["en"]["automat_help_8"] = [text["en"]["automat_zonePairing"],"In the \""+text["en"]["automat_zonePairing"]+"\" menu of the Automat the radio-buttons controle the pairing of the zones. Also the general queue is extended to allow multiple general queues."];
+        text["en"]["automat_help_9"] = ["Windmill","The windmill queue works the same as the zone queue but instead of products recipes are baked.<br>As extra the mill queue has a <div class = \"queueButtonAddAll\">&nbsp;</div> button which can be used to clear and refill the queue with all available recipes that were bought and where there are enough ingredients in the rack to bake them.<br>If the background of a queue item is yellow then there are not enough products to bake all these recipes.<br><br><b>Note: </b>For first time user that have already bought recipes. Go to the miller or the trading lady screen so the bought recipes can be stored into the system."];
     }
     delimThou=top.unsafeData.delimThou;
     regDelimThou=new RegExp(top.unsafeData.regDelimThou,"g");
@@ -10006,7 +10008,7 @@ try{
         now=Math.floor((new Date()).getTime()/1000);
     },1000);
 
-    GM_registerMenuCommand(getText("automat")+" "+"Update", function(){
+    GM_registerMenuCommand(getText("automat")+" Update", function(){
         location.href=GM_Source;
     });
     GM_registerMenuCommand(getText("automat")+" "+getText("scriptHomepage"), function(){

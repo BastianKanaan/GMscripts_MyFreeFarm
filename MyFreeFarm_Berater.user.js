@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94BGgo6NO+u5q4AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAS0ElEQVRo3t2aeYxl11ngf+fub3+172t3V1cv7sVuJ3bs7jh2QtoMDoHEwRlCbMJEATRiSaKBQTNBCKGwBwSDNAyTQVGCYJIMEINjxrFix3E73mO7TW/V1VXVtS+v6i13v+ee+aNvQSXDaCTS7W7nSE/v3veuzrm/8y3nO9934Dq08cE+APv9E/1//tDN+16/9+hNJ/l+bXv3jAHw4zf1P/sLdx5TRqXyc++fHPvsGzW+/kbC5vMOyyvrfOSDJz99eM/gj+09fkK9Na/fW8sVzr86NfOl7ydgB+iK46TnVz75wJNtHZX3rcuUI8dvFS9cnuHQ7YcOWprTfvb8pUe/H4BzwH7g0H/59INfq3Z09++ZHBPHbn8LpVKF3WNdWPlOdeIdd962MDf/8vSl+XPX8mW0awxrAiPAgd/4xXf+wdaG74yP7BL9w/vp7x2h1WrRM3SYwf5+8cLz31Yf/w8f/fK1nn3tGkt2D3AE6J7o6xoc7Cjyq//pt3ntm88wMzvDhfMX+dmP/AJJnDKxe0j09HQZDzzwns+9GVW6CBwGjgIdhbz91vfdffjg6soWrhcwf+p5Cu7L3DwhWTkdYvVWCeOEQsFm//5dY1/4wld+880kYQeYBG4CqoD23uMTk0mcQJTQF9R4/48PM3mwDU2HDz5Y5dk/+VPc5YuErZpKooZ9LSVsXOX+BNAB7AUK2X1yx97C7oXpNQb7Nrn5pw5hOA6FthLFYh4hdD7+B8NceHGKi2eqYmTfmAGwb3I3Z85O3fAS1oHubckC6IZ9uGCWCruHN6lWHNIwQRc6BjqkGpqCNEkZPTTG0aFZtuqBPjQ08NPXAvZaAJtA2w7NUQ+9c/Lt5XQOWh5hrY5yfbQoRAYBKvRJ4xgZxcReQD5vMaK9yu9+5j//iWEY4s2g0nYGvO0MxX9/9PTnT1R6P1UqCVJDR/kJdiIQrsIqRghT4KEIpCSNJAuLa3zm7179qJaibnRgDejJgP9JOp3thZueOJvygwdTND0lcFuEWhEtdTALvTTXlmikCV4ScHFhixefXEHSuStKkxveadnAQOas/qm1vHhlq5Uwta6rsUosiCWuVsfJF2itzNMKY+a36sxsNXnhYkI5LLBSWz71ZvDSCkiz739eoyyjMI81VV7Vd6skYLSasrK4gWnnWKt7PL+4wbwbcv6yRKsrZDHXSGqbr74ZAg8t89D9O/stWNbuTS+8+Mzs2hfqstBNnPYOdRpcXNjg4VeXeOqSz/RcghuIb6zr5m+2omQ1NZ2/q7da4c7O+3u6abruDQWsA0PfDTzSVji26QZWJOWFxbr73OTuwcPfeL1ezhcNljydlmdDW+XJ8zPzd/lRsr6vo/xbtkjW26qVwzKJb7INo6OtWl1fWl2LbkQvnQJxJm0NEKZh6yptpNvx9fmt5MXjk72DD798meFyldHDY6xeuMi79nYpJWXqJJH2ajOaqW3UHtvudMsLGOjtYWF55YZahwUggRngEuAC6txa7XHNMF/Z9txRLJNATxnuG2Civ5ORgS56nPTtaPrpr03V9DDwGztht9vVgL0WwBpwGXgKeAVwoyiqNf1gbXtC2goWInLYZUG1UqH25JP4iTr32JnlQ4D92OJm5f83UG93xw2h0gKwsusGcDZbl8eziVADXe33juXlD0QrDRWWcqK2sIDSneSx80sngX6E8IZ7OvvCIPx5Kwnu6eru7J1fWPLLPQMvrtc2v+XknadMzXhdIlr79k2kZ86cv67AaQbqZtd+di8Bdctw9ZerVb3njjvGeOyvT4tG1zD27GX8vqH/wfmlxf6eronRnJqKIt/RCqCcrjNzm+7Nq6GaX52bzxb1K166v7e7HIeRByTXEzgCpjKnlX5HgG3ak+++d39PwcirNAzEsZN38sg/rvPAJ3+WwTb7o3rs3xPWVsYKhQKRq3GmqR2bvrjwIkBfZztL67XvGGhxebVxoyQAomzWLaAL2AVU/u29t9y/d3Skc31pXcTSQG6sENpF3nLLfkwh1ckfua991/4J8fpzL4jXaukTtWbTLBdL7e3t1bzQ9Uaj2Ypv1M3Ddoi5F9iH0Mf/6Jfu/3hff2/n8uqaGpk8KjQErcYmt/YNUe7sxVCJiBPFI5//K0bGB5UoNnNffGL5z8BNLNNMhRDb/uGqbCautoS1LPh4i2ZYRz54fOxT02cv5A/ceozugWFh6RrDh46RMxX9g33IyOeRv36EXYfeQhi02FhaIG9pg1uxuVDbrD8p0zSQUsrvNpEbCTiXpXZGH7xj6NerxTIqidk9Ocljjz6Bcuv09HfxyFe+Stxy6R4a5IlHHuXlp75O4jbxo0jEErW3r3Ty3LL/a2EYXFXYqwksssTdGLC3krf3j7XlbtPRcEyTrz/9Eh0lm5X1TVIl2FxZZGpmjqVLM7SVHSqlAghFEkuWN13hWCb5fOH3Li2sRlwDFbwasJ3AMeCtQLtjm/vcZsDK0ipx4DMx2EGpYGPmHGYvnKVUKVCpFMmZkKQphbxFqlL8WHLq9ByXV+tYmnr4Rk3xlLKU7AGgAmiDbcXROI7xIonne4g0xrYMOtqKKB0sXWekr51c3sa2DNAExZyDbgiUUrx8YYGiKd9+cM/I0I0GrGe7o7EsPQsIYywXTUgF9Uhi6ALimJxlolKJY1uEcYRKFbahUcw5yCQlUQpN03jv8UnZ3T/6e4+/PM14d+F1gIN7x24YYCMLH/PbP1QKdpvrxtQiVHfBVK6fgoypbTZJZYqUkqYb0Gq51BsegecjU4Vp6FimSVuloPte0xsYHHnu+bNzxfvu2P/S6XOXtR86cdMNAWzuyD8DcGig7cFFTzLl6YslS6AZEEcRtVod3wuo111818P3ApIgIooTfM9ndnkLw9AJooR7Dvf/yumZpeMyFY3ZxfUj9905ceGpqcR49+0Hrjuwk9mwBqj+jvKEX6/1zSVO0JeT3cLURck2SJXACTxi10PFCaam02h4+J5HqxnQagUIDUzLIJKSYs7S9/ZXz69uNqtz6631raY7/s4J89w/PPM6B/eOXzdgLfPO5Svxslm9Y9D52DyVxDKNhW4rNUxDo5wzKBo6XqpI/AAZxsRxQj5no3QTJRSWbdBRLWFbFn2dbSgUd9/UN9zd1XVpq+l1P/Pa5ZnaVn38/e84/Nrpc9OMDQ1cF2Anc1gOkPzAwYFfPr0hieL46YG86u0pWMLUBW4sidDo6KzS0dlGV3cbpUKOaql4ZWnK5wmimDSVOI6FF0TIVKGhiYqVjpRLxc/t37/vyEtT66cCzzv4Y3cfefzS5QV2jY2+oYHHdv7qIKAf29VzX1vJmVgMrItFgkP1ZsserFg4to6tGygFVr5AgiBVYDsWmiEIY4lMU8rlIqZloJRASYmuCYIwYrS3Kp77x7nDfhAuOI716GpLqo5c+p5Dk2NDT7905itvFPB2wewo0FMpFQffc3Tgoadn/MgPAtMKG/nx9jwVxyDvGPihBNNB6Dq6YWCaJkLXcf0QhcJ2TDTdQEMgUZiGRhgmxHFCznHQdNT5uZUfHBgc/JlarXYp1osHunPpe7p7B+szC8vfeiNUusCVIwx9QO1Hjw3/4jcvNVLXD6OBkjDiVKiSdaXbpp+gmRapEDTDmI2WS8P1EAIKeQfbsdhqeDRaTYI4wnV9kFBrtIhlSsv1OTTeJ0p5G5toutFonlrf2Lzv23PuZncu/AzkR/fsGrumwGYWZIwD0Vv39LxrvRU4F5fr2sbm5meDVqs43u4IKSFNFZoSRGGEIaCQc+hpr2KYOkopQGEaBuVino5yBamg1fLZaLYo5hyUglimmJbJiSPjTM0utR05eji/Xqutu2H03hdeX/jGB06MPn3h4qVrBiyyRPu+LNAwBkvmQ6emNnyU+l89He0fyosUSxOkKiWIU/woIQgTGq0Av9EijWMsXYNUIVNoNT1sU6fp+bgND5mmyFjh+REKsC2Tjc06HaUcmoCVxaUBgHIhf07Y+enZ5fp/vf/43qeulQ0XM7sdAtI793R96HI9Km648fkkkSqvJUuDRXO8aOvkTAOlFJoQCAFJClbOQaBQQoMkxTINdEPH9ULCMMaxbaRUpGlKkqRX4FVKGEs620rUtpq4CV9yXW/2ns0t99spX0U3/02QiNroYF+nqZuvbDVbV03COjDMlRM5EjTVXS3fvpFYsZTyrKZp+ZxObzVvYusGhi4wdZ04VSRSIYDID2h5Ic2mT8sLCMOYzS2XVKZoCKIoQUMjjCVC10gVFPN5ysU8XpCwf9cAtdpGEeB/AqWCE11aWP7EesM/ZSfNP7+0EHbs3TV+1YArwO4MfOnEnvaPnpqubTbr9dO6pr3X8/2/7ygX26p5k0SlCK5ItmKbWLqGKQSJTFFSoWRK04+4vLKB6wW03ABTNwjDmCCKiRKJkXltL4yRSiA0TSGgo1rdzn2ztLoOwOziyudn17x77z7onD13cfqqAJvAKFeOMWzkC6UeX5jdbpRsaZro8Tz/V1WaunHghVGicEyNSKboQqMZJRhCQ8oEmUjcIKTpBshEUrBtio6NLgQtPyBOJE3PRyaStVodqRQqVTRavmr4sTB041LLC+0slP3OF9T1+a3Zxc7b9u/5yPcKLID2TJ0DYPX43p6fu7AWrIF6rOV6f6ZQAhCJZtYNTRBn2z5Ng7a8RStO0DVBkkiUlGi6Rhgl+F5IFMbouo7rRfhhTN62UUJQLhexLRs3DIklIkpk0PCT11zPS7JMaG7nS55fXDu9VR34xNTy+tr3Cmxly1AB8Hs622/ZjNJ+HYoykT+j69r2wMKP5GyqaypOwLEM5SWSVigpWgZ+IgmTBJRCi2NKtoFhGtRaHp4fYZk6OcfCDyLiRBJEEW4Y4waKWKGaftR0/fCroF7Jgp7hnQ53fGyE6csLv79e23z4e/HSItvrTmSJtODmfYMfO3NhfmKr5eaKxcIXPM9f2t4a6kKj3TZuacmUMFGiu+SIWCriVF7J7pk6ptAIAZWCbuhoAhQCzdBBaTiOQy6XI4xT5YYRKCXcIDntOPYDj3/r9N9mWtYF9ALrWXWDza36VVmW8lw5OlgE6sBpLySuNVo/Cnw7CAK5Q0NEmKZJTpMHLMtWUYq26SW6VGAYembTOoapkyqNOE2xHQelG0gEXpiAptEKY7XphuFGoyXbndic7BPKFP7//vIT5/44G0ftSDq4wObViqVFthPalu4isOD5/rcy9R7LbHv7WdJUxUut+JRlaL2aprXphrB9qVQrlFiGLrw4JVUQK5AIEqHjBpFKFEITBoFENfx4c2WjuXDrUNJ727jBSIcSBwaMwx1tldwLF7a+lgG7mQC2MolflUjLzuykLftUdjwbA142+P91liqX16MH7yqWBroMqmUDLyFtxiKN0NKtKEn9SKogTNRGvaWabkCqNLXa9NKl9a2VMzOrXx+vhGNv321zebaBYRpcXvTV0b74lz58ct/bdpRzljLoq1ZqcTKYy0AtK3L72X9JVhVMMg1RgJbP5wuHxjoO//xxcef0vMvJm6ts+Zp4/KWafmbRXdts+m5k5J93DJkbK5vHUxkJITQ1t7gcN1Nz5vLa5peUgnfd1/e+szMe3zzbYs9EiaWkcvTcc3NfvevW4tc+98+5s3912eX/BexnBe04m1G5YxC5Q52sTPLDcRTd8sl71Nv+8kXdPTMTBz/dGXacXTPCMNbCT93f1fWhP579Q2j6dWClxhPZZBmZr6gCb2svO3t6qpZ6/Fm/dWoxfPIDLflDDz8z99vnloK/3dW38e/+4/tGf/fTX5755LVI8YSZymzXYHfOqMqkvpVd54CxA4P5vlAvqi89PfP3F5brS3aq+Jvn1pcfPb124fSFRnrylp77d5RNkmwyrcwploD8B2/r3qOEEb+0Lv8QWEsTpW6f7MkpmWivzYfrR4btT0B+ZHJ88A1P8TSA2UzKGmD+8B5zNPRD0dtWHsrplE3L5qETvWVQ0aKr+x97R+Ew6IVsIs8BLwELmafdyplGZbIUGlEYGWut8NfzjjNpxam4a1QdB9Z1jbwfSH7nJ4f+/dnp+TccOM7sei3TgvLMuplsLgUEUsnJ7lLBqwUM5pI2YLrDTpwwEtxztKcGPAGcAp4HngXmgKYhlIg2EzYWWkRReELCVlKLWF2MASzdE4G35qnVmfrw9aoP17OKfwGQX359/excq1TYajSfnUqdNNoKT/zDlHgYaOnNRHlrLqbSXgGmd5jI+Uyte5qRrD06Q9Nqb/sw1NbCIFj64gWTFaUfA37kken6oyA/HHUMfwqWuV6tANwJ/BrwF9le+W7gs6OVwnYq4k9vGuy8cP/+8jPQb/4L6/0w8BPAFxHi+I7//puZyx/YMc5f2MXKEa5z07Ii2k8AN2c7KwG8e8czd+Rs+wN2tTM33Nv9L/XRA9wP3PVdGpf7rue6rsYL/x8HbwtumjbAVwAAAABJRU5ErkJggg==
-// @date           05.07.2015
-// @version        2.5.2
+// @date           11.07.2015
+// @version        2.5.3
 // @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
@@ -53,29 +53,30 @@
 unsafeData.beraterDone=false;
 // global variables
 const VERSION=GM_info["script"]["version"];
-const neededVersionFunctionFile="2.1.6";
+const neededVersionFunctionFile="2.1.7";
 const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 // [version,date,[[de,en],[de,en],...]]
 const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migration to openuserjs.org"],["Script wird jetzt auf GitHub entwickelt","Script now developed on GitHub"]]]
                 ,["2.1.1","14.06.2014",[["Neu: Changelog","New: Changelog"],["Bugfixes","Bugfixes"]]]
-                ,["2.1.2","28.06.2014",[["Ge"+a_dots+"ndert: Berechnung des \"Rekursiv ben"+o_dots+"tigt\"-Wertes","Change: Calculation of \"Recursive needed\" value"],["Neu: Optionen bzgl. Globaler Zeit und Bauernmarkt","New: Options according to global time and farmersmarket"],["Bugfix: Event nach Bedienung eines Farmis","Bugfix: Event after handling a farmi"]]]
+                ,["2.1.2","28.06.2014",[["Geändert: Berechnung des \"Rekursiv benötigt\"-Wertes","Change: Calculation of \"Recursive needed\" value"],["Neu: Optionen bzgl. Globaler Zeit und Bauernmarkt","New: Options according to global time and farmersmarket"],["Bugfix: Event nach Bedienung eines Farmis","Bugfix: Event after handling a farmi"]]]
                 ,["2.2","11.07.2014",[["Refaktorierung der Zonen-Daten","Refactoring of zones data"]]]
                 ,["2.2.1","12.07.2014",[["Bugfix","Bugfix"]]]
                 ,["2.3","14.08.2014",[["Anpassung an Firefox 30","Adaptation to Firefox 30"]]]
-                ,["2.3.1","15.08.2014",[["Bugfix: Zeit von anderen Accounts auf dem Server (Umloggen)","Bugfix: Time of other account on the server (login)"],["Bugfix: Ignorieren von verwelkten Gestecken","Bugfix: Ignoring of faded arrangements"],["Ge"+a_dots+"ndert: Spezieller Portal-Login nicht mehr ben"+o_dots+"tigt","Change: Special Portal-Login not needed anymore"]]]
+                ,["2.3.1","15.08.2014",[["Bugfix: Zeit von anderen Accounts auf dem Server (Umloggen)","Bugfix: Time of other account on the server (login)"],["Bugfix: Ignorieren von verwelkten Gestecken","Bugfix: Ignoring of faded arrangements"],["Geändert: Spezieller Portal-Login nicht mehr benötigt","Change: Special Portal-Login not needed anymore"]]]
                 ,["2.3.2","17.08.2014",[["Bugfix: Farmi MiniInfo verschwindet","Bugfix: Farmi MiniInfo vanishes"],["Neu: Goldesel Waltraud Log","New: Donkey Luke Log"]]]
                 ,["2.3.3","19.08.2014",[["Neu: Baumereiprodukte und -quests durch Patch 18.08.2014","New: Forestry products and quests by patch 18.08.2014"]]]
-                ,["2.3.4","22.08.2014",[["Bugfix: S"+a_dots+"gewerk und Schreinerei durch Patch 18.08.2014","Bugfix: Sawmill and carpentry by patch 18.08.2014"]]]
+                ,["2.3.4","22.08.2014",[["Bugfix: Sägewerk und Schreinerei durch Patch 18.08.2014","Bugfix: Sawmill and carpentry by patch 18.08.2014"]]]
                 ,["2.3.5","23.11.2014",[["Bugfix: Im Markt wird manchmal die Menge nicht selektiert, wenn man ein Produkt kaufen will","Bugfix: Sometimes the amout of a product is not selected when buying a product"]]]
                 ,["2.3.6","08.12.2014",[["Bugfix: DonkeyInfoPanel-Verhalten, wenn von zwei Computern auf einen Account zugegriffen wird","Bugfix: Multi user handling of donkey info panel (when accessing an account from several computers)"]]]
                 ,["2.3.7","16.12.2014",[["Aktualisierung der Daten","Update of data"]]]
-                ,["2.4.0","01.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"],["Neu: G"+u_dots+"terhof","New: Megafield"]]]
+                ,["2.4.0","01.02.2015",[["Anpassung an Firefox 35","Fix for Firefox 35"],["Neu: Güterhof","New: Megafield"]]]
                 ,["2.4.1","12.02.2015",[["Bugfix: Logging Waltraud","Bugfix: Logging Waltraud"]]]
                 ,["2.4.2","01.04.2015",[["Aktualisierung der Daten","Update of data"]]]
-                ,["2.5","27.06.2015",[["Neu: G"+u_dots+"terhof","New: Megafield"],["Neu: Neues Laden der Seite, wenn Login oder Start des Skripts ausbleibt","New: Reload of page if login oder start of script misses"],["Umstellung der Speicher-Art auf JSON","Change of storing to JSON"],["Refaktorierung des Loggings","Refactoring of logging"],["Bugfix: Endzeiten-Fehler bei St"+a_dots+"llen und Fabriken","Bugfix: Endtime error at stables and factories"]]]
+                ,["2.5","27.06.2015",[["Neu: Güterhof","New: Megafield"],["Neu: Neues Laden der Seite, wenn Login oder Start des Skripts ausbleibt","New: Reload of page if login oder start of script misses"],["Umstellung der Speicher-Art auf JSON","Change of storing to JSON"],["Refaktorierung des Loggings","Refactoring of logging"],["Bugfix: Endzeiten-Fehler bei Ställen und Fabriken","Bugfix: Endtime error at stables and factories"]]]
                 ,["2.5.1","03.07.2015",[["Aktualisierung der Daten für Tierarzt","Update of data for veterinary"],["Bugfix: Verlust der Quest Daten","Bugfix: Loss of quest data"]]]
                 ,["2.5.2","05.07.2015",[["Neu: Anpassung für Tierarzt","New: Fix for veterinary"],["Neu: Aufruf der Saatguthändlers mit Produkt","New: Call of seed vendor with product"],["Text-Korrekturen","Text fixes"]]]
+                ,["2.5.3","11.07.2015",[["Fix: Verkleinerung der Markt Quicklinks","Fix: Decrease of market quicklinks"],["Kleinere technische Korrekturen","Smaller technical fixes"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -300,7 +301,7 @@ const LEVEL_POINTS=[0,0,58,2420,6620,15620,27900,58700,101700,163100,211900
                    ,24240212000,25821802000,27467932000,29179741000,30958366000,32804936000,34720579000,36706414000,38763560000,40893128000
                    ,43096227000,45373962000,47727432000,50157733000,52665958000,55253195000,57920530000,60669042000,63499810000,66413907000
                    ,69412404000,72496369000,75666864000,78924952000,82271688000,85708127000,89235321000,92854318000,96566163000,100371897000
-                   ]; 
+                   ];
 const VARIABLES = {
             "USER":{"bargeld":["Cash amount",2],
                     "calcToLodgeCampaign":["Target lodge campaign",5],
@@ -470,7 +471,7 @@ const VARIABLES = {
                     "valAutoLogin":["Option",3],
                     "valUpdate":["Option",3]}
 };
-    
+
 var npcSaison = INIT_NPC_SAISON.clone();
 var prodName=new Array();
 var prodId=new Array();
@@ -499,7 +500,7 @@ var gutBeob=new Array();
 var preisBeob=new Array();
 var questData;
 var css_styles=new Object();
-var regMsgMarketsaleContent,regMsgContractsaleContent,regMsgContractsaleList,regMsgFriend;
+var regMsgMarketsaleContent,regMsgContractsaleContent,regMsgContractsaleList,regMsgSubjectFriend;
 var valAutoWater, valWaterNeeded, valAssumeWater, valAutoCrop, valErnteMsg, valLimitEmptyFields, valStatistik, valClickErrorbox, valGlobaltimeShowCroppedZone;
 var valMoveAnimals, valMinRackMan, valMinRack, valMinRackPlantsize, valMinRackFarmis,valMinRackForestryFarmis, valMinRackGrowing, valMinRackRecursive, valFarmiLimits, valFarmiMiniInfo
 var upjersAds, buyNotePadShowBlocked, show;
@@ -747,7 +748,7 @@ function loadProductData(){
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","loadProductData"); }
         gut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_gut"),"loadProductData/gut",[]);
         gutBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_gutBeob"),"loadProductData/gutBeob",[]);
-        preisBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob"),"loadProductData/preisBeob",[]); //isNotSent,time,min,max,amount 
+        preisBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob"),"loadProductData/preisBeob",[]); //isNotSent,time,min,max,amount
         prodName=explode(GM_getValue(COUNTRY+"_"+SERVER+"_prodName"),"loadProductData/prodName",[]);
         prodId=explode(GM_getValue(COUNTRY+"_"+SERVER+"_prodId"),"loadProductData/prodId",[]);
         prodPlantSize=explode(GM_getValue(COUNTRY+"_"+SERVER+"_prodPlantSize"),"loadProductData/err/prodPlantSize",[]);
@@ -784,19 +785,19 @@ function updateProductDataFarm(){
         if(!(prodPoints instanceof Array)){ prodPoints=[]; }
         if(!(prodNameSort instanceof Array)){ prodNameSort=[]; }
         if(!(prodBlock instanceof Array)){ prodBlock=[]; }
- 
-        if(!prodName[0]||!(prodName[0] instanceof Array)){ prodName[0]=[]; } 
-        if(!prodId[0]||(typeof prodId[0]!="object")||(prodId[0] instanceof Array)){ prodId[0]={}; } 
-        if(!prodPlantSize[0]||!(prodPlantSize[0] instanceof Array)){ prodPlantSize[0]=[]; } 
-        if(!prodStock[0]||!(prodStock[0] instanceof Array)){ prodStock[0]=[]; } 
-        if(!prodStockMax[0]||!(prodStockMax[0] instanceof Array)){ prodStockMax[0]=[]; } 
-        if(!prodYield[0]||!(prodYield[0] instanceof Array)){ prodYield[0]=[]; } 
-        if(!prodRequire[0]||!(prodRequire[0] instanceof Array)){ prodRequire[0]=[]; } 
-        if(!prodTyp[0]||!(prodTyp[0] instanceof Array)){ prodTyp[0]=[]; } 
-        if(!prodGrowTime[0]||!(prodGrowTime[0] instanceof Array)){ prodGrowTime[0]=[]; } 
-        if(!prodPoints[0]||!(prodPoints[0] instanceof Array)){ prodPoints[0]=[]; } 
-        // if(!prodBlock[0]||!(prodBlock[0] instanceof Array)){ prodBlock[0]=[]; } 
-        
+
+        if(!prodName[0]||!(prodName[0] instanceof Array)){ prodName[0]=[]; }
+        if(!prodId[0]||(typeof prodId[0]!="object")||(prodId[0] instanceof Array)){ prodId[0]={}; }
+        if(!prodPlantSize[0]||!(prodPlantSize[0] instanceof Array)){ prodPlantSize[0]=[]; }
+        if(!prodStock[0]||!(prodStock[0] instanceof Array)){ prodStock[0]=[]; }
+        if(!prodStockMax[0]||!(prodStockMax[0] instanceof Array)){ prodStockMax[0]=[]; }
+        if(!prodYield[0]||!(prodYield[0] instanceof Array)){ prodYield[0]=[]; }
+        if(!prodRequire[0]||!(prodRequire[0] instanceof Array)){ prodRequire[0]=[]; }
+        if(!prodTyp[0]||!(prodTyp[0] instanceof Array)){ prodTyp[0]=[]; }
+        if(!prodGrowTime[0]||!(prodGrowTime[0] instanceof Array)){ prodGrowTime[0]=[]; }
+        if(!prodPoints[0]||!(prodPoints[0] instanceof Array)){ prodPoints[0]=[]; }
+        // if(!prodBlock[0]||!(prodBlock[0] instanceof Array)){ prodBlock[0]=[]; }
+
         // b:block recipe/powerup
         // c:only by club
         // f:forestry
@@ -816,7 +817,6 @@ function updateProductDataFarm(){
         */
         var help={"v":[],"e":[],"o":[],"fw1":[],"fw2":[],"fw3":[],"fw4":[],"z":[],"fl":[],"fla":[],"hr":[],"md":[]};
         // for(var v=1;v<unsafeWindow.produkt_name.length;v++){
-// console.log("unsafeWindow.vet_data:\n"+print_r(unsafeWindow.vet_data,"",true,"\n"));
         //*task_fix_growtime*/ var newProductGrowtime={};
         //*task_fix_points*/ var newProductPoints={};
         var vet_data;
@@ -917,21 +917,21 @@ function updateProductDataForestry(){
     try{
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","updateProductDataForestry"); }
         prodName[1]={};
-        if(!prodId[1]||(typeof prodId[1]!="object")||(prodId[1] instanceof Array)){ prodId[1]={}; } 
-        if(!prodPlantSize[1]||(typeof prodPlantSize[1]!="object")||(prodPlantSize[1] instanceof Array)){ prodPlantSize[1]={}; } 
-        if(!prodStock[1]||(typeof prodStock[1]!="object")||(prodStock[1] instanceof Array)){ prodStock[1]={}; } 
-        if(!prodStockMax[1]||(typeof prodStockMax[1]!="object")||(prodStockMax[1] instanceof Array)){ prodStockMax[1]={}; } 
-        if(!prodYield[1]||(typeof prodYield[1]!="object")||(prodYield[1] instanceof Array)){ prodYield[1]={}; } 
-        if(!prodRequire[1]||(typeof prodRequire[1]!="object")||(prodRequire[1] instanceof Array)){ prodRequire[1]={}; } 
-        if(!prodTyp[1]||(typeof prodTyp[1]!="object")||(prodTyp[1] instanceof Array)){ prodTyp[1]={}; } 
-        if(!prodGrowTime[1]||(typeof prodGrowTime[1]!="object")||(prodGrowTime[1] instanceof Array)){ prodGrowTime[1]={}; } 
-        if(!prodPoints[1]||(typeof prodPoints[1]!="object")||(prodPoints[1] instanceof Array)){ prodPoints[1]={}; } 
-        if(!prodNameSort[1]||!(prodNameSort[1] instanceof Array)){ prodNameSort[1]=[]; } 
-        if(!prodBlock[1]||(typeof prodBlock[1]!="object")||(prodBlock[1] instanceof Array)){ prodBlock[1]={}; } 
- 
+        if(!prodId[1]||(typeof prodId[1]!="object")||(prodId[1] instanceof Array)){ prodId[1]={}; }
+        if(!prodPlantSize[1]||(typeof prodPlantSize[1]!="object")||(prodPlantSize[1] instanceof Array)){ prodPlantSize[1]={}; }
+        if(!prodStock[1]||(typeof prodStock[1]!="object")||(prodStock[1] instanceof Array)){ prodStock[1]={}; }
+        if(!prodStockMax[1]||(typeof prodStockMax[1]!="object")||(prodStockMax[1] instanceof Array)){ prodStockMax[1]={}; }
+        if(!prodYield[1]||(typeof prodYield[1]!="object")||(prodYield[1] instanceof Array)){ prodYield[1]={}; }
+        if(!prodRequire[1]||(typeof prodRequire[1]!="object")||(prodRequire[1] instanceof Array)){ prodRequire[1]={}; }
+        if(!prodTyp[1]||(typeof prodTyp[1]!="object")||(prodTyp[1] instanceof Array)){ prodTyp[1]={}; }
+        if(!prodGrowTime[1]||(typeof prodGrowTime[1]!="object")||(prodGrowTime[1] instanceof Array)){ prodGrowTime[1]={}; }
+        if(!prodPoints[1]||(typeof prodPoints[1]!="object")||(prodPoints[1] instanceof Array)){ prodPoints[1]={}; }
+        if(!prodNameSort[1]||!(prodNameSort[1] instanceof Array)){ prodNameSort[1]=[]; }
+        if(!prodBlock[1]||(typeof prodBlock[1]!="object")||(prodBlock[1] instanceof Array)){ prodBlock[1]={}; }
+
         var help={"f1":[],"f2":[],"f3":[],"f4":[],"f5":[]};
         for(var v in unsafeWindow.produkt_name_forestry){
-            if(!unsafeWindow.produkt_name_forestry.hasOwnProperty(v)){continue;}    
+            if(!unsafeWindow.produkt_name_forestry.hasOwnProperty(v)){continue;}
             prodName[1][v]=unsafeWindow.produkt_name_forestry[v];
             prodId[1][prodName[1][v]]=v;
             prodPlantSize[1][v]=1;
@@ -947,15 +947,15 @@ function updateProductDataForestry(){
             prodRequire[1][v]=PRODUCT_REQUIRE[1][v];
             prodGrowTime[1][v]=PRODUCT_GROWTIME[1][v];
             prodPoints[1][v]=PRODUCT_POINTS[1][v];
-            
+
             if(prodTyp[1][v]=="u"){
                 prodBlock[1][v]="qtu";
             }else{
                 prodBlock[1][v]="t";
-                if((unsafeWindow.forestry_unlock==undefined)||(PRODUCT_QUEST[1][v]&&(questData[PRODUCT_QUEST[1][v][0]][PRODUCT_QUEST[1][v][1]]["nr"]<=PRODUCT_QUEST[1][v][2]))){
+                if((unsafeWindow.forestry_unlock===undefined)||(PRODUCT_QUEST[1][v]&&(questData[PRODUCT_QUEST[1][v][0]][PRODUCT_QUEST[1][v][1]]["nr"]<=PRODUCT_QUEST[1][v][2]))){
                     prodBlock[1][v]+="q";
                 }
-                if(v==113||v==114){ prodBlock[1][v]+="s"; } 
+                if(v==113||v==114){ prodBlock[1][v]+="s"; }
                 if(help[prodTyp[1][v]]){
                     help[prodTyp[1][v]].push(v);
                 }
@@ -970,17 +970,17 @@ function updateProductDataForestry(){
 function updateProductDataWindmill(){
     try{
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","updateProductDataWindmill"); }
-        if(!prodName[2]||!(prodName[2] instanceof Array)){ prodName[2]=[]; } 
-        if(!prodId[2]||(typeof prodId[2]!="object")||(prodId[2] instanceof Array)){ prodId[2]={}; } 
-        if(!prodPlantSize[2]||!(prodPlantSize[2] instanceof Array)){ prodPlantSize[2]=[]; } 
-        if(!prodStock[2]||!(prodStock[2] instanceof Array)){ prodStock[2]=[]; } 
-        if(!prodStockMax[2]||!(prodStockMax[2] instanceof Array)){ prodStockMax[2]=[]; } 
-        // if(!prodYield[2]||!(prodYield[2] instanceof Array)){ prodYield[2]=[]; } 
-        // if(!prodRequire[2]||!(prodRequire[2] instanceof Array)){ prodRequire[2]=[]; } 
-        if(!prodTyp[2]||!(prodTyp[2] instanceof Array)){ prodTyp[2]=[]; } 
-        // if(!prodGrowTime[2]||!(prodGrowTime[2] instanceof Array)){ prodGrowTime[2]=[]; } 
-        // if(!prodPoints[2]||!(prodPoints[2] instanceof Array)){ prodPoints[2]=[]; } 
-        if(!prodBlock[2]||!(prodBlock[2] instanceof Array)){ prodBlock[2]=[]; } 
+        if(!prodName[2]||!(prodName[2] instanceof Array)){ prodName[2]=[]; }
+        if(!prodId[2]||(typeof prodId[2]!="object")||(prodId[2] instanceof Array)){ prodId[2]={}; }
+        if(!prodPlantSize[2]||!(prodPlantSize[2] instanceof Array)){ prodPlantSize[2]=[]; }
+        if(!prodStock[2]||!(prodStock[2] instanceof Array)){ prodStock[2]=[]; }
+        if(!prodStockMax[2]||!(prodStockMax[2] instanceof Array)){ prodStockMax[2]=[]; }
+        // if(!prodYield[2]||!(prodYield[2] instanceof Array)){ prodYield[2]=[]; }
+        // if(!prodRequire[2]||!(prodRequire[2] instanceof Array)){ prodRequire[2]=[]; }
+        if(!prodTyp[2]||!(prodTyp[2] instanceof Array)){ prodTyp[2]=[]; }
+        // if(!prodGrowTime[2]||!(prodGrowTime[2] instanceof Array)){ prodGrowTime[2]=[]; }
+        // if(!prodPoints[2]||!(prodPoints[2] instanceof Array)){ prodPoints[2]=[]; }
+        if(!prodBlock[2]||!(prodBlock[2] instanceof Array)){ prodBlock[2]=[]; }
 
         prodYield[2]=[];
         prodRequire[2]=[];
@@ -1016,18 +1016,18 @@ function updateProductDataWindmill(){
 function updateProductDataPowerup(){
     try{
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","updateProductDataPowerup"); }
-        if(!prodName[3]||!(prodName[3] instanceof Array)){ prodName[3]=[]; } 
-        if(!prodId[3]||(typeof prodId[3]!="object")||(prodId[3] instanceof Array)){ prodId[3]={}; } 
-        if(!prodPlantSize[3]||!(prodPlantSize[3] instanceof Array)){ prodPlantSize[3]=[]; } 
-        if(!prodStock[3]||!(prodStock[3] instanceof Array)){ prodStock[3]=[]; } 
-        if(!prodStockMax[3]||!(prodStockMax[3] instanceof Array)){ prodStockMax[3]=[]; } 
-        if(!prodYield[3]||!(prodYield[3] instanceof Array)){ prodYield[3]=[]; } 
-        if(!prodRequire[3]||!(prodRequire[3] instanceof Array)){ prodRequire[3]=[]; } 
-        if(!prodTyp[3]||!(prodTyp[3] instanceof Array)){ prodTyp[3]=[]; } 
-        if(!prodGrowTime[3]||!(prodGrowTime[3] instanceof Array)){ prodGrowTime[3]=[]; } 
-        if(!prodPoints[3]||!(prodPoints[3] instanceof Array)){ prodPoints[3]=[]; } 
-        if(!prodBlock[3]||!(prodBlock[3] instanceof Array)){ prodBlock[3]=[]; } 
-    
+        if(!prodName[3]||!(prodName[3] instanceof Array)){ prodName[3]=[]; }
+        if(!prodId[3]||(typeof prodId[3]!="object")||(prodId[3] instanceof Array)){ prodId[3]={}; }
+        if(!prodPlantSize[3]||!(prodPlantSize[3] instanceof Array)){ prodPlantSize[3]=[]; }
+        if(!prodStock[3]||!(prodStock[3] instanceof Array)){ prodStock[3]=[]; }
+        if(!prodStockMax[3]||!(prodStockMax[3] instanceof Array)){ prodStockMax[3]=[]; }
+        if(!prodYield[3]||!(prodYield[3] instanceof Array)){ prodYield[3]=[]; }
+        if(!prodRequire[3]||!(prodRequire[3] instanceof Array)){ prodRequire[3]=[]; }
+        if(!prodTyp[3]||!(prodTyp[3] instanceof Array)){ prodTyp[3]=[]; }
+        if(!prodGrowTime[3]||!(prodGrowTime[3] instanceof Array)){ prodGrowTime[3]=[]; }
+        if(!prodPoints[3]||!(prodPoints[3] instanceof Array)){ prodPoints[3]=[]; }
+        if(!prodBlock[3]||!(prodBlock[3] instanceof Array)){ prodBlock[3]=[]; }
+
         var pId;
         for(var v in unsafeWindow.formulas[0]){
             if(!unsafeWindow.formulas[0].hasOwnProperty(v)){continue;}
@@ -1087,18 +1087,18 @@ function updateProductDataMegafield(){
         if(!(prodPoints instanceof Array)){ prodPoints=[]; }
         if(!(prodNameSort instanceof Array)){ prodNameSort=[]; }
         if(!(prodBlock instanceof Array)){ prodBlock=[]; }
- 
-        if(!prodName[4]||!(prodName[4] instanceof Array)){ prodName[4]=[]; } 
-        if(!prodId[4]||(typeof prodId[4]!="object")||(prodId[4] instanceof Array)){ prodId[4]={}; } 
-        if(!prodPlantSize[4]||!(prodPlantSize[4] instanceof Array)){ prodPlantSize[4]=[]; } 
-        if(!prodStock[4]||!(prodStock[4] instanceof Array)){ prodStock[4]=[]; } 
-        if(!prodStockMax[4]||!(prodStockMax[4] instanceof Array)){ prodStockMax[4]=[]; } 
-        if(!prodYield[4]||!(prodYield[4] instanceof Array)){ prodYield[4]=[]; } 
-        if(!prodRequire[4]||!(prodRequire[4] instanceof Array)){ prodRequire[4]=[]; } 
-        if(!prodTyp[4]||!(prodTyp[4] instanceof Array)){ prodTyp[4]=[]; } 
-        if(!prodGrowTime[4]||!(prodGrowTime[4] instanceof Array)){ prodGrowTime[4]=[]; } 
-        if(!prodPoints[4]||!(prodPoints[4] instanceof Array)){ prodPoints[4]=[]; } 
-        if(!prodBlock[4]||!(prodBlock[4] instanceof Array)){ prodBlock[4]=[]; } 
+
+        if(!prodName[4]||!(prodName[4] instanceof Array)){ prodName[4]=[]; }
+        if(!prodId[4]||(typeof prodId[4]!="object")||(prodId[4] instanceof Array)){ prodId[4]={}; }
+        if(!prodPlantSize[4]||!(prodPlantSize[4] instanceof Array)){ prodPlantSize[4]=[]; }
+        if(!prodStock[4]||!(prodStock[4] instanceof Array)){ prodStock[4]=[]; }
+        if(!prodStockMax[4]||!(prodStockMax[4] instanceof Array)){ prodStockMax[4]=[]; }
+        if(!prodYield[4]||!(prodYield[4] instanceof Array)){ prodYield[4]=[]; }
+        if(!prodRequire[4]||!(prodRequire[4] instanceof Array)){ prodRequire[4]=[]; }
+        if(!prodTyp[4]||!(prodTyp[4] instanceof Array)){ prodTyp[4]=[]; }
+        if(!prodGrowTime[4]||!(prodGrowTime[4] instanceof Array)){ prodGrowTime[4]=[]; }
+        if(!prodPoints[4]||!(prodPoints[4] instanceof Array)){ prodPoints[4]=[]; }
+        if(!prodBlock[4]||!(prodBlock[4] instanceof Array)){ prodBlock[4]=[]; }
 
         var products,pId;
         // collect new data from current job
@@ -1126,7 +1126,7 @@ function updateProductDataMegafield(){
                 help[prodTyp[4][v]].push(v);
             }
         }
-        prodNameSort[4]=help["v"].concat(help["e"],help["o"]);        
+        prodNameSort[4]=help["v"].concat(help["e"],help["o"]);
         publishProductData();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
     }catch(err){
@@ -1151,7 +1151,7 @@ function publishProductData(){
         top.unsafeData.prodPoints   =prodPoints.clone();
         top.unsafeData.prodId       =prodId.clone();
         top.unsafeData.gut          =gut.clone();
-        top.unsafeData.preisBeob    =explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob","[]"),"publishProductData/preisBeob",[]).clone();
+        top.unsafeData.preisBeob    =explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob"),"publishProductData/preisBeob",[]).clone();
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
     }catch(err){ GM_logError("publishProductData","","",err); }
     },0);
@@ -1196,7 +1196,7 @@ var gameLocation=new function(){
     }
 };
 unsafeData.gameLocation=gameLocation;
-/* 
+/*
 function checkRequest(request){
     if((request.readyState==4)&&(request.status==200)){
         var response=request.responseText;
@@ -1228,7 +1228,7 @@ try{
 }catch(err){
     GM_logError("checkRequest","","",err);
     return null;
-} 
+}
 }
 function showMultiframePage(page){
 try{
@@ -1242,7 +1242,7 @@ try{
     if(help=$top("popup_garden")){ help.style.display="block"; }
     if(help=$top("multiframe")){ help.style.display="block"; }
     if(help=$top("multiframe")){ help.src=page; }
-}catch(err){GM_logError("showMultiframePage","page="+page,"",err);} 
+}catch(err){GM_logError("showMultiframePage","page="+page,"",err);}
 }
 function showShopframePage(page){
     var cell=$top("shop");
@@ -1287,7 +1287,7 @@ function showSeedVendor(productId){
             }(productId),false);
             GM_logInfo("showSeedVendor","productId="+productId,"",getText("goToX").replace(/%1%/,unsafeWindow.cityname1));
             click($top("speedlink_city1"));
-        }else if(undefined==productId){
+        }else if(undefined===productId){
             GM_logInfo("showSeedVendor","productId="+productId,"",getText("goToX").replace(/%1%/,getText("seedVendor")));
             unsafeWindow.shopAction("shopinit",1);
         }else{
@@ -1450,7 +1450,7 @@ var zones=new function(){
                     building=data[zoneNrF]["building"];
                     if(BUILDING_SLOTS[building]){
                         for(var i=BUILDING_SLOTS[building];i>=1;i--){
-                            if(undefined==data[zoneNrF]["slots"][i]){
+                            if(undefined===data[zoneNrF]["slots"][i]){
                                 // Slot not defined in record of zone
                                 data[zoneNrF]["slots"][i]=INIT_zoneSlotItem.clone();
                             }
@@ -1510,7 +1510,7 @@ var zones=new function(){
                 data[zoneNr2]=help;
             }
         }catch(err){GM_logError("zones.swap","","",err);}
-    }   
+    }
     // Values
     this.setAnimals=function(zoneNrF,value){
         try{
@@ -1549,7 +1549,7 @@ var zones=new function(){
                 zones.create(zoneNrF);
             }
             if(slot){
-                if(undefined==data[zoneNrF]["slots"][slot]){
+                if(undefined===data[zoneNrF]["slots"][slot]){
                     data[zoneNrF]["slots"][slot]=INIT_zoneSlotItem.clone();
                 }
                 if(data[zoneNrF]["slots"][slot]["block"]!=value){
@@ -1629,24 +1629,24 @@ var zones=new function(){
         }catch(err){GM_logError("zones.getBonusSpecial","","",err);}
     }
     this.setBuilding=function(zoneNrF,value){
-        /*  BUILDING    NAME                    TYPE        
-            0           empty       
-            1           Field                   Field       
-            2           Chickens                Stable      
-            3           Cows                    Stable      
-            4           Sheep                   Stable      
-            5           Bees                    Stable      
+        /*  BUILDING    NAME                    TYPE
+            0           empty
+            1           Field                   Field
+            2           Chickens                Stable
+            3           Cows                    Stable
+            4           Sheep                   Stable
+            5           Bees                    Stable
             6           Clubhouse
-            7           Cheese                  Factory 
-            8           Mayo                    Factory 
-            9           Whool                   Factory 
-            10          Bonbons                 Factory 
-            11          Fishs                   Stable  
-            12          Goats                   Stable  
-            13          Oil                     Factory 
-            14          Special-Oil             Factory 
-            15          Angora shed             Stable  
-            16          Knitting mill           Factory 
+            7           Cheese                  Factory
+            8           Mayo                    Factory
+            9           Whool                   Factory
+            10          Bonbons                 Factory
+            11          Fishs                   Stable
+            12          Goats                   Stable
+            13          Oil                     Factory
+            14          Special-Oil             Factory
+            15          Angora shed             Stable
+            16          Knitting mill           Factory
             17          Architectural office
             18          Pony farm
             19          Megafield               Factory
@@ -1656,7 +1656,7 @@ var zones=new function(){
             fl1         Flower meadow           Farmersmarket
             fl2         Flower workshop         Farmersmarket
             fl3                                 Farmersmarket
-        */  
+        */
         try{
             if(!data[zoneNrF]){
                 zones.create(zoneNrF);
@@ -1670,7 +1670,7 @@ var zones=new function(){
                     }
                 }else{
                     data[zoneNrF]["slots"]=null;
-                }               
+                }
                 zones.save();
             }
         }catch(err){GM_logError("zones.setBuilding","zoneNrF="+zoneNrF+" value="+value,"",err);}
@@ -1699,11 +1699,11 @@ var zones=new function(){
                 GM_logWarning("getLocation","zoneNr="+zoneNr,"","Function returns null.");
                 return null;
             }
-        }catch(err){ 
+        }catch(err){
             GM_logError("getLocation","zoneNr="+zoneNr,"",err);
-            return null; 
+            return null;
         }
-    }   
+    }
     this.getName=function(zoneNr){
         try{
             var currLocation=zones.getLocation(zoneNr);
@@ -1711,9 +1711,9 @@ var zones=new function(){
                 return getText("farm")+" "+(1+currLocation.farmNr)+"."+currLocation.zoneNr;
             }else{
                 return zones.getBuildingName(zoneNr);
-            }            
+            }
         }catch(err){GM_logError("zones.getName","zoneNr="+zoneNr,"",err);}
-    }    
+    }
     // Production
     this.setProduction=function(zoneNrS,value,noFollowing){
         // production[0][i]={"id":item,...}
@@ -1727,7 +1727,7 @@ var zones=new function(){
         // case garbage : item=amount
         // production[1]=[,int,int,,int]||int : free places for currently planting with that size
         // production[2]=[,int,int,,int]||int : free places for possibly planting with that size (cropped field)
-        // production[3]=true||false : flag if data is ready    
+        // production[3]=true||false : flag if data is ready
         try{
             if(!data[zoneNrS]){
                 zones.create(zoneNrS);
@@ -1787,7 +1787,7 @@ var zones=new function(){
                                     }
                                     if (!zoneErnteCurr[iType]){ zoneErnteCurr[iType]={}; }
                                     if (!zoneErnteCurr[iType][iProdStr]){ zoneErnteCurr[iType][iProdStr]=[0,0]; }
-                                    zoneErnteCurr[iType][iProdStr][0] += item[i][0]; 
+                                    zoneErnteCurr[iType][iProdStr][0] += item[i][0];
                                     zoneErnteCurr[iType][iProdStr][1] += item[i][1];
                                     if(w){
                                         data[zoneNrS]["watertime"]=Math.min(data[zoneNrS]["watertime"],w);
@@ -1800,7 +1800,7 @@ var zones=new function(){
                                             z=nowServer+w+calcGrowDuration(z-w,(100-currBonus-((currBonusSpecial&&(iProd==currBonusSpecial[0]))?currBonusSpecial[1]:0))/100);
                                         }
                                     }
-            
+
                                     if (z < data[zoneNrS]["endtime"]){
                                         data[zoneNrS]["endtime"]=z;
                                         data[zoneNrS]["endproduct"]=[iType,iProd];
@@ -1938,13 +1938,13 @@ var zones=new function(){
                 var zT=zones.getEndtime(zoneNrS);
                 var zTw=zones.getWatertime(zoneNrS);
                 var div;
-    
+
                 if (zT==NEVER){ // empty
                     if(unsafeData.readyZone[zoneNrS]&&(unsafeData.readyZone[zoneNrS][1]=="e")){
                         if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
                     }else{
                         GM_logInfo("zones.checkReady","zoneNrS="+zoneNrS,"","Empty zone found",0);
-                        unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"e",true];
+                        unsafeData.readyZone[zoneNrS]=[currLocation.farmNr===undefined?currLocation.location:currLocation.farmNr,"e",true];
                         readyZoneAdded=1;
                     }
                     if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
@@ -1955,7 +1955,7 @@ var zones=new function(){
                         if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
                     }else{
                         GM_logInfo("zones.checkReady","zoneNrS="+zoneNrS,"","Ready zone for cropping found",0);
-                        unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"r",true];
+                        unsafeData.readyZone[zoneNrS]=[currLocation.farmNr===undefined?currLocation.location:currLocation.farmNr,"r",true];
                         readyZoneAdded=1;
                     }
                     if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
@@ -1968,7 +1968,7 @@ var zones=new function(){
                         if(!unsafeData.readyZone[zoneNrS][2]){ unsafeData.readyZone[zoneNrS][2]=true; }
                     }else{
                         GM_logInfo("zones.checkReady","zoneNrS="+zoneNrS,"","Ready zone for watering found",0);
-                        unsafeData.readyZone[zoneNrS]=[currLocation.farmNr==undefined?currLocation.location:currLocation.farmNr,"w",true];
+                        unsafeData.readyZone[zoneNrS]=[currLocation.farmNr===undefined?currLocation.location:currLocation.farmNr,"w",true];
                         readyZoneAdded=1;
                     }
                     if((currZoneType==1)&&(div=$("farm_production_ready"+farmNR+"_"+zoneNr))){
@@ -1986,7 +1986,7 @@ var zones=new function(){
             return readyZoneAdded;
         }catch(err){GM_logError("zones.checkReady","zoneNrS="+zoneNrS,"",err);}
     }
-    this.getTotalCrop=function(timeBegin,timeEnd){ 
+    this.getTotalCrop=function(timeBegin,timeEnd){
         try{
             if((!timeBegin)&&(!timeEnd)&&totalCrop){
                 return totalCrop.clone();
@@ -2042,11 +2042,11 @@ var zones=new function(){
                 }
                 return production.clone();
             }
-        }catch(err){ 
+        }catch(err){
             GM_logError("zones.getTotalCrop","timeBegin="+timeBegin+" timeEnd="+timeEnd,"zoneNrS="+zoneNrS+" iType="+iType+" sProd="+sProd,err);
-            return {}; 
-        }  
-    }  
+            return {};
+        }
+    }
     // Type
     this.isMultiSlot=function(zoneNrF){
     try{
@@ -2069,9 +2069,9 @@ var zones=new function(){
                 GM_logWarning("zones.isProductional","zoneNr="+zoneNr,"","Function returns null.");
                 return null;
             }
-        }catch(err){ 
+        }catch(err){
             GM_logError("zones.isProductional","zoneNr="+zoneNr,"",err);
-            return null; 
+            return null;
         }
     }
 };
@@ -2121,7 +2121,7 @@ try{
                         if(prodRequire[type][iProd][i][0]>-1){
                             help=-stack[type][iProd]/prodYield[type][iProd]*prodRequire[type][iProd][i][2];
                             if(!nextStack[prodRequire[type][iProd][i][0]]){
-                                nextStack[prodRequire[type][iProd][i][0]]={}; 
+                                nextStack[prodRequire[type][iProd][i][0]]={};
                             }
                             if(!nextStack[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]){
                                 nextStack[prodRequire[type][iProd][i][0]][prodRequire[type][iProd][i][1]]=0;
@@ -2136,7 +2136,7 @@ try{
                     }
                 }
 
-            }       
+            }
         }
     }
     if(next){ calcTotalRecursive(++recursionCount,nextStack); }
@@ -2147,8 +2147,8 @@ function calcTotalFarmis(){
     try{
         totalFarmis[0]=new Object();
         var farmiNr=-1;
-        // GM_log("farmisinfo:\n"+print_r(unsafeWindow.farmisinfo,"",true,"\n"));       
-        // GM_log("farmilist:\n"+print_r(unsafeWindow.farmilist,"",true,"\n"));     
+        // GM_log("farmisinfo:\n"+print_r(unsafeWindow.farmisinfo,"",true,"\n"));
+        // GM_log("farmilist:\n"+print_r(unsafeWindow.farmilist,"",true,"\n"));
         if(top.window.wrappedJSObject.farmisinfo&&top.window.wrappedJSObject.farmisinfo[0]){
             for(var farmiNr in top.window.wrappedJSObject.farmisinfo[0]){ // loop through all farmis...
                 if(!top.window.wrappedJSObject.farmisinfo[0].hasOwnProperty(farmiNr)){continue;}
@@ -2205,8 +2205,8 @@ function calcTotalQuest(quTyp){
                             if(!totalQuest[quTyp][questCurr[0][j][0]][questCurr[0][j][1]]){ totalQuest[quTyp][questCurr[0][j][0]][questCurr[0][j][1]]=0; }
                             totalQuest[quTyp][questCurr[0][j][0]][questCurr[0][j][1]]+=questCurr[0][j][2];
                         }
-                    }               
-                }               
+                    }
+                }
                 for(var pTyp in questData[quTyp][camp]["given"]){
                     if (!questData[quTyp][camp]["given"].hasOwnProperty(pTyp)){ continue; }
                     for(var p in questData[quTyp][camp]["given"][pTyp]){
@@ -2244,7 +2244,7 @@ try{
                 if(!zones.getBlock(zoneNrF)){
                     currZoneTyp=zones.getBuilding(zoneNrF)
                     if(!totalZones[currZoneTyp]){
-                        totalZones[currZoneTyp]=0; 
+                        totalZones[currZoneTyp]=0;
                     }
                     totalZones[currZoneTyp]++;
                 }
@@ -2265,7 +2265,7 @@ try{
     }
 }catch(err){ GM_logError("calcTotalAnimals","","",err); }
 }
-function calcTotalEndtime(){                
+function calcTotalEndtime(){
     try{
         totalEndtime=NEVER;
         for(var i in ALL_ZONES){
@@ -2293,7 +2293,7 @@ function calcTotalEndtime(){
     }catch(err){ GM_logError("calcTotalEndtime","","i="+i+" j="+j+" zoneNrF="+zoneNrF,err); }
 }
 // calcProdMinRackInit: sets base values
-// -> calcProdMinRack: adds quests, farmis, growing, addons, forestry 
+// -> calcProdMinRack: adds quests, farmis, growing, addons, forestry
 // (calls calcTotalQuest)
 // -> doBuyNotepad, doRack, TODO doFarmis!
 // TODO: switch this logic to: calcTotalX -> calcProdMinRack
@@ -2305,9 +2305,9 @@ try{
         for(var type in prodName){
             if(!prodName.hasOwnProperty(type)){continue;}
             if(type==1){
-                if((!prodMinRackInit[type])||(typeof prodMinRackInit[type]!="object")||(prodMinRackInit[type] instanceof Array)){ prodMinRackInit[type]={}; } 
+                if((!prodMinRackInit[type])||(typeof prodMinRackInit[type]!="object")||(prodMinRackInit[type] instanceof Array)){ prodMinRackInit[type]={}; }
             }else{
-                if((!prodMinRackInit[type])||(!(prodMinRackInit[type] instanceof Array))){ prodMinRackInit[type]=[]; } 
+                if((!prodMinRackInit[type])||(!(prodMinRackInit[type] instanceof Array))){ prodMinRackInit[type]=[]; }
             }
             if(!valMinRackMan){ // detail-setting option (else see buildPreise)
                 for(var prod in prodName[type]){
@@ -2423,14 +2423,14 @@ try{
     //GM_log("After calcTotalRecursive totalRecursive:"+implode(totalRecursive));
     //GM_log("After calcTotalRecursive prodMinRack:"+implode(prodMinRack[1]));
     //GM_log("After calcTotalRecursive prodStock:"+implode(prodStock[1]));
-    
+
     // delete wrong values
     err_trace="QA";
     for(var type in prodMinRack){
         if (!prodMinRack.hasOwnProperty(type)){ continue; }
         for(var prod in prodMinRack[type]){
             if(!prodMinRack[type].hasOwnProperty(prod)){ continue; }
-            try{ 
+            try{
                 if(prodMinRack[type][prod]<0){ // delete negatives
                     prodMinRack[type][prod]=0;
                 }else if((type==0)&&(prodBlock[0][prod].match(/l/))){ // delete non-availables
@@ -2482,14 +2482,14 @@ try{
 unsafeData.getQuestBestAlternative=getQuestBestAlternative;
 function setCalcToQuest(type,campaign,nr){
 try{
-    // GM_log("setCalcToQuest type="+type+" campaign="+campaign+" nr="+nr); 
+    // GM_log("setCalcToQuest type="+type+" campaign="+campaign+" nr="+nr);
     if(QUESTS[type]&&QUESTS[type][campaign]&&questData[type][campaign]){
         questData[type][campaign]["calcTo"] = Math.min(nr,QUESTS[type][campaign].length);
         GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"setCalcToQuest/questData"));
-        unsafeData.questData=questData.clone();     
+        unsafeData.questData=questData.clone();
         // if(farmiLog){ doFarmis(); } //hack bypass early call
         calcProdMinRack();
-        handleQuestLine(); 
+        handleQuestLine();
     }
 }catch(err){ GM_logError("setCalcToQuest","","",err); }
 }
@@ -2521,7 +2521,7 @@ try{
                 case implode(["foodworld","1"],"handleQuestLine/foodworld1"):{
                     if(USERLEVEL<12){ help=-1; }
                 break;}
-                }               
+                }
                 // if((type=="forestry")&&(campaign=="2")){ help++; } // Bugfix
                 if(questData[type][campaign]["nr"]!=help){
                     switch(type){
@@ -2570,7 +2570,7 @@ try{
                     case "main":{      GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("quest"+type+campaign))); break;}
                     case "forestry":{  GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("lodge"))); break;}
                     case "foodworld":{ GM_logInfo("handleQuestLine","","type="+type+" campaign="+campaign,getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("foodworld"))); break;}
-                    }                       
+                    }
                 }else if((questData[type][campaign]["nr"]==-1)||(questData[type][campaign]["calcTo"]==-1)){
                     div.style.display="none"; // do not show quest
                 }else if(QUESTS[type][campaign][questData[type][campaign]["nr"]]){
@@ -2581,7 +2581,7 @@ try{
                 if(!unsafeWindow.premium){
                     switch(type){
                     case "forestry":{
-                        div.addEventListener("click",function(){ 
+                        div.addEventListener("click",function(){
                             if(gameLocation.check("city",2)){
                                 unsafeWindow.close_page();
                                 unsafeWindow.showDiv("transp3");
@@ -2593,12 +2593,12 @@ try{
                                     unsafeWindow.showDiv("transp3");
                                     unsafeWindow.initCampaigns();
                                 },false);
-                                click($("speedlink_city2"));                                
+                                click($("speedlink_city2"));
                             }
                         },false);
                     break;}
                     case "foodworld":{
-                        div.addEventListener("click",function(){ 
+                        div.addEventListener("click",function(){
                             if(gameLocation.check("foodworld")){
                                 click($("foodworld_questblock"));
                             }else{
@@ -2606,7 +2606,7 @@ try{
                                     document.removeEventListener("gameFoodworldOpened",arguments.callee,false);
                                     click($("foodworld_questblock"));
                                 },false);
-                                click($("speedlink_foodworld"));                                
+                                click($("speedlink_foodworld"));
                             }
                         },false);
                     break;}
@@ -2673,7 +2673,7 @@ function do_stats(){
                     var str="<div style='border-bottom:1px solid black;'>"+getText("quest_farm")+"&nbsp;"+nextQuest+"</div>";
                     for(var i=0;i<QUESTS["main"]["1"][nextQuest][0].length;i++){
                         if(typeof QUESTS["main"]["1"][nextQuest][0][i][0]=="object"){
-                            for(var j=0;j<QUESTS["main"]["1"][nextQuest][0][i].length;j++){                 
+                            for(var j=0;j<QUESTS["main"]["1"][nextQuest][0][i].length;j++){
                                 str += "<div>*"+numberFormat(QUESTS["main"]["1"][nextQuest][0][i][j][2])+"&nbsp;"+prodName[QUESTS["main"]["1"][nextQuest][0][i][j][0]][QUESTS["main"]["1"][nextQuest][0][i][j][1]]+"</div>";
                             }
                         }else{
@@ -2822,15 +2822,15 @@ function buildInfoPanelStock(mode){
 try{
     var help=mode["filterCategory"];
     var modeDefault={"filterCategories":[{"v":true},{"f1":true},{"r1":true},{"f1":true}],"filterCategory":{"v":true},"page":1,"prodType":0,"showAll":false};
-    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeStockTable"),"buildInfoPanelStock/modeOld");
+    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeStockTable"),"buildInfoPanelStock/modeOld",modeDefault);
     if(typeof modeOld!="object"){ modeOld=modeDefault; }
     if(typeof mode!="object"){ mode=modeOld; }
     for(var v in modeDefault){
         if(!modeDefault.hasOwnProperty(v)){ continue; }
-        if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+        if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
     }
     if(mode["prodType"]>0){ mode["page"]=2; }
-    if(help){ 
+    if(help){
         mode["filterCategories"][mode["prodType"]]=mode["filterCategory"];
     }else{
         mode["filterCategory"]=mode["filterCategories"][mode["prodType"]];
@@ -2974,10 +2974,10 @@ try{
                         newtr=createElement("tr",{"class":"hoverBgCc9"},newtablebody);
                     }
                     prevTyp=prodTyp[mode["prodType"]][v];
-    
+
                     newdiv=createElement("td",{},newtr);
                     produktPic(mode["prodType"],v,newdiv);
-    
+
                     newdiv=createElement("td",{},newtr);
                     newa=createElement("a",{"prodId":v},newdiv,prodName[mode["prodType"]][v]);
                     if(currProdBlock.match(/l/)){
@@ -2996,7 +2996,7 @@ try{
                             newa.addEventListener("click",function(){showMarket(this.getAttribute("prodId"));},false);
                         }
                     }
-    
+
                     createElement("td",{"style":"text-align:right;"},newtr,currProdBlock?"<span style='color:red;'>---</span>":(prodStock[mode["prodType"]][v]?numberFormat(prodStock[mode["prodType"]][v]):"-"));
                     newtd=createElement("td",{"style":"text-align:right;"},newtr);
                     if(NPC[mode["prodType"]][v]){
@@ -3014,7 +3014,7 @@ try{
                     }else{
                         newtd.innerHTML="&nbsp;";
                     }
-    
+
                     newtd=createElement("td",{"style":"text-align:right;"},newtr,(gutBeob[v]?numberFormat(gutBeob[v],2):"&nbsp;"));
                     if(preisBeob[v]){
                         if(preisBeob[v][4]>0){
@@ -3034,7 +3034,7 @@ try{
                     }else if(!currProdBlock){
                         newtd.setAttribute("mouseOverText","---");
                     }
-    
+
                     newtd=createElement("td",{"style":"text-align:right;"},newtr);
                     if(valNimmBeob){
                         newtd.innerHTML=numberFormat(gut[v],2);
@@ -3101,10 +3101,10 @@ try{
                 if (mode["filterCategory"][prodTyp[mode["prodType"]][v]]){
                     if((mode["prodType"]==0)&&(prodTyp[mode["prodType"]][v]!="c")){ sumwert+=prodStock[mode["prodType"]][v]*gut[v]; }
                     newtr=createElement("tr",{"class":"hoverBgCc9","v":v},newtablebody);
-    
+
                     newdiv=createElement("td",{},newtr);
                     produktPic(mode["prodType"],v,newdiv);
-    
+
                     newdiv=createElement("td",{"value":w},newtr);
                     newa=createElement("a",{"prodId":v},newdiv,prodName[mode["prodType"]][v]);
                     if(currProdBlock.match(/l/)){
@@ -3116,19 +3116,19 @@ try{
                     }else if(currProdBlock.match(/t/)){
                         newa.style.textDecoration="none";
                     }else if(mode["prodType"]==0){
-                        newtr.setAttribute("mouseOverText",getText("marketPrice")+":&nbsp;"+moneyFormat(gut[v])); 
+                        newtr.setAttribute("mouseOverText",getText("marketPrice")+":&nbsp;"+moneyFormat(gut[v]));
                         newa.setAttribute("mouseOverText",'<table class="tmenu"><tr><th colspan="2" class="lightBg">'+getText("goToMarketOfX").replace(/%1%/,prodName[mode["prodType"]][v])+'</th></tr><tr><td>'+getText("marketPrice")+'</td><td style="text-align:right;">'+moneyFormat(gut[v])+'</td></table>');
                         newa.setAttribute("class","link");
                         newa.addEventListener("click",function(){showMarket(this.getAttribute("prodId"));},false);
                     }
-    
+
                     if(currProdBlock.match(/[lv]/)){
                         createElement("td",{"align":"right","value":0},newtr,"<span style='color:red;'>---</span>");
                         createElement("td",{"align":"right","value":0},newtr,"<span style='color:red;'>---</span>");
                     }else if(prodStock[mode["prodType"]][v]){
                         createElement("td",{"align":"right","value":prodStock[mode["prodType"]][v]},newtr,numberFormat(prodStock[mode["prodType"]][v]));
                         if(mode["prodType"]==0&&(!currProdBlock.match(/t/))){
-                            createElement("td",{"align":"right","value":prodStock[mode["prodType"]][v]*gut[v]},newtr,numberFormat(prodStock[mode["prodType"]][v]*gut[v])); 
+                            createElement("td",{"align":"right","value":prodStock[mode["prodType"]][v]*gut[v]},newtr,numberFormat(prodStock[mode["prodType"]][v]*gut[v]));
                         }else{
                             createElement("td",{"align":"right","value":0},newtr,"-");
                         }
@@ -3136,7 +3136,7 @@ try{
                         createElement("td",{"align":"right","value":0},newtr,"-");
                         createElement("td",{"align":"right","value":0},newtr,"-");
                     }
-    
+
                     newtd=createElement("td",{"align":"right","style":"padding-right:20px"},newtr);
                     if(valMinRackMan){
                         newinput=createElement("input",{"tabindex":parseInt(w,10)+1,"value":numberFormat(prodMinRackInit[mode["prodType"]][v]),"class":"text","size":"10","maxlength":"10","style":"text-align:right; background-color:transparent; color:black;"},newtd);
@@ -3193,20 +3193,20 @@ try{
     var err_trace="init";
     //GM_log("buildInfoPanelProfit "+implode(mode));
     var modeDefault={"perc":0.9,"showAll":false,"sort":"gut","buildingLevel":{},"feed":{},"filterCategory":{"v":true}};
-    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeProfittable"),"buildInfoPanelProfit/modeOld");
+    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeProfittable"),"buildInfoPanelProfit/modeOld",modeDefault);
     if(typeof modeOld!="object"){ modeOld=modeDefault; }
     if(typeof mode!="object"){ mode=modeOld; }
     for(var v in modeDefault){
         if(!modeDefault.hasOwnProperty(v)){ continue; }
-        if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
-    }   
+        if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
+    }
     if(!mode["buildingLevel"]["1"]){ mode["buildingLevel"]["1"]=1; }
     // [alternative, fully fed(0/1)]
     err_trace="calc array";
     var profit=new Array();
     var c=-1;
     var help, currBuilding, preis, preisBeob, menge, bonus, currInput;
-    for(var v=0;v<prodName[0].length;v++){ 
+    for(var v=0;v<prodName[0].length;v++){
         if((mode["showAll"]||(!prodBlock[0][v]))&&(prodGrowTime[0][v])){
             if(mode["filterCategory"][prodTyp[0][v]]){
                     profit[++c]=new Object();
@@ -3231,7 +3231,7 @@ try{
                         preisBeob=(gutBeob[v]?gutBeob[v]:0);
                         if(!isNaN(NPC[0][v])){
                             preis=Math.min(NPC[0][v],preis);
-                            preisBeob=Math.min(NPC[0][v],preisBeob); 
+                            preisBeob=Math.min(NPC[0][v],preisBeob);
                         }
                         menge=profit[c]["runs"]*(BUILDING_SIZE[currBuilding]/prodPlantSize[0][v]);
                         profit[c]["input"][0][0][0]=[v,menge,preis,preisBeob];
@@ -3256,7 +3256,7 @@ try{
                                 preisBeob=(gutBeob[currInput[0]]?gutBeob[currInput[0]]:0);
                                 if(!isNaN(NPC[0][currInput[0]])){
                                     preis=Math.min(NPC[0][currInput[0]],preis);
-                                    preisBeob=Math.min(NPC[0][currInput[0]],preisBeob); 
+                                    preisBeob=Math.min(NPC[0][currInput[0]],preisBeob);
                                 }
                                 menge=help[alt][1][1]*86400/help[alt][1][0];
                                 profit[c]["input"][alt][1][i]=[currInput[0],menge,preis,preisBeob];
@@ -3288,8 +3288,8 @@ try{
                                 preisBeob=(gutBeob[currInput[0]]?gutBeob[currInput[0]]:0);
                                 if(!isNaN(NPC[0][currInput[0]])){
                                     preis=Math.min(NPC[0][currInput[0]],preis);
-                                    preisBeob=Math.min(NPC[0][currInput[0]],preisBeob); 
-                                }                                   
+                                    preisBeob=Math.min(NPC[0][currInput[0]],preisBeob);
+                                }
                                 menge=currInput[1]*86400/help[alt][0][0];
                                 profit[c]["input"][alt][0][i]=[currInput[0],menge,preis,preisBeob];
                             }
@@ -3321,7 +3321,7 @@ try{
                                 preisBeob=(gutBeob[currInput[1]]?gutBeob[currInput[1]]:0);
                                 if(!isNaN(NPC[0][currInput[1]])){
                                     preis=Math.min(NPC[0][currInput[1]],preis);
-                                    preisBeob=Math.min(NPC[0][currInput[1]],preisBeob); 
+                                    preisBeob=Math.min(NPC[0][currInput[1]],preisBeob);
                                 }
                                 menge=currInput[2]*profit[c]["runs"];
                                 profit[c]["input"][0][0][i]=[currInput[1],menge,preis,preisBeob];
@@ -3343,14 +3343,14 @@ try{
                         profit[c]["gut"]-=help[i][1]*help[i][2];
                         profit[c]["gutBeob"]-=help[i][1]*help[i][3];
                     }
-                
+
                 // GM_log(prodName[0][v]+":"+implode(profit[c]));
             }
         }
     }
     profit.sort(function (a,b){return b[mode["sort"]] - a[mode["sort"]];});
     // console.log("variable:\n"+print_r(profit,"",true,"\n"));
-   
+
     //head line
     err_trace="head line";
     var table,newtr,newtd,newspan,newdiv,newtable1,newtr1,newtd1;
@@ -3418,7 +3418,7 @@ try{
             if(mouseOverText){ toolTip.show(event,mouseOverText); }
             node=null;mouseOverText=null;
         },false);
-   
+
         err_trace="tablehead";
         newtr=createElement("tr",{"style":"color:black;"},table);
         newtd=createElement("th",{"class":"link hoverBgCc9"+(mode["sort"]=="product"?" sortableColDesc":"")},newtr,getText("product"));
@@ -3442,7 +3442,7 @@ try{
         newtd.addEventListener("click",function(){
             buildInfoPanelProfit({"sort":"gutBeob"});
         },false);
-   
+
         err_trace="tablebody";
         for(var v=0;v<profit.length;v++){
             var buildingNr=PRODUCT2BUILDING[0][profit[v]["id"]];
@@ -3462,8 +3462,8 @@ try{
                 createElement("td",{},newtr1,getText("dailyRuns"));
                 createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,numberFormat(profit[v]["runs"],3));
             newspan=createElement("span",{"class":"link","data":newtable1.innerHTML},newtd,prodName[0][profit[v]["id"]]);
-            newspan.addEventListener("mouseover",function(event){ 
-                showGoToMarketToolTip(event,this.parentNode.parentNode.parentNode.getAttribute("prod"),this.getAttribute("data")); 
+            newspan.addEventListener("mouseover",function(event){
+                showGoToMarketToolTip(event,this.parentNode.parentNode.parentNode.getAttribute("prod"),this.getAttribute("data"));
             },false);
             newspan.addEventListener("click",function(){
                 showMarket(this.parentNode.parentNode.parentNode.getAttribute("prod"));
@@ -3516,7 +3516,7 @@ try{
                 newspan.setAttribute("mouseOverText",newdiv.innerHTML);
             }
             createElement("td",{"style":"text-align:right;"},newtr,getTimeStr(profit[v]["dauer"],1));
-   
+
             createElement("td",{"style":"text-align:right;"},newtr,getDaytimeStr(now+profit[v]["dauer"],1)+"&nbsp;"+getText("shortOClock"));
             newdiv=createElement("div");
             newtable1=createElement("table",{"cellspacing":0},newdiv);
@@ -3529,7 +3529,7 @@ try{
             createElement("td",{},newtr1,getText("dailyRuns"));
             createElement("td",{},newtr1,numberFormat(profit[v]["runs"],3));
             createElement("td",{"style":"text-align:right;padding-left:10px;","mouseOverText":newdiv.innerHTML},newtr,numberFormat(profit[v]["punkte"]));
-   
+
             newdiv=createElement("div");
             newtable1=createElement("table",{"cellspacing":0},newdiv);
             newtr1=createElement("tr",{},newtable1);
@@ -3577,7 +3577,7 @@ try{
             createElement("td",{"colspan":4,"style":"padding-left:10px;"},newtr1,numberFormat(profit[v]["runs"],3));
             createElement("td",{"style":"text-align:right;","mouseOverText":newdiv.innerHTML},newtr,moneyFormatInt(profit[v]["gut"]));
             createElement("td",{"style":"text-align:right;","mouseOverText":newdiv.innerHTML},newtr,moneyFormatInt(profit[v]["gutBeob"]));
-   
+
             if(mode["jumpTo"]&&(mode["jumpTo"]==profit[v]["id"])){
                 delete mode["jumpTo"];
                 table.scrollTop=newtr.offsetTop;
@@ -3588,7 +3588,7 @@ try{
                         if(div){
                             var opac=parseFloat(div.style.opacity,10)-0.05;
                             if(opac>0){ div.style.opacity=opac; }
-                            else{ 
+                            else{
                                 removeElement(div);
                                 window.clearInterval(intervalVanishDiv);
                             }
@@ -3597,7 +3597,7 @@ try{
                 },100);
             }
         }
-   
+
         // foot line
         err_trace="foot line";
         newdiv=createElement("div",{},container);
@@ -3608,16 +3608,16 @@ try{
         newspan.addEventListener("click",function(){
             buildInfoPanelProfit({"showAll":this.checked});
         },false);
-        createElement("span",{},newtd,getText("showAll"));    
-        
+        createElement("span",{},newtd,getText("showAll"));
+
         newtd=createElement("td",{"align":"center"},newtr);
         newspan=createElement("input",{"type":"checkbox","class":"link","checked":(mode["perc"]==0.9)},newtd);
         newspan.addEventListener("click",function(){
             buildInfoPanelProfit({"perc":this.checked?0.9:1});
         },false);
-        createElement("span",{},newtd,"90%");    
-        
-        
+        createElement("span",{},newtd,"90%");
+
+
         err_trace="saving";
         container=null;table=null;newtr=null;newtd=null;newspan=null;newdiv=null;newtable1=null;newtr1=null;newtd1=null;
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeProfittable",implode(mode,"buildInfoPanelProfit/modeProfittable"));
@@ -3627,16 +3627,16 @@ function buildInfoPanelQuests(mode){
 try{
     var err_trace="init";
     var modeDefault={"type":"main","campaign":"1","sort":"product"};
-    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable"),"buildInfoPanelQuests/modeOld");
+    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable"),"buildInfoPanelQuests/modeOld",modeDefault);
     if(typeof modeOld!="object"){ modeOld=modeDefault; }
     if(typeof mode!="object"){ mode=modeOld; }
     for(var v in modeDefault){
         if(!modeDefault.hasOwnProperty(v)){ continue; }
-        if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
-    }   
-    if(QUESTS[mode["type"]]==undefined){ mode["type"]="main"; }
-    if(QUESTS[mode["type"]][mode["campaign"]]==undefined){ mode["campaign"]="1"; }
-  
+        if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
+    }
+    if(QUESTS[mode["type"]]===undefined){ mode["type"]="main"; }
+    if(QUESTS[mode["type"]][mode["campaign"]]===undefined){ mode["campaign"]="1"; }
+
     //head line
     err_trace="head line";
     var help;
@@ -3679,7 +3679,7 @@ try{
     td=createElement("th",{},tr,getText("demand"));
     td=createElement("th",{"colspan":"2"},tr,getText("value"));
     td=createElement("th",{},tr,getText("reward"));
-   
+
     err_trace="table.body";
     var questCurr,item,str,mouseOver;
     var questDone,questTotal={};
@@ -3688,12 +3688,12 @@ try{
             tr=createElement("tr",{"class":"hoverBgCc9 borderBottom1dashedGrey"},table); // white-space:nowrap;
             if((!questData[mode["type"]])||(!questData[mode["type"]][mode["campaign"]])){
                 questDone = true;
-            }else if(questData[mode["type"]][mode["campaign"]]["nr"]>v){ 
+            }else if(questData[mode["type"]][mode["campaign"]]["nr"]>v){
                 questDone = true;
-                tr.style.opacity=0.6; 
-            }else if(questData[mode["type"]][mode["campaign"]]["nr"]==v){ 
+                tr.style.opacity=0.6;
+            }else if(questData[mode["type"]][mode["campaign"]]["nr"]==v){
                 questDone = false;
-                tr.style.backgroundColor="lightblue"; 
+                tr.style.backgroundColor="lightblue";
             }else{
                 questDone = false;
             }
@@ -3747,7 +3747,7 @@ try{
                                 div.style.color=(prodStock[item[0]][item[1]]<questTotal[item[0]][item[1]]?"red":"green");
                                 div.setAttribute("data",implode([item,questTotal[item[0]][item[1]]],"buildInfoPanelQuests/data"));
                                 div.addEventListener("mouseover",function(event){
-                                    var data=explode(this.getAttribute("data"),"buildInfoPanelQuests/data"); 
+                                    var data=explode(this.getAttribute("data"),"buildInfoPanelQuests/data");
                                     var container,table,tr;
                                     container=createElement("div");
                                     table=createElement("table",{},container);
@@ -3793,7 +3793,7 @@ try{
                             div.style.color=(prodStock[item[0]][item[1]]<questTotal[item[0]][item[1]]?"red":"green");
                             div.setAttribute("data",implode([item,questTotal[item[0]][item[1]]],"buildInfoPanelQuests/data"));
                             div.addEventListener("mouseover",function(event){
-                                var data=explode(this.getAttribute("data"),"buildInfoPanelQuests/data"); 
+                                var data=explode(this.getAttribute("data"),"buildInfoPanelQuests/data");
                                 var container,table,tr;
                                 container=createElement("div");
                                 table=createElement("table",{},container);
@@ -3810,13 +3810,13 @@ try{
                                 data=null;
                                 container=null;table=null;tr=null;
                             },false);
-                        }                       
+                        }
                         createElement("div",{},td2,item[0]==0?moneyFormatInt(item[2]*gut[item[1]]):"--");
                     }
                 }
             }
             td=createElement("td",{"style":"white-space:nowrap;"},tr);
-            if(questCurr[2]>0){ 
+            if(questCurr[2]>0){
                 div=createElement("div",{},td);
                 pointsFormat(questCurr[2],"div",div);  // 70ms
             }
@@ -3900,7 +3900,7 @@ try{
     }
     // scroll to current quest
     if(questData[mode["type"]][mode["campaign"]]["nr"]>1){
-        window.setTimeout(function(scr){        
+        window.setTimeout(function(scr){
             $("questTable").scrollTop=scr;
         },0,table.children[Math.min(table.childElementCount,questData[mode["type"]][mode["campaign"]]["nr"])].offsetTop);
     }
@@ -3927,13 +3927,13 @@ try{
     try{
         var err_trace="init";
         var modeDefault={"type":"main","campaign":"1","sort":"product"};
-        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable"),"buildInfoPanelQuestsTotal/modeOld");
+        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable"),"buildInfoPanelQuestsTotal/modeOld",modeDefault);
         if(typeof modeOld!="object"){ modeOld=modeDefault; }
         if(typeof mode!="object"){ mode=modeOld; }
         for(var v in modeDefault){
             if(!modeDefault.hasOwnProperty(v)){ continue; }
-            if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
-        }           
+            if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
+        }
         err_trace="calc object";
         var obj=new Object();
         var questCurr,item,help;
@@ -3989,7 +3989,7 @@ try{
         case "relative": arr.sort(function (a,b){ return(b[4]-a[4]); }); break;
         case "relativeValue": arr.sort(function (a,b){ return(b[5]-a[5]); }); break;
         }
-        
+
         // table
         err_trace="table";
         var container,table,tr,td,div;
@@ -4006,30 +4006,30 @@ try{
             if(mouseOverText){ toolTip.show(event,mouseOverText); }
             node=null;mouseOverText=null;
         },false);
-    
+
         err_trace="table.head";
         tr=createElement("tr",{"class":"borderBottom1dashedBlack"},table);
         td=createElement("th",{"class":"link hoverBgCc9"+(mode["sort"]=="product"?" sortableColDesc":"")},tr,getText("product"));
         td.addEventListener("click",function(){
             buildInfoPanelQuestsTotal({"sort":"product"});
-        },false);       
+        },false);
         td=createElement("th",{"class":"link hoverBgCc9"+(mode["sort"]=="absolute"?" sortableColDesc":"")},tr,getText("absolute"));
         td.addEventListener("click",function(){
             buildInfoPanelQuestsTotal({"sort":"absolute"});
-        },false);       
+        },false);
         td=createElement("th",{"class":"link hoverBgCc9"+(mode["sort"]=="absoluteValue"?" sortableColDesc":"")},tr,getText("value"));
         td.addEventListener("click",function(){
             buildInfoPanelQuestsTotal({"sort":"absoluteValue"});
-        },false);       
+        },false);
         td=createElement("th",{"class":"link hoverBgCc9"+(mode["sort"]=="relative"?" sortableColDesc":"")},tr,getText("relative"));
         td.addEventListener("click",function(){
             buildInfoPanelQuestsTotal({"sort":"relative"});
-        },false);       
+        },false);
         td=createElement("th",{"class":"link hoverBgCc9"+(mode["sort"]=="relativeValue"?" sortableColDesc":"")},tr,getText("value"));
         td.addEventListener("click",function(){
             buildInfoPanelQuestsTotal({"sort":"relativeValue"});
-        },false);       
-    
+        },false);
+
         err_trace="table.body";
         help=null;
         for(var i=0;i<arr.length;i++){
@@ -4060,14 +4060,14 @@ try{
             createElement("td",{"style":"text-align:right;"},tr,numberFormat(item[4]));
             createElement("td",{"style":"text-align:right;"},tr,item[5]==0?"--":moneyFormatInt(item[5]));
         }
-    
+
         err_trace="saving";
         container=null;table=null;thead=null;tbody=null;tr=null;td=null;span=null;div=null;table1=null;tr1=null;td1=null;tr2=null;td2=null;
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable",implode(mode,"buildInfoPanelQuestsTotal/modeQuestsTable"));
         }catch(err){ GM_logError("buildInfoPanelQuestsTotal","","err_trace="+err_trace,err); }
-    }   
+    }
     buildInfoPanelQuestsTotal(mode);
-    
+
     err_trace="saving";
     container=null;table=null;thead=null;tbody=null;tr=null;td=null;span=null;div=null;table1=null;tr1=null;td1=null;tr2=null;td2=null;
     GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeQuestsTable",implode(mode,"buildInfoPanelQuests/modeQuestsTable"));
@@ -4086,12 +4086,12 @@ function buildInfoPanelZones(){
             if(!ALL_ZONES.hasOwnProperty(i)){ continue; }
             c=0;
             newtr=createElement("tr",{},newtable);
-            createElement("th",{"colspan":"6"},newtr,getText(i));                           
+            createElement("th",{"colspan":"6"},newtr,getText(i));
             for(var j=0;j<ALL_ZONES[i].length;j++){
                 zoneNrF=ALL_ZONES[i][j];
                 if(zones.isProductional(zoneNrF)&&(!zones.getBlock(zoneNrF))){
                     if(c%3==0){
-                        newtr=createElement("tr",{"style":"width:100%;"},newtable); 
+                        newtr=createElement("tr",{"style":"width:100%;"},newtable);
                     }
                     newtd=createElement("td",{"style":"width:33%;","colspan":"2","zoneNrF":zoneNrF,"class":"link hoverBgCc9"},newtr);
                     newtd.addEventListener("mouseover",function(event){
@@ -4108,9 +4108,9 @@ function buildInfoPanelZones(){
                     help=zones.getEndtime(zoneNrF);
                     if (help!=NEVER){
                         endDay=countDays(now,help);
-                        if(endDay==0){ 
-                            newdiv.innerHTML=getDaytimeStr(help,1)+"&nbsp;"+getText("shortOClock"); 
-                        }else if(getText("day"+endDay,true)){ 
+                        if(endDay==0){
+                            newdiv.innerHTML=getDaytimeStr(help,1)+"&nbsp;"+getText("shortOClock");
+                        }else if(getText("day"+endDay,true)){
                             newdiv.innerHTML=getText("day"+endDay)+" "+getDaytimeStr(help,1)+"&nbsp;"+getText("shortOClock");
                         }else{
                             newdiv.innerHTML=new Date(1000*help).toLocaleString();
@@ -4146,9 +4146,9 @@ function buildInfoPanelZones(){
         createElement("th",{},newtr,getText("total"));
         newtd=createElement("th",{"class":"link hoverBgCc9"},newtr,getText("missing"));
         newtd.addEventListener("mouseover",function(event){ toolTip.show(event,getText("toSeedVendor")); },false);
-        newtd.addEventListener("click",function(event){ 
+        newtd.addEventListener("click",function(event){
             closeInfoPanel();
-            showSeedVendor(); 
+            showSeedVendor();
         },false);
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{},newtr);
@@ -4285,14 +4285,14 @@ function buildInfoPanelUpjersAds(){
 function buildInfoPanelLottery(mode){
     try{
         var modeDefault={"total":false};
-        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelLottery"),"buildInfoPanelLottery/modeOld");
+        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelLottery"),"buildInfoPanelLottery/modeOld",modeDefault);
         if(typeof modeOld!="object"){ modeOld=modeDefault; }
         if(typeof mode!="object"){ mode=modeOld; }
         for(var v in modeDefault){
             if(!modeDefault.hasOwnProperty(v)){ continue; }
-            if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+            if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
         }
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelLottery",implode(mode,"buildInfoPanelLottery/mode"));    
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelLottery",implode(mode,"buildInfoPanelLottery/mode"));
         // implode data older than last month
         var stichtag=new Date();
         stichtag=Math.round(((new Date(stichtag.getFullYear(),stichtag.getMonth()-1,1)).getTime())/1000);
@@ -4422,7 +4422,7 @@ function buildInfoPanelLottery(mode){
                     createElement("span",{},newdiv1,lotteryLogTotal[0][i]);
                 }
             }
-            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+sign_mult); }
+            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+"×"); }
 
             var changedLots=0;
             newdiv=createElement("div",{"style":""},newtd);
@@ -4435,7 +4435,7 @@ function buildInfoPanelLottery(mode){
                     createElement("span",{},newdiv1,lotteryLogTotal[1][i]);
                 }
             }
-            if(changedLots>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+changedLots+sign_mult); }
+            if(changedLots>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+changedLots+"×"); }
 
             var c,sum=0;
             newtable1=createElement("table",{"style":"display:inline-block;padding-right:5px;margin-right:5px;","border":"0","cellspacing":"0"},newtd);
@@ -4453,11 +4453,11 @@ function buildInfoPanelLottery(mode){
             }
             newtr1=createElement("tr",{},newtable1);
             createElement("td",{"colspan":"2"},newtr1);
-            createElement("td",{"style":"border-top:1px solid black;"},newtr1,sign_sum);
+            createElement("td",{"style":"border-top:1px solid black;"},newtr1,"∑");
             createElement("td",{"style":"border-top:1px solid black;text-align:right;"},newtr1,moneyFormat(sum));
             newtr1=createElement("tr",{},newtable1);
             createElement("td",{"colspan":"2"},newtr1);
-            createElement("td",{},newtr1,sign_average);
+            createElement("td",{},newtr1,"Ø");
             createElement("td",{"style":"text-align:right;"},newtr1,moneyFormat(sum/changedLots));
 
             c=0;
@@ -4470,7 +4470,7 @@ function buildInfoPanelLottery(mode){
                     createElement("span",{},newdiv1,lotteryLogTotal[3][i]);
                 }
             }
-            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+sign_mult); }
+            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+"×"); }
         }else{
             createElement("th",{"style":"white-space:nowrap;"},newtr,getText("day"));
             createElement("th",{"style":"white-space:nowrap;"},newtr,getText("dailyTicket"));
@@ -4521,7 +4521,7 @@ function buildInfoPanelLottery(mode){
                             createElement("span",{},newdiv1,lotteryLog[v][1][i]);
                         }
                     }
-                    if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+sign_mult); }
+                    if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+"×"); }
 
                     var changedLots=0;
                     newdiv=createElement("div",{"style":""},newtd);
@@ -4534,7 +4534,7 @@ function buildInfoPanelLottery(mode){
                             createElement("span",{},newdiv1,lotteryLog[v][2][i]);
                         }
                     }
-                    if(changedLots>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+changedLots+sign_mult); }
+                    if(changedLots>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+changedLots+"×"); }
 
                     var sum=0;
                     for(var prod in lotteryLog[v][3]){
@@ -4547,7 +4547,7 @@ function buildInfoPanelLottery(mode){
                         c=lotteryLog[v][3][prod]*gut[prod];
                         sum += c;
                     }
-                    createElement("div",{},newtd,moneyFormat(sum)+"&nbsp;("+sign_average+moneyFormat(sum/changedLots)+")");
+                    createElement("div",{},newtd,moneyFormat(sum)+"&nbsp;(Ø"+moneyFormat(sum/changedLots)+")");
 
                     c=0;
                     newtd=createElement("td",{},newtr);
@@ -4559,7 +4559,7 @@ function buildInfoPanelLottery(mode){
                             createElement("span",{},newdiv1,lotteryLog[v][4][i]);
                         }
                     }
-                    if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+sign_mult); }
+                    if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+"×"); }
                 }
             }
         }
@@ -4569,14 +4569,14 @@ function buildInfoPanelLottery(mode){
 function buildInfoPanelDonkey(mode){
     try{
         var modeDefault={"total":false};
-        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelDonkey"),"buildInfoPanelDonkey/modeOld");
+        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelDonkey"),"buildInfoPanelDonkey/modeOld",modeDefault);
         if(typeof modeOld!="object"){ modeOld=modeDefault; }
         if(typeof mode!="object"){ mode=modeOld; }
         for(var v in modeDefault){
             if(!modeDefault.hasOwnProperty(v)){ continue; }
-            if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+            if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
         }
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelDonkey",implode(mode,"buildInfoPanelDonkey/mode"));  
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelDonkey",implode(mode,"buildInfoPanelDonkey/mode"));
         // implode data older than last month
     try{
         var stichtag=new Date();
@@ -4621,7 +4621,7 @@ function buildInfoPanelDonkey(mode){
         logDonkey.sort(sortObjFunctions["date"]);
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey,"buildInfoPanelWaltraud/logDonkey"));
     }catch(err){GM_logError("buildInfoPanelWaltraud","","v="+v,"(old data) "+err);}
-    
+
         var container,newdiv,newtable,newtr,newtd;
         container=$("infoPanelInner");
         container.innerHTML="";
@@ -4705,7 +4705,7 @@ function buildInfoPanelDonkey(mode){
                     createElement("span",{},newdiv1,lotteryLogTotal[0][i]);
                 }
             }
-            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+sign_mult); }
+            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+"×"); }
 
             var changedLots=0;
             newdiv=createElement("div",{"style":""},newtd);
@@ -4718,7 +4718,7 @@ function buildInfoPanelDonkey(mode){
                     createElement("span",{},newdiv1,lotteryLogTotal[1][i]);
                 }
             }
-            if(changedLots>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+changedLots+sign_mult); }
+            if(changedLots>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+changedLots+"×"); }
 
             var c,sum=0;
             newtable1=createElement("table",{"style":"display:inline-block;padding-right:5px;margin-right:5px;","border":"0","cellspacing":"0"},newtd);
@@ -4736,11 +4736,11 @@ function buildInfoPanelDonkey(mode){
             }
             newtr1=createElement("tr",{},newtable1);
             createElement("td",{"colspan":"2"},newtr1);
-            createElement("td",{"style":"border-top:1px solid black;"},newtr1,sign_sum);
+            createElement("td",{"style":"border-top:1px solid black;"},newtr1,"∑");
             createElement("td",{"style":"border-top:1px solid black;text-align:right;"},newtr1,moneyFormat(sum));
             newtr1=createElement("tr",{},newtable1);
             createElement("td",{"colspan":"2"},newtr1);
-            createElement("td",{},newtr1,sign_average);
+            createElement("td",{},newtr1,"Ø");
             createElement("td",{"style":"text-align:right;"},newtr1,moneyFormat(sum/changedLots));
 
             c=0;
@@ -4753,7 +4753,7 @@ function buildInfoPanelDonkey(mode){
                     createElement("span",{},newdiv1,lotteryLogTotal[3][i]);
                 }
             }
-            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+sign_mult); }
+            if(c>0){ createElement("div",{"style":"position:relative;display:inline-block;"},newdiv,"&nbsp;=&nbsp;"+c+"×"); }
         */
         }else{
             createElement("th",{"style":"white-space:nowrap;"},newtr,getText("day"));
@@ -4817,14 +4817,14 @@ function buildInfoPanelDonkey(mode){
 function buildInfoPanelFarmies(mode){
     try{
         var modeDefault={"limit":95};
-        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFarmies"),"buildInfoPanelFarmies/modeOld");
+        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFarmies"),"buildInfoPanelFarmies/modeOld",modeDefault);
         if(typeof modeOld!="object"){ modeOld=modeDefault; }
         if(typeof mode!="object"){ mode=modeOld; }
         for(var v in modeDefault){
             if(!modeDefault.hasOwnProperty(v)){ continue; }
-            if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+            if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
         }
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFarmies",implode(mode,"buildInfoPanelFarmies/mode"));    
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFarmies",implode(mode,"buildInfoPanelFarmies/mode"));
         var newFarmiumsatz=new Object();
         var totalPrice=0;
         var totalWert=0;
@@ -4915,7 +4915,7 @@ function buildInfoPanelFarmies(mode){
                     countFarmisOk++;
                     for(var w in farmiLog[v][3]){
                         if(!farmiLog[v][3].hasOwnProperty(w)){ continue; }
-                        if(totalProducts[w]==undefined){ totalProducts[w]=[0,0]; }
+                        if(totalProducts[w]===undefined){ totalProducts[w]=[0,0]; }
                         totalProducts[w][0]++;
                         totalProducts[w][1]+=farmiLog[v][3][w];
                     }
@@ -4964,17 +4964,17 @@ function buildInfoPanelFarmies(mode){
                     newtd.addEventListener("click",function(){buildTotalProducts(0);},false);
                     totalProducts.sortObj(function(mode){return function(a,b){return (a[1][mode-1]-b[1][mode-1]);}}(mode),true);
                 }
-                newtd=createElement("td",{"class":"link hoverBgLightblue","style":"text-align:center;border-left:1px solid black;border-bottom:1px solid black;padding-left:3px;padding-right:3px;"},newtr,sign_mult);
+                newtd=createElement("td",{"class":"link hoverBgLightblue","style":"text-align:center;border-left:1px solid black;border-bottom:1px solid black;padding-left:3px;padding-right:3px;"},newtr,"×");
                 if (mode==1){ newtd.style.backgroundColor="lightblue"; }
                 else{
                     newtd.addEventListener("click",function(){buildTotalProducts(1);},false);
                 }
-                newtd=createElement("td",{"class":"link hoverBgLightblue","style":"text-align:center;border-left:1px solid black;border-bottom:1px solid black;padding-left:3px;padding-right:3px;"},newtr,sign_sum);
+                newtd=createElement("td",{"class":"link hoverBgLightblue","style":"text-align:center;border-left:1px solid black;border-bottom:1px solid black;padding-left:3px;padding-right:3px;"},newtr,"∑");
                 if (mode==2){ newtd.style.backgroundColor="lightblue"; }
                 else{
                     newtd.addEventListener("click",function(){buildTotalProducts(2);},false);
                 }
-                newtd=createElement("td",{"class":"link hoverBgLightblue","style":"text-align:center;border-left:1px solid black;border-bottom:1px solid black;padding-left:3px;padding-right:3px;"},newtr,sign_sum+"/"+sign_mult);
+                newtd=createElement("td",{"class":"link hoverBgLightblue","style":"text-align:center;border-left:1px solid black;border-bottom:1px solid black;padding-left:3px;padding-right:3px;"},newtr,"∑/×");
                 if (mode==3){ newtd.style.backgroundColor="lightblue"; }
                 else{
                     newtd.addEventListener("click",function(){buildTotalProducts(3);},false);
@@ -5006,16 +5006,16 @@ function buildInfoPanelFarmies(mode){
             newtr=createElement("tr",{"class":"hoverBgCc9"});
             newtable.insertBefore(newtr,newtable.children[2]);
             newtd=createElement("td",{},newtr);
-                createElement("div",{},newtd,sign_average+" ("+countFarmisOk+")");
+                createElement("div",{},newtd,"Ø ("+countFarmisOk+")");
             newtd=createElement("td",{},newtr,"");
                 createElement("div",{},newtd,">"+numberFormat(mode["limit"])+"%");
             newtd=createElement("td",{"style":"text-align:right;"},newtr);
                 createElement("div",{},newtd,moneyFormatInt(totalPriceOk/countFarmisOk));
             newtd=createElement("td",{"style":"text-align:right;"},newtr);
-                createElement("div",{"mouseOverText":"100%<br>"+sign_average+"[>"+numberFormat(mode["limit"])+"%]"},newtd,moneyFormatInt(totalWertOk/countFarmisOk));
-                createElement("div",{"mouseOverText":" 90%<br>"+sign_average+"[>"+numberFormat(mode["limit"])+"%]"},newtd,moneyFormatInt(0.9*totalWertOk/countFarmisOk));
-                createElement("div",{"mouseOverText":"100%<br>"+sign_sum+"[>"+numberFormat(mode["limit"])+"%]/"+getText("all"),"style":"border-top:1px solid black;"},newtd,moneyFormatInt(totalWertOk/countFarmisAll));
-                createElement("div",{"mouseOverText":" 90%<br>"+sign_sum+"[>"+numberFormat(mode["limit"])+"%]/"+getText("all")},newtd,moneyFormatInt(0.9*totalWertOk/countFarmisAll));
+                createElement("div",{"mouseOverText":"100%<br>Ø[>"+numberFormat(mode["limit"])+"%]"},newtd,moneyFormatInt(totalWertOk/countFarmisOk));
+                createElement("div",{"mouseOverText":" 90%<br>Ø[>"+numberFormat(mode["limit"])+"%]"},newtd,moneyFormatInt(0.9*totalWertOk/countFarmisOk));
+                createElement("div",{"mouseOverText":"100%<br>∑[>"+numberFormat(mode["limit"])+"%]/"+getText("all"),"style":"border-top:1px solid black;"},newtd,moneyFormatInt(totalWertOk/countFarmisAll));
+                createElement("div",{"mouseOverText":" 90%<br>∑[>"+numberFormat(mode["limit"])+"%]/"+getText("all")},newtd,moneyFormatInt(0.9*totalWertOk/countFarmisAll));
             newtd=createElement("td",{"style":"text-align:right;"},newtr);
                 createElement("div",{"mouseOverText":"100%"},newtd,(totalPriceOk>totalWertOk?"+":"")+moneyFormatInt((totalPriceOk-totalWertOk)/countFarmisOk));
                 createElement("div",{"mouseOverText":" 90%"},newtd,(totalPriceOk>0.9*totalWertOk?"+":"")+moneyFormatInt((totalPriceOk-0.9*totalWertOk)/countFarmisOk));
@@ -5025,7 +5025,7 @@ function buildInfoPanelFarmies(mode){
             newtr=createElement("tr",{"class":"hoverBgCc9"});
             newtable.insertBefore(newtr,newtable.children[3]);
             newtd=createElement("td",{},newtr);
-                createElement("div",{},newtd,sign_average+" ("+countFarmisAll+")");
+                createElement("div",{},newtd,"Ø ("+countFarmisAll+")");
             newtd=createElement("td",{},newtr);
                 createElement("div",{},newtd,getText("all"));
             newtd=createElement("td",{"style":"text-align:right;"},newtr);
@@ -5055,16 +5055,16 @@ function buildInfoPanelFormulas(mode){
         // 9: [0,1,2,3,4,5,6]
         //10: ?
         //endremain: time to end
-        //end: date until recipe is buyable 
+        //end: date until recipe is buyable
         var modeDefault={"showAll":false,"filterType":"0,1,2,"};
-        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFormulas"),"buildInfoPanelFormulas/modeOld");
+        var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFormulas"),"buildInfoPanelFormulas/modeOld",modeDefault);
         if(typeof modeOld!="object"){ modeOld=modeDefault; }
         if(typeof mode!="object"){ mode=modeOld; }
         for(var v in modeDefault){
             if(!modeDefault.hasOwnProperty(v)){ continue; }
-            if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+            if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
         }
-        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFormulas",implode(mode,"buildInfoPanelFormulas/mode"));  
+        GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelFormulas",implode(mode,"buildInfoPanelFormulas/mode"));
         var container=$("infoPanelInner");
         container.innerHTML="";
         var newdiv,newdiv1,newtable,newtr,newtd,newtd1,newinput;
@@ -5099,16 +5099,16 @@ function buildInfoPanelFormulas(mode){
                 mouseOverText='<div>'+getText("click")+'&nbsp;/&nbsp;'+getText("clickCtrl")+'</div><div>'+mouseOverText+'</div>';
                 toolTip.show(event,mouseOverText);
             }
-        },false);       
+        },false);
         for(var v=0;v<=2;v++){
             createElement("div",{"class":"link category_r"+v+(mode["filterType"].search(v+",")!=-1?"_active":""),"filter":v+",","style":"display:inline-block;","mouseOverText":getText("category_r"+v)},newtd);
         }
-    
+
         newdiv=createElement("div",{"style":"height:465px;width:100%;overflow:auto;"},container);
         newtable=createElement("table",{"style":"line-height:16px;width:100%","border":"1","cellspacing":0},newdiv);
         var thead=createElement("thead",{},newtable); // sortable table
         var newtbody=createElement("tbody",{},newtable);
-    
+
         newtr=createElement("tr",{"class":"borderBottom2"},thead);
         createElement("th",{"sortdir":"Asc","class":"link"},newtr,getText("nr"));
         createElement("th",{"sortdir":"Asc","class":"link"},newtr,getText("lvl"));
@@ -5118,7 +5118,7 @@ function buildInfoPanelFormulas(mode){
         createElement("th",{"sortdir":"Asc","class":"link"},newtr,getText("gain"));
         createElement("th",{"sortdir":"Asc","class":"link"},newtr,getText("price"));
         new SortableTable(newtr);
-    
+
         for(var v in unsafeWindow.formulas[0]){
             if(!unsafeWindow.formulas[0].hasOwnProperty(v)){ continue; }
             if(mode["showAll"]||((USERLEVEL>=unsafeWindow.formulas[0][v][1])&&(unsafeWindow.formulas[0][v]["endremain"]>=0))){
@@ -5137,7 +5137,7 @@ function buildInfoPanelFormulas(mode){
                         preis=!isNaN(NPC[0][unsafeWindow.formulas[0][v][3][w][0]])?Math.min(NPC[0][unsafeWindow.formulas[0][v][3][w][0]],gut[unsafeWindow.formulas[0][v][3][w][0]]):gut[unsafeWindow.formulas[0][v][3][w][0]];
                         sum1 += unsafeWindow.formulas[0][v][3][w][1]*preis;
                         newdiv=createElement("div",{"class":"link hoverBgLightblue","prod":unsafeWindow.formulas[0][v][3][w][0],"value":preis*unsafeWindow.formulas[0][v][3][w][1]},newtd);
-                        newdiv.addEventListener("mouseover",function(event){showGoToMarketToolTip(event,this.getAttribute("prod"),null,'<tr><td>'+sign_sum+'</td><td style="text-align:right;">'+moneyFormatInt(parseInt(this.getAttribute("value"),10))+'</td></tr>');},false);
+                        newdiv.addEventListener("mouseover",function(event){showGoToMarketToolTip(event,this.getAttribute("prod"),null,'<tr><td>'+"∑"+'</td><td style="text-align:right;">'+moneyFormatInt(parseInt(this.getAttribute("value"),10))+'</td></tr>');},false);
                         newdiv.addEventListener("click",function(){showMarket(this.getAttribute("prod"));},false);
                         produktPic(0,unsafeWindow.formulas[0][v][3][w][0],newdiv);
                         newdiv=createElement("span",{},newdiv,numberFormat(unsafeWindow.formulas[0][v][3][w][1]));
@@ -5167,7 +5167,7 @@ function buildInfoPanelFormulas(mode){
                         newdiv.addEventListener("mouseover",function(event){showGoToMarketToolTip(event,this.getAttribute("prod"));},false);
                         newdiv.addEventListener("click",function(){showMarket(this.getAttribute("prod"));},false);
                         produktPic(0,unsafeWindow.formulas[0][v][5][1][0],newdiv);
-                        createElement("span",{},newdiv,"+"+unsafeWindow.formulas[0][v][5][1][1]+"val&nbsp;(+"+numberFormat(100*unsafeWindow.formulas[0][v][5][1][1]/(prodYield[0][unsafeWindow.formulas[0][v][5][1][0]]-1))+"%)");
+                        createElement("span",{},newdiv,+unsafeWindow.formulas[0][v][5][1][1]+"val&nbsp;(+"+numberFormat(100*unsafeWindow.formulas[0][v][5][1][1]/(prodYield[0][unsafeWindow.formulas[0][v][5][1][0]]-1))+"%)");
                         preis=!isNaN(NPC[0][unsafeWindow.formulas[0][v][5][1][0]])?Math.min(NPC[0][unsafeWindow.formulas[0][v][5][1][0]],gut[unsafeWindow.formulas[0][v][5][1][0]]):gut[unsafeWindow.formulas[0][v][5][1][0]];
                         sum1=0;
                         for(var i=0;i<ALL_ZONES["farm"].length;i++){
@@ -5275,7 +5275,7 @@ function buildInfoPanelMegafield(){
                 }
                 container=null;div=null;table=null;tr=null;td=null;
             }catch(err){GM_logError("buildInfoPanelMegafield.endtime.mouseover","","v="+v,err);}
-            },false);            
+            },false);
             td=createElement("td",{},tr);
             for(var i=3;1<=i;i--){ createElement("img",{"src":(logMegafieldJob[v][2]<=i)?GFX+"star.png":IMAGES["starGrey"]},td); }
             td=createElement("td",{},tr);
@@ -5330,7 +5330,7 @@ function buildInfoPanelMegafield(){
                         }
                     }
                 }
-                createElement("th",{},tr[0],sign_sum);
+                createElement("th",{},tr[0],"∑");
                 td=createElement("td",{},tr[4]);
                 createElement("div",{},td,"&nbsp;");
                 createElement("div",{},td,"&nbsp;");
@@ -5342,7 +5342,7 @@ function buildInfoPanelMegafield(){
                     createElement("div",{},td,"&nbsp;");
                     createElement("div",{},td,moneyFormatInt(sum[1]));
                 }
-                toolTip.show(event,container.innerHTML); 
+                toolTip.show(event,container.innerHTML);
                 container=null;div=null;table=null;tr=null;td=null;
             }catch(err){GM_logError("buildInfoPanelMegafield.products.mouseover","","v="+v+" i="+i,err);}
             },false);
@@ -5373,7 +5373,7 @@ unsafeWindow.buildInfoPanelMenu=function(mode){
         newdiv=createElement("div",{"id":"infoPanelL","style":"position:absolute;left:0;width:105px;overflow:auto;height:515px;border-right:2px solid #685338;padding-right:5px;"},container);
         newdiv1=createElement("div",{"style":"padding-top:5px;border-bottom:1px solid #685338;font-weight:bold;float:left;width:100%;"},newdiv,getText("adviser"));
         newdiv1.addEventListener("mouseover",function(event){
-            toolTip.show(event,getText("showChangelog")); 
+            toolTip.show(event,getText("showChangelog"));
         },false);
         newdiv1.classList.add("link");
         newdiv1.addEventListener("click",function(event){
@@ -5434,7 +5434,7 @@ function buildInfoPanelOptions(){
         newtable=createElement("table",{"style":"width:100%;","border":"1","class":"hoverRowBgCc9"},container);
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("farm"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valAutoWater["farm"]},newtd);
@@ -5445,7 +5445,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valAutoWater")[0]);
         createElement("td",{},newtr,getText("settings_valAutoWater")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valAutoCrop["farm"]},newtd);
@@ -5456,7 +5456,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[0]);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valAssumeWater["farm"]},newtd);
@@ -5466,7 +5466,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[0]);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valWaterNeeded["farm"]},newtd);
@@ -5476,7 +5476,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[0]);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalErnteMsg","type":"checkbox","class":"link","checked":valErnteMsg},newtd);
@@ -5486,7 +5486,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valCropMsg")[0]);
         createElement("td",{},newtr,getText("settings_valCropMsg")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"value":valLimitEmptyFields["1"],"class":"text","maxlength":"2","size":"2px","style":"background-color:transparent;text-align:center;"},newtd);
@@ -5500,16 +5500,16 @@ function buildInfoPanelOptions(){
                 this.value=help;
                 valLimitEmptyFields["1"]=help;
                 GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields,"buildInfoPanelOptions/valLimitEmptyFields"),14);
-                for(var v=0;v<ALL_ZONES["farm"].length;v++){ 
+                for(var v=0;v<ALL_ZONES["farm"].length;v++){
                     if(zones.getBuilding(ALL_ZONES["farm"][v])==1){
-                        zones.processProduction(ALL_ZONES["farm"][v]); 
+                        zones.processProduction(ALL_ZONES["farm"][v]);
                     }
                 }
             }
         },false);
         createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[0]);
         createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["farm"]},newtd);
@@ -5519,7 +5519,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         createElement("td",{"align":"center"},newtr);
         createElement("td",{},newtr,getText("settings_valMoveAnimals")[0]);
@@ -5533,11 +5533,11 @@ function buildInfoPanelOptions(){
                 GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMoveAnimals", implode(valMoveAnimals,"buildInfoPanelOptions/valMoveAnimals"),15);
             },false);
         }}
-        
+
         // ***********************************************************************
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("farmis"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newdiv=createElement("div",{"style":"white-space:nowrap;"},newtd);
@@ -5578,7 +5578,7 @@ function buildInfoPanelOptions(){
         createElement("span",{},newdiv,"%");
         createElement("td",{},newtr,getText("settings_valFarmiLimits")[0]);
         createElement("td",{},newtr,getText("settings_valFarmiLimits")[1]+" ("+getText("default")+":&nbsp;90,100)");
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalFarmiMiniInfo","type":"checkbox","class":"link","checked":valFarmiMiniInfo},newtd);
@@ -5589,7 +5589,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valFarmiMiniInfo")[0]);
         createElement("td",{},newtr,getText("settings_valFarmiMiniInfo")[1]);
-    
+
         // ***********************************************************************
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("farmersmarket"));
@@ -5607,12 +5607,12 @@ function buildInfoPanelOptions(){
                 this.value=help;
                 valLimitEmptyFields["fl1"]=help;
                 GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields,"buildInfoPanelOptions/valLimitEmptyFields"),14);
-                zones.processProduction("farmersmarket-1"); 
+                zones.processProduction("farmersmarket-1");
             }
         },false);
         createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[0]);
-        createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[1]);        
-        
+        createElement("td",{},newtr,getText("settings_valLimitEmptyFields")[1]);
+
         newtd1=null;
         for(var j=0;j<ALL_ZONES["farmersmarket"].length;j++){
             zoneNrF=ALL_ZONES["farmersmarket"][j];
@@ -5638,7 +5638,7 @@ function buildInfoPanelOptions(){
                 }
             }
         }
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["farmersmarket"]},newtd);
@@ -5648,7 +5648,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
-        
+
         // ***********************************************************************
 
         newtr=createElement("tr",{},newtable);
@@ -5679,12 +5679,12 @@ function buildInfoPanelOptions(){
                 }
             }
         }
-        
+
         // ***********************************************************************
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("forestry"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         var newinput=createElement("input",{"id":"inputvalGiess","type":"checkbox","class":"link","checked":valAutoWater["forestry"]},newtd);
@@ -5695,7 +5695,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valAutoWater")[0]);
         createElement("td",{},newtr,getText("settings_valAutoWater")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valAutoCrop["forestry"]},newtd);
@@ -5706,7 +5706,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[0]);
         createElement("td",{},newtr,getText("settings_valAutoCrop")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valAssumeWater["forestry"]},newtd);
@@ -5716,7 +5716,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[0]);
         createElement("td",{},newtr,getText("settings_valAssumeWater")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valWaterNeeded["forestry"]},newtd);
@@ -5726,7 +5726,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[0]);
         createElement("td",{},newtr,getText("settings_valWaterNeeded")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"value":valLimitEmptyFields["forest"],"class":"text","maxlength":"2","size":"2px","style":"background-color:transparent;text-align:center;"},newtd);
@@ -5745,7 +5745,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valLimitEmptyFields_forest")[0]);
         createElement("td",{},newtr,getText("settings_valLimitEmptyFields_forest")[1]);
-        
+
         newtd1=null;
         for(var j=0;j<ALL_ZONES["forestry"].length;j++){
             zoneNrF=ALL_ZONES["forestry"][j];
@@ -5771,7 +5771,7 @@ function buildInfoPanelOptions(){
                 }
             }
         }
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["forestry"]},newtd);
@@ -5781,7 +5781,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
-        
+
         // ***********************************************************************
 
         newtr=createElement("tr",{},newtable);
@@ -5824,10 +5824,10 @@ function buildInfoPanelOptions(){
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
 
         // **********************************************************************
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,unsafeWindow.foodworld_title);
-        
+
         newtd1=null;
         for(var j=0;j<ALL_ZONES["foodworld"].length;j++){
             zoneNrF=ALL_ZONES["foodworld"][j];
@@ -5853,7 +5853,7 @@ function buildInfoPanelOptions(){
                 }
             }
         }
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","class":"link","checked":valGlobaltimeShowCroppedZone["foodworld"]},newtd);
@@ -5863,11 +5863,11 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[0]);
         createElement("td",{},newtr,getText("settings_valGlobaltimeShowCroppedZone")[1]);
-        
+
         // **********************************************************************
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("minRackamount"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalMinRackMan","type":"checkbox","class":"link","checked":valMinRackMan},newtd);
@@ -5894,7 +5894,7 @@ function buildInfoPanelOptions(){
         newtd.addEventListener("click",function(){
             unsafeWindow.buildInfoPanel("stock",{"page":2});
         },false);
-        
+
         newTd1=null;
         for(var v in valMinRack){
             if(!valMinRack.hasOwnProperty(v)){ continue; }
@@ -5925,7 +5925,7 @@ function buildInfoPanelOptions(){
                 newTd1.rowSpan++;
             }
         }
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"class":"text minRackConfig","type":"checkbox","checked":valMinRackPlantsize},newtd);
@@ -5939,10 +5939,10 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valMinRackPlantsize")[0]);
         createElement("td",{},newtr,getText("settings_valMinRackPlantsize")[1]);
-        
+
         // newtr=createElement("tr",{},newtable);
         // newtd=createElement("th",{"colspan":"3"},newtr,getText("minRackamount"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalMinRackGrowing","type":"checkbox","class":"link","checked":valMinRackGrowing},newtd);
@@ -5953,7 +5953,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valMinRackGrowing")[0]);
         createElement("td",{},newtr,getText("settings_valMinRackGrowing")[1]);
-        
+
         newTd1=null;
         for(var typ in questData){
             if(!questData.hasOwnProperty(typ)){ continue; }
@@ -5982,7 +5982,7 @@ function buildInfoPanelOptions(){
             }
         }
         newsel=null;i=null;
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalMinRackRecursive","type":"checkbox","class":"link","checked":valMinRackRecursive},newtd);
@@ -5993,7 +5993,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valMinRackRecursive")[0]);
         createElement("td",{},newtr,getText("settings_valMinRackRecursive")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalMinRackFarmis","type":"checkbox","class":"link","checked":valMinRackFarmis},newtd);
@@ -6004,7 +6004,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valMinRackFarmis")[0]);
         createElement("td",{},newtr,getText("settings_valMinRackFarmis")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalMinRackForestryFarmis","type":"checkbox","class":"link","checked":valMinRackForestryFarmis},newtd);
@@ -6015,7 +6015,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valMinRackForestryFarmis")[0]);
         createElement("td",{},newtr,getText("settings_valMinRackForestryFarmis")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalProtectMinRack","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valProtectMinRack",false)},newtd);
@@ -6024,11 +6024,11 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_protectMinRack")[0]);
         createElement("td",{},newtr,getText("settings_protectMinRack")[1]);
-        
+
         // *******************************************************************
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("market"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalKauflimit00","value":valKauflimit[0][0],"class":"text","maxlength":"3","size":"2px","style":"background-color:transparent;text-align:center;"},newtd);
@@ -6062,7 +6062,7 @@ function buildInfoPanelOptions(){
             valKauflimit[0][1]=this.value;
             GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",implode(valKauflimit,"buildInfoPanelOptions/valKauflimit"),34);
         },false);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalKauflimit1","value":valKauflimit[1],"class":"text","maxlength":"3","size":"2px","style":"background-color:transparent;text-align:center;"},newtd);
@@ -6082,7 +6082,7 @@ function buildInfoPanelOptions(){
         createElement("span",{},newtd,"%");
         createElement("td",{},newtr,getText("settings_valBuyingLimit")[0]);
         createElement("td",{},newtr,getText("settings_valBuyingLimit")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalKauflimitNPC","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimitNPC",true)},newtd);
@@ -6091,7 +6091,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valBuyingLimitNPC")[0]);
         createElement("td",{},newtr,getText("settings_valBuyingLimitNPC")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newdiv=createElement("div",{},newtd);
@@ -6128,21 +6128,21 @@ function buildInfoPanelOptions(){
         createElement("span",{},newdiv,"%");
         createElement("td",{},newtr,getText("settings_valSellingLimit")[0]);
         createElement("td",{},newtr,getText("settings_valSellingLimit")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalJoinPreise","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valJoinPreise",false)},newtd);
         newinput.addEventListener("click",function(){ GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valJoinPreise", this.checked,39); },false);
         createElement("td",{},newtr,getText("settings_valJoinPrices")[0]);
         createElement("td",{},newtr,getText("settings_valJoinPrices")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalQuicklinks","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valQuicklinks",true)},newtd);
         newinput.addEventListener("click",function(){GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valQuicklinks", this.checked,40);},false);
         createElement("td",{},newtr,getText("settings_valQuicklinks")[0]);
         createElement("td",{},newtr,getText("settings_valQuicklinks")[1]);
-        
+
         function drawDivHighlightUser(name,color,parent){
             newdiv=createElement("div",{},parent);
             newinput=createElement("input",{"value":name,"class":"text","maxlength":"20","size":"25px","style":"background-color:transparent;"},newdiv);
@@ -6173,7 +6173,7 @@ function buildInfoPanelOptions(){
                         highlightUser[name]=color;
                     }
                 }
-                if(highlightUser[""]==undefined){
+                if(highlightUser[""]===undefined){
                     drawDivHighlightUser("","20b2aa",tableCell);
                 }else{
                     delete highlightUser[""];
@@ -6182,7 +6182,7 @@ function buildInfoPanelOptions(){
                 candinput=null;tableCell=null;
             },false);
         }
-        var highlightUser=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlight","{}"),"buildInfoPanel/options/highlightUser",{});
+        var highlightUser=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlight"),"buildInfoPanel/options/highlightUser",{});
         highlightUser[""]="20b2aa";
         newtr=createElement("tr",{},newtable);
         createElement("td",{"align":"center"},newtr);
@@ -6192,7 +6192,7 @@ function buildInfoPanelOptions(){
             if(!highlightUser.hasOwnProperty(name)){ continue; }
             drawDivHighlightUser(name,highlightUser[name],newtd);
         }
-        
+
         newtr=createElement("tr",{},newtable);
         createElement("td",{"align":"center"},newtr);
         createElement("td",{},newtr,getText("highlightProducts"));
@@ -6228,7 +6228,7 @@ function buildInfoPanelOptions(){
                 }
             }
             if(highlightProducts[0]){
-                newinput.disabled=true; 
+                newinput.disabled=true;
                 newinput.value=-1;
             }
             newinput.addEventListener("change",function(){
@@ -6247,18 +6247,18 @@ function buildInfoPanelOptions(){
                 i++;
             }
         }
-            
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalNimmBeob","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_valNimmBeob",false)},newtd);
         newinput.addEventListener("click",function(){ GM_setValue2(COUNTRY+"_"+SERVER+"_valNimmBeob",this.checked,44); },false);
         createElement("td",{},newtr,getText("settings_valUseObservedPrices")[0]);
         createElement("td",{},newtr,getText("settings_valUseObservedPrices")[1]);
-        
+
         // ********************************************************************
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("messages"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalNachr","value":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valPrivNachr",100),"class":"text","maxlength":"5","size":"5px","style":"background-color:transparent;text-align:center;"},newtd);
@@ -6275,7 +6275,7 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valPrivateMessages")[0]);
         createElement("td",{},newtr,getText("settings_valPrivateMessages")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalNachr","value":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valNachr",100),"class":"text","maxlength":"5","size":"5px","style":"background-color:transparent;text-align:center;"},newtd);
@@ -6292,14 +6292,14 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valMarketMessages")[0]);
         createElement("td",{},newtr,getText("settings_valMarketMessages")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalMessageRe","type":"checkbox","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMessageRe",true),"class":"link"},newtd);
         newinput.addEventListener("click",function(){ GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMessageRe", this.checked,47); },false);
         createElement("td",{},newtr,getText("settings_valMessageRe")[0]);
         createElement("td",{},newtr,getText("settings_valMessageRe")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalContractLogAmount","value":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valContractLogAmount",200),"class":"text","maxlength":"5","size":"5px","style":"background-color:transparent;text-align:center;"},newtd);
@@ -6316,32 +6316,32 @@ function buildInfoPanelOptions(){
         },false);
         createElement("td",{},newtr,getText("settings_valContractLogAmount")[0]);
         createElement("td",{},newtr,getText("settings_valContractLogAmount")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"type":"checkbox","checked":valMessagesSystemMarkRead,"class":"link"},newtd);
         newinput.addEventListener("click",function(){ GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMessagesSystemMarkRead", this.checked,47); },false);
         createElement("td",{},newtr,getText("settings_valMessagesSystemMarkRead")[0]);
         createElement("td",{},newtr,getText("settings_valMessagesSystemMarkRead")[1]);
-            
+
         // *********************************************************************
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,getText("general"));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalAutoLogin","type":"checkbox","class":"link","checked":GM_getValue("valAutoLogin",false)},newtd);
         newinput.addEventListener("click",function(){GM_setValue2("valAutoLogin", this.checked,48);},false);
         createElement("td",{},newtr,getText("settings_valAutoLogin")[0]);
         createElement("td",{},newtr,getText("settings_valAutoLogin")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalUpdate","type":"checkbox","class":"link","checked":GM_getValue("valUpdate",true)},newtd);
         newinput.addEventListener("click",function(){GM_setValue2("valUpdate", this.checked,49);},false);
         createElement("td",{},newtr,getText("settings_valUpdate")[0]);
         createElement("td",{},newtr,getText("settings_valUpdate")[1]);
-        
+
         if (STAT_SERVER[COUNTRY]){
             newtr=createElement("tr",{},newtable);
             newtd=createElement("td",{"align":"center"},newtr);
@@ -6353,7 +6353,7 @@ function buildInfoPanelOptions(){
             createElement("td",{},newtr,getText("settings_valSendStatistics")[0]);
             createElement("td",{},newtr,getText("settings_valSendStatistics")[1]);
         }
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{},newtr);
         createElement("td",{},newtr,getText("settings_valServerTimeOffset")[0]);
@@ -6376,21 +6376,21 @@ function buildInfoPanelOptions(){
             this.parentNode.children[3].innerHTML=getFormattedDateStr(nowServerOff)+"&nbsp;"+getDaytimeStr(nowServerOff);
         },false);
         createElement("span",{"style":"margin-left:10px;"},newtd,getFormattedDateStr(nowServerOff)+"&nbsp;"+getDaytimeStr(nowServerOff));
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalGamecursor","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGamecursor",true)},newtd);
         newinput.addEventListener("click",function(){GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGamecursor", this.checked,51);},false);
         createElement("td",{},newtr,getText("settings_valGamecursor")[0]);
         createElement("td",{},newtr,getText("settings_valGamecursor")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalDrag","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valDrag",false)},newtd);
         newinput.addEventListener("click",function(){GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valDrag", this.checked,52);},false);
         createElement("td",{},newtr,getText("settings_valDrag")[0]);
         createElement("td",{},newtr,getText("settings_valDrag")[1]);
-        
+
         /*
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
@@ -6402,14 +6402,14 @@ function buildInfoPanelOptions(){
         createElement("td",{},newtr,getText("settings_valClickErrorbox")[0]);
         createElement("td",{},newtr,getText("settings_valClickErrorbox")[1]);
         */
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputvalHotkey","type":"checkbox","class":"link","checked":GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valHotkey",true)},newtd);
         newinput.addEventListener("click",function(){GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valHotkey", this.checked,54);},false);
         createElement("td",{},newtr,getText("settings_valHotkeys")[0]);
         createElement("td",{},newtr,getText("settings_valHotkeys")[1]);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"colspan":"2","align":"center"},newtr);
         newinput=createElement("button",{"type":"button","class":"link"},newtd,getText("settings_cacheReset")[0]);
@@ -6430,47 +6430,47 @@ function buildInfoPanelOptions(){
             });
         },false);
         createElement("td",{},newtr,getText("settings_cacheReset")[1]);
-        
+
         // *****
         newtr=createElement("tr",{},newtable);
         newtd=createElement("th",{"colspan":"3"},newtr,"Developing");
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputDevmode","type":"checkbox","class":"link","checked":DEVMODE},newtd);
         newinput.addEventListener("click",function(){GM_setValue2("devmode",DEVMODE=this.checked,55);},false);
         createElement("td",{},newtr,"Developer Mode");
         createElement("td",{},newtr);
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputDevmodeEvents","type":"checkbox","class":"link","checked":DEVMODE_EVENTS},newtd);
         newinput.addEventListener("click",function(){GM_setValue2("devmode_events",DEVMODE_EVENTS=this.checked,56);},false);
         createElement("td",{},newtr,"Developer Mode");
         createElement("td",{},newtr,"Show events (reload page)");
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputDevmodeFunctions","type":"checkbox","class":"link","checked":DEVMODE_FUNCTION},newtd);
         newinput.addEventListener("click",function(){GM_setValue2("devmode_function",DEVMODE_FUNCTION=this.checked);},false);
         createElement("td",{},newtr,"Developer Function");
         createElement("td",{},newtr,"Show function calls");
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputDevmodeLogWarning","type":"checkbox","class":"link","checked":DEVMODE_LOG_WARNING},newtd);
         newinput.addEventListener("click",function(){GM_setValue2("devmode_log_warning",DEVMODE_LOG_WARNING=this.checked);},false);
         createElement("td",{"rowspan":"2"},newtr,"Logging");
         createElement("td",{},newtr,"Show warnings in screen");
-        
+
         newtr=createElement("tr",{},newtable);
         newtd=createElement("td",{"align":"center"},newtr);
         newinput=createElement("input",{"id":"inputDevmodeLogWarning","type":"checkbox","class":"link","checked":DEVMODE_LOG_ERROR},newtd);
         newinput.addEventListener("click",function(){GM_setValue2("devmode_log_error",DEVMODE_LOG_ERROR=this.checked);},false);
         createElement("td",{},newtr,"Show errors in screen");
-        
+
         newtable=null;newtr=null;newtd=null;newdiv=null;newinput=null;
-        
+
     }catch(err){GM_logError("buildInfoPanelOptions","","",err);}
 }
 function buildInfoPanelAccounts(showPW){
@@ -6479,7 +6479,7 @@ function buildInfoPanelAccounts(showPW){
         newdiv=$("infoPanelNaviAccounts");
         newdiv.classList.remove("naviItem");
         newdiv.classList.add("naviItemActive");
-        var logindata=explode(GM_getValue("logindata","[]"),"buildInfoPanelAccounts/logindata",[]);
+        var logindata=explode(GM_getValue("logindata"),"buildInfoPanelAccounts/logindata",[]);
         container=$("infoPanelR");
         container.innerHTML="";
         newtable=createElement("table",{"align":"center"},container);
@@ -6848,9 +6848,9 @@ function buildInfoPanelLevel(){
                 // doubling with month-entry
                 day[3]=day[2]+(day[1]<10?"0":"")+day[1];
                 for(var w=levelLog.length-1;w>=0;w--){
-                    if(levelLog[w][0]==day[3]){ days=0;break; } 
+                    if(levelLog[w][0]==day[3]){ days=0;break; }
                 }
-            } 
+            }
             day=(new Date(day[2],day[1]-1,day[0]));
 
             newtr=createElement("tr",{"align":"right"},newtbody);
@@ -6884,7 +6884,7 @@ function buildInfoPanelLevel(){
         //if (newdiv.scrollTop ==0) newdiv.scrollTop=(newdiv.scrollHeight < newdiv.clientHeight)?0:newdiv.scrollHeight - newdiv.clientHeight;
 
         newtr=createElement("tr",{"class":"borderTop2","align":"right"},newtfoot);
-        createElement("td",{"style":"border-right:2px solid black;"},newtr,sign_average);
+        createElement("td",{"style":"border-right:2px solid black;"},newtr,"Ø");
         createElement("td",{},newtr);
         if(v>1){
             var daycount=1+Math.round((now-getTime(levelLog[1][0]))/86400);
@@ -6925,16 +6925,16 @@ function buildInfoPanelLevel(){
 function buildInfoPanelMessages(mode){
 try{
     var modeDefault={"type":1,"filterProduct":-1,"filterPlayer":""};
-    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelMessages"),"buildInfoPanelMessages/modeOld");
+    var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelMessages"),"buildInfoPanelMessages/modeOld",modeDefault);
     if(typeof modeOld!="object"){ modeOld=modeDefault; }
     if(typeof mode!="object"){ mode=modeOld; }
     for(var v in modeDefault){
         if(!modeDefault.hasOwnProperty(v)){ continue; }
-        if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+        if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
     }
-    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelMessages",implode(mode,"buildInfoPanelMessages/mode"));  
+    GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeInfoPanelMessages",implode(mode,"buildInfoPanelMessages/mode"));
     if(!logSales){
-        logSales=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logSales","[]"),"buildInfoPanelMessages/logSales",[]);
+        logSales=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logSales"),"buildInfoPanelMessages/logSales",[]);
         logSales.sort(sortObjFunctions["int"],true);
         logSalesId=new Object();
         for(var v=logSales.length-1;v>=0;v--){
@@ -7019,7 +7019,7 @@ try{
         createElement("th",{},newtr,getText("products"));
         createElement("th",{},newtr,getText("price"));
         createElement("th",{},newtr,getText("turnover"));
-        createElement("th",{},newtr,getText("profit")); 
+        createElement("th",{},newtr,getText("profit"));
         eventListenerScroll=function(){
             if((parseInt(this.scrollTop,10)+parseInt(this.style.height,10))>0.95*parseInt(this.scrollHeight,10)){
                 plot();
@@ -7041,7 +7041,7 @@ try{
                 var v=plotLogSales[w][0];
                 newtr=createElement("tr",{"class":"hoverBgCc9","v":v},newtable);
                 if(typeof logSales[v][3][0]=="object"){ newtr.style.fontStyle="italic"; }
-                newtr.addEventListener("mouseover",function(event){ 
+                newtr.addEventListener("mouseover",function(event){
                     toolTip.show(event,toolTipSales(this.getAttribute("v")));
                 },false);
                 newtd=createElement("td",{"class":"link"},newtr,logSales[v][2]);
@@ -7056,17 +7056,17 @@ try{
                     newdiv=createElement("div",{"class":"link","prod":logSales[v][3][0]},newtd);
                     newdiv.addEventListener("click",function(){
                         buildInfoPanelMessages({"filterProduct":this.getAttribute("prod")});
-                    },false);                   
+                    },false);
                     produktPic(0,logSales[v][3][0],newdiv);
                     createElement("span",{},newdiv,numberFormat(logSales[v][3][1])+" "+prodName[0][logSales[v][3][0]]);
                     createElement("div",{"style":"text-align:right;"},newtd1,moneyFormat(plotLogSales[w][1]));
-                    createElement("div",{"style":"text-align:right;"},newtd2,moneyFormat(logSales[v][4]));                  
-                    createElement("div",{"style":"text-align:right;"},newtd3,moneyFormat(0.9*logSales[v][4]));                  
+                    createElement("div",{"style":"text-align:right;"},newtd2,moneyFormat(logSales[v][4]));
+                    createElement("div",{"style":"text-align:right;"},newtd3,moneyFormat(0.9*logSales[v][4]));
                 }else if(logSales[v][3].length==1){
                     newdiv=createElement("div",{"class":"link","prod":logSales[v][3][0][0]},newtd);
                     newdiv.addEventListener("click",function(){
                         buildInfoPanelMessages({"filterProduct":this.getAttribute("prod")});
-                    },false);                   
+                    },false);
                     produktPic(0,logSales[v][3][0][0],newdiv);
                     createElement("span",{},newdiv,numberFormat(logSales[v][3][0][1])+" "+prodName[0][logSales[v][3][0][0]]);
                     createElement("div",{"style":"text-align:right;"},newtd1,moneyFormat(plotLogSales[w][1][0]));
@@ -7079,7 +7079,7 @@ try{
                             newdiv=createElement("div",{"class":"link","prod":logSales[v][3][i][0]},newtd);
                             newdiv.addEventListener("click",function(){
                                 buildInfoPanelMessages({"filterProduct":this.getAttribute("prod")});
-                            },false);                   
+                            },false);
                             produktPic(0,logSales[v][3][i][0],newdiv);
                             createElement("span",{},newdiv,numberFormat(logSales[v][3][i][1])+" "+prodName[0][logSales[v][3][i][0]]);
                             createElement("div",{"style":"text-align:right;"},newtd1,"* "+moneyFormat(plotLogSales[w][1][i]));
@@ -7095,11 +7095,11 @@ try{
                         createElement("div",{"style":"text-align:right;border-top:1px solid black;"},newtd2,moneyFormat(help[1]));
                         createElement("div",{"style":"text-align:right;border-top:1px solid black;"},newtd3,moneyFormat(help[1]));
                     }
-                }               
+                }
             }
             $("kaufDataCount").innerHTML=numberFormat(end)+"/"+numberFormat(plotLogSales.length);
             newtable=null;newtr=null;newtd=null;newdiv=null;
-        }catch(err){GM_logError("buildInfoPanelMessages","","","(plot) "+err);}      
+        }catch(err){GM_logError("buildInfoPanelMessages","","","(plot) "+err);}
         }
     break;}
     case 2:{
@@ -7129,14 +7129,14 @@ try{
                     }
                 }
             }
-        }   
+        }
         plotLogSales.sort(function(a,b){return a[3]-b[3];});
         createElement("th",{},newtr,getText("product"));
         createElement("th",{},newtr,getText("quantity"));
         createElement("th",{},newtr,getText("turnover"));
-        createElement("th",{},newtr,sign_average);
+        createElement("th",{},newtr,"Ø");
         createElement("th",{},newtr,getText("profit"));
-        createElement("th",{},newtr,sign_average);
+        createElement("th",{},newtr,"Ø");
         for(var v=plotLogSales.length-1;v>-1;v--){
             if(!plotLogSales[v]){ continue; }
             sumTurnover+=plotLogSales[v][2];
@@ -7144,7 +7144,7 @@ try{
             newtr=createElement("tr",{"class":"hoverBgCc9 link","prod":plotLogSales[v][0]},newtable);
             newtr.addEventListener("click",function(){
                 buildInfoPanelMessages({"type":1,"filterProduct":this.getAttribute("prod")});
-            },false);           
+            },false);
             newtd=createElement("td",{},newtr);
             produktPic(0,plotLogSales[v][0],newtd);
             createElement("span",{},newtd,prodName[0][plotLogSales[v][0]]);
@@ -7160,7 +7160,7 @@ try{
         for(var v=logSales.length-1;v>-1;v--){
             if(typeof logSales[v][3][0]!="object"){
                 soldProducts[logSales[v][3][0]]=true;
-                if((mode["filterProduct"]==-1)||(mode["filterProduct"]==logSales[v][3][0])){            
+                if((mode["filterProduct"]==-1)||(mode["filterProduct"]==logSales[v][3][0])){
                     if(!plotLogSales[logSales[v][2]]){ plotLogSales[logSales[v][2]]=[logSales[v][2],{},0,0]; }
                     if(!plotLogSales[logSales[v][2]][1][logSales[v][3][0]]){ plotLogSales[logSales[v][2]][1][logSales[v][3][0]]=0; }
                     plotLogSales[logSales[v][2]][1][logSales[v][3][0]]+=logSales[v][3][1];
@@ -7168,7 +7168,7 @@ try{
                     plotLogSales[logSales[v][2]][3]+=0.9*logSales[v][4];
                 }
             }else if(logSales[v][3].length==1){
-                soldProducts[logSales[v][3][0][0]]=true;                
+                soldProducts[logSales[v][3][0][0]]=true;
                 if((mode["filterProduct"]==-1)||(mode["filterProduct"]==logSales[v][3][0][0])){
                     if(!plotLogSales[logSales[v][2]]){ plotLogSales[logSales[v][2]]=[logSales[v][2],{},0,0]; }
                     if(!plotLogSales[logSales[v][2]][1][logSales[v][3][0][0]]){ plotLogSales[logSales[v][2]][1][logSales[v][3][0][0]]=0; }
@@ -7212,7 +7212,7 @@ try{
             newtr=createElement("tr",{"class":"hoverBgCc9 link","player":plotLogSales[v][0]},newtable);
             newtr.addEventListener("click",function(){
                 buildInfoPanelMessages({"type":1,"filterPlayer":this.getAttribute("player")});
-            },false);           
+            },false);
             createElement("td",{},newtr,plotLogSales[v][0]);
             newtd=createElement("td",{},newtr);
             for(var i in plotLogSales[v][1]){
@@ -7262,10 +7262,10 @@ try{
         cell.addEventListener("mouseover",function(event){ toolTip.show(event,getText("clearFilter")); },false);
         cell.addEventListener("click",function(){
             buildInfoPanelMessages({"filterPlayer":""});
-        },false);   
+        },false);
         cell=createElement("input",{"value":mode["filterPlayer"],"class":"link","style":"width:100px;","maxlength":"20"},newtd);
         cell.addEventListener("mouseover",function(event){ toolTip.show(event,getText("useWildcard")); },false);
-        cell.addEventListener("change",function(){ 
+        cell.addEventListener("change",function(){
             buildInfoPanelMessages({"filterPlayer":this.value});
         },false);
     }
@@ -7273,17 +7273,17 @@ try{
     createElement("td",{"align":"right"},newtr,moneyFormat(sumProfit));
     if(mode["type"]==1){ plot(); }
     container=null;newtable=null;newtr=null;newtd=null;cell=null;div=null;
-    }catch(err){GM_logError("buildInfoPanelMessages","","",err);}   
+    }catch(err){GM_logError("buildInfoPanelMessages","","",err);}
 }
 
 function goToZone(zoneNrF){
     try{
-        var currLocation=zones.getLocation(zoneNrF);        
+        var currLocation=zones.getLocation(zoneNrF);
         var div;
         switch(currLocation.location){
         case "farm":{
             if(gameLocation.check(currLocation.location,currLocation.farmNr)){
-                if(div=$("farm"+(1+currLocation.farmNr)+"_pos"+currLocation.zoneNr+"_click")){ 
+                if(div=$("farm"+(1+currLocation.farmNr)+"_pos"+currLocation.zoneNr+"_click")){
                     click(div);
                 }
             }else if(div=$("speedlink_farm"+(1+currLocation.farmNr))){
@@ -7293,12 +7293,12 @@ function goToZone(zoneNrF){
                     window.setTimeout(goToZone,100,zoneNrF);
                 }
                 }(zoneNrF),false);
-                click(div); 
-            }           
+                click(div);
+            }
         break;}
         case "city":{
             if(gameLocation.check(currLocation.location,currLocation.cityNr)){
-                if((currLocation.zoneNr!=undefined)&&(div=$("cityzone_"+currLocation.cityNr+"_"+currLocation.zoneNr))){ 
+                if((currLocation.zoneNr!=undefined)&&(div=$("cityzone_"+currLocation.cityNr+"_"+currLocation.zoneNr))){
                     click(div);
                 }
             }else if(div=$("speedlink_city"+currLocation.cityNr)){
@@ -7308,12 +7308,12 @@ function goToZone(zoneNrF){
                     window.setTimeout(goToZone,100,zoneNrF);
                 }
                 }(zoneNrF,currLocation),false);
-                click(div); 
+                click(div);
             }
         break;}
         case "forestry":{
             if(gameLocation.check(currLocation.location)){
-                if((currLocation.zoneNr!=undefined)&&(div=$("forestry_building_click"+currLocation.zoneNr))){ 
+                if((currLocation.zoneNr!=undefined)&&(div=$("forestry_building_click"+currLocation.zoneNr))){
                     click(div);
                 }
             }else if(div=$("speedlink_forestry")){
@@ -7323,12 +7323,12 @@ function goToZone(zoneNrF){
                     window.setTimeout(goToZone,100,zoneNrF);
                 }
                 }(zoneNrF),false);
-                click(div); 
+                click(div);
             }
         break;}
         case "foodworld":{
             if(gameLocation.check(currLocation.location)){
-                if((currLocation.zoneNr!=undefined)&&(div=$("food_pos"+currLocation.zoneNr))){ 
+                if((currLocation.zoneNr!=undefined)&&(div=$("food_pos"+currLocation.zoneNr))){
                     click(div);
                 }
             }else if(div=$("speedlink_foodworld")){
@@ -7338,12 +7338,12 @@ function goToZone(zoneNrF){
                     window.setTimeout(goToZone,100,zoneNrF);
                 }
                 }(zoneNrF),false);
-                click(div); 
+                click(div);
             }
         break;}
         case "farmersmarket":{
             if(gameLocation.check(currLocation.location)){
-                if((currLocation.zoneNr!=undefined)&&(div=$("farmersmarket_pos"+currLocation.zoneNr+"_click"))){ 
+                if((currLocation.zoneNr!=undefined)&&(div=$("farmersmarket_pos"+currLocation.zoneNr+"_click"))){
                     click(div);
                 }
             }else if(div=$("speedlink_farmersmarket")){
@@ -7353,8 +7353,8 @@ function goToZone(zoneNrF){
                     window.setTimeout(goToZone,100,zoneNrF);
                 }
                 }(zoneNrF),false);
-                click(div); 
-            }           
+                click(div);
+            }
         break;}
         }
         div=null;
@@ -7406,13 +7406,13 @@ function toolTipZoneProduction(zoneNrS){
                     createElement("td",{"colspan":2},tr,getText("readySinceX").replace(/%1%/,getFormattedDateStr(time)));
                 }else{
                     createElement("td",{"colspan":2},tr,getText("readySinceX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
-                }               
+                }
             } else if ((endDay=countDays(now,time))==0){
                 createElement("td",{"colspan":2},tr,getText("readyAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
             } else if (getText("readyAtX_day"+endDay,true)){
                 createElement("td",{"colspan":2},tr,getText("readyAtX_day"+endDay).replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
-            } else{ 
-                createElement("td",{"colspan":2},tr,getText("readyAtX").replace(/%1%/,new Date(1000*time).toLocaleString())); 
+            } else{
+                createElement("td",{"colspan":2},tr,getText("readyAtX").replace(/%1%/,new Date(1000*time).toLocaleString()));
             }
         }
         // part: production
@@ -7438,7 +7438,7 @@ function toolTipZoneProduction(zoneNrS){
         }
         table=null;tr=null;td=null;time=null;endDay=null;
         return content.innerHTML;
-    }catch(err){GM_logError("toolTipZoneProduction","","",err);}    
+    }catch(err){GM_logError("toolTipZoneProduction","","",err);}
 }
 function toolTipSales(nr){
     try{
@@ -7457,7 +7457,7 @@ function toolTipSales(nr){
                 tr=createElement("tr",{},table);
                 createElement("td",{"colspan":3},tr,logSales[nr][2]);
                 tr=createElement("tr",{"class":"borderBottom1Black"},table);
-                createElement("td",{"colspan":3},tr,moneyFormat(logSales[nr][4]));              
+                createElement("td",{"colspan":3},tr,moneyFormat(logSales[nr][4]));
                 for(var v=0;v<logSales[nr][3].length;v++){
                     tr=createElement("tr",{},table);
                     createElement("td",{},table,numberFormat(logSales[nr][3][v][1]));
@@ -7476,7 +7476,7 @@ function toolTipSales(nr){
                 tr=createElement("tr",{},table);
                 createElement("td",{"colspan":3},tr,logSales[nr][2]);
                 tr=createElement("tr",{"class":"borderBottom1Black"},table);
-                createElement("td",{"colspan":3},tr,moneyFormat(logSales[nr][4]));              
+                createElement("td",{"colspan":3},tr,moneyFormat(logSales[nr][4]));
                 tr=createElement("tr",{},table);
                 createElement("td",{},table,numberFormat(logSales[nr][3][1]));
                 createElement("td",{},table,prodName[0][logSales[nr][3][0]]);
@@ -7486,7 +7486,7 @@ function toolTipSales(nr){
 
         table=null;tr=null;td=null;
         return content.innerHTML;
-    }catch(err){GM_logError("toolTipSales","","",err);} 
+    }catch(err){GM_logError("toolTipSales","","",err);}
 }
 
 function showMarket(pid){
@@ -7502,12 +7502,12 @@ function showMarket(pid){
                 document.removeEventListener("gameOpenMarket",arguments.callee,false);
                 showMarket(pid);
             };}(pid),false);
-            unsafeWindow.close_page(); 
-            unsafeWindow.hideDiv("shop");               
-            unsafeWindow.hideDiv("wbwcontainer");               
-            unsafeWindow.hideDiv("adcolumn");               
-            $("transp3").style.visibility = "visible"; 
-            unsafeWindow.showDiv("transp3"); 
+            unsafeWindow.close_page();
+            unsafeWindow.hideDiv("shop");
+            unsafeWindow.hideDiv("wbwcontainer");
+            unsafeWindow.hideDiv("adcolumn");
+            $("transp3").style.visibility = "visible";
+            unsafeWindow.showDiv("transp3");
             unsafeWindow.marketAction("marketinit");
         }else{
             closeInfoPanel();
@@ -7515,7 +7515,7 @@ function showMarket(pid){
             unsafeWindow.market_filter_pid=parseInt(pid,10);
             unsafeWindow.market_filter_own=0;
             unsafeWindow.market_guild_filter=0;
-            unsafeWindow.showOffers();          
+            unsafeWindow.showOffers();
         }
     }catch(err){ GM_logError("showMarket","pid="+pid,"",err); }
 }
@@ -7532,16 +7532,16 @@ function showMarketStall(){
                 document.removeEventListener("gameOpenMarket",arguments.callee,false);
                 showMarketStall();
             },false);
-            unsafeWindow.close_page(); 
-            unsafeWindow.showDiv("transp3"); 
-            unsafeWindow.$("transp3").style.visibility = "visible"; 
+            unsafeWindow.close_page();
+            unsafeWindow.showDiv("transp3");
+            unsafeWindow.$("transp3").style.visibility = "visible";
             unsafeWindow.marketAction("marketinit");
         }else{
             unsafeWindow.setMarketNavi(3);
             unsafeWindow.market_guild_filter = 0;
             unsafeWindow.market_filter_pid = -1;
             unsafeWindow.market_filter_own = 1;
-            unsafeWindow.showOffers();              
+            unsafeWindow.showOffers();
         }
     }catch(err){ GM_logError("showMarketStall","","",err); }
 }
@@ -7556,26 +7556,26 @@ function quicklinks(){
                 newdiv.addEventListener("mouseout",function(event){
                     $("quicklinks").style.display="none";
                 },false);
-        
-                var highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts","[false,{}]"),"quicklinks/highlightProducts",[false,{}]);
-                var divquick=createElement("div",{"id":"quicklinks","style":"display:none;position:absolute;right:-160px;top:60px;width:750px;background-color:white;z-index:10;"},newdiv);
+
+                var highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts"),"quicklinks/highlightProducts",[false,{}]);
+                var divquick=createElement("div",{"id":"quicklinks","style":"display:none;position:absolute;right:-82px;top:65px;width:633px;background-color:white;z-index:10;"},newdiv);
                 // if(self!=top){
                 //  divquick.addEventListener("mouseover",function(){this.style.left="290px";},false);
                 //  divquick.addEventListener("mouseout",function(){this.style.left="620px";},false);
                 // }
-    
+                var newdiv1;
                 var newtable=createElement("table",{"border":"3px solid black;"},divquick);
                 var newtr=createElement("tr",{},newtable);
                 var newtd=createElement("td",{},newtr);
-    
+
                 // newdiv=createElement("div",{"style":"float:right;height:30px;padding:2px;margin-right:20px;"},newtd);
                 // createElement("div",{"class":"v88"},newdiv);
                 // var newa=createElement("a",{"class":"link","href":"markt.php","style":"position:relative;top:-30px;"},newdiv);
                 // newdiv=createElement("div",{"style":"width:30px;height:30px;background-color:green;opacity:0;"},newa);
                 // newdiv.addEventListener("mouseover",function(){this.style.opacity="0.3";$("quicklinksName").innerHTML=getText("currentOffers");},false);
                 // newdiv.addEventListener("mouseout",function(){this.style.opacity="0";$("quicklinksName").innerHTML="";},false);
-                createElement("div",{"id":"quicklinksName","style":"color:black;font-weight:bold;float:right;line-height:30px;padding:2px;margin-right:170px;"},newtd);
-    
+                createElement("div",{"id":"quicklinksName","style":"color:black;font-weight:bold;float:right;line-height:24px;margin-right:170px;"},newtd);
+
                 var prodTypOld="c";
                 for(var w=0;w<prodNameSort[0].length;w++){
                     var v=prodNameSort[0][w];
@@ -7585,23 +7585,29 @@ function quicklinks(){
                             newtd=createElement("td",{},newtr);
                             prodTypOld=prodTyp[0][v];
                         }
-                        newdiv=createElement("div",{"style":"float:left;height:30px;"+(highlightProducts[1][v]?"border:2px solid blue;border-radius:10px;":"padding:2px;")},newtd);
-                        createElement("div",{"class":"v"+v},newdiv);
-                        newdiv=createElement("div",{"v":v,"style":"position:relative;top:-30px;width:30px;height:30px;background-color:blue;opacity:0;"},newdiv);
-                        newdiv.addEventListener("click",function(event){
+                        newdiv=createElement("div",{"style":"float:left;width:24px;height:24px;padding:0px 1px 1px 0px;"},newtd);
+                        newdiv1=createElement("div",{"style":"position:relative;top:-3px;left:-3px;width:24px;height:24px;"},newdiv);
+                        createElement("div",{"class":"trasnformScale80 v"+v},newdiv1);
+                        if(highlightProducts[1][v]){
+                            createElement("div",{"style":"position:relative;top:-24px;width:20px;height:20px;border:2px solid blue;border-radius:8px;"},newdiv);
+                            newdiv1=createElement("div",{"prodId":v,"style":"position:relative;top:-48px;width:24px;height:24px;background-color:blue;border-radius:8px;opacity:0;"},newdiv);
+                        }else{
+                            newdiv1=createElement("div",{"prodId":v,"style":"position:relative;top:-24px;width:24px;height:24px;background-color:blue;border-radius:8px;opacity:0;"},newdiv);
+                        }                            
+                        newdiv1.addEventListener("click",function(event){
                             event.stopPropagation ? event.stopPropagation() : (event.cancelBubble=true); // stop bubbling
-                            showMarket(this.getAttribute("v"));
+                            showMarket(this.getAttribute("prodId"));
                             $("quicklinks").style.display="none";
                         },false);
-                        newdiv.addEventListener("mouseover",function(){this.style.opacity="0.3";$("quicklinksName").innerHTML=prodName[0][this.getAttribute("v")];},false);
-                        newdiv.addEventListener("mouseout",function(){this.style.opacity="0";$("quicklinksName").innerHTML="";},false);
+                        newdiv1.addEventListener("mouseover",function(){this.style.opacity="0.3";$("quicklinksName").innerHTML=prodName[0][this.getAttribute("prodId")];},false);
+                        newdiv1.addEventListener("mouseout",function(){this.style.opacity="0";$("quicklinksName").innerHTML="&nbsp;";},false);
                     }
                 }
-                divquick=null;newtable=null;newtr=null;newtd=null;newa=null;
+                divquick=null;newtable=null;newtr=null;newtd=null;newa=null;newdiv1=null;
             }
             newdiv=null;
         }
-    }catch(err){ GM_logError("quicklinks","","",err); }             
+    }catch(err){ GM_logError("quicklinks","","",err); }
 }
 var timer=new function(){
     var running=[];
@@ -7692,15 +7698,15 @@ function createZoneTimer(name,zoneNrS,type,style,append){ // type="zonetimer" ||
                         createElement("td",{},newTr,getText("waterNeededAtX").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
                     } else if ((endDay==1)&&(getText("waterNeededAtX_day1"))){
                         createElement("td",{},newTr,getText("waterNeededAtX_day1").replace(/%1%/,getDaytimeStr(time)+"&nbsp;"+getText("shortOClock")));
-                    } else{ 
-                        createElement("td",{},newTr,getText("waterNeededAtX").replace(/%1%/,new Date(1000*time).toLocaleString())); 
+                    } else{
+                        createElement("td",{},newTr,getText("waterNeededAtX").replace(/%1%/,new Date(1000*time).toLocaleString()));
                     }
                     toolTip.show(event,newDiv1.innerHTML);
                     newDiv1=null;newTable=null;newTr=null;newTd=null;
                     time=null;endDay=null;
                 }
                 zoneNrS=null;type=null;
-            }catch(err){GM_logError("createTimer.mouseover","","zoneNrS="+zoneNrS,err);}            
+            }catch(err){GM_logError("createTimer.mouseover","","zoneNrS="+zoneNrS,err);}
             },false);
             div.addEventListener("mouseout",hideBlase,false);
             div=null;
@@ -7750,7 +7756,7 @@ function removeZoneTimer(name){
             div=null;
         }
     }catch(err){GM_logError("removeZoneTimer","name="+name,"",err);}
-}   
+}
 function showBlase(zoneNrF){
     try{
         $("sprcontent").style.display="none";
@@ -7824,7 +7830,7 @@ try{
         var drawProductLines=false;
         if(valMinRackGrowing){
             var totalErnte=zones.getTotalCrop()
-        }        
+        }
         // calculate missing products
         err_trace="type 0, missing products";
         for(var v=0;v<prodNameSort[0].length;v++){
@@ -7839,7 +7845,7 @@ try{
         // sorting
         err_trace="type 0, sorting";
         switch(modeBuyNotepad){
-        case 0: drawProductLines=true; 
+        case 0: drawProductLines=true;
         prodMissing.sort(sortObjFunctions["productId"]);
         break;
         case 1: drawProductLines=true;
@@ -7886,20 +7892,20 @@ try{
             var str='<table>';
             str += '<tr><th colspan="3" class="lightBg">'+getText("goToMarketOfX").replace(/%1%/,prodName[0][prod])+'</th></tr>';
             str += '<tr><td>'+getText("minRack")+'</td><td></td><td style="text-align:right;">'+numberFormat(prodMinRackInit[0][prod])+'</td></tr>';
-            if(megafieldJob&&megafieldJob.products&&megafieldJob.products[prod]&&(megafieldJob.products[prod].have<megafieldJob.products[prod].need)){ 
-                str += '<tr><td>'+getText("megafield")+'</td><td>+</td><td style="text-align:right;">'+numberFormat((megafieldJob.products[prod].need-megafieldJob.products[prod].have)*megafieldJob.products[prod].amount)+'</td></tr>'; 
+            if(megafieldJob&&megafieldJob.products&&megafieldJob.products[prod]&&(megafieldJob.products[prod].have<megafieldJob.products[prod].need)){
+                str += '<tr><td>'+getText("megafield")+'</td><td>+</td><td style="text-align:right;">'+numberFormat((megafieldJob.products[prod].need-megafieldJob.products[prod].have)*megafieldJob.products[prod].amount)+'</td></tr>';
             }
             for(var k in totalQuest){
                 if(!totalQuest.hasOwnProperty(k)){ continue; }
                 if(totalQuest[k][0][prod]){
-                    str += '<tr><td>'+getText("quest_"+k)+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalQuest[k][0][prod])+'</td></tr>'; 
+                    str += '<tr><td>'+getText("quest_"+k)+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalQuest[k][0][prod])+'</td></tr>';
                 }
             }
-            if(valMinRackRecursive&&totalRecursive[0]&&totalRecursive[0][prod]){ 
-                str += '<tr><td>'+getText("recursive")+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalRecursive[0][prod])+'</td></tr>'; 
+            if(valMinRackRecursive&&totalRecursive[0]&&totalRecursive[0][prod]){
+                str += '<tr><td>'+getText("recursive")+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalRecursive[0][prod])+'</td></tr>';
             }
-            if(valMinRackFarmis&&totalFarmis[0]&&totalFarmis[0][prod]){ 
-                str += '<tr><td>'+unsafeWindow.customerarecalled.replace(/%FARMI%/,"")+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalFarmis[0][prod])+'</td></tr>'; 
+            if(valMinRackFarmis&&totalFarmis[0]&&totalFarmis[0][prod]){
+                str += '<tr><td>'+unsafeWindow.customerarecalled.replace(/%FARMI%/,"")+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalFarmis[0][prod])+'</td></tr>';
             }
             str += '<tr><td>'+getText("inventory")+'</td><td>-</td><td style="text-align:right;">'+numberFormat(prodStock[0][prod])+'</td></tr>';
             if(valMinRackGrowing){
@@ -7953,7 +7959,7 @@ try{
             createElement("td",{"style":"padding-left:3px;"},newtr,prodName[0][prod]);
         }
         help=null;
-        
+
         if(newtable.childElementCount==1){
             newtr=createElement("tr",{},newtable);
             createElement("td",{"colspan":"3","style":"text-align:center;"},newtr,"---");
@@ -8018,8 +8024,8 @@ try{
             var str='<table>';
             str += '<tr><th colspan="3" class="lightBg">'+prodName[1][prod]+'</th></tr>';
             str += '<tr><td>'+getText("minRack")+'</td><td></td><td style="text-align:right;">'+numberFormat(prodMinRackInit[1][prod])+'</td></tr>';
-            if(totalQuest["main"]&&totalQuest["main"][1][prod]){ 
-                str += '<tr><td>'+getText("quest_farm")+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalQuest["main"][1][prod])+'</td></tr>'; 
+            if(totalQuest["main"]&&totalQuest["main"][1][prod]){
+                str += '<tr><td>'+getText("quest_farm")+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalQuest["main"][1][prod])+'</td></tr>';
             }
             if(totalQuest["forestry"]&&totalQuest["forestry"][1][prod]){
                 str += '<tr><td>'+getText("quest_forestry")+'</td><td>+</td><td style="text-align:right;">'+numberFormat(totalQuest["forestry"][1][prod])+'</td></tr>';
@@ -8079,7 +8085,7 @@ try{
         newtable=null;newtr=null;newtd=null;
     }
     newdiv=null;
-}catch(err){ GM_logError("doBuyNotepad","","err_trace='"+err_trace+"' prod="+prod,err); }       
+}catch(err){ GM_logError("doBuyNotepad","","err_trace='"+err_trace+"' prod="+prod,err); }
 }
 function doMarketoffersNotepad(){
     try{
@@ -8093,7 +8099,7 @@ function doMarketoffersNotepad(){
             newtr.addEventListener("mouseover",function(event){
                 var str='<table>';
                 str += '<tr><th colspan="2" class="lightBg">'+getText("goToMarketstall")+'</th></tr>';
-                str += '<tr><td>'+sign_sum+'</td><td style="text-align:right;">'+moneyFormatInt(parseInt(this.getAttribute("value"),10))+'</td></tr>';
+                str += '<tr><td>'+"∑"+'</td><td style="text-align:right;">'+moneyFormatInt(parseInt(this.getAttribute("value"),10))+'</td></tr>';
                 str += '</table>';
                 toolTip.show(event,str);
             },false);
@@ -8111,7 +8117,7 @@ function doMarketoffersNotepad(){
                 newtr=createElement("tr",{"class":"link hoverBgCc9"+(((oldType!=null)&&(oldType!=newType))?" borderTop1dashedBlack":""),"prod":prod,"value":(amount*price)},newtable);
                 oldType=newType;
                 newtr.addEventListener("mouseover",function(event){
-                    showGoToMarketToolTip(event,this.getAttribute("prod"),null,'<tr><td>'+sign_sum+'</td><td style="text-align:right;">'+moneyFormatInt(parseInt(this.getAttribute("value"),10))+'</td></tr>');
+                    showGoToMarketToolTip(event,this.getAttribute("prod"),null,'<tr><td>'+"∑"+'</td><td style="text-align:right;">'+moneyFormatInt(parseInt(this.getAttribute("value"),10))+'</td></tr>');
                 },false);
                 newtr.addEventListener("click",function(){showMarket(this.getAttribute("prod"));},false);
                 newtd=createElement("td",{},newtr);
@@ -8239,7 +8245,7 @@ function doFarmis(){
                         cell=null;
                     },false);
                     // farmi is new=not in the FarmiLog
-                    var farmi_id=parseInt(unsafeWindow.farmisinfo[0][farmiNr]["id"],10);                    
+                    var farmi_id=parseInt(unsafeWindow.farmisinfo[0][farmiNr]["id"],10);
                     var farmiLog_id=farmiLog.length;
                     for(var v=0;v<farmiLog.length;v++){
                         if (farmiLog[v][0]==farmi_id){
@@ -8286,7 +8292,7 @@ function doFarmis(){
                     }else{
                         str += ' '+ css_styles["farmi_amount_above"][1];
                     }
-                    
+
                     cell=$("farmiMiniInfo"+farmiNr);
                     if(cell.getAttribute("style")!=str){ cell.setAttribute("style",str); }
                 }
@@ -8342,7 +8348,7 @@ try{
                     break;
                 }
             }
-    
+
             // calc weighted mean
             var weights=[3,3,3,3,2,2,2,2,1,1,1,1];
             var count1=0;
@@ -8370,7 +8376,7 @@ try{
         break;}
         }
     }
-    
+
     var err_trace="Session";
     GM_logInfo("do_main","","","Berater started",1);
     // Check if username is known
@@ -8405,7 +8411,7 @@ try{
             unsafeWindow.buildInfoPanel("changelog");
         });
     }
-            
+
     // Container Divs
     err_trace="Container";
     var nodes=new Object();
@@ -8436,7 +8442,7 @@ try{
         newdiv.style.top=0;
         newdiv.style.left=0;
         newdiv.style.margin=0;
-    }   
+    }
     content_table.style.position = "relative";
     createElement("div",{"id":"statisticArea","align":"center","style":"margin-top:"+upjersToolbarHeight+"px;display:none;"},ALL);
     if (window.innerWidth<1180){ content_table.style.paddingRight="176px"; }
@@ -8469,7 +8475,7 @@ try{
     createElement("div",{"id":"timeHolder"},newdiv);
     nodes["containerPowerupSymbols"]=new Object();
     nodes["containerPowerupSymbols"]["node"]=createElement("div",{"id":"containerPowerupSymbols"},newdiv);
-    
+
     err_trace="Container - headercontainer";
     newdiv=createElement("div",{"style":"position:absolute;top:2px;left:210px;color:#f7bb87;z-index:10;"},$("headercontainer"));
     nodes["serverTime"]=new Object();
@@ -8477,7 +8483,7 @@ try{
     nodes["serverTime"]["node"].addEventListener("mouseover",function(event){ toolTip.show(event,getText("serverTime")); },false);
     function do_relogin(){
         window.setTimeout(function(){
-            var help=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"clickListener@divSessionEnd/pagedataLogin",{});
+            var help=explode(GM_getValue(COUNTRY+"_pagedataLogin"),"clickListener@divSessionEnd/pagedataLogin",{});
             if(!(help["doserver"]&&(typeof help["doserver"]=="object"))){
                 help["doserver"]=new Object();
             }
@@ -8504,7 +8510,7 @@ try{
     new_PRODUCT2BUILDING[0][154]=1;
     GM_log(implode(new_PRODUCT2BUILDING));
     */
-    show=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_show","{}"),"do_main/show",{}); // buyNotepad,marketoffersNotepad
+    show=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_show"),"do_main/show",{}); // buyNotepad,marketoffersNotepad
     if((typeof show!="object")||(show instanceof Array)){ show = new Object(); }
     questData=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData"),"questData",INIT_questData);
     if((typeof questData!="object")||(questData instanceof Array)){ questData = INIT_questData.clone(); }
@@ -8522,7 +8528,7 @@ try{
     }
     for(var t in INIT_questData){
         if(!INIT_questData.hasOwnProperty(t)){continue;}
-        if(questData[t]){ 
+        if(questData[t]){
             for(var c in INIT_questData[t]){
                 if(!INIT_questData[t].hasOwnProperty(c)){continue;}
                 if(!questData[t][c]){ questData[t]=INIT_questData[t]; }
@@ -8562,15 +8568,15 @@ try{
     valMinRackMan=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRackMan",false);
     valMinRack=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRack"),"do_main/valMinRack");
     bChanged=false;
-    if((typeof valMinRack=="object")&&!(valMinRack instanceof Array)){ 
+    if((typeof valMinRack=="object")&&!(valMinRack instanceof Array)){
         for(var v in valMinRack){
             if(!valMinRack.hasOwnProperty(v)){continue;}
-            if(INIT_valMinRack[v]==undefined){ delete valMinRack[v];bChanged=true; }
+            if(INIT_valMinRack[v]===undefined){ delete valMinRack[v];bChanged=true; }
             else if(typeof valMinRack[v]!="number"){ valMinRack[v]=INIT_valMinRack[v];bChanged=true; }
         }
         for(var v in INIT_valMinRack){
             if(!INIT_valMinRack.hasOwnProperty(v)){continue;}
-            if(valMinRack[v]==undefined){ valMinRack[v]=INIT_valMinRack[v];bChanged=true; }
+            if(valMinRack[v]===undefined){ valMinRack[v]=INIT_valMinRack[v];bChanged=true; }
         }
     }else{
         valMinRack=INIT_valMinRack.clone();bChanged=true;
@@ -8581,7 +8587,7 @@ try{
     valMinRackForestryFarmis=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRackForestryFarmis",true);
     valMinRackGrowing=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRackGrowing",true);
     valMinRackRecursive=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMinRackRecursive",false);
-    valFarmiLimits=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiLimits","[90,100]"),"do_main/valFarmiLimits",[90,100]);
+    valFarmiLimits=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiLimits"),"do_main/valFarmiLimits",[90,100]);
     unsafeData.valFarmiLimits=valFarmiLimits.clone();
     valFarmiMiniInfo=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFarmiMiniInfo",true);
 
@@ -8600,7 +8606,7 @@ try{
         newdiv.addEventListener("click",function(){unsafeWindow.buildInfoPanel("farmies");},false);
     }
     // farmiLog[farmiId]=[date,money,{prod1:amount,...}]
-    farmiLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog","[]"),"do_main/farmiLog",[]);
+    farmiLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog"),"do_main/farmiLog",[]);
     if(!(farmiLog instanceof Array)){ farmiLog=[]; }
     // kick farmis older than 1 month, set this value optional?
     var dayLastMonth=new Date();
@@ -8812,10 +8818,10 @@ try{
                 newtd.innerHTML=Math.round(100*thisFarmiData["money"]/sum)+"%";
             }
             cartContent=null;newtable=null;newtr=null;newtd=null;span=null;
-        }catch(err){GM_logError("showCart.buildTable","","",err);}  
+        }catch(err){GM_logError("showCart.buildTable","","",err);}
         }
         buildTable();
-    }catch(err){GM_logError("showFoodworldFarmiCart","","",err);}   
+    }catch(err){GM_logError("showFoodworldFarmiCart","","",err);}
     });
     unsafeOverwriteFunction("createFoodworldFarmis",function(){
         try{
@@ -8828,7 +8834,7 @@ try{
                 input=createElement("input",{"type":"checkbox","checked":valFoodworldFarmiPlacing,"class":"link"},div);
                 input.addEventListener("click",function(){
                     valFoodworldFarmiPlacing=this.checked;
-                    GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFoodworldFarmiPlacing",valFoodworldFarmiPlacing); 
+                    GM_setValue2(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFoodworldFarmiPlacing",valFoodworldFarmiPlacing);
                 },false);
                 div.addEventListener("mouseover",function(event){
                     toolTip.show(event,getText("settings_valFoodworldFarmiPlacing")[1]);
@@ -8855,13 +8861,13 @@ try{
                             }
                         }
                     }
-                }               
+                }
             }
         }catch(err){GM_logError("dragFoodworldFarmiTouch","","",err);}
     });
     if(newdiv=$("food_cart")){
         createElement("div",{"id":"food_cart_cost","style":"position:absolute;bottom:130px;left:135px;font-size:12px;color:#463824;"},newdiv);
-        createElement("div",{"id":"food_cart_perc","style":"position:absolute;bottom:105px;left:375px;width:70px;padding:2px;text-align:right;font-size:20px;font-weight:bold;"},newdiv);       
+        createElement("div",{"id":"food_cart_perc","style":"position:absolute;bottom:105px;left:375px;width:70px;padding:2px;text-align:right;font-size:20px;font-weight:bold;"},newdiv);
     }
     // Foodworld-Zones
     function doFoodworld(){
@@ -8880,7 +8886,7 @@ try{
                 res=unsafeWindow.foodworldbuildings[building];
                 zoneNrF="foodworld-"+building;
                 currBlock=(unsafeWindow.foodworldbuildings[building]["cost"]?"b":""); // foodworld building locked due to missing payment
-                currBlock+=(unsafeWindow.foodworldbuildings[building]["block"]?"l":""); // foodworld building locked due to level requirement               
+                currBlock+=(unsafeWindow.foodworldbuildings[building]["block"]?"l":""); // foodworld building locked due to level requirement
                 zones.setBlock(zoneNrF,currBlock);
                 if(iSlotCount=zones.isMultiSlot(zoneNrF)){
                     if(!currBlock){
@@ -8895,7 +8901,7 @@ try{
                 if(!currBlock){
                     zones.setBonus(zoneNrF,0); // TODO // unsafeWindow.forestry_user_buildings[building]["boni"]?unsafeWindow.forestry_user_buildings[building]["boni"]:0;
                     res=(unsafeWindow.foodworldbuildings[building]&&unsafeWindow.foodworldbuildings[building]["slots"])?unsafeWindow.foodworldbuildings[building]["slots"]:{};
-                    
+
                     tempZoneProductionData=[[{},{}],0,0,true];
                     for(var slot=1;slot<=(iSlotCount==0?1:iSlotCount);slot++){
                         GM_logInfo("doFoodworld","","zoneNrF="+zoneNrF+" slot="+slot+" res["+slot+"]="+implode(res[slot],"res"),"Loop",0);
@@ -8912,7 +8918,7 @@ try{
                                 if((iProd!=null)&&(res[slot]["ready"])){ // production ready
                                     iTime=nowServer;
                                 }else if((iProd!=null)&&(res[slot]["remain"])){ // production busy
-                                    iTime=nowServer+res[slot]["remain"]; 
+                                    iTime=nowServer+res[slot]["remain"];
                                 }else{
                                     iTime=NEVER;
                                     tempZoneProductionData[1]++;
@@ -8923,7 +8929,7 @@ try{
                                 tempZoneProductionDataSlot[2]++;
                                 if(iProd!=null){
                                     iAmount=prodYield[0][iProd];
-                                    iPoints=iAmount*prodPoints[0][iProd];                               
+                                    iPoints=iAmount*prodPoints[0][iProd];
                                     if(!tempZoneProductionData[0][0][iProd]){ tempZoneProductionData[0][0][iProd]=[]; }
                                     tempZoneProductionData[0][0][iProd].push([iAmount,iPoints,iTime,NEVER]);
                                     if(!tempZoneProductionDataSlot[0][0][iProd]){ tempZoneProductionDataSlot[0][0][iProd]=[]; }
@@ -8943,7 +8949,7 @@ try{
                     //      top.unsafeData.autoAction="berater: forestry building crop";
                     //      document.addEventListener("gameOpenGlobalCommitBox",function(){
                     //          document.removeEventListener("gameOpenGlobalCommitBox",arguments.callee,false);
-                    //          window.setTimeout(function(){ 
+                    //          window.setTimeout(function(){
                     //              click($("globalcommitboxfooter").firstElementChild);
                     //              top.unsafeData.autoAction=null;
                     //          },500);
@@ -8985,7 +8991,7 @@ try{
                 case "init": raiseEvent("gameFoodworldOpened"); break;
                 case "open": raiseEvent("gameFoodworldOpened" + id); break;
                 case "production": raiseEvent("gameFoodworldStarted"); break;
-                }           
+                }
             }
             result=null;
         }catch(err){GM_logError("foodworldActionResponse","","",err);}
@@ -8998,7 +9004,7 @@ try{
             raiseEvent("gameFoodworldSlotOpened")
         }catch(err){GM_logError("openFoodworldBuildingSelect","","",err);}
     });
-        
+
     // Addons
     err_trace="Addons";
     // TODO remove
@@ -9021,7 +9027,7 @@ try{
             valWaterNeeded=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valWaterNeeded"),"valWaterNeeded",{"farm":true,"forestry":true});
         }catch(err){}
         },0);
-    },false);   
+    },false);
     unsafeWindow.prodMinRackAddon.add = function(type,pid,reason,amount){
     try{
         type=parseInt(type,10);
@@ -9111,13 +9117,13 @@ try{
     calcTotalZones();
     calcTotalAnimals();
 
-    zoneAddToGlobalTime=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd","{}"),"do_main/zoneAddToGlobalTime",{}); //TODO name change
+    zoneAddToGlobalTime=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobalTimeAdd"),"do_main/zoneAddToGlobalTime",{}); //TODO name change
 
-    totalFarmis=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis","[{},{}]"),"do_main/totalFarmis",[{},{}]); // Value of products the farmis want
+    totalFarmis=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis"),"do_main/totalFarmis",[{},{}]); // Value of products the farmis want
     totalPowerups=new Object(); // Value of powerups creating products
     totalQuest=new Object(); // Value of products the quests need: totalQuest[questType][prodType][prodId]=amount
     totalRecursive=new Array(new Object(), new Object());
-    
+
     /*
     function findRecursiveNeededProducts(type,iProd,amount,addto){ //addto=new Array(new Object(), new Object());
         if(prodRequire[type]&&prodRequire[type][iProd]){
@@ -9168,7 +9174,7 @@ try{
                             },false);
                             createElement("img",{"src":GFX+"powerup2.png","border":"0"},newdiv);
                             createElement("div",{"style":"position:absolute;top:3px;left:6px;","class":"kp"+item[5][1][0]},newdiv);
-                            createElement("div",{"style":"position:absolute;top:3px;left:22px;font-weight:bold;color:black;"},newdiv,"+"+item[5][1][1]);
+                            createElement("div",{"style":"position:absolute;top:3px;left:22px;font-weight:bold;color:black;"},newdiv,+item[5][1][1]);
                             createElement("div",{"style":"position:absolute;top:64px;right:0;font-weight:bold;","class":"blackbox"},newdiv,getTimeStr(item["remain"]));
                         }
                         newdiv=null;
@@ -9185,7 +9191,7 @@ try{
                             },false);
                             createElement("img",{"src":GFX+"powerup3.png","border":"0"},newdiv);
                             createElement("div",{"style":"position:absolute;top:3px;left:6px;","class":"kp"+item[5][2][0]},newdiv);
-                            createElement("div",{"style":"position:absolute;top:3px;left:22px;font-weight:bold;color:black;"},newdiv,"+"+item[5][2][1]);
+                            createElement("div",{"style":"position:absolute;top:3px;left:22px;font-weight:bold;color:black;"},newdiv,+item[5][2][1]);
                             createElement("div",{"style":"position:absolute;top:64px;right:0;font-weight:bold;","class":"blackbox"},newdiv,getTimeStr(item["remain"]));
                         }
                         newdiv=null;
@@ -9205,7 +9211,7 @@ try{
             unsafeWindow._handlePowerups(page);
         }catch(err){ GM_logError("_handlePowerups","","",err); }
         try{
-            // GM_log("unsafeWindow.poweruprack:\n"+implode(unsafeWindow.poweruprack));         
+            // GM_log("unsafeWindow.poweruprack:\n"+implode(unsafeWindow.poweruprack));
             calcTotalPowerups();
             updateProductDataPowerup();
             window.setTimeout(saveProductData,0);
@@ -9260,16 +9266,16 @@ try{
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valLimitEmptyFields",implode(valLimitEmptyFields,"valLimitEmptyFields"));
     }
     if(typeof GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit",110)=="number"){ GM_deleteValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit"); }
-    valKauflimit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit","[[85,'990000'],110]"),"do_main/valKauflimit",[[85,'990000'],110]);
+    valKauflimit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit"),"do_main/valKauflimit",[[85,"990000"],110]);
     valMessagesSystemMarkRead=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMessagesSystemMarkRead",true);
     valFoodworldFarmiPlacing=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valFoodworldFarmiPlacing",true);
     valStatistik=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valStatistik",true);
     // valClickErrorbox=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valClickErrorbox",false);
     valGlobaltimeShowCroppedZone=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone"),"valGlobaltimeShowCroppedZone",null);
-    if(!valGlobaltimeShowCroppedZone||(typeof valGlobaltimeShowCroppedZone!="object")||(valGlobaltimeShowCroppedZone instanceof Array)){ 
+    if(!valGlobaltimeShowCroppedZone||(typeof valGlobaltimeShowCroppedZone!="object")||(valGlobaltimeShowCroppedZone instanceof Array)){
         valGlobaltimeShowCroppedZone={"farm":true,"windmill":true,"forestry":true};
         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valGlobaltimeShowCroppedZone",implode(valGlobaltimeShowCroppedZone,"valGlobaltimeShowCroppedZone"));
-    } 
+    }
     unsafeData.readyZone=new Object;
     unsafeData.zoneAddToGlobalTime=zoneAddToGlobalTime.clone();
 
@@ -9341,10 +9347,10 @@ try{
                         unsafeWindow.showDiv("speedlink_city" + b);
                             if(b == 1){
                                 $("speedlink_city" + b).onclick = new Function("unsafeWindow.close_page();unsafeWindow.showDiv('transp3');unsafeWindow.initCity(1);");
-                                
+
                             }else{
                                 $("speedlink_city" + b).onclick = new Function("unsafeWindow.travel2City2();")
-                            }           
+                            }
                         if (b == 2 && unsafeWindow.currentuserlevel < 8) {
                             unsafeWindow.hideDiv("speedlink_city" + b)
                         } else {
@@ -9384,7 +9390,7 @@ try{
                         unsafeWindow.showDiv("speedlink_farmersmarket");
                         $("speedlink_farmersmarket").onclick = new Function("unsafeWindow.travel2farmersmarket();")
                     }
-                }       
+                }
             }catch(err){GM_logError("speedLinks","","err_trace="+err_trace,err);}
         });
         unsafeWindow.speedLinks();
@@ -9392,7 +9398,7 @@ try{
         try{
             switch(gameLocation.get()[0]){
             case "city": unsafeWindow.initCity(2); break;
-            case "forestry": 
+            case "forestry":
             case "foodworld": unsafeWindow.initCity(2,0,1); break;
             default:{
                 document.addEventListener("gameCity1",function(){
@@ -9402,13 +9408,13 @@ try{
                 unsafeWindow.initCity(1);
             }
             }
-        }catch(err){GM_logError("travel2City2","","",err);}     
+        }catch(err){GM_logError("travel2City2","","",err);}
         };
         unsafeWindow.travel2forestry = function(){
         try{
             if((gameLocation.check("forestry"))||(gameLocation.check("city",2))){
-                unsafeWindow.farm=0; 
-                unsafeWindow.city=0; 
+                unsafeWindow.farm=0;
+                unsafeWindow.city=0;
                 unsafeWindow.forestry_quicknavi=1;
                 unsafeWindow.initForestry();
             }else{
@@ -9423,8 +9429,8 @@ try{
         unsafeWindow.travel2foodworld = function(){
         try{
             if((gameLocation.check("foodworld"))||(gameLocation.check("city",2))){
-                unsafeWindow.farm=0; 
-                unsafeWindow.city=0; 
+                unsafeWindow.farm=0;
+                unsafeWindow.city=0;
                 unsafeWindow.foodworld_quicknavi=1;
                 unsafeWindow.foodworldAction('init');
             }else{
@@ -9459,11 +9465,11 @@ try{
             }
         }catch(err){GM_logError("travel2farmersmarket","","",err);}
         };
-        
+
     }
     // andere ServerAccounts
     err_trace="Other accounts on server";
-    var farmNamen=explode(GM_getValue(COUNTRY+"_"+SERVER+"_farmNamen","{}"),"do_main/farmNamen",{});
+    var farmNamen=explode(GM_getValue(COUNTRY+"_"+SERVER+"_farmNamen"),"do_main/farmNamen",{});
     farmNamen[USERNAME]=FARMNAME;
     if(farmNamen[USERNAME].toLowerCase()!=USERNAME){
         newdiv=createElement("div",{"class":"userinfositem link","style":"font-weight: bold;"});
@@ -9477,7 +9483,7 @@ try{
     function calcOtherAccs(){
     try{
         otherAccs=new Array();
-        var help=explode(GM_getValue("logindata","[]"),"do_main/logindata",[]);
+        var help=explode(GM_getValue("logindata"),"do_main/logindata",[]);
         var help2;
         for(var v=0;v<help.length;v++){
             if((help[v][4]) && (help[v][0]==COUNTRY) && (help[v][1]==SERVER)){
@@ -9515,7 +9521,7 @@ try{
                 var dologin=parseInt(this.getAttribute("dologin"),10);
                 window.setTimeout(function(dologin){
                 try{
-                    var help=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"testOtherAccReady/pagedataLogin",{});
+                    var help=explode(GM_getValue(COUNTRY+"_pagedataLogin"),"testOtherAccReady/pagedataLogin",{});
                     if(!(help["dologin"]&&(typeof help["dologin"]=="object"))){
                         help["dologin"]=new Object();
                     }
@@ -9559,7 +9565,7 @@ try{
                         newtr.addEventListener("click",function(){
                             var dologin=parseInt(this.getAttribute("dologin"),10);
                             window.setTimeout(function(dologin){
-                                var help=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"fillDivOtherAccountsTimes/pagedataLogin",{});
+                                var help=explode(GM_getValue(COUNTRY+"_pagedataLogin"),"fillDivOtherAccountsTimes/pagedataLogin",{});
                                 if(!(help["dologin"]&&(typeof help["dologin"]=="object"))){
                                     help["dologin"]=new Object();
                                 }
@@ -9610,7 +9616,7 @@ try{
     function timerSessionEnd(sec){
     try{
         if(sec<1){
-            var help=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"timerSessionEnd/pagedataLogin",{});
+            var help=explode(GM_getValue(COUNTRY+"_pagedataLogin"),"timerSessionEnd/pagedataLogin",{});
             if(!(help["doserver"]&&(typeof help["doserver"]=="object"))){
                 help["doserver"]=new Object();
             }
@@ -9645,14 +9651,14 @@ try{
         function buildStatistik(mode){
         try{
             var modeDefault={"category":"c","npc":true,"showAll":false,"time":120};
-            var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeStatistic"),"buildStatistik/modeOld");
+            var modeOld=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeStatistic"),"buildStatistik/modeOld",modeDefault);
             if(typeof modeOld!="object"){ modeOld=modeDefault; }
             if(typeof mode!="object"){ mode=modeOld; }
             for(var v in modeDefault){
                 if(!modeDefault.hasOwnProperty(v)){ continue; }
-                if(mode[v]==undefined){ mode[v]=(modeOld[v]==undefined?modeDefault[v]:modeOld[v]); }
+                if(mode[v]===undefined){ mode[v]=(modeOld[v]===undefined?modeDefault[v]:modeOld[v]); }
             }
-            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeStatistic",implode(mode,"buildStatistik/mode"));      
+            GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeStatistic",implode(mode,"buildStatistik/mode"));
             var container=$("statisticArea");
             container.innerHTML="";
 
@@ -9682,7 +9688,7 @@ try{
 
             var help={};
             for (var v=0;v<prodBlock[0].length;v++){
-                if(prodBlock[0][v]==undefined){ continue; }
+                if(prodBlock[0][v]===undefined){ continue; }
                 if((!prodBlock[0][v].match(/t/))&&(mode["showAll"]||!prodBlock[0][v].match(/[lq]/))){
                     help[prodTyp[0][v]]=true;
                 }
@@ -9702,13 +9708,13 @@ try{
                 $("statisticArea").style.display="none";
                 $("statisticArea").innerHTML="";
             },false);
-            
+
 
             // Body
             newdiv=createElement("div",{"style":"overflow-y:auto;overflow-x:hidden;color:black;padding-top:30px;"},container);
             var newdiv1,newimg,newobject;
             for (var v=0;v<prodName[0].length;v++){
-                if(prodName[0][v]==undefined){ continue; }
+                if(prodName[0][v]===undefined){ continue; }
                 if ((prodTyp[0][v]==mode["category"])&&(!prodBlock[0][v].match(/t/))&&(mode["showAll"]||!prodBlock[0][v].match(/[lq]/))){
                     newdiv1=createElement("div",{"id":"stat"+v,"class":"link smallStatistic"},newdiv);
                     if(prodBlock[0][v]){
@@ -9724,7 +9730,7 @@ try{
                     newdiv1.addEventListener("click",function(){
                         showStatisticFullscreen(this.id.replace("stat",""));
                     },false);
-                } 
+                }
             }
             /*
             if (isNaN(mode)){
@@ -9748,13 +9754,13 @@ try{
         try{
             if(STAT_SERVER[COUNTRY]){
                 var prodStr="";
-                var preisBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob","[]"),"sendStatData/preisBeob",[]); //isNotSent,time,min,max,amount
+                var preisBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob"),"sendStatData/preisBeob",[]); //isNotSent,time,min,max,amount
                 var bChanged=false;
                 if(!(preisBeob instanceof Array)){
                     preisBeob=new Array();
                     bChanged=true;
                 }
-                gutBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_gutBeob","[]"),"sendStatData/gutBeob",[]);
+                gutBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_gutBeob"),"sendStatData/gutBeob",[]);
                 var c=0;
                 var neededTime=now-300; // Data max 5min old
                 for(var v=0;v<preisBeob.length;v++){
@@ -9768,7 +9774,7 @@ try{
                     GM_setValue2(COUNTRY+"_"+SERVER+"_preisBeob",implode(preisBeob,"sendStatData/preisBeob"),8);
                     raiseEventTop("gameChangedBeobPrice");
                 }
-    
+
                 if (c>0){
                     GM_logInfo("sendStatData","","",getText("sendingXObservedPricesToServer").replace(/%1%/,c));
                     // GM_log("sendStatData sending:\n" + STAT_SERVER[COUNTRY]+'/add.php?json={\"server\":'+SERVER+',\"COUNTRY\":'+COUNTRY+',\"productcount\":'+c+prodStr+'}')
@@ -9783,7 +9789,7 @@ try{
                         return function(response){
                             try{
                                 GM_logInfo("sendStatData","","",getText("sendingXObservedPricesToServer").replace(/%1%/,c)+" "+response.responseText);
-                            }catch(err){GM_logError("sendStatData.onload","","",err);}          
+                            }catch(err){GM_logError("sendStatData.onload","","",err);}
                         }
                     }(c),
                     onerror: function(response){
@@ -9791,7 +9797,7 @@ try{
                     },
                     timeout: function(response){
                         GM_logError("sendStatData.timeout","","",""+response.responseText);
-                    }           
+                    }
                     });
                     c=null;
                 }
@@ -9814,7 +9820,7 @@ try{
             },310000);
         }
     }
-    
+
     err_trace="Rack bottom";
     if(newdiv=$("canvassracklink")){
         newdiv.style.height = "55px";
@@ -9850,7 +9856,7 @@ try{
     newdiv=createElement("div",{"id":"divBeraterButtonsProfit","class":"link beraterButtonIcon hoverBgGreen","mouseOverText":getText("profitTable")},$("divBeraterButtons"));
     createElement("img",{"src":GFX+"farmhouse/items/76_1.png","style":"position:relative;top:-5px;left:-5px;width:40px;height:40px;"},newdiv);
     newdiv.addEventListener("click",function(){ unsafeWindow.buildInfoPanel("profit"); },false);
-    
+
     // Preise
     err_trace="Prices";
     newdiv=createElement("div",{"id":"divBeraterButtonsPreise","class":"link beraterButtonIcon hoverBgGold","mouseOverText":getText("prices")},$("divBeraterButtons"));
@@ -9895,7 +9901,7 @@ try{
     // Quest
     err_trace="Quest - MouseOver";
 /*
-    questdata={ 
+    questdata={
     "questid":quest number,
     "remain":seconds to the start,
     "data":{    "0":2,
@@ -9919,9 +9925,9 @@ try{
     "farmi":flagFarmiRewarded,
     "end":flagQuestsEnded}
 */
-    highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts","[false,{}]"),"do_main/highlightProducts",[false,{}]);
+    highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts"),"do_main/highlightProducts",[false,{}]);
     for(var type in QUESTS){
-    if(!QUESTS.hasOwnProperty(type)){continue;} 
+    if(!QUESTS.hasOwnProperty(type)){continue;}
         for(var campaign in QUESTS[type]){
         if(!QUESTS[type].hasOwnProperty(campaign)){continue;}
             if(newdiv=$("quests_status_bar_"+type+campaign)){
@@ -9947,7 +9953,7 @@ try{
                 }
             }
         }
-    }       
+    }
     if(div=$("foodworld_questblock")){ div.removeAttribute("onclick"); }
     function calcQuestData(quTyp,campaign){
         try{
@@ -9998,7 +10004,7 @@ try{
     function handleQuestData(){
         // GM_log("setQuest newQuestNr="+newQuestNr);
         try{
-            var err_trace = "Get questdata";    
+            var err_trace = "Get questdata";
             if(unsafeWindow.questdata){
                 // GM_log("unsafeWindow.questdata:\n"+print_r(unsafeWindow.questdata,"",true,"\n"));
                 for(var campaign in QUESTS["main"]){
@@ -10035,7 +10041,7 @@ try{
                 GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"handleQuestData/questData"));
                 unsafeData.questData=questData.clone();
             }
-            err_trace = "Calc highlightProducts"; 
+            err_trace = "Calc highlightProducts";
             if(highlightProducts[0]){ // TODO: For all quests. Not if all given.
                 highlightProducts[1]={};
                 if(questData["main"]["1"]["data"]){
@@ -10043,7 +10049,7 @@ try{
                         if(questData["main"]["1"]["data"][0][j][3]){
                             highlightProducts[1][questData["main"]["1"]["data"][0][j][1]]=true;
                         }
-                    }               
+                    }
                 }
                 GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts",implode(highlightProducts,"handleQuestData/highlightProducts"));
             }
@@ -10061,14 +10067,14 @@ try{
     function handleQuestDataFoodworld(){
         // GM_log("setQuest newQuestNr="+newQuestNr);
         try{
-            var err_trace = "Get questdata";    
+            var err_trace = "Get questdata";
             if(unsafeWindow.foodworld_quest){
                 // GM_log("unsafeWindow.foodworld_quest:\n"+print_r(unsafeWindow.foodworld_quest,"",true,"\n"));
                 if(!questData["foodworld"]){ questData["foodworld"]={}; }
                 for(var campaign in QUESTS["foodworld"]){
                     if(!QUESTS["foodworld"].hasOwnProperty(campaign)){continue;}
-                    if(!questData["foodworld"][campaign]){ 
-                        questData["foodworld"][campaign]=INIT_questData["foodworld"][campaign].clone(); 
+                    if(!questData["foodworld"][campaign]){
+                        questData["foodworld"][campaign]=INIT_questData["foodworld"][campaign].clone();
                     }
                     if(campaign==unsafeWindow.foodworld_quest["campaignid"]){
                         if(unsafeWindow.foodworld_quest["questid"]){
@@ -10131,7 +10137,7 @@ try{
                 menge[1]=Math.max(0,menge[2]-menge[0]-prodStock[item[0]][item[1]]);
                 preis=null;
                 if(item[0]==0){
-                    preis=gut[item[1]]; 
+                    preis=gut[item[1]];
                     if(!isNaN(NPC[item[0]][item[1]])){ preis=Math.min(preis,NPC[item[0]][item[1]]); }
                 }
                 tr=createElement("tr",{},table);
@@ -10155,7 +10161,7 @@ try{
                 if((i==0)&&(!questStarted)){ continue; }
                 createElement("td",{"style":"text-align:right;border-top:1px solid black;","colspan":"2"},tr,moneyFormatInt(sumWert[i]));
             }
-            
+
             table=createElement("table",{"border":"0","cellspacing":"0","cellpadding":"3","style":"line-height:16px;"},container);
             tr=createElement("tr",{},table);
             createElement("td",{"style":"vertical-align:top;"},tr,getText("reward")+":");
@@ -10224,7 +10230,7 @@ try{
             tr=createElement("tr",{},table);
             createElement("td",{},tr,getText("start")+": ");
             createElement("td",{},tr,getDateText(questDataCurr["time"])+" "+getDaytimeStr(questDataCurr["time"]));
-            
+
             div=null;
             table=null;tr=null;td=null;
             return container.innerHTML;
@@ -10237,7 +10243,7 @@ try{
                 case "foodworld":{ return (getText("informationIsMissing")+" "+getText("pleaseOpenX").replace(/%1%/,getText("foodworld"))); break;}
                 }
             }catch(err){}
-            return null; 
+            return null;
         }
     }
     unsafeOverwriteFunction("showQuestBox",function(c){
@@ -10268,7 +10274,7 @@ try{
                 $("questboxobj"+questWare+"_current").innerHTML = numberFormat(menge[0]);
                 $("questboxobj"+questWare+"_need").innerHTML = numberFormat(menge[2]);
             }
-        }catch(err){ GM_logError("showQuestBox","","",err); }       
+        }catch(err){ GM_logError("showQuestBox","","",err); }
     });
     unsafeOverwriteFunction("questsHandler",function(status){
         try{
@@ -10294,7 +10300,7 @@ try{
     });
     function updateQuestLineTimer(){
     try{
-return false;   
+return false;
         for(var type in QUESTS){
             if (!QUESTS.hasOwnProperty(type)){ continue; }
             if (type=="main"){ continue; }
@@ -10312,7 +10318,7 @@ return false;
     }catch(err){GM_logError("updateQuestLineTimer","","type="+type+" campaign="+campaign,err);}
     }
     handleQuestData(); // --> handleQuestLine
-    
+
     err_trace="Show Data";
     // SHOW DATA: BUILDING_INPUT
     /*
@@ -10330,16 +10336,16 @@ return false;
                 GM_log(str);
             }
         }
-    }   
+    }
     */
-/*  
+/*
         var div=createElement("div",{"style":"z-index:950;position:fixed;top:0;background-color:white;height:800px;overflow:auto;padding-right:40px;"},ALL);
         var newimg=createElement("img",{"class":"link","src":GFX+"close.jpg","style":"position:absolute;top:8px;right:0px;width:20px;height:20px;"},div);
         newimg.addEventListener("click",function(){ removeElement(this.parentNode); },false);
 
         var tr,td,table=createElement("table",{"border":"1"},div);
         for(var campaign in QUESTS["forestry"]){
-        if(!QUESTS["forestry"].hasOwnProperty(campaign)){continue;} 
+        if(!QUESTS["forestry"].hasOwnProperty(campaign)){continue;}
             for(var v=1;v<QUESTS["forestry"][campaign].length;v++){
                 tr = createElement("tr",{},table);
                 if(questData["forestry"][campaign]["nr"]==v){ tr.style.backgroundColor="#FBB"; }
@@ -10384,7 +10390,7 @@ return false;
         createElement("th",{},tr,"BUILDINGTYPE");
         createElement("th",{},tr,"COUNT");
         for(var v in unsafeWindow.buildinginfos[0]){
-            if(!unsafeWindow.buildinginfos[0].hasOwnProperty(v)){continue;}     
+            if(!unsafeWindow.buildinginfos[0].hasOwnProperty(v)){continue;}
             tr=createElement("tr",{},table);
             createElement("td",{},tr,v);
             for(var w=1;w<unsafeWindow.buildinginfos[0][v].length;w++){
@@ -10426,8 +10432,8 @@ return false;
         table=null;tr=null;td=null;
     }catch(err){ GM_logError("showDataAllBuildings","","",err); }
     };
-    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Buildings", showDataAllBuildings);
-    
+    GM_registerMenuCommand(getText("adviser")+" Show Data: Buildings", showDataAllBuildings);
+
     // SHOW DATA: PRODUCTS
     err_trace="Show data products";
     function showDataAllProducts(){
@@ -10496,7 +10502,7 @@ return false;
                 }
                 td=createElement("td",{},tr,prodYield[type][v]);
                 td=createElement("td",{},tr,prodGrowTime[type][v]>0?getTimeStr(60*prodGrowTime[type][v],true):"");
-                td=createElement("td",{},tr,prodPoints[type][v]==undefined?"-":numberFormat(prodPoints[type][v]));
+                td=createElement("td",{},tr,prodPoints[type][v]===undefined?"-":numberFormat(prodPoints[type][v]));
                 td=createElement("td",{},tr);
                 if(!(NPC[type]&&NPC[type][v])){
                     createElement("span",{},td,"-");
@@ -10507,7 +10513,7 @@ return false;
                 }else if (NPC[type][v].match(/^c/)){
                     coinsFormat(parseInt(NPC[type][v].replace("c",""),10),td);
                 }
-                td=createElement("td",{},tr,(type>0)||(gut[v]==undefined)?"-":moneyFormat(gut[v]));
+                td=createElement("td",{},tr,(type>0)||(gut[v]===undefined)?"-":moneyFormat(gut[v]));
                 td=createElement("td",{},tr,PRODUCT2BUILDING[type][v]);
             }catch(err){ GM_logError("showDataAllProducts","","type="+type+" v="+v,"(loop) "+err); }
             }
@@ -10517,8 +10523,8 @@ return false;
         table=null;tr=null;td=null;newDiv1=null;
     }catch(err){ GM_logError("showDataAllProducts","","",err); }
     }
-    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Products", showDataAllProducts);
-    
+    GM_registerMenuCommand(getText("adviser")+" Show Data: Products", showDataAllProducts);
+
     // SHOW DATA: ZONES
     err_trace="Show data zones";
     function showDataAllZones(){
@@ -10555,7 +10561,7 @@ return false;
         createElement("td",{},tr,"Ernte");
         createElement("td",{},tr,"FieldData");
 
-        
+
         for(var i=0;i<allZones.length;i++){
         try{
             zoneNrS=allZones[i];
@@ -10628,7 +10634,7 @@ return false;
         table=null;tr=null;td=null;
     }catch(err){ GM_logError("showDataAllZones","","",err); }
     }
-    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: Zones", showDataAllZones);
+    GM_registerMenuCommand(getText("adviser")+" Show Data: Zones", showDataAllZones);
 
     /* // SHOW DATA: FORESTRY FARMIES
     err_trace="Show data forestry farmies";
@@ -10672,7 +10678,7 @@ return false;
             }
         }
 
-        var farmies=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_forestry_farmies","{}"),"showDataForestryFarmies/forestry_farmies",{});
+        var farmies=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_forestry_farmies"),"showDataForestryFarmies/forestry_farmies",{});
         for(var v in farmies){
             if(!farmies.hasOwnProperty(v)){continue;}
             tr=createElement("tr",{},table);
@@ -10733,7 +10739,7 @@ return false;
             }
         }
     }
-    GM_registerMenuCommand(getText("adviser")+" "+"Show Data: forestry Farmi", showDataForestryFarmies);
+    GM_registerMenuCommand(getText("adviser")+" Show Data: forestry Farmi", showDataForestryFarmies);
     */
 
     // NPC-shop
@@ -10755,27 +10761,27 @@ return false;
     });
     // Market
     err_trace="Market";
-    valKauflimit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit","[[85,'990000'],110]"),"do_main/valKauflimit",[[85,'990000'],110]);
+    valKauflimit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimit"),"do_main/valKauflimit",[[85,'990000'],110]);
     valKauflimitNPC=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valKauflimitNPC",true);
-    highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts","[false,{}]"),"do_main/highlightProducts",[false,{}]);
-    highlightUser=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlight","{}"),"do_main/highlightUser",{});
+    highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts"),"do_main/highlightProducts",[false,{}]);
+    highlightUser=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlight"),"do_main/highlightUser",{});
     highlightUser[FARMNAME]="104e8b";
     valNimmBeob=GM_getValue(COUNTRY+"_"+SERVER+"_valNimmBeob",false);
 
     valVerkaufLimitDown=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valVerkaufLimitDown",95);
     valVerkaufLimitUp=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valVerkaufLimitUp",130);
     valJoinPreise=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valJoinPreise",false);
-    lastOffer=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lastOffer","[]"),"do_main/lastOffer",[]);
+    lastOffer=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lastOffer"),"do_main/lastOffer",[]);
     protectMinRack=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valProtectMinRack",false);
-    ownMarketOffers=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_ownMarketOffers","[]"),"do_main/ownMarketOffers",[]);
-    
+    ownMarketOffers=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_ownMarketOffers"),"do_main/ownMarketOffers",[]);
+
     // var mode=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeMarket","cveoz");
     function do_market(){
     // GM_log("function do_market");
     try{
         var err_trace="Init";
 
-    
+
         // Berater Information Line
         err_trace="market_beraterline";
         var market_beraterline=$("market_beraterline");
@@ -10786,12 +10792,12 @@ return false;
         for(var i=0;i<7;i++){
             createElement("div",{"style":"float:left;height:40px;width:90px;"},market_beraterline);
         }
-        
+
         // loadProductData();
         var candtable; //document.getElementsByTagName("table");
         var candtr; //candtable[0].getElementsByTagName("tr");
         var row,row_title,canddiv,canda,candtd,newa,newinput,newspan,newdiv,newdiv1;
-    
+
         /*
         var marktButtons=new Array();
         marktButtons[0]=document.querySelector('div[onclick*="\'marktstand.php\'"]'); // market stall
@@ -10830,7 +10836,7 @@ return false;
             GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeMarket",mode);
             location.href=location.href;
         },false);
-    
+
         newdiv1=createElement("div",{"mouseOverText":getText("category_c")+"<br>"+getText("category_e"),"class":"link","style":"display:inline-block;height:20px;width:26px;background:url('"+GFX+"racksort2.jpg') repeat scroll -62px 0px transparent;"},newdiv);
         if (mode.match(/c/)&&mode.match(/e/)){
             newdiv1.style.backgroundPosition="-62px -20px";
@@ -10846,7 +10852,7 @@ return false;
             GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeMarket",mode);
             location.href=location.href;
         },false);
-    
+
         newdiv1=createElement("div",{"mouseOverText":getText("category_o"),"class":"link","style":"display:inline-block;height:20px;width:26px;background:url('"+GFX+"racksort2.jpg') repeat scroll -62px 0px transparent;"},newdiv);
         if (mode.match(/o/)&&mode.match(/o/)){
             newdiv1.style.backgroundPosition="-62px -20px";
@@ -10862,7 +10868,7 @@ return false;
             GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_modeMarket",mode);
             location.href=location.href;
         },false);
-    
+
         newdiv1=createElement("div",{"mouseOverText":getText("category_z"),"class":"link","style":"display:inline-block;height:20px;width:26px;background:url('"+GFX+"racksort2.jpg') repeat scroll -36px 0px transparent;"},newdiv);
         if (mode.match(/z/)){
             newdiv1.style.backgroundPosition="-36px -20px";
@@ -10886,7 +10892,7 @@ return false;
             // Market page
             err_trace="Market page";
             var nothingToBuy=true;
-    
+
             // Page of a single product
             if((pageId!=-1)&&(userId=="")&&(unsafeWindow.market_guild_filter==0)){
                 err_trace="Market page, single product";
@@ -10894,12 +10900,12 @@ return false;
                 // $("offertypeselector").style.display="none";
                 market_beraterline.setAttribute("prod",pageId);
                 newdiv1=createElement("div",{},market_beraterline.children[0]);
-                newdiv1.addEventListener("mouseover",function(event){ 
-                    showGoToMarketToolTip(event,this.parentNode.parentNode.getAttribute("prod")); 
-                },false);             
+                newdiv1.addEventListener("mouseover",function(event){
+                    showGoToMarketToolTip(event,this.parentNode.parentNode.getAttribute("prod"));
+                },false);
                 produktPic(0,pageId,newdiv1);
                 newspan=createElement("div",{"style":"display:inline-block;"},newdiv1,numberFormat(prodStock[0][pageId],0));
-    
+
                 // NPC price
                 newdiv1=createElement("div",{},market_beraterline.children[0]);
                 err_trace="Market page, single product, NPC";
@@ -10944,12 +10950,12 @@ return false;
                 newspan=createElement("div",{"class":"link","style":"display:inline-block;","prod":pageIdNach},newdiv1,">>");
                 newspan.addEventListener("click",function(event){ showMarket(this.getAttribute("prod")); },false);
                 newspan.addEventListener("mouseover",function(event){ showGoToMarketToolTip(event,this.getAttribute("prod")); },false);
-    
+
                 // Total amount of all offers
                 // newtd=createElement("td",{"align":"right","style":"border-top:1px solid;"});
                 // newtd.innerHTML=numberFormat(sumTotal,0);
                 // candtr[candtr.length-1].insertBefore(newtd,candtr[candtr.length-1].firstElementChild);
-    
+
                 // Set price field
                 err_trace="Market page, single product, set price";
                 newdiv1=createElement("div",{},market_beraterline.children[1]);
@@ -11011,7 +11017,7 @@ return false;
             }else{
                 var preisKlasse=2;
             }
-    
+
             if(pageId!=-1){
                 //Link to NPC-Shop
                 err_trace="Link to NPC";
@@ -11020,11 +11026,11 @@ return false;
                     createElement("div",{"style":"position:absolute;top:13px;width:80px;font-weight:bold;text-align:center;"},newdiv1,getText("seedVendorShort"));
                     newdiv1.addEventListener("click",function(event){
                         var prod=this.parentNode.parentNode.getAttribute("prod");
-                        showSeedVendor(prod); 
-                    },false);                    
+                        showSeedVendor(prod);
+                    },false);
                 }
             }
-    
+
             // Page of a single user
             /*
             if(userId!=""){
@@ -11037,7 +11043,7 @@ return false;
             }
             */
         }
-        
+
         // Redesign of table
         err_trace="Redesign";
         var currId, currOffer, time, sum=[0,0];
@@ -11086,7 +11092,7 @@ return false;
                 row.children[5].setAttribute("class","market_buy market_noicon");
                 row.children[5].setAttribute("onclick","");
             }
-            if(NPC[0][prodId]&&((npcSaison[prodId]==undefined)||(npcSaison[prodId]))&&(preis>=NPC[0][prodId])){
+            if(NPC[0][prodId]&&((npcSaison[prodId]===undefined)||(npcSaison[prodId]))&&(preis>=NPC[0][prodId])){
                 if(preisKlasse<1){
                     preisKlasse++;
                     row.style.borderTop="2px solid white";
@@ -11123,7 +11129,7 @@ return false;
                 }
             }
             if(row.children[5].getAttribute("class").search(/market_noicon/)==-1){ nothingToBuy=false; }
-            
+
             if (row.children[4].children[0]&&(highlightUser[row.children[4].children[0].innerHTML.replace(/[ ]\[.*\]/,"")])){
                 row.children[4].children[0].style.backgroundColor="#"+highlightUser[row.children[4].children[0].innerHTML.replace(/[ ]\[.*\]/,"")];
             }
@@ -11133,7 +11139,7 @@ return false;
             row.addEventListener("mouseover",function(event){ toolTip.show(event,$("market_amount_tt"+this.getAttribute("offerId")).innerHTML); },false);
         }
         if((unsafeWindow.market_filter_own==1)&&(userId=="")&&(unsafeWindow.market_guild_filter==0)){
-            createElement("div",{},market_beraterline.children[0],sign_sum+"&nbsp;"+moneyFormatLimit(sum[1],100000));
+            createElement("div",{},market_beraterline.children[0],"∑&nbsp;"+moneyFormatLimit(sum[1],100000));
         }
         // No offers
         if(sum[0]==0){
@@ -11166,7 +11172,7 @@ return false;
                     createElement("div",{"class":"market_price"},newdiv);
                     createElement("div",{"class":"market_amount"},newdiv);
                     createElement("div",{"class":"market_seller"},newdiv);
-                }           
+                }
             }
         }
         marktoffers_rows=null;
@@ -11182,13 +11188,13 @@ return false;
             unsafeWindow.buildInfoPanel("stock",{"page":1,"prodType":0,"filterCategory":unsafeWindow.market_filter_pid?prodTyp[0][unsafeWindow.market_filter_pid]:null});
         },false);
         createElement("div",{"style":"position:absolute;top:13px;width:80px;font-weight:bold;text-align:center;"},newdiv1,getText("prices"));
-    
+
         newdiv1=createElement("div",{"id":"marketButton_tableStock","class":"link hoverBlack","style":"position:relative;width:80px;height:40px;background:url('"+GFX+"stadt/uebersicht.gif') repeat scroll 0% 0% transparent;"},market_beraterline.children[5]);
         newdiv1.addEventListener("click",function(){
             unsafeWindow.buildInfoPanel("stock",{"page":2,"prodType":0,"filterCategory":unsafeWindow.market_filter_pid?prodTyp[0][unsafeWindow.market_filter_pid]:null});
         },false);
         createElement("div",{"style":"position:absolute;top:13px;width:80px;font-weight:bold;text-align:center;"},newdiv1,getText("stock"));
-    
+
         market_beraterline=null;
         canda=null;candtable=null;candtr=null;candtd=null;canddiv=null;newa=null;newinput=null;newspan=null;newdiv=null;newdiv1=null;
     }catch(err){ GM_logError("do_market","","err_trace=\""+err_trace+"\"",err); }
@@ -11199,7 +11205,7 @@ return false;
         }catch(err){GM_logError("_showOffers","","",err);}
         try{
             do_market();
-            // GM_log("unsafeWindow.market_offers:\n"+print_r(unsafeWindow.market_offers,"",true,"\n"));        
+            // GM_log("unsafeWindow.market_offers:\n"+print_r(unsafeWindow.market_offers,"",true,"\n"));
             raiseEvent("gameOpenMarket");
         }catch(err){GM_logError("showOffers","","",err);}
     });
@@ -11220,7 +11226,7 @@ return false;
                     $("marketnewoffer_amount").value=0;
                 }
                 keyup($("marketnewoffer_amount"));
-        
+
                 /*
                 if ($("produkt_preis1")){
                     $("lbl_produkt_max").setAttribute("class",$("lbl_produkt_max").getAttribute("class")+" link");
@@ -11259,7 +11265,7 @@ return false;
                     }
                 }
                 */
-                
+
                 // coins
                 function checkPreisCoins(){
                     //GM_log("checkPreisCoins "+oldPricesInserted);
@@ -11282,7 +11288,7 @@ return false;
                         var currPreis=parseInt($("coinsmarktpreis").innerHTML,10);
                         var currAnzahl=parseInt($("coinsanzahl").value,10);
                         var currUserPreis=parseInt($("coinsuserpreis").innerHTML,10);
-            
+
                         if(protectMinRack){ //rack amount protection
                             prodStock[0][0]=parseInt($("lbl_produkt_max").innerHTML.replace(regDelimThou,""),10);
                             if(currAnzahl>prodStock[0][0]-prodMinRack[0][0]){
@@ -11299,11 +11305,11 @@ return false;
                             createElement("td",{"style":"color:#f0ffef;font-weight:bold;"},newtr,getText("price")+": ");
                             createElement("td",{"style":"color:#f0ffef;font-weight:bold;text-align:right;"},newtr,moneyFormatLimit(gut[0],100));
                         }
-            
+
                         newtr=createElement("tr",{},newtable);
                         createElement("td",{"style":"color:#f0ffef;font-weight:bold;"},newtr,getText("value")+": ");
                         createElement("td",{"style":"color:#f0ffef;font-weight:bold;text-align:right;"},newtr,moneyFormatLimit(currUserPreis*currAnzahl,100));
-            
+
                         newtr=createElement("tr",{},newtable);
                         createElement("td",{"style":"color:#f0ffef;font-weight:bold;"},newtr,getText("commission")+": ");
                         createElement("td",{"style":"color:#f0ffef;font-weight:bold;text-align:right;"},newtr,numberFormat(((currPreis-currUserPreis)/currUserPreis)*100,1)+"%");
@@ -11333,7 +11339,7 @@ return false;
                     newdiv=createElement("div",{"id":"divBerInfoCoins","style":"float:left;padding:3px;background-color:#002300;border:5px solid #594230;color:#f0ffef;font-weight:bold;"},newdiv);
                     createElement("table",{},newdiv);
                     newdiv=null;
-            
+
                     $("coinsanzahl").addEventListener("keyup",function(){ this.value=this.value.replace(/\D/g,""); },false);
                     $("coinspreis").addEventListener("keyup",function(){ this.value=this.value.replace(/\D/g,""); },false);
                     $("coinspreisschild").addEventListener("click",checkPreisCoins,false);
@@ -11345,7 +11351,7 @@ return false;
                             submitButton=null;
                         }
                     },false);
-            
+
                     // bugfix: no focus when coinspreisschild opens
                     $("coinspreisschild").addEventListener("DOMAttrModified",function(event){
                         if((event.target.id=="coinspreisschild")&&(event.attrName=="style")){
@@ -11359,9 +11365,9 @@ return false;
                         }
                     }, false);
                 }
-            
+
                 cand=null;candtable=null;
-*/      
+*/
             }
         }catch(err){ GM_logError("openMarketNewOffer","","err_trace="+err_trace,err); }
     });
@@ -11388,10 +11394,10 @@ return false;
                 var newdiv;
                 if(newdiv=$("marketcreateoffer_stockamount")){
                     newdiv.innerHTML=numberFormat(prodStock[0][currId]);
-                }               
+                }
                 // Rack amount protection
                 err_trace="Rack amount protection";
-                if(protectMinRack){ 
+                if(protectMinRack){
                     if(currAnzahl>prodStock[0][currId]-prodMinRack[0][currId]){
                         currAnzahl=Math.max(0,prodStock[0][currId]-prodMinRack[0][currId]);
                         $("marketnewoffer_amount").value=currAnzahl;
@@ -11479,7 +11485,7 @@ return false;
                 newtable=null;newtr=null;newdiv=null;
             }
             currId=null;
-        
+
         }catch(err){ GM_logError("calcMarketFee","","",err); }
     });
     unsafeOverwriteFunction("buyMarketOffer",function(id){
@@ -11498,7 +11504,7 @@ return false;
                     money=null;
                     break;
                 }
-            }   
+            }
         }catch(err){ GM_logError("buyMarketOffer","","",err); }
     });
     unsafeOverwriteFunction("marketAction",function(action,id,open){
@@ -11521,7 +11527,7 @@ return false;
         try{
             var result = checkRequest(request)
             if((result!=0)&&(result[0]!=0)&&(result[1]["offers"])){
-                //GM_log("marketActionResponse "+result[1]["offers"].length);                   
+                //GM_log("marketActionResponse "+result[1]["offers"].length);
                 // Save own offers
                 var err_trace="Save own offers";
                 var _ownMarketOffers=new Array();
@@ -11558,7 +11564,7 @@ return false;
                 // calculate all observed prices
                 err_trace="Observing prices";
                 for(var v=0;v<prodBlock[0].length;v++){
-                    if(prodBlock[0][v]==undefined){ continue; }
+                    if(prodBlock[0][v]===undefined){ continue; }
                     if((!prodBlock[0][v].match(/t/))&&(!prodBlock[0][v].match(/l/))){
                         if(marketOffersArr[v]){
                             // sort offers
@@ -11592,7 +11598,7 @@ return false;
                             if(!(preisBeob instanceof Array)){ preisBeob=new Array(); }
                             if(!(preisBeob[v]&&preisBeob[v][0])){
                                 preisBeob[v]=[false,now,,,0];
-                            }               
+                            }
                         }
                     }
                 }
@@ -11636,8 +11642,8 @@ return false;
             }
             newdiv=null;
         },false);
-    }   
-    
+    }
+
     // Notepad for Non-Premium
     err_trace="Notepad for Non-Premium";
     if((newdiv=$("sub_notepad"))&&(newdiv.style.display=="none")){
@@ -11702,7 +11708,7 @@ return false;
     },false);
     // Points and level.  levelLog[day]=[points,rank,market sales,contract sales,farmi money]
     err_trace="Points and level";
-    levelLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog","[]"),"do_main/levelLog",[]);
+    levelLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog"),"do_main/levelLog",[]);
     if(!(levelLog instanceof Array)){ levelLog = []; }
     function setLevelLogId(){
         levelLog.sort(sortObjFunctions["date"]);
@@ -11756,7 +11762,7 @@ return false;
         var help;
         // data quality
         levelLog.sort(sortObjFunctions["date"]);
-        if(help=$("pkt")){ 
+        if(help=$("pkt")){
             help=parseInt(help.innerHTML.replace(/\D/g,""),10);
             levelLog[levelLogId][1]=help;
             for(var v=levelLog.length-1;v>=0;v--){
@@ -11780,7 +11786,7 @@ return false;
                     for(var w=0;w<levelLog.length;w++){
                         if(levelLog[w][0]==month){ break; }
                     }
-                    if(levelLog[w]==undefined){
+                    if(levelLog[w]===undefined){
                         levelLog[w]=[month,0,,0,0,0];
                     }
                     if(levelLog[w][1]<levelLog[v][1]){
@@ -11830,14 +11836,14 @@ return false;
             for(var v=levelLog.length-1;v>=0;v--){
                 if(levelLog[v][0].match(/^\d+\.\d+\.\d+$/)){
                     newdiv1=createElement("div",{"mouseOverText":levelLog[v][0]+"<br>"+numberFormat(levelLog[v][1]),"style":"position:absolute;width:0;margin-top:2px;height:12px;border-right:1px solid white;"},newdiv);
-                    if (levelLog[v][1]<LEVEL_POINTS[USERLEVEL]){ 
-                        newdiv1.style.marginLeft=Math.floor(2+levelSize*(levelLog[v][1]-LEVEL_POINTS[USERLEVEL-1])/levelsum)+"px"; 
+                    if (levelLog[v][1]<LEVEL_POINTS[USERLEVEL]){
+                        newdiv1.style.marginLeft=Math.floor(2+levelSize*(levelLog[v][1]-LEVEL_POINTS[USERLEVEL-1])/levelsum)+"px";
                     } else {
                         newdiv1.style.marginLeft=Math.floor(4+levelSize*(levelLog[v][1]-LEVEL_POINTS[USERLEVEL-1])/levelsum)+"px";
                     }
                     help=levelLog[v][0].split(".");
-                    if (new Date(parseInt(help[2],10),parseInt(help[1],10)-1,parseInt(help[0],10)).getDay()=="0"){ 
-                        newdiv1.style.borderColor="red"; 
+                    if (new Date(parseInt(help[2],10),parseInt(help[1],10)-1,parseInt(help[0],10)).getDay()=="0"){
+                        newdiv1.style.borderColor="red";
                     }
                 }
             }
@@ -11916,8 +11922,8 @@ return false;
         case 1:{
             if ((unsafeWindow.mode==0)&&(prodTyp[0][unsafeWindow.selected]=="v")){
                 var bonus=zones.getBonus(zoneNrF);
-                if((help=zones.getBonusSpecial(zoneNrF))&&(unsafeWindow.selected==help[0])){ 
-                    bonus += help[1]; 
+                if((help=zones.getBonusSpecial(zoneNrF))&&(unsafeWindow.selected==help[0])){
+                    bonus += help[1];
                 }
                 bonus=1-(bonus/100);
                 growtime=calcGrowDuration(60*prodGrowTime[0][unsafeWindow.selected],bonus);
@@ -11927,7 +11933,7 @@ return false;
             if ((unsafeWindow.mode==0)&&(prodTyp[0][unsafeWindow.selected]=="fl")){
                 var bonus=1-(zones.getBonus(zoneNrF)/100);
                 if((help=zones.getBonusSpecial(zoneNrF))&&(unsafeWindow.selected==help[0])){
-                    bonus *= 1-(help[1]/100); 
+                    bonus *= 1-(help[1]/100);
                 }
                 growtime=calcGrowDuration(60*prodGrowTime[0][unsafeWindow.selected],bonus);
             }
@@ -11936,7 +11942,7 @@ return false;
         if(growtime){
             $("lager_zeit").innerHTML=getTimeStr(growtime)+"&nbsp;"+getText("shortHours");
             if(divLagerZeitZiel.parentNode.style.display!="block"){
-                divLagerZeitZiel.parentNode.style.display="block"; 
+                divLagerZeitZiel.parentNode.style.display="block";
             }
             divLagerZeitZiel.innerHTML="=&nbsp;"+getDaytimeStr(now+growtime)+"&nbsp;"+getText("shortOClock");
         }else{
@@ -11971,7 +11977,7 @@ return false;
         }catch(err){GM_logError("selectRackItem","id="+id,"",err);}
     });
 
-    valMoveAnimals=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMoveAnimals","[]"),"do_main/valMoveAnimals",[]);
+    valMoveAnimals=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valMoveAnimals"),"do_main/valMoveAnimals",[]);
     // executed,speedvert,top,bottom,speedhor,left,right
     function moveAnimals(mode){
         //GM_log("moveAnimals "+mode);
@@ -12031,7 +12037,7 @@ return false;
                 else if ("undefined" === typeof(unsafeWindow.rackElement[v].number)){ prodStock[0][v]=0; } // no stock available
                 else if (!unsafeWindow.rackElement[v].number){ prodStock[0][v]=0; } // no stock available
                 else { prodStock[0][v]=parseInt(unsafeWindow.rackElement[v].number,10); }
-            }       
+            }
             GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"sortRackNew/prodStock"));
             var cell=$("divUpdateRack");
             if(cell){ cell.style.display="none"; }
@@ -12071,7 +12077,7 @@ return false;
         }
     }catch(err){ GM_logError("doRackNavi","","",err); }
     }
-    doRackNavi();   
+    doRackNavi();
     unsafeOverwriteFunction("initRackNavi",function(){
         unsafeWindow._initRackNavi();
         doRackNavi();
@@ -12085,7 +12091,7 @@ return false;
                 var node=event.target;
                 while((currId==null)&&(node!=this)){
                     if(node.id.match(/rackitem\d+/)){
-                        currId=/rackitem(\d+)/.exec(node.id)[1];            
+                        currId=/rackitem(\d+)/.exec(node.id)[1];
                     }else{
                         node=node.parentNode;
                     }
@@ -12169,7 +12175,7 @@ return false;
                     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"updatePlayerInfo/prodStock"));
                 }
             }
-        }catch(err){GM_logError("updatePlayerInfo","","",err);} 
+        }catch(err){GM_logError("updatePlayerInfo","","",err);}
     });
     document.addEventListener("gameDoGetData",function(){
         window.setTimeout(loadProductData,0);
@@ -12177,25 +12183,24 @@ return false;
     document.addEventListener("gameChangedBeobPrice",function(){
         window.setTimeout(function(){
             // GM_log("publish GMpreisBeob");
-            top.unsafeData.preisBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob","[]"),"eventListener@gameChangedBeobPrice/preisBeob",[]).clone();
+            top.unsafeData.preisBeob=explode(GM_getValue(COUNTRY+"_"+SERVER+"_preisBeob"),"eventListener@gameChangedBeobPrice/preisBeob",[]).clone();
         },0);
     },false);
     document.addEventListener("gameChangedGut",function(){
         window.setTimeout(function(){
-            gut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_gut","[]"),"eventListener@gameChangedGut/gut",[]);
+            gut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_gut"),"eventListener@gameChangedGut/gut",[]);
             top.unsafeData.gut=gut.clone();
             calcFarmiCost();
         },0);
     },false);
     document.addEventListener("gameChangedLevelLog",function(){
         window.setTimeout(function(){
-            levelLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog","[]"),"eventListener@gameChangedLevelLog/levelLog",[]);
+            levelLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog"),"eventListener@gameChangedLevelLog/levelLog",[]);
             setLevelLogId();
         },0);
     },false);
     document.addEventListener("gameChangedProdMinRackInit",function(){
         window.setTimeout(function(){
-            //if(valMinRackMan){ prodMinRackInit=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodMinRackInit","[]")); }
             calcProdMinRackInit();
         },0);
     },false);
@@ -12218,7 +12223,7 @@ return false;
     function messagesSystem(){
     try{
         if(!logSales){
-            logSales=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logSales","[]"),"messagesSystem/logSales",[]);
+            logSales=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logSales"),"messagesSystem/logSales",[]);
             logSales.sort(sortObjFunctions["int"],true);
             logSalesId=new Object();
             for(var v=logSales.length-1;v>=0;v--){
@@ -12231,17 +12236,17 @@ return false;
         for(var i=unsafeWindow.messages_data.length-1;i>=0;i--){
             currMsg=unsafeWindow.messages_data[i];
             help=currMsg.body.replace(/\s+/g," ");
-            if (getText("msgSubjectWeed")==currMsg.subject){ 
+            if([getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){
                 // New weed
                 // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Weed message");
-            }else if (getText("msgSubjectGift")==currMsg.subject){ 
+            }else if (getText("msgSubjectGift")==currMsg.subject){
                 // New gift
                 // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Gift message");
-            }else if(help2=regMsgFriend.exec(currMsg.subject)){
+            }else if(help2=regMsgSubjectFriend.exec(currMsg.subject)){
                 // New friendship
                 // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Friendship message");
                 sender=help[1];
-            }else if (help2=regMsgMarketsaleContent.exec(help)){ 
+            }else if (help2=regMsgMarketsaleContent.exec(help)){
                 // Market sale
                 // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Market sale");
                 switch(COUNTRY){
@@ -12260,7 +12265,7 @@ return false;
                 amount=parseInt(help2[2],10);
                 money=parseFloat(help2[4].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
                 price=Math.round(100*money/amount)/100;
-                if(logSalesId[currMsg.nnr]==undefined){
+                if(logSalesId[currMsg.nnr]===undefined){
                     logSalesId[currMsg.nnr]=logSales.push([currMsg.nnr])-1;
                     dayStr=getDateStr(time,2,false);
                     for(var v=levelLog.length-1;v>=0;v--){
@@ -12314,7 +12319,7 @@ return false;
                 sender=help2[1];
                 money=parseFloat(help2[3].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
                 time=getTime(currMsg.time);
-                if(logSalesId[currMsg.nnr]==undefined){
+                if(logSalesId[currMsg.nnr]===undefined){
                     logSalesId[currMsg.nnr]=logSales.push([currMsg.nnr])-1;
                     var dayStr=getDateStr(time,2,false);
                     for(var v=levelLog.length-1;v>=0;v--){
@@ -12347,7 +12352,7 @@ return false;
                     div.setAttribute("j",j);
                     div.addEventListener("mouseover",function(event){
                         toolTip.show(event,toolTipSales(this.getAttribute("j")));
-                    },false);               
+                    },false);
                     div.classList.add("systemMsg_contractsale");
                     div.innerHTML="";
                     igm(sender,div,betreff);
@@ -12386,7 +12391,7 @@ return false;
         newdiv2=createElement("button",{"class":"link button_new","type":"button","style":"margin-right:5px;"},false,getText("salesLog"));
         newdiv.insertBefore(newdiv2, newdiv.firstElementChild);
         newdiv2.addEventListener("click",function(){ unsafeWindow.buildInfoPanel("messages"); },false);
-    }   
+    }
     // events farm ================================================================================
     err_trace="events farm";
     unsafeOverwriteFunction("farmMove",function(b){
@@ -12404,7 +12409,7 @@ return false;
         }catch(err){GM_logError("farmMove","","",err);}
     });
     function doFarmZone(farmNR,zoneNr){
-        try{    
+        try{
             var divZone,divZoneInfo,div;
             var help,zoneNrF,data,currZoneType;
             if(divZone=$("farm"+farmNR+"_pos"+zoneNr)){
@@ -12430,7 +12435,7 @@ return false;
                             }
                             if(USERLEVEL<BUILDING_UPGRADES[currZoneType][data.level][0]){
                                 createElement("div",{"class":"bonusinfo important"},div,unsafeWindow.error1005.replace("%LEVEL%",BUILDING_UPGRADES[currZoneType][data.level][0]));
-                            }                           
+                            }
                         }
                         if(div){
                             var help2=BUILDING_UPGRADES[currZoneType][data.level-1][2]-BUILDING_UPGRADES[currZoneType][data.level][2];
@@ -12466,8 +12471,8 @@ return false;
                             var zoneNrF=zoneNr+6*(farmNR-1);
                             var currZoneType=zones.getBuilding(zoneNrF);
                             var currAnimals=zones.getAnimals(zoneNrF);
-                            if(currZoneType==1){ 
-                                showLagerZeitZiel(zoneNrF); 
+                            if(currZoneType==1){
+                                showLagerZeitZiel(zoneNrF);
                             }else{
                                 var buildinginfo = this.querySelector(".tt");
                                 if(!buildinginfo){
@@ -12538,7 +12543,7 @@ return false;
                             }
                             help=null;
                         },false);
-                        
+
                     }
                     // Zone info - show current production
                     divZoneInfo=divZone.querySelector(".farm_pos_production");
@@ -12571,7 +12576,7 @@ return false;
                         div.addEventListener("mouseover",function(event){
                             toolTip.show(event,this.querySelector(".farm_button_tt").innerHTML,this);
                         },false);
-                    }                       
+                    }
                     if(div=divZone.querySelector(".farm_button_gardenspeedup")){
                         div.addEventListener("mouseover",function(event){
                             toolTip.show(event,this.querySelector(".farm_button_tt").innerHTML,this);
@@ -12616,11 +12621,11 @@ return false;
                     case 14:{ // special oil
                         if(div=$("farm_production_current14_"+zoneNr)){ divZone.appendChild(div); }
                     }
-                    }                       
+                    }
                 }
                 divZone=null;divZoneInfo=null;div=null;
-            }   
-        }catch(err){GM_logError("doFarmZone","farmNR="+farmNR+" zoneNr="+zoneNr,"",err);}  
+            }
+        }catch(err){GM_logError("doFarmZone","farmNR="+farmNR+" zoneNr="+zoneNr,"",err);}
     }
     unsafeData.carpentry_bonus=parseInt($("carpentry_icon_currentbonus").innerHTML,10);
     unsafeOverwriteFunction("farmBuildPositions",function(){
@@ -12679,7 +12684,7 @@ return false;
                     }
                     if(data.animals){
                         zones.setAnimals(zoneNrF,parseInt(data.animals,10));
-                    }                           
+                    }
                 }
             }
             for (var d in unsafeWindow.farms_data.farms) {
@@ -12731,7 +12736,7 @@ return false;
                     if(this.parentNode){ removeElement(this.parentNode); }
                     goToZone(this.getAttribute("zone"));
                 },false);
-                newdiv1.addEventListener("mouseover",function(event){ 
+                newdiv1.addEventListener("mouseover",function(event){
                     var zone=parseInt(this.getAttribute("zone"),10);
                     toolTip.show(event,getText("goToX").replace(/%1%/,zones.getName(zone)));
                     zone=null;
@@ -12742,7 +12747,7 @@ return false;
                     if(this.parentNode){ removeElement(this.parentNode); }
                     goToZone(this.getAttribute("zone"));
                 },false);
-                newdiv1.addEventListener("mouseover",function(event){ 
+                newdiv1.addEventListener("mouseover",function(event){
                     var zone=parseInt(this.getAttribute("zone"),10);
                     toolTip.show(event,getText("goToX").replace(/%1%/,zones.getName(zone)));
                     zone=null;
@@ -12774,9 +12779,9 @@ return false;
                 helpArray[v]=true;
                 helpArray2[v]=false;
                 if (z>0){
-                    iAmount=(prodYield[0][p]+((currentPowerup[p]&&(z<currentPowerup[p][0]))?currentPowerup[p][1]:0)); 
+                    iAmount=(prodYield[0][p]+((currentPowerup[p]&&(z<currentPowerup[p][0]))?currentPowerup[p][1]:0));
                     iPoints=(prodPoints[0][p]+((currentPowerup[p]&&(z<currentPowerup[p][0]))?currentPowerup[p][2]:0));
-                
+
                     if ((unsafeWindow.garten_x[v]==1)&&(unsafeWindow.garten_y[v]==1)){ // only first part of a plant
                         w=parseInt(unsafeWindow.garten_wasser[v],10)+86400;
                         w=((w==86400)?1:(w<z?w:NEVER)); // watertime
@@ -12921,7 +12926,7 @@ return false;
             $("gardenmaincontainer").setAttribute("zoneNr",zoneNr);
             drawZoneNavi(zoneNrF,$("gardenmaincontainer"));
             showLagerZeitZiel(zoneNrF);
-        
+
             //Klon des Anpflanzautomaten
             /*
             var newdiv;
@@ -12933,7 +12938,7 @@ return false;
             newdiv=null;
             */
             checkFieldTimes();
-        }catch(err){GM_logError("getGardenInfoResponse","","",err);}    
+        }catch(err){GM_logError("getGardenInfoResponse","","",err);}
     });
     unsafeOverwriteFunction("farmAction",function(mode,farm,position,s,d,b,a){
         try{
@@ -12943,12 +12948,12 @@ return false;
                 if (unsafeWindow.donkey_isset) {
                     var showDonkeyPanel=false;
                     for(var i=logDonkey.length-1;i>=0;i--){
-                        if(logDonkey[i][0]==todayServerStr){ 
+                        if(logDonkey[i][0]==todayServerStr){
                             showDonkeyPanel=true;
                             break;
                         }
                     }
-                
+
                     if(showDonkeyPanel){
                         unsafeWindow.buildInfoPanel("donkey");
                         return false;
@@ -13063,7 +13068,7 @@ return false;
         try{
             unsafeWindow._killGardenTimeruns();
         }catch(err){GM_logError("_killGardenTimeruns","","",err);}
-        try{        
+        try{
             lastGiess=null;
             lastErnte=null;
             if ($("divErnteInfo")){ removeElement($("divErnteInfo")); }
@@ -13082,7 +13087,7 @@ return false;
             $("divErnteInfo").style.display="block";
             if (valErnteMsg){
                 // Fix(Seberoth)
-                // $("errorboxgarden").style.display="none"; 
+                // $("errorboxgarden").style.display="none";
                 $("globalbox").style.display="none";
                 $("globaltransp").style.display="none";
             }
@@ -13172,7 +13177,7 @@ return false;
         tempZoneProductionData[2]=1;
         if(undefined===data.remain){ // empty
             tempZoneProductionData[1]=1;
-        }else if(data.remain>0){ // running 
+        }else if(data.remain>0){ // running
                 var iPrTyp=0;
                 var iProd=data.pid;
                 var iTime=data.remain+now-unsafeWindow.Zeit.Verschiebung;
@@ -13187,7 +13192,7 @@ return false;
                 var iAmount=data.crop;
                 var iPoints=data.crop*prodPoints[iPrTyp][iProd];
                 if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
-                tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);               
+                tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
         }
         zones.setProduction(zoneNrF,tempZoneProductionData.clone());
         tempZoneProductionData=null;
@@ -13207,9 +13212,9 @@ return false;
                     var str="blackbox"+(prodStock[0][currProd]<prodMinRack[0][currProd]?" lowrack":"");
                     createElement("div",{"id":"feed_item"+b+"_rackamount","class":str,"style":"position:absolute;top:-25px;left:-2px;font-weight:bold;"},div,numberFormatPrefixed(prodStock[0][currProd]));
                 }
-            }       
+            }
         }catch(err){GM_logError("rewriteBuildingInnerFeed","","",err);}
-    }); 
+    });
     unsafeOverwriteFunction("buildingInnerActionResponse",function(request,action,farm,position){
         try{
             unsafeWindow._buildingInnerActionResponse(request,action,farm,position);
@@ -13230,7 +13235,7 @@ return false;
         try{
             doStable(farm,position);
         }catch(err){GM_logError("newBuildingInner","","",err);}
-    }); 
+    });
     // Factory
     function doFactory(zoneNr){
         try{
@@ -13244,7 +13249,7 @@ return false;
             var iPrTyp=0;
             var iProd=parseInt(data.production["0"].pid,10);
             var iAmount=prodYield[iPrTyp][iProd];
-            var iPoints=iAmount*prodPoints[iPrTyp][iProd];              
+            var iPoints=iAmount*prodPoints[iPrTyp][iProd];
             if(data.production["0"].remain>0){ // running
                 var iTime=data.production["0"].remain+now-unsafeWindow.Zeit.Verschiebung;
             }else{ // done
@@ -13258,13 +13263,13 @@ return false;
         tempZoneProductionData[2]=1;
         zones.setProduction(zoneNrF,tempZoneProductionData.clone());
         tempZoneProductionData=null;
-        
+
         if(!$("articleline"+unsafeWindow.locationinfo[6])){
             cand=createElement("div",{"id":"articleline"+unsafeWindow.locationinfo[6]},$("innercontent"));
             for(var prodNr=0;prodNr<unsafeWindow.locationinfo["in"].length;prodNr++){
                 newdiv=createElement("div",{"id":(gameLocation.get()[1]+1)+"_"+zoneNr+"_article"+unsafeWindow.locationinfo["in"][prodNr],"class":"feedproduct","style":"position:absolute;top:54px;left:"+(55+60*prodNr)+"px;border:2px solid black;z-index:11;","prodNr":prodNr},cand);
                 createElement("div",{"id":"articleimg"+unsafeWindow.locationinfo["in"][prodNr],"style":"position:absolute;","class":"l"+unsafeWindow.locationinfo["in"][prodNr]},createElement("div",{"style":"position:absolute;top:5px;left:5px;width:40px;height:40px;overflow:hidden;"},newdiv));
-                newdiv.addEventListener("mouseover",function(event){ 
+                newdiv.addEventListener("mouseover",function(event){
                     var prodNr = parseInt(this.getAttribute("prodNr"),10);
                     toolTip.show(event,unsafeWindow.locationinfo["need"][prodNr]+"x "+prodName[0][unsafeWindow.locationinfo["in"][prodNr]]);
                 },false);
@@ -13285,7 +13290,7 @@ return false;
         }
         cand=null;newdiv=null;
         raiseEvent("gameOpenFactory");
-        }catch(err){GM_logError("doFactory","","",err);}    
+        }catch(err){GM_logError("doFactory","","",err);}
     }
     // Oil factory, special oil factory
     function doFactoryOil(zoneNr){
@@ -13329,23 +13334,23 @@ return false;
                                 createElement("div",{},newDiv,getText("readySinceX").replace(/%1%/,getFormattedDateStr(iTime)));
                             }else{
                                 createElement("div",{},newDiv,getText("readySinceX").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-                            }               
+                            }
                         } else if (endDay==0){
                             createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
                         } else if ((endDay==1)&&(getText("readyAtX_day1",true))){
                             createElement("div",{},newDiv,getText("readyAtX_day1").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
                         } else if ((endDay==2)&&(getText("readyAtX_day2",true))){
                             createElement("div",{},newDiv,getText("readyAtX_day2").replace(/%1%/,getDaytimeStr(iTime)+"&nbsp;"+getText("shortOClock")));
-                        } else{ 
-                            createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,new Date(1000*iTime).toLocaleString())); 
+                        } else{
+                            createElement("div",{},newDiv,getText("readyAtX").replace(/%1%/,new Date(1000*iTime).toLocaleString()));
                         }
                         newDiv1=$("oil_slot"+slot+"_img_tt_time");
                         if(newDiv1){ newDiv.appendChild(newDiv1); }
-                        newDiv1=createElement("div",{},newDiv); 
+                        newDiv1=createElement("div",{},newDiv);
                         produktPic(iPrTyp,iProd,newDiv1);
-                        createElement("span",{},newDiv1,numberFormat(iAmount)+" "+prodName[iPrTyp][iProd]); 
+                        createElement("span",{},newDiv1,numberFormat(iAmount)+" "+prodName[iPrTyp][iProd]);
                         pointsFormat(iPoints,"div",newDiv1);
-            
+
                         iTime-=unsafeWindow.Zeit.Verschiebung;
                         tempZoneProductionData[1]--;
                         if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
@@ -13401,7 +13406,7 @@ return false;
     unsafeOverwriteFunction("buildStrickereiInner",function(position,buildingid){
         try{
             unsafeWindow._buildStrickereiInner(position,buildingid);
-        }catch(err){GM_logError("_buildStrickereiInner","","",err);}        
+        }catch(err){GM_logError("_buildStrickereiInner","","",err);}
         try{
             var zoneNr=position;
             var zoneNrF=zoneNr+6*gameLocation.get()[1];
@@ -13468,7 +13473,7 @@ return false;
         }catch(err){GM_logError("_innerInfosResponse","","",err);}
         try{
             $("innermaincontainer").setAttribute("zoneNr",zoneNr);
-            if(unsafeWindow.locationinfo["buildingid"]){ 
+            if(unsafeWindow.locationinfo["buildingid"]){
                 switch(unsafeWindow.locationinfo["buildingid"]){
                 case "13": doFactoryOil(zoneNr); break; // Oil
                 case "14": doFactoryOil(zoneNr); break; // Special Oil
@@ -13476,11 +13481,11 @@ return false;
                 case "17":  // Carpentry
                 case "18":  // Pony
                 case "19":  // Megafield
-                default: 
+                default:
                 }
-            }else{ 
-            // }else if(unsafeWindow.locationinfo["in"]){ 
-                doFactory(zoneNr); 
+            }else{
+            // }else if(unsafeWindow.locationinfo["in"]){
+                doFactory(zoneNr);
             }
         }catch(err){GM_logError("innerInfosResponse","","",err);}
     });
@@ -13492,7 +13497,7 @@ return false;
     logMegafieldJob = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logMegafieldJob"),"do_main/logMegafieldJob",[]);
     for(var i=logMegafieldJob.length-1;i>=0;i--){
         if(!logMegafieldJob[i][0]){ // no start time of the job
-            logMegafieldJob.splice(i,1); 
+            logMegafieldJob.splice(i,1);
             continue;
         }
         if(!logMegafieldJob[i][1]){ // no end time of the job
@@ -13503,7 +13508,7 @@ return false;
     }
     function doMegafieldData(){
 /*  megafield:
-    "points": STRING(INTEGER), 
+    "points": STRING(INTEGER),
     "count": STRING(INTEGER),
     "count_buy": null,
     "area": {   "1": {  "pid": INTEGER,
@@ -13567,7 +13572,7 @@ return false;
                         "timebonus_money": INTEGER,
                         "timebonus_license": INTEGER
     }
-}*/        
+}*/
         try{
             if(unsafeWindow.megafield_data){
                 updateProductDataMegafield();
@@ -13576,8 +13581,8 @@ return false;
                 var products,reward,success=1;
                 if(jobStart>0){
                     for(var i=logMegafieldJob.length-1;i>=0;i--){
-                        if(logMegafieldJob[i][0]==jobStart){ 
-                            break; 
+                        if(logMegafieldJob[i][0]==jobStart){
+                            break;
                         }
                     }
                     if(!logMegafieldJob[i]){
@@ -13594,7 +13599,7 @@ return false;
                         for(var j=0;j<products.length;j++){
                             logMegafieldJob[i][4][j]=[];
                             if("quality" in products[j]){ logMegafieldJob[i][2]=products[j].quality;        }
-                            if("pid"     in products[j]){ 
+                            if("pid"     in products[j]){
                                 logMegafieldJob[i][4][j][0]=products[j].pid;
                                 megafieldJob.products[products[j].pid]=products[j];
                                 megafieldJob.products[products[j].pid].growing=0;
@@ -13633,7 +13638,7 @@ return false;
                 if(unsafeWindow.megafield_data.area_free){
                     var zoneNrF="megafield", zoneNrS;
                     zones.setBlock(zoneNrF,"");
-                    zones.setBonus(zoneNrF,0);                    
+                    zones.setBonus(zoneNrF,0);
                     var iPrTyp=4,iProd,iTime;
                     var tempZoneProductionData=[[],0,0,true], tempZoneProductionDataSlot;
                     tempZoneProductionData[0][iPrTyp]={};
@@ -13715,7 +13720,7 @@ return false;
             var a;
             if(b&&(a=unsafeWindow.megafield_data.vehicle_slots[b])&&(!a.block)&&(!a.unlockable)){
                 megafieldVehicle[{"harvest":0,"fertilize":1}[a.type]]=b;
-                unsafeData.megafieldVehicle=megafieldVehicle.clone();                
+                unsafeData.megafieldVehicle=megafieldVehicle.clone();
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_megafieldVehicle",implode(megafieldVehicle,"setTourVehicleMegafield/megafieldVehicle"));
             }
         }catch(err){GM_logError("setTourVehicleMegafield","","",err);}
@@ -13728,7 +13733,7 @@ return false;
             raiseEvent("gameMegafieldDialogStarted");
         }catch(err){GM_logError("dialogMegafield","","",err);}
     });
-    
+
     // Club
     err_trace="Club";
     // Clubquest direct show
@@ -13818,7 +13823,7 @@ return false;
         }
     });
     */
-    
+
     // Clubdata loaded
     unsafeOverwriteFunction("initGuildResponse",function(response){
         try{
@@ -13906,9 +13911,9 @@ return false;
                         newdiv.value=type;
                         newdiv.nextElementSibling.style.display="none";
                     }
-    
+
                     //todayStr=getDateStr(now,2,false);
-                    var clubmemberLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog","[]"),"showGuildQuestStatsResponse/clubmemberLog",[]);
+                    var clubmemberLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog"),"showGuildQuestStatsResponse/clubmemberLog",[]);
                     for(var u=0;u<clubmemberLog.length;u++){
                         if(typeof clubmemberLog[u][0]!="string"){
                             clubmemberLog.splice(u,1);
@@ -13971,7 +13976,7 @@ return false;
                             }
                         }
                     }
-    
+
                     var clubmembers=new Object();
                     var clubmemberLogSum=new Object();
                     for(var i=0;i<clubmemberLog.length;i++){
@@ -13983,7 +13988,7 @@ return false;
                             clubmemberLogSum[u][0] += clubmemberLog[i][1][j][1];
                             for(var k=0;k<clubmemberLog[i][1][j][2].length;k++){
                                 var w=clubmemberLog[i][1][j][2][k][0];
-                                if(clubmemberLogSum[u][1][w]==undefined){
+                                if(clubmemberLogSum[u][1][w]===undefined){
                                     clubmemberLogSum[u][1][w]=0;
                                     clubmemberLogSum[u][1].sortObj(sortObjFunctions["productId"]);
                                 }
@@ -13996,13 +14001,13 @@ return false;
                     for(var v=0;v<container.childElementCount;v++){
                         if(container.children[v].id.match(/^line\d+$/)){
                             var lineNr=parseInt(/^line(\d+)$/.exec(container.children[v].id)[1],10);
-    
+
                             var thisUser=container.children[v].children[1].innerHTML;
                             var thisPoints=parseInt(container.children[v].children[3].innerHTML,10);
                             container.children[v].children[3].innerHTML=numberFormat(thisPoints);
-    
+
                             clubmembers[thisUser]=[thisPoints,{}];
-    
+
                             // reformat of info bubble
                             cell=$("bartt"+lineNr);
                             cell.style.whiteSpace="nowrap";
@@ -14015,9 +14020,9 @@ return false;
                                 clubmembers[thisUser][1][help]=help1;
                             }
                             cell.innerHTML="";
-    
+
                             clubmembers[thisUser][1].sortObj(sortObjFunctions["productId"]);
-    
+
                             newtable=createElement("table",{"cellspacing":"0","style":"display:inline-block;vertical-align:top;"},cell);
                             var c=2;
                             for(var w in clubmembers[thisUser][1]){
@@ -14037,7 +14042,7 @@ return false;
                                 produktPic(0,w,newtd).style.cssFloat="left";
                                 createElement("span",{},newtd,numberFormat(clubmembers[thisUser][1][w]));
                             }
-    
+
                             var clubmemberLogId = null;
                             for(var x=0;x<clubmemberLog.length;x++){
                                 if(clubmemberLog[x][0]==thisUser){
@@ -14063,12 +14068,12 @@ return false;
                                 clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][0]=thisPoints-clubmemberLogSum[thisUser][0];
                                 for(var w in clubmembers[thisUser][1]){
                                     if(!clubmembers[thisUser][1].hasOwnProperty(w)){ continue; }
-                                    var help=clubmembers[thisUser][1][w]-(clubmemberLogSum[thisUser][1][w]==undefined?0:clubmemberLogSum[thisUser][1][w]);
+                                    var help=clubmembers[thisUser][1][w]-(clubmemberLogSum[thisUser][1][w]===undefined?0:clubmemberLogSum[thisUser][1][w]);
                                     for(var x=0;x<clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1].length;x++){
                                         if(clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x][0]==w){
                                             break;
                                         }
-                                    }                               
+                                    }
                                     if(help>0){
                                         if(!clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x]){
                                             clubmemberLog[clubmemberLogId][1][clubmemberLogDateId][1][x].push([w,help]);
@@ -14111,7 +14116,7 @@ return false;
                                 }
                                 createElement("td",{"style":"text-align:right;padding-right:5px;border-left:1px solid black;"},newtr,clubmemberLog[clubmemberLogId][1][i][0]);
                                 createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr,numberFormat(sum));
-                                createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr,(clubmemberLog[clubmemberLogId][1][i][1]>0)?("+"+numberFormat(clubmemberLog[clubmemberLogId][1][i][1])):"");
+                                createElement("td",{"style":"text-align:right;padding-right:5px;"},newtr,(clubmemberLog[clubmemberLogId][1][i][1]>0)?(+numberFormat(clubmemberLog[clubmemberLogId][1][i][1])):"");
                             }
                         }
                     }
@@ -14130,7 +14135,7 @@ return false;
         startDay=((new Date(startDay.getFullYear(),startDay.getMonth(),startDay.getDate()-days)).getTime())/1000;
 
         var obj=[0,[],0,1,0];
-        var clubmemberLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog","{}"),"showGuildQuestStatsLastDays/clubmemberLog",{});
+        var clubmemberLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog"),"showGuildQuestStatsLastDays/clubmemberLog",{});
         var clubmemberLogSum=new Object();
         for(var u in clubmemberLog){
             if(!clubmemberLog.hasOwnProperty(u)){ continue; }
@@ -14143,7 +14148,7 @@ return false;
                     p += clubmemberLog[u][v][0];
                     for(var w in clubmemberLog[u][v][1]){
                         if(!clubmemberLog[u][v][1].hasOwnProperty(w)){ continue; }
-                        help[w]=(help[w]==undefined?0:help[w])+clubmemberLog[u][v][1][w];
+                        help[w]=(help[w]===undefined?0:help[w])+clubmemberLog[u][v][1][w];
                     }
 
                 }
@@ -14283,14 +14288,14 @@ return false;
                         var str="<div style='border-bottom:1px solid black;'>"+getText("quest_farm")+"&nbsp;"+nextQuest+"</div>";
                         for(var i=0;i<QUESTS["main"]["1"][nextQuest][0].length;i++){
                             if(typeof QUESTS["main"]["1"][nextQuest][0][i][0]=="object"){
-                                for(var j=0;j<QUESTS["main"]["1"][nextQuest][0][i].length;j++){                 
+                                for(var j=0;j<QUESTS["main"]["1"][nextQuest][0][i].length;j++){
                                     str += "<div>*"+numberFormat(QUESTS["main"]["1"][nextQuest][0][i][j][2])+"&nbsp;"+prodName[QUESTS["main"]["1"][nextQuest][0][i][j][0]][QUESTS["main"]["1"][nextQuest][0][i][j][1]]+"</div>";
                                 }
                             }else{
                                 str += "<div>"+numberFormat(QUESTS["main"]["1"][nextQuest][0][i][2])+"&nbsp;"+prodName[QUESTS["main"]["1"][nextQuest][0][i][0]][QUESTS["main"]["1"][nextQuest][0][i][1]]+"</div>";
                             }
                         }
-                        
+
                         toolTip.show(event,str);
                     },false);
                 }
@@ -14342,8 +14347,8 @@ return false;
         cand.style.fontWeight="bold";
         cand.setAttribute("class","link");
         cand.addEventListener("mouseover",function(event){ toolTip.show(event,getText("toSeedVendor")); },false);
-        cand.addEventListener("click",function(event){ 
-            showSeedVendor(); 
+        cand.addEventListener("click",function(event){
+            showSeedVendor();
         },false);
         cand=$("cartsubmit");
         createElement("div",{"id":"cartsubmitPerc","style":"position:absolute;top:-35px;width:70px;padding:2px;text-align:right;font-size:20px;font-weight:bold;"},cand);
@@ -14488,10 +14493,10 @@ return false;
                 }
             }
             cartContent=null;newtable=null;newtr=null;newtd=null;span=null;
-        }catch(err){GM_logError("showCart.buildTable","","",err);}  
+        }catch(err){GM_logError("showCart.buildTable","","",err);}
         }
         buildTable();
-    }catch(err){GM_logError("showCart","","",err);} 
+    }catch(err){GM_logError("showCart","","",err);}
     });
     // Farmis displayed
     unsafeOverwriteFunction("setFarmis",function(){
@@ -14502,7 +14507,7 @@ return false;
             calcFarmiCost();
             calcTotalFarmis();
             doFarmis();
-        }catch(err){GM_logError("setFarmis","","",err);}    
+        }catch(err){GM_logError("setFarmis","","",err);}
     });
 
     // Reallocate Buildings
@@ -14515,12 +14520,12 @@ return false;
             //reallocateBuilding('farm1,zone1,farm2,zone2');
             var building1=(6*set[0])+set[1];
             var building2=(6*set[2])+set[3];
-            zones.swap(building1,building2);        
+            zones.swap(building1,building2);
             unsafeData.reallocateBuildingSet=[building1,building2];
             raiseEvent("gameReallocateBuilding");
         }catch(err){GM_logError("reallocateBuilding","","",err);}
     });
-    
+
     // Farmersmarket
     function doFarmersMarketData(){
         try{
@@ -14532,7 +14537,7 @@ return false;
                     zoneNrF="farmersmarket-0";
                     zones.setBlock(zoneNrF,"");
                     zones.setBonus(zoneNrF,0);
-    
+
                     tempZoneProductionData=[[{}],BUILDING_SIZE[zones.getBuilding(zoneNrF)],BUILDING_SIZE[zones.getBuilding(zoneNrF)],true];
                     if(unsafeWindow.farmersmarket_data.flower_slots.slots){
                         for(var slot in unsafeWindow.farmersmarket_data.flower_slots.slots){
@@ -14611,7 +14616,7 @@ return false;
                                             iWaterTime=NEVER;
                                         }
                                         iAmount=prodYield[0][iProd];
-                                        iPoints=prodPoints[0][iProd];                
+                                        iPoints=prodPoints[0][iProd];
                                         if(tempZoneProductionData[0][0][iProd]){
                                             var notfound=true;
                                             for(var i=0;i<tempZoneProductionData[0][0][iProd].length;i++){
@@ -14646,7 +14651,7 @@ return false;
                                                 if((iProd!=null)&&(item["ready"])){ // production ready
                                                     iTime=nowServer;
                                                 }else if((iProd!=null)&&(item["remain"])){ // production busy
-                                                    iTime=nowServer+item["remain"]; 
+                                                    iTime=nowServer+item["remain"];
                                                 }else{
                                                     iTime=NEVER;
                                                     tempZoneProductionData[1]++;
@@ -14656,7 +14661,7 @@ return false;
                                                 tempZoneProductionDataSlot[2]++;
                                                 if(iProd!=null){
                                                     iAmount=prodYield[0][iProd];
-                                                    iPoints=iAmount*prodPoints[0][iProd];                               
+                                                    iPoints=iAmount*prodPoints[0][iProd];
                                                     if(!tempZoneProductionData[0][0][iProd]){ tempZoneProductionData[0][0][iProd]=[]; }
                                                     tempZoneProductionData[0][0][iProd].push([iAmount,iPoints,iTime,NEVER]);
                                                     if(!tempZoneProductionDataSlot[0][0][iProd]){ tempZoneProductionDataSlot[0][0][iProd]=[]; }
@@ -14719,7 +14724,7 @@ return false;
                             toolTip.show(event,toolTipZoneProduction(help));
                         },false);
                     }
-                }               
+                }
                 switch(w){
                 case 1:{ // Flower meadow
                     // Production
@@ -14810,7 +14815,7 @@ return false;
         }
     }catch(err){GM_logError("globalcommitbox","","",err);}
     },false);
-    
+
     Arrays:
     forestry_area_run       : >0 if growing
     forestry_area_time      : seconds till end of growing
@@ -14866,7 +14871,7 @@ return false;
                         {1}{1}{11} = 0 ->stock 3: fid needed to produce
                         {1}{1}{12} = 0 //item for in the farmbuilding
                         */
-                    
+
                         //make prodName[1] && prodYield[1] && prodRequire[1] = [[type,fId,amount]]
                         var store,stock,fId,bChanged=false,help,building;
                         for(var stock in result[4]){ //forestry_production_products==initForestryResponce->result[4]
@@ -14914,7 +14919,7 @@ return false;
                                     prodYield[1][fId]=1;
                                     prodRequire[1][fId]=new Array();
                                     for(var i=0;i<help[6].length;i++){
-    
+
                                         prodRequire[1][fId].push([1,help[6][i][0],help[6][i][1]]);
                                     }
                                     building=getForestryUserBuilding(2);
@@ -14968,10 +14973,10 @@ return false;
                         }
                         //GM_log("initForestryResponse prodStock:"+implode(prodStock,"prodStock"));
                         GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initForestryResponse/prodStock"));
-    
+
                         for(fId in prodName[1]){
                             if(!prodName[1].hasOwnProperty(fId)){continue;}
-    
+
                             stock=prodTyp[1][fId].replace("f","");
                             if(!!prodTyp[1][fId]&&!(result[4][stock]&&result[4][stock][fId])&&!prodBlock[1][fId].match(/b/)){
                                 prodBlock[1][fId]+="b";
@@ -14980,7 +14985,7 @@ return false;
                         store=null;fId=null;
                         // prodStock[1].sortObj();
                         GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_prodStock",implode(prodStock,"initForestryResponse/prodStock"));
-    
+
                         //forestry_farmis
                         var farmi, i;
                         totalFarmis[1]=new Object();
@@ -15001,7 +15006,7 @@ return false;
                         // totalFarmis[1].sortObj();
                         // GM_log("initForestryResponse totalFarmis:"+implode(totalFarmis));
                         GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalFarmis",implode(totalFarmis,"initForestryResponse/totalFarmis"));
-    
+
                         if(bChanged){
                             // prodName[1].sortObj();
                             // GM_log("initForestryResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
@@ -15034,7 +15039,7 @@ return false;
     for(var treeId=1;treeId<=5;treeId++){
         treeContainer = createElement("div",{"id":"forestry_sawmill_productbox_tree"+treeId,"style":"height:40px;"},container);
         el1 = createElement("div",{"id":"forestry_sawmill_productbox_log"+treeId,"class":"forestry_slot_product f_symbol"+(20+treeId),"style":"display:block;border-right:2px solid black;"},treeContainer);
-        createElement("div",{"id":"forestry_sawmill_productbox_log"+treeId+"_amount","style":"position:absolute;top:-13px;"},el1)               
+        createElement("div",{"id":"forestry_sawmill_productbox_log"+treeId+"_amount","style":"position:absolute;top:-13px;"},el1)
         for(var i=-2;i<=0;i++){
             if(el1=$("forestry_slot_products"+(treeId*3+i))){
                 treeContainer.appendChild(el1);
@@ -15125,14 +15130,14 @@ return false;
             }
         }
     }
-    
+
     unsafeOverwriteFunction("showForestryProductionBox",function(type){
         try{
             unsafeWindow._showForestryProductionBox(type);
         }catch(err){GM_logError("_showForestryProductionBox","","",err);}
         try{
             GM_logInfo("showForestryProductionBox","type="+type,"","Begin",1);
-return; 
+return;
             switch(type){
             case 1:{// sawmill
                 var container,prod,classStr,flagDisplay,div;
@@ -15146,7 +15151,7 @@ return;
                         flagDisplay = "none";
                         for(var i=1;i<=3;i++){
                             if(container.children[i].style.display!="none"){
-                                flagDisplay = "block"; 
+                                flagDisplay = "block";
                                 classStr = container.children[i].getAttribute("class");
                                 prod = parseInt(/f_symbol(\d+)/.exec(classStr)[1],10);
                                 if(!classStr.match(/ link$/)){ container.children[i].setAttribute("class",classStr+" link"); }
@@ -15163,8 +15168,8 @@ return;
                             top.unsafeData.autoAction="berater: sawmill crop";
                             document.addEventListener("gameOpenGlobalCommitBox",function(){
                                 document.removeEventListener("gameOpenGlobalCommitBox",arguments.callee,false);
-                                window.setTimeout(function(){ 
-                                    click($("globalcommitboxfooter").firstElementChild); 
+                                window.setTimeout(function(){
+                                    click($("globalcommitboxfooter").firstElementChild);
                                     top.unsafeData.autoAction=null;
                                 },500);
                             });
@@ -15179,7 +15184,7 @@ return;
             case 2:{ // carpentry
                 var container,icon,prod,help;
                 for(var i=1;i<=20;i++){
-                    try{            
+                    try{
                     container=$("forestry_productiondialog_content_item_con"+i);
                     icon=$("forestry_productiondialog_content_item"+i);
                     if(container&&icon&&(container.style.display=="block")){
@@ -15342,7 +15347,7 @@ return;
                     zones.setBonus(zoneNrF,unsafeWindow.forestry_user_buildings[building]["boni"]?unsafeWindow.forestry_user_buildings[building]["boni"]:0);
                     // maxCapacity=unsafeWindow.forestry_user_buildings[building]?unsafeWindow.forestry_user_buildings[building]["capacity"]:100;
                     res=(unsafeWindow.forestry_user_buildings[building]&&unsafeWindow.forestry_user_buildings[building]["slots"])?unsafeWindow.forestry_user_buildings[building]["slots"]:{};
-                    
+
                     tempZoneProductionData=[[{},{}],0,0,true];
                     for(var slot=1;slot<=(iSlotCount==0?1:iSlotCount);slot++){
                         GM_logInfo("doForestry","","zoneNrF="+zoneNrF+" slot="+slot+" res["+slot+"]="+implode(res[slot],"doForestry/res"),"Loop",0);
@@ -15357,7 +15362,7 @@ return;
                                 iProd=(res[slot]["productid"]?parseInt(res[slot]["productid"],10):null);
                                 if(isNaN(iProd)){ iProd=null; }
                                 if((iProd!=null)&&(res[slot]["ready"]==2)){ // production busy
-                                    iTime=nowServer+res[slot]["remain"]; 
+                                    iTime=nowServer+res[slot]["remain"];
                                 }else if((iProd!=null)&&(res[slot]["ready"]==1)){ // production ready
                                     iTime=nowServer;
                                 }else{
@@ -15389,7 +15394,7 @@ return;
                             top.unsafeData.autoAction="berater: forestry building crop";
                             document.addEventListener("gameOpenGlobalCommitBox",function(){
                                 document.removeEventListener("gameOpenGlobalCommitBox",arguments.callee,false);
-                                window.setTimeout(function(){ 
+                                window.setTimeout(function(){
                                     click($("globalcommitboxfooter").firstElementChild);
                                     top.unsafeData.autoAction=null;
                                 },500);
@@ -15458,7 +15463,7 @@ return;
                         iWaterTime=NEVER;
                     }
                     iAmount=prodYield[1][iProd];
-                    iPoints=iAmount*prodPoints[1][iProd];                
+                    iPoints=iAmount*prodPoints[1][iProd];
                     if(tempZoneProductionData[0][1][iProd]){
                         var notfound=true;
                         for(var i=0;i<tempZoneProductionData[0][1][iProd].length;i++){
@@ -15474,7 +15479,7 @@ return;
                     }
                     if(iProd2!=null){
                         iAmount=prodYield[1][iProd2];
-                        iPoints=iAmount*prodPoints[1][iProd2];                  
+                        iPoints=iAmount*prodPoints[1][iProd2];
                         if(tempZoneProductionData[0][1][iProd2]){
                             var notfound=true;
                             for(var i=0;i<tempZoneProductionData[0][1][iProd2].length;i++){
@@ -15503,7 +15508,7 @@ return;
             //auto-cropping
             if((top.unsafeData.autoAction==null)&&valAutoCrop["forestry"]&&(zones.getEndtime(zoneNrF)<=unsafeWindow.Zeit.Server) && (!((div=$("forestry_forest_button2_premium"))&&(div.style.display=="block")))&&(div=$("forestry_forest_button2"))){
                 top.unsafeData.autoAction="berater: forest crop";
-                window.setTimeout(function(div){ 
+                window.setTimeout(function(div){
                     click(div);
                     top.unsafeData.autoAction=null;
                 },500,div.firstElementChild);
@@ -15522,7 +15527,7 @@ return;
                         div.innerHTML=getTimeStr(iTime,true)+"&nbsp;"+getText("shortHours");
                     }
                 }
-            }           
+            }
             // farmies
             for(var i=0;i<unsafeWindow.forestry_farmis.length;i++){
                 // GM_log("unsafeWindow.forestry_farmis["+i+"]:\n"+print_r(unsafeWindow.forestry_farmis[i],"",true,"\n"));
@@ -15595,7 +15600,7 @@ return;
         publishProductData();
     }catch(err){GM_logError("doForestry","","err_trace="+err_trace,err);}
     }
-    
+
     function forestryScrapTreeLog(step,treeId,amount){
     try{
         // GM_log("forestryScrapTreeLog BEGIN step="+step+" treeId="+treeId);
@@ -15614,7 +15619,7 @@ return;
         break;
         case 3: // click Abort
             listeningEvent="gameOpenGlobalCommitBox";
-            action=function(){ click($("forestry_slot_cancel"+unsafeWindow.currentslot)); };            
+            action=function(){ click($("forestry_slot_cancel"+unsafeWindow.currentslot)); };
         break;
         case 4: // click OK. sawmill will be reopened
             listeningEvent="gameSawmillOpened";
@@ -15638,7 +15643,7 @@ return;
         listeningEvent=null;action=null;
     }catch(err){GM_logError("forestryScrapTreeLog","step="+step+" treeId="+treeId+" amount="+amount,"",err);}
     }
-    
+
     unsafeOverwriteFunction("forestryBuySlotResponse",function(request,b){
         try{
             unsafeWindow._forestryBuySlotResponse(request,b);
@@ -15683,7 +15688,7 @@ return;
                             [1]{1}{entries}{1}[0]{productid} = 8
                             [1]{1}{entries}{1}[0]{sum} = 300
                             [1]{1}{entries}{1}[0]{type} = 1
-                            
+
                             [1]{1}{1}[0]{24} = 1800
                             [1]{1}{1}[1]{21} = 12
                             [1]{1}{1}[1]{41} = 10
@@ -15743,7 +15748,7 @@ return;
                 GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_questData",implode(questData,"initCampaignsResponse/questData"));
                 unsafeData.questData=questData.clone();
                 //GM_log("onclick:"+$('forestry_quest_entry' + forestryCampaignNr + '_' + questData["forestry"][1]["nr"] + '_1_6').onclick);
-    
+
                 //make prodName[1] && forestry_stock
                     //GM_log("initCampaignsResponse bChanged:"+ bChanged+" prodName:"+implode(prodName));
                 try{
@@ -15826,11 +15831,11 @@ return;
             }
             var preis=parseFloat(/&nbsp;(.*)/.exec($("adzonetooltip1").firstElementChild.innerHTML)[1].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
             createElement("div",{},$("adzonetooltip1"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/8));
-    
+
             var preis=gut[0]*parseInt(/&nbsp;(\d*)/.exec($("adzonetooltip2").firstElementChild.innerHTML)[1],10);
             createElement("div",{},$("adzonetooltip2"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/16));
             $("adzonetooltip2").firstElementChild.innerHTML +="&nbsp;("+moneyFormatInt(preis)+")";
-    
+
             var preis=gut[0]*parseInt(/&nbsp;(\d*)/.exec($("adzonetooltip3").firstElementChild.innerHTML)[1],10);
             createElement("div",{},$("adzonetooltip3"),"<img width='12' height='12' src='"+images[0].getAttribute("src")+"'>/<img width='12' height='12' src='"+images[2].getAttribute("src")+"'>&nbsp;"+moneyFormatInt(preis/24));
             $("adzonetooltip3").firstElementChild.innerHTML +="&nbsp;("+moneyFormatInt(preis)+")";
@@ -15869,7 +15874,7 @@ return;
                     var product=parseInt(result[1]['wettbewerb_produkt'],10);
                     GM_setValue(COUNTRY+"_"+SERVER+"_competition",implode([product,result[1]['wettbewerb_ende']],"setCityWBWContentResponse/competition"));
                 }else{
-                    var help=explode(GM_getValue(COUNTRY+"_"+SERVER+"_competition","[]"),"setCityWBWContentResponse/competition",[]);
+                    var help=explode(GM_getValue(COUNTRY+"_"+SERVER+"_competition"),"setCityWBWContentResponse/competition",[]);
                     if(help[1]==result[1]["wettbewerb_ende"]){
                         var product=help[0];
                     }else{
@@ -15895,7 +15900,7 @@ return;
                 if(cand.length>15){ cand[15].style.borderBottom="1px solid black"; }
                 if(cand.length>50){ cand[50].style.borderBottom="1px solid black"; }
                 newdiv=null;
-                $("localwbwproductname").innerHTML += "&nbsp;("+sign_sum+"&nbsp;"+numberFormat(sum)+")";
+                $("localwbwproductname").innerHTML += "&nbsp;(∑&nbsp;"+numberFormat(sum)+")";
                 if(result[1]['open']!=1){
                     nextproduct=parseInt(result[1]['wettbewerb_produkt'],10);
                     if(nextproduct>0){
@@ -16019,7 +16024,7 @@ return;
         err_trace="events city 2: windmillSlots";
         unsafeOverwriteFunction("windmillSlots",function(){
             try{
-                unsafeWindow._windmillSlots();  
+                unsafeWindow._windmillSlots();
             }catch(err){ GM_logError("_windmillSlots","","",err); }
             try{
                 var zoneNrF="windmill";
@@ -16040,7 +16045,7 @@ return;
                             iProd=(unsafeWindow.windmill_slots[slot]["formula"]?parseInt(unsafeWindow.windmill_slots[slot]["formula"],10):null);
                             if(isNaN(iProd)){ iProd=null; }
                             if((iProd!=null)&&(unsafeWindow.windmill_slots[slot]["end"])){ // production ready or busy
-                                iTime=parseInt(unsafeWindow.windmill_slots[slot]["end"],10); 
+                                iTime=parseInt(unsafeWindow.windmill_slots[slot]["end"],10);
                             }else{ // no production
                                 iTime=NEVER;
                                 tempZoneProductionData[1]++;
@@ -16051,7 +16056,7 @@ return;
                             tempZoneProductionDataSlot[2]++;
                             if(iProd!=null){
                                 iAmount=prodYield[iPrTyp][iProd];
-                                iPoints=iAmount*prodPoints[iPrTyp][iProd];                          
+                                iPoints=iAmount*prodPoints[iPrTyp][iProd];
                                 if(!tempZoneProductionData[0][iPrTyp][iProd]){ tempZoneProductionData[0][iPrTyp][iProd]=[]; }
                                 tempZoneProductionData[0][iPrTyp][iProd].push([iAmount,iPoints,iTime,NEVER]);
                                 tempZoneProductionDataSlot[0][iPrTyp][iProd]=[];
@@ -16075,7 +16080,7 @@ return;
             try{
                 for(var i=0;i<prodStock[2].length;i++){
                     prodStock[2][i]=0;
-                }               
+                }
                 if (unsafeWindow.windmill_stock) {
                     for (var prodId in unsafeWindow.windmill_stock) {
                         prodStock[2][parseInt(prodId,10)]=parseInt(unsafeWindow.windmill_stock[prodId]["amount"],10);
@@ -16095,7 +16100,7 @@ return;
             try{
                 switch(mode){
                 case "windmillstartproduction": {
-                    raiseEvent("gameWindmillDialogStart"); 
+                    raiseEvent("gameWindmillDialogStart");
                 break; }
                 case "windmillstartproductioncommit": {
                     var currAmount,currProd;
@@ -16104,13 +16109,13 @@ return;
                         for (var b = 0; b < m.length; b++) {
                             currProd= m[b][0];
                             currAmount= m[b][1];
-                            if(prodStock[0][currProd]-currAmount<prodMinRack[0][currProd]){ 
+                            if(prodStock[0][currProd]-currAmount<prodMinRack[0][currProd]){
                                 createElement("div",{"class":"blackbox alertbox","style":"position:absolute;left:0;top:240px;"},$("windmill_paper_headline"),getText("alertWillLowRack"));
-                                break; 
+                                break;
                             }
                         }
                     }
-                    raiseEvent("gameWindmillDialogCommit"); 
+                    raiseEvent("gameWindmillDialogCommit");
                 break; }
                 }
             }catch(err){GM_logError("windmillDialog","","",err);}
@@ -16135,7 +16140,7 @@ return;
                     div.parentNode.setAttribute("prod",prodId);
                     div.parentNode.setAttribute("class","link");
                     div.parentNode.addEventListener("click",function(event){ showMarket(this.getAttribute("prod")); },false);
-                    div.parentNode.addEventListener("mouseover",function(event){ showGoToMarketToolTip(event,this.getAttribute("prod")); },false);                      
+                    div.parentNode.addEventListener("mouseover",function(event){ showGoToMarketToolTip(event,this.getAttribute("prod")); },false);
                     if(gut[prodId]){
                         goodsValue[0]+=data["in"][b].amount*gut[prodId];
                         div.innerHTML+="<br>"+moneyFormatInt(data["in"][b].amount*gut[prodId]);
@@ -16153,7 +16158,7 @@ return;
                     div.parentNode.setAttribute("prod",prodId);
                     div.parentNode.setAttribute("class","link");
                     div.parentNode.addEventListener("click",function(event){ showMarket(this.getAttribute("prod")); },false);
-                    div.parentNode.addEventListener("mouseover",function(event){ showGoToMarketToolTip(event,this.getAttribute("prod")); },false);                      
+                    div.parentNode.addEventListener("mouseover",function(event){ showGoToMarketToolTip(event,this.getAttribute("prod")); },false);
                     if(gut[prodId]){
                         goodsValue[1]+=data["out"][b].amount*gut[prodId];
                         div.innerHTML+="<br>"+moneyFormatInt(data["out"][b].amount*gut[prodId]);
@@ -16211,7 +16216,7 @@ return;
                 for(var w=0;w<unsafeWindow.formulas[0][formula][3].length;w++){
                     sum1 += unsafeWindow.formulas[0][formula][3][w][1]*gut[unsafeWindow.formulas[0][formula][3][w][0]];
                     str += '<tr><td>'+produktPic(0,unsafeWindow.formulas[0][formula][3][w][0],createElement("div")).parentNode.innerHTML+'</td>';
-                    str += '<td style="text-align:right;">'+numberFormat(unsafeWindow.formulas[0][formula][3][w][1])+'&nbsp;'+sign_mult+'</td>';
+                    str += '<td style="text-align:right;">'+numberFormat(unsafeWindow.formulas[0][formula][3][w][1])+'&nbsp;'+"×"+'</td>';
                     str += '<td style="text-align:right;">'+moneyFormat(gut[unsafeWindow.formulas[0][formula][3][w][0]])+'&nbsp;=</td>';
                     str += '<td style="text-align:right;">'+moneyFormatInt(unsafeWindow.formulas[0][formula][3][w][1]*gut[unsafeWindow.formulas[0][formula][3][w][0]])+'</td></tr>';
                 }
@@ -16229,7 +16234,7 @@ return;
                     str='<table>';
                     str += '<tr><th colspan="3" class="lightBg">'+getText("gain")+'</th></tr>';
                     str += '<tr><td>'+produktPic(0,unsafeWindow.formulas[0][formula][5][0][0],createElement("div")).parentNode.innerHTML+'</td>';
-                    str += '<td style="text-align:right;">'+numberFormat(unsafeWindow.formulas[0][formula][5][0][1])+'&nbsp;'+sign_mult+'</td>';
+                    str += '<td style="text-align:right;">'+numberFormat(unsafeWindow.formulas[0][formula][5][0][1])+'&nbsp;'+"×"+'</td>';
                     str += '<td style="text-align:right;">'+moneyFormat(gut[unsafeWindow.formulas[0][formula][5][0][0]])+'</td>';
                     str += '</table>';
                     newtr=createElement("tr",{"class":"hoverBgCc9","mouseOverText":str},newtable);
@@ -16250,8 +16255,8 @@ return;
                     str='<table>';
                     str += '<tr><th colspan="4" class="lightBg">'+getText("gain")+'</th></tr>';
                     str += '<tr><td>'+produktPic(0,unsafeWindow.formulas[0][formula][5][1][0],createElement("div")).parentNode.innerHTML+'</td>';
-                    str += '<td style="text-align:right;">'+numberFormat(c)+'&nbsp;'+sign_mult+'</td>';
-                    str += '<td style="text-align:right;">'+numberFormat(unsafeWindow.formulas[0][formula][5][1][1])+'&nbsp;'+sign_mult+'</td>';
+                    str += '<td style="text-align:right;">'+numberFormat(c)+'&nbsp;'+"×"+'</td>';
+                    str += '<td style="text-align:right;">'+numberFormat(unsafeWindow.formulas[0][formula][5][1][1])+'&nbsp;'+"×"+'</td>';
                     str += '<td style="text-align:right;">'+moneyFormat(gut[unsafeWindow.formulas[0][formula][5][1][0]])+'</td>';
                     str += '</table>';
                     newtr=createElement("tr",{"class":"hoverBgCc9","mouseOverText":str},newtable);
@@ -16273,7 +16278,7 @@ return;
                     sum1=c*unsafeWindow.formulas[0][formula][5][2][1];
                     str='<table>';
                     str += '<tr><th colspan="2" class="lightBg">'+getText("points")+'</th></tr>';
-                    str += '<tr><td style="text-align:right;">'+numberFormat(c)+'&nbsp;'+sign_mult+'</td>';
+                    str += '<tr><td style="text-align:right;">'+numberFormat(c)+'&nbsp;'+"×"+'</td>';
                     str += '<td style="text-align:right;">'+pointsFormat(unsafeWindow.formulas[0][formula][5][2][1],"span",createElement("div")).parentNode.innerHTML+'</td>';
                     str += '</table>';
                     newtr=createElement("tr",{"class":"hoverBgCc9","mouseOverText":str},newtable);
@@ -16338,7 +16343,7 @@ return;
         // Lottery
         err_trace="events city 2: Lottery";
         // lotteryLog[]=[day,id of daily lot,exchanged products|null|undefined,id's of bought lots|undefined]
-        lotteryLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog","[]"),"do_main/lotteryLog",[]);
+        lotteryLog=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog"),"do_main/lotteryLog",[]);
         if(!(lotteryLog instanceof Array)){ lotteryLog = []; }
         function setLotteryLogId(){
             lotteryLog.sort(sortObjFunctions["date"]);
@@ -16376,7 +16381,7 @@ return;
                     if(unsafeData.lotteryCollectForPrize){
                         var lotteryCollectForPrize=unsafeData.lotteryCollectForPrize.clone();
                     }else{
-                        var lotteryCollectForPrize=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize", "{}"),"updateLotRack/lotteryCollectForPrize",{});
+                        var lotteryCollectForPrize=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize"),"updateLotRack/lotteryCollectForPrize",{});
                     }
                     if (!lotteryCollectForPrize["total"]){ lotteryCollectForPrize["total"]=new Array(); }
                     var newdiv;
@@ -16391,7 +16396,7 @@ return;
                             newdiv.innerHTML=help;
                             newdiv.style.backgroundColor="#AA0000";
                         }else{
-                            newdiv.innerHTML="+"+help;
+                            newdiv.innerHTML=+help;
                             newdiv.style.backgroundColor="green";
                         }
                     }
@@ -16410,7 +16415,7 @@ return;
                     if(unsafeData.lotteryCollectForPrize){
                         var lotteryCollectForPrize=unsafeData.lotteryCollectForPrize.clone();
                     }else{
-                        var lotteryCollectForPrize=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize", "{}"),"updateLotteryPrizes/lotteryCollectForPrize",{});
+                        var lotteryCollectForPrize=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize"),"updateLotteryPrizes/lotteryCollectForPrize",{});
                     }
                     // delete collecting of missing prizes
                     for(var v in lotteryCollectForPrize){
@@ -16441,7 +16446,7 @@ return;
                     for(var v=0;v<divLotteryprizes.childElementCount;v++){
                         if(!divLotteryprizes.children[v].id.match(/lotteryprize\d+/)){ continue; }
                         var prizeId=parseInt(divLotteryprizes.children[v].id.replace("lotteryprize",""),10);
-                        if (lotteryCollectForPrize[prizeId]==undefined){ lotteryCollectForPrize[prizeId]=false; }
+                        if (lotteryCollectForPrize[prizeId]===undefined){ lotteryCollectForPrize[prizeId]=false; }
                         cell=createElement("input",{"id":"inputLotteryCollectForPrize"+prizeId,"class":"link","type":"checkbox","checked":lotteryCollectForPrize[prizeId],"style":"position:absolute;top:35px;left:10px;"},divLotteryprizes.children[v].firstElementChild);
                         cell.addEventListener("click",function(){
                             var prizeId=parseInt(this.id.replace("inputLotteryCollectForPrize",""),10);
@@ -16527,7 +16532,7 @@ return;
                     if(unsafeData.lotteryCollectForPrize){
                         var lotteryCollectForPrize=unsafeData.lotteryCollectForPrize.clone();
                     }else{
-                        var lotteryCollectForPrize=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize", "{}"),"showLotDecision/lotteryCollectForPrize",{});
+                        var lotteryCollectForPrize=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryCollectForPrize"),"showLotDecision/lotteryCollectForPrize",{});
                     }
                     if(!lotteryCollectForPrize["total"]){ lotteryCollectForPrize["total"]=new Array(); }
                     if(!lotteryCollectForPrize["total"][lotid]){ lotteryCollectForPrize["total"][lotid]=0; }
@@ -16537,7 +16542,7 @@ return;
                         newdiv.innerHTML=help;
                         newdiv.style.backgroundColor="#AA0000";
                     }else{
-                        newdiv.innerHTML="+"+help;
+                        newdiv.innerHTML=+help;
                         newdiv.style.backgroundColor="green";
                     }
                     newdiv=null;
@@ -16574,7 +16579,7 @@ return;
         err_trace="Donkey Waltraud";
         // logDonkey[]=[day,points,[received gifts]]
         // same pattern as QUESTS
-        logDonkey=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey","[]"),"do_main/logDonkey",[]);
+        logDonkey=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey"),"do_main/logDonkey",[]);
         if(!(logDonkey instanceof Array)){ logDonkey = []; }
         function showGoToDonkey(){
         try{
@@ -16583,7 +16588,7 @@ return;
                 showDonkey=false;
             }else{
                 for(var i=logDonkey.length-1;i>=0;i--){
-                    if(logDonkey[i][0]==todayServerStr){ 
+                    if(logDonkey[i][0]==todayServerStr){
                         showDonkey=false;
                         break;
                     }
@@ -16605,7 +16610,7 @@ return;
                 delete nodes["goToDonkey"];
             }
         }catch(err){GM_logError("hideGoToDonkey","","",err);}
-        }       
+        }
         showGoToDonkey();
         unsafeOverwriteFunction("dailyDonkeyResult",function(response){
             try{
@@ -16637,7 +16642,7 @@ return;
                     GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_logDonkey",implode(logDonkey,"dailyDonkeyResult/logDonkey"));
                 }
             }catch(err){GM_logError("dailyDonkeyResult","","",err);}
-        });     
+        });
     }
 
     // on load execute ============================================================================
@@ -16682,7 +16687,7 @@ return;
     function loop1(){
     if(DEVMODE_FUNCTION){ var trackingHandle = tracking.start("berater","loop1"); }
         try{
-        //timeMeasureStart("loop1");    
+        //timeMeasureStart("loop1");
         // test session
         if (unsafeWindow.rid!=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_session","")){ unsafeWindow.initZones(1); }
         else{ GM_setValue2(COUNTRY+"_"+SERVER+"_sessionlost",false,74); }
@@ -16721,14 +16726,14 @@ return;
         var readyZoneAdded=0;
         for(var i in ALL_SLOTS){
             if(!ALL_SLOTS.hasOwnProperty(i)){ continue; }
-            if(!zones.getBlock(i)){ 
+            if(!zones.getBlock(i)){
                 readyZoneAdded+=zones.checkReady(i);
             }
         }
         if(readyZoneAdded>0){
             GM_logInfo("loop1","","readyZone="+implode(unsafeData.readyZone,"loop1/readyZone"),"Zone ready",0);
             raiseEvent("gameZoneReady");
-            // GM_log("unsafeData.readyZone:\n"+print_r(unsafeData.readyZone,"",true,"\n"));                    
+            // GM_log("unsafeData.readyZone:\n"+print_r(unsafeData.readyZone,"",true,"\n"));
         }
         if (totalEndtime==-1){
             help=getText("cropped").toUpperCase();
@@ -16747,7 +16752,7 @@ return;
         document.title=help+documentTitle;
 
         //raising events of other pages
-        var raisedEvents=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_raisedEvents","{}"),"loop1/raisedEvents",{});
+        var raisedEvents=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_raisedEvents"),"loop1/raisedEvents",{});
         for(var v in raisedEvents){
             if(!raisedEvents.hasOwnProperty(v)){ continue; }
             raiseEvent(v);
@@ -16821,7 +16826,7 @@ try{
             else if (candinput[v].name.search("preis")!=-1){ neuvertrag[3][/(\d+)/.exec(candinput[v].name)[1]][2]=parseFloat(candinput[v].value,10); }
         }
         if(neuvertrag[2].toLowerCase()!=USERNAME){
-            var vertraegeOut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut","[]"),"do_vertraege_new/vertraegeOut",[]);
+            var vertraegeOut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut"),"do_vertraege_new/vertraegeOut",[]);
             var vertraegeOutIndex={};
             var valContractLogAmount=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valContractLogAmount",200);
             neuvertrag[0]=0;
@@ -16834,13 +16839,13 @@ try{
                     vertraegeOutIndex[vertraegeOut[v][0]]=v;
                     neuvertrag[0]=Math.max(neuvertrag[0],vertraegeOut[v][0]);
                 }
-            }           
+            }
             neuvertrag[0]++;
             vertraegeOut.push(neuvertrag);
             vertraegeOut.sort(function(a,b){return (a[1]-b[1]);});
             vertraegeOut.splice(0,vertraegeOut.length-valContractLogAmount); // shrink on storage amount
             GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut",implode(vertraegeOut,"do_vertraege_new/vertraegeOut"));
-            var contractPrices=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise","[]"),"do_vertraege_new/vertraegePreise",[]);
+            var contractPrices=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise"),"do_vertraege_new/vertraegePreise",[]);
             for(var v=0;v<neuvertrag[3].length;v++){
                 contractPrices[neuvertrag[3][v][0]]=neuvertrag[3][v][2];
             }
@@ -16871,14 +16876,14 @@ try{
                     onload: function(response){
                         try{
                             GM_logInfo("contractMultiSubmit.onload","","",getText("sentContractNrX").replace(/%1%/,d));
-                        }catch(err){GM_logError("contractMultiSubmit.onload","","",err);}           
+                        }catch(err){GM_logError("contractMultiSubmit.onload","","",err);}
                     },
                     onerror: function(response){
                         GM_logError("contractMultiSubmit.onerror","","",""+response.responseText);
                     },
                     timeout: function(response){
                         GM_logError("contractMultiSubmit.timeout","","",""+response.responseText);
-                    }                   
+                    }
                     });
                 },d*100,d);
             }
@@ -16888,7 +16893,7 @@ try{
                 GM_logInfo("#multiSubmit.click","","",getText("sentContractNrX").replace(/%1%/,c));
                 submitButton=null;submitForm=null;
             },c*100,c);
-        }catch(err){GM_logError("#multiSubmit.click","","",err);}       
+        }catch(err){GM_logError("#multiSubmit.click","","",err);}
         },false);
         createElement("div",{},newdiv);
         newbutton=createElement("input",{"type":"button","class":"link msg_input","value":"-"},newdiv);
@@ -16912,7 +16917,7 @@ try{
     }else{
         // contract edit page
         err_trace="contract edit page";
-        var pagedata=explode(GM_getValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew","{}"),"do_vertraege_new/pagedataVertraegeNew",{});
+        var pagedata=explode(GM_getValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew"),"do_vertraege_new/pagedataVertraegeNew",{});
         GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeNew","{}");
 
         var candtr=$("addproduct").getElementsByTagName("tr");
@@ -16970,7 +16975,7 @@ try{
 
                 var str='<table class="white" cellspacing="0">';
                 str += '<tr><th colspan="2" class="lightBg">'+prodName[0][prod]+'</td></tr>';
-                str += '<tr><td style="text-align:right;">'+numberFormat(amount)+'&nbsp;'+sign_mult+'</td><td style="text-align:right;">'+moneyFormat(price)+'</td></tr>';
+                str += '<tr><td style="text-align:right;">'+numberFormat(amount)+'&nbsp;'+"×"+'</td><td style="text-align:right;">'+moneyFormat(price)+'</td></tr>';
                 str += '<tr><td style="text-align:right;">=</td><td style="text-align:right;">'+moneyFormat(amount*price)+'</td></tr>';
 
                 str += '</table>';
@@ -16987,7 +16992,7 @@ try{
         unsafeOverwriteFunction("buildCart",function(){
             // try{
             //  unsafeWindow._buildCart();
-            // }catch(err){ GM_logError("_buildCart","","",err); }      
+            // }catch(err){ GM_logError("_buildCart","","",err); }
             try{
                 var html = '';
                 var count = -1;
@@ -17012,7 +17017,7 @@ try{
                         var price=currContract[prod][1];
                         var str='<table cellspacing="0">';
                         str += '<tr><th colspan="2" class="lightBg">'+prodName[0][prod]+'</td></tr>';
-                        str += '<tr><td style="text-align:right;">'+numberFormat(amount)+'&nbsp;'+sign_mult+'</td><td style="text-align:right;">'+moneyFormat(price)+'</td></tr>';
+                        str += '<tr><td style="text-align:right;">'+numberFormat(amount)+'&nbsp;'+"×"+'</td><td style="text-align:right;">'+moneyFormat(price)+'</td></tr>';
                         str += '<tr><td style="text-align:right;">=</td><td style="text-align:right;">'+moneyFormat(amount*price)+'</td></tr>';
                         str += '</table>';
                         toolTip.show(event,str);
@@ -17026,13 +17031,13 @@ try{
                     newdiv2=createElement("input",{"type":"hidden","name":"preis["+count+"]","id":"preis_"+count,"value":unsafeWindow.cart[prod].preis_neu},newdiv1);
                 }
                 createElement("div",{"style":"clear:both;"},newdiv);
-                
+
                 $("preis_total").innerHTML=getText("total")+":<br>"+moneyFormat(sum);
                 newdiv=null;newdiv1=null;newdiv2=null;
             }catch(err){GM_logError("buildCart","","",err);}
         });
         unsafeWindow.buildCart();
-        
+
         // Filling data
         err_trace="Filling data";
         unsafeWindow.fillContract = function(player,data){
@@ -17079,10 +17084,10 @@ try{
         unsafeOverwriteFunction("addItem",function(pid){
             try{
                 unsafeWindow._addItem(pid);
-            }catch(err){ GM_logError("_addItem","pid="+pid,"",err); }      
+            }catch(err){ GM_logError("_addItem","pid="+pid,"",err); }
             try{
                 window.setTimeout(function(){
-                    var contractPrices=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise","[]"),"do_vertraege_new/addproduct/vertraegePreise",[]);
+                    var contractPrices=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegePreise"),"do_vertraege_new/addproduct/vertraegePreise",[]);
                     var cell=$("neu_preis");
                     if(cell&&(cell.value=="0")){
                         var new_produkt=parseInt(unsafeWindow.addboxid,10);
@@ -17104,7 +17109,7 @@ try{
 
         // save contract, [target user,{"prod":[amount,price],...}]
         err_trace="save contract";
-        var contractSave=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave","[]"),"do_vertraege_new/contractSave",[]);
+        var contractSave=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave"),"do_vertraege_new/contractSave",[]);
         var top=345;
         var right=120;
         for(var v=0;v<10;v++){
@@ -17116,7 +17121,7 @@ try{
             newdiv=createElement("div",{"id":"contractSave"+v,"class":"link hoverBgLightblue","style":"position:absolute;top:"+top+"px;right:"+right+"px;width:13px;padding:1px;color:black;text-align:center;border:2px inset black;border-radius:10px;"+(contractSave[v]?"background-color:#bb7;":"")},ALL,v+1);
             newdiv.addEventListener("mouseover",function(event){
                 try{
-                    var contractSave=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave","[]"),"do_vertraege_new/contractSave/mouseover",[]);
+                    var contractSave=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave"),"do_vertraege_new/contractSave/mouseover",[]);
                     var currNr=parseInt(this.id.replace(/contractSave/,""),10);
                     var str='<table cellspacing="0" cellpadding="0" style="width:100%;">';
                     if(contractSave[currNr]){
@@ -17141,7 +17146,7 @@ try{
             },false);
             newdiv.addEventListener("click",function(event){
                 try{
-                    var contractSave=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave","[]"),"do_vertraege_new/contractSave/click",[]);
+                    var contractSave=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_contractSave"),"do_vertraege_new/contractSave/click",[]);
                     var currNr=parseInt(this.id.replace(/contractSave/,""),10);
                     if(event.ctrlKey){
                         // save this contract
@@ -17175,8 +17180,8 @@ try{
     //GM_log("buildAlteVertraege:"+mode);
     loadProductData();
     var vertraege;
-    if (mode=="In"){ vertraege=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn","[]"),"do_vertraege_overview/vertraegeIn",[]); }
-    else{ vertraege=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut","[]"),"do_vertraege_overview/vertraegeOut",[]); }
+    if (mode=="In"){ vertraege=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn"),"do_vertraege_overview/vertraegeIn",[]); }
+    else{ vertraege=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut"),"do_vertraege_overview/vertraegeOut",[]); }
     var container=document.getElementsByTagName("table")[1].parentNode;
     container.innerHTML="";
     container.setAttribute("mode",mode);
@@ -17256,10 +17261,10 @@ try{
         newimg.addEventListener("mouseover",function(event){ toolTip.show(event,getText("delete")); },false);
         newimg.addEventListener("click",function(){
             var objId=this.getAttribute("objId");
-            var mode=this.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.getAttribute("mode");               
+            var mode=this.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.getAttribute("mode");
             alert2(getText("delete")+"?",getText("yes"),getText("no"),function(){ return function(mode){
                 if (mode=="In"){
-                    var vertraegeIn=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn","[]"),"do_vertraege_overview/vertraegeIn",[]);
+                    var vertraegeIn=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn"),"do_vertraege_overview/vertraegeIn",[]);
                     for(var v=vertraegeIn.length-1;v>=0;v--){
                         if(vertraegeIn[v][0]==objId){ break; }
                     }
@@ -17268,7 +17273,7 @@ try{
                         GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(vertraegeIn,"buildAlteVertraege/vertraegeIn"));
                     }
                 }else{
-                    var vertraegeOut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut","[]"),"do_vertraege_overview/vertraegeOut",[]);
+                    var vertraegeOut=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut"),"do_vertraege_overview/vertraegeOut",[]);
                     for(var v=vertraegeOut.length-1;v>=0;v--){
                         if(vertraegeOut[v][0]==objId){ break; }
                     }
@@ -17288,7 +17293,7 @@ try{
 function do_vertraege_overview(){
 try{
     //GM_log("do_vertraege_overview");
-    var pagedata=explode(GM_getValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeOverview","{}"),"do_vertraege_overview/pagedataVertraegeOverview",{});
+    var pagedata=explode(GM_getValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeOverview"),"do_vertraege_overview/pagedataVertraegeOverview",{});
     GM_setValue(COUNTRY+"_"+SERVER+"_pagedataVertraegeOverview","{}");
 
     var candtable=document.getElementsByTagName("table");
@@ -17306,7 +17311,7 @@ try{
         var sumTotalOut=0;
         var valContractLogAmount=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valContractLogAmount",200);
         // vertraegeX[id]=[time,person,[[prod,amount,single price],...]]
-        var vertraegeIn=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn","[]"),"do_vertraege_overview/vertraegeIn",[]);
+        var vertraegeIn=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn"),"do_vertraege_overview/vertraegeIn",[]);
         var vertraegeInIndex={};
         for(var v=0;v<vertraegeIn.length;v++){
             if(isNaN(vertraegeIn[v][0])||(vertraegeInIndex[vertraegeIn[v][0]]>-1)){
@@ -17315,7 +17320,7 @@ try{
             }else{
                 vertraegeInIndex[vertraegeIn[v][0]]=v;
             }
-        }       
+        }
         for(var v=0;v<candtr.length;v++){
             candtd=candtr[v].getElementsByTagName("td");
             canda=candtr[v].getElementsByTagName("a");
@@ -17389,7 +17394,7 @@ try{
     createElement("td",{"style":"border-top:1px solid #aaa;border-left:1px dashed black;padding-right:5px;padding-left:5px;"},candtr[0]);
     createElement("td",{"colspan":"2","style":"border-top:1px solid #aaa;border-left:1px dashed black;padding-right:5px;padding-left:5px;"},candtr[0],getText("marketPrice"));
     if (pageZusatz["typ"]=="in"){
-        vertraegeIn=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn","[]"),"do_vertraege_show/vertraegeIn",[]);
+        vertraegeIn=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn"),"do_vertraege_show/vertraegeIn",[]);
         for(vertraegeInId=vertraegeIn.length-1;vertraegeInId>=0;vertraegeInId--){
             if(vertraegeIn[vertraegeInId][0]==pageZusatz["v"]){ break; }
         }
@@ -17477,7 +17482,7 @@ function do_hilfe(){
                 if(help[1]){ createElement("p",{},div,help[1]); }
             }
             container=null;div=null;
-        }catch(err){GM_logError("help.click","","",err);}   
+        }catch(err){GM_logError("help.click","","",err);}
     },false);
     if (GM_getValue("tutorial",0)==0){
         click(newa);
@@ -17503,7 +17508,7 @@ function do_hilfe(){
         },false);
         nodes["questinfos"]=$("questinfos");
         removeElement(nodes["questinfos"].children[nodes["questinfos"].childElementCount-1]);
-        
+
         /*
         var normal_quest=new Array();
         var cand, canddiv, qnr=0, prodId, amount;
@@ -17526,7 +17531,7 @@ function do_hilfe(){
                     amount = parseInt(canddiv.children[k].children[1].innerHTML.replace(/[x*|&nbsp;|\.]/gi,""),10);
                     normal_quest[qnr][0].push([0,prodId,amount]);
                 }
-                
+
                 normal_quest[qnr][1] = (v<100?1:2);
 
                 for(var k=0;k<cand.children[2].childElementCount;k++){
@@ -17609,7 +17614,7 @@ function do_hilfe(){
                             }
                             questCurr[0][j][4]=true;
                         }
-                    }               
+                    }
                     for(var i=0;i<line.children[1].childElementCount;i++){
                         cell = line.children[1].children[i];
                         cell.style.backgroundColor = "";
@@ -17625,7 +17630,7 @@ function do_hilfe(){
                             }else{
                                 if((type==questCurr[0][j][0])&&(prod==questCurr[0][j][1])){ item=questCurr[0][j]; }
                             }
-                        }   
+                        }
                         if(item){
                             if(!item[4]){
                                 cell.children[1].style.textDecoration="line-through";
@@ -17640,7 +17645,7 @@ function do_hilfe(){
                                 GM_logWarning("do_hilfe","","quCamp="+quCamp+" quNr="+quNr+" product="+prodName[type][prod]+" data="+numberFormat(item[2])+" read="+numberFormat(amount),"Amount of product wrong!");
                             }
                         }else{
-                            GM_logWarning("do_hilfe","","quCamp="+quCamp+" quNr="+quNr+" product="+prodName[type][prod]+" i="+i+" prod="+prod,"Data of product unknown!"); 
+                            GM_logWarning("do_hilfe","","quCamp="+quCamp+" quNr="+quNr+" product="+prodName[type][prod]+" i="+i+" prod="+prod,"Data of product unknown!");
                         }
                         if(amount>=10000){ cell.children[1].innerHTML="&nbsp;"+numberFormat(amount/1000)+"k&nbsp;"; }
                         else { cell.children[1].innerHTML="&nbsp;"+numberFormat(amount)+"&nbsp;"; }
@@ -17713,7 +17718,7 @@ function do_hilfe(){
                         if(prodStock[0][prod] < prd[prod]){
                             createElement("span",{"style":"color:"+(prodBlock[0][prod]?"black":"red")+ ";"},newdiv,"-"+numberFormat(prd[prod]-prodStock[0][prod]));
                         }else{
-                            createElement("span",{"style":"color:black;"},newdiv,"+"+numberFormat(prodStock[0][prod]-prd[prod]));
+                            createElement("span",{"style":"color:black;"},newdiv,+numberFormat(prodStock[0][prod]-prd[prod]));
                         }
                     }else{
                         createElement("span",{"style":"color:black;"},newdiv,numberFormat(prd[prod]));
@@ -17896,7 +17901,7 @@ function resetVariables(){
         var loginStr = new Array(new Object(), new Object(), new Object(), new Object());//[0]=global,[1]=server,[2]=user,[3]=vars over
         var listVars = cloneInto(GM_listValues(), unsafeWindow);
         var found = false;
-        try{logindata=explode(GM_getValue("logindata","[]"),"resetVariables\logindata");
+        try{logindata=explode(GM_getValue("logindata"),"resetVariables\logindata");
             for(var v=0;v<logindata.length;v++){
                 loginStr[0][logindata[v][0]]=true;
                 loginStr[1][logindata[v][0]+"_"+logindata[v][1]]=true;
@@ -17995,16 +18000,16 @@ function manageVariables(){
         variables["GLOBAL"] = [];
         var help = cloneInto(GM_listValues(), unsafeWindow);
         help.sort();
-        var help2;                  
+        var help2;
         for(var v=0;v<help.length;v++){
             help2 = (/^([A-Z]{2}_\d+_.+?_)(.*)$/).exec(help[v]); // COUNTRY_SERVER_USER_...
             if(!help2){ help2 = (/^([A-Z]{2}_\d+_)(.*)$/).exec(help[v]); // COUNTRY_SERVER_...
                 if(!help2){ help2 = (/^([A-Z]{2}_)(.*)$/).exec(help[v]); // COUNTRY_...
             }   }
-            
+
             if(help2){
-                if(!variables[help2[1]]){ 
-                    variables[help2[1]] = []; 
+                if(!variables[help2[1]]){
+                    variables[help2[1]] = [];
                     createElement("option",{"value":help2[1]},newinput,help2[1]);
                 }
                 variables[help2[1]].push(help2[2]);
@@ -18028,7 +18033,7 @@ function manageVariables(){
             for (var v=0;v<rows.length;v++){
                 rows[v].children[0].children[0].checked = checkedNew;
             }
-            
+
         },false);
 
         newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,getText("delete"));
@@ -18058,7 +18063,7 @@ function manageVariables(){
                 alert(getText("nothingSelected"));
             }
         },false);
-    
+
         newinput=createElement("button",{"class":"link","style":"margin-left:20px;"},containerPart,getText("createStorageString"));
         newinput.addEventListener("click",function(){
             var container=$("divManageVariablesInner");
@@ -18089,7 +18094,7 @@ function manageVariables(){
                 }catch(err){ alert(getText("importStorageStringError")+"\n"+err); }
             }
         },false);
-        
+
         containerPart = createElement("div",{"style":"height:90%;overflow-y:scroll;"},container);
         function buildExportTable(filter){
         try{
@@ -18101,7 +18106,7 @@ function manageVariables(){
             var help=[],help2;
             for(var v=0;v<help3.length;v++){
                 help2 = (/^([A-Z]{2}_\d+_.+?_)(.*)$/).exec(help3[v]); // COUNTRY_SERVER_USER_...
-                if(help2){ 
+                if(help2){
                     help[v] = [help2[1],help2[2],"USER"];
                 } else {
                     help2 = (/^([A-Z]{2}_\d+_)(.*)$/).exec(help3[v]); // COUNTRY_SERVER_...
@@ -18114,7 +18119,7 @@ function manageVariables(){
                         } else {
                             help[v] = ["",help3[v],"GLOBAL"];
                         }
-                    }   
+                    }
                 }
             }
             help.sort(function(a,b){
@@ -18130,7 +18135,7 @@ function manageVariables(){
                 case "USELESS":if((!VARIABLES[help[v][2]][help[v][1]])||(VARIABLES[help[v][2]][help[v][1]][1]!=5)){ continue; } break;
                 default: if(help[v][0]!=filter){ continue; }
                 }
-                
+
                 help[v][4] = GM_getValue(help[v][0]+help[v][1]);
                 help[v][3] = "s";
                 // if(help[v][4]==""){ help[v][4]=" "; }
@@ -18138,10 +18143,10 @@ function manageVariables(){
                 else if(typeof help[v][4]=="boolean"){ help[v][3]="b"; }
                 else{   // help[v][4] = help[v][4].replace(/(:+)/g,":");
                         if(help[v][4].length>100){
-                            help[v][4] = help[v][4].substr(0,97)+"..."; 
+                            help[v][4] = help[v][4].substr(0,97)+"...";
                         }
                     }
-                
+
                 newtr=createElement("tr",{},newtable);
                 newtd = createElement("td",{},newtr);
                 createElement("input",{"type":"checkbox","class":"link","checked":false},newtd);
@@ -18156,7 +18161,7 @@ function manageVariables(){
                     createElement("td",{},newtr,"");
                 }
                 createElement("td",{},newtr,help[v][4]);
-            
+
             }
             container=null;newtable=null;newtr=null;newtd=null;
         }catch(err){ GM_logError("buildExportTable","","",err); }
@@ -18186,7 +18191,7 @@ function manageVariables(){
             var dataLevel;
             for(var v=0;v<data.length;v++){
                 help2 = (/^([A-Z]{2}_\d+_.+?_)(.*)$/).exec(data[v][0]); // COUNTRY_SERVER_USER_...
-                if(help2){ 
+                if(help2){
                     dataLevel = "USER";
                     data[v] = [help2[1],help2[2],"s",data[v][1]];
                 } else {
@@ -18203,7 +18208,7 @@ function manageVariables(){
                             dataLevel = "GLOBAL";
                             data[v] = ["",data[v][0],"s",data[v][1]];
                         }
-                    }   
+                    }
                 }
                 if(typeof data[v][3]=="number"){ data[v][2]="n"; }
                 else if(typeof data[v][3]=="boolean"){ data[v][2]="b"; }
@@ -18233,7 +18238,7 @@ function manageVariables(){
 
         container=null;containerPart=null;newselect=null;
         newdiv=null;newinput=null;
-    }catch(err){ GM_logError("buildManageVariables","","",err); } 
+    }catch(err){ GM_logError("buildManageVariables","","",err); }
     }
 
     if($("divManageVariables")){ return false; }
@@ -18259,15 +18264,15 @@ function do_login(){
         }else if($("loginbar")){
             GM_logInfo("do_login","","location.href="+location.href+" pagedata="+implode(pagedata,"do_login/pagedata"),getText("loginPageFound"));
             // account data
-            var logindata=explode(GM_getValue("logindata","[]"),"do_login/logindata",[]);
+            var logindata=explode(GM_getValue("logindata"),"do_login/logindata",[]);
             var c=0;
             var servers=new Object(); // servers["language_serverNr"]=[logindataNr,logindataNr,...]
-            for(var v=0;v<logindata.length;v++){ 
+            for(var v=0;v<logindata.length;v++){
                 if(logindata[v][4]){
                     c++;
                     if(!servers[logindata[v][0]+"_"+logindata[v][1]]){ servers[logindata[v][0]+"_"+logindata[v][1]]=new Array(); }
                     servers[logindata[v][0]+"_"+logindata[v][1]].push(v);
-                }   
+                }
             }
             // listener login-form to store username
             $("loginelements").querySelector("#loginbutton").parentNode.addEventListener("submit",function(){
@@ -18313,7 +18318,7 @@ function do_login(){
                                 login_container=null;
                             }
                         }else if(GAMEPAGES[logindata[accNr][0]]){
-                            var help=explode(GM_getValue(logindata[accNr][0]+"_pagedataLogin","{}"),"submit_login/pagedataLogin",{});
+                            var help=explode(GM_getValue(logindata[accNr][0]+"_pagedataLogin"),"submit_login/pagedataLogin",{});
                             if(!(help["dologin"]&&(typeof help["dologin"]=="object"))){
                                 help["dologin"]=new Object();
                             }
@@ -18326,7 +18331,7 @@ function do_login(){
             }
             var currDoLogin=null;
             var currDoServer=null;
-            var pagedata=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"do_login/pagedataLogin",{});
+            var pagedata=explode(GM_getValue(COUNTRY+"_pagedataLogin"),"do_login/pagedataLogin",{});
             if(pagedata["doserver"]){
                 if(typeof pagedata["doserver"]=="object"){
                     for(var v in pagedata["doserver"]){
@@ -18392,7 +18397,7 @@ function do_login(){
                 // Button manage accounts
                 newbutton=createElement("div",{"class":"link beraterButtonIcon hoverBgGreen","mouseOverText":getText("accounts")},newdiv);
                 createElement("img",{"src":IMAGES["settings"],"style":"position:relative;top:-3px;left:-1px;;width:32px;height:32px;"},newbutton);
-                newbutton.addEventListener("click",function(){ unsafeWindow.buildInfoPanel("menu","accounts"); },false);            
+                newbutton.addEventListener("click",function(){ unsafeWindow.buildInfoPanel("menu","accounts"); },false);
                 // Button manage variables
                 newbutton=createElement("div",{"class":"link beraterButtonIcon hoverBgGold","mouseOverText":getText("manageVariables")+" ("+getText("adviser")+")"},newdiv);
                 createElement("img",{"src":IMAGES["floppyDisk"],"style":"position:relative;top:3px;left:3px;;width:24px;height:24px;"},newbutton);
@@ -18449,7 +18454,7 @@ function do_login(){
                                     if (c==null){
                                         c=servers[v][0];
                                     }else if(GAMEPAGES[logindata[servers[v][0]][0]]){
-                                        var help=explode(GM_getValue(logindata[servers[v][0]][0]+"_pagedataLogin","{}"),"autologinLoop/pagedataLogin",{});
+                                        var help=explode(GM_getValue(logindata[servers[v][0]][0]+"_pagedataLogin"),"autologinLoop/pagedataLogin",{});
                                         if(!(help["dologin"]&&(typeof help["dologin"]=="object"))){
                                             help["dologin"]=new Object();
                                         }
@@ -18459,7 +18464,7 @@ function do_login(){
                                     }
                                 }
                             }
-                
+
                             if (c==null){
                                 // all logged in
                                 $("divInfo").firstElementChild.innerHTML=getText("autologinAllOk");
@@ -18504,19 +18509,19 @@ function do_login_old(){
         createElement("input",{"type":"image","border":"0","src":"https://www.paypal.com/"+((LANGUAGE=="de")?"de_DE/DE":"en_US")+"/i/btn/btn_donate_LG.gif","name":"submit",alt:"PayPal"},newform);
         createElement("img",{"alt":"","border":"0","src":"https://www.paypal.com/en_US/i/scr/pixel.gif","width":"1","height":"1"},newform);
         newform=null;
-        
+
         //login
-        var logindata=explode(GM_getValue("logindata","[]"),"do_login_old/logindata",[]);
+        var logindata=explode(GM_getValue("logindata"),"do_login_old/logindata",[]);
         var c=0;
         var servers=new Object(); // servers["language_serverNr"]=[logindataNr,logindataNr,...]
-        for(var v=0;v<logindata.length;v++){ 
+        for(var v=0;v<logindata.length;v++){
             if(logindata[v][4]){
                 c++;
                 if(!servers[logindata[v][0]+"_"+logindata[v][1]]){ servers[logindata[v][0]+"_"+logindata[v][1]]=new Array(); }
                 servers[logindata[v][0]+"_"+logindata[v][1]].push(v);
-            }   
+            }
         }
-        
+
         $("login_container").querySelector("#submitlogin").addEventListener("click",function(){
             try{
                 var login_container=$("login_container");
@@ -18526,7 +18531,7 @@ function do_login_old(){
                 login_container=null;
             }catch(err){ GM_logError("login_container.submitlogin.click","","",err); }
         },false);
-        
+
         function submit_login(accNr){
             window.setTimeout(function(){
                 try{
@@ -18540,7 +18545,7 @@ function do_login_old(){
                         click(login_container.querySelector("#submitlogin"));
                         login_container=null;
                     }else if(GAMEPAGES[logindata[accNr][0]]){
-                        var help=explode(GM_getValue(logindata[accNr][0]+"_pagedataLogin","{}"),"submit_login/pagedataLogin",{});
+                        var help=explode(GM_getValue(logindata[accNr][0]+"_pagedataLogin"),"submit_login/pagedataLogin",{});
                         if(!(help["dologin"]&&(typeof help["dologin"]=="object"))){
                             help["dologin"]=new Object();
                         }
@@ -18551,10 +18556,10 @@ function do_login_old(){
                 }catch(err){ GM_logError("submit_login","accNr="+accNr,"",err); }
             },0);
         }
-            
+
         var currDoLogin=null;
         var currDoServer=null;
-        var pagedata=explode(GM_getValue(COUNTRY+"_pagedataLogin","{}"),"do_login_old/pagedataLogin",{});
+        var pagedata=explode(GM_getValue(COUNTRY+"_pagedataLogin"),"do_login_old/pagedataLogin",{});
         GM_logInfo("do_login_old","","location.href="+location.href+" pagedata="+implode(pagedata,"do_login_old/pagedata"),"");
         if(pagedata["doserver"]){
             if(typeof pagedata["doserver"]=="object"){
@@ -18600,7 +18605,7 @@ function do_login_old(){
                 }
             }
         }
-        
+
         if(currDoLogin!=null){
             submit_login(currDoLogin);
         }else{
@@ -18613,8 +18618,8 @@ function do_login_old(){
                 if($("divInfo")){ click($("divInfo")); }
                 manageVariables();
             },false);
-        
-            
+
+
             for(var v=0;v<logindata.length;v++){ if(logindata[v][4]){
                 newbutton=createElement("div",{"class":"link loginbutton hoverBgLightblue","id":"autologin"+v},newdiv,getText("server")+"&nbsp;"+logindata[v][1]+"."+logindata[v][0]+":&nbsp;"+logindata[v][2]);
                 newbutton.addEventListener("click",function(){
@@ -18622,7 +18627,7 @@ function do_login_old(){
                     submit_login(this.id.replace("autologin",""));
                 },false);
             }}
-        
+
             //Autologin
             var lastbusy=GM_getValue("loginbusy",0);
             if (isNaN(lastbusy) || now<lastbusy){ lastbusy=0; }
@@ -18632,7 +18637,7 @@ function do_login_old(){
                 newdiv.addEventListener("click",function(){
                     removeElement(this);
                 },false);
-           
+
                 for(var v in servers){
                     if(!servers.hasOwnProperty(v)){ continue; }
                     GM_setValue(v+"_sessionlost",true);
@@ -18676,7 +18681,7 @@ function do_login_old(){
                                 }
                             }
                         }
-        
+
                         if (c==null){
                             // all logged in
                             $("divInfo").innerHTML="<h1>"+getText("autologinAllOk")+"</h1>";
@@ -18832,6 +18837,7 @@ try{
         .fieldWaterReady{background:url('"+GFX+"garten/gegossen_static.gif') -20px 0px no-repeat;position:absolute;top:60px;display:block!important;width:40px;height:40px;transform:scale(2,2);}\
         .beraterButtonIcon{margin:3px;width:30px;height:30px;overflow:hidden;background-color:#936b52;border:1px groove #4d240e;border-radius: 20px;}\
         .beraterButtonIcon:hover{transform:scale(1.1);}\
+        .trasnformScale80{transform:scale(0.8);}\
         .opener{background:url('"+GFX+"questbarcontrols.png') 0px 0px no-repeat;width:20px;height:20px;}\
         .leftarrow{height:26px;width:35px;border-radius:15px;background:url('"+IMAGES["leftarrow"]+"');}\
         .leftarrow:hover{background:url('"+IMAGES["leftarrow_dark"]+"');}\
@@ -18964,6 +18970,7 @@ try{
         #cartcontent{width:400px!important;}\
         #gardencancel{right:5px!important;top:5px!important;}\
         #rankingcontent{line-height:12px;}\
+        #marketheader .naviitem_tt{top:-10px!important;}\
         .help_content{margin:20px 0 0 0;width: 345px;!important}"
     );
     GM_addStyle(
@@ -18981,7 +18988,7 @@ try{
     }
     }
     // **************************************************
-    // ChangeData Global 
+    // ChangeData Global
     // -->> add var to delete also to resetVariables
     err_trace="ChangeData Global";
     try{
@@ -18995,8 +19002,8 @@ try{
                 }
                 return encoded;
             }
-            var logindata = explode(GM_getValue("logindata",[]),"changedataGlobal/1/logindata",[]);
-            for(var v=0;v<logindata.length;v++){ 
+            var logindata = explode(GM_getValue("logindata"),"changedataGlobal/1/logindata",[]);
+            for(var v=0;v<logindata.length;v++){
                 logindata[v][3] = enc(old_enc(logindata[v][3]),4242);
             }
             GM_setValue("logindata",implode(logindata,"changedataGlobal/1/logindata"));
@@ -19005,7 +19012,7 @@ try{
             var help=cloneInto(GM_listValues(), unsafeWindow);
             var help2;
             for(var v=help.length-1;v>=0;v--){
-                if(help2=/^([a-z]{2})(_.*)$/.exec(help[v])){ 
+                if(help2=/^([a-z]{2})(_.*)$/.exec(help[v])){
                     GM_setValue(help2[1].toUpperCase()+help2[2],GM_getValue(help[v]));
                     GM_deleteValue(help[v]);
                 }
@@ -19014,13 +19021,13 @@ try{
             for(var v=help.length-1;v>=0;v--){
                 help[v][0] = help[v][0].toUpperCase();
             }
-            GM_setValue("logindata",implode(help,"changedataGlobal/3/help"));     
+            GM_setValue("logindata",implode(help,"changedataGlobal/3/help"));
         }
         }
         if(changedata<4){ GM_setValue("changedata",4); }
     }catch(err){GM_logError("changedata global","","",err);}
     // **************************************************
-    
+
     err_trace="Location exec";
     var loc=new RegExp("s(\\d+)\\."+GAMEPAGES[COUNTRY].replace(/\./g,"\\."),"i").exec(location.hostname);
     if(loc){
@@ -19037,7 +19044,7 @@ try{
             npcSaison=INIT_NPC_SAISON.clone();
             GM_setValue(COUNTRY+"_"+SERVER+"_NpcSaison",implode(npcSaison,"scriptStart/npcSaison"));
         }
-        css_styles = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles","{}"),"css_styles",INIT_CSS_STYLES);
+        css_styles = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles"),"css_styles",INIT_CSS_STYLES);
         //GM_log("css_styles length:"+css_styles.length()+" :"+implode(css_styles));
         var changeFlag=false;
         for(tag in INIT_CSS_STYLES){
@@ -19059,7 +19066,7 @@ try{
             .systemMsg_contractsale{"+css_styles["systemMsg_contractsale"][1]+"}\
             #timeHolder{"+css_styles["timeholder"][1]+"}"
         );
-    
+
         // **************************************************
         // ChangeData server
         // -->> add var to delte also to resetVariables
@@ -19072,7 +19079,7 @@ try{
             // }
             if(changedata<7){ GM_setValue(COUNTRY+"_"+SERVER+"_changedata",7); }
         }catch(err){GM_logError("changedata server","","",err);}
-    
+
         // ChangeData account
         err_trace="ChangeData account";
         try{
@@ -19096,7 +19103,7 @@ try{
             }
             case 19:{
                 // Converting object "kauf" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_kauf","{}"),"ChangeData/19/kauf",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_kauf"),"ChangeData/19/kauf",{});
                 var new_arr = [];
                 for(var id in old_obj){
                     if(!old_obj.hasOwnProperty(id)){ continue; }
@@ -19105,7 +19112,7 @@ try{
                 }
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_kauf",implode(new_arr,"ChangeData/19/kauf"));
                 // Converting object "farmiLog" to array
-                var old_obj=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog","[]"),"ChangeData/19/farmiLog",[]);
+                var old_obj=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog"),"ChangeData/19/farmiLog",[]);
                 var new_arr = [];
                 for(var id in old_obj){
                     if(!old_obj.hasOwnProperty(id)){ continue; }
@@ -19114,7 +19121,7 @@ try{
                 }
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_farmiLog",implode(new_arr,"ChangeData/19/farmiLog"));
                 // Converting object "clubmemberLog" to array
-                var old_obj=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog","{}"),"ChangeData19/clubmemberLog",{});
+                var old_obj=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog"),"ChangeData19/clubmemberLog",{});
                 var new_arr = [];
                 for(var name in old_obj){
                     if(!old_obj.hasOwnProperty(name)){ continue; }
@@ -19127,14 +19134,14 @@ try{
                             new_arr_date[2].push([parseInt(prod,10),old_obj[name][date][1][prod]]);
                         }
                         new_arr_name[1].push(new_arr_date);
-                    }   
+                    }
                     new_arr.push(new_arr_name);
                 }
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_clubmemberLog",implode(new_arr,"ChangeData/19/clubmemberLog"));
             }
             case 20:{
                 // Converting object "lotteryLog" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog","{}"),"ChangeData20/lotteryLog",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog"),"ChangeData20/lotteryLog",{});
                 var new_arr = [];
                 var day;
                 for(var id in old_obj){
@@ -19156,7 +19163,7 @@ try{
                 }
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lotteryLog",implode(new_arr,"ChangeData/20/lotteryLog"));
                 // Converting object "levelLog" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog","{}"),"ChangeData/20/levelLog",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_levelLog"),"ChangeData/20/levelLog",{});
                 var new_arr = [];
                 var day;
                 for(var id in old_obj){
@@ -19180,7 +19187,7 @@ try{
             }
             case 21:{
                 // Converting object "vertraegeIn" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn","{}"),"ChangeData21/vertraegeIn",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn"),"ChangeData21/vertraegeIn",{});
                 var new_arr = [];
                 for(var id in old_obj){
                     if(!old_obj.hasOwnProperty(id)){ continue; }
@@ -19189,7 +19196,7 @@ try{
                 }
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeIn",implode(new_arr,"ChangeData/21/vertraegeIn"));
                 // Converting object "vertraegeOut" to array
-                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut","{}"),"ChangeData/21/vertraegeOut",{});
+                var old_obj = explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_vertraegeOut"),"ChangeData/21/vertraegeOut",{});
                 var new_arr = [];
                 for(var id in old_obj){
                     if(!old_obj.hasOwnProperty(id)){ continue; }
@@ -19202,11 +19209,11 @@ try{
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_css_styles",implode(css_styles,"ChangeData/22/css_styles"));
             }
             case 23:{
-                var data=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones","{}"),"zones.init/data",{});
-                if(data["megafield"]){ 
+                var data=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones"),"zones.init/data",{});
+                if(data["megafield"]){
                     delete data["megafield"];
                 }
-                if(data["windmill"]){ 
+                if(data["windmill"]){
                     delete data["windmill"];
                 }
                 GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_zones",implode(data,"zones.save/data"));
@@ -19215,9 +19222,9 @@ try{
             if(changedata<24){ GM_setValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_changedata",24); }
             changedata = null;
         }catch(err){GM_logError("changedata account","","",err);}
-        
+
         // **************************************************
-    
+
         //Hotkeys
         err_trace="Hotkeys";
         if (GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valHotkey",true)){
@@ -19278,7 +19285,7 @@ try{
                 case hotkeymap["overview"]: click($top("titlepig")); event.preventDefault(); break; // U:Uebersicht
                 case hotkeymap["contract"]: click($top("mainmenue3")); event.preventDefault(); break; // V:Vertrag
                 case hotkeymap["systemMessage"]: if (GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_nachrichten_doread","")){
-                            var help=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_nachrichten_doread","[]"),"eventListener@keydown/nachrichten_doread",[]);
+                            var help=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_nachrichten_doread"),"eventListener@keydown/nachrichten_doread",[]);
                             showMessage("system","1",help[help.length-1],0);
                         }else{
                             showMultiframePage("nachrichten/system.php");
@@ -19287,7 +19294,7 @@ try{
                 }
             },false);
         }
-    
+
         err_trace="Page switch";
         GM_logInfo("scriptStart","","PAGE="+PAGE,"Loading page",0);
         switch (PAGE){
@@ -19399,751 +19406,754 @@ try{
         throw("Language pack is missing");
     }
     err_trace="Texts";
-    if(top.unsafeData.texte==undefined){
-        top.unsafeData.texte=texte;
-    }else{
-        texte=top.unsafeData.texte;
+    if(undefined===top.unsafeData.text){
+        top.unsafeData.text=new Object();
     }
-    if(top.unsafeData.texte["de"]==undefined){
-        texte["de"]=new Object();
-        texte["de"]["msgMarketsaleContent"]="(.*) hat am Marktplatz (\\d+)x (.*?) von dir<br> f&uuml;r (.*?) kT gekauft\\.";
-        texte["de"]["msgContractsaleContent"]="(.*) hat einen Vertrag von dir unterzeichnet!<br><br> Folgende Produkte wurden verkauft:<br>(.*?)<br> Die Vertragssumme von (.*?) kT wurde deinem Konto gutgeschrieben\\.";
-        texte["de"]["msgSubjectWeed"]="Oh nein!";
-        texte["de"]["msgSubjectGift"]="Geschenk für Dich";
-        texte["de"]["msgContractsaleList"]="(\\d+)x (.+?)<br>";
-        texte["de"]["msgFriend"]="(.+) m"+o_dots+"chte dich als Freund hinzuf"+u_dots+"gen";
+    text=top.unsafeData.text;
+    if(undefined===text["de"]){
+        text["de"]=new Object();
+        text["de"]["msgMarketsaleContent"]="(.*) hat am Marktplatz (\\d+)x (.*?) von dir<br> f&uuml;r (.*?) kT gekauft\\.";
+        text["de"]["msgContractsaleContent"]="(.*) hat einen Vertrag von dir unterzeichnet!<br><br> Folgende Produkte wurden verkauft:<br>(.*?)<br> Die Vertragssumme von (.*?) kT wurde deinem Konto gutgeschrieben\\.";
+        text["de"]["msgContractsaleList"]="(\\d+)x (.+?)<br>";
+        text["de"]["msgSubjectFriend"]="(.+) möchte dich als Freund hinzufügen";
+        text["de"]["msgSubjectGift"]="Geschenk für Dich";
+        text["de"]["msgSubjectWeed1"]="Oh nein!";
+        text["de"]["msgSubjectWeed2"]="Au Weia!";
 
-        texte["de"]["above"]="davor";
-        texte["de"]["absolute"]="absolut";
-        texte["de"]["accountActive"]="Account aktiv";
-        texte["de"]["accounts"]="Accounts";
-        texte["de"]["activation"]="Freischaltung";
-        texte["de"]["additionalFarmi"]="%1% Zusatzfarmi t"+a_dots+"glich";
-        texte["de"]["additionalForestFarmiSlot"]="%1% Zusatzplatz in der Waldfarmi-Warteschlange";
-        texte["de"]["additionalLogCapacity"]="Erh"+o_dots+"hung der Lagerkapazit"+a_dots+"t St"+a_dots+"mme um %1%";
-        texte["de"]["advertisingEnds"]="Werbung endet heute";
-        texte["de"]["adviser"]="Berater";
-        texte["de"]["afterFee"]="abzgl Geb"+u_dots+"hr";
-        texte["de"]["alertSetPriceNone"]="M"+o_dots+"chtest du wirklich keinen Preis f"+u_dots+"r %PRODUCT% setzen?";
-        texte["de"]["alertSetPriceOverNPC"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist h"+o_dots+"her als der NPC-Preis %NPC%.";
-        texte["de"]["alertSetPriceOverObs"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist viel h"+o_dots+"her als der beobachtete Preis %OBS%.";
-        texte["de"]["alertSetPriceUnderObs"]="M"+o_dots+"chtest du wirklich den Preis %PRICE% f"+u_dots+"r %PRODUCT% setzen?<br>Dieser ist viel niedriger als der beobachtete Preis %OBS%.";
-        texte["de"]["alertWillLowRack"]="Achtung! Dies wird deinen Lagerbestand unter den Minimalwert bringen!";
-        texte["de"]["all"]="Alle";
-        texte["de"]["autologinAllOk"]="Alle Accounts eingeloggt.";
-        texte["de"]["autologinChecking"]="Ermittle aktive Sessions.<br>Bitte %1% Sekunden warten<br>...";
-        texte["de"]["bonus"]="Bonus";
-        texte["de"]["boughtTickets"]="Gekaufte Tickets";
-        texte["de"]["buy"]="Kauf";
-        texte["de"]["buyers"]="K"+a_dots+"ufer";
-        texte["de"]["calcTo"]="Berechne bis";
-        texte["de"]["carpentry"]="Schreinerei";
-        texte["de"]["city"]="Stadt";
-        texte["de"]["change"]=A_dots+"nderung";
-        texte["de"]["clearFilter"]="Filter entfernen";
-        texte["de"]["click"]="Klick";
-        texte["de"]["clickAlt"]="Alt+Klick";
-        texte["de"]["clickCtrl"]="Strg+Klick";
-        texte["de"]["clickDouble"]="Doppel-Klick";
-        texte["de"]["clickToChange"]="Klick um zu "+a_dots+"ndern";
-        texte["de"]["commission"]   = "Geb"+u_dots+"hr";
-        texte["de"]["coins"]=unsafeWindow.t_coins;
-        texte["de"]["confirmUseObservedPrices"]="Es werden die beobachteten Preise eingetragen. Die eigenen gehen dabei verloren ...";
-        texte["de"]["confirmChangelogVersion"]="Du hast eine neue Version des Berater-Scriptes installiert.<br>Die Version %1% beinhaltet folgende "+A_dots+"nderungen:";
-        texte["de"]["contract"]="Vertrag";
-        texte["de"]["contractsReceived"]="Erhaltene Vertr"+a_dots+"ge";
-        texte["de"]["contractsSent"]="Gesendete Vertr"+a_dots+"ge";
-        texte["de"]["copyToTextFile"]="Kopiere diesen Satz in eine Text-Datei";
-        texte["de"]["couldNotGetRank"]="Dein Platz konnte nicht bestimmt werden.";
-        texte["de"]["couldNotGetUpdateInfoOfX"]="Update-Informationen f"+u_dots+"r %1% konnten nicht bestimmt werden."
-        texte["de"]["createStorageString"]="Erstelle Speicher-Satz";
-        texte["de"]["cropped"]="Geerntet";
-        texte["de"]["currentOffers"]="Aktuelle Angebote";
-        texte["de"]["dailyRuns"]="T"+a_dots+"gl L"+a_dots+"ufe";
-        texte["de"]["dailyTicket"]="T"+a_dots+"gliches Ticket";
-        texte["de"]["dailyYield"]="T"+a_dots+"gl Ertrag";
-        texte["de"]["date"]="Datum";
-        texte["de"]["day"]="Tag";
-        texte["de"]["day0"]="Heute";
-        texte["de"]["day1"]="Morgen";
-        texte["de"]["day2"]=U_dots+"bermorgen";
-        texte["de"]["default"]="Default";
-        texte["de"]["delete"]="L"+o_dots+"schen";
-        texte["de"]["deleteFollowingData"]="L"+o_dots+"schen folgende Daten";
-        texte["de"]["demand"]="Forderung";
-        texte["de"]["detail"]="Detail";
-        texte["de"]["difficulty"]="Schwierigkeit";
-        texte["de"]["donkey"]="Waltraud";
-        texte["de"]["duration"]="Dauer";
-        texte["de"]["editPrice"]="Preis "+a_dots+"ndern";
-        texte["de"]["emptyField"]="Feld leer!";
-        texte["de"]["end"]="Ende";
-        texte["de"]["exchangedLots"]="Eingel"+o_dots+"ste Lose";
-        texte["de"]["farm"]="Farm";
-        texte["de"]["farmersmarket"]=unsafeWindow.t_farmers_market;
-        texte["de"]["farmX"]="%1%. Farm";
-        texte["de"]["farmi"]="Farmi";
-        texte["de"]["farmis"]="Farmis";
-        texte["de"]["farmpedia"]="FarmPedia";
-        texte["de"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
-        texte["de"]["farmzone"]="Bauplatz %1% der %2%. Farm";
-        texte["de"]["feed"]="Futter";
-        texte["de"]["fields"]="Felder";
-        texte["de"]["filter"]="Filter";
-        texte["de"]["filterForX"]="Nach %1% filtern";
-        texte["de"]["finished"]="Fertig";
-        texte["de"]["foodworld"]=unsafeWindow.foodworld_title;
-        texte["de"]["forest"]="Wald";
-        texte["de"]["forestry"]="Baumerei";
-        texte["de"]["formatNumbers"]="Formatiere Zahlen";
-        texte["de"]["formulaType"]=["Prod","+val","+pts"];
-        texte["de"]["fl1"]="Blumenwiese";
-        texte["de"]["fl2"]="Blumenwerkstatt";
-        texte["de"]["fl3"]="Monsterfruchtzucht";
-        texte["de"]["fl5"]="Tierarzt";
-        texte["de"]["fl6"]="Wettmampfen";
-        texte["de"]["fw1"]="Getr"+a_dots+"nkebude";
-        texte["de"]["fw2"]="Imbissbude";
-        texte["de"]["fw3"]="Konditorei";
-        texte["de"]["gamecurrency"]=unsafeWindow.gamecurrency;
-        texte["de"]["gain"]="Erzeugnis";
-        texte["de"]["general"]="Allgemein";
-        texte["de"]["given"]="Gegeben";
-        texte["de"]["goToDonkey"]="Zum Goldesel Waltraud";
-        texte["de"]["goToLottery"]="Zur Lotterie";
-        texte["de"]["goToMarket"]="Zum Markt";
-        texte["de"]["goToMarketOfX"]="Zum %1%-Markt";
-        texte["de"]["goToMarketstall"]="Zum Marktstand";
-        texte["de"]["goToPage"]="Gehe nach Seite";
-        texte["de"]["goToRank"]="Gehe nach Platz";
-        texte["de"]["goToX"]="Gehe nach %1%";
-        texte["de"]["goods"]="Waren";
-        texte["de"]["hide"]="ausblenden";
-        texte["de"]["highlightProducts"]="Produkte am Markt markieren";
-        texte["de"]["highlightUser"]="User am Markt markieren";
-        texte["de"]["hotkeys"]="Hotkeys";
-        texte["de"]["idle"]="unbesch"+a_dots+"ftigt !!";
-        texte["de"]["importStorageString"]="Importiere Speicher-Satz";
-        texte["de"]["importStorageStringError"]="Entschuldige. Der Speicher-Satz konnte nicht gelesen werden.";
-        texte["de"]["inStock"]="im Lager";
-        texte["de"]["informationIsMissing"]="Es fehlen Informationen."
-        texte["de"]["ingredients"]="Zutaten";
-        texte["de"]["invalidServer"]="Ung"+u_dots+"ltiger Server";
-        texte["de"]["inventory"]="Bestand";
-        texte["de"]["jobIncomplete"]="Auftrag nicht erfolgreich beendet";
-        texte["de"]["jobComplete"]="Auftrag erfolgreich beendet";
-        texte["de"]["jobCurrent"]="Aktueller Auftrag";
-        texte["de"]["keptLots"]="Behaltene Lose";
-        texte["de"]["level"]="Level";
-        texte["de"]["levelTooLow"]="Dein Level ist zu niedrig";
-        texte["de"]["levelXneeded"]="Level&nbsp;%1%&nbsp;ben"+o_dots+"tigt";
-        texte["de"]["load"]="Laden";
-        texte["de"]["loading"]="Lade";
-        texte["de"]["localTime"]="Lokale Zeit";
-        texte["de"]["lodge"]="Forsth"+u_dots+"tte";
-        texte["de"]["login"]="Umloggen";
-        texte["de"]["loginPageFound"]="Login-Seite gefunden";
-        texte["de"]["loginPortalSubmitted"]="Portal-Login ausgeführt";
-        texte["de"]["loginSubmitted"]="Login ausgeführt";
-        texte["de"]["logDonkey"]="Goldesel Waltraud Log";
-        texte["de"]["lotteryLog"]="Lotterie Log";
-        texte["de"]["lvl"]="Lvl";
-        texte["de"]["manageVariables"]="Variablen verwalten";
-        texte["de"]["market"]="Markt";
-        texte["de"]["marketPrice"]="Marktpreis";
-        texte["de"]["marketplace"]="Marktplatz";
-        texte["de"]["marketstall"]="Marktstand";
-        texte["de"]["megafield"]="G"+u_dots+"terhof";
-        texte["de"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;
-        texte["de"]["messages"]="Nachrichten";
-        texte["de"]["minRack"]="Min&nbsp;Lager";
-        texte["de"]["minRackamount"]="Minimaler Lagerbestand";
-        texte["de"]["missing"]="Fehlt";
-        texte["de"]["money"]="Geld";
-        texte["de"]["name"]="Name";
-        texte["de"]["newLevelReached"]="Herzlichen Gl"+u_dots+"ckwunsch!<br>Du bist ein Level aufgestiegen!";
-        texte["de"]["nextMessage"]="n"+a_dots+"chste Nachricht";
-        texte["de"]["no"]="Nein";
-        texte["de"]["nothingSelected"]="Nichts ausgew"+a_dots+"hlt";
-        texte["de"]["NPC"]="NPC";
-        texte["de"]["NPCprice"]="NPC-Preis";
-        texte["de"]["nr"]="Nr";
-        texte["de"]["observed"]="beobachtet";
-        texte["de"]["ok"]="OK";
-        texte["de"]["oldOnes"]="Alte";
-        texte["de"]["options"]="Optionen";
-        texte["de"]["overNPCprice"]=u_dots+"ber NPC-Preis";
-        texte["de"]["overX"]=u_dots+"ber %1%";
-        texte["de"]["overview"]=U_dots+"bersicht";
-        texte["de"]["pageXNotLoaded"]="Die Seite '%1%' ist nicht vollst"+a_dots+"ndig geladen.";
-        texte["de"]["password"]="Passwort";
-        texte["de"]["pleaseOpenX"]="Bitte %1% "+o_dots+"ffnen.";
-        texte["de"]["pleaseWait"]="Bitte warten.";
-        texte["de"]["portalLogin"]="Portal-Login";
-        texte["de"]["points"]="Punkte";
-        texte["de"]["powerups"]="Power-Ups";
-        texte["de"]["previousMessage"]="vorige Nachricht";
-        texte["de"]["price"]="Preis";
-        texte["de"]["prices"]="Preise";
-        texte["de"]["product"]="Produkt";
-        texte["de"]["productOverview"]="Produkt "+U_dots+"bersicht";
-        texte["de"]["productTimeSaving"]="%1% Minuten Zeitersparnis auf %2%";
-        texte["de"]["production"]="Produktion";
-        texte["de"]["products"]="Produkte";
-        texte["de"]["profit"]="Gewinn";
-        texte["de"]["profitTable"]="Profit pro Zone pro Tag";
-        texte["de"]["quantity"]="Menge";
-        texte["de"]["quest_foodworld"]="Picknickarea-Questreihe";
-        texte["de"]["quest_forestry"]="Baumerei-Questreihe";
-        texte["de"]["quest_main"]="Farm-Questreihe";
-        texte["de"]["questfoodworld1"]="Picknickarea-Questreihe";
-        texte["de"]["questforestry1"]="1. Baumerei-Questreihe";
-        texte["de"]["questforestry2"]="2. Baumerei-Questreihe";
-        texte["de"]["questmain1"]="1. Farm-Questreihe";
-        texte["de"]["questmain2"]="2. Farm-Questreihe";
-        texte["de"]["quests"]="Quests";
-        texte["de"]["rackX"]="%1%. Regal";
-        texte["de"]["rank"]="Platz";
-        texte["de"]["readAll"]="Alle lesen";
-        texte["de"]["readyAtX"]="Fertig um %1%";
-        texte["de"]["readyAtX_day1"]="Morgen fertig um %1%";
-        texte["de"]["readyAtX_day2"]=U_dots+"bermorgen fertig um %1%";
-        texte["de"]["readySinceX"]="Fertig seit %1%";
-        texte["de"]["recipes"]="Rezepte";
-        texte["de"]["recursive"]="Rekursiv ben"+o_dots+"tigt";
-        texte["de"]["relative"]="relativ";
-        texte["de"]["reloadInXSec"]="Neu laden in %1%s.";
-        texte["de"]["relogin"]="Session endet bald.<br>Neuer Login in %1%.";
-        texte["de"]["remaining"]="Verbleibend";
-        texte["de"]["requestingUpdateInfoOfX"]="Fordere Update-Informationen f"+u_dots+"r %1% an ..."
-        texte["de"]["requestingUserStatistic"]="Fordere Benutzer-Statistik an ...";
-        texte["de"]["requirement"]="Bedarf";
-        texte["de"]["requirementPerProduction"]="Bedarf pro Produktion";
-        texte["de"]["reward"]="Belohnung";
-        texte["de"]["salesLog"]="Verk"+a_dots+"ufe Log";
-        texte["de"]["save"]="Speichern";
-        texte["de"]["saveAsTemplate"]="als Vorlage speichern";
-        texte["de"]["sawmill"]="S"+a_dots+"gewerk";
-        texte["de"]["scriptHomepage"]="Scripthomepage";
-        texte["de"]["searchPlayer"]="Spieler suchen";
-        texte["de"]["seed"]="Saat";
-        texte["de"]["seedPerField"]="Saat pro Feld";
-        texte["de"]["sendContract"]="Vertrag schicken";
-        texte["de"]["sendContractAgain"]="Vertrag noch einmal schicken";
-        texte["de"]["sentContractNrX"]="Vertrag Nr %1% gesendet."
-        texte["de"]["sendingXObservedPricesToServer"]="Sende %1% beobachtete Preise an Server ...";
-        texte["de"]["server"]="Server";
-        texte["de"]["serverTime"]="Zeit des Servers";
-        texte["de"]["sessionEnd"]="Ende der Session um %1%<br>Klick f"+u_dots+"r neuen Login";  
-        texte["de"]["seedVendor"]="Saatguth"+a_dots+"ndler";
-        texte["de"]["seedVendorShort"]="SGH"; // Short for the seller of plants
-        texte["de"]["shadowboxitem"]="Setzkastenitem";
-        texte["de"]["shortHours"]="h";
-        texte["de"]["shortOClock"]="Uhr";
-        texte["de"]["shouldReload"]="Du solltest die Seite neu laden.";
-        texte["de"]["showAll"]="Alle zeigen";
-        texte["de"]["showChangelog"]="Zeige ChangeLog";
-        texte["de"]["showLog"]="Zeige Log";
-        texte["de"]["showMissingProducts"]="Zeige fehlende Produkte";
-        texte["de"]["showPasswords"]="zeige Passw"+o_dots+"rter";
-        texte["de"]["sinceX"]="seit %1%";
-        texte["de"]["single"]="Einzel";
-        texte["de"]["start"]="Start";
-        texte["de"]["stat_days1"]="1 Tag";
-        texte["de"]["stat_days3"]="3 Tage";
-        texte["de"]["stat_days5"]="5 Tage";
-        texte["de"]["stat_days7"]="7 Tage";
-        texte["de"]["stat_gamefield"]="Spielfeld zeigen";
-        texte["de"]["stat_stats"]="Statistik zeigen";
-        texte["de"]["statistics"]="Statistik";
-        texte["de"]["stock"]="Lager";
-        texte["de"]["stockValue"]="Lagerwert";
-        texte["de"]["stockXlow"]="Lagerbestand %1% niedrig";
-        texte["de"]["stockXmissing"]="Lagerbestand %1% fehlt!!!";
-        texte["de"]["storeXinContract"]="%1% im Vertrag auslagern";
-        texte["de"]["summarize"]="Summiere";
-        texte["de"]["takeObservedPrices"]="Nimm beobachtete Preise";
-        texte["de"]["time"]="Zeit";
-        texte["de"]["title"]="Titel";
-        texte["de"]["toMessage"]="zur Nachricht";
-        texte["de"]["toSeedVendor"]="Zum Saatguth"+a_dots+"ndler";
-        texte["de"]["total"]="Total";
-        texte["de"]["turnover"]="Umsatz";
-        texte["de"]["unitPrice"]="St"+u_dots+"ckpreis";
-        texte["de"]["upgradeForX"]="ausbauen&nbsp;f"+u_dots+"r&nbsp;%1%";
-        texte["de"]["upgradeLevel"]="Ausbaustufe";
-        texte["de"]["upjersAdvertising"]="Upjers-Werbung";
-        texte["de"]["useQuestProducts"]= "Nimm aktuelle Quest-Waren";
-        texte["de"]["userscriptNotStarted"]="Das Benutzerskript ist nicht vollst"+a_dots+"ndig gestartet.";;
-        texte["de"]["useWildcard"]= "Verwende * um einen oder mehrere Buchstaben zu entsprechen.";
-        texte["de"]["value"]="Wert";
-        texte["de"]["veterinayLevelXNeeded"]="Tierarztlevel %1% benötigt";
-        texte["de"]["version"]="Version";
-        texte["de"]["waterBonus"]="%1%% Gie"+sz+"bonus";
-        texte["de"]["waterNeeded"]="Wasser ben"+o_dots+"tigt";
-        texte["de"]["waterNeededAtX"]="Wasser ben"+o_dots+"tigt um %1%"; 
-        texte["de"]["waterNeededAtX_day1"]="Morgen Wasser ben"+o_dots+"tigt um %1%";
-        texte["de"]["wateringFeature"]="Gie"+sz+"funktion";
-        texte["de"]["windmill"]="M"+u_dots+"hle";
-        texte["de"]["writeMessage"]="Nachricht schreiben";
-        texte["de"]["XIsUpToDate"]="%1% ist up-to-date."    
-        texte["de"]["yes"]="Ja";
-        texte["de"]["yield"]="Ertrag";
-        texte["de"]["yieldPerProduction"]="Ertrag pro Produktion";
-        texte["de"]["youAreOnRankX"]="Du bist auf Platz %1%.";
+        text["de"]["above"]="davor";
+        text["de"]["absolute"]="absolut";
+        text["de"]["accountActive"]="Account aktiv";
+        text["de"]["accounts"]="Accounts";
+        text["de"]["activation"]="Freischaltung";
+        text["de"]["additionalFarmi"]="%1% Zusatzfarmi täglich";
+        text["de"]["additionalForestFarmiSlot"]="%1% Zusatzplatz in der Waldfarmi-Warteschlange";
+        text["de"]["additionalLogCapacity"]="Erhöhung der Lagerkapazität Stämme um %1%";
+        text["de"]["advertisingEnds"]="Werbung endet heute";
+        text["de"]["adviser"]="Berater";
+        text["de"]["afterFee"]="abzgl Gebühr";
+        text["de"]["alertSetPriceNone"]="Möchtest du wirklich keinen Preis für %PRODUCT% setzen?";
+        text["de"]["alertSetPriceOverNPC"]="Möchtest du wirklich den Preis %PRICE% für %PRODUCT% setzen?<br>Dieser ist höher als der NPC-Preis %NPC%.";
+        text["de"]["alertSetPriceOverObs"]="Möchtest du wirklich den Preis %PRICE% für %PRODUCT% setzen?<br>Dieser ist viel höher als der beobachtete Preis %OBS%.";
+        text["de"]["alertSetPriceUnderObs"]="Möchtest du wirklich den Preis %PRICE% für %PRODUCT% setzen?<br>Dieser ist viel niedriger als der beobachtete Preis %OBS%.";
+        text["de"]["alertWillLowRack"]="Achtung! Dies wird deinen Lagerbestand unter den Minimalwert bringen!";
+        text["de"]["all"]="Alle";
+        text["de"]["autologinAllOk"]="Alle Accounts eingeloggt.";
+        text["de"]["autologinChecking"]="Ermittle aktive Sessions.<br>Bitte %1% Sekunden warten<br>...";
+        text["de"]["bonus"]="Bonus";
+        text["de"]["boughtTickets"]="Gekaufte Tickets";
+        text["de"]["buy"]="Kauf";
+        text["de"]["buyers"]="Käufer";
+        text["de"]["calcTo"]="Berechne bis";
+        text["de"]["carpentry"]="Schreinerei";
+        text["de"]["city"]="Stadt";
+        text["de"]["change"]="Änderung";
+        text["de"]["clearFilter"]="Filter entfernen";
+        text["de"]["click"]="Klick";
+        text["de"]["clickAlt"]="Alt+Klick";
+        text["de"]["clickCtrl"]="Strg+Klick";
+        text["de"]["clickDouble"]="Doppel-Klick";
+        text["de"]["clickToChange"]="Klick um zu ändern";
+        text["de"]["commission"]   = "Gebühr";
+        text["de"]["coins"]=unsafeWindow.t_coins;
+        text["de"]["confirmUseObservedPrices"]="Es werden die beobachteten Preise eingetragen. Die eigenen gehen dabei verloren ...";
+        text["de"]["confirmChangelogVersion"]="Du hast eine neue Version des Berater-Scriptes installiert.<br>Die Version %1% beinhaltet folgende Änderungen:";
+        text["de"]["contract"]="Vertrag";
+        text["de"]["contractsReceived"]="Erhaltene Verträge";
+        text["de"]["contractsSent"]="Gesendete Verträge";
+        text["de"]["copyToTextFile"]="Kopiere diesen Satz in eine Text-Datei";
+        text["de"]["couldNotGetRank"]="Dein Platz konnte nicht bestimmt werden.";
+        text["de"]["couldNotGetUpdateInfoOfX"]="Update-Informationen für %1% konnten nicht bestimmt werden."
+        text["de"]["createStorageString"]="Erstelle Speicher-Satz";
+        text["de"]["cropped"]="Geerntet";
+        text["de"]["currentOffers"]="Aktuelle Angebote";
+        text["de"]["dailyRuns"]="Tägl Läufe";
+        text["de"]["dailyTicket"]="Tägliches Ticket";
+        text["de"]["dailyYield"]="Tägl Ertrag";
+        text["de"]["date"]="Datum";
+        text["de"]["day"]="Tag";
+        text["de"]["day0"]="Heute";
+        text["de"]["day1"]="Morgen";
+        text["de"]["day2"]="Übermorgen";
+        text["de"]["default"]="Default";
+        text["de"]["delete"]="Löschen";
+        text["de"]["deleteFollowingData"]="Löschen folgende Daten";
+        text["de"]["demand"]="Forderung";
+        text["de"]["detail"]="Detail";
+        text["de"]["difficulty"]="Schwierigkeit";
+        text["de"]["donkey"]="Waltraud";
+        text["de"]["duration"]="Dauer";
+        text["de"]["editPrice"]="Preis ändern";
+        text["de"]["emptyField"]="Feld leer!";
+        text["de"]["end"]="Ende";
+        text["de"]["exchangedLots"]="Eingelöste Lose";
+        text["de"]["farm"]="Farm";
+        text["de"]["farmersmarket"]=unsafeWindow.t_farmers_market;
+        text["de"]["farmX"]="%1%. Farm";
+        text["de"]["farmi"]="Farmi";
+        text["de"]["farmis"]="Farmis";
+        text["de"]["farmpedia"]="FarmPedia";
+        text["de"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
+        text["de"]["farmzone"]="Bauplatz %1% der %2%. Farm";
+        text["de"]["feed"]="Futter";
+        text["de"]["fields"]="Felder";
+        text["de"]["filter"]="Filter";
+        text["de"]["filterForX"]="Nach %1% filtern";
+        text["de"]["finished"]="Fertig";
+        text["de"]["foodworld"]=unsafeWindow.foodworld_title;
+        text["de"]["forest"]="Wald";
+        text["de"]["forestry"]="Baumerei";
+        text["de"]["formatNumbers"]="Formatiere Zahlen";
+        text["de"]["formulaType"]=["Prod","+val","+pts"];
+        text["de"]["fl1"]="Blumenwiese";
+        text["de"]["fl2"]="Blumenwerkstatt";
+        text["de"]["fl3"]="Monsterfruchtzucht";
+        text["de"]["fl5"]="Tierarzt";
+        text["de"]["fl6"]="Wettmampfen";
+        text["de"]["fw1"]="Getränkebude";
+        text["de"]["fw2"]="Imbissbude";
+        text["de"]["fw3"]="Konditorei";
+        text["de"]["gamecurrency"]=unsafeWindow.gamecurrency;
+        text["de"]["gain"]="Erzeugnis";
+        text["de"]["general"]="Allgemein";
+        text["de"]["given"]="Gegeben";
+        text["de"]["goToDonkey"]="Zum Goldesel Waltraud";
+        text["de"]["goToLottery"]="Zur Lotterie";
+        text["de"]["goToMarket"]="Zum Markt";
+        text["de"]["goToMarketOfX"]="Zum %1%-Markt";
+        text["de"]["goToMarketstall"]="Zum Marktstand";
+        text["de"]["goToPage"]="Gehe nach Seite";
+        text["de"]["goToRank"]="Gehe nach Platz";
+        text["de"]["goToX"]="Gehe nach %1%";
+        text["de"]["goods"]="Waren";
+        text["de"]["hide"]="ausblenden";
+        text["de"]["highlightProducts"]="Produkte am Markt markieren";
+        text["de"]["highlightUser"]="User am Markt markieren";
+        text["de"]["hotkeys"]="Hotkeys";
+        text["de"]["idle"]="unbeschäftigt !!";
+        text["de"]["importStorageString"]="Importiere Speicher-Satz";
+        text["de"]["importStorageStringError"]="Entschuldige. Der Speicher-Satz konnte nicht gelesen werden.";
+        text["de"]["inStock"]="im Lager";
+        text["de"]["informationIsMissing"]="Es fehlen Informationen."
+        text["de"]["ingredients"]="Zutaten";
+        text["de"]["invalidServer"]="Ungültiger Server";
+        text["de"]["inventory"]="Bestand";
+        text["de"]["jobIncomplete"]="Auftrag nicht erfolgreich beendet";
+        text["de"]["jobComplete"]="Auftrag erfolgreich beendet";
+        text["de"]["jobCurrent"]="Aktueller Auftrag";
+        text["de"]["keptLots"]="Behaltene Lose";
+        text["de"]["level"]="Level";
+        text["de"]["levelTooLow"]="Dein Level ist zu niedrig";
+        text["de"]["levelXneeded"]="Level&nbsp;%1%&nbsp;benötigt";
+        text["de"]["load"]="Laden";
+        text["de"]["loading"]="Lade";
+        text["de"]["localTime"]="Lokale Zeit";
+        text["de"]["lodge"]="Forsthütte";
+        text["de"]["login"]="Umloggen";
+        text["de"]["loginPageFound"]="Login-Seite gefunden";
+        text["de"]["loginPortalSubmitted"]="Portal-Login ausgeführt";
+        text["de"]["loginSubmitted"]="Login ausgeführt";
+        text["de"]["logDonkey"]="Goldesel Waltraud Log";
+        text["de"]["lotteryLog"]="Lotterie Log";
+        text["de"]["lvl"]="Lvl";
+        text["de"]["manageVariables"]="Variablen verwalten";
+        text["de"]["market"]="Markt";
+        text["de"]["marketPrice"]="Marktpreis";
+        text["de"]["marketplace"]="Marktplatz";
+        text["de"]["marketstall"]="Marktstand";
+        text["de"]["megafield"]="Güterhof";
+        text["de"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;
+        text["de"]["messages"]="Nachrichten";
+        text["de"]["minRack"]="Min&nbsp;Lager";
+        text["de"]["minRackamount"]="Minimaler Lagerbestand";
+        text["de"]["missing"]="Fehlt";
+        text["de"]["money"]="Geld";
+        text["de"]["name"]="Name";
+        text["de"]["newLevelReached"]="Herzlichen Glückwunsch!<br>Du bist ein Level aufgestiegen!";
+        text["de"]["nextMessage"]="nächste Nachricht";
+        text["de"]["no"]="Nein";
+        text["de"]["nothingSelected"]="Nichts ausgewählt";
+        text["de"]["NPC"]="NPC";
+        text["de"]["NPCprice"]="NPC-Preis";
+        text["de"]["nr"]="Nr";
+        text["de"]["observed"]="beobachtet";
+        text["de"]["ok"]="OK";
+        text["de"]["oldOnes"]="Alte";
+        text["de"]["options"]="Optionen";
+        text["de"]["overNPCprice"]="über NPC-Preis";
+        text["de"]["overX"]="über %1%";
+        text["de"]["overview"]="Übersicht";
+        text["de"]["pageXNotLoaded"]="Die Seite '%1%' ist nicht vollständig geladen.";
+        text["de"]["password"]="Passwort";
+        text["de"]["pleaseOpenX"]="Bitte %1% öffnen.";
+        text["de"]["pleaseWait"]="Bitte warten.";
+        text["de"]["portalLogin"]="Portal-Login";
+        text["de"]["points"]="Punkte";
+        text["de"]["powerups"]="Power-Ups";
+        text["de"]["previousMessage"]="vorige Nachricht";
+        text["de"]["price"]="Preis";
+        text["de"]["prices"]="Preise";
+        text["de"]["product"]="Produkt";
+        text["de"]["productOverview"]="Produkt Übersicht";
+        text["de"]["productTimeSaving"]="%1% Minuten Zeitersparnis auf %2%";
+        text["de"]["production"]="Produktion";
+        text["de"]["products"]="Produkte";
+        text["de"]["profit"]="Gewinn";
+        text["de"]["profitTable"]="Profit pro Zone pro Tag";
+        text["de"]["quantity"]="Menge";
+        text["de"]["quest_foodworld"]="Picknickarea-Questreihe";
+        text["de"]["quest_forestry"]="Baumerei-Questreihe";
+        text["de"]["quest_main"]="Farm-Questreihe";
+        text["de"]["questfoodworld1"]="Picknickarea-Questreihe";
+        text["de"]["questforestry1"]="1. Baumerei-Questreihe";
+        text["de"]["questforestry2"]="2. Baumerei-Questreihe";
+        text["de"]["questmain1"]="1. Farm-Questreihe";
+        text["de"]["questmain2"]="2. Farm-Questreihe";
+        text["de"]["quests"]="Quests";
+        text["de"]["rackX"]="%1%. Regal";
+        text["de"]["rank"]="Platz";
+        text["de"]["readAll"]="Alle lesen";
+        text["de"]["readyAtX"]="Fertig um %1%";
+        text["de"]["readyAtX_day1"]="Morgen fertig um %1%";
+        text["de"]["readyAtX_day2"]="Übermorgen fertig um %1%";
+        text["de"]["readySinceX"]="Fertig seit %1%";
+        text["de"]["recipes"]="Rezepte";
+        text["de"]["recursive"]="Rekursiv benötigt";
+        text["de"]["relative"]="relativ";
+        text["de"]["reloadInXSec"]="Neu laden in %1%s.";
+        text["de"]["relogin"]="Session endet bald.<br>Neuer Login in %1%.";
+        text["de"]["remaining"]="Verbleibend";
+        text["de"]["requestingUpdateInfoOfX"]="Fordere Update-Informationen für %1% an ..."
+        text["de"]["requestingUserStatistic"]="Fordere Benutzer-Statistik an ...";
+        text["de"]["requirement"]="Bedarf";
+        text["de"]["requirementPerProduction"]="Bedarf pro Produktion";
+        text["de"]["reward"]="Belohnung";
+        text["de"]["salesLog"]="Verkäufe Log";
+        text["de"]["save"]="Speichern";
+        text["de"]["saveAsTemplate"]="als Vorlage speichern";
+        text["de"]["sawmill"]="Sägewerk";
+        text["de"]["scriptHomepage"]="Scripthomepage";
+        text["de"]["searchPlayer"]="Spieler suchen";
+        text["de"]["seed"]="Saat";
+        text["de"]["seedPerField"]="Saat pro Feld";
+        text["de"]["sendContract"]="Vertrag schicken";
+        text["de"]["sendContractAgain"]="Vertrag noch einmal schicken";
+        text["de"]["sentContractNrX"]="Vertrag Nr %1% gesendet."
+        text["de"]["sendingXObservedPricesToServer"]="Sende %1% beobachtete Preise an Server ...";
+        text["de"]["server"]="Server";
+        text["de"]["serverTime"]="Zeit des Servers";
+        text["de"]["sessionEnd"]="Ende der Session um %1%<br>Klick für neuen Login";
+        text["de"]["seedVendor"]="Saatguthändler";
+        text["de"]["seedVendorShort"]="SGH"; // Short for the seller of plants
+        text["de"]["shadowboxitem"]="Setzkastenitem";
+        text["de"]["shortHours"]="h";
+        text["de"]["shortOClock"]="Uhr";
+        text["de"]["shouldReload"]="Du solltest die Seite neu laden.";
+        text["de"]["showAll"]="Alle zeigen";
+        text["de"]["showChangelog"]="Zeige ChangeLog";
+        text["de"]["showLog"]="Zeige Log";
+        text["de"]["showMissingProducts"]="Zeige fehlende Produkte";
+        text["de"]["showPasswords"]="zeige Passwörter";
+        text["de"]["sinceX"]="seit %1%";
+        text["de"]["single"]="Einzel";
+        text["de"]["start"]="Start";
+        text["de"]["stat_days1"]="1 Tag";
+        text["de"]["stat_days3"]="3 Tage";
+        text["de"]["stat_days5"]="5 Tage";
+        text["de"]["stat_days7"]="7 Tage";
+        text["de"]["stat_gamefield"]="Spielfeld zeigen";
+        text["de"]["stat_stats"]="Statistik zeigen";
+        text["de"]["statistics"]="Statistik";
+        text["de"]["stock"]="Lager";
+        text["de"]["stockValue"]="Lagerwert";
+        text["de"]["stockXlow"]="Lagerbestand %1% niedrig";
+        text["de"]["stockXmissing"]="Lagerbestand %1% fehlt!!!";
+        text["de"]["storeXinContract"]="%1% im Vertrag auslagern";
+        text["de"]["summarize"]="Summiere";
+        text["de"]["takeObservedPrices"]="Nimm beobachtete Preise";
+        text["de"]["time"]="Zeit";
+        text["de"]["title"]="Titel";
+        text["de"]["toMessage"]="zur Nachricht";
+        text["de"]["toSeedVendor"]="Zum Saatguthändler";
+        text["de"]["total"]="Total";
+        text["de"]["turnover"]="Umsatz";
+        text["de"]["unitPrice"]="Stückpreis";
+        text["de"]["upgradeForX"]="ausbauen&nbsp;für&nbsp;%1%";
+        text["de"]["upgradeLevel"]="Ausbaustufe";
+        text["de"]["upjersAdvertising"]="Upjers-Werbung";
+        text["de"]["useQuestProducts"]= "Nimm aktuelle Quest-Waren";
+        text["de"]["userscriptNotStarted"]="Das Benutzerskript ist nicht vollständig gestartet.";;
+        text["de"]["useWildcard"]= "Verwende * um einen oder mehrere Buchstaben zu entsprechen.";
+        text["de"]["value"]="Wert";
+        text["de"]["veterinayLevelXNeeded"]="Tierarztlevel %1% benötigt";
+        text["de"]["version"]="Version";
+        text["de"]["waterBonus"]="%1%% Gießbonus";
+        text["de"]["waterNeeded"]="Wasser benötigt";
+        text["de"]["waterNeededAtX"]="Wasser benötigt um %1%";
+        text["de"]["waterNeededAtX_day1"]="Morgen Wasser benötigt um %1%";
+        text["de"]["wateringFeature"]="Gießfunktion";
+        text["de"]["windmill"]="Mühle";
+        text["de"]["writeMessage"]="Nachricht schreiben";
+        text["de"]["XIsUpToDate"]="%1% ist up-to-date."
+        text["de"]["yes"]="Ja";
+        text["de"]["yield"]="Ertrag";
+        text["de"]["yieldPerProduction"]="Ertrag pro Produktion";
+        text["de"]["youAreOnRankX"]="Du bist auf Platz %1%.";
         // category
-        texte["de"]["category_c"]=texte["de"]["coins"];
-        texte["de"]["category_v"]="Pflanzen";
-        texte["de"]["category_e"]="Fortgeschrittene Produkte";
-        texte["de"]["category_z"]=unsafeWindow.rack_deco;
-        texte["de"]["category_o"]=unsafeWindow.rack_oil;
-        texte["de"]["category_fw"]=unsafeWindow.rack_foodworld;
-        texte["de"]["category_fw1"]="Getr"+a_dots+"nke";
-        texte["de"]["category_fw2"]="Speisen";
-        texte["de"]["category_fw3"]="Torten und Kuchen";
-        texte["de"]["category_fw4"]="noch nicht verf"+u_dots+"gbar";
-        texte["de"]["category_fl"]="Blumen";
-        texte["de"]["category_fla"]="Gestecke";
-        texte["de"]["category_f1"]="Setzlinge";
-        texte["de"]["category_f2"]="St"+a_dots+"mme";
-        texte["de"]["category_f3"]="S"+a_dots+"gewerk Produkte";
-        texte["de"]["category_f4"]="Schreinerei Produkte";
-        texte["de"]["category_f5"]="Bauernhaus Holzprodukte";
-        texte["de"]["category_hr"]="Heilkr"+a_dots+"uter";
-	    texte["de"]["category_md"]="Tinktur";
-        texte["de"]["category_r0"]="Rezepte Produkt";
-        texte["de"]["category_r1"]="Rezepte Erh"+o_dots+"hung Ertrag";
-        texte["de"]["category_r2"]="Rezepte Erh"+o_dots+"hung Punkte";
-        texte["de"]["category_p0"]="Power-Ups Produkt";
-        texte["de"]["category_p1"]="Power-Ups Erh"+o_dots+"hung Ertrag";
-        texte["de"]["category_p2"]="Power-Ups Erh"+o_dots+"hung Punkte";
+        text["de"]["category_c"]=text["de"]["coins"];
+        text["de"]["category_v"]="Pflanzen";
+        text["de"]["category_e"]="Fortgeschrittene Produkte";
+        text["de"]["category_z"]=unsafeWindow.rack_deco;
+        text["de"]["category_o"]=unsafeWindow.rack_oil;
+        text["de"]["category_fw"]=unsafeWindow.rack_foodworld;
+        text["de"]["category_fw1"]="Getränke";
+        text["de"]["category_fw2"]="Speisen";
+        text["de"]["category_fw3"]="Torten und Kuchen";
+        text["de"]["category_fw4"]="noch nicht verfügbar";
+        text["de"]["category_fl"]="Blumen";
+        text["de"]["category_fla"]="Gestecke";
+        text["de"]["category_f1"]="Setzlinge";
+        text["de"]["category_f2"]="Stämme";
+        text["de"]["category_f3"]="Sägewerk Produkte";
+        text["de"]["category_f4"]="Schreinerei Produkte";
+        text["de"]["category_f5"]="Bauernhaus Holzprodukte";
+        text["de"]["category_hr"]="Heilkräuter";
+	    text["de"]["category_md"]="Tinktur";
+        text["de"]["category_r0"]="Rezepte Produkt";
+        text["de"]["category_r1"]="Rezepte Erhöhung Ertrag";
+        text["de"]["category_r2"]="Rezepte Erhöhung Punkte";
+        text["de"]["category_p0"]="Power-Ups Produkt";
+        text["de"]["category_p1"]="Power-Ups Erhöhung Ertrag";
+        text["de"]["category_p2"]="Power-Ups Erhöhung Punkte";
         // settings
-        texte["de"]["settings_valAutoWater"]=["Automatisch gie"+sz+"en","Sagt ja der Name schon: Nach dem Pflanzen wird automatisch gegossen, wenn du den 'Alles gie"+sz+"en' besitzt (Premium)."];
-        texte["de"]["settings_valAssumeWater"]=["Gie"+sz+"en annehmen","Dies ist wichtig f"+u_dots+"r Pflanzen, die l"+a_dots+"nger als 24h wachsen. Die Berechnung der Ernte-Zeit nimmt an, dass stets gegossen wird."];
-        texte["de"]["settings_valAutoCrop"]=["Automatisch ernten","Wie zuvor auch: Es wird beim "+O_dots+"ffnen der Ackers geerntet, falls n"+o_dots+"tig."];
-        texte["de"]["settings_valWaterNeeded"]=["Gie"+sz+"en n"+o_dots+"tig","Soll angezeigt werden, dass dein Acker nicht gegossen ist?"];
-        texte["de"]["settings_valCropMsg"]=["Erntemeldung klicken","Du magst die l"+a_dots+"stige Erntemeldung mit dem Schwein nicht? Hier wirst du sie los."];
-        texte["de"]["settings_valLimitEmptyFields"]=["Leere Felder","Es werden unbepflanzte Felder auf deinem Acker erkannt. Sind dies mehr als hier angegeben, wird der Acker als unbenutzt gemeldet."];
-        texte["de"]["settings_valLimitEmptyFields_forest"]=["Leere Felder Wald","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
-        texte["de"]["settings_valMoveAnimals"]=["Bewege Tiere",""];
-        texte["de"]["settings_valContractLogAmount"]=["Anzahl gemerkte Vertr"+a_dots+"ge","Deine letzten erhaltenen und gesendeten Vertr"+a_dots+"ge werden gespeichert und somit kann ein Verlauf angezeigt werden."];
-        texte["de"]["settings_valFarmiLimits"]=["Farmi Grenzen","Die Farmis sind in 3 F"+a_dots+"lle markiert, je nachdem wie gut ihre Bezahl-Rate ist."];
-        texte["de"]["settings_valFarmiMiniInfo"]=["Farmi Mini Info","Zeigt einen kleinen Kreis unter jedem Farmi mit der jeweiligen Klasse der Bezahl-Rate."];
-        texte["de"]["settings_valMinRackMan"]=["Detail Konfiguration","Du editierst die Anzahl selbst *hier*"];
-        texte["de"]["settings_valMinRack"]=[,"Ein Produkt wird markiert, falls der Lagerbestand unter diese Grenze f"+a_dots+"llt. Du kannst verschiedene Werte abh"+a_dots+"ngig von der Kategorie einstellen."];
-        texte["de"]["settings_valMinRackPlantsize"]=["Pflanzengr"+o_dots+sz+"e einrechnen","Zum Beispiel braucht Getreide nur den halben Bestand."];
-        texte["de"]["settings_valMinRackGrowing"]=["Ernteprodukte","Beachtet zus"+a_dots+"tzlich die Produkte in Produktion und in den fertigen Powerups."];
-        texte["de"]["settings_valMinRackQuest"]=["Quest-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Questprodukte."];
-        texte["de"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
-        texte["de"]["settings_valMinRackFarmis"]=["Farmi-Produkte","Beachtet zus"+a_dots+"tzlich die Menge der Produkte, die deine Farmis verlangen. Dabei gelten nur diejenigen, die besser als die untere Grenze bezahlen."];
-        texte["de"]["settings_valMinRackForestryFarmis"]=["Forestry farmie products","Adds the amount of the products wanted by the forestry farmies."];
-        texte["de"]["settings_protectMinRack"]=["Marktschutz","Verhindert, dass die Warenmenge beim Marktverkauf den minimalen Lagerbestand unterschreitet."];
-        texte["de"]["settings_valBuyingLimitDown"]=["Untere Kaufmarkierung",""];
-        texte["de"]["settings_valBuyingLimit"]=["Obere Kaufgrenze","Du kannst am Markt nur Produkte kaufen die maximal der Prozentgrenze entsprechen. Dies sch"+u_dots+"tzt dich vor dem versehentlichen Kauf "+u_dots+"bertrieben teurer Waren."];
-        texte["de"]["settings_valBuyingLimitNPC"]=["Nur billiger als NPC kaufen",""];
-        texte["de"]["settings_valSellingLimit"]=["Verkaufgrenzen","Auch dein Verkauf wird gesch"+u_dots+"tzt, so dass du weder zu billig noch zu teuer verkaufst."];
-        texte["de"]["settings_valJoinPrices"]=["Ein Preisfeld","Verbindet die Preis-Eingabefelder beim Marktstand"];
-        texte["de"]["settings_valQuicklinks"]=["Quicklinks am Markt anzeigen","Quicklinks am Markt anzeigen"];
-        texte["de"]["settings_valUseObservedPrices"]=["Benutze beobachtete Preise","Wenn du dich durch den Markt klickst, werden die Preise beobachtet. Ein berechneter Preis ist in der Preisliste zu sehen. Soll dieser automatisch "+u_dots+"bernommen werden?"];
-        texte["de"]["settings_valSendStatistics"]=["Sende Statistiken","Unterst"+u_dots+"tze den <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>. Es werden keine privaten Daten gesendet!"];
-        texte["de"]["settings_valPrivateMessages"]=["Anzahl gemerkte Privatnachrichten","Deine letzten privaten Nachrichten werden gespeichert und somit kann ein Nachrichten-Verlauf mit einem Kontakt angezeigt werden."];
-        texte["de"]["settings_valMarketMessages"]=["Anzahl gemerkte Marktnachrichten","Es bleiben auch alte System-Nachrichten in diesem Speicher, selbst wenn sie "+a_dots+"lter als die maximalen 7&nbsp;Tage sind."];
-        texte["de"]["settings_valMessageRe"]=["Betreff k"+u_dots+"rzen","Ersetzt im Betreff \"Re:Re:\" durch \"Re:\", wenn du eine Antwort schreibst."];
-        texte["de"]["settings_valMessagesSystemMarkRead"]=["Systemnachrichten lesen","Systemnachrichten werden automatisch als gelesen markiert."];
-        texte["de"]["settings_valFoodworldFarmiPlacing"]=["Picknickarea Farmis platzieren","Angenommene Picknickarea Farmis werden automatisch auf einen freien Sitzplatz gewiesen."];
-        texte["de"]["settings_valAutoLogin"]=["Automatisch einloggen","Sobald Nutzerdaten und Passwort eingegeben sind, werden die Accounts wieder eingeloggt. Somit kann wieder gef"+u_dots+"ttert, geerntet, gegossen und gepflanzt werden. Es m"+u_dots+"ssen Popups erlaubt werden bei mehreren Accounts."];
-        texte["de"]["settings_valUpdate"]=["Update","Es wird gepr"+u_dots+"ft, ob eine neuere Version dieses Scriptes verf"+u_dots+"gbar ist."];
-        texte["de"]["settings_valServerTimeOffset"]=["Zeit des Servers",""];
-        texte["de"]["settings_valGamecursor"]=["Spiel-Cursor","Benutze die spieleigenen Cursor an Stelle deiner System-Cursor."];
-        texte["de"]["settings_valDrag"]=["Verschieben","Erlaube das Bewegen der Fenster (obere linke Ecke)."];
-        texte["de"]["settings_valClickErrorbox"]=["Verstecke Fehlerbox","Einige Spieler haben Probleme mit der Fehlerbox. Beachte, dass diese Meldung normalerweise sinnvoll ist!"];
-        texte["de"]["settings_valHotkeys"]=["Hotkeys","Benutze Hotkeys um schnell durch das Spiel zu navigieren. Schau in die Hilfe."];
-        texte["de"]["settings_hotkeymap"]={"prevPage":"vorige Nachricht, Zone, ...","nextPage":"n"+a_dots+"chste Nachricht, Zone, ...","farm1":"1. Farm","farm2":"2. Farm","farm3":"3. Farm","guild":"Club","city1":"Klein Muhstein","city2":"Teichlingen","farmiLog":"Farmi-Log","help":"Hilfe","market":"Marktplatz","marketstand":"Marktstand","messages":"Nachrichten","options":"Optionen","profit":"Profit Kalkulation","seedVendor":"Saatguth"+a_dots+"ndler","overview":U_dots+"bersicht","contract":"Vertr"+a_dots+"ge","systemMessage":"(n"+a_dots+"chste ungelesene) Systemnachricht"};
-        texte["de"]["settings_valzoneAddToGlobalTime"]=["Integration","Soll die Zeit in die Global-Zeit einbezogen werden?"];
-        texte["de"]["settings_valGlobaltimeShowCroppedZone"]=["Beachte geerntete Zonen","Sollen geerntete Zonen in die globale Zeit einbezogen werden?"];
-        texte["de"]["settings_cacheReset"]=["Cache reset","Alle Informationen "+u_dots+"ber deine Zonen werden gel"+o_dots+"scht ..."];
+        text["de"]["settings_valAutoWater"]=["Automatisch gießen","Sagt ja der Name schon: Nach dem Pflanzen wird automatisch gegossen, wenn du den 'Alles gießen' besitzt (Premium)."];
+        text["de"]["settings_valAssumeWater"]=["Gießen annehmen","Dies ist wichtig für Pflanzen, die länger als 24h wachsen. Die Berechnung der Ernte-Zeit nimmt an, dass stets gegossen wird."];
+        text["de"]["settings_valAutoCrop"]=["Automatisch ernten","Wie zuvor auch: Es wird beim Öffnen der Ackers geerntet, falls nötig."];
+        text["de"]["settings_valWaterNeeded"]=["Gießen nötig","Soll angezeigt werden, dass dein Acker nicht gegossen ist?"];
+        text["de"]["settings_valCropMsg"]=["Erntemeldung klicken","Du magst die lästige Erntemeldung mit dem Schwein nicht? Hier wirst du sie los."];
+        text["de"]["settings_valLimitEmptyFields"]=["Leere Felder","Es werden unbepflanzte Felder auf deinem Acker erkannt. Sind dies mehr als hier angegeben, wird der Acker als unbenutzt gemeldet."];
+        text["de"]["settings_valLimitEmptyFields_forest"]=["Leere Felder Wald","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
+        text["de"]["settings_valMoveAnimals"]=["Bewege Tiere",""];
+        text["de"]["settings_valContractLogAmount"]=["Anzahl gemerkte Verträge","Deine letzten erhaltenen und gesendeten Verträge werden gespeichert und somit kann ein Verlauf angezeigt werden."];
+        text["de"]["settings_valFarmiLimits"]=["Farmi Grenzen","Die Farmis sind in 3 Fälle markiert, je nachdem wie gut ihre Bezahl-Rate ist."];
+        text["de"]["settings_valFarmiMiniInfo"]=["Farmi Mini Info","Zeigt einen kleinen Kreis unter jedem Farmi mit der jeweiligen Klasse der Bezahl-Rate."];
+        text["de"]["settings_valMinRackMan"]=["Detail Konfiguration","Du editierst die Anzahl selbst *hier*"];
+        text["de"]["settings_valMinRack"]=[,"Ein Produkt wird markiert, falls der Lagerbestand unter diese Grenze fällt. Du kannst verschiedene Werte abhängig von der Kategorie einstellen."];
+        text["de"]["settings_valMinRackPlantsize"]=["Pflanzengröße einrechnen","Zum Beispiel braucht Getreide nur den halben Bestand."];
+        text["de"]["settings_valMinRackGrowing"]=["Ernteprodukte","Beachtet zusätzlich die Produkte in Produktion und in den fertigen Powerups."];
+        text["de"]["settings_valMinRackQuest"]=["Quest-Produkte","Beachtet zusätzlich die Menge der Questprodukte."];
+        text["de"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
+        text["de"]["settings_valMinRackFarmis"]=["Farmi-Produkte","Beachtet zusätzlich die Menge der Produkte, die deine Farmis verlangen. Dabei gelten nur diejenigen, die besser als die untere Grenze bezahlen."];
+        text["de"]["settings_valMinRackForestryFarmis"]=["Forestry farmie products","Adds the amount of the products wanted by the forestry farmies."];
+        text["de"]["settings_protectMinRack"]=["Marktschutz","Verhindert, dass die Warenmenge beim Marktverkauf den minimalen Lagerbestand unterschreitet."];
+        text["de"]["settings_valBuyingLimitDown"]=["Untere Kaufmarkierung",""];
+        text["de"]["settings_valBuyingLimit"]=["Obere Kaufgrenze","Du kannst am Markt nur Produkte kaufen die maximal der Prozentgrenze entsprechen. Dies schützt dich vor dem versehentlichen Kauf übertrieben teurer Waren."];
+        text["de"]["settings_valBuyingLimitNPC"]=["Nur billiger als NPC kaufen",""];
+        text["de"]["settings_valSellingLimit"]=["Verkaufgrenzen","Auch dein Verkauf wird geschützt, so dass du weder zu billig noch zu teuer verkaufst."];
+        text["de"]["settings_valJoinPrices"]=["Ein Preisfeld","Verbindet die Preis-Eingabefelder beim Marktstand"];
+        text["de"]["settings_valQuicklinks"]=["Quicklinks am Markt anzeigen","Quicklinks am Markt anzeigen"];
+        text["de"]["settings_valUseObservedPrices"]=["Benutze beobachtete Preise","Wenn du dich durch den Markt klickst, werden die Preise beobachtet. Ein berechneter Preis ist in der Preisliste zu sehen. Soll dieser automatisch übernommen werden?"];
+        text["de"]["settings_valSendStatistics"]=["Sende Statistiken","Unterstütze den <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>. Es werden keine privaten Daten gesendet!"];
+        text["de"]["settings_valPrivateMessages"]=["Anzahl gemerkte Privatnachrichten","Deine letzten privaten Nachrichten werden gespeichert und somit kann ein Nachrichten-Verlauf mit einem Kontakt angezeigt werden."];
+        text["de"]["settings_valMarketMessages"]=["Anzahl gemerkte Marktnachrichten","Es bleiben auch alte System-Nachrichten in diesem Speicher, selbst wenn sie älter als die maximalen 7&nbsp;Tage sind."];
+        text["de"]["settings_valMessageRe"]=["Betreff kürzen","Ersetzt im Betreff \"Re:Re:\" durch \"Re:\", wenn du eine Antwort schreibst."];
+        text["de"]["settings_valMessagesSystemMarkRead"]=["Systemnachrichten lesen","Systemnachrichten werden automatisch als gelesen markiert."];
+        text["de"]["settings_valFoodworldFarmiPlacing"]=["Picknickarea Farmis platzieren","Angenommene Picknickarea Farmis werden automatisch auf einen freien Sitzplatz gewiesen."];
+        text["de"]["settings_valAutoLogin"]=["Automatisch einloggen","Sobald Nutzerdaten und Passwort eingegeben sind, werden die Accounts wieder eingeloggt. Somit kann wieder gefüttert, geerntet, gegossen und gepflanzt werden. Es müssen Popups erlaubt werden bei mehreren Accounts."];
+        text["de"]["settings_valUpdate"]=["Update","Es wird geprüft, ob eine neuere Version dieses Scriptes verfügbar ist."];
+        text["de"]["settings_valServerTimeOffset"]=["Zeit des Servers",""];
+        text["de"]["settings_valGamecursor"]=["Spiel-Cursor","Benutze die spieleigenen Cursor an Stelle deiner System-Cursor."];
+        text["de"]["settings_valDrag"]=["Verschieben","Erlaube das Bewegen der Fenster (obere linke Ecke)."];
+        text["de"]["settings_valClickErrorbox"]=["Verstecke Fehlerbox","Einige Spieler haben Probleme mit der Fehlerbox. Beachte, dass diese Meldung normalerweise sinnvoll ist!"];
+        text["de"]["settings_valHotkeys"]=["Hotkeys","Benutze Hotkeys um schnell durch das Spiel zu navigieren. Schau in die Hilfe."];
+        text["de"]["settings_hotkeymap"]={"prevPage":"vorige Nachricht, Zone, ...","nextPage":"nächste Nachricht, Zone, ...","farm1":"1. Farm","farm2":"2. Farm","farm3":"3. Farm","guild":"Club","city1":"Klein Muhstein","city2":"Teichlingen","farmiLog":"Farmi-Log","help":"Hilfe","market":"Marktplatz","marketstand":"Marktstand","messages":"Nachrichten","options":"Optionen","profit":"Profit Kalkulation","seedVendor":"Saatguthändler","overview":"Übersicht","contract":"Verträge","systemMessage":"(nächste ungelesene) Systemnachricht"};
+        text["de"]["settings_valzoneAddToGlobalTime"]=["Integration","Soll die Zeit in die Global-Zeit einbezogen werden?"];
+        text["de"]["settings_valGlobaltimeShowCroppedZone"]=["Beachte geerntete Zonen","Sollen geerntete Zonen in die globale Zeit einbezogen werden?"];
+        text["de"]["settings_cacheReset"]=["Cache reset","Alle Informationen über deine Zonen werden gelöscht ..."];
         // help
-        texte["de"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\""+GM_Home+"\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
-        texte["de"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
-        texte["de"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
-        texte["de"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
-        texte["de"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
-        texte["de"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
-        texte["de"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
-        texte["de"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
-        texte["de"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
-        texte["de"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
-        texte["de"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
-        texte["de"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
+        text["de"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\""+GM_Home+"\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
+        text["de"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
+        text["de"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
+        text["de"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
+        text["de"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
+        text["de"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
+        text["de"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
+        text["de"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
+        text["de"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
+        text["de"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
+        text["de"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
+        text["de"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
     }
-    if(top.unsafeData.texte["en"]==undefined){
-        texte["en"]=new Object();
-        texte["en"]["msgMarketsaleContent"]="(.*) bought (\\d+)x (.*?) for<br> (.*?) pD from you\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
-        texte["en"]["msgContractsaleContent"]="(.*) has signed a contract of yours!<br><br> The following products have been sold:<br>(.*?)<br> The amount of (.*?) pD has been credited to your account\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
-        texte["en"]["msgContractsaleList"]="(\\d+)x (.*?)<br>"; // The line-pattern for the detailed selling list
-        texte["en"]["msgFriend"]="(.+) would like to add you as a friend"; // The subject. The person has to be replaced by "(.+)"
+    if(undefined===text["en"]){
+        text["en"]=new Object();
+        text["en"]["msgMarketsaleContent"]="(.*) bought (\\d+)x (.*?) for<br> (.*?) pD from you\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
+        text["en"]["msgContractsaleContent"]="(.*) has signed a contract of yours!<br><br> The following products have been sold:<br>(.*?)<br> The amount of (.*?) pD has been credited to your account\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
+        text["en"]["msgContractsaleList"]="(\\d+)x (.*?)<br>"; // The line-pattern for the detailed selling list
+        text["en"]["msgSubjectFriend"]="(.+) would like to add you as a friend"; // The subject. The person has to be replaced by "(.+)"
+        text["en"]["msgSubjectGift"]="Gift for you";
+        text["en"]["msgSubjectWeed1"]="Oh no!";
+        text["en"]["msgSubjectWeed2"]="Au Weia!";
         
-        texte["en"]["above"]="above";
-        texte["en"]["absolute"]="absolute";
-        texte["en"]["accountActive"]="Account active";
-        texte["en"]["accounts"]="Accounts";
-        texte["en"]["activation"]="Activation";
-        texte["en"]["additionalFarmi"]="%1% additional farmie daily";
-        texte["en"]["additionalForestFarmiSlot"]="%1% additional place in the forest farmi waiting queue";
-        texte["en"]["additionalLogCapacity"]="Rack capacity for logs increases of %1%";
-        texte["en"]["advertisingEnds"]="Advertising ends today";
-        texte["en"]["adviser"]="Adviser";
-        texte["en"]["afterFee"]="After Fee";
-        texte["en"]["alertSetPriceNone"]="Do you really want to set no price for %PRODUCT%?";
-        texte["en"]["alertSetPriceOverNPC"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is higher than the NPC-value of %NPC%.";
-        texte["en"]["alertSetPriceOverObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much higher than the observed value of %OBS%.";
-        texte["en"]["alertSetPriceUnderObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much lower than the observed value of %OBS%.";
-        texte["en"]["alertWillLowRack"]="Attention! This will drop your stock below the minimal value!";
-        texte["en"]["all"]="All";
-        texte["en"]["autologinAllOk"]="All accounts logged in.";
-        texte["en"]["autologinChecking"]="Checking active sessions.  Please wait %1% seconds<br>...";
-        texte["en"]["bonus"]="Bonus";
-        texte["en"]["boughtTickets"]="Bought tickets";
-        texte["en"]["buy"]="Buy";
-        texte["en"]["buyers"]="Buyers";
-        texte["en"]["calcTo"]="Calculate to";
-        texte["en"]["carpentry"]="Carpentry";
-        texte["en"]["city"]="City";
-        texte["en"]["change"]="Change";
-        texte["en"]["clearFilter"]="Clear filter";
-        texte["en"]["click"]="Click";
-        texte["en"]["clickAlt"]="Alt+Click";
-        texte["en"]["clickCtrl"]="Ctrl+Click";
-        texte["en"]["clickDouble"]="Double-Click";
-        texte["en"]["clickToChange"]="Click to change";
-        texte["en"]["coins"]=unsafeWindow.t_coins;
-        texte["en"]["commission"]="Commission";
-        texte["en"]["confirmUseObservedPrices"]="The observed prices will overwrite previously saved market prices ...";
-        texte["en"]["confirmChangelogVersion"]="You have installed a new version of the Adviser script.<br>The version %1% contains the following changes:";
-        texte["en"]["contract"]="Contract";
-        texte["en"]["contractsReceived"]="Contracts received";
-        texte["en"]["contractsSent"]="Contracts sent";
-        texte["en"]["copyToTextFile"]="Copy this string to a text-file";
-        texte["en"]["couldNotGetRank"]="Your rank could not be determined.";
-        texte["en"]["couldNotGetUpdateInfoOfX"]="Update information for %1% could not be determined.";
-        texte["en"]["createStorageString"]="Create storage string";
-        texte["en"]["cropped"]="Cropped";
-        texte["en"]["currentOffers"]="Current offers";
-        texte["en"]["dailyRuns"]="Daily runs";
-        texte["en"]["dailyTicket"]="Daily ticket";
-        texte["en"]["dailyYield"]="Daily yield";
-        texte["en"]["date"]="Date";
-        texte["en"]["day"]="Day";
-        texte["en"]["day0"]="Today";
-        texte["en"]["day1"]="Tomorrow";
-        // texte["day2"]="Day after tomorrow"; // comment it if not used in the language
-        texte["en"]["default"]="Default";
-        texte["en"]["delete"]="Delete";
-        texte["en"]["deleteFollowingData"]="Delete following data";
-        texte["en"]["demand"]="Demand";
-        texte["en"]["detail"]="Detail";
-        texte["en"]["difficulty"]="Difficulty";
-        texte["en"]["donkey"]="Donkey";
-        texte["en"]["duration"]="duration";
-        texte["en"]["editPrice"]="Edit price";
-        texte["en"]["emptyField"]="Empty field!";
-        texte["en"]["end"]="End";
-        texte["en"]["exchangedLots"]="Exchanged lots";
-        texte["en"]["farm"]="Farm";
-        texte["en"]["farmersmarket"]=unsafeWindow.t_farmers_market;
-        texte["en"]["farmX"]="%1%. farm";
-        texte["en"]["farmi"]="Farmie";
-        texte["en"]["farmis"]="Farmies";    
-        texte["en"]["farmpedia"]="FarmPedia";
-        texte["en"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
-        texte["en"]["farmzone"]="Building place %1% of %2%. farm";
-        texte["en"]["feed"]="Feed";
-        texte["en"]["fields"]="Fields";
-        texte["en"]["filter"]="Filter";
-        texte["en"]["filterForX"]="Filter for %1%";
-        texte["en"]["finished"]="Finished";
-        texte["en"]["foodworld"]=unsafeWindow.foodworld_title;
-        texte["en"]["forest"]="Forest";
-        texte["en"]["forestry"]="Forestry";
-        texte["en"]["formatNumbers"]="Format numbers";
-        texte["en"]["formulaType"]=["Prod","+val","+pts"];
-        texte["en"]["fl1"]="Flower meadow";
-        texte["en"]["fl2"]="Flower workshop";
-        texte["en"]["fl3"]="Monster fruit culture";
-        texte["en"]["fl5"]="Animal doctor";
-        texte["en"]["fl6"]="Speed eating";
-        texte["en"]["fw1"]="Soda stall";
-        texte["en"]["fw2"]="Snack booth";
-        texte["en"]["fw3"]="Pastry shop";
-        texte["en"]["gain"]="Gain";
-        texte["en"]["gamecurrency"]=unsafeWindow.gamecurrency;
-        texte["en"]["general"]="General";
-        texte["en"]["given"]="Given";
-        texte["en"]["goToDonkey"]="Go to donkey Luke";
-        texte["en"]["goToLottery"]="Go to lottery";
-        texte["en"]["goToMarket"]="Go to market";
-        texte["en"]["goToMarketOfX"]="Go to market of %1%";
-        texte["en"]["goToMarketstall"]="Go to market stall";
-        texte["en"]["goToPage"]="Go to page";
-        texte["en"]["goToRank"]="Go to rank";
-        texte["en"]["goToX"]="Go to %1%";
-        texte["en"]["goods"]="Goods";
-        texte["en"]["hide"]="hide";
-        texte["en"]["highlightProducts"]="Highlight products at market";
-        texte["en"]["highlightUser"]="Highlight user at market";
-        texte["en"]["hotkeys"]="Hotkeys";
-        texte["en"]["idle"]="idle !!";
-        texte["en"]["importStorageString"]="Import storage string";
-        texte["en"]["importStorageStringError"]="Sorry. Can't read the storage string.";
-        texte["en"]["inStock"]="in stock";
-        texte["en"]["informationIsMissing"]="Information is missing."
-        texte["en"]["ingredients"]="Ingredients";
-        texte["en"]["invalidServer"]="Invalid Server";
-        texte["en"]["inventory"]="Inventory";
-        texte["en"]["jobIncomplete"]="Job not finished successfully";
-        texte["en"]["jobComplete"]="Job finished successfully";
-        texte["en"]["jobCurrent"]="Current job";
-        texte["en"]["keptLots"]="Kept lots";
-        texte["en"]["level"]="Level";
-        texte["en"]["levelTooLow"]="Your level is too low";
-        texte["en"]["levelXneeded"]="Level&nbsp;%1%&nbsp;needed";
-        texte["en"]["load"]="Load";
-        texte["en"]["loading"]="Loading";
-        texte["en"]["localTime"]="Local time";
-        texte["en"]["lodge"]="Log cabin";   
-        texte["en"]["login"]="Login";
-        texte["en"]["loginPageFound"]="Found login page";
-        texte["en"]["loginPortalSubmitted"]="Submitted portal login";
-        texte["en"]["loginSubmitted"]="Submitted login";
-        texte["en"]["logDonkey"]="Donkey Luke Log";
-        texte["en"]["lotteryLog"]="Lottery Log";
-        texte["en"]["lvl"]="Lvl";
-        texte["en"]["manageVariables"]="Manage variables";  
-        texte["en"]["market"]="Market";
-        texte["en"]["marketPrice"]="Market&nbsp;Price";
-        texte["en"]["marketplace"]="Market place";
-        texte["en"]["marketstall"]="Market stall";
-        texte["en"]["megafield"]="Megafield";
-        texte["en"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;    
-        texte["en"]["messages"]="Messages";
-        texte["en"]["minRack"]="Min&nbsp;rack";
-        texte["en"]["minRackamount"]="Minimal rackamount";
-        texte["en"]["missing"]="Need";
-        texte["en"]["money"]="Offered";
-        texte["en"]["name"]="Name";
-        texte["en"]["newLevelReached"]="Congratulations!<br>You have reached the next level!";
-        texte["en"]["nextMessage"]="next message";
-        texte["en"]["no"]="No";
-        texte["en"]["nothingSelected"]="Nothing selected";
-        texte["en"]["NPC"]="NPC";
-        texte["en"]["NPCprice"]="NPC-Price";
-        texte["en"]["nr"]="Nr";
-        texte["en"]["observed"]="Observed";
-        texte["en"]["ok"]="OK";
-        texte["en"]["oldOnes"]="Old";
-        texte["en"]["options"]="Options";
-        texte["en"]["overNPCprice"]="over NPC-price";
-        texte["en"]["overX"]="over %1%";
-        texte["en"]["overview"]="overview";
-        texte["en"]["pageXNotLoaded"]="Page '%1%' is not loaded completely.";
-        texte["en"]["password"]="Password";
-        texte["en"]["pleaseOpenX"]="Please open %1%.";
-        texte["en"]["points"]="Points";
-        texte["en"]["portalLogin"]="Portal-Login";
-        texte["en"]["powerups"]="Power-Ups";
-        texte["en"]["previousMessage"]="previous message";
-        texte["en"]["price"]="Price";
-        texte["en"]["prices"]="Prices";
-        texte["en"]["product"]="Product";
-        texte["en"]["productOverview"]="Product overview";
-        texte["en"]["productTimeSaving"]="%1% minutes saving for %2%";
-        texte["en"]["production"]="Production";
-        texte["en"]["products"]="Products";
-        texte["en"]["profit"]="Profit";
-        texte["en"]["profitTable"]="Profit per Zone per Day";
-        texte["en"]["quantity"]="Quantity";
-        texte["en"]["quest_foodworld"]="Picnic area quest series";
-        texte["en"]["quest_forestry"]="Series of quests (forestry)";
-        texte["en"]["quest_main"]="Series of quests (farm)";
-        texte["en"]["questfoodworld1"]="Picnic area quest series";
-        texte["en"]["questforestry1"]="1st series of quests (forestry)";
-        texte["en"]["questforestry2"]="2nd series of quests (forestry)";
-        texte["en"]["questmain1"]="1st series of quests (farm)";
-        texte["en"]["questmain2"]="2nd series of quests (farm)";
-        texte["en"]["quests"]="Quests";
-        texte["en"]["rackX"]="%1%. rack";
-        texte["en"]["rank"]="Rank";
-        texte["en"]["readAll"]="Read all";
-        texte["en"]["readyAtX"]="Ready at %1%"; // %1%=2:15+texte["shortOClock"]
-        texte["en"]["readyAtX_day1"]="Tomorrow ready at %1%"; 
-        // texte["en"]["readyAtX_day2"]="Ready in 2days at %1%"; // comment it if not used in the language
-        texte["en"]["readySinceX"]="Ready since %1%"; 
-        texte["en"]["recipes"]="Recipes";
-        texte["en"]["recursive"]="Recursive Needed";
-        texte["en"]["relative"]="relative";
-        texte["en"]["reloadInXSec"]="Reload in %1%s.";
-        texte["en"]["relogin"]="Session ends soon.<br>New login in %1%.";
-        texte["en"]["remaining"]="Remaining";
-        texte["en"]["requestingUpdateInfoOfX"]="Requesting update information for %1% ..."
-        texte["en"]["requestingUserStatistic"]="Requesting user statistic ...";
-        texte["en"]["requirement"]="Need";
-        texte["en"]["requirementPerProduction"]="Requirement per production";   
-        texte["en"]["reward"]="Reward";
-        texte["en"]["salesLog"]="Sales log";
-        texte["en"]["save"]="Save";
-        texte["en"]["saveAsTemplate"]="Save as template";
-        texte["en"]["sawmill"]="Sawmill";
-        texte["en"]["scriptHomepage"]="Script Homepage";
-        texte["en"]["searchPlayer"]="Search player";
-        texte["en"]["seed"]="Seed";
-        texte["en"]["seedPerField"]="Seed per field";
-        texte["en"]["sendContract"]="Send contract";
-        texte["en"]["sendContractAgain"]="Send contract again";
-        texte["en"]["sentContractNrX"]="Sent contract no %1%."
-        texte["en"]["sendingXObservedPricesToServer"]="Sending %1% observed prices to server ...";
-        texte["en"]["server"]="Server";
-        texte["en"]["serverTime"]="Time of server";
-        texte["en"]["sessionEnd"]="End of Session at %1%<br>Click for new login";   
-        texte["en"]["seedVendor"]="Seed vendor"; // Short for the seller of plants
-        texte["en"]["seedVendorShort"]="Shop"; // Short for the seller of plants
-        texte["en"]["shadowboxitem"]="Shadowbox item";  
-        texte["en"]["shortHours"]="h";
-        texte["en"]["shortOClock"]="h";
-        texte["en"]["shouldReload"]="You should reload the page.";
-        texte["en"]["showAll"]="Show all";
-        texte["en"]["showChangelog"]="Show changelog";
-        texte["en"]["showLog"]="Show log";
-        texte["en"]["showMissingProducts"]="Show product shortage";
-        texte["en"]["showPasswords"]="show passwords";
-        texte["en"]["sinceX"]="since %1%";
-        texte["en"]["single"]="Single";
-        texte["en"]["start"]="Start";
-        texte["en"]["stat_days1"]="1 day";
-        texte["en"]["stat_days3"]="3 days";
-        texte["en"]["stat_days5"]="5 days";
-        texte["en"]["stat_days7"]="7 days";
-        texte["en"]["stat_gamefield"]="Show game";
-        texte["en"]["stat_stats"]="Show statistics";
-        texte["en"]["statistics"]="Statistics";
-        texte["en"]["stock"]="Stock";
-        texte["en"]["stockValue"]="Stock value";
-        texte["en"]["stockXlow"]="Stock %1% low";
-        texte["en"]["stockXmissing"]="Stock %1% missing!!!";
-        texte["en"]["storeXinContract"]="Store %1% in contract";
-        texte["en"]["summarize"]="Summarize";
-        texte["en"]["takeObservedPrices"]="Take observed prices";
-        texte["en"]["time"]="Time";
-        texte["en"]["title"]="Title";
-        texte["en"]["toMessage"]="to message";
-        texte["en"]["toSeedVendor"]="Go to seed vendor";
-        texte["en"]["total"]="Total";
-        texte["en"]["turnover"]="Turnover";
-        texte["en"]["unitPrice"]="Unit price";
-        texte["en"]["upgradeForX"]="upgrade&nbsp;for&nbsp;%1%";
-        texte["en"]["upgradeLevel"]="Upgrade level";
-        texte["en"]["upjersAdvertising"]="Upjers-Advertising";
-        texte["en"]["useQuestProducts"]= "Use current quest products";
-        texte["en"]["userscriptNotStarted"]= "The userscript is not started completely.";
-        texte["en"]["useWildcard"]= "Use * to match one or more letters.";
-        texte["en"]["value"]="Value";
-        texte["en"]["version"]="Version";
-        texte["en"]["veterinayLevelXNeeded"]="Veterinary level %1% needed";
-        texte["en"]["waterBonus"]="%1%% water bonus";
-        texte["en"]["waterNeeded"]="Water needed";
-        texte["en"]["waterNeededAtX"]="Water needed at %1%"; 
-        texte["en"]["waterNeededAtX_day1"]="Tomorrow water needed at %1%";
-        texte["en"]["wateringFeature"]="Watering feature";
-        texte["en"]["windmill"]="Windmill";
-        texte["en"]["writeMessage"]="write message";
-        texte["en"]["XIsUpToDate"]="%1% is up-to-date."
-        texte["en"]["yes"]="Yes";
-        texte["en"]["yield"]="Yield";
-        texte["en"]["yieldPerProduction"]="Yield per production";
-        texte["en"]["youAreOnRankX"]="You are on rank %1%.";
+        text["en"]["above"]="above";
+        text["en"]["absolute"]="absolute";
+        text["en"]["accountActive"]="Account active";
+        text["en"]["accounts"]="Accounts";
+        text["en"]["activation"]="Activation";
+        text["en"]["additionalFarmi"]="%1% additional farmie daily";
+        text["en"]["additionalForestFarmiSlot"]="%1% additional place in the forest farmi waiting queue";
+        text["en"]["additionalLogCapacity"]="Rack capacity for logs increases of %1%";
+        text["en"]["advertisingEnds"]="Advertising ends today";
+        text["en"]["adviser"]="Adviser";
+        text["en"]["afterFee"]="After Fee";
+        text["en"]["alertSetPriceNone"]="Do you really want to set no price for %PRODUCT%?";
+        text["en"]["alertSetPriceOverNPC"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is higher than the NPC-value of %NPC%.";
+        text["en"]["alertSetPriceOverObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much higher than the observed value of %OBS%.";
+        text["en"]["alertSetPriceUnderObs"]="Do you really want to set the price of %PRICE% for %PRODUCT%?<br>It is much lower than the observed value of %OBS%.";
+        text["en"]["alertWillLowRack"]="Attention! This will drop your stock below the minimal value!";
+        text["en"]["all"]="All";
+        text["en"]["autologinAllOk"]="All accounts logged in.";
+        text["en"]["autologinChecking"]="Checking active sessions.  Please wait %1% seconds<br>...";
+        text["en"]["bonus"]="Bonus";
+        text["en"]["boughtTickets"]="Bought tickets";
+        text["en"]["buy"]="Buy";
+        text["en"]["buyers"]="Buyers";
+        text["en"]["calcTo"]="Calculate to";
+        text["en"]["carpentry"]="Carpentry";
+        text["en"]["city"]="City";
+        text["en"]["change"]="Change";
+        text["en"]["clearFilter"]="Clear filter";
+        text["en"]["click"]="Click";
+        text["en"]["clickAlt"]="Alt+Click";
+        text["en"]["clickCtrl"]="Ctrl+Click";
+        text["en"]["clickDouble"]="Double-Click";
+        text["en"]["clickToChange"]="Click to change";
+        text["en"]["coins"]=unsafeWindow.t_coins;
+        text["en"]["commission"]="Commission";
+        text["en"]["confirmUseObservedPrices"]="The observed prices will overwrite previously saved market prices ...";
+        text["en"]["confirmChangelogVersion"]="You have installed a new version of the Adviser script.<br>The version %1% contains the following changes:";
+        text["en"]["contract"]="Contract";
+        text["en"]["contractsReceived"]="Contracts received";
+        text["en"]["contractsSent"]="Contracts sent";
+        text["en"]["copyToTextFile"]="Copy this string to a text-file";
+        text["en"]["couldNotGetRank"]="Your rank could not be determined.";
+        text["en"]["couldNotGetUpdateInfoOfX"]="Update information for %1% could not be determined.";
+        text["en"]["createStorageString"]="Create storage string";
+        text["en"]["cropped"]="Cropped";
+        text["en"]["currentOffers"]="Current offers";
+        text["en"]["dailyRuns"]="Daily runs";
+        text["en"]["dailyTicket"]="Daily ticket";
+        text["en"]["dailyYield"]="Daily yield";
+        text["en"]["date"]="Date";
+        text["en"]["day"]="Day";
+        text["en"]["day0"]="Today";
+        text["en"]["day1"]="Tomorrow";
+        // text["day2"]="Day after tomorrow"; // comment it if not used in the language
+        text["en"]["default"]="Default";
+        text["en"]["delete"]="Delete";
+        text["en"]["deleteFollowingData"]="Delete following data";
+        text["en"]["demand"]="Demand";
+        text["en"]["detail"]="Detail";
+        text["en"]["difficulty"]="Difficulty";
+        text["en"]["donkey"]="Donkey";
+        text["en"]["duration"]="duration";
+        text["en"]["editPrice"]="Edit price";
+        text["en"]["emptyField"]="Empty field!";
+        text["en"]["end"]="End";
+        text["en"]["exchangedLots"]="Exchanged lots";
+        text["en"]["farm"]="Farm";
+        text["en"]["farmersmarket"]=unsafeWindow.t_farmers_market;
+        text["en"]["farmX"]="%1%. farm";
+        text["en"]["farmi"]="Farmie";
+        text["en"]["farmis"]="Farmies";
+        text["en"]["farmpedia"]="FarmPedia";
+        text["en"]["farmpediaUrl"]="http://farmpedia.myfreefarm.de/";
+        text["en"]["farmzone"]="Building place %1% of %2%. farm";
+        text["en"]["feed"]="Feed";
+        text["en"]["fields"]="Fields";
+        text["en"]["filter"]="Filter";
+        text["en"]["filterForX"]="Filter for %1%";
+        text["en"]["finished"]="Finished";
+        text["en"]["foodworld"]=unsafeWindow.foodworld_title;
+        text["en"]["forest"]="Forest";
+        text["en"]["forestry"]="Forestry";
+        text["en"]["formatNumbers"]="Format numbers";
+        text["en"]["formulaType"]=["Prod","+val","+pts"];
+        text["en"]["fl1"]="Flower meadow";
+        text["en"]["fl2"]="Flower workshop";
+        text["en"]["fl3"]="Monster fruit culture";
+        text["en"]["fl5"]="Animal doctor";
+        text["en"]["fl6"]="Speed eating";
+        text["en"]["fw1"]="Soda stall";
+        text["en"]["fw2"]="Snack booth";
+        text["en"]["fw3"]="Pastry shop";
+        text["en"]["gain"]="Gain";
+        text["en"]["gamecurrency"]=unsafeWindow.gamecurrency;
+        text["en"]["general"]="General";
+        text["en"]["given"]="Given";
+        text["en"]["goToDonkey"]="Go to donkey Luke";
+        text["en"]["goToLottery"]="Go to lottery";
+        text["en"]["goToMarket"]="Go to market";
+        text["en"]["goToMarketOfX"]="Go to market of %1%";
+        text["en"]["goToMarketstall"]="Go to market stall";
+        text["en"]["goToPage"]="Go to page";
+        text["en"]["goToRank"]="Go to rank";
+        text["en"]["goToX"]="Go to %1%";
+        text["en"]["goods"]="Goods";
+        text["en"]["hide"]="hide";
+        text["en"]["highlightProducts"]="Highlight products at market";
+        text["en"]["highlightUser"]="Highlight user at market";
+        text["en"]["hotkeys"]="Hotkeys";
+        text["en"]["idle"]="idle !!";
+        text["en"]["importStorageString"]="Import storage string";
+        text["en"]["importStorageStringError"]="Sorry. Can't read the storage string.";
+        text["en"]["inStock"]="in stock";
+        text["en"]["informationIsMissing"]="Information is missing."
+        text["en"]["ingredients"]="Ingredients";
+        text["en"]["invalidServer"]="Invalid Server";
+        text["en"]["inventory"]="Inventory";
+        text["en"]["jobIncomplete"]="Job not finished successfully";
+        text["en"]["jobComplete"]="Job finished successfully";
+        text["en"]["jobCurrent"]="Current job";
+        text["en"]["keptLots"]="Kept lots";
+        text["en"]["level"]="Level";
+        text["en"]["levelTooLow"]="Your level is too low";
+        text["en"]["levelXneeded"]="Level&nbsp;%1%&nbsp;needed";
+        text["en"]["load"]="Load";
+        text["en"]["loading"]="Loading";
+        text["en"]["localTime"]="Local time";
+        text["en"]["lodge"]="Log cabin";
+        text["en"]["login"]="Login";
+        text["en"]["loginPageFound"]="Found login page";
+        text["en"]["loginPortalSubmitted"]="Submitted portal login";
+        text["en"]["loginSubmitted"]="Submitted login";
+        text["en"]["logDonkey"]="Donkey Luke Log";
+        text["en"]["lotteryLog"]="Lottery Log";
+        text["en"]["lvl"]="Lvl";
+        text["en"]["manageVariables"]="Manage variables";
+        text["en"]["market"]="Market";
+        text["en"]["marketPrice"]="Market&nbsp;Price";
+        text["en"]["marketplace"]="Market place";
+        text["en"]["marketstall"]="Market stall";
+        text["en"]["megafield"]="Megafield";
+        text["en"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;
+        text["en"]["messages"]="Messages";
+        text["en"]["minRack"]="Min&nbsp;rack";
+        text["en"]["minRackamount"]="Minimal rackamount";
+        text["en"]["missing"]="Need";
+        text["en"]["money"]="Offered";
+        text["en"]["name"]="Name";
+        text["en"]["newLevelReached"]="Congratulations!<br>You have reached the next level!";
+        text["en"]["nextMessage"]="next message";
+        text["en"]["no"]="No";
+        text["en"]["nothingSelected"]="Nothing selected";
+        text["en"]["NPC"]="NPC";
+        text["en"]["NPCprice"]="NPC-Price";
+        text["en"]["nr"]="Nr";
+        text["en"]["observed"]="Observed";
+        text["en"]["ok"]="OK";
+        text["en"]["oldOnes"]="Old";
+        text["en"]["options"]="Options";
+        text["en"]["overNPCprice"]="over NPC-price";
+        text["en"]["overX"]="over %1%";
+        text["en"]["overview"]="overview";
+        text["en"]["pageXNotLoaded"]="Page '%1%' is not loaded completely.";
+        text["en"]["password"]="Password";
+        text["en"]["pleaseOpenX"]="Please open %1%.";
+        text["en"]["points"]="Points";
+        text["en"]["portalLogin"]="Portal-Login";
+        text["en"]["powerups"]="Power-Ups";
+        text["en"]["previousMessage"]="previous message";
+        text["en"]["price"]="Price";
+        text["en"]["prices"]="Prices";
+        text["en"]["product"]="Product";
+        text["en"]["productOverview"]="Product overview";
+        text["en"]["productTimeSaving"]="%1% minutes saving for %2%";
+        text["en"]["production"]="Production";
+        text["en"]["products"]="Products";
+        text["en"]["profit"]="Profit";
+        text["en"]["profitTable"]="Profit per Zone per Day";
+        text["en"]["quantity"]="Quantity";
+        text["en"]["quest_foodworld"]="Picnic area quest series";
+        text["en"]["quest_forestry"]="Series of quests (forestry)";
+        text["en"]["quest_main"]="Series of quests (farm)";
+        text["en"]["questfoodworld1"]="Picnic area quest series";
+        text["en"]["questforestry1"]="1st series of quests (forestry)";
+        text["en"]["questforestry2"]="2nd series of quests (forestry)";
+        text["en"]["questmain1"]="1st series of quests (farm)";
+        text["en"]["questmain2"]="2nd series of quests (farm)";
+        text["en"]["quests"]="Quests";
+        text["en"]["rackX"]="%1%. rack";
+        text["en"]["rank"]="Rank";
+        text["en"]["readAll"]="Read all";
+        text["en"]["readyAtX"]="Ready at %1%"; // %1%=2:15+text["shortOClock"]
+        text["en"]["readyAtX_day1"]="Tomorrow ready at %1%";
+        // text["en"]["readyAtX_day2"]="Ready in 2days at %1%"; // comment it if not used in the language
+        text["en"]["readySinceX"]="Ready since %1%";
+        text["en"]["recipes"]="Recipes";
+        text["en"]["recursive"]="Recursive Needed";
+        text["en"]["relative"]="relative";
+        text["en"]["reloadInXSec"]="Reload in %1%s.";
+        text["en"]["relogin"]="Session ends soon.<br>New login in %1%.";
+        text["en"]["remaining"]="Remaining";
+        text["en"]["requestingUpdateInfoOfX"]="Requesting update information for %1% ..."
+        text["en"]["requestingUserStatistic"]="Requesting user statistic ...";
+        text["en"]["requirement"]="Need";
+        text["en"]["requirementPerProduction"]="Requirement per production";
+        text["en"]["reward"]="Reward";
+        text["en"]["salesLog"]="Sales log";
+        text["en"]["save"]="Save";
+        text["en"]["saveAsTemplate"]="Save as template";
+        text["en"]["sawmill"]="Sawmill";
+        text["en"]["scriptHomepage"]="Script Homepage";
+        text["en"]["searchPlayer"]="Search player";
+        text["en"]["seed"]="Seed";
+        text["en"]["seedPerField"]="Seed per field";
+        text["en"]["sendContract"]="Send contract";
+        text["en"]["sendContractAgain"]="Send contract again";
+        text["en"]["sentContractNrX"]="Sent contract no %1%."
+        text["en"]["sendingXObservedPricesToServer"]="Sending %1% observed prices to server ...";
+        text["en"]["server"]="Server";
+        text["en"]["serverTime"]="Time of server";
+        text["en"]["sessionEnd"]="End of Session at %1%<br>Click for new login";
+        text["en"]["seedVendor"]="Seed vendor"; // Short for the seller of plants
+        text["en"]["seedVendorShort"]="Shop"; // Short for the seller of plants
+        text["en"]["shadowboxitem"]="Shadowbox item";
+        text["en"]["shortHours"]="h";
+        text["en"]["shortOClock"]="h";
+        text["en"]["shouldReload"]="You should reload the page.";
+        text["en"]["showAll"]="Show all";
+        text["en"]["showChangelog"]="Show changelog";
+        text["en"]["showLog"]="Show log";
+        text["en"]["showMissingProducts"]="Show product shortage";
+        text["en"]["showPasswords"]="show passwords";
+        text["en"]["sinceX"]="since %1%";
+        text["en"]["single"]="Single";
+        text["en"]["start"]="Start";
+        text["en"]["stat_days1"]="1 day";
+        text["en"]["stat_days3"]="3 days";
+        text["en"]["stat_days5"]="5 days";
+        text["en"]["stat_days7"]="7 days";
+        text["en"]["stat_gamefield"]="Show game";
+        text["en"]["stat_stats"]="Show statistics";
+        text["en"]["statistics"]="Statistics";
+        text["en"]["stock"]="Stock";
+        text["en"]["stockValue"]="Stock value";
+        text["en"]["stockXlow"]="Stock %1% low";
+        text["en"]["stockXmissing"]="Stock %1% missing!!!";
+        text["en"]["storeXinContract"]="Store %1% in contract";
+        text["en"]["summarize"]="Summarize";
+        text["en"]["takeObservedPrices"]="Take observed prices";
+        text["en"]["time"]="Time";
+        text["en"]["title"]="Title";
+        text["en"]["toMessage"]="to message";
+        text["en"]["toSeedVendor"]="Go to seed vendor";
+        text["en"]["total"]="Total";
+        text["en"]["turnover"]="Turnover";
+        text["en"]["unitPrice"]="Unit price";
+        text["en"]["upgradeForX"]="upgrade&nbsp;for&nbsp;%1%";
+        text["en"]["upgradeLevel"]="Upgrade level";
+        text["en"]["upjersAdvertising"]="Upjers-Advertising";
+        text["en"]["useQuestProducts"]= "Use current quest products";
+        text["en"]["userscriptNotStarted"]= "The userscript is not started completely.";
+        text["en"]["useWildcard"]= "Use * to match one or more letters.";
+        text["en"]["value"]="Value";
+        text["en"]["version"]="Version";
+        text["en"]["veterinayLevelXNeeded"]="Veterinary level %1% needed";
+        text["en"]["waterBonus"]="%1%% water bonus";
+        text["en"]["waterNeeded"]="Water needed";
+        text["en"]["waterNeededAtX"]="Water needed at %1%";
+        text["en"]["waterNeededAtX_day1"]="Tomorrow water needed at %1%";
+        text["en"]["wateringFeature"]="Watering feature";
+        text["en"]["windmill"]="Windmill";
+        text["en"]["writeMessage"]="write message";
+        text["en"]["XIsUpToDate"]="%1% is up-to-date."
+        text["en"]["yes"]="Yes";
+        text["en"]["yield"]="Yield";
+        text["en"]["yieldPerProduction"]="Yield per production";
+        text["en"]["youAreOnRankX"]="You are on rank %1%.";
         // category
-        texte["en"]["category_c"]=texte["en"]["coins"];
-        texte["en"]["category_v"]="Plants";
-        texte["en"]["category_e"]="Advanced products";
-        texte["en"]["category_z"]=unsafeWindow.rack_deco;
-        texte["en"]["category_o"]=unsafeWindow.rack_oil;
-        texte["en"]["category_fw"]=unsafeWindow.rack_foodworld;
-        texte["en"]["category_fw1"]="Drinks";
-        texte["en"]["category_fw2"]="Food";
-        texte["en"]["category_fw3"]="Cakes";
-        texte["en"]["category_fw4"]="not yet available";
-        texte["en"]["category_fl"]="Flowers";
-        texte["en"]["category_fla"]="Arrangements";
-        texte["en"]["category_f1"]="Saplings";
-        texte["en"]["category_f2"]="Logs";
-        texte["en"]["category_f3"]="Sawmill products";
-        texte["en"]["category_f4"]="Carpentry products";
-        texte["en"]["category_f5"]="Wooden farmhouse items";
-        texte["en"]["category_hr"]="Medicinal herb";
-        texte["en"]["category_md"]="Healing tincture";
-        texte["en"]["category_r0"]="Recipes product";
-        texte["en"]["category_r1"]="Recipes increade yield";
-        texte["en"]["category_r2"]="Recipes increade points";
-        texte["en"]["category_p0"]="Power-Ups Produkt";
-        texte["en"]["category_p1"]="Power-Ups increade yield";
-        texte["en"]["category_p2"]="Power-Ups increade points";
+        text["en"]["category_c"]=text["en"]["coins"];
+        text["en"]["category_v"]="Plants";
+        text["en"]["category_e"]="Advanced products";
+        text["en"]["category_z"]=unsafeWindow.rack_deco;
+        text["en"]["category_o"]=unsafeWindow.rack_oil;
+        text["en"]["category_fw"]=unsafeWindow.rack_foodworld;
+        text["en"]["category_fw1"]="Drinks";
+        text["en"]["category_fw2"]="Food";
+        text["en"]["category_fw3"]="Cakes";
+        text["en"]["category_fw4"]="not yet available";
+        text["en"]["category_fl"]="Flowers";
+        text["en"]["category_fla"]="Arrangements";
+        text["en"]["category_f1"]="Saplings";
+        text["en"]["category_f2"]="Logs";
+        text["en"]["category_f3"]="Sawmill products";
+        text["en"]["category_f4"]="Carpentry products";
+        text["en"]["category_f5"]="Wooden farmhouse items";
+        text["en"]["category_hr"]="Medicinal herb";
+        text["en"]["category_md"]="Healing tincture";
+        text["en"]["category_r0"]="Recipes product";
+        text["en"]["category_r1"]="Recipes increade yield";
+        text["en"]["category_r2"]="Recipes increade points";
+        text["en"]["category_p0"]="Power-Ups Produkt";
+        text["en"]["category_p1"]="Power-Ups increade yield";
+        text["en"]["category_p2"]="Power-Ups increade points";
         // settings
-        texte["en"]["settings_valAutoWater"]=["Automatic watering","Plants will be watered after planting, if you have 'Water everything' (Premium)."];
-        texte["en"]["settings_valAssumeWater"]=["Assume watering","This is important for plants growing more than 24h. The calculation of the cropping time assumes watering when needed."];
-        texte["en"]["settings_valAutoCrop"]=["Automatic harvesting","After opening your field, crops will be harvested if necessary."];
-        texte["en"]["settings_valWaterNeeded"]=["Watering needed","Shall the necessity of watering be displayed?"];
-        texte["en"]["settings_valCropMsg"]=["Close harvest dialog","Don't like the annoying harvest notification with the pig?  Get rid of it here."];
-        texte["en"]["settings_valLimitEmptyFields"]=["Empty areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
-        texte["en"]["settings_valLimitEmptyFields_forest"]=["Empty forest areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
-        texte["en"]["settings_valMoveAnimals"]=["Move animals",""];
-        texte["en"]["settings_valContractLogAmount"]=["Number contracts kept","Your last sent and received contracts are kept so that a history of them can be shown."];
-        texte["en"]["settings_valFarmiLimits"]=["Farmie Limits","The farmies are marked in 3 cases depending on their payment-rate."];
-        texte["en"]["settings_valFarmiMiniInfo"]=["Farmie Mini Info","Displays a small circle below each farmie showing its case of payment-rate."];
-        texte["en"]["settings_valMinRackMan"]=["Detail configuration","You edit the amount on your own *here*"];
-        texte["en"]["settings_valMinRack"]=[,"A product is marked if its amount in your rack is falling below this value. You can enter different values depending on the category."];
-        texte["en"]["settings_valMinRackPlantsize"]=["Aspect size of plant","For example grain needs only half of the value above."];
-        texte["en"]["settings_valMinRackGrowing"]=["Growing products","Adds the amount of products that are in production and ready by powerup."];
-        texte["en"]["settings_valMinRackQuest"]=["Quest products","Adds the amount of the quest products"];
-        texte["en"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
-        texte["en"]["settings_valMinRackFarmis"]=["Farmie products","Adds the amount of the products wanted by the farmies which pay more than the lower limit."];
-        texte["en"]["settings_valMinRackForestryFarmis"]=["Lodge farmie products","Adds the amount of the products wanted by the lodge farmies."];
-        texte["en"]["settings_protectMinRack"]=["Selling protection","Prohibits to sell products at market below the minimal rackamount"];
-        texte["en"]["settings_valBuyingLimitDown"]=["Bottom buy highlight",""];
-        texte["en"]["settings_valBuyingLimit"]=["Top buy limit","You can only buy products at the Market up to the limit given.  This protects you from accidentally purchasing very over-priced goods."];
-        texte["en"]["settings_valBuyingLimitNPC"]=["Only allow buy less than price of NPC",""];
-        texte["en"]["settings_valSellingLimit"]=["Sell limits","Your sales are also protected, so that you don't price your own goods too cheaply or too highly."];
-        texte["en"]["settings_valJoinPrices"]=["One input","Joins the price input fields at the market stand."];
-        texte["en"]["settings_valQuicklinks"]=["Show market quicklinks","Show Quicklinks at Market place"];
-        texte["en"]["settings_valUseObservedPrices"]=["Use observed prices","Prices are observed while clicking through the market place. A calculated price can be seen in the price list. Shall this automatically override your settings?"];
-        texte["en"]["settings_valSendStatistics"]=["Send statistics","Support the <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>.  No private data is sent!"];
-        texte["en"]["settings_valPrivateMessages"]=["Number private messages kept","Your last private messages are kept so that a message history of one contact can be shown."];
-        texte["en"]["settings_valMarketMessages"]=["Number market messages kept","Old messages remain in this archive, even if they are older than the maximum 7 days."];
-        texte["en"]["settings_valMessageRe"]=["Short subject","Replaces \"Re:Re:\" to \"Re:\" in the subject when you reply to a message."];
-        texte["en"]["settings_valMessagesSystemMarkRead"]=["Read system messages","System messages are marked read automatically."];
-        texte["en"]["settings_valFoodworldFarmiPlacing"]=["Locate picnic area farmis","Accepted picnic area farmis are located automatically to a vacant seat."];
-        texte["en"]["settings_valAutoLogin"]=["Automatic login","Once username and password information is given, all accounts will be logged in, so that they can be fed, harvested, watered, and planted. Popups must be allowed with multiple accounts."];
-        texte["en"]["settings_valUpdate"]=["Update","Checks whether an updated version of this Advisor script is available."];
-        texte["en"]["settings_valServerTimeOffset"]=["Time of server",""];
-        texte["en"]["settings_valGamecursor"]=["Game cursor","Use the game cursors instead of your system cursors."];
-        texte["en"]["settings_valDrag"]=["Dragging","Allow moving windows by clicking the upper left corner."];
-        texte["en"]["settings_valClickErrorbox"]=["Hide errorbox","Some users have problems with the error box. Keep in mind that this alert is normally useful!"];
-        texte["en"]["settings_valHotkeys"]=["Hotkeys","Use hotkeys to quicker navigate the game. See the help."];
-        texte["en"]["settings_hotkeymap"]={"prevPage":"previous Message, Zone, ...","nextPage":"next Message, Zone, ...","farm1":"1st farm","farm2":"2nd farm","farm3":"3rd farm","guild":"Club","city1":"First Village","city2":"Second Village","farmiLog":"Farmi-Log","help":"Help","market":"Market place","marketstand":"Market stand","messages":"Messages","options":"Options","profit":"Profit Calculation","seedVendor":"Seed retailer","overview":"Overview","contract":"Contracts","systemMessage":"(next unread) system message"};
-        texte["en"]["settings_valzoneAddToGlobalTime"]=["Integrate","Shall the time be included to the global time?"];
-        texte["en"]["settings_valGlobaltimeShowCroppedZone"]=["Integrate cropped zone","Shall the ready-state of the cropped zones be included in the global time?"];
-        texte["en"]["settings_cacheReset"]=["Cache reset","All information about your farms will be deleted ..."];
+        text["en"]["settings_valAutoWater"]=["Automatic watering","Plants will be watered after planting, if you have 'Water everything' (Premium)."];
+        text["en"]["settings_valAssumeWater"]=["Assume watering","This is important for plants growing more than 24h. The calculation of the cropping time assumes watering when needed."];
+        text["en"]["settings_valAutoCrop"]=["Automatic harvesting","After opening your field, crops will be harvested if necessary."];
+        text["en"]["settings_valWaterNeeded"]=["Watering needed","Shall the necessity of watering be displayed?"];
+        text["en"]["settings_valCropMsg"]=["Close harvest dialog","Don't like the annoying harvest notification with the pig?  Get rid of it here."];
+        text["en"]["settings_valLimitEmptyFields"]=["Empty areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
+        text["en"]["settings_valLimitEmptyFields_forest"]=["Empty forest areas","If the number of unplanted areas in your field exceeds this number, the field will be shown as empty."];
+        text["en"]["settings_valMoveAnimals"]=["Move animals",""];
+        text["en"]["settings_valContractLogAmount"]=["Number contracts kept","Your last sent and received contracts are kept so that a history of them can be shown."];
+        text["en"]["settings_valFarmiLimits"]=["Farmie Limits","The farmies are marked in 3 cases depending on their payment-rate."];
+        text["en"]["settings_valFarmiMiniInfo"]=["Farmie Mini Info","Displays a small circle below each farmie showing its case of payment-rate."];
+        text["en"]["settings_valMinRackMan"]=["Detail configuration","You edit the amount on your own *here*"];
+        text["en"]["settings_valMinRack"]=[,"A product is marked if its amount in your rack is falling below this value. You can enter different values depending on the category."];
+        text["en"]["settings_valMinRackPlantsize"]=["Aspect size of plant","For example grain needs only half of the value above."];
+        text["en"]["settings_valMinRackGrowing"]=["Growing products","Adds the amount of products that are in production and ready by powerup."];
+        text["en"]["settings_valMinRackQuest"]=["Quest products","Adds the amount of the quest products"];
+        text["en"]["settings_valMinRackRecursive"]=["Recursive products","Add the required products needed to make missing products, and calculate these again for the required proucts.(used by forestry products)"];
+        text["en"]["settings_valMinRackFarmis"]=["Farmie products","Adds the amount of the products wanted by the farmies which pay more than the lower limit."];
+        text["en"]["settings_valMinRackForestryFarmis"]=["Lodge farmie products","Adds the amount of the products wanted by the lodge farmies."];
+        text["en"]["settings_protectMinRack"]=["Selling protection","Prohibits to sell products at market below the minimal rackamount"];
+        text["en"]["settings_valBuyingLimitDown"]=["Bottom buy highlight",""];
+        text["en"]["settings_valBuyingLimit"]=["Top buy limit","You can only buy products at the Market up to the limit given.  This protects you from accidentally purchasing very over-priced goods."];
+        text["en"]["settings_valBuyingLimitNPC"]=["Only allow buy less than price of NPC",""];
+        text["en"]["settings_valSellingLimit"]=["Sell limits","Your sales are also protected, so that you don't price your own goods too cheaply or too highly."];
+        text["en"]["settings_valJoinPrices"]=["One input","Joins the price input fields at the market stand."];
+        text["en"]["settings_valQuicklinks"]=["Show market quicklinks","Show Quicklinks at Market place"];
+        text["en"]["settings_valUseObservedPrices"]=["Use observed prices","Prices are observed while clicking through the market place. A calculated price can be seen in the price list. Shall this automatically override your settings?"];
+        text["en"]["settings_valSendStatistics"]=["Send statistics","Support the <a href='http://mff.metrax.eu/' target='_blank'>Statistik-Server</a>.  No private data is sent!"];
+        text["en"]["settings_valPrivateMessages"]=["Number private messages kept","Your last private messages are kept so that a message history of one contact can be shown."];
+        text["en"]["settings_valMarketMessages"]=["Number market messages kept","Old messages remain in this archive, even if they are older than the maximum 7 days."];
+        text["en"]["settings_valMessageRe"]=["Short subject","Replaces \"Re:Re:\" to \"Re:\" in the subject when you reply to a message."];
+        text["en"]["settings_valMessagesSystemMarkRead"]=["Read system messages","System messages are marked read automatically."];
+        text["en"]["settings_valFoodworldFarmiPlacing"]=["Locate picnic area farmis","Accepted picnic area farmis are located automatically to a vacant seat."];
+        text["en"]["settings_valAutoLogin"]=["Automatic login","Once username and password information is given, all accounts will be logged in, so that they can be fed, harvested, watered, and planted. Popups must be allowed with multiple accounts."];
+        text["en"]["settings_valUpdate"]=["Update","Checks whether an updated version of this Advisor script is available."];
+        text["en"]["settings_valServerTimeOffset"]=["Time of server",""];
+        text["en"]["settings_valGamecursor"]=["Game cursor","Use the game cursors instead of your system cursors."];
+        text["en"]["settings_valDrag"]=["Dragging","Allow moving windows by clicking the upper left corner."];
+        text["en"]["settings_valClickErrorbox"]=["Hide errorbox","Some users have problems with the error box. Keep in mind that this alert is normally useful!"];
+        text["en"]["settings_valHotkeys"]=["Hotkeys","Use hotkeys to quicker navigate the game. See the help."];
+        text["en"]["settings_hotkeymap"]={"prevPage":"previous Message, Zone, ...","nextPage":"next Message, Zone, ...","farm1":"1st farm","farm2":"2nd farm","farm3":"3rd farm","guild":"Club","city1":"First Village","city2":"Second Village","farmiLog":"Farmi-Log","help":"Help","market":"Market place","marketstand":"Market stand","messages":"Messages","options":"Options","profit":"Profit Calculation","seedVendor":"Seed retailer","overview":"Overview","contract":"Contracts","systemMessage":"(next unread) system message"};
+        text["en"]["settings_valzoneAddToGlobalTime"]=["Integrate","Shall the time be included to the global time?"];
+        text["en"]["settings_valGlobaltimeShowCroppedZone"]=["Integrate cropped zone","Shall the ready-state of the cropped zones be included in the global time?"];
+        text["en"]["settings_cacheReset"]=["Cache reset","All information about your farms will be deleted ..."];
         //help
-        texte["en"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\""+GM_Home+"\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
-        texte["en"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
-        texte["en"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
-        texte["en"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
-        texte["en"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
-        texte["en"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
-        texte["en"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
-        texte["en"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
-        texte["en"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
-        texte["en"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
-        texte["en"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
-        texte["en"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
+        text["en"]["help_0"]=[,"This is small introduction to the functions of the Adviser-Script. Not all changes are written here, go find them yourself ... Sometimes a mouse-over helps. <br>At the bottom you see a button to visit the <a href=\""+GM_Home+"\" target=\"_blank\">homepage</a>. Next to it, there is the button for the options. You should look at them and configure as you desire.<br>Generally the script only knows what you have seen. So just visit the field if something is wrong."];
+        text["en"]["help_1"]=["The Zones","The fields are observed while you see them. The script saves the plants, times and watering. So on the farm view this can be displayed. Each zone has a time counter at its top to show you when it is ready.<br>If you own the planting helper, you can access it directly from opened field. At the top of an opened zone you can navigate directly to zones of the same type."];
+        text["en"]["help_2"]=["The Overview","Click the pig on the top and you will see an overview of your complete farm. Each zone, its output (product and points) and the next time of work are displayed. Also your total crop is shown. Below you see the wishes of your farmies. You can click each zone or farmie to navigate there. If you are run out of a product, it can take you directly to the market place."];
+        text["en"]["help_3"]=["Blue Bar","Your points are kept daily. At the bottom you see a bar displaying the current and past level. Each white and red (sunday) line is a day. If you click it you get a detailed table and perhaps a hint if you are lack of a product."];
+        text["en"]["help_4"]=["Shelf","Here informations of prices and value are added. The amount are reformatted to better style. At the bottom you have an input to seach an other player."];
+        text["en"]["help_5"]=["Profit Calculation","Next to the bottom of the shelf you can click <img src=\""+GFX+"buildingupdatebutton_off.png\" style=\"width: 15px;height: 15px;\">. This shows you a table calculating times and profits of your products. Click the stars to change the upgrade levels. Click the headline to sort."];
+        text["en"]["help_6"]=["Farmies","The bubbles of the farmies are expanded by a calculation if they pay enough. If your product amount runs too low, the product is marked. Click the house next to the farmies to see the ones of the last month. At the blue bar on the right you can set which farmies you send away. At the top a calculation is made, so you can decide if an advertising is profitable."];
+        text["en"]["help_7"]=["Hotkeys","You can quickly move to a place by pressing <i>Alt</i>+... See the options!"];
+        text["en"]["help_8"]=["Market place","On the market place you are \"protected\", means that you can't buy a product more expensive than in the retailer or by options set. If activated, you can directly switch to a product page by the incoming window on the right. At the top you can step to the next/previous product and see your current amount.<br>You find at the bottom a very important button: the prices. It gives you a table listing your product amounts, values and the prices that are everywhere used. So keep attention they are set right! An \"observed\" price is kept when you visit a market page of a single product.<br>On your market stall a few usefull values are displayed and your last offer was kept and is set now."];
+        text["en"]["help_9"]=["Messages","Your sales are kept and directly displayed - no need to open a message two times! Note the \"Read all\" and \"Log\" buttons. Your private messages are kept, too. So no need to look for the last messages of the current contact."];
+        text["en"]["help_10"]=["Contracts","They are kept, too. While creating a contact an input displays the value of the entered product. Enter first the price and then the amount to get inverse the amount. You can submit the same contract multiple times!"];
+        text["en"]["help_11"]=["Account Managing","You can save all your accounts in the options. So you can login easily in each one by the displayed buttons on the starting page. Note that you can switch directly the accounts at the same server."];
     }
     err_trace="Regular expressions";
     regDelimThou=new RegExp(regDelimThou,"g");
@@ -20153,7 +20163,7 @@ try{
     regMsgMarketsaleContent=new RegExp(getText("msgMarketsaleContent"));
     regMsgContractsaleContent=new RegExp(getText("msgContractsaleContent"));
     regMsgContractsaleList=new RegExp(getText("msgContractsaleList"));
-    regMsgFriend=new RegExp(getText("msgFriend"));
+    regMsgSubjectFriend=new RegExp(getText("msgSubjectFriend"));
     err_trace="Events";
     if(DEVMODE_EVENTS&&(self==top)){
         var allEvents=new Array();
@@ -20175,7 +20185,7 @@ try{
         allEvents.push("gameFieldPlanted");                 // a field has been planted
         allEvents.push("gameFieldWatered");                 // a field has been watered
         allEvents.push("gameFieldCropped");                 // a field has been cropped
-        allEvents.push("gameFieldDemolished");              // 
+        allEvents.push("gameFieldDemolished");              //
         allEvents.push("gameFactoryKnittingStarted");       // a knitting factory has been started
         allEvents.push("gameFactoryKnittingCropped");       // a knitting factory has been cropped
         allEvents.push("gameFactoryKnittingDialogStart");   // a knitting factory has opened a production dialogue
@@ -20249,7 +20259,7 @@ try{
         allEvents.push("gameReallocateBuilding");           // 2 buildings are swapped. unsafeData.reallocateBuildingSet is set [1..18,1..18]
         allEvents.push("gameUserlevelUp");                  // a new level is reached
         allEvents.push("beraterDone");                      // script successfully executed
-    
+
         for(var v=0;v<allEvents.length;v++){
             document.addEventListener(allEvents[v],function(event){
                 GM_logInfo("EventListener","","","Event "+event.type,2);
@@ -20258,7 +20268,7 @@ try{
         allEvents=null;
     }
     err_trace="MenuCommand";
-    GM_registerMenuCommand(getText("adviser")+" "+"Update", function(){
+    GM_registerMenuCommand(getText("adviser")+" Update", function(){
         location.href=GM_Source;
     });
     GM_registerMenuCommand(getText("adviser")+" "+getText("scriptHomepage"), function(){
@@ -20272,8 +20282,8 @@ try{
         window.addEventListener("load", function load(event){
             window.removeEventListener("load", load, false);
             scriptStart();
-        },false);        
-    }    
+        },false);
+    }
 }catch(err){GM_logError("scriptWait","","err_trace="+err_trace+" location.href="+location.href,err);}
 }
 scriptInit();

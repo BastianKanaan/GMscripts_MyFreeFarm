@@ -3,12 +3,12 @@
 // @namespace      https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author         BastianKanaan
 // @description    Common functions for MyFreeFarm-Scripts
-// @date           05.07.2015
-// @version        2.1.6
+// @date           11.07.2015
+// @version        2.1.7
 // @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // ==/UserScript==
 
-const VERSIONfunctionFile = "2.1.6";
+const VERSIONfunctionFile = "2.1.7";
 var DEVMODE=GM_getValue("devmode",false);
 var DEVMODE_EVENTS=GM_getValue("devmode_events",false);
 var DEVMODE_FUNCTION=GM_getValue("devmode_function",false);
@@ -892,26 +892,30 @@ try{
 function explode(str,debugName,defaultReturn){
 try{
     /*
-    if(debugName==undefined){
+    if(debugName===undefined){
         debugName = "";
         GM_logWarning("explode","debugName="+debugName,"","DebugName not set.");
-    }else if(typeof defaultReturn==undefined){
+    }else if(typeof defaultReturn===undefined){
         GM_logWarning("explode","debugName="+debugName,"","DefaultReturn not set.");
     }
     */
-    if(str==undefined){
-        throw ("Argument is undefined.");
+    if(!str){
+        if(undefined===defaultReturn){
+            throw ("Argument is undefined.");
+        }else{
+            return defaultReturn;
+        }
     }
     if(typeof str != "number" && typeof str != "string"){
         throw ("Argument is not a string nor a number.");
     }
     return JSON.parse(str);
 }catch(err){
-    if(typeof defaultReturn==undefined){
-        GM_logError("explode","debugName="+debugName+" defaultReturn=","",err);
+    if(undefined===defaultReturn){
+        GM_logError("explode","str="+str+" debugName="+debugName+" defaultReturn=","",err);
         throw ("ERROR in function 'explode'");
     } else {
-        GM_logWarning("explode","debugName="+debugName+" defaultReturn="+implode(defaultReturn,"explode\error"),"","Function returns given default. "+err);
+        GM_logWarning("explode","str="+str+" debugName="+debugName+" defaultReturn="+implode(defaultReturn,"explode\error"),"","Function returns given default. "+err);
         return defaultReturn;
     }
 }
@@ -919,7 +923,7 @@ try{
 function implode(arr,debugName){
 try{
     /*
-    if(debugName==undefined){
+    if(debugName===undefined){
         GM_logWarning("implode","arr="+JSON.stringify(arr),"","DebugName not set.");
         debugName = "";
     }
@@ -1003,7 +1007,7 @@ try{
 function Log(obj,pre){
 try{
     if(true){
-        if(pre==undefined){ pre=""; }
+        if(pre===undefined){ pre=""; }
         if(typeof(obj)=="object"){
             for(var v in obj){
                 if(!obj.hasOwnProperty(v)){ continue; }
@@ -1347,8 +1351,8 @@ if(top.unsafeData.logBubble){
         try{
             if(!container){ logBubble.init(); }
             if(container){
-                if(timer==undefined){ timer=10; }
-                if(color==undefined){ color="blue"; }
+                if(timer===undefined){ timer=10; }
+                if(color===undefined){ color="blue"; }
                 now=Math.floor((new Date()).getTime()/1000);
                 elements.push(now+timer);
                 createElement("div",{"class":"blackbox","style":"color:white;background-color:"+color+";border:2px solid black;border-radius:10px;padding:5px;margin-top:5px;"},container,getDaytimeStr(now)+"&nbsp;"+text);
@@ -1469,13 +1473,13 @@ const sortObjFunctions = {
 
 // Strings
 var LANGUAGE = null;
-var texte = new Object();
+var text = new Object();
 function getText(id,noWarning){
 try{
-    if(texte[LANGUAGE]&&texte[LANGUAGE][id]){
-        return texte[LANGUAGE][id];
-    }else if(texte["en"]&&texte["en"][id]){
-        return texte["en"][id];
+    if(text[LANGUAGE]&&text[LANGUAGE][id]){
+        return text[LANGUAGE][id];
+    }else if(text["en"]&&text["en"][id]){
+        return text["en"][id];
     }else{
         if(!noWarning){ GM_logWarning("getText","id="+id,"LANGUAGE="+LANGUAGE,"Text not found."); }
         return "";
@@ -1511,19 +1515,6 @@ var todayServerStr;
 // todayServerStr = getDateStr(nowServerOff,2,false);
 var valServerTimeOffset = 0;
 const NEVER = 2147483000; //upper limit of signed long
-
-// special characters
-const sign_average = "\u2205";
-const sign_mult = "\u00D7";
-const sign_sum = "\u2211"; //"\u03A3"
-const sign_inf = "\u221E";
-const A_dots = "\u00C4";
-const a_dots = "\u00E4";
-const O_dots = "\u00D6";
-const o_dots = "\u00F6";
-const sz = "\u00DF";
-const U_dots = "\u00DC";
-const u_dots = "\u00FC";
 
 // ON LOAD ***************************************************************************************************************
 
