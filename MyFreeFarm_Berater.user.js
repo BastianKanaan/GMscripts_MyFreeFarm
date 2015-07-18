@@ -326,14 +326,22 @@ const VARIABLES = {
                     "lodgeQuestData":["Lodge quest data",5],
                     "lodgeQuestNr":["Lodge quest number",5],
                     "lodgeTimeEnd":["Lodge quest time",5],
+                    "logDonkey":["Log-data Donkey",1],
+                    "logMegafieldJob":["Log-data Megafield Job",1],
                     "lotteryCollectForPrize":["Lottery collect data",3],
                     "lotteryLastLot":["Lottery taken time",2],
                     "lotteryLog":["Log-data lottery",1],
                     "marketOffers":["Market offers",5],
                     "ownMarketOffers":["Own market offers",2],
                     "marketOfferTimes":["Market offer times",5],
+                    "megafieldVehicle":["Last Megafield Vehicle",3],
                     "modeBuildPreise":["Mode",4],
                     "modeBuyNotepad":["Mode",4],
+                    "modeInfoPanelDonkey":["Mode",4],
+                    "modeInfoPanelFarmies":["Mode",4],
+                    "modeInfoPanelFormulas":["Mode",4],
+                    "modeInfoPanelLottery":["Mode",4],
+                    "modeInfoPanelMessages":["Mode",4],
                     "modeLotteryLog":["Mode",5],
                     "modeMarket":["Mode",4],
                     "modeProfittable":["Mode",4],
@@ -365,6 +373,7 @@ const VARIABLES = {
                     "raisedEvents":["Raised events",4],
                     "session":["Session",4],
                     "show":["Mode",4],
+                    "totalEndtime":["Total endtime",2],
                     "totalFarmis":["Farmi needings",2],
                     "valAssumeWater":["Option",3],
                     "valAutoCrop":["Option",3],
@@ -377,6 +386,7 @@ const VARIABLES = {
                     "valErnteMsg":["Option",3],
                     "valFarmiLimits":["Option",3],
                     "valFarmiMiniInfo":["Option",3],
+                    "valFoodworldFarmiPlacing":["Option",3],
                     "valGamecursor":["Option",3],
                     "valGiess":["Option",5],
                     "valGiessAnnehm":["Option",5],
@@ -440,7 +450,7 @@ const VARIABLES = {
                     "farmNamen":["Farm names",2],
                     "gut":["Product prices",3],
                     "gutBeob":["Product observed prices",2],
-                    "npcSaison":["Products saisons",2],
+                    "NpcSaison":["Products saisons",2],
                     "pagedataNachrichtenNew":["Page attributes",4],
                     "pagedataStadtMarktstand":["Page attributes",4],
                     "pagedataVertraegeNew":["Page attributes",4],
@@ -460,13 +470,16 @@ const VARIABLES = {
                     "pagedataLogin":["Page attributes",4],
                     "valServerTimeOffset":["Option",3]},
           "GLOBAL":{"changedata":["Data version",1],
+                    "changelogShownVersion":["Last shown version",3],
+                    "devmode_log_error":["Option",3],
+                    "devmode_log_warning":["Option",3],
                     "devmode":["Option",3],
                     "devmode_function":["Option",3],
                     "devmode_events":["Option",3],
                     "hotkeymap":["Option",3],
                     "loginbusy":["Page attributes",4],
                     "logindata":["Accounts",3],
-                    "tutorial":["Tutorial step",1],
+                    "tutorial":["Tutorial step",3],
                     "updateCheck":["Script update",5],
                     "valAutoLogin":["Option",3],
                     "valUpdate":["Option",3]}
@@ -8166,27 +8179,25 @@ function doFarmis(){
         // GM_log("farmiLog=\n"+print_r(farmiLog,"",true,"\n"));
         // TODO: Questproduct is not calculated in at first run. Fixed now I believe
         // this can't go in the above loop because the amountMinRack are needed to be calculated first
-        var missing,belowMinRack,belowMinRackInit;
-        for(var farmiNr=0;farmiNr<$("customerline").childElementCount;farmiNr++){
-            missing=0;belowMinRack=0;belowMinRackInit=false;
-            for(var i=1;i<=7;i++){ // 7=max-amount of products per farmi
-                var pid=unsafeWindow.farmisinfo[0][farmiNr]["p"+i];
-                var amount=parseInt(unsafeWindow.farmisinfo[0][farmiNr]["a"+i],10);
-                if((pid > 0) && (amount > 0)){
-                    if(prodStock[0][pid]<amount){ missing++; }
-                    if((prodStock[0][pid]-amount)<prodMinRack[0][pid]-((valMinRackFarmis&&totalFarmis[0]&&totalFarmis[0][pid])?totalFarmis[0][pid]:0)){ belowMinRack++; }
-                    if((prodStock[0][pid]-amount)<prodMinRackInit[0][pid]){ belowMinRackInit++; }
-                }
-            }
-            unsafeWindow.farmisinfo[0][farmiNr]["missing"]=missing;
-            unsafeWindow.farmisinfo[0][farmiNr]["belowMinRack"]=belowMinRack;
-            unsafeWindow.farmisinfo[0][farmiNr]["belowMinRackInit"]=belowMinRackInit;
-        }
-        missing=null;belowMinRack=null;belowMinRackInit=null;
         var cell,customerline,str;
+        var missing,belowMinRack,belowMinRackInit;
         if(customerline=$("customerline")){
-            err_trace="customerline";
             for(var farmiNr=0;farmiNr<customerline.childElementCount;farmiNr++){
+                err_trace="farmisinfo";
+                missing=0;belowMinRack=0;belowMinRackInit=false;
+                for(var i=1;i<=7;i++){ // 7=max-amount of products per farmi
+                    var pid=unsafeWindow.farmisinfo[0][farmiNr]["p"+i];
+                    var amount=parseInt(unsafeWindow.farmisinfo[0][farmiNr]["a"+i],10);
+                    if((pid > 0) && (amount > 0)){
+                        if(prodStock[0][pid]<amount){ missing++; }
+                        if((prodStock[0][pid]-amount)<prodMinRack[0][pid]-((valMinRackFarmis&&totalFarmis[0]&&totalFarmis[0][pid])?totalFarmis[0][pid]:0)){ belowMinRack++; }
+                        if((prodStock[0][pid]-amount)<prodMinRackInit[0][pid]){ belowMinRackInit++; }
+                    }
+                }
+                unsafeWindow.farmisinfo[0][farmiNr]["missing"]=missing;
+                unsafeWindow.farmisinfo[0][farmiNr]["belowMinRack"]=belowMinRack;
+                unsafeWindow.farmisinfo[0][farmiNr]["belowMinRackInit"]=belowMinRackInit;
+                err_trace="farmiInfo create";
                 if (!$("farmiInfo"+farmiNr)){ // assure that this code is run only once per farmi. else eventlisteners are stacked
                     // prepare the additional farmi-info-bubble
                     createElement("div",{"id":"farmiInfo"+farmiNr,"class":"farmiInfo"},$("blase"+farmiNr));
@@ -8273,6 +8284,7 @@ function doFarmis(){
                         window.setTimeout(doBuyNotepad,0);
                     }
                 }
+                err_trace="farmiInfo";
                 if(valFarmiMiniInfo){
                     // Price
                     if(!unsafeWindow.farmisinfo[0][farmiNr]["costQuotient"]){ // unknown case
@@ -8320,9 +8332,10 @@ function doFarmis(){
             err_trace="no customerline";
             if(cell=$("alertAdvertEnd")){ removeElement(cell); }
         }
+        missing=null;belowMinRack=null;belowMinRackInit=null;
         cell=null;str=null;
     if(DEVMODE_FUNCTION){ tracking.end("berater",trackingHandle); }
-    }catch(err){ GM_logError("doFarmis","","err_trace="+err_trace,err); }
+    }catch(err){ GM_logError("doFarmis","","err_trace=\""+err_trace+"\"",err); }
 }
 
 function do_main(){
@@ -16772,7 +16785,7 @@ return;
 
     // First run
     if (GM_getValue("tutorial",0)==0){
-        click($("mainmenue5")); // Fix Seberoth
+        unsafeWindow.show_page('help');
     }
     newinput=null;newdiv=null;newdiv1=null;newbutton=null;newimg=null;
 }catch(err){ GM_logError("do_main","","err_trace="+err_trace,err); }
