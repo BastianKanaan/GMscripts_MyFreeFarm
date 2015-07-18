@@ -4582,7 +4582,7 @@ try{
     if(bot.checkRun("autoFarmPlantInit",runId)){
         bot.setAction("autoFarmPlantInit");
         GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"","Initializing planting ("+rackitemNr+")");
-        if(unsafeWindow.racksort&&(unsafeWindow.racksort>4)){
+        if(unsafeWindow.racksort&&(unsafeWindow.racksort>5)){
             // non-plant-rack opened
             GM_logInfo("autoFarmPlantInit","runId="+runId+" rackitemNr="+rackitemNr,"","Switching rack to plants");
             document.addEventListener("gameUpdateRack",function(runId,rackitemNr){
