@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Gives an overview of your products
 // @icon           data:image/png;base64,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
-// @date           29.06.2014
-// @version        1.3.0
+// @date           20.07.2015
+// @version        1.4.0
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)myfreefarm\.com\.br\/.*$/
@@ -53,10 +53,10 @@
 // ==/UserScript==
 // GM_log("Run Code Rackoverview:"+location.href);
 
-	
+    
 const VERSION=GM_info["script"]["version"];
-const neededVersionBerater="2.0";
-const neededVersionFunctionFile="1.0.51";
+const neededVersionBerater="2.5.3";
+const neededVersionFunctionFile="2.1.7";
 //const USO_ID    ="85587";
 //const USO_Home  =GM_info["script"]["namespace"]
 //const USO_Source="http://userscripts.org/scripts/source/"+USO_ID+".user.js";
@@ -65,11 +65,11 @@ const GM_Home  =GM_info["script"]["namespace"];
 const GM_Source=GM_info["script"]["namespace"];
 
 if(!VERSIONfunctionFile){
-	alert("Hi, I am the MyFreeFarm Rackoverview-Script.\nThe function-file is missing.\nPlease install me again.");
-	location.href=GM_Source;
+    alert("Hi, I am the MyFreeFarm Rackoverview-Script.\nThe function-file is missing.\nPlease install me again.");
+    location.href=GM_Source;
 }else if(compareVersions(neededVersionFunctionFile,VERSIONfunctionFile)>0){
-	alert("Hi, I am the MyFreeFarm Rackoverview-Script.\nThe function-file is too old.\nPlease install me again.");
-	location.href=GM_Source;
+    alert("Hi, I am the MyFreeFarm Rackoverview-Script.\nThe function-file is too old.\nPlease install me again.");
+    location.href=GM_Source;
 }
     
 var DEVMODE=GM_getValue("devmode",false);
@@ -117,8 +117,8 @@ todayTime = Math.round(new Date(todayTime.getFullYear(),todayTime.getMonth(),tod
     }*/
      
 function showMarket(pid){
-	try{
-		if((gameLocation[0]!="city")||(gameLocation[1]!=1)){
+    try{
+        if((gameLocation[0]!="city")||(gameLocation[1]!=1)){
             document.addEventListener("gameCity1",function(pid){ return function(){
                 document.removeEventListener("gameCity1",arguments.callee,false);
                     showMarket(pid);
@@ -193,7 +193,7 @@ function showMarket(pid){
             click($("infoPanelClose"));
     }*/
      
-	function closeInfoPanel(){
+    function closeInfoPanel(){
             try{
                 var div,div2;
                 if(div=$top("infoPanel")){
@@ -212,7 +212,7 @@ function showMarket(pid){
                 div=null;div2=null;
             } catch(err){ GM_logError("closeInfoPanel\n"+err); }
     }
-	
+    
    
      
     function buildInfoPanel(mode,mode2){
@@ -227,7 +227,7 @@ function showMarket(pid){
                     div1=createElement("img",{"id":"infoPanelClose","class":"link","src":GFX+"close.jpg","style":"position:absolute;top:8px;right:8px;width:20px;height:20px;"},div);
                     div1.addEventListener("click",closeInfoPanel,false);
             }
-            if((div.style.zIndex=="101")&&(mode==div.getAttribute("mode"))&&(implode(mode2)==div.getAttribute("mode2"))){
+            if((div.style.zIndex=="101")&&(mode==div.getAttribute("mode"))&&(implode(mode2, "mode2")==div.getAttribute("mode2"))){
                     closeInfoPanel();
             }else{
            
@@ -245,7 +245,7 @@ function showMarket(pid){
            
     //      } else {
                     div.setAttribute("mode",mode);
-                    div.setAttribute("mode2",implode(mode2));
+                    div.setAttribute("mode2",implode(mode2, "mode2"));
                     div.style.display = "block";
                     div.style.zIndex = "102";
                     div.style.width = "800px";
@@ -282,8 +282,8 @@ function showMarket(pid){
                             },false);
                            
                            
-						    //Filter Pflanzen
-                            var newdiv1 = createElement("div",{"mouseOverText":texte[LNG]["category_v"],"class":"rackcat1v","style":"float:left;width:27px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll 0px 0px transparent;"},newdiv);
+                            //Filter Pflanzen
+                            var newdiv1 = createElement("div",{"mouseOverText":text[LNG]["category_v"],"class":"rackcat1v","style":"float:left;width:27px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll 0px 0px transparent;"},newdiv);
                             if (mode2.match(/v/)) {
                                     newdiv1.style.backgroundPosition=" 0px -78px";
                             } else {
@@ -299,8 +299,8 @@ function showMarket(pid){
                                     buildInfoPanel("rackoverview",mode2);
                             },false);
                            
-							//Filter fortschrittliche Produkte
-                            newdiv1 = createElement("div",{"mouseOverText":texte[LNG]["category_e"],"class":"link","style":"float:left;width:27px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -27px 0px transparent;"},newdiv);
+                            //Filter fortschrittliche Produkte
+                            newdiv1 = createElement("div",{"mouseOverText":text[LNG]["category_e"],"class":"link","style":"float:left;width:27px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -27px 0px transparent;"},newdiv);
                             if (mode2.match(/e/)) {
                                     newdiv1.style.backgroundPosition="-27px -78px";
                             } else {
@@ -316,8 +316,8 @@ function showMarket(pid){
                                     buildInfoPanel("rackoverview",mode2);
                             },false);
                            
-							//Filter Öl
-							newdiv1 = createElement("div",{"mouseOverText":texte[LNG]["category_o"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -53px 0px transparent;"},newdiv);
+                            //Filter Öl
+                            newdiv1 = createElement("div",{"mouseOverText":text[LNG]["category_o"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -53px 0px transparent;"},newdiv);
                             if (mode2.match(/o/)) {
                                     newdiv1.style.backgroundPosition="-53px -78px";
                             } else {
@@ -334,7 +334,7 @@ function showMarket(pid){
                             },false);
                            
                             //Filter Baumarkt
-							newdiv1 = createElement("div",{"mouseOverText":texte[LNG]["category_z"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -159px 0px transparent;"},newdiv);
+                            newdiv1 = createElement("div",{"mouseOverText":text[LNG]["category_z"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -159px 0px transparent;"},newdiv);
                             if (mode2.match(/z/)) {
                                     newdiv1.style.backgroundPosition="-159px -78px";
                             } else {
@@ -350,8 +350,8 @@ function showMarket(pid){
                                     buildInfoPanel("rackoverview",mode2);
                             },false);
                            
-							//Filter Picknick
-                            newdiv1 = createElement("div",{"mouseOverText":texte[LNG]["category_fw"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -106px 0px transparent;"},newdiv);
+                            //Filter Picknick
+                            newdiv1 = createElement("div",{"mouseOverText":text[LNG]["category_fw"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -106px 0px transparent;"},newdiv);
                             if (mode2.match(/fw1fw2fw3fw4/)) {
                                     newdiv1.style.backgroundPosition="-106px -78px";
                             } else {
@@ -367,8 +367,8 @@ function showMarket(pid){
                                     buildInfoPanel("rackoverview",mode2);
                             },false);
                            
-							//Filter Blumen
-							newdiv1 = createElement("div",{"mouseOverText":texte[LNG]["category_fl"]+" "+texte[LNG]["category_fla"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -212px 0px transparent;"},newdiv);
+                            //Filter Blumen
+                            newdiv1 = createElement("div",{"mouseOverText":text[LNG]["category_fl"]+" "+text[LNG]["category_fla"],"class":"link","style":"float:left;width:54px;height:39px;background:url('"+GFX+"rack_sort_top.png') repeat scroll -212px 0px transparent;"},newdiv);
                             if (mode2.match(/flfla/)) {
                                     newdiv1.style.backgroundPosition="-212px -78px";
                             } else {
@@ -383,8 +383,8 @@ function showMarket(pid){
                                     $("infoPanel").setAttribute("mode","");
                                     buildInfoPanel("rackoverview",mode2);
                             },false);
-							
-							
+                            
+                            
                             var newtable = createElement("table",{"border":"1", "height": "500px", "style":"position:absolute;top:50px;left:0px;-moz-user-select:none;"},div);
                             newtable.addEventListener("mouseover",function(event){
                                     var node = event.target;
@@ -404,7 +404,7 @@ function showMarket(pid){
                             //createElement("td",{"style":"text-align:center;"},newtr,"Total");
      
                             var oldclass = "c";
-							mode2 += oldclass;
+                            mode2 += oldclass;
      
                             newtr = createElement("tr",{},newtable);
                             newtd = createElement("td",{},newtr,unsafeWindow.t_money);
@@ -497,9 +497,9 @@ function showMarket(pid){
                                             newtd = createElement("td",{},newtr);
                                             produktPic(0,w,newtd);
                                             if (!unsafeData.prodBlock[0][w].match(/[lt]/)){ // if (unsafeData.prodBlock[w].match(/^[lt]*$/)) {
-                                                    newtd.setAttribute("mouseOverText",texte[LNG]["goToMarketOfX"].replace("%1%",unsafeData.prodName[0][w]));
+                                                    newtd.setAttribute("mouseOverText",text[LNG]["goToMarketOfX"].replace("%1%",unsafeData.prodName[0][w]));
                                                     newa = createElement("span",{"id":w},newtd,unsafeData.prodName[0][w]);
-													//newa = createElement("a",{"id":w},newtd,unsafeData.prodName[0][w]);
+                                                    //newa = createElement("a",{"id":w},newtd,unsafeData.prodName[0][w]);
                                                     //newa.setAttribute("class","link");
                                                     //newa.addEventListener("click",function(){showMarket(this.id);},false);
                                                    
@@ -510,7 +510,7 @@ function showMarket(pid){
                                             sum = 0;
                                             for(var farm=0;farm<bestand.length;farm++){
     GM_log(farm);                                  
-    GM_log(implode(bestand[farm]));                                
+    GM_log(implode(bestand[farm], "bestand.farm"));                                
                                                     if(bestand[farm][2][w]>-1){ //product amount
                                                             sum += bestand[farm][2][w];
                                                             if (bestand[farm][7].length > 1){
@@ -555,7 +555,7 @@ function showMarket(pid){
                                     for (var v=0;v<unsafeData.prodName[0].length;v++){
                                             bestand[FARMNR][2][v] = -1;
                                     }
-                                    GM_setValue(LNG+"_"+SERVER+"_rackoverview",implode(bestand));
+                                    GM_setValue(LNG+"_"+SERVER+"_rackoverview",implode(bestand, "bestand"));
                                     closeInfoPanel();
                             },false);
                             newtable=null;newtr=null;newtd=null;newdiv=null;newdiv1=null;
@@ -567,21 +567,16 @@ function showMarket(pid){
             }
             div=null;
     }//end buildinfo
-     
+
     function do_main(){
             TOOLTIP = $top("divToolTip");
             LOG_BUBBLE_BOX = $top("divLogBubbleBox");
-           
-            if(top.unsafeData.texte==undefined){
-                    top.unsafeData.texte=texte;
+            if(top.unsafeData.text==undefined){
+                    top.unsafeData.text=text;
             }else{
-                    texte=top.unsafeData.texte;
+                    text=top.unsafeData.text;
             }
      
-    //      texte = unsafeData.texte;
-    //      texte["rackoverview"] = new Object();
-    //      texte["category"]=new Object();
-            //LNG = unsafeData.LNG;
             LNG = unsafeData.LANGUAGE;
                    
             //14.03
@@ -602,76 +597,76 @@ function showMarket(pid){
      
             switch (LNG){
                     case "au":case "nz":case "uk":case "us": {
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "bu":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "de":{
-                                    if(top.unsafeData.texte["de"]["rackoverview"]==undefined){
-                                            //texte["de"]=new Object();
-                                            texte["de"]["rackoverview"] = new Object();
+                                    if(top.unsafeData.text["de"]["rackoverview"]==undefined){
+                                            //text["de"]=new Object();
+                                            text["de"]["rackoverview"] = new Object();
                                                                    
-                                            texte["de"]["rackoverview"]["msgUpdate"] = "Es liegt eine neue Script-Version vor rackoverview. Diese installieren?";
-                                            texte["de"]["rackoverview"]["shouldUpdateBerater"] = "Du solltest das Berater-Script aktualisieren!<br>Der Rackoverview-Script wird nicht ordnungsgem"+a_dots+sz+" arbeiten.";
+                                            text["de"]["rackoverview"]["msgUpdate"] = "Es liegt eine neue Script-Version vor rackoverview. Diese installieren?";
+                                            text["de"]["rackoverview"]["shouldUpdateBerater"] = "Du solltest das Berater-Script aktualisieren!<br>Der Rackoverview-Script wird nicht ordnungsgemaess arbeiten.";
                                     }
                            
                             break;}
                     case "dk":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "es": {
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "fr":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "gr":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "hu":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "it":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "nl":{
-                            texte["rackoverview"]["msgUpdate"] = "Wil je de nieuwe script versie van rackoverview installeren?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "Wil je de nieuwe script versie van rackoverview installeren?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "pl":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "ru": {
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "se": {
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
                     case "tr":{
-                            texte["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
-                            texte["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
+                            text["rackoverview"]["msgUpdate"] = "There is a new script version of rackoverview availible. Install?";
+                            text["rackoverview"]["shouldUpdateBerater"] = "You should update the script of the Adviser!<br>The Rackoverview-Script will not run properly.";
                             break;}
             }
      
             // Updatecheck
             if((!unsafeData.beraterVersion)||(compareVersions(neededVersionBerater,unsafeData.beraterVersion)>0)){
-                    alert2(texte[LNG]["rackoverview"]["shouldUpdateBerater"],texte["ok"]);
+                    alert2(text[LNG]["rackoverview"]["shouldUpdateBerater"],text["ok"]);
             }
             // time,version on server,last checked version
             var updateCheck=explode(GM_getValue("updateCheck"),"do_main/updateCheck",[0,VERSION,VERSION]);
-			//Update ausgeschaltet 22.03
+            //Update ausgeschaltet 22.03
            /*
             if(GM_getValue("valUpdate",true)&&(now-updateCheck[0]>1800)){
                     logBubble.add(getText("requestingUpdateInfoOfX").replace(/%1%/,GM_info["script"]["name"]));
@@ -734,7 +729,7 @@ function showMarket(pid){
                                                     updateCheck[2] = updateCheck[1];
                                                     GM_setValue2("updateCheck",implode(updateCheck));
                                             } else if (updateCheck[1]!=updateCheck[2]) {
-                                                    alert2(texte[LNG]["rackoverview"]["msgUpdate"]+"<br>("+VERSION+"&nbsp;&rarr;&nbsp;"+updateCheck[1]+")",texte["yes"],texte["no"],function(){
+                                                    alert2(text[LNG]["rackoverview"]["msgUpdate"]+"<br>("+VERSION+"&nbsp;&rarr;&nbsp;"+updateCheck[1]+")",text["yes"],text["no"],function(){
                                                             updateCheck[2] = updateCheck[1];
                                                             GM_setValue2("updateCheck",implode(updateCheck));
                                                             window.setTimeout(function(){
@@ -754,7 +749,7 @@ function showMarket(pid){
             */
            
             FARMNAME = $("username").innerHTML;
-			bestand = explode(GM_getValue(LNG+"_"+SERVER+"_rackoverview"),"bestand",[]);
+            bestand = explode(GM_getValue(LNG+"_"+SERVER+"_rackoverview"),"bestand",[]);
             if(!(bestand instanceof Array)){ bestand = new Array(); }
             // FARMNAME, cash, products, points, level, quest
             for(var v=0;v<bestand.length;v++){
@@ -777,7 +772,7 @@ function showMarket(pid){
                     for (var v=0;v<unsafeData.prodName[0].length;v++){
                             bestand[FARMNR][2][v] = -1;
                     }
-                    GM_setValue(LNG+"_"+SERVER+"_rackoverview",implode(bestand));
+                    GM_setValue(LNG+"_"+SERVER+"_rackoverview",implode(bestand, "bestand"));
             }else{
                     if(!(bestand[FARMNR][2] instanceof Array)){
                             bestand[FARMNR][2]=[];
@@ -793,17 +788,17 @@ function showMarket(pid){
     //      productStatTime = GM_getValue(LNG+"_"+SERVER+"_productStatTime",0);
      
             document.addEventListener("gameUpdateRack",function(){
-				try{
+                try{
                     // Money
                     bestand[FARMNR][1] = parseInt($("bar").innerHTML.replace(regDelimThou,""),10);
                     // Coins
                     bestand[FARMNR][2][0] = parseInt($("coins").innerHTML.replace(regDelimThou,""),10);
                     
-					// Rack
+                    // Rack
                     for (var v=1;v<unsafeData.prodName[0].length;v++){
-						if(!unsafeData.prodName[0].hasOwnProperty(v)){continue;}
+                        if(unsafeData.prodName[0][v] == undefined){continue;}
                         if(unsafeData.prodBlock[0][v].match(/l/)){
-							bestand[FARMNR][2][v] = -1;
+                            bestand[FARMNR][2][v] = -1;
                         }else{
                             bestand[FARMNR][2][v] = (unsafeData.prodStock[0][v]?unsafeData.prodStock[0][v]:0);
                         }
@@ -833,7 +828,7 @@ function showMarket(pid){
                             }
                             prod=null;
                     }*/
-                    GM_setValue(LNG+"_"+SERVER+"_rackoverview",implode(bestand));
+                    GM_setValue(LNG+"_"+SERVER+"_rackoverview",implode(bestand, "bestand"));
      
                     todayTime = new Date();
                     todayTime = Math.round(new Date(todayTime.getFullYear(),todayTime.getMonth(),todayTime.getDate(),0,0,0,0).getTime()/1000);
@@ -843,8 +838,8 @@ function showMarket(pid){
                             muss noch bearbeitet werden
                     }
                     */
-					//catch(err){ alert("Sorry. Can't read the entered string.\n"+err+"  "+v); }
-				}	catch(err){ GM_logError("gameUpdateRack\n"+err); } 
+                    //catch(err){ alert("Sorry. Can't read the entered string.\n"+err+"  "+v); }
+                }   catch(err){ GM_logError("gameUpdateRack\n"+err); } 
             },false);
      
             var newdiv = createElement("div",{"id":"divBeraterButtonsRackOverview","mouseOverText":"Rack Overview","class":"link beraterButtonIcon hoverBgRed"},$("divBeraterButtons"));
