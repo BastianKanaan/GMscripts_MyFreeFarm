@@ -3,8 +3,8 @@
 // @namespace   https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author      BastianKanaan
 // @description Language pack "French" for MyFreeFarm Scripts
-// @date        11.07.2015
-// @version     1.0.2
+// @date        22.07.2015
+// @version     1.0.3
 // @license     GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // @include     /^http:\/\/(|www\.|s\d+\.)mabelleferme.fr\/.*$/
 // @grant       GM_log
@@ -41,22 +41,33 @@ try{
 // Take the following from the game ***********************************************************************************
     if(undefined===text[LANGUAGE]){
         text[LANGUAGE]=new Object();
-        // Take the content from a message sent if you sell something on the market place
-        // The text where the information is stated. The information has to be replaced by "(.*?)".
-        text[LANGUAGE]["msgMarketsaleContent"]="(.*) a acheté (\\d+)x (.*?) pour (.*?) fL\\."; 
-        // Take the content from a message sent if you sell something via contract
-        // The text where the general information is stated. The information has to be replaced by "(.*?)".
-        text[LANGUAGE]["msgContractsaleContent"]="(.*) a signé un de tes contrats!<br><br> Les produits suivants ont ét. vendu:<br>(.*?)<br> Le total de (.*?) fL a été crédité à ton compte\\."; 
-        // The line-pattern for the detailed selling list
-        text[LANGUAGE]["msgContractsaleList"]="(\\d+)x (.*?)<br>";
-        // Take the subject from a message sent if somebody wants to add you as friend.
-        // The person has to be replaced by "(.+)"
+        // Open the system messages and watch the Firefox console for warnings from "messagesSystem".
+        // *************
+        // Take from a message sent if you sell something on the market place.
+        // - The subject: Replace the variable information by ".+". Prefix brackets with "\".
+        text[LANGUAGE]["msgSubjectMarketsale"]="???";
+        // - The content: The text where the information is stated. The information has to be replaced by "(.*?)".
+        text[LANGUAGE]["msgContentMarketsale"]="(.*) a acheté (\\d+)x (.*?) pour (.*?) fL\\."; 
+        // *************
+        // Take from a message sent if you sell something via contract.
+        // - The subject.
+        text[LANGUAGE]["msgSubjectContractsale"]="???";
+        // - The content: The text where the general information is stated. The information has to be replaced by "(.*?)".
+        text[LANGUAGE]["msgContentContractsale"]="(.*) a signé un de tes contrats!<br><br> Les produits suivants ont ét. vendu:<br>(.*?)<br> Le total de (.*?) fL a été crédité à ton compte\\."; 
+        // - The line-pattern for the detailed selling list (equals the replaced information above).
+        text[LANGUAGE]["msgContentContractsaleList"]="(\\d+)x (.*?)<br>";
+        // *************
+        // Take the subject from a message sent if you won in a competition.
+        text[LANGUAGE]["msgSubjectCongratulation"]="???";
+        // Take the subject from a message sent if somebody wants to add you as friend. The person has to be replaced by "(.+)".
         text[LANGUAGE]["msgSubjectFriend"]="(.+) souhaite t'ajouter à ses amis";
-        // Take the subject from a message sent if you got a gift
-        text[LANGUAGE]["msgSubjectGift"]="Gift for you";
-        // Take the subject from a message sent if weed occurred on a field
-        text[LANGUAGE]["msgSubjectWeed1"]="Oh no!";
-        text[LANGUAGE]["msgSubjectWeed2"]="Au Weia!";
+        // Take the subject from a message sent if you reach the next level
+        text[LANGUAGE]["msgSubjectLevel"]="???";
+        // Take the subject from a message sent if you got a present.
+        text[LANGUAGE]["msgSubjectPresent"]="???";
+        // Take the subjects from messages sent if weed occurred on your field.
+        text[LANGUAGE]["msgSubjectWeed1"]="???";
+        text[LANGUAGE]["msgSubjectWeed2"]="???";
     
 // And all the other texts you can enter what you want ****************************************************************
         text[LANGUAGE]["above"]="above";
@@ -225,6 +236,7 @@ try{
         text[LANGUAGE]["password"]="Password";
         text[LANGUAGE]["pleaseOpenX"]="Please open %1%.";
         text[LANGUAGE]["points"]="Points";
+        text[LANGUAGE]["pleaseWait"]="Pleae wait";
         text[LANGUAGE]["portalLogin"]="Portal-Login";
         text[LANGUAGE]["powerups"]="Power-Ups";
         text[LANGUAGE]["previousMessage"]="previous message";

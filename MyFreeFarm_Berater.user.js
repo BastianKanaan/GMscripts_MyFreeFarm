@@ -78,6 +78,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.5.2","05.07.2015",[["Neu: Anpassung für Tierarzt","New: Fix for veterinary"],["Neu: Aufruf der Saatguthändlers mit Produkt","New: Call of seed vendor with product"],["Text-Korrekturen","Text fixes"]]]
                 ,["2.5.3","11.07.2015",[["Fix: Verkleinerung der Markt Quicklinks","Fix: Decrease of market quicklinks"],["Kleinere technische Korrekturen","Smaller technical fixes"]]]
                 ,["2.5.4","21.07.2015",[["Fix: Probleme nach Neu-Installation","Fix: Problems after new installation"]]]
+                ,["2.5.5","22.07.2015",[["Fix: Probleme mit Waltraud","Fix: Problems with waltraud"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -514,7 +515,7 @@ var gutBeob=new Array();
 var preisBeob=new Array();
 var questData;
 var css_styles=new Object();
-var regMsgMarketsaleContent,regMsgContractsaleContent,regMsgContractsaleList,regMsgSubjectFriend;
+var regMsgContentMarketsale,regMsgContentContractsale,regMsgContentContractsaleList,regMsgSubjectFriend;
 var valAutoWater, valWaterNeeded, valAssumeWater, valAutoCrop, valErnteMsg, valLimitEmptyFields, valStatistik, valClickErrorbox, valGlobaltimeShowCroppedZone;
 var valMoveAnimals, valMinRackMan, valMinRack, valMinRackPlantsize, valMinRackFarmis,valMinRackForestryFarmis, valMinRackGrowing, valMinRackRecursive, valFarmiLimits, valFarmiMiniInfo
 var upjersAds, buyNotePadShowBlocked, show;
@@ -12267,135 +12268,139 @@ return false;
         for(var i=unsafeWindow.messages_data.length-1;i>=0;i--){
             currMsg=unsafeWindow.messages_data[i];
             help=currMsg.body.replace(/\s+/g," ");
-            if([getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){
-                // New weed
-                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Weed message");
-            }else if (getText("msgSubjectGift")==currMsg.subject){
-                // New gift
-                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Gift message");
+            if([getText("msgSubjectCongratulation"),getText("msgSubjectPresent"),getText("msgSubjectLevel"),getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){
+                // New message without handling
             }else if(help2=regMsgSubjectFriend.exec(currMsg.subject)){
                 // New friendship
                 // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Friendship message");
                 sender=help[1];
-            }else if (help2=regMsgMarketsaleContent.exec(help)){
-                // Market sale
-                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Market sale");
-                switch(COUNTRY){
-                case "TR":{
-                    help2.push(help2.splice(2,1).toString());
-                break;}
-                case "SE":{
-                    help2[4]=help2[4].replace(/\.(\d\d) /,",$1 ");
-                    help2[4]=help2[4].replace(/\.(\d\d)$/,",$1");
-                break;}
-                }
-                sender=help2[1];
-                betreff=(getText("marketplace")+": "+help2[3]).replace(/&nbsp;/g," ");
-                time=getTime(currMsg.time);
-                prod=prodId[0][help2[3]];
-                amount=parseInt(help2[2],10);
-                money=parseFloat(help2[4].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
-                price=Math.round(100*money/amount)/100;
-                if(logSalesId[currMsg.nnr]===undefined){
-                    logSalesId[currMsg.nnr]=logSales.push([currMsg.nnr])-1;
-                    dayStr=getDateStr(time,2,false);
-                    for(var v=levelLog.length-1;v>=0;v--){
-                        if(levelLog[v][0]==dayStr){ break; }
+            }else if (regMsgSubjectMarketsale.exec(currMsg.subject)){ // Market sale
+                if (help2=regMsgContentMarketsale.exec(help)){
+                    // Market sale
+                    // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Market sale");
+                    switch(COUNTRY){
+                    case "TR":{
+                        help2.push(help2.splice(2,1).toString());
+                    break;}
+                    case "SE":{
+                        help2[4]=help2[4].replace(/\.(\d\d) /,",$1 ");
+                        help2[4]=help2[4].replace(/\.(\d\d)$/,",$1");
+                    break;}
                     }
-                    if(v<0){ v=levelLog.push([dayStr,0,null,0,0,0])-1; }
-                    levelLog[v][3]+=money;
-                    levelLog[v][3]=Math.round(100*levelLog[v][3])/100;
-
-                    help3 = amount;
-                    while(help3>0){
-                        for(var v=ownMarketOffers.length-1;v>=0;v--){
-                            if((ownMarketOffers[v][0]==prod)&&(ownMarketOffers[v][1]==price)){
-                                help4 = Math.min(ownMarketOffers[v][2],help3);
-                                ownMarketOffers[v][2] -= help4;
-                                if(ownMarketOffers[v][2]<1){ ownMarketOffers.splice(v,1); }
-                                help3 -= help4;
-                                break;
-                            }
+                    sender=help2[1];
+                    betreff=(getText("marketplace")+": "+help2[3]).replace(/&nbsp;/g," ");
+                    time=getTime(currMsg.time);
+                    prod=prodId[0][help2[3]];
+                    amount=parseInt(help2[2],10);
+                    money=parseFloat(help2[4].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
+                    price=Math.round(100*money/amount)/100;
+                    if(logSalesId[currMsg.nnr]===undefined){
+                        logSalesId[currMsg.nnr]=logSales.push([currMsg.nnr])-1;
+                        dayStr=getDateStr(time,2,false);
+                        for(var v=levelLog.length-1;v>=0;v--){
+                            if(levelLog[v][0]==dayStr){ break; }
                         }
-                        if(v<0){ help3=0; }
+                        if(v<0){ v=levelLog.push([dayStr,0,null,0,0,0])-1; }
+                        levelLog[v][3]+=money;
+                        levelLog[v][3]=Math.round(100*levelLog[v][3])/100;
+
+                        help3 = amount;
+                        while(help3>0){
+                            for(var v=ownMarketOffers.length-1;v>=0;v--){
+                                if((ownMarketOffers[v][0]==prod)&&(ownMarketOffers[v][1]==price)){
+                                    help4 = Math.min(ownMarketOffers[v][2],help3);
+                                    ownMarketOffers[v][2] -= help4;
+                                    if(ownMarketOffers[v][2]<1){ ownMarketOffers.splice(v,1); }
+                                    help3 -= help4;
+                                    break;
+                                }
+                            }
+                            if(v<0){ help3=0; }
+                        }
                     }
-                }
-                j=logSalesId[currMsg.nnr];
-                logSales[j][1]=time;
-                logSales[j][2]=sender;
-                logSales[j][3]=[prod,amount];
-                logSales[j][4]=money;
-                if(valMessagesSystemMarkRead&&(currMsg.read=="0")){
-                    window.setTimeout(unsafeWindow.messagesAction,500*(++countRequest),"unread",i);
-                }
-                if(div=$("messages_list_subject"+currMsg.nnr)){
-                    div.setAttribute("j",j);
-                    div.addEventListener("mouseover",function(event){
-                        toolTip.show(event,toolTipSales(this.getAttribute("j")));
-                    },false);
-                    div.classList.add("systemMsg_marketsale");
-                    div.innerHTML="";
-                    igm(sender,div,betreff);
-                    createElement("div",{"style":"display:inline-block;width:125px;margin-right:5px;"},div,sender);
-                    span=createElement("div",{"style":"display:inline-block;width:145px;margin-right:5px;text-align:right;"},div,numberFormat(amount)+"&nbsp;"+prodName[0][prod]+"&nbsp;");
-                    produktPic(0,prod,span);
-                    createElement("div",{"style":"display:inline-block;width:75px;margin-right:5px;text-align:right;"},div,moneyFormatInt(money));
-                }
-            }else if (help2=regMsgContractsaleContent.exec(help)){ // Contract sale
-                // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Contract sale");
-                if(COUNTRY=="SE"){
-                    help2[3]=help2[3].replace(/\.(\d\d) /,",$1 ");
-                    help2[3]=help2[3].replace(/\.(\d\d)$/,",$1");
-                }
-                sender=help2[1];
-                money=parseFloat(help2[3].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
-                time=getTime(currMsg.time);
-                if(logSalesId[currMsg.nnr]===undefined){
-                    logSalesId[currMsg.nnr]=logSales.push([currMsg.nnr])-1;
-                    var dayStr=getDateStr(time,2,false);
-                    for(var v=levelLog.length-1;v>=0;v--){
-                        if(levelLog[v][0]==dayStr){ break; }
+                    j=logSalesId[currMsg.nnr];
+                    logSales[j][1]=time;
+                    logSales[j][2]=sender;
+                    logSales[j][3]=[prod,amount];
+                    logSales[j][4]=money;
+                    if(valMessagesSystemMarkRead&&(currMsg.read=="0")){
+                        window.setTimeout(unsafeWindow.messagesAction,500*(++countRequest),"unread",i);
                     }
-                    if(v<0){ v=levelLog.push([dayStr,0,null,0,0,0])-1; }
-                    levelLog[v][4]+=money;
-                    levelLog[v][4]=Math.round(100*levelLog[v][4])/100;
-                }
-                j=logSalesId[currMsg.nnr];
-                logSales[j][1]=time;
-                logSales[j][2]=sender;
-                logSales[j][3]=new Array();
-                help4=new Array();
-                while(help3=regMsgContractsaleList.exec(help2[2])){
-                    help2[2]=help2[2].replace(help3[0],"");
-                    logSales[j][3].push([prodId[0][help3[2]],parseInt(help3[1],10)]);
-                }
-                betreff=getText("contract");
-                if(logSales[j][3].length==1){
-                    prod=logSales[j][3][0][0];
-                    amount=logSales[j][3][0][1];
-                    betreff+=": "+prodName[0][prod];
-                }
-                logSales[j][4]=money;
-                if(valMessagesSystemMarkRead&&(currMsg.read=="0")){
-                    window.setTimeout(unsafeWindow.messagesAction,500*(++countRequest),"unread",i);
-                }
-                if(div=$("messages_list_subject"+currMsg.nnr)){
-                    div.setAttribute("j",j);
-                    div.addEventListener("mouseover",function(event){
-                        toolTip.show(event,toolTipSales(this.getAttribute("j")));
-                    },false);
-                    div.classList.add("systemMsg_contractsale");
-                    div.innerHTML="";
-                    igm(sender,div,betreff);
-                    createElement("div",{"style":"display:inline-block;width:125px;margin-right:5px;"},div,sender);
-                    span=createElement("div",{"style":"display:inline-block;width:145px;margin-right:5px;text-align:right;"},div);
-                    if(logSales[j][3].length==1){
-                        span.innerHTML=numberFormat(amount)+"&nbsp;"+prodName[0][prod]+"&nbsp;";
+                    if(div=$("messages_list_subject"+currMsg.nnr)){
+                        div.setAttribute("j",j);
+                        div.addEventListener("mouseover",function(event){
+                            toolTip.show(event,toolTipSales(this.getAttribute("j")));
+                        },false);
+                        div.classList.add("systemMsg_marketsale");
+                        div.innerHTML="";
+                        igm(sender,div,betreff);
+                        createElement("div",{"style":"display:inline-block;width:125px;margin-right:5px;"},div,sender);
+                        span=createElement("div",{"style":"display:inline-block;width:145px;margin-right:5px;text-align:right;"},div,numberFormat(amount)+"&nbsp;"+prodName[0][prod]+"&nbsp;");
                         produktPic(0,prod,span);
-                    }else{
-                        span.innerHTML="...";
+                        createElement("div",{"style":"display:inline-block;width:75px;margin-right:5px;text-align:right;"},div,moneyFormatInt(money));
                     }
-                    createElement("div",{"style":"display:inline-block;width:75px;margin-right:5px;text-align:right;"},div,moneyFormatInt(money));
+                }else{
+                    GM_logWarning("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Could not parse content of a market sale message.");
+                }
+            }else if (getText("msgSubjectContractsale")==currMsg.subject){ // Contract sale
+                if (help2=regMsgContentContractsale.exec(help)){
+                    // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Contract sale");
+                    if(COUNTRY=="SE"){
+                        help2[3]=help2[3].replace(/\.(\d\d) /,",$1 ");
+                        help2[3]=help2[3].replace(/\.(\d\d)$/,",$1");
+                    }
+                    sender=help2[1];
+                    money=parseFloat(help2[3].replace(regDelimThou,"").replace(regDelimDeci,"."),10);
+                    time=getTime(currMsg.time);
+                    if(logSalesId[currMsg.nnr]===undefined){
+                        logSalesId[currMsg.nnr]=logSales.push([currMsg.nnr])-1;
+                        var dayStr=getDateStr(time,2,false);
+                        for(var v=levelLog.length-1;v>=0;v--){
+                            if(levelLog[v][0]==dayStr){ break; }
+                        }
+                        if(v<0){ v=levelLog.push([dayStr,0,null,0,0,0])-1; }
+                        levelLog[v][4]+=money;
+                        levelLog[v][4]=Math.round(100*levelLog[v][4])/100;
+                    }
+                    j=logSalesId[currMsg.nnr];
+                    logSales[j][1]=time;
+                    logSales[j][2]=sender;
+                    logSales[j][3]=new Array();
+                    help4=new Array();
+                    while(help3=regMsgContentContractsaleList.exec(help2[2])){
+                        help2[2]=help2[2].replace(help3[0],"");
+                        logSales[j][3].push([prodId[0][help3[2]],parseInt(help3[1],10)]);
+                    }
+                    betreff=getText("contract");
+                    if(logSales[j][3].length==1){
+                        prod=logSales[j][3][0][0];
+                        amount=logSales[j][3][0][1];
+                        betreff+=": "+prodName[0][prod];
+                    }
+                    logSales[j][4]=money;
+                    if(valMessagesSystemMarkRead&&(currMsg.read=="0")){
+                        window.setTimeout(unsafeWindow.messagesAction,500*(++countRequest),"unread",i);
+                    }
+                    if(div=$("messages_list_subject"+currMsg.nnr)){
+                        div.setAttribute("j",j);
+                        div.addEventListener("mouseover",function(event){
+                            toolTip.show(event,toolTipSales(this.getAttribute("j")));
+                        },false);
+                        div.classList.add("systemMsg_contractsale");
+                        div.innerHTML="";
+                        igm(sender,div,betreff);
+                        createElement("div",{"style":"display:inline-block;width:125px;margin-right:5px;"},div,sender);
+                        span=createElement("div",{"style":"display:inline-block;width:145px;margin-right:5px;text-align:right;"},div);
+                        if(logSales[j][3].length==1){
+                            span.innerHTML=numberFormat(amount)+"&nbsp;"+prodName[0][prod]+"&nbsp;";
+                            produktPic(0,prod,span);
+                        }else{
+                            span.innerHTML="...";
+                        }
+                        createElement("div",{"style":"display:inline-block;width:75px;margin-right:5px;text-align:right;"},div,moneyFormatInt(money));
+                    }
+                }else{
+                    GM_logWarning("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Could not parse content of a contract sale message.");
                 }
             }else{
                 GM_logWarning("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Unknown message type");
@@ -16645,7 +16650,14 @@ return;
             }
         }catch(err){GM_logError("hideGoToDonkey","","",err);}
         }
-        showGoToDonkey();
+        unsafeOverwriteFunction("showDonkey",function(a){
+            try{
+                unsafeWindow._showDonkey(a);
+            }catch(err){GM_logError("_showDonkey","","",err);}
+            try{
+                showGoToDonkey();
+            }catch(err){GM_logError("showDonkey","","",err);}
+        });
         unsafeOverwriteFunction("dailyDonkeyResult",function(response){
             try{
                 unsafeWindow._dailyDonkeyResult(response);
@@ -16677,6 +16689,7 @@ return;
                 }
             }catch(err){GM_logError("dailyDonkeyResult","","",err);}
         });
+        showGoToDonkey();
     }
 
     // on load execute ============================================================================
@@ -19446,11 +19459,15 @@ try{
     text=top.unsafeData.text;
     if(undefined===text["de"]){
         text["de"]=new Object();
-        text["de"]["msgMarketsaleContent"]="(.*) hat am Marktplatz (\\d+)x (.*?) von dir<br> f&uuml;r (.*?) kT gekauft\\.";
-        text["de"]["msgContractsaleContent"]="(.*) hat einen Vertrag von dir unterzeichnet!<br><br> Folgende Produkte wurden verkauft:<br>(.*?)<br> Die Vertragssumme von (.*?) kT wurde deinem Konto gutgeschrieben\\.";
-        text["de"]["msgContractsaleList"]="(\\d+)x (.+?)<br>";
+        text["de"]["msgContentContractsale"]="(.*) hat einen Vertrag von dir unterzeichnet!<br><br> Folgende Produkte wurden verkauft:<br>(.*?)<br> Die Vertragssumme von (.*?) kT wurde deinem Konto gutgeschrieben\\.";
+        text["de"]["msgContentContractsaleList"]="(\\d+)x (.+?)<br>";
+        text["de"]["msgContentMarketsale"]="(.*) hat am Marktplatz (\\d+)x (.*?) von dir<br> f&uuml;r (.*?) kT gekauft\\.";
+        text["de"]["msgSubjectCongratulation"]="Herzlichen Gl&uuml;ckwunsch!";
+        text["de"]["msgSubjectContractsale"]="Ein Vertrag wurde angenommen";
         text["de"]["msgSubjectFriend"]="(.+) möchte dich als Freund hinzufügen";
-        text["de"]["msgSubjectGift"]="Geschenk für Dich";
+        text["de"]["msgSubjectPresent"]="Geschenk für Dich";
+        text["de"]["msgSubjectLevel"]="???";
+        text["de"]["msgSubjectMarketsale"]="Marktplatz&nbsp;.+ kT&nbsp;\(.+x .+\)";
         text["de"]["msgSubjectWeed1"]="Oh nein!";
         text["de"]["msgSubjectWeed2"]="Au Weia!";
 
@@ -19619,7 +19636,7 @@ try{
         text["de"]["pageXNotLoaded"]="Die Seite '%1%' ist nicht vollständig geladen.";
         text["de"]["password"]="Passwort";
         text["de"]["pleaseOpenX"]="Bitte %1% öffnen.";
-        text["de"]["pleaseWait"]="Bitte warten.";
+        text["de"]["pleaseWait"]="Bitte warten";
         text["de"]["portalLogin"]="Portal-Login";
         text["de"]["points"]="Punkte";
         text["de"]["powerups"]="Power-Ups";
@@ -19820,13 +19837,17 @@ try{
     }
     if(undefined===text["en"]){
         text["en"]=new Object();
-        text["en"]["msgMarketsaleContent"]="(.*) bought (\\d+)x (.*?) for<br> (.*?) pD from you\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
-        text["en"]["msgContractsaleContent"]="(.*) has signed a contract of yours!<br><br> The following products have been sold:<br>(.*?)<br> The amount of (.*?) pD has been credited to your account\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
-        text["en"]["msgContractsaleList"]="(\\d+)x (.*?)<br>"; // The line-pattern for the detailed selling list
+        text["en"]["msgContentContractsale"]="(.*) has signed a contract of yours!<br><br> The following products have been sold:<br>(.*?)<br> The amount of (.*?) pD has been credited to your account\\."; // The text where the general information is stated. The information has to be replaced by "(.*?)".
+        text["en"]["msgContentContractsaleList"]="(\\d+)x (.*?)<br>"; // The line-pattern for the detailed selling list
+        text["en"]["msgContentMarketsale"]="(.*) bought (\\d+)x (.*?) for<br> (.*?) pD from you\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
+        text["en"]["msgSubjectCongratulation"]="Congratulations";
+        text["en"]["msgSubjectContractsale"]="A contract has been accepted";
         text["en"]["msgSubjectFriend"]="(.+) would like to add you as a friend"; // The subject. The person has to be replaced by "(.+)"
-        text["en"]["msgSubjectGift"]="Gift for you";
+        text["en"]["msgSubjectLevel"]="You have reached the next level!";
+        text["en"]["msgSubjectMarketsale"]="Market&nbsp;.+ pD&nbsp;\(.+x .+\)";
+        text["en"]["msgSubjectPresent"]="A present for you";
         text["en"]["msgSubjectWeed1"]="Oh no!";
-        text["en"]["msgSubjectWeed2"]="Au Weia!";
+        text["en"]["msgSubjectWeed2"]="Au Weia!";        
         
         text["en"]["above"]="above";
         text["en"]["absolute"]="absolute";
@@ -19994,6 +20015,7 @@ try{
         text["en"]["password"]="Password";
         text["en"]["pleaseOpenX"]="Please open %1%.";
         text["en"]["points"]="Points";
+        text["en"]["pleaseWait"]="Pleae wait";
         text["en"]["portalLogin"]="Portal-Login";
         text["en"]["powerups"]="Power-Ups";
         text["en"]["previousMessage"]="previous message";
@@ -20196,10 +20218,11 @@ try{
     regDelimThouShift=new RegExp(regDelimThouShift,"g");
     regDelimThouDelete=new RegExp(regDelimThouDelete,"g");
     regDelimDeci=new RegExp(regDelimDeci);
-    regMsgMarketsaleContent=new RegExp(getText("msgMarketsaleContent"));
-    regMsgContractsaleContent=new RegExp(getText("msgContractsaleContent"));
-    regMsgContractsaleList=new RegExp(getText("msgContractsaleList"));
+    regMsgContentMarketsale=new RegExp(getText("msgContentMarketsale"));
+    regMsgContentContractsale=new RegExp(getText("msgContentContractsale"));
+    regMsgContentContractsaleList=new RegExp(getText("msgContentContractsaleList"));
     regMsgSubjectFriend=new RegExp(getText("msgSubjectFriend"));
+    regMsgSubjectMarketsale=new RegExp(getText("msgSubjectMarketsale"));
     err_trace="Events";
     if(DEVMODE_EVENTS&&(self==top)){
         var allEvents=new Array();
