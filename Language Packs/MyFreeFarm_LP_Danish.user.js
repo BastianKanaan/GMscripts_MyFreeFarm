@@ -3,8 +3,8 @@
 // @namespace   https://github.com/BastianKanaan/GMscripts_MyFreeFarm
 // @author      BastianKanaan
 // @description Language pack "Danish" for MyFreeFarm Scripts
-// @date        22.07.2015
-// @version     1.0.3
+// @date        23.07.2015
+// @version     1.0.4
 // @license     GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // @include     /^http:\/\/(|www\.|s\d+\.)myfreefarm.dk\/.*$/
 // @grant       GM_log
@@ -45,29 +45,29 @@ try{
         // *************
         // Take from a message sent if you sell something on the market place.
         // - The subject: Replace the variable information by ".+". Prefix brackets with "\".
-        text[LANGUAGE]["msgSubjectMarketsale"]="???";
+        text[LANGUAGE]["msgSubjectMarketsale"]="xxx";
         // - The content: The text where the information is stated. The information has to be replaced by "(.*?)".
         text[LANGUAGE]["msgContentMarketsale"]="(.*) har ved markedspladsen købt\\s*(\\d+)x (.*?) af dig<br>\\s*for(.*?) kD\\."; 
         // *************
         // Take from a message sent if you sell something via contract.
         // - The subject.
-        text[LANGUAGE]["msgSubjectContractsale"]="???";
+        text[LANGUAGE]["msgSubjectContractsale"]="xxx";
         // - The content: The text where the general information is stated. The information has to be replaced by "(.*?)".
         text[LANGUAGE]["msgContentContractsale"]="(.*) har underskrevet en kontrakt fra dig!<br><br>\\s*Følgende produkter blev solgt:<br>([\\S\\s]*)\\s*<br>\\s*Kontraktsummen på (.*?) kD blev indsat på din konto\\."; 
         // - The line-pattern for the detailed selling list (equals the replaced information above).
         text[LANGUAGE]["msgContentContractsaleList"]="\\s*(\\d+)x (.*?)<br>";
         // *************
         // Take the subject from a message sent if you won in a competition.
-        text[LANGUAGE]["msgSubjectCongratulation"]="???";
+        text[LANGUAGE]["msgSubjectCongratulation"]="xxx";
         // Take the subject from a message sent if somebody wants to add you as friend. The person has to be replaced by "(.+)".
-        text[LANGUAGE]["msgSubjectFriend"]="???";
+        text[LANGUAGE]["msgSubjectFriend"]="xxx";
         // Take the subject from a message sent if you reach the next level
-        text[LANGUAGE]["msgSubjectLevel"]="???";
+        text[LANGUAGE]["msgSubjectLevel"]="xxx";
         // Take the subject from a message sent if you got a present.
-        text[LANGUAGE]["msgSubjectPresent"]="???";
+        text[LANGUAGE]["msgSubjectPresent"]="xxx";
         // Take the subjects from messages sent if weed occurred on your field.
-        text[LANGUAGE]["msgSubjectWeed1"]="???";
-        text[LANGUAGE]["msgSubjectWeed2"]="???";
+        text[LANGUAGE]["msgSubjectWeed1"]="xxx";
+        text[LANGUAGE]["msgSubjectWeed2"]="xxx";
     
 // And all the other texts you can enter what you want ****************************************************************
         text[LANGUAGE]["above"]="above";
