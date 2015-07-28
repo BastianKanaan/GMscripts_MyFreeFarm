@@ -4,8 +4,8 @@
 // @author         BastianKanaan
 // @description    Extends MyFreeFarm
 // @icon           data:image/png;base64,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
-// @date           23.07.2015
-// @version        2.5.5
+// @date           28.07.2015
+// @version        2.5.6
 // @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // @include        /^http:\/\/(|www\.|s\d+\.)au\.myfreefarm\.com\/.*$/
 // @include        /^http:\/\/(|www\.|s\d+\.)veselaferma\.com\/.*$/
@@ -79,6 +79,7 @@ const CHANGELOG=[["2.0","29.05.2014",[["Migration nach openuserjs.org","Migratio
                 ,["2.5.3","11.07.2015",[["Fix: Verkleinerung der Markt Quicklinks","Fix: Decrease of market quicklinks"],["Kleinere technische Korrekturen","Smaller technical fixes"]]]
                 ,["2.5.4","21.07.2015",[["Fix: Probleme nach Neu-Installation","Fix: Problems after new installation"]]]
                 ,["2.5.5","23.07.2015",[["Fix: Probleme mit Waltraud","Fix: Problems with waltraud"]]]
+                ,["2.5.6","28.07.2015",[["Bugfixes","Bugfixes"]]]
                 ];
 if(!VERSIONfunctionFile){
     alert("Hi, I am the Berater-Script.\nThe function-file is missing.\nPlease install me again.");
@@ -146,7 +147,7 @@ const IMAGES={"leftarrow":"data:image/gif;base64,R0lGODlhIwAaAPcAAEQWBLyCVIROJKR
              };
 // cases(%=number): %=money, "c%"=coins, "f%"=fictive money
 // task_new_plant task_new_product
-const NPC=[[,0.5,1.1,1.34,2.75,3.95,8.05,17.8,18.5,"f85","f110","f180","f280",,,,,0.16,0.52,1.02,1.44,1.96,2.28,3.8,3.69,"f340",4.38,"f510","f590",12.4,"f650",3.49,5.19,8.75,6,15.63,16.88,37.5,3.9,52.44,51.75,60.25,58.13,66.19,18.2,"c79",150,,1200,,1200,,,,,4500,,14400,1200,,"c125",,"c23",,4800,4200,,,,,,,,750,2100,"c25",,,,,,,10800,12000,,1500,3300,,,,,"f650","f1500","f1500",5000,12000,"c10",,"c20",,"c5","c5","c5","c5",,"c5",,,10.12,3.72,"f155.1","f545.7",37.42,23.32,7.44,82.36,"f106.8","f148.8","f69.6","f196.8","f278.4","f408","f240","f324","f250","f864",47.15,140.56,125.88,,"f12.8","f73.5","f127","f106","f53.05","f113.75","f44","f33.33","f71.3","f73.2","f181.2","f321","f316","f491","f350","f484.2","f906.5","f421.7","f473.5","f749.98","f237.1","f675","f975",12.25,37.5,"f1025","f1100","f810",,"f231","f6500","f58","f137.67","f197.67","f342.5","f830","f700.5","f1063.2","f704.42","f734","f339.53",3.1,3.15,3.27,7.3,4.9,5.92,6.61,6.1,7.3,5.6,5.2,3.6,10,8.1,23.5,7.8,8.2,,,,,,,,,,,,,"f410","f490","f503","f589","f469","f1312","f598","f533","f480","f420","f1620","f1030","f675","f950","f2350","f2400","f2450","f3550","f3600","f3650","f8000","f8000",,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.7,3,3.3,3.45,5.1,8.20,2.1,4.3,1.95,8.85,1.4,2.1,4.8,4.85,7.4,5,5.1,2.3,3.95,10.6,11,3.5,2.9,3.6,,,,,,,,,,,,,,,,,,,,,,,,,,,1618,1340,1836,1654,1579,"c1","c1",1839,"c1",2655,"c2",2165,"c2",2877,"c2",2462,"c3",3093,"c3",3289,3138,"c3",3622,"c4"],{},[],[]];
+const NPC=[[,0.5,1.1,1.34,2.75,3.95,8.05,17.8,18.5,"f85","f110","f180","f280",,,,,0.16,0.52,1.02,1.44,1.96,2.28,3.8,3.69,"f340",4.38,"f510","f590",12.4,"f650",3.49,5.19,8.75,6,15.63,16.88,37.5,3.9,52.44,51.75,60.25,58.13,66.19,18.2,"c79",150,,1200,,1200,,,,,4500,,14400,1200,,"c125",,"c23",,4800,4200,,,,,,,,750,2100,"c25",,,,,,,10800,12000,,1500,3300,,,,,"f650","f1500","f1500",5000,12000,"c10",,"c20",,"c5","c5","c5","c5",,"c5",,,10.12,3.72,"f155.1","f545.7",37.42,23.32,7.44,82.36,"f106.8","f148.8","f69.6","f196.8","f278.4","f408","f240","f324","f250","f864",47.15,140.56,125.88,,"f12.8","f73.5","f127","f106","f53.05","f113.75","f44","f33.33","f71.3","f73.2","f181.2","f321","f316","f491","f350","f484.2","f906.5","f421.7","f473.5","f749.98","f237.1","f675","f975",12.25,37.5,"f1025","f1100","f810",,"f231","f6500","f58","f137.67","f197.67","f342.5","f830","f700.5","f1063.2","f704.42","f734","f339.53",3.1,3.15,3.27,7.3,4.9,5.92,6.61,6.1,7.3,5.6,5.2,3.6,10,8.1,23.5,7.8,8.2,,,,,,,,,,,,,"f410","f490","f503","f589","f469","f1312","f598","f533","f480","f420","f1620","f1030","f675","f950","f2350","f2400","f2450","f3550","f3600","f3650","f8000","f8000",,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.7,3,3.3,3.45,5.1,8.20,2.1,4.3,1.95,8.85,1.4,2.1,4.8,4.85,7.4,5,5.1,2.3,3.95,10.6,11,3.5,2.9,3.6,,,,,,,,,,,,,,,,,,,,,,,,,,,"f1618","f1340","f1836","f1654","f1579",,,"f1839",,"f2655",,"f2165",,"f2877",,"f2462",,"f3093",,"f3289","f3138",,"f3622",],{},[],[]];
     /*
     var new_NPC=NPC.clone();
     new_NPC[0][221]='f8000';
@@ -1480,7 +1481,8 @@ var zones=new function(){
                     }
                 }
             }
-        }catch(err){GM_logError("zones.init","","",err);}
+            totalEndtime=GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_totalEndtime",-1);
+            }catch(err){GM_logError("zones.init","","",err);}
     }
     this.save=function(){
         try{
@@ -3222,8 +3224,9 @@ try{
     var c=-1;
     var help, currBuilding, preis, preisBeob, menge, bonus, currInput;
     for(var v=0;v<prodName[0].length;v++){
-        if((mode["showAll"]||(!prodBlock[0][v]))&&(prodGrowTime[0][v])){
-            if(mode["filterCategory"][prodTyp[0][v]]){
+        try{
+            if((mode["showAll"]||(!prodBlock[0][v]))&&(prodGrowTime[0][v])){
+                if(mode["filterCategory"][prodTyp[0][v]]){
                     profit[++c]=new Object();
                     profit[c]["id"]=v;
                     currBuilding=PRODUCT2BUILDING[0][v];
@@ -3359,9 +3362,10 @@ try{
                         profit[c]["gutBeob"]-=help[i][1]*help[i][3];
                     }
 
-                // GM_log(prodName[0][v]+":"+implode(profit[c]));
+                    // GM_log(prodName[0][v]+":"+implode(profit[c]));
+                }
             }
-        }
+        }catch(err){ GM_logError("buildInfoPanelProfit.calcArray","",'err_trace="'+err_trace+'" v='+v,"Error at calculating data of '"+prodName[0][v]+"': '"+err+"'"); }
     }
     profit.sort(function (a,b){return b[mode["sort"]] - a[mode["sort"]];});
     // console.log("variable:\n"+print_r(profit,"",true,"\n"));
@@ -3460,157 +3464,159 @@ try{
 
         err_trace="tablebody";
         for(var v=0;v<profit.length;v++){
-            var buildingNr=PRODUCT2BUILDING[0][profit[v]["id"]];
-            var buildingName=getBuildingName(buildingNr);
-            newtr=createElement("tr",{"nr":v,"prod":profit[v]["id"],"class":"hoverBgCc9","style":"color:black;"},table);
-            newtd=createElement("td",{},newtr);
-            newtd=createElement("div",{"style":"position:relative;height:100%;"},newtd);
-            produktPic(0,profit[v]["id"],newtd);
-                newtable1=createElement("table");
-                newtr1=createElement("tr",{},newtable1);
-                createElement("td",{},newtr1,getText("dailyYield"));
-                createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,numberFormat(profit[v]["menge"],1));
-                newtr1=createElement("tr",{},newtable1);
-                createElement("td",{},newtr1,getText("yield"));
-                createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,numberFormat(profit[v]["menge"]/profit[v]["runs"]));
-                newtr1=createElement("tr",{},newtable1);
-                createElement("td",{},newtr1,getText("dailyRuns"));
-                createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,numberFormat(profit[v]["runs"],3));
-            newspan=createElement("span",{"class":"link","data":newtable1.innerHTML},newtd,prodName[0][profit[v]["id"]]);
-            newspan.addEventListener("mouseover",function(event){
-                showGoToMarketToolTip(event,this.parentNode.parentNode.parentNode.getAttribute("prod"),this.getAttribute("data"));
-            },false);
-            newspan.addEventListener("click",function(){
-                showMarket(this.parentNode.parentNode.parentNode.getAttribute("prod"));
-            },false);
-            if(typeof profit[v]["level"]=="number"){
-                help=mode["buildingLevel"].clone();
-                help[buildingNr]=(profit[v]["level"]+1)%(profit[v]["maxlevel"]+1);
-                newspan=createElement("span",{"mouseOverText":"<table cellspacing=0><tr><th class='lightBg'>"+buildingName+"</th></tr><tr><td>"+getText("upgradeLevel")+"</td></tr><tr><td>("+getText("clickToChange")+")</td></tr></table>","class":"link","nextLevel":implode(help,"nextLevel")},newtd); // ,"mouseOverText":"max "+profit[v]["maxlevel"]
-                for(var w=1;w<=profit[v]["maxlevel"];w++){ createElement("img",{"src":w<=profit[v]["level"]?GFX+"star.png":IMAGES["starGrey"]},newspan); }
-                newspan.addEventListener("click",function(){
-                    var prod=this.parentNode.parentNode.parentNode.getAttribute("prod");
-                    var nextLevel=explode(this.getAttribute("nextLevel"),"nextLevel.click",{});
-                    buildInfoPanelProfit({"jumpTo":prod,"buildingLevel":nextLevel});
+            try{
+                var buildingNr=PRODUCT2BUILDING[0][profit[v]["id"]];
+                var buildingName=getBuildingName(buildingNr);
+                newtr=createElement("tr",{"nr":v,"prod":profit[v]["id"],"class":"hoverBgCc9","style":"color:black;"},table);
+                newtd=createElement("td",{},newtr);
+                newtd=createElement("div",{"style":"position:relative;height:100%;"},newtd);
+                produktPic(0,profit[v]["id"],newtd);
+                    newtable1=createElement("table");
+                    newtr1=createElement("tr",{},newtable1);
+                    createElement("td",{},newtr1,getText("dailyYield"));
+                    createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,numberFormat(profit[v]["menge"],1));
+                    newtr1=createElement("tr",{},newtable1);
+                    createElement("td",{},newtr1,getText("yield"));
+                    createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,numberFormat(profit[v]["menge"]/profit[v]["runs"]));
+                    newtr1=createElement("tr",{},newtable1);
+                    createElement("td",{},newtr1,getText("dailyRuns"));
+                    createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,numberFormat(profit[v]["runs"],3));
+                newspan=createElement("span",{"class":"link","data":newtable1.innerHTML},newtd,prodName[0][profit[v]["id"]]);
+                newspan.addEventListener("mouseover",function(event){
+                    showGoToMarketToolTip(event,this.parentNode.parentNode.parentNode.getAttribute("prod"),this.getAttribute("data"));
                 },false);
-            }
-            if(profit[v]["input"]&&(profit[v]["input"].length>1)){
-                newspan=produktPic(0,profit[v]["input"][mode["feed"][profit[v]["id"]][0]][mode["feed"][profit[v]["id"]][1]][0][0],newtd);
+                newspan.addEventListener("click",function(){
+                    showMarket(this.parentNode.parentNode.parentNode.getAttribute("prod"));
+                },false);
+                if(typeof profit[v]["level"]=="number"){
+                    help=mode["buildingLevel"].clone();
+                    help[buildingNr]=(profit[v]["level"]+1)%(profit[v]["maxlevel"]+1);
+                    newspan=createElement("span",{"mouseOverText":"<table cellspacing=0><tr><th class='lightBg'>"+buildingName+"</th></tr><tr><td>"+getText("upgradeLevel")+"</td></tr><tr><td>("+getText("clickToChange")+")</td></tr></table>","class":"link","nextLevel":implode(help,"nextLevel")},newtd); // ,"mouseOverText":"max "+profit[v]["maxlevel"]
+                    for(var w=1;w<=profit[v]["maxlevel"];w++){ createElement("img",{"src":w<=profit[v]["level"]?GFX+"star.png":IMAGES["starGrey"]},newspan); }
+                    newspan.addEventListener("click",function(){
+                        var prod=this.parentNode.parentNode.parentNode.getAttribute("prod");
+                        var nextLevel=explode(this.getAttribute("nextLevel"),"nextLevel.click",{});
+                        buildInfoPanelProfit({"jumpTo":prod,"buildingLevel":nextLevel});
+                    },false);
+                }
+                if(profit[v]["input"]&&(profit[v]["input"].length>1)){
+                    newspan=produktPic(0,profit[v]["input"][mode["feed"][profit[v]["id"]][0]][mode["feed"][profit[v]["id"]][1]][0][0],newtd);
+                    newdiv=createElement("div");
+                    newtable1=createElement("table",{"cellspacing":0},newdiv);
+                    newtr1=createElement("tr",{},newtable1);
+                    createElement("th",{"colspan":2,"class":"lightBg"},newtr1,buildingName);
+                    newtr1=createElement("tr",{},newtable1);
+                    createElement("td",{"colspan":2},newtr1,getText("feed")+":");
+                    for(var i=0;i<profit[v]["input"].length;i++){
+                        for(var j=0;j<profit[v]["input"][i].length;j++){
+                            newtr1=createElement("tr",{},newtable1);
+                            var help=((profit[v]["input"].length>1)&&(mode["feed"][profit[v]["id"]][0]==i)&&(mode["feed"][profit[v]["id"]][1]==j))?"background-color:#BB6600;":"";
+                            createElement("td",{"style":"text-align:right;"+help},newtr1,numberFormat(profit[v]["input"][i][j][0][1],1));
+                            createElement("td",{"style":help},newtr1,prodName[0][profit[v]["input"][i][j][0][0]]);
+                        }
+                    }
+                    newtr1=createElement("tr",{},newtable1);
+                    createElement("td",{"colspan":2},newtr1,"("+getText("clickToChange")+")");
+                    newspan.setAttribute("class",newspan.getAttribute("class")+" link");
+                    help=mode["feed"].clone();
+                    if(1+mode["feed"][profit[v]["id"]][1]<profit[v]["input"][mode["feed"][profit[v]["id"]][0]].length){
+                        help[profit[v]["id"]]=[help[profit[v]["id"]][0],1+help[profit[v]["id"]][1]];
+                    }else if(1+mode["feed"][profit[v]["id"]][0]<profit[v]["input"].length){
+                        help[profit[v]["id"]]=[1+help[profit[v]["id"]][0],0];
+                    }else{
+                        help[profit[v]["id"]]=[0,0];
+                    }
+                    newspan.setAttribute("nextFeed",implode(help,"nextFeed.click"));
+                    profit[v]["input"][mode["feed"][profit[v]["id"]][0]][mode["feed"][profit[v]["id"]][1]]
+                    newspan.addEventListener("click",function(){
+                        var prod=this.parentNode.parentNode.parentNode.getAttribute("prod");
+                        var nextFeed=explode(this.getAttribute("nextFeed"),"nextFeed.click",{});
+                        buildInfoPanelProfit({"jumpTo":prod,"feed":nextFeed});
+                    },false);
+                    newspan.setAttribute("mouseOverText",newdiv.innerHTML);
+                }
+                createElement("td",{"style":"text-align:right;"},newtr,getTimeStr(profit[v]["dauer"],1));
+
+                createElement("td",{"style":"text-align:right;"},newtr,getDaytimeStr(now+profit[v]["dauer"],1)+"&nbsp;"+getText("shortOClock"));
                 newdiv=createElement("div");
                 newtable1=createElement("table",{"cellspacing":0},newdiv);
                 newtr1=createElement("tr",{},newtable1);
                 createElement("th",{"colspan":2,"class":"lightBg"},newtr1,buildingName);
                 newtr1=createElement("tr",{},newtable1);
-                createElement("td",{"colspan":2},newtr1,getText("feed")+":");
-                for(var i=0;i<profit[v]["input"].length;i++){
-                    for(var j=0;j<profit[v]["input"][i].length;j++){
+                createElement("td",{},newtr1,getText("points"));
+                createElement("td",{"style":"padding-left:10px;"},newtr1,numberFormat(profit[v]["punkte"]/profit[v]["runs"]));
+                newtr1=createElement("tr",{},newtable1);
+                createElement("td",{},newtr1,getText("dailyRuns"));
+                createElement("td",{},newtr1,numberFormat(profit[v]["runs"],3));
+                createElement("td",{"style":"text-align:right;padding-left:10px;","mouseOverText":newdiv.innerHTML},newtr,numberFormat(profit[v]["punkte"]));
+
+                newdiv=createElement("div");
+                newtable1=createElement("table",{"cellspacing":0},newdiv);
+                newtr1=createElement("tr",{},newtable1);
+                createElement("th",{"colspan":6,"class":"lightBg"},newtr1,buildingName);
+                newtr1=createElement("tr",{},newtable1);
+                createElement("td",{"colspan":4},newtr1);
+                createElement("td",{"colspan":2,"style":"text-align:center;"},newtr1,getText("observed"));
+                if(profit[v]["input"]){
+                    if(profit[v]["input"].length>1){
+                        help=profit[v]["input"][mode["feed"][profit[v]["id"]][0]][mode["feed"][profit[v]["id"]][1]];
+                    }else{
+                        help=profit[v]["input"][0][0];
+                    }
+                    for(var j=0;j<help.length;j++){
                         newtr1=createElement("tr",{},newtable1);
-                        var help=((profit[v]["input"].length>1)&&(mode["feed"][profit[v]["id"]][0]==i)&&(mode["feed"][profit[v]["id"]][1]==j))?"background-color:#BB6600;":"";
-                        createElement("td",{"style":"text-align:right;"+help},newtr1,numberFormat(profit[v]["input"][i][j][0][1],1));
-                        createElement("td",{"style":help},newtr1,prodName[0][profit[v]["input"][i][j][0][0]]);
+                        if(prodName[0][help[j][0]]){
+                            createElement("td",{"style":"text-align:right;"},newtr1,numberFormat(help[j][1]/profit[v]["runs"]));
+                            createElement("td",{},newtr1,prodName[0][help[j][0]]);
+                            createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(help[j][2])+")");
+                            createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][2]/profit[v]["runs"]));
+                            createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(help[j][3])+")");
+                            createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][3]/profit[v]["runs"]));
+                        }else{
+                            createElement("td",{"colspan":3},newtr1);
+                            createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][2]/profit[v]["runs"]));
+                            createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1);
+                            createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][3]/profit[v]["runs"]));
+                        }
                     }
                 }
                 newtr1=createElement("tr",{},newtable1);
-                createElement("td",{"colspan":2},newtr1,"("+getText("clickToChange")+")");
-                newspan.setAttribute("class",newspan.getAttribute("class")+" link");
-                help=mode["feed"].clone();
-                if(1+mode["feed"][profit[v]["id"]][1]<profit[v]["input"][mode["feed"][profit[v]["id"]][0]].length){
-                    help[profit[v]["id"]]=[help[profit[v]["id"]][0],1+help[profit[v]["id"]][1]];
-                }else if(1+mode["feed"][profit[v]["id"]][0]<profit[v]["input"].length){
-                    help[profit[v]["id"]]=[1+help[profit[v]["id"]][0],0];
-                }else{
-                    help[profit[v]["id"]]=[0,0];
-                }
-                newspan.setAttribute("nextFeed",implode(help,"nextFeed.click"));
-                profit[v]["input"][mode["feed"][profit[v]["id"]][0]][mode["feed"][profit[v]["id"]][1]]
-                newspan.addEventListener("click",function(){
-                    var prod=this.parentNode.parentNode.parentNode.getAttribute("prod");
-                    var nextFeed=explode(this.getAttribute("nextFeed"),"nextFeed.click",{});
-                    buildInfoPanelProfit({"jumpTo":prod,"feed":nextFeed});
-                },false);
-                newspan.setAttribute("mouseOverText",newdiv.innerHTML);
-            }
-            createElement("td",{"style":"text-align:right;"},newtr,getTimeStr(profit[v]["dauer"],1));
+                createElement("td",{"style":"text-align:right;"},newtr1,numberFormat(profit[v]["output"][1]/profit[v]["runs"]));
+                createElement("td",{},newtr1,prodName[0][profit[v]["output"][0]]);
+                createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(profit[v]["output"][2])+")");
+                createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["output"][1]*profit[v]["output"][2]/profit[v]["runs"]));
+                createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(profit[v]["output"][3])+")");
+                createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["output"][1]*profit[v]["output"][3]/profit[v]["runs"]));
+                newtr1=createElement("tr",{},newtable1);
+                createElement("td",{"style":"border-bottom:1px solid black;","colspan":3},newtr1);
+                createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["gut"]/profit[v]["runs"]));
+                createElement("td",{"style":"border-bottom:1px solid black;padding-left:10px;"},newtr1);
+                createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["gutBeob"]/profit[v]["runs"]));
+                newtr1=createElement("tr",{},newtable1);
+                createElement("td",{"colspan":2},newtr1,getText("dailyRuns"));
+                createElement("td",{"colspan":4,"style":"padding-left:10px;"},newtr1,numberFormat(profit[v]["runs"],3));
+                createElement("td",{"style":"text-align:right;","mouseOverText":newdiv.innerHTML},newtr,moneyFormatInt(profit[v]["gut"]));
+                createElement("td",{"style":"text-align:right;","mouseOverText":newdiv.innerHTML},newtr,moneyFormatInt(profit[v]["gutBeob"]));
 
-            createElement("td",{"style":"text-align:right;"},newtr,getDaytimeStr(now+profit[v]["dauer"],1)+"&nbsp;"+getText("shortOClock"));
-            newdiv=createElement("div");
-            newtable1=createElement("table",{"cellspacing":0},newdiv);
-            newtr1=createElement("tr",{},newtable1);
-            createElement("th",{"colspan":2,"class":"lightBg"},newtr1,buildingName);
-            newtr1=createElement("tr",{},newtable1);
-            createElement("td",{},newtr1,getText("points"));
-            createElement("td",{"style":"padding-left:10px;"},newtr1,numberFormat(profit[v]["punkte"]/profit[v]["runs"]));
-            newtr1=createElement("tr",{},newtable1);
-            createElement("td",{},newtr1,getText("dailyRuns"));
-            createElement("td",{},newtr1,numberFormat(profit[v]["runs"],3));
-            createElement("td",{"style":"text-align:right;padding-left:10px;","mouseOverText":newdiv.innerHTML},newtr,numberFormat(profit[v]["punkte"]));
-
-            newdiv=createElement("div");
-            newtable1=createElement("table",{"cellspacing":0},newdiv);
-            newtr1=createElement("tr",{},newtable1);
-            createElement("th",{"colspan":6,"class":"lightBg"},newtr1,buildingName);
-            newtr1=createElement("tr",{},newtable1);
-            createElement("td",{"colspan":4},newtr1);
-            createElement("td",{"colspan":2,"style":"text-align:center;"},newtr1,getText("observed"));
-            if(profit[v]["input"]){
-                if(profit[v]["input"].length>1){
-                    help=profit[v]["input"][mode["feed"][profit[v]["id"]][0]][mode["feed"][profit[v]["id"]][1]];
-                }else{
-                    help=profit[v]["input"][0][0];
+                if(mode["jumpTo"]&&(mode["jumpTo"]==profit[v]["id"])){
+                    delete mode["jumpTo"];
+                    table.scrollTop=newtr.offsetTop;
+                    newspan=createElement("div",{"id":"vanishDiv","style":"position:absolute;top:0;left:0;height:15px;width:100%;background-color:blue;opacity:0.7;"},newtr.firstElementChild.firstElementChild);
+                    var intervalVanishDiv=window.setInterval(function(){
+                        try{
+                            var div=$("vanishDiv");
+                            if(div){
+                                var opac=parseFloat(div.style.opacity,10)-0.05;
+                                if(opac>0){ div.style.opacity=opac; }
+                                else{
+                                    removeElement(div);
+                                    window.clearInterval(intervalVanishDiv);
+                                }
+                            }else{ window.clearInterval(intervalVanishDiv); }
+                        }catch(err){}
+                    },100);
                 }
-                for(var j=0;j<help.length;j++){
-                    newtr1=createElement("tr",{},newtable1);
-                    if(prodName[0][help[j][0]]){
-                        createElement("td",{"style":"text-align:right;"},newtr1,numberFormat(help[j][1]/profit[v]["runs"]));
-                        createElement("td",{},newtr1,prodName[0][help[j][0]]);
-                        createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(help[j][2])+")");
-                        createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][2]/profit[v]["runs"]));
-                        createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(help[j][3])+")");
-                        createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][3]/profit[v]["runs"]));
-                    }else{
-                        createElement("td",{"colspan":3},newtr1);
-                        createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][2]/profit[v]["runs"]));
-                        createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1);
-                        createElement("td",{"style":"text-align:right;"},newtr1,moneyFormatInt(-help[j][1]*help[j][3]/profit[v]["runs"]));
-                    }
-                }
-            }
-            newtr1=createElement("tr",{},newtable1);
-            createElement("td",{"style":"text-align:right;"},newtr1,numberFormat(profit[v]["output"][1]/profit[v]["runs"]));
-            createElement("td",{},newtr1,prodName[0][profit[v]["output"][0]]);
-            createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(profit[v]["output"][2])+")");
-            createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["output"][1]*profit[v]["output"][2]/profit[v]["runs"]));
-            createElement("td",{"style":"text-align:right;padding-left:10px;"},newtr1,"("+moneyFormat(profit[v]["output"][3])+")");
-            createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["output"][1]*profit[v]["output"][3]/profit[v]["runs"]));
-            newtr1=createElement("tr",{},newtable1);
-            createElement("td",{"style":"border-bottom:1px solid black;","colspan":3},newtr1);
-            createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["gut"]/profit[v]["runs"]));
-            createElement("td",{"style":"border-bottom:1px solid black;padding-left:10px;"},newtr1);
-            createElement("td",{"style":"border-bottom:1px solid black;text-align:right;"},newtr1,moneyFormatInt(profit[v]["gutBeob"]/profit[v]["runs"]));
-            newtr1=createElement("tr",{},newtable1);
-            createElement("td",{"colspan":2},newtr1,getText("dailyRuns"));
-            createElement("td",{"colspan":4,"style":"padding-left:10px;"},newtr1,numberFormat(profit[v]["runs"],3));
-            createElement("td",{"style":"text-align:right;","mouseOverText":newdiv.innerHTML},newtr,moneyFormatInt(profit[v]["gut"]));
-            createElement("td",{"style":"text-align:right;","mouseOverText":newdiv.innerHTML},newtr,moneyFormatInt(profit[v]["gutBeob"]));
-
-            if(mode["jumpTo"]&&(mode["jumpTo"]==profit[v]["id"])){
-                delete mode["jumpTo"];
-                table.scrollTop=newtr.offsetTop;
-                newspan=createElement("div",{"id":"vanishDiv","style":"position:absolute;top:0;left:0;height:15px;width:100%;background-color:blue;opacity:0.7;"},newtr.firstElementChild.firstElementChild);
-                var intervalVanishDiv=window.setInterval(function(){
-                    try{
-                        var div=$("vanishDiv");
-                        if(div){
-                            var opac=parseFloat(div.style.opacity,10)-0.05;
-                            if(opac>0){ div.style.opacity=opac; }
-                            else{
-                                removeElement(div);
-                                window.clearInterval(intervalVanishDiv);
-                            }
-                        }else{ window.clearInterval(intervalVanishDiv); }
-                    }catch(err){}
-                },100);
-            }
+            }catch(err){ GM_logError("buildInfoPanelProfit.tablebody","",'err_trace="'+err_trace+'" v='+v,"Error at displaying data of '"+prodName[0][profit[v]["id"]]+"': '"+err+"'"); }
         }
 
         // foot line
@@ -3631,7 +3637,6 @@ try{
             buildInfoPanelProfit({"perc":this.checked?0.9:1});
         },false);
         createElement("span",{},newtd,"90%");
-
 
         err_trace="saving";
         container=null;table=null;newtr=null;newtd=null;newspan=null;newdiv=null;newtable1=null;newtr1=null;newtd1=null;
@@ -7569,30 +7574,30 @@ function quicklinks(){
         if (GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_valQuicklinks",true)){
             var newdiv=$("market_navi5");
             if(newdiv){
-                newdiv.addEventListener("mouseover",function(event){
-                    $("quicklinks").style.display="block";
-                },false);
-                newdiv.addEventListener("mouseout",function(event){
-                    $("quicklinks").style.display="none";
-                },false);
+                if(!newdiv.getAttribute("listener_mouseover")){
+                    newdiv.setAttribute("listener_mouseover",true)
+                    newdiv.addEventListener("mouseover",function(event){
+                        $("quicklinks").style.display="block";
+                    },false);
+                }
+                if(!newdiv.getAttribute("listener_mouseout")){
+                    newdiv.setAttribute("listener_mouseout",true)
+                    newdiv.addEventListener("mouseout",function(event){
+                        $("quicklinks").style.display="none";
+                    },false);
+                }
 
-                var highlightProducts=explode(GM_getValue(COUNTRY+"_"+SERVER+"_"+USERNAME+"_highlightProducts"),"quicklinks/highlightProducts",[false,{}]);
-                var divquick=createElement("div",{"id":"quicklinks","style":"display:none;position:absolute;right:-82px;top:65px;width:633px;background-color:white;z-index:10;"},newdiv);
-                // if(self!=top){
-                //  divquick.addEventListener("mouseover",function(){this.style.left="290px";},false);
-                //  divquick.addEventListener("mouseout",function(){this.style.left="620px";},false);
-                // }
+                var divquick=$("quicklinks");
+                if(divquick){
+                    divquick.innerHTML="";
+                }else{
+                    divquick=createElement("div",{"id":"quicklinks","style":"display:none;position:absolute;right:-82px;top:65px;width:633px;background-color:white;z-index:10;"},newdiv);
+                }
                 var newdiv1;
                 var newtable=createElement("table",{"border":"3px solid black;"},divquick);
                 var newtr=createElement("tr",{},newtable);
                 var newtd=createElement("td",{},newtr);
 
-                // newdiv=createElement("div",{"style":"float:right;height:30px;padding:2px;margin-right:20px;"},newtd);
-                // createElement("div",{"class":"v88"},newdiv);
-                // var newa=createElement("a",{"class":"link","href":"markt.php","style":"position:relative;top:-30px;"},newdiv);
-                // newdiv=createElement("div",{"style":"width:30px;height:30px;background-color:green;opacity:0;"},newa);
-                // newdiv.addEventListener("mouseover",function(){this.style.opacity="0.3";$("quicklinksName").innerHTML=getText("currentOffers");},false);
-                // newdiv.addEventListener("mouseout",function(){this.style.opacity="0";$("quicklinksName").innerHTML="";},false);
                 createElement("div",{"id":"quicklinksName","style":"color:black;font-weight:bold;float:right;line-height:24px;margin-right:170px;"},newtd);
 
                 var prodTypOld="c";
@@ -9340,7 +9345,7 @@ try{
                 var err_trace="init";
                 if (!unsafeWindow.premium){
                     unsafeWindow.showDiv("farm_speedlinks");
-                    var a = ["farm1", "farm2", "farm3", "farm4", "city1", "city2", "guild", "forestry", "foodworld"];
+                    var a = ["farm1", "farm2", "farm3", "farm4", "city1", "city2", "guild", "forestry", "foodworld", "megafield"];
                     for (var b = 0; b <= a.length; b++) {
                         if ($("speedlink_" + a[b])) {
                             unsafeWindow.hideDiv($("speedlink_" + a[b]));
@@ -9376,7 +9381,7 @@ try{
                             unsafeWindow.showDiv("speedlink_city" + b)
                         }
                     }
-                        err_trace="player_guild";
+                    err_trace="player_guild";
                     if (unsafeWindow.player_guild) {
                         if (unsafeWindow.inguild) {
                             $("speedlink_guild").classList.remove("speedlink_guild");
@@ -9385,7 +9390,7 @@ try{
                         unsafeWindow.showDiv("speedlink_guild");
                         $("speedlink_guild").onclick = new Function("unsafeWindow.inguild=1; unsafeWindow.showMain(); unsafeWindow.initGuild();")
                     }
-                        err_trace="forestry";
+                    err_trace="forestry";
                     if (unsafeWindow.forestry_unlock == 1) {
                         if (unsafeWindow.forestry_quicknavi) {
                             $("speedlink_forestry").classList.remove("speedlink_forestry");
@@ -9394,7 +9399,7 @@ try{
                         unsafeWindow.showDiv("speedlink_forestry");
                         $("speedlink_forestry").onclick = new Function("unsafeWindow.travel2forestry();")
                     }
-                        err_trace="foodworld";
+                    err_trace="foodworld";
                     if (unsafeWindow.currentuserlevel >= 11) {
                         if (unsafeWindow.foodworld_quicknavi) {
                             $("speedlink_foodworld").classList.remove("speedlink_foodworld");
@@ -9403,11 +9408,16 @@ try{
                         unsafeWindow.showDiv("speedlink_foodworld");
                         $("speedlink_foodworld").onclick = new Function("unsafeWindow.travel2foodworld();")
                     }
-                        err_trace="newarea";
+                    err_trace="farmersmarket";
                     unsafeWindow.hideDiv("speedlink_farmersmarket");
                     if (unsafeWindow.farmersmarket_data) {
                         unsafeWindow.showDiv("speedlink_farmersmarket");
                         $("speedlink_farmersmarket").onclick = new Function("unsafeWindow.travel2farmersmarket();")
+                    }
+                    err_trace="megafield";
+                    if (unsafeWindow.megafield_data && !unsafeWindow.megafield_data.block) {
+                        unsafeWindow.showDiv("speedlink_megafield");
+                        $("speedlink_megafield").onclick = new Function("unsafeWindow.showMain(); unsafeWindow.farm=0; unsafeWindow.city=0; unsafeWindow.inguild=0; unsafeWindow.buildMegafield();")
                     }
                 }
             }catch(err){GM_logError("speedLinks","","err_trace="+err_trace,err);}
@@ -10967,14 +10977,14 @@ return false;
                 while ((c<prodNameSort[0].length)&&(prodNameSort[0][c]!=pageId)){ c++; }
                 var pageIdVor=c-1;
                 if(pageIdVor<0){ pageIdVor+=prodNameSort[0].length; }
-                while(prodBlock[0][prodNameSort[0][pageIdVor]].match(/t/)||prodBlock[0][prodNameSort[0][pageIdVor]].match(/l/)){
+                while(prodBlock[0][prodNameSort[0][pageIdVor]].match(/[ltv]/)){
                     pageIdVor--;
                     if(pageIdVor<0){ pageIdVor+=prodNameSort[0].length; }
                 }
                 pageIdVor=prodNameSort[0][pageIdVor];
                 var pageIdNach=c+1;
                 if(pageIdNach>prodNameSort[0].length-1){ pageIdNach=0; }
-                while(prodBlock[0][prodNameSort[0][pageIdNach]].match(/t/)||prodBlock[0][prodNameSort[0][pageIdNach]].match(/l/)){
+                while(prodBlock[0][prodNameSort[0][pageIdNach]].match(/[ltv]/)){
                     pageIdNach++;
                     if(pageIdNach>prodNameSort[0].length-1){ pageIdNach=0; }
                 }
@@ -11548,7 +11558,8 @@ return false;
             unsafeWindow._marketAction(action,id,open);
         }catch(err){GM_logError("_marketAction","","",err);}
         try{
-            if(action=="marketcreateoffer"){
+            switch(action){
+            case "marketcreateoffer":{
                 var currId=unsafeWindow.market_filter_pid;
                 var amount=parseInt($("marketnewoffer_amount").value,10);
                 var price1=parseInt($("marketnewoffer_price1").value,10);
@@ -11556,6 +11567,10 @@ return false;
                 lastOffer[currId]=[amount,price1,price2];
                 GM_setValueCache(COUNTRY+"_"+SERVER+"_"+USERNAME+"_lastOffer",implode(lastOffer,"marketAction/lastOffer"));
                 currId=null;amount=null;price1=null;price2=null;
+            break;}
+            case "marketinit":{
+                quicklinks();
+            break;}
             }
         }catch(err){ GM_logError("marketAction","","",err); }
     });
@@ -11653,7 +11668,6 @@ return false;
             unsafeWindow._marketActionResponse(request,action,id,open);
         }catch(err){GM_logError("_marketActionResponse","","",err);}
     });
-    quicklinks();
     // Buy offer by pressing Enter
     if(newdiv=$("marketbuyofferamount")){
         newdiv.addEventListener("keyup",function(event){
@@ -12274,11 +12288,13 @@ return false;
             help=currMsg.body.replace(/\s+/g," ");
             if([getText("msgSubjectCongratulation"),getText("msgSubjectPresent"),getText("msgSubjectLevel"),getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){
                 // New message without handling
+            }else if(currMsg.subject.match(regMsgSubjectQuest)){
+                // New message without handling
             }else if(help2=regMsgSubjectFriend.exec(currMsg.subject)){
                 // New friendship
                 // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Friendship message");
                 sender=help[1];
-            }else if (regMsgSubjectMarketsale.exec(currMsg.subject)){ // Market sale
+            }else if (currMsg.subject.match(regMsgSubjectMarketsale)){ // Market sale
                 if (help2=regMsgContentMarketsale.exec(help)){
                     // Market sale
                     // GM_logInfo("messagesSystem","","messages_data["+i+"]:\n"+print_r(unsafeWindow.messages_data[i],"",true,"\n"),"Market sale");
@@ -16768,7 +16784,7 @@ return;
             raiseEvent("gameZoneReady");
             // GM_log("unsafeData.readyZone:\n"+print_r(unsafeData.readyZone,"",true,"\n"));
         }
-        if (totalEndtime==-1){
+        if (-1==totalEndtime){
             help=getText("cropped").toUpperCase();
         }else if(totalEndtime+unsafeWindow.Zeit.Verschiebung<=now){
             help=getText("finished").toUpperCase();
@@ -19450,10 +19466,11 @@ try{
         text["de"]["msgContentMarketsale"]="(.*) hat am Marktplatz (\\d+)x (.*?) von dir<br> f&uuml;r (.*?) kT gekauft\\.";
         text["de"]["msgSubjectCongratulation"]="Herzlichen Gl&uuml;ckwunsch!";
         text["de"]["msgSubjectContractsale"]="Ein Vertrag wurde angenommen";
-        text["de"]["msgSubjectFriend"]="(.+) möchte dich als Freund hinzufügen";
+        text["de"]["msgSubjectFriend"]="^(.+) möchte dich als Freund hinzufügen$";
         text["de"]["msgSubjectPresent"]="Geschenk für Dich";
-        text["de"]["msgSubjectLevel"]="xxx";
-        text["de"]["msgSubjectMarketsale"]="Marktplatz&nbsp;.+ kT&nbsp;\(.+x .+\)";
+        text["de"]["msgSubjectLevel"]="Du bist ein Level aufgestiegen!";
+        text["de"]["msgSubjectMarketsale"]="^Marktplatz&nbsp;.+ kT&nbsp;\(.+x .+\)$";
+        text["de"]["msgSubjectQuest"]="^.+ abgeschlossen$";
         text["de"]["msgSubjectWeed1"]="Oh nein!";
         text["de"]["msgSubjectWeed2"]="Au Weia!";
 
@@ -19828,9 +19845,10 @@ try{
         text["en"]["msgContentMarketsale"]="(.*) bought (\\d+)x (.*?) for<br> (.*?) pD from you\\."; // The text where the information is stated. The information has to be replaced by "(.*?)".
         text["en"]["msgSubjectCongratulation"]="Congratulations";
         text["en"]["msgSubjectContractsale"]="A contract has been accepted";
-        text["en"]["msgSubjectFriend"]="(.+) would like to add you as a friend"; // The subject. The person has to be replaced by "(.+)"
+        text["en"]["msgSubjectFriend"]="^(.+) would like to add you as a friend$"; // The subject. The person has to be replaced by "(.+)"
         text["en"]["msgSubjectLevel"]="You have reached the next level!";
-        text["en"]["msgSubjectMarketsale"]="Market&nbsp;.+ pD&nbsp;\(.+x .+\)";
+        text["en"]["msgSubjectMarketsale"]="^Market&nbsp;.+ pD&nbsp;\(.+x .+\)$";
+        text["en"]["msgSubjectQuest"]="^.+ completed$";
         text["en"]["msgSubjectPresent"]="A present for you";
         text["en"]["msgSubjectWeed1"]="Oh no!";
         text["en"]["msgSubjectWeed2"]="Au Weia!";        
@@ -19975,7 +19993,7 @@ try{
         text["en"]["marketplace"]="Market place";
         text["en"]["marketPrice"]="Market&nbsp;Price";
         text["en"]["marketstall"]="Market stall";
-        text["en"]["megafield"]="Megafield";
+        text["en"]["megafield"]="Plantation";
         text["en"]["megafieldCurrency"]=unsafeWindow.t_megafield_currency;
         text["en"]["messages"]="Messages";
         text["en"]["minRack"]="Min&nbsp;rack";
@@ -20209,6 +20227,7 @@ try{
     regMsgContentContractsaleList=new RegExp(getText("msgContentContractsaleList"));
     regMsgSubjectFriend=new RegExp(getText("msgSubjectFriend"));
     regMsgSubjectMarketsale=new RegExp(getText("msgSubjectMarketsale"));
+    regMsgSubjectQuest=new RegExp(getText("msgSubjectQuest"));
     err_trace="Events";
     if(DEVMODE_EVENTS&&(self==top)){
         var allEvents=new Array();
