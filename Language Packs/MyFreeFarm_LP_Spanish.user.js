@@ -46,16 +46,16 @@ try{
         // Take from a message sent if you sell something on the market place.
         // - The subject: Replace the variable information by ".+". Prefix brackets with "\".
         text[LANGUAGE]["msgSubjectMarketsale"]="xxx";
-        // - The content: The text where the information is stated. The information has to be replaced by "(.*?)".
-        text[LANGUAGE]["msgContentMarketsale"]="(.*) te ha comprado\\s*(\\d+) (.*?)\\s*<br>\\s*por (.*?) MG en el mercado\\.";
+        // - The content: The text where the information is stated. The information has to be replaced by "(.+?)".
+        text[LANGUAGE]["msgContentMarketsale"]="(.+) te ha comprado\\s*(\\d+) (.+?)\\s*<br>\\s*por (.+?) MG en el mercado\\.";
         // *************
         // Take from a message sent if you sell something via contract.
         // - The subject.
         text[LANGUAGE]["msgSubjectContractsale"]="xxx";
-        // - The content: The text where the general information is stated. The information has to be replaced by "(.*?)".
-        text[LANGUAGE]["msgContentContractsale"]="¡(.*) ha firmado un contrato tuyo!<br><br>\\s*Los siguientes productos se han vendido:<br>([\\S\\s]*)\\s*<br>\\s*El importe del contrato de (.*?) MG se ha sumado a tu cuenta\\.";
+        // - The content: The text where the general information is stated. The information has to be replaced by "(.+?)".
+        text[LANGUAGE]["msgContentContractsale"]="¡(.+) ha firmado un contrato tuyo!<br><br>\\s*Los siguientes productos se han vendido:<br>([\\S\\s]*)\\s*<br>\\s*El importe del contrato de (.+?) MG se ha sumado a tu cuenta\\.";
         // - The line-pattern for the detailed selling list (equals the replaced information above).
-        text[LANGUAGE]["msgContentContractsaleList"]="\\s*(\\d+)x (.*?)<br>";
+        text[LANGUAGE]["msgContentContractsaleList"]="\\s*(\\d+)x\\s*(.*+)\\s*<br>";
         // *************
         // Take the subject from a message sent if you won in a competition.
         text[LANGUAGE]["msgSubjectCongratulation"]="xxx";

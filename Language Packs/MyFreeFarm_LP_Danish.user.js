@@ -46,16 +46,16 @@ try{
         // Take from a message sent if you sell something on the market place.
         // - The subject: Replace the variable information by ".+". Prefix brackets with "\".
         text[LANGUAGE]["msgSubjectMarketsale"]="xxx";
-        // - The content: The text where the information is stated. The information has to be replaced by "(.*?)".
-        text[LANGUAGE]["msgContentMarketsale"]="(.*) har ved markedspladsen købt\\s*(\\d+)x (.*?) af dig<br>\\s*for(.*?) kD\\."; 
+        // - The content: The text where the information is stated. The information has to be replaced by "(.+?)".
+        text[LANGUAGE]["msgContentMarketsale"]="(.+) har ved markedspladsen købt\\s*(\\d+)x (.+?) af dig<br>\\s*for(.+?) kD\\."; 
         // *************
         // Take from a message sent if you sell something via contract.
         // - The subject.
         text[LANGUAGE]["msgSubjectContractsale"]="xxx";
-        // - The content: The text where the general information is stated. The information has to be replaced by "(.*?)".
-        text[LANGUAGE]["msgContentContractsale"]="(.*) har underskrevet en kontrakt fra dig!<br><br>\\s*Følgende produkter blev solgt:<br>([\\S\\s]*)\\s*<br>\\s*Kontraktsummen på (.*?) kD blev indsat på din konto\\."; 
+        // - The content: The text where the general information is stated. The information has to be replaced by "(.+?)".
+        text[LANGUAGE]["msgContentContractsale"]="(.+) har underskrevet en kontrakt fra dig!<br><br>\\s*Følgende produkter blev solgt:<br>([\\S\\s]*)\\s*<br>\\s*Kontraktsummen på (.+?) kD blev indsat på din konto\\."; 
         // - The line-pattern for the detailed selling list (equals the replaced information above).
-        text[LANGUAGE]["msgContentContractsaleList"]="\\s*(\\d+)x (.*?)<br>";
+        text[LANGUAGE]["msgContentContractsaleList"]="\\s*(\\d+)x\\s*(.+?)\\s*<br>";
         // *************
         // Take the subject from a message sent if you won in a competition.
         text[LANGUAGE]["msgSubjectCongratulation"]="xxx";
