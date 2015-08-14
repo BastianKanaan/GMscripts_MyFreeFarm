@@ -10189,8 +10189,10 @@ try{
                 }
                 if(unsafeWindow.vet_data.quest.quest_id){
                     // Quest number
-                    GM_logInfo("handleQuestLine","","",getText("questSetXToNrY").replace(/%1%/,getText("quest"+"veterinary"+campaign)).replace(/%2%/,unsafeWindow.vet_data.quest.quest_id));
-                    questData["veterinary"][campaign]["nr"]=parseInt(unsafeWindow.vet_data.quest.quest_id,10);
+                    if(questData["veterinary"][campaign]["nr"]!=parseInt(unsafeWindow.vet_data.quest.quest_id,10)){
+                        GM_logInfo("handleQuestLine","","",getText("questSetXToNrY").replace(/%1%/,getText("quest"+"veterinary"+campaign)).replace(/%2%/,unsafeWindow.vet_data.quest.quest_id));
+                        questData["veterinary"][campaign]["nr"]=parseInt(unsafeWindow.vet_data.quest.quest_id,10);
+                    }
                     // Given
                     questData["veterinary"][campaign]["given"] = new Object();
                     if(unsafeWindow.vet_data.quest.data){
