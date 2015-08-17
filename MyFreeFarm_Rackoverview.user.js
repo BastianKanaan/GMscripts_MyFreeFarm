@@ -377,7 +377,8 @@ function showMarket(pid){
                                     buildInfoPanel("rackoverview",mode2);
                             },false);
                             
-                            //Filter Kräuter    
+                            //Filter Kräuter   
+                            newdiv1 = createElement("div",{"mouseOverText":text[LNG]["category_hr"]+" "+text[LNG]["category_md"],"class":"link","style":"float:left;width:27px;height:39px;background:url('"+IMAGES["racksortVeterinary"]+"') repeat scroll 0px 0px transparent;"},newdiv);
                             if (mode2.match(/hr/)) {
                                 newdiv1.style.backgroundPosition="0px -78px";
                             } else {
