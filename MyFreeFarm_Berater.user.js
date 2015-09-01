@@ -529,7 +529,7 @@ var gutBeob=new Array();
 var preisBeob=new Array();
 var questData;
 var css_styles=new Object();
-var regMsgContentMarketsale,regMsgContentContractsale,regMsgContentContractsaleList,​regMsgSubjectFriend,regMsgSubjectFriendCancel; //Fix georgvr
+var regMsgContentMarketsale,regMsgContentContractsale,regMsgContentContractsaleList,regMsgSubjectFriend,regMsgSubjectFriendCancel; //Fix georgvr
 var valAutoWater, valWaterNeeded, valAssumeWater, valAutoCrop, valErnteMsg, valLimitEmptyFields, valStatistik, valClickErrorbox, valGlobaltimeShowCroppedZone;
 var valMoveAnimals, valMinRackMan, valMinRack, valMinRackPlantsize, valMinRackFarmis,valMinRackForestryFarmis, valMinRackGrowing, valMinRackRecursive, valFarmiLimits, valFarmiMiniInfo
 var upjersAds, buyNotePadShowBlocked, show;
@@ -12378,7 +12378,7 @@ return false;
         for(var i=unsafeWindow.messages_data.length-1;i>=0;i--){
             currMsg=unsafeWindow.messages_data[i];
             help=currMsg.body.replace(/\s+/g," ");
-			if([getText("msgSubjectCongratulation"),getText("msgSubjectContractReject"),getText("msgSubjectPresent"),getText("msgSubjectCoins"),getText("msgSubjectLevel"),getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){ /&Fix georgvr
+			if([getText("msgSubjectCongratulation"),getText("msgSubjectContractReject"),getText("msgSubjectPresent"),getText("msgSubjectCoins"),getText("msgSubjectLevel"),getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){ //Fix georgvr
                 // New message without handling
             }else if(currMsg.subject.match(regMsgSubjectQuest)){
                 // New message without handling
