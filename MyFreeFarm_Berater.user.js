@@ -49,6 +49,7 @@
 // @require        https://raw.githubusercontent.com/BastianKanaan/GMscripts_MyFreeFarm/master/MyFreeFarm_Common_functions.user.js
 // ==/UserScript==
 
+/* TEST */
 //***********************************************************************************************************
 unsafeData.beraterDone=false;
 // global variables
