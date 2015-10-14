@@ -172,7 +172,7 @@ var ALL_SLOTS={};
 // Growing duration in minutes (just where game data has to be overridden)
 // task_new_plant task_new_product task_fix_growtime
 const PRODUCT_GROWTIME=[{"7":480,"8":960,"19":240,"20":480,"21":600,"22":500,"23":800,"24":720,"92":0,"93":0,"111":1000,"130":180,"131":180,"132":90,"133":90,"134":200,"135":200,"136":100,"137":130,"138":150,"139":80,"140":80,"141":120,"142":120,"143":120,"145":300,"146":240,"147":300,"148":480,"149":220,"150":360,"159":0,"160":0,"161":210,"162":130,"163":260,"164":190,"165":160,"166":195,"167":250,"168":90,"169":150,"170":300}
-                       ,{"1":600,"2":960,"3":2160,"4":480,"5":2750,"6":490,"7":1200,"8":2520,"41":300,"42":345,"43":360,"44":270,"45":300,"46":330,"47":420,"48":480,"49":510,"50":180,"51":210,"52":240,"53":480,"54":510,"55":540,"56":300,"57":375,"58":470,"59":360,"60":450,"61":420,"101":240,"102":700,"103":640,"104":360,"105":960,"106":90,"107":120,"108":1320,"109":570,"110":330,"111":160,"112":935,"113":120,"114":300,"115":180,"116":1040,"117":1920,"118":300,"119":1440,"120":2010,"121":480,"122":300,"123":840,"124":690,"125":480,"126":240,"127":255,"128":525,"129":375,"130":410,"131":480,"132":225,"133":120,"500":0,"501":0,"502":0,"511":0,"512":0}
+                       ,{"1":600,"2":960,"3":2160,"4":480,"5":2750,"6":490,"7":1200,"8":2520,"41":300,"42":345,"43":360,"44":270,"45":300,"46":330,"47":420,"48":480,"49":510,"50":180,"51":210,"52":240,"53":480,"54":510,"55":540,"56":300,"57":375,"58":470,"59":360,"60":450,"61":420,"101":240,"102":700,"103":640,"104":360,"105":960,"106":90,"107":120,"108":1320,"109":570,"110":330,"111":160,"112":935,"113":120,"114":300,"115":180,"116":1040,"117":1920,"118":300,"119":1440,"120":2010,"121":480,"122":300,"123":840,"124":690,"125":120,"126":240,"127":255,"128":525,"129":375,"130":410,"131":480,"132":225,"133":120,"500":0,"501":0,"502":0,"511":0,"512":0}
                        ];
 // Points earned at cropping (just where game data has to be overridden)
 // task_new_plant task_new_product task_fix_points
@@ -12378,7 +12378,8 @@ return false;
         for(var i=unsafeWindow.messages_data.length-1;i>=0;i--){
             currMsg=unsafeWindow.messages_data[i];
             help=currMsg.body.replace(/\s+/g," ");
-			if([getText("msgSubjectCongratulation"),getText("msgSubjectContractReject"),getText("msgSubjectPresent"),getText("msgSubjectCoins"),getText("msgSubjectLevel"),getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){ //Fix georgvr
+			if([getText("msgSubjectCongratulation"),getText("msgSubjectContractReject"),getText("msgSubjectPresent"),getText("msgSubjectCoins"),getText("msgSubjectLevel"),getText("msgSubjectWeed1"),getText("msgSubjectWeed2"),getText("msgSubjectPremium")].contains(currMsg.subject)){ //Fix georgvr 10092015
+			/*if([getText("msgSubjectCongratulation"),getText("msgSubjectContractReject"),getText("msgSubjectPresent"),getText("msgSubjectCoins"),getText("msgSubjectLevel"),getText("msgSubjectWeed1"),getText("msgSubjectWeed2")].contains(currMsg.subject)){ *///Fix georgvr
                 // New message without handling
             }else if(currMsg.subject.match(regMsgSubjectQuest)){
                 // New message without handling
@@ -19591,7 +19592,7 @@ try{
         text["de"]["msgSubjectQuest"]="^.+ abgeschlossen$";
         text["de"]["msgSubjectWeed1"]="Oh nein!";
         text["de"]["msgSubjectWeed2"]="Au Weia!";
-
+		text["de"]["msgSubjectPremium"]="Premium Erinnerung"; //Fix georgvr 10092015
         text["de"]["above"]="davor";
         text["de"]["absolute"]="absolut";
         text["de"]["accountActive"]="Account aktiv";
@@ -19974,7 +19975,7 @@ try{
         text["en"]["msgSubjectPresent"]="A present for you";
         text["en"]["msgSubjectWeed1"]="Oh no!";
         text["en"]["msgSubjectWeed2"]="Au Weia!";        
-        
+        text["en"]["msgSubjectPremium"]="Premium remind"; //Fix georgvr 10092015
         text["en"]["above"]="above";
         text["en"]["absolute"]="absolute";
         text["en"]["accountActive"]="Account active";
