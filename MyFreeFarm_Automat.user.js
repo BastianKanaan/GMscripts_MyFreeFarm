@@ -4337,7 +4337,9 @@ try{
             if(cropable){
                 GM_logInfo("autoZoneCrop","","zoneTyp="+zoneTyp,"Cropping"); // TODO text
                 unsafeData.zones.getProduction(handled.zoneNrF)[3]=false;
-                click($("cropall").getElementsByTagName("img")[0]);
+                //20151014 Linus--Tux
+				        //click($("cropall").getElementsByTagName("img")[0]);
+				        click($("cropall"));
                 return true;
             }else{
                 return false;
@@ -4891,7 +4893,9 @@ try{
             if(v==1){
                 GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"",getText("automat_watering"));
             }
-            if($("tooltipwaterall")){
+            //20151014 Linus--Tux waterall_inactive
+			      //if($("tooltipwaterall"))
+			      if(document.getElementsByClassName('waterall_inactive').length==0) {
                 bot.setAction("autoFarmWater "+v+": premium");
                 GM_logInfo("autoFarmWater","runId="+runId+" v="+v+" didPlant="+didPlant+" isBot="+isBot,"","Water all");
                 unsafeData.zones.flagProduction(handled.zoneNrF);
@@ -4901,7 +4905,9 @@ try{
                         window.setTimeout(autoZoneFinish,settings.getPause(),runId,isBot?$("gardencancel"):null);
                     };
                 }(runId,v,didPlant,isBot),false);               
-                click($("waterall").getElementsByTagName("img")[0]);
+                //20151014 Linus--Tux
+				        //click($("waterall").getElementsByTagName("img")[0]);
+				        click($("waterall"));
             }else if(unsafeWindow.mode!="2"){
                 click($("giessen")); 
                 window.setTimeout(autoFarmWater,settings.getPause(),runId,v,didPlant,isBot);
@@ -8575,6 +8581,8 @@ try{
                     $("f"+v).setAttribute("title",v+"|kat"+unsafeWindow.garten_kategorie[v]+"|zt"+unsafeWindow.garten_zeit[v]+"|wa"+unsafeWindow.garten_wasser[v]+"|pr"+unsafeWindow.garten_prod[v]);
                 }
             }
+            //20151014 Linus--Tux
+            /*
             cand=$("cropall").getElementsByTagName("img")[0];
             if(!cand.getAttribute("onclick")){
                 cand.setAttribute("src",GFX+"leer.gif");
@@ -8584,7 +8592,7 @@ try{
                 },false);
             }
             cand=null;
-
+            */
             showCropWeed();
         }catch(err){GM_logError("eventListener:gameFieldOpened ","","",err);}
         },false);
